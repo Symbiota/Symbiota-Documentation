@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "Symbiota Docs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Version 1.1.0": {
+    "message": "Version 1.1.0",
+    "description": "Navbar item with label Version 1.1.0"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Versions": {
+    "message": "Versions",
+    "description": "Navbar item with label Versions"
+  },
+  "item.label.Latest (v1.2.0)": {
+    "message": "Latest (v1.2.0)",
+    "description": "Navbar item with label Latest (v1.2.0)"
+  },
+  "item.label.v1.1.0": {
+    "message": "v1.1.0",
+    "description": "Navbar item with label v1.1.0"
+  }
+}

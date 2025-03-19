@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "Proxima",
+    "description": "The label for version current"
+  },
+  "sidebar.docSidebar.category.User Guide": {
+    "message": "Guía del usuario",
+    "description": "The label for category User Guide in sidebar docSidebar"
+  }
+}
