@@ -1,0 +1,22 @@
+{
+  "id": "about",
+  "title": "About",
+  "description": "Symbiota Docs v1.3 is a central repository for documentation regarding Symbiota-based data portals. This site is maintained by the Symbiota Support Hub, but all Symbiota users are encouraged to contribute. Contact Us to contribute or provide feedback on this site.",
+  "source": "@site/i18n/pt/docusaurus-plugin-content-docs/current/about.md",
+  "sourceDirName": ".",
+  "slug": "/about",
+  "permalink": "/symbiota-docs-docusaurus/pt/docs/next/about",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/about.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "About"
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Accessibility Options",
+    "permalink": "/symbiota-docs-docusaurus/pt/docs/next/User Guide/Accessibility"
+  }
+}

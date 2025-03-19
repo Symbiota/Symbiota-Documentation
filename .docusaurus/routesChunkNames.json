@@ -1,0 +1,267 @@
+{
+  "/symbiota-docs-docusaurus/pt/blog-66e": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "077e70aa"
+  },
+  "/symbiota-docs-docusaurus/pt/blog/archive-3b3": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "8e851938"
+  },
+  "/symbiota-docs-docusaurus/pt/blog/authors-29f": {
+    "__comp": "621db11d",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "3f40e338"
+  },
+  "/symbiota-docs-docusaurus/pt/blog/authors/all-sebastien-lorber-articles-688": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "40b111e3"
+  },
+  "/symbiota-docs-docusaurus/pt/blog/authors/yangshun-678": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "2db2ae62"
+  },
+  "/symbiota-docs-docusaurus/pt/blog/first-blog-post-e19": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "e273c56f"
+  },
+  "/symbiota-docs-docusaurus/pt/blog/long-blog-post-76c": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "73664a40"
+  },
+  "/symbiota-docs-docusaurus/pt/blog/mdx-blog-post-6f1": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "59362658"
+  },
+  "/symbiota-docs-docusaurus/pt/blog/tags-385": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "4a03d72d"
+  },
+  "/symbiota-docs-docusaurus/pt/blog/tags/docusaurus-565": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "cd4bd44c"
+  },
+  "/symbiota-docs-docusaurus/pt/blog/tags/facebook-69a": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      }
+    ],
+    "__props": "d541df07"
+  },
+  "/symbiota-docs-docusaurus/pt/blog/tags/hello-9cb": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      }
+    ],
+    "__props": "e42b66d7"
+  },
+  "/symbiota-docs-docusaurus/pt/blog/tags/hola-cfc": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "800acbdc"
+  },
+  "/symbiota-docs-docusaurus/pt/blog/welcome-79a": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "d9f32620"
+  },
+  "/symbiota-docs-docusaurus/pt/markdown-page-8ff": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "74904b02"
+  },
+  "/symbiota-docs-docusaurus/pt/docs-ec6": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/symbiota-docs-docusaurus/pt/docs/1.1.0-587": {
+    "__comp": "a7bd4aaa",
+    "__props": "542b514d"
+  },
+  "/symbiota-docs-docusaurus/pt/docs/1.1.0-9e2": {
+    "__comp": "a94703ab"
+  },
+  "/symbiota-docs-docusaurus/pt/docs/1.1.0/about-75c": {
+    "__comp": "17896441",
+    "content": "a8dd4404"
+  },
+  "/symbiota-docs-docusaurus/pt/docs/1.1.0/User Guide/Accessibility-b01": {
+    "__comp": "17896441",
+    "content": "27ad51d6"
+  },
+  "/symbiota-docs-docusaurus/pt/docs/next-43f": {
+    "__comp": "a7bd4aaa",
+    "__props": "385176f7"
+  },
+  "/symbiota-docs-docusaurus/pt/docs/next-4e3": {
+    "__comp": "a94703ab"
+  },
+  "/symbiota-docs-docusaurus/pt/docs/next/about-5c3": {
+    "__comp": "17896441",
+    "content": "c11f0eaa"
+  },
+  "/symbiota-docs-docusaurus/pt/docs/next/User Guide/Accessibility-571": {
+    "__comp": "17896441",
+    "content": "b04539e4"
+  },
+  "/symbiota-docs-docusaurus/pt/docs-819": {
+    "__comp": "a7bd4aaa",
+    "__props": "459a6edb"
+  },
+  "/symbiota-docs-docusaurus/pt/docs-7d5": {
+    "__comp": "a94703ab"
+  },
+  "/symbiota-docs-docusaurus/pt/docs/about-1de": {
+    "__comp": "17896441",
+    "content": "7efdb49b"
+  },
+  "/symbiota-docs-docusaurus/pt/docs/User Guide/Accessibility-f51": {
+    "__comp": "17896441",
+    "content": "ce8f3d8c"
+  },
+  "/symbiota-docs-docusaurus/pt/-951": {
+    "__comp": "1df93b7f",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

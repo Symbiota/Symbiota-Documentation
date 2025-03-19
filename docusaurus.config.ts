@@ -10,15 +10,15 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://atticus29.github.io',
+  url: 'https://symbiota.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/symbiota-docs-docusaurus/',
+  baseUrl: '/Symbiota-Documentation/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'atticus29', // Usually your GitHub org/user name.
-  projectName: 'symbiota-docs-docusaurus', // Usually your repo name.
+  organizationName: 'Symbiota', // Usually your GitHub org/user name.
+  projectName: 'Symbiota-Documentation', // Usually your repo name.
   // trailingSlash: true,
 
   onBrokenLinks: 'throw',
@@ -103,7 +103,7 @@ const config: Config = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/atticus29/symbiota-docs-docusaurus',
+          href: 'https://github.com/Symbiota/Symbiota-Documentation',
           label: 'GitHub',
           position: 'right',
         },

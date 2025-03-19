@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/symbiota-docs-docusaurus/pt/markdown-page",
+  "source": "@site/i18n/pt/docusaurus-plugin-content-pages/markdown-page.md",
+  "title": "Markdown page example",
+  "description": "You don't need React to write simple standalone pages.",
+  "frontMatter": {
+    "title": "Markdown page example"
+  },
+  "unlisted": false
+}
