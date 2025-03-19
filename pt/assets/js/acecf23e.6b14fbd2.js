@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksymbiota_docs_docusaurus=self.webpackChunksymbiota_docs_docusaurus||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/Symbiota-Documentation/pt/blog","blogTitle":"Blog","authorsListPath":"/Symbiota-Documentation/pt/blog/authors"}')}}]);
