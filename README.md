@@ -6,6 +6,7 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 
 The repository's folder structure looks something like this:
 
+```
 .
 ├── blog
 │   └── 2021-08-26-welcome
@@ -53,6 +54,7 @@ The repository's folder structure looks something like this:
 │   ├── version-1.1.0
 │   └── version-1.2.0
 └── versioned_sidebars
+```
 
 
 The documentation files are markdown-formatted and are thus compatible with [earlier Symbiota documentation repositories](https://github.com/BioKIC/symbiota-docs). New documentation pages can be generated simply by adding new markdown-formatted files to one of several different folders within the above structure (see below for more detail).
