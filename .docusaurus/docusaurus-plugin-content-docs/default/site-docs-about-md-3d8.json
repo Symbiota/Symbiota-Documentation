@@ -5,7 +5,7 @@
   "source": "@site/docs/about.md",
   "sourceDirName": ".",
   "slug": "/about",
-  "permalink": "/symbiota-docs-docusaurus/docs/next/about",
+  "permalink": "/Symbiota-Documentation/docs/next/about",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/about.md",
@@ -17,6 +17,6 @@
   "sidebar": "docSidebar",
   "previous": {
     "title": "Accessibility Options",
-    "permalink": "/symbiota-docs-docusaurus/docs/next/User Guide/Accessibility"
+    "permalink": "/Symbiota-Documentation/docs/next/User Guide/Accessibility"
   }
 }

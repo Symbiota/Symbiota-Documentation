@@ -1,5 +1,5 @@
 {
-  "/symbiota-docs-docusaurus/pt/blog-66e": {
+  "/Symbiota-Documentation/pt/blog-ed7": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -19,16 +19,16 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "077e70aa"
+    "__props": "8ad31bfd"
   },
-  "/symbiota-docs-docusaurus/pt/blog/archive-3b3": {
+  "/Symbiota-Documentation/pt/blog/archive-00b": {
     "__comp": "9e4087bc",
     "__context": {
       "plugin": "36994c47"
     },
-    "__props": "8e851938"
+    "__props": "aa07a867"
   },
-  "/symbiota-docs-docusaurus/pt/blog/authors-29f": {
+  "/Symbiota-Documentation/pt/blog/authors-d32": {
     "__comp": "621db11d",
     "__context": {
       "data": {
@@ -37,9 +37,9 @@
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "3f40e338"
+    "__props": "1c02d4bd"
   },
-  "/symbiota-docs-docusaurus/pt/blog/authors/all-sebastien-lorber-articles-688": {
+  "/Symbiota-Documentation/pt/blog/authors/all-sebastien-lorber-articles-39a": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -59,9 +59,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "40b111e3"
+    "__props": "52830466"
   },
-  "/symbiota-docs-docusaurus/pt/blog/authors/yangshun-678": {
+  "/Symbiota-Documentation/pt/blog/authors/yangshun-d11": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -81,9 +81,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "2db2ae62"
+    "__props": "01dabf29"
   },
-  "/symbiota-docs-docusaurus/pt/blog/first-blog-post-e19": {
+  "/Symbiota-Documentation/pt/blog/first-blog-post-cf8": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -94,7 +94,7 @@
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/symbiota-docs-docusaurus/pt/blog/long-blog-post-76c": {
+  "/Symbiota-Documentation/pt/blog/long-blog-post-639": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -105,7 +105,7 @@
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/symbiota-docs-docusaurus/pt/blog/mdx-blog-post-6f1": {
+  "/Symbiota-Documentation/pt/blog/mdx-blog-post-e17": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -116,15 +116,15 @@
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/symbiota-docs-docusaurus/pt/blog/tags-385": {
+  "/Symbiota-Documentation/pt/blog/tags-b0f": {
     "__comp": "01a85c17",
     "__context": {
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "4a03d72d"
+    "__props": "081ab821"
   },
-  "/symbiota-docs-docusaurus/pt/blog/tags/docusaurus-565": {
+  "/Symbiota-Documentation/pt/blog/tags/docusaurus-275": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -144,9 +144,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "cd4bd44c"
+    "__props": "df4d67bc"
   },
-  "/symbiota-docs-docusaurus/pt/blog/tags/facebook-69a": {
+  "/Symbiota-Documentation/pt/blog/tags/facebook-56f": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -157,9 +157,9 @@
         "content": "7661071f"
       }
     ],
-    "__props": "d541df07"
+    "__props": "1abe4f9b"
   },
-  "/symbiota-docs-docusaurus/pt/blog/tags/hello-9cb": {
+  "/Symbiota-Documentation/pt/blog/tags/hello-a1e": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -173,9 +173,9 @@
         "content": "8717b14a"
       }
     ],
-    "__props": "e42b66d7"
+    "__props": "8efa30ff"
   },
-  "/symbiota-docs-docusaurus/pt/blog/tags/hola-cfc": {
+  "/Symbiota-Documentation/pt/blog/tags/hola-ebc": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -186,9 +186,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "800acbdc"
+    "__props": "effaf156"
   },
-  "/symbiota-docs-docusaurus/pt/blog/welcome-79a": {
+  "/Symbiota-Documentation/pt/blog/welcome-834": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -199,65 +199,65 @@
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/symbiota-docs-docusaurus/pt/markdown-page-8ff": {
+  "/Symbiota-Documentation/pt/markdown-page-c40": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "74904b02"
   },
-  "/symbiota-docs-docusaurus/pt/docs-ec6": {
+  "/Symbiota-Documentation/pt/docs-541": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/symbiota-docs-docusaurus/pt/docs/1.1.0-587": {
+  "/Symbiota-Documentation/pt/docs/1.1.0-ed4": {
     "__comp": "a7bd4aaa",
-    "__props": "542b514d"
+    "__props": "c01baec1"
   },
-  "/symbiota-docs-docusaurus/pt/docs/1.1.0-9e2": {
+  "/Symbiota-Documentation/pt/docs/1.1.0-d79": {
     "__comp": "a94703ab"
   },
-  "/symbiota-docs-docusaurus/pt/docs/1.1.0/about-75c": {
+  "/Symbiota-Documentation/pt/docs/1.1.0/about-acb": {
     "__comp": "17896441",
     "content": "a8dd4404"
   },
-  "/symbiota-docs-docusaurus/pt/docs/1.1.0/User Guide/Accessibility-b01": {
+  "/Symbiota-Documentation/pt/docs/1.1.0/User Guide/Accessibility-816": {
     "__comp": "17896441",
     "content": "27ad51d6"
   },
-  "/symbiota-docs-docusaurus/pt/docs/next-43f": {
+  "/Symbiota-Documentation/pt/docs/next-054": {
     "__comp": "a7bd4aaa",
-    "__props": "385176f7"
+    "__props": "b3a1a195"
   },
-  "/symbiota-docs-docusaurus/pt/docs/next-4e3": {
+  "/Symbiota-Documentation/pt/docs/next-98e": {
     "__comp": "a94703ab"
   },
-  "/symbiota-docs-docusaurus/pt/docs/next/about-5c3": {
+  "/Symbiota-Documentation/pt/docs/next/about-a1c": {
     "__comp": "17896441",
     "content": "c11f0eaa"
   },
-  "/symbiota-docs-docusaurus/pt/docs/next/User Guide/Accessibility-571": {
+  "/Symbiota-Documentation/pt/docs/next/User Guide/Accessibility-7cd": {
     "__comp": "17896441",
     "content": "b04539e4"
   },
-  "/symbiota-docs-docusaurus/pt/docs-819": {
+  "/Symbiota-Documentation/pt/docs-076": {
     "__comp": "a7bd4aaa",
-    "__props": "459a6edb"
+    "__props": "a316aa69"
   },
-  "/symbiota-docs-docusaurus/pt/docs-7d5": {
+  "/Symbiota-Documentation/pt/docs-888": {
     "__comp": "a94703ab"
   },
-  "/symbiota-docs-docusaurus/pt/docs/about-1de": {
+  "/Symbiota-Documentation/pt/docs/about-cc6": {
     "__comp": "17896441",
     "content": "7efdb49b"
   },
-  "/symbiota-docs-docusaurus/pt/docs/User Guide/Accessibility-f51": {
+  "/Symbiota-Documentation/pt/docs/User Guide/Accessibility-b08": {
     "__comp": "17896441",
     "content": "ce8f3d8c"
   },
-  "/symbiota-docs-docusaurus/pt/-951": {
+  "/Symbiota-Documentation/pt/-4b5": {
     "__comp": "1df93b7f",
     "__context": {
       "plugin": "a7456010"

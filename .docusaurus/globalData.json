@@ -1,23 +1,23 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/symbiota-docs-docusaurus/pt/docs",
+      "path": "/Symbiota-Documentation/pt/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": false,
-          "path": "/symbiota-docs-docusaurus/pt/docs/next",
+          "path": "/Symbiota-Documentation/pt/docs/next",
           "mainDocId": "User Guide/Accessibility",
           "docs": [
             {
               "id": "about",
-              "path": "/symbiota-docs-docusaurus/pt/docs/next/about",
+              "path": "/Symbiota-Documentation/pt/docs/next/about",
               "sidebar": "docSidebar"
             },
             {
               "id": "User Guide/Accessibility",
-              "path": "/symbiota-docs-docusaurus/pt/docs/next/User Guide/Accessibility",
+              "path": "/Symbiota-Documentation/pt/docs/next/User Guide/Accessibility",
               "sidebar": "docSidebar"
             }
           ],
@@ -25,7 +25,7 @@
           "sidebars": {
             "docSidebar": {
               "link": {
-                "path": "/symbiota-docs-docusaurus/pt/docs/next/User Guide/Accessibility",
+                "path": "/Symbiota-Documentation/pt/docs/next/User Guide/Accessibility",
                 "label": "User Guide/Accessibility"
               }
             }
@@ -35,17 +35,17 @@
           "name": "1.2.0",
           "label": "1.2.0",
           "isLast": true,
-          "path": "/symbiota-docs-docusaurus/pt/docs",
+          "path": "/Symbiota-Documentation/pt/docs",
           "mainDocId": "User Guide/Accessibility",
           "docs": [
             {
               "id": "about",
-              "path": "/symbiota-docs-docusaurus/pt/docs/about",
+              "path": "/Symbiota-Documentation/pt/docs/about",
               "sidebar": "docSidebar"
             },
             {
               "id": "User Guide/Accessibility",
-              "path": "/symbiota-docs-docusaurus/pt/docs/User Guide/Accessibility",
+              "path": "/Symbiota-Documentation/pt/docs/User Guide/Accessibility",
               "sidebar": "docSidebar"
             }
           ],
@@ -53,7 +53,7 @@
           "sidebars": {
             "docSidebar": {
               "link": {
-                "path": "/symbiota-docs-docusaurus/pt/docs/User Guide/Accessibility",
+                "path": "/Symbiota-Documentation/pt/docs/User Guide/Accessibility",
                 "label": "User Guide/Accessibility"
               }
             }
@@ -63,17 +63,17 @@
           "name": "1.1.0",
           "label": "1.1.0",
           "isLast": false,
-          "path": "/symbiota-docs-docusaurus/pt/docs/1.1.0",
+          "path": "/Symbiota-Documentation/pt/docs/1.1.0",
           "mainDocId": "User Guide/Accessibility",
           "docs": [
             {
               "id": "about",
-              "path": "/symbiota-docs-docusaurus/pt/docs/1.1.0/about",
+              "path": "/Symbiota-Documentation/pt/docs/1.1.0/about",
               "sidebar": "docSidebar"
             },
             {
               "id": "User Guide/Accessibility",
-              "path": "/symbiota-docs-docusaurus/pt/docs/1.1.0/User Guide/Accessibility",
+              "path": "/Symbiota-Documentation/pt/docs/1.1.0/User Guide/Accessibility",
               "sidebar": "docSidebar"
             }
           ],
@@ -81,7 +81,7 @@
           "sidebars": {
             "docSidebar": {
               "link": {
-                "path": "/symbiota-docs-docusaurus/pt/docs/1.1.0/User Guide/Accessibility",
+                "path": "/Symbiota-Documentation/pt/docs/1.1.0/User Guide/Accessibility",
                 "label": "User Guide/Accessibility"
               }
             }

@@ -3,101 +3,101 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/symbiota-docs-docusaurus/pt/blog',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/blog', '66e'),
+    path: '/Symbiota-Documentation/pt/blog',
+    component: ComponentCreator('/Symbiota-Documentation/pt/blog', 'ed7'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/blog/archive',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/blog/archive', '3b3'),
+    path: '/Symbiota-Documentation/pt/blog/archive',
+    component: ComponentCreator('/Symbiota-Documentation/pt/blog/archive', '00b'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/blog/authors',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/blog/authors', '29f'),
+    path: '/Symbiota-Documentation/pt/blog/authors',
+    component: ComponentCreator('/Symbiota-Documentation/pt/blog/authors', 'd32'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/blog/authors/all-sebastien-lorber-articles', '688'),
+    path: '/Symbiota-Documentation/pt/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/Symbiota-Documentation/pt/blog/authors/all-sebastien-lorber-articles', '39a'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/blog/authors/yangshun',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/blog/authors/yangshun', '678'),
+    path: '/Symbiota-Documentation/pt/blog/authors/yangshun',
+    component: ComponentCreator('/Symbiota-Documentation/pt/blog/authors/yangshun', 'd11'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/blog/first-blog-post',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/blog/first-blog-post', 'e19'),
+    path: '/Symbiota-Documentation/pt/blog/first-blog-post',
+    component: ComponentCreator('/Symbiota-Documentation/pt/blog/first-blog-post', 'cf8'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/blog/long-blog-post',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/blog/long-blog-post', '76c'),
+    path: '/Symbiota-Documentation/pt/blog/long-blog-post',
+    component: ComponentCreator('/Symbiota-Documentation/pt/blog/long-blog-post', '639'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/blog/mdx-blog-post',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/blog/mdx-blog-post', '6f1'),
+    path: '/Symbiota-Documentation/pt/blog/mdx-blog-post',
+    component: ComponentCreator('/Symbiota-Documentation/pt/blog/mdx-blog-post', 'e17'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/blog/tags',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/blog/tags', '385'),
+    path: '/Symbiota-Documentation/pt/blog/tags',
+    component: ComponentCreator('/Symbiota-Documentation/pt/blog/tags', 'b0f'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/blog/tags/docusaurus',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/blog/tags/docusaurus', '565'),
+    path: '/Symbiota-Documentation/pt/blog/tags/docusaurus',
+    component: ComponentCreator('/Symbiota-Documentation/pt/blog/tags/docusaurus', '275'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/blog/tags/facebook',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/blog/tags/facebook', '69a'),
+    path: '/Symbiota-Documentation/pt/blog/tags/facebook',
+    component: ComponentCreator('/Symbiota-Documentation/pt/blog/tags/facebook', '56f'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/blog/tags/hello',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/blog/tags/hello', '9cb'),
+    path: '/Symbiota-Documentation/pt/blog/tags/hello',
+    component: ComponentCreator('/Symbiota-Documentation/pt/blog/tags/hello', 'a1e'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/blog/tags/hola',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/blog/tags/hola', 'cfc'),
+    path: '/Symbiota-Documentation/pt/blog/tags/hola',
+    component: ComponentCreator('/Symbiota-Documentation/pt/blog/tags/hola', 'ebc'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/blog/welcome',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/blog/welcome', '79a'),
+    path: '/Symbiota-Documentation/pt/blog/welcome',
+    component: ComponentCreator('/Symbiota-Documentation/pt/blog/welcome', '834'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/markdown-page',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/markdown-page', '8ff'),
+    path: '/Symbiota-Documentation/pt/markdown-page',
+    component: ComponentCreator('/Symbiota-Documentation/pt/markdown-page', 'c40'),
     exact: true
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/docs',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/docs', 'ec6'),
+    path: '/Symbiota-Documentation/pt/docs',
+    component: ComponentCreator('/Symbiota-Documentation/pt/docs', '541'),
     routes: [
       {
-        path: '/symbiota-docs-docusaurus/pt/docs/1.1.0',
-        component: ComponentCreator('/symbiota-docs-docusaurus/pt/docs/1.1.0', '587'),
+        path: '/Symbiota-Documentation/pt/docs/1.1.0',
+        component: ComponentCreator('/Symbiota-Documentation/pt/docs/1.1.0', 'ed4'),
         routes: [
           {
-            path: '/symbiota-docs-docusaurus/pt/docs/1.1.0',
-            component: ComponentCreator('/symbiota-docs-docusaurus/pt/docs/1.1.0', '9e2'),
+            path: '/Symbiota-Documentation/pt/docs/1.1.0',
+            component: ComponentCreator('/Symbiota-Documentation/pt/docs/1.1.0', 'd79'),
             routes: [
               {
-                path: '/symbiota-docs-docusaurus/pt/docs/1.1.0/about',
-                component: ComponentCreator('/symbiota-docs-docusaurus/pt/docs/1.1.0/about', '75c'),
+                path: '/Symbiota-Documentation/pt/docs/1.1.0/about',
+                component: ComponentCreator('/Symbiota-Documentation/pt/docs/1.1.0/about', 'acb'),
                 exact: true,
                 sidebar: "docSidebar"
               },
               {
-                path: '/symbiota-docs-docusaurus/pt/docs/1.1.0/User Guide/Accessibility',
-                component: ComponentCreator('/symbiota-docs-docusaurus/pt/docs/1.1.0/User Guide/Accessibility', 'b01'),
+                path: '/Symbiota-Documentation/pt/docs/1.1.0/User Guide/Accessibility',
+                component: ComponentCreator('/Symbiota-Documentation/pt/docs/1.1.0/User Guide/Accessibility', '816'),
                 exact: true,
                 sidebar: "docSidebar"
               }
@@ -106,22 +106,22 @@ export default [
         ]
       },
       {
-        path: '/symbiota-docs-docusaurus/pt/docs/next',
-        component: ComponentCreator('/symbiota-docs-docusaurus/pt/docs/next', '43f'),
+        path: '/Symbiota-Documentation/pt/docs/next',
+        component: ComponentCreator('/Symbiota-Documentation/pt/docs/next', '054'),
         routes: [
           {
-            path: '/symbiota-docs-docusaurus/pt/docs/next',
-            component: ComponentCreator('/symbiota-docs-docusaurus/pt/docs/next', '4e3'),
+            path: '/Symbiota-Documentation/pt/docs/next',
+            component: ComponentCreator('/Symbiota-Documentation/pt/docs/next', '98e'),
             routes: [
               {
-                path: '/symbiota-docs-docusaurus/pt/docs/next/about',
-                component: ComponentCreator('/symbiota-docs-docusaurus/pt/docs/next/about', '5c3'),
+                path: '/Symbiota-Documentation/pt/docs/next/about',
+                component: ComponentCreator('/Symbiota-Documentation/pt/docs/next/about', 'a1c'),
                 exact: true,
                 sidebar: "docSidebar"
               },
               {
-                path: '/symbiota-docs-docusaurus/pt/docs/next/User Guide/Accessibility',
-                component: ComponentCreator('/symbiota-docs-docusaurus/pt/docs/next/User Guide/Accessibility', '571'),
+                path: '/Symbiota-Documentation/pt/docs/next/User Guide/Accessibility',
+                component: ComponentCreator('/Symbiota-Documentation/pt/docs/next/User Guide/Accessibility', '7cd'),
                 exact: true,
                 sidebar: "docSidebar"
               }
@@ -130,22 +130,22 @@ export default [
         ]
       },
       {
-        path: '/symbiota-docs-docusaurus/pt/docs',
-        component: ComponentCreator('/symbiota-docs-docusaurus/pt/docs', '819'),
+        path: '/Symbiota-Documentation/pt/docs',
+        component: ComponentCreator('/Symbiota-Documentation/pt/docs', '076'),
         routes: [
           {
-            path: '/symbiota-docs-docusaurus/pt/docs',
-            component: ComponentCreator('/symbiota-docs-docusaurus/pt/docs', '7d5'),
+            path: '/Symbiota-Documentation/pt/docs',
+            component: ComponentCreator('/Symbiota-Documentation/pt/docs', '888'),
             routes: [
               {
-                path: '/symbiota-docs-docusaurus/pt/docs/about',
-                component: ComponentCreator('/symbiota-docs-docusaurus/pt/docs/about', '1de'),
+                path: '/Symbiota-Documentation/pt/docs/about',
+                component: ComponentCreator('/Symbiota-Documentation/pt/docs/about', 'cc6'),
                 exact: true,
                 sidebar: "docSidebar"
               },
               {
-                path: '/symbiota-docs-docusaurus/pt/docs/User Guide/Accessibility',
-                component: ComponentCreator('/symbiota-docs-docusaurus/pt/docs/User Guide/Accessibility', 'f51'),
+                path: '/Symbiota-Documentation/pt/docs/User Guide/Accessibility',
+                component: ComponentCreator('/Symbiota-Documentation/pt/docs/User Guide/Accessibility', 'b08'),
                 exact: true,
                 sidebar: "docSidebar"
               }
@@ -156,8 +156,8 @@ export default [
     ]
   },
   {
-    path: '/symbiota-docs-docusaurus/pt/',
-    component: ComponentCreator('/symbiota-docs-docusaurus/pt/', '951'),
+    path: '/Symbiota-Documentation/pt/',
+    component: ComponentCreator('/Symbiota-Documentation/pt/', '4b5'),
     exact: true
   },
   {

@@ -1,6 +1,6 @@
 {
   "type": "mdx",
-  "permalink": "/symbiota-docs-docusaurus/fr/markdown-page",
+  "permalink": "/Symbiota-Documentation/fr/markdown-page",
   "source": "@site/i18n/fr/docusaurus-plugin-content-pages/markdown-page.md",
   "title": "Markdown page example",
   "description": "You don't need React to write simple standalone pages.",

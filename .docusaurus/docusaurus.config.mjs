@@ -7,10 +7,10 @@ export default {
   "title": "Symbiota Docs",
   "tagline": "Growing archive of help files for one of the most popular Natural History content management systems",
   "favicon": "img/favicon.ico",
-  "url": "https://atticus29.github.io",
-  "baseUrl": "/symbiota-docs-docusaurus/pt/",
-  "organizationName": "atticus29",
-  "projectName": "symbiota-docs-docusaurus",
+  "url": "https://symbiota.github.io",
+  "baseUrl": "/Symbiota-Documentation/pt/",
+  "organizationName": "Symbiota",
+  "projectName": "Symbiota-Documentation",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -90,7 +90,7 @@ export default {
           ]
         },
         {
-          "href": "https://github.com/atticus29/symbiota-docs-docusaurus",
+          "href": "https://github.com/Symbiota/Symbiota-Documentation",
           "label": "GitHub",
           "position": "right"
         }

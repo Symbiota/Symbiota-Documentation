@@ -5,7 +5,7 @@
   "source": "@site/i18n/es/docusaurus-plugin-content-docs/current/User Guide/Accessibility.md",
   "sourceDirName": "User Guide",
   "slug": "/User Guide/Accessibility",
-  "permalink": "/symbiota-docs-docusaurus/es/docs/next/User Guide/Accessibility",
+  "permalink": "/Symbiota-Documentation/es/docs/next/User Guide/Accessibility",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/User Guide/Accessibility.md",
@@ -29,6 +29,6 @@
   "sidebar": "docSidebar",
   "next": {
     "title": "Acerca de",
-    "permalink": "/symbiota-docs-docusaurus/es/docs/next/about"
+    "permalink": "/Symbiota-Documentation/es/docs/next/about"
   }
 }
