@@ -1,267 +1,314 @@
 {
-  "/Symbiota-Documentation/pt/blog-ed7": {
-    "__comp": "a6aa9e1f",
+  "/Symbiota-Documentation/__docusaurus/debug-bab": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "8ad31bfd"
-  },
-  "/Symbiota-Documentation/pt/blog/archive-00b": {
-    "__comp": "9e4087bc",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "__props": "aa07a867"
-  },
-  "/Symbiota-Documentation/pt/blog/authors-d32": {
-    "__comp": "621db11d",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "__props": "1c02d4bd"
-  },
-  "/Symbiota-Documentation/pt/blog/authors/all-sebastien-lorber-articles-39a": {
-    "__comp": "33fc5bb8",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "sidebar": "814f3328",
-    "__props": "52830466"
-  },
-  "/Symbiota-Documentation/pt/blog/authors/yangshun-d11": {
-    "__comp": "33fc5bb8",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "sidebar": "814f3328",
-    "__props": "01dabf29"
-  },
-  "/Symbiota-Documentation/pt/blog/first-blog-post-cf8": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "e273c56f"
-  },
-  "/Symbiota-Documentation/pt/blog/long-blog-post-639": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "73664a40"
-  },
-  "/Symbiota-Documentation/pt/blog/mdx-blog-post-e17": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "59362658"
-  },
-  "/Symbiota-Documentation/pt/blog/tags-b0f": {
-    "__comp": "01a85c17",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "__props": "081ab821"
-  },
-  "/Symbiota-Documentation/pt/blog/tags/docusaurus-275": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "df4d67bc"
-  },
-  "/Symbiota-Documentation/pt/blog/tags/facebook-56f": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      }
-    ],
-    "__props": "1abe4f9b"
-  },
-  "/Symbiota-Documentation/pt/blog/tags/hello-a1e": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "8717b14a"
-      }
-    ],
-    "__props": "8efa30ff"
-  },
-  "/Symbiota-Documentation/pt/blog/tags/hola-ebc": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "effaf156"
-  },
-  "/Symbiota-Documentation/pt/blog/welcome-834": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "d9f32620"
-  },
-  "/Symbiota-Documentation/pt/markdown-page-c40": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "74904b02"
-  },
-  "/Symbiota-Documentation/pt/docs-541": {
-    "__comp": "5e95c892",
-    "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---symbiota-documentation-docusaurus-debugb-38-ed0"
     }
   },
-  "/Symbiota-Documentation/pt/docs/1.1.0-ed4": {
-    "__comp": "a7bd4aaa",
-    "__props": "c01baec1"
-  },
-  "/Symbiota-Documentation/pt/docs/1.1.0-d79": {
-    "__comp": "a94703ab"
-  },
-  "/Symbiota-Documentation/pt/docs/1.1.0/about-acb": {
-    "__comp": "17896441",
-    "content": "a8dd4404"
-  },
-  "/Symbiota-Documentation/pt/docs/1.1.0/User Guide/Accessibility-816": {
-    "__comp": "17896441",
-    "content": "27ad51d6"
-  },
-  "/Symbiota-Documentation/pt/docs/next-054": {
-    "__comp": "a7bd4aaa",
-    "__props": "b3a1a195"
-  },
-  "/Symbiota-Documentation/pt/docs/next-98e": {
-    "__comp": "a94703ab"
-  },
-  "/Symbiota-Documentation/pt/docs/next/about-a1c": {
-    "__comp": "17896441",
-    "content": "c11f0eaa"
-  },
-  "/Symbiota-Documentation/pt/docs/next/User Guide/Accessibility-7cd": {
-    "__comp": "17896441",
-    "content": "b04539e4"
-  },
-  "/Symbiota-Documentation/pt/docs-076": {
-    "__comp": "a7bd4aaa",
-    "__props": "a316aa69"
-  },
-  "/Symbiota-Documentation/pt/docs-888": {
-    "__comp": "a94703ab"
-  },
-  "/Symbiota-Documentation/pt/docs/about-cc6": {
-    "__comp": "17896441",
-    "content": "7efdb49b"
-  },
-  "/Symbiota-Documentation/pt/docs/User Guide/Accessibility-b08": {
-    "__comp": "17896441",
-    "content": "ce8f3d8c"
-  },
-  "/Symbiota-Documentation/pt/-4b5": {
-    "__comp": "1df93b7f",
+  "/Symbiota-Documentation/__docusaurus/debug/config-86a": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---symbiota-documentation-docusaurus-debugb-38-ed0"
+    }
+  },
+  "/Symbiota-Documentation/__docusaurus/debug/content-ee0": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-docusaurus-debugb-38-ed0"
     },
-    "config": "5e9f5e1a"
+    "__props": "__props---symbiota-documentation-docusaurus-debug-contentee-3-b4f"
+  },
+  "/Symbiota-Documentation/__docusaurus/debug/globalData-95b": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-docusaurus-debugb-38-ed0"
+    }
+  },
+  "/Symbiota-Documentation/__docusaurus/debug/metadata-30b": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-docusaurus-debugb-38-ed0"
+    }
+  },
+  "/Symbiota-Documentation/__docusaurus/debug/registry-9ef": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-docusaurus-debugb-38-ed0"
+    }
+  },
+  "/Symbiota-Documentation/__docusaurus/debug/routes-996": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-docusaurus-debugb-38-ed0"
+    }
+  },
+  "/Symbiota-Documentation/blog-4a5": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-blog-369-409"
+    },
+    "sidebar": "sidebar---symbiota-documentation-blog-814-e87",
+    "items": [
+      {
+        "content": "content---symbiota-documentation-blog-766-5f3"
+      },
+      {
+        "content": "content---symbiota-documentation-blogf-4-f-019"
+      },
+      {
+        "content": "content---symbiota-documentation-blog-871-d6c"
+      },
+      {
+        "content": "content---symbiota-documentation-blog-925-9de"
+      }
+    ],
+    "__props": "__props---symbiota-documentation-blogeaa-147"
+  },
+  "/Symbiota-Documentation/blog/archive-71c": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-blog-369-409"
+    },
+    "__props": "__props---symbiota-documentation-blog-archivedce-52d"
+  },
+  "/Symbiota-Documentation/blog/authors-919": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---symbiota-documentation-blog-authorsace-d47"
+      },
+      "plugin": "plugin---symbiota-documentation-blog-369-409"
+    },
+    "sidebar": "sidebar---symbiota-documentation-blog-814-e87",
+    "__props": "__props---symbiota-documentation-blog-authors-960-0a3"
+  },
+  "/Symbiota-Documentation/blog/authors/all-sebastien-lorber-articles-bec": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---symbiota-documentation-blog-authorsace-d47"
+      },
+      "plugin": "plugin---symbiota-documentation-blog-369-409"
+    },
+    "items": [
+      {
+        "content": "content---symbiota-documentation-blog-766-5f3"
+      },
+      {
+        "content": "content---symbiota-documentation-blogf-4-f-019"
+      },
+      {
+        "content": "content---symbiota-documentation-blog-925-9de"
+      }
+    ],
+    "sidebar": "sidebar---symbiota-documentation-blog-814-e87",
+    "__props": "__props---symbiota-documentation-blog-authors-all-sebastien-lorber-articles-1-c-9-2a0"
+  },
+  "/Symbiota-Documentation/blog/authors/yangshun-ca9": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---symbiota-documentation-blog-authorsace-d47"
+      },
+      "plugin": "plugin---symbiota-documentation-blog-369-409"
+    },
+    "items": [
+      {
+        "content": "content---symbiota-documentation-blog-766-5f3"
+      },
+      {
+        "content": "content---symbiota-documentation-blog-871-d6c"
+      },
+      {
+        "content": "content---symbiota-documentation-blog-925-9de"
+      }
+    ],
+    "sidebar": "sidebar---symbiota-documentation-blog-814-e87",
+    "__props": "__props---symbiota-documentation-blog-authors-yangshuncba-0cd"
+  },
+  "/Symbiota-Documentation/blog/first-blog-post-22f": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---symbiota-documentation-blog-authorsace-d47"
+      },
+      "plugin": "plugin---symbiota-documentation-blog-369-409"
+    },
+    "sidebar": "sidebar---symbiota-documentation-blog-814-e87",
+    "content": "content---symbiota-documentation-blog-first-blog-poste-27-281"
+  },
+  "/Symbiota-Documentation/blog/long-blog-post-c28": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---symbiota-documentation-blog-authorsace-d47"
+      },
+      "plugin": "plugin---symbiota-documentation-blog-369-409"
+    },
+    "sidebar": "sidebar---symbiota-documentation-blog-814-e87",
+    "content": "content---symbiota-documentation-blog-long-blog-post-736-2a8"
+  },
+  "/Symbiota-Documentation/blog/mdx-blog-post-f2c": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---symbiota-documentation-blog-authorsace-d47"
+      },
+      "plugin": "plugin---symbiota-documentation-blog-369-409"
+    },
+    "sidebar": "sidebar---symbiota-documentation-blog-814-e87",
+    "content": "content---symbiota-documentation-blog-mdx-blog-post-593-c0e"
+  },
+  "/Symbiota-Documentation/blog/tags-9fd": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-blog-369-409"
+    },
+    "sidebar": "sidebar---symbiota-documentation-blog-814-e87",
+    "__props": "__props---symbiota-documentation-blog-tags-7-bc-938"
+  },
+  "/Symbiota-Documentation/blog/tags/docusaurus-257": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-blog-369-409"
+    },
+    "sidebar": "sidebar---symbiota-documentation-blog-814-e87",
+    "items": [
+      {
+        "content": "content---symbiota-documentation-blog-766-5f3"
+      },
+      {
+        "content": "content---symbiota-documentation-blogf-4-f-019"
+      },
+      {
+        "content": "content---symbiota-documentation-blog-871-d6c"
+      },
+      {
+        "content": "content---symbiota-documentation-blog-925-9de"
+      }
+    ],
+    "__props": "__props---symbiota-documentation-blog-tags-docusaurusfdc-42f"
+  },
+  "/Symbiota-Documentation/blog/tags/facebook-046": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-blog-369-409"
+    },
+    "sidebar": "sidebar---symbiota-documentation-blog-814-e87",
+    "items": [
+      {
+        "content": "content---symbiota-documentation-blog-766-5f3"
+      }
+    ],
+    "__props": "__props---symbiota-documentation-blog-tags-facebook-55-e-027"
+  },
+  "/Symbiota-Documentation/blog/tags/hello-e19": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-blog-369-409"
+    },
+    "sidebar": "sidebar---symbiota-documentation-blog-814-e87",
+    "items": [
+      {
+        "content": "content---symbiota-documentation-blog-766-5f3"
+      },
+      {
+        "content": "content---symbiota-documentation-blog-871-d6c"
+      }
+    ],
+    "__props": "__props---symbiota-documentation-blog-tags-hello-9-ec-e66"
+  },
+  "/Symbiota-Documentation/blog/tags/hola-d0e": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-blog-369-409"
+    },
+    "sidebar": "sidebar---symbiota-documentation-blog-814-e87",
+    "items": [
+      {
+        "content": "content---symbiota-documentation-blog-925-9de"
+      }
+    ],
+    "__props": "__props---symbiota-documentation-blog-tags-hola-412-953"
+  },
+  "/Symbiota-Documentation/blog/welcome-34f": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---symbiota-documentation-blog-authorsace-d47"
+      },
+      "plugin": "plugin---symbiota-documentation-blog-369-409"
+    },
+    "sidebar": "sidebar---symbiota-documentation-blog-814-e87",
+    "content": "content---symbiota-documentation-blog-welcomed-9-f-844"
+  },
+  "/Symbiota-Documentation/markdown-page-759": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-markdown-pagea-74-8ac"
+    },
+    "content": "content---symbiota-documentation-markdown-page-393-551"
+  },
+  "/Symbiota-Documentation/docs-c2e": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-docsaba-af4"
+    }
+  },
+  "/Symbiota-Documentation/docs/1.1.0-8e1": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---symbiota-documentation-docs-1-1-0-eb-3-36a"
+  },
+  "/Symbiota-Documentation/docs/1.1.0-022": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/Symbiota-Documentation/docs/1.1.0/about-4b2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-1-1-0-abouta-8-d-af4"
+  },
+  "/Symbiota-Documentation/docs/1.1.0/User Guide/Accessibility-351": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-1-1-0-user-guide-accessibility-27-a-9c5"
+  },
+  "/Symbiota-Documentation/docs/next-efc": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---symbiota-documentation-docs-next-08-c-463"
+  },
+  "/Symbiota-Documentation/docs/next-707": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/Symbiota-Documentation/docs/next/about-e86": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-next-about-3-d-8-6cb"
+  },
+  "/Symbiota-Documentation/docs/next/New Feature-f27": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-next-new-featurefd-5-3a4"
+  },
+  "/Symbiota-Documentation/docs/next/User Guide/Accessibility-a02": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-next-user-guide-accessibility-3-b-8-879"
+  },
+  "/Symbiota-Documentation/docs-ea7": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---symbiota-documentation-docs-20-d-9d5"
+  },
+  "/Symbiota-Documentation/docs-82d": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/Symbiota-Documentation/docs/about-626": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-about-7-ef-a78"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Accessibility-b72": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-accessibilityce-8-3b9"
+  },
+  "/Symbiota-Documentation/-a99": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---symbiota-documentation-markdown-pagea-74-8ac"
+    },
+    "config": "config---symbiota-documentation-5-e-9-d87"
   }
 }

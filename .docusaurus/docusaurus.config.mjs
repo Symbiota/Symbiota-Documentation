@@ -8,7 +8,7 @@ export default {
   "tagline": "Growing archive of help files for one of the most popular Natural History content management systems",
   "favicon": "img/favicon.ico",
   "url": "https://symbiota.github.io",
-  "baseUrl": "/Symbiota-Documentation/pt/",
+  "baseUrl": "/Symbiota-Documentation/",
   "organizationName": "Symbiota",
   "projectName": "Symbiota-Documentation",
   "onBrokenLinks": "throw",
