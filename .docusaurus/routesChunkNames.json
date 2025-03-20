@@ -249,7 +249,7 @@
     },
     "content": "content---symbiota-documentation-markdown-page-393-551"
   },
-  "/Symbiota-Documentation/docs-c2e": {
+  "/Symbiota-Documentation/docs-886": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---symbiota-documentation-docsaba-af4"
@@ -270,6 +270,21 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---symbiota-documentation-docs-1-1-0-user-guide-accessibility-27-a-9c5"
   },
+  "/Symbiota-Documentation/docs/1.2.0-d60": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---symbiota-documentation-docs-1-2-0-b-07-18f"
+  },
+  "/Symbiota-Documentation/docs/1.2.0-047": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/Symbiota-Documentation/docs/1.2.0/about-b84": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-about-7-ef-a78"
+  },
+  "/Symbiota-Documentation/docs/1.2.0/User Guide/Accessibility-1a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-accessibilityce-8-3b9"
+  },
   "/Symbiota-Documentation/docs/next-efc": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---symbiota-documentation-docs-next-08-c-463"
@@ -289,20 +304,24 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---symbiota-documentation-docs-next-user-guide-accessibility-3-b-8-879"
   },
-  "/Symbiota-Documentation/docs-ea7": {
+  "/Symbiota-Documentation/docs-380": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---symbiota-documentation-docs-20-d-9d5"
   },
-  "/Symbiota-Documentation/docs-82d": {
+  "/Symbiota-Documentation/docs-d51": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/Symbiota-Documentation/docs/about-626": {
+  "/Symbiota-Documentation/docs/about-dc7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---symbiota-documentation-docs-about-7-ef-a78"
+    "content": "content---symbiota-documentation-docs-about-5-ac-994"
   },
-  "/Symbiota-Documentation/docs/User Guide/Accessibility-b72": {
+  "/Symbiota-Documentation/docs/New Feature-c43": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---symbiota-documentation-docs-user-guide-accessibilityce-8-3b9"
+    "content": "content---symbiota-documentation-docs-new-feature-28-c-88b"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Accessibility-e5b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-accessibilitybb-6-826"
   },
   "/Symbiota-Documentation/-a99": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",

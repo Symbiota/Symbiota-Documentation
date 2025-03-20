@@ -114,7 +114,7 @@ export default [
   },
   {
     path: '/Symbiota-Documentation/docs',
-    component: ComponentCreator('/Symbiota-Documentation/docs', 'c2e'),
+    component: ComponentCreator('/Symbiota-Documentation/docs', '886'),
     routes: [
       {
         path: '/Symbiota-Documentation/docs/1.1.0',
@@ -133,6 +133,30 @@ export default [
               {
                 path: '/Symbiota-Documentation/docs/1.1.0/User Guide/Accessibility',
                 component: ComponentCreator('/Symbiota-Documentation/docs/1.1.0/User Guide/Accessibility', '351'),
+                exact: true,
+                sidebar: "docSidebar"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        path: '/Symbiota-Documentation/docs/1.2.0',
+        component: ComponentCreator('/Symbiota-Documentation/docs/1.2.0', 'd60'),
+        routes: [
+          {
+            path: '/Symbiota-Documentation/docs/1.2.0',
+            component: ComponentCreator('/Symbiota-Documentation/docs/1.2.0', '047'),
+            routes: [
+              {
+                path: '/Symbiota-Documentation/docs/1.2.0/about',
+                component: ComponentCreator('/Symbiota-Documentation/docs/1.2.0/about', 'b84'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/1.2.0/User Guide/Accessibility',
+                component: ComponentCreator('/Symbiota-Documentation/docs/1.2.0/User Guide/Accessibility', '1a8'),
                 exact: true,
                 sidebar: "docSidebar"
               }
@@ -172,21 +196,27 @@ export default [
       },
       {
         path: '/Symbiota-Documentation/docs',
-        component: ComponentCreator('/Symbiota-Documentation/docs', 'ea7'),
+        component: ComponentCreator('/Symbiota-Documentation/docs', '380'),
         routes: [
           {
             path: '/Symbiota-Documentation/docs',
-            component: ComponentCreator('/Symbiota-Documentation/docs', '82d'),
+            component: ComponentCreator('/Symbiota-Documentation/docs', 'd51'),
             routes: [
               {
                 path: '/Symbiota-Documentation/docs/about',
-                component: ComponentCreator('/Symbiota-Documentation/docs/about', '626'),
+                component: ComponentCreator('/Symbiota-Documentation/docs/about', 'dc7'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/New Feature',
+                component: ComponentCreator('/Symbiota-Documentation/docs/New Feature', 'c43'),
                 exact: true,
                 sidebar: "docSidebar"
               },
               {
                 path: '/Symbiota-Documentation/docs/User Guide/Accessibility',
-                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Accessibility', 'b72'),
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Accessibility', 'e5b'),
                 exact: true,
                 sidebar: "docSidebar"
               }

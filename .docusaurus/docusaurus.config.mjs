@@ -80,12 +80,16 @@ export default {
           "position": "left",
           "items": [
             {
-              "label": "Latest (v1.2.0)",
+              "label": "Latest (v1.3.2)",
               "to": "docs/User%20Guide/Accessibility"
             },
             {
               "label": "v1.1.0",
               "to": "docs/1.1.0/User%20Guide/Accessibility"
+            },
+            {
+              "label": "v1.2.0",
+              "to": "docs/1.2.0/User%20Guide/Accessibility"
             }
           ]
         },
