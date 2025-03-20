@@ -99,9 +99,9 @@ $ npm run start
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 
-### Autoamted build and deployment
+### Automated build and deployment
 
-In [https://github.com/Symbiota/Symbiota-Documentation](https://github.com/Symbiota/Symbiota-Documentation), the repository is configured to re-build and deploy to the gh-pages branch upon every push to the `main` branch. Therefore, the sections below are no longer necessary to deploy to [https://symbiota.github.io/Symbiota-Documentation/](https://symbiota.github.io/Symbiota-Documentation/).
+In [https://github.com/Symbiota/Symbiota-Documentation](https://github.com/Symbiota/Symbiota-Documentation), the repository is configured to re-build and deploy to the gh-pages branch upon every push to the `main` branch. Therefore, the "Build" and "Deploy" sections below are no longer necessary to deploy to [https://symbiota.github.io/Symbiota-Documentation/](https://symbiota.github.io/Symbiota-Documentation/).
 
 ### Build
 
