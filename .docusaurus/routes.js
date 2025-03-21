@@ -114,7 +114,7 @@ export default [
   },
   {
     path: '/Symbiota-Documentation/docs',
-    component: ComponentCreator('/Symbiota-Documentation/docs', '886'),
+    component: ComponentCreator('/Symbiota-Documentation/docs', '0cb'),
     routes: [
       {
         path: '/Symbiota-Documentation/docs/1.1.0',
@@ -166,11 +166,11 @@ export default [
       },
       {
         path: '/Symbiota-Documentation/docs/next',
-        component: ComponentCreator('/Symbiota-Documentation/docs/next', 'efc'),
+        component: ComponentCreator('/Symbiota-Documentation/docs/next', '9a2'),
         routes: [
           {
             path: '/Symbiota-Documentation/docs/next',
-            component: ComponentCreator('/Symbiota-Documentation/docs/next', '707'),
+            component: ComponentCreator('/Symbiota-Documentation/docs/next', '82e'),
             routes: [
               {
                 path: '/Symbiota-Documentation/docs/next/about',
@@ -181,6 +181,12 @@ export default [
               {
                 path: '/Symbiota-Documentation/docs/next/New Feature',
                 component: ComponentCreator('/Symbiota-Documentation/docs/next/New Feature', 'f27'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/next/New Feature2',
+                component: ComponentCreator('/Symbiota-Documentation/docs/next/New Feature2', 'f24'),
                 exact: true,
                 sidebar: "docSidebar"
               },

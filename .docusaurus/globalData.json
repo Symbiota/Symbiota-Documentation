@@ -21,6 +21,11 @@
               "sidebar": "docSidebar"
             },
             {
+              "id": "New Feature2",
+              "path": "/Symbiota-Documentation/docs/next/New Feature2",
+              "sidebar": "docSidebar"
+            },
+            {
               "id": "User Guide/Accessibility",
               "path": "/Symbiota-Documentation/docs/next/User Guide/Accessibility",
               "sidebar": "docSidebar"

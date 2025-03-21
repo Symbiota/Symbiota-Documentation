@@ -1,7 +1,7 @@
 {
   "id": "about",
   "title": "About",
-  "description": "Symbiota Docs v1.3 is a central repository for documentation regarding Symbiota-based data portals. This site is maintained by the Symbiota Support Hub, but all Symbiota users are encouraged to contribute. Contact Us to contribute or provide feedback on this site.",
+  "description": "Symbiota Docs v1.4 is a central repository for documentation regarding Symbiota-based data portals. This site is maintained by the Symbiota Support Hub, but all Symbiota users are encouraged to contribute. Contact Us to contribute or provide feedback on this site.",
   "source": "@site/docs/about.md",
   "sourceDirName": ".",
   "slug": "/about",

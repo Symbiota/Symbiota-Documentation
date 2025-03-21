@@ -1,7 +1,7 @@
 {
   "id": "New Feature",
   "title": "New Feature",
-  "description": "v1.3 has this new feature detailed herein. Yay!",
+  "description": "v1.4 has this new feature detailed herein. Yay!",
   "source": "@site/docs/New Feature.md",
   "sourceDirName": ".",
   "slug": "/New Feature",
@@ -16,7 +16,7 @@
   },
   "sidebar": "docSidebar",
   "next": {
-    "title": "Accessibility Options",
-    "permalink": "/Symbiota-Documentation/docs/next/User Guide/Accessibility"
+    "title": "New Feature 2",
+    "permalink": "/Symbiota-Documentation/docs/next/New Feature2"
   }
 }
