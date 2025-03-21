@@ -2,6 +2,10 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator. A live version of this repository is being served at [https://symbiota.github.io/Symbiota-Documentation/](https://symbiota.github.io/Symbiota-Documentation/).
 
+## Video Primer
+
+A video introducing how to contribute to the documentation [here](https://youtu.be/MvRRAayt5Ko).
+
 ### Editing Without Locally Installing
 
 The repository's folder structure looks something like this:
