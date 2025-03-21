@@ -92,7 +92,7 @@ const config: Config = {
           position: 'left',
           items: [
             {
-              label: 'Latest (v1.3.2)',
+              label: 'Latest (v1.4.0)',
               to: 'docs/User%20Guide/Accessibility'
             },
             {
@@ -102,6 +102,10 @@ const config: Config = {
             {
               label: 'v1.2.0',
               to: 'docs/1.2.0/User%20Guide/Accessibility'
+            },
+            {
+              label: 'v1.3.2',
+              to: 'docs/1.3.2/User%20Guide/Accessibility'
             }
           ]
         },
