@@ -1,6 +1,6 @@
 export default [
-  require("/Users/markfisher/Sites/Symbiota-Documentation/node_modules/infima/dist/css/default/default.css"),
-  require("/Users/markfisher/Sites/Symbiota-Documentation/node_modules/@docusaurus/theme-classic/lib/prism-include-languages"),
-  require("/Users/markfisher/Sites/Symbiota-Documentation/node_modules/@docusaurus/theme-classic/lib/nprogress"),
-  require("/Users/markfisher/Sites/Symbiota-Documentation/src/css/custom.css"),
+  require("C:\\Apache24\\htdocs\\Symbiota-Docs\\node_modules\\infima\\dist\\css\\default\\default.css"),
+  require("C:\\Apache24\\htdocs\\Symbiota-Docs\\node_modules\\@docusaurus\\theme-classic\\lib\\prism-include-languages"),
+  require("C:\\Apache24\\htdocs\\Symbiota-Docs\\node_modules\\@docusaurus\\theme-classic\\lib\\nprogress"),
+  require("C:\\Apache24\\htdocs\\Symbiota-Docs\\src\\css\\custom.css"),
 ];
