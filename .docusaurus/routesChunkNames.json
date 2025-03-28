@@ -249,7 +249,7 @@
     },
     "content": "content---symbiota-documentation-markdown-page-393-551"
   },
-  "/Symbiota-Documentation/docs-f12": {
+  "/Symbiota-Documentation/docs-4c1": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---symbiota-documentation-docsaba-af4"
@@ -327,28 +327,64 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---symbiota-documentation-docs-next-user-guide-accessibility-3-b-8-879"
   },
-  "/Symbiota-Documentation/docs-f01": {
+  "/Symbiota-Documentation/docs-089": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---symbiota-documentation-docs-20-d-9d5"
   },
-  "/Symbiota-Documentation/docs-c50": {
+  "/Symbiota-Documentation/docs-e71": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/Symbiota-Documentation/docs/about-92c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---symbiota-documentation-docs-aboutfae-7b3"
   },
-  "/Symbiota-Documentation/docs/New Feature-c2a": {
+  "/Symbiota-Documentation/docs/Editor Guide/AddingRecords-12d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---symbiota-documentation-docs-new-featureb-9-f-78a"
-  },
-  "/Symbiota-Documentation/docs/New Feature2-1cd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---symbiota-documentation-docs-new-feature-272-e-c4d"
+    "content": "content---symbiota-documentation-docs-editor-guide-adding-recordse-0-a-3b4"
   },
   "/Symbiota-Documentation/docs/User Guide/Accessibility-57e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---symbiota-documentation-docs-user-guide-accessibility-373-28f"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/-713": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-1-c-3-0bb"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/-f2e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-7-b-3-3b9"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/add_taxa-790": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-add-taxa-3-c-9-7ff"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/add_voucher-20d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-add-voucher-068-7bf"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/create_checklist-080": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-create-checklist-9-f-6-0da"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/dynamic_checklist-64d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-dynamic-checklistf-7-f-275"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/games_checklist-398": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-games-checklist-033-50c"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/report_checklist-ed0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-report-checklist-14-c-128"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/split_checklist-0f4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-split-checklist-6-d-3-44b"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/voucher_conflict-c85": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-voucher-conflict-554-b51"
   },
   "/Symbiota-Documentation/-a99": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",

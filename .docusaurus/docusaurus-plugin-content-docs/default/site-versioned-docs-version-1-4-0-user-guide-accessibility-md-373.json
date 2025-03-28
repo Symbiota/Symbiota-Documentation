@@ -28,11 +28,11 @@
   },
   "sidebar": "docSidebar",
   "previous": {
-    "title": "New Feature 2",
-    "permalink": "/Symbiota-Documentation/docs/New Feature2"
+    "title": "Adding Records",
+    "permalink": "/Symbiota-Documentation/docs/Editor Guide/AddingRecords"
   },
   "next": {
-    "title": "About",
-    "permalink": "/Symbiota-Documentation/docs/about"
+    "title": "Checklists",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/"
   }
 }

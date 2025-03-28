@@ -1,0 +1,37 @@
+{
+  "id": "User Guide/Checklists/voucher_conflicts",
+  "title": "Voucher Conflicts Tab",
+  "description": "The Voucher Conflicts tab allows you to view a list of specimen vouchers for which their current identifications do not match how they were originally added as part of the checklist. This is generally due to recent annotations.",
+  "source": "@site/versioned_docs/version-1.4.0/User Guide/Checklists/voucher_conflicts.md",
+  "sourceDirName": "User Guide/Checklists",
+  "slug": "/User Guide/Checklists/voucher_conflicts",
+  "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/voucher_conflicts",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.4.0/User Guide/Checklists/voucher_conflicts.md",
+  "tags": [],
+  "version": "1.4.0",
+  "frontMatter": {
+    "title": "Voucher Conflicts Tab",
+    "date": "2021-12-15T00:00:00.000Z",
+    "lastmod": "2024-12-11T00:00:00.000Z",
+    "weight": 60,
+    "authors": [
+      "Katie Pearson"
+    ],
+    "keywords": [
+      "checklist",
+      "voucher",
+      "identification"
+    ]
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Adding Taxa to Checklist",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/add_taxa"
+  },
+  "next": {
+    "title": "About",
+    "permalink": "/Symbiota-Documentation/docs/about"
+  }
+}

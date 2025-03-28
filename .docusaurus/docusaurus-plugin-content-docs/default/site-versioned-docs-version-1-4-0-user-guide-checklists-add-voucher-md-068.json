@@ -1,0 +1,44 @@
+{
+  "id": "User Guide/Checklists/add_voucher",
+  "title": "Adding Vouchers to Checklist",
+  "description": "|OVERVIEW|",
+  "source": "@site/versioned_docs/version-1.4.0/User Guide/Checklists/add_voucher.md",
+  "sourceDirName": "User Guide/Checklists",
+  "slug": "/User Guide/Checklists/add_voucher",
+  "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/add_voucher",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.4.0/User Guide/Checklists/add_voucher.md",
+  "tags": [],
+  "version": "1.4.0",
+  "frontMatter": {
+    "title": "Adding Vouchers to Checklist",
+    "date": "2021-10-14T00:00:00.000Z",
+    "authors": [
+      "Katie Pearson",
+      "Neil Cobb",
+      "Ed Gilbert"
+    ],
+    "editors": [
+      "Katie Pearson"
+    ],
+    "lastmod": "2024-12-11T00:00:00.000Z",
+    "draft": false,
+    "weight": 15,
+    "keywords": [
+      "checklist",
+      "inventory",
+      "flora",
+      "voucher"
+    ]
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Adding Taxa to Checklist",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/add_taxa"
+  },
+  "next": {
+    "title": "Creating a Checklist",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/create_checklist"
+  }
+}
