@@ -114,7 +114,7 @@ export default [
   },
   {
     path: '/Symbiota-Documentation/docs',
-    component: ComponentCreator('/Symbiota-Documentation/docs', '4c1'),
+    component: ComponentCreator('/Symbiota-Documentation/docs', '0e6'),
     routes: [
       {
         path: '/Symbiota-Documentation/docs/1.1.0',
@@ -232,11 +232,11 @@ export default [
       },
       {
         path: '/Symbiota-Documentation/docs',
-        component: ComponentCreator('/Symbiota-Documentation/docs', '089'),
+        component: ComponentCreator('/Symbiota-Documentation/docs', 'd2e'),
         routes: [
           {
             path: '/Symbiota-Documentation/docs',
-            component: ComponentCreator('/Symbiota-Documentation/docs', 'e71'),
+            component: ComponentCreator('/Symbiota-Documentation/docs', 'fc1'),
             routes: [
               {
                 path: '/Symbiota-Documentation/docs/about',
@@ -251,8 +251,8 @@ export default [
                 sidebar: "docSidebar"
               },
               {
-                path: '/Symbiota-Documentation/docs/User Guide/Accessibility',
-                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Accessibility', '57e'),
+                path: '/Symbiota-Documentation/docs/User Guide/accessibility',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/accessibility', 'bbf'),
                 exact: true,
                 sidebar: "docSidebar"
               },
@@ -313,6 +313,48 @@ export default [
               {
                 path: '/Symbiota-Documentation/docs/User Guide/Checklists/voucher_conflict',
                 component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Checklists/voucher_conflict', 'c85'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Datasets/',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Datasets/', '7d6'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Datasets/',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Datasets/', 'cda'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Datasets/create_dataset',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Datasets/create_dataset', 'afb'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Datasets/edit_dataset',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Datasets/edit_dataset', '665'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Download/download_data',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Download/download_data', '4d9'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Download/download_images',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Download/download_images', '2d6'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/permissions',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/permissions', 'ddd'),
                 exact: true,
                 sidebar: "docSidebar"
               }

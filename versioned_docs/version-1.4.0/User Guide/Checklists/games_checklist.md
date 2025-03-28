@@ -59,6 +59,6 @@ keywords: ["checklist","inventory","flora","games"]
 The species displayed in each game are dependent on the contents of the selected checklist. Editing a checklist requires a portal login and possibly additional permissions depending on who created (owns) the list. You can [add/remove taxa](add_taxa) that display in games by editing checklists, if your account has permission to do so.
 
 ### Images
-If your account has [Taxon Profile Editor permissions](/symbiota-docs/user/permissions/), you can edit which images display in the flash card quiz by changing the sort order of images [in the Taxon Profile Editor](/symbiota-docs/user/tpeditor/), such that the images with a value of "1" will appear first, "2" second, and so on. The default sort value is "50". However, **be aware** that image sorting changes made in the Taxon Profile Editor will affect how the images display across the entire portal--not just within your game.
+If your account has [Taxon Profile Editor permissions](../permissions), you can edit which images display in the flash card quiz by changing the sort order of images in the Taxon Profile Editor, such that the images with a value of "1" will appear first, "2" second, and so on. The default sort value is "50". However, **be aware** that image sorting changes made in the Taxon Profile Editor will affect how the images display across the entire portal--not just within your game.
 
 ![Sort Images in the Taxon Profile Editor](/img/games_imagesort.png)

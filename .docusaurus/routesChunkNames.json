@@ -249,7 +249,7 @@
     },
     "content": "content---symbiota-documentation-markdown-page-393-551"
   },
-  "/Symbiota-Documentation/docs-4c1": {
+  "/Symbiota-Documentation/docs-0e6": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---symbiota-documentation-docsaba-af4"
@@ -327,11 +327,11 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---symbiota-documentation-docs-next-user-guide-accessibility-3-b-8-879"
   },
-  "/Symbiota-Documentation/docs-089": {
+  "/Symbiota-Documentation/docs-d2e": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---symbiota-documentation-docs-20-d-9d5"
   },
-  "/Symbiota-Documentation/docs-e71": {
+  "/Symbiota-Documentation/docs-fc1": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/Symbiota-Documentation/docs/about-92c": {
@@ -342,9 +342,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---symbiota-documentation-docs-editor-guide-adding-recordse-0-a-3b4"
   },
-  "/Symbiota-Documentation/docs/User Guide/Accessibility-57e": {
+  "/Symbiota-Documentation/docs/User Guide/accessibility-bbf": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---symbiota-documentation-docs-user-guide-accessibility-373-28f"
+    "content": "content---symbiota-documentation-docs-user-guide-accessibilitye-15-966"
   },
   "/Symbiota-Documentation/docs/User Guide/Checklists/-713": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -385,6 +385,34 @@
   "/Symbiota-Documentation/docs/User Guide/Checklists/voucher_conflict-c85": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---symbiota-documentation-docs-user-guide-checklists-voucher-conflict-554-b51"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Datasets/-7d6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-datasets-272-f64"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Datasets/-cda": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-datasets-3-d-8-fab"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Datasets/create_dataset-afb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-datasets-create-dataset-0-e-2-25e"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Datasets/edit_dataset-665": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-datasets-edit-dataset-9-c-5-429"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Download/download_data-4d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-download-download-data-160-78e"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Download/download_images-2d6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-download-download-images-9-a-8-46e"
+  },
+  "/Symbiota-Documentation/docs/User Guide/permissions-ddd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-permissions-25-a-5e4"
   },
   "/Symbiota-Documentation/-a99": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",

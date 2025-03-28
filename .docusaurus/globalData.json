@@ -59,8 +59,8 @@
               "sidebar": "docSidebar"
             },
             {
-              "id": "User Guide/Accessibility",
-              "path": "/Symbiota-Documentation/docs/User Guide/Accessibility",
+              "id": "User Guide/accessibility",
+              "path": "/Symbiota-Documentation/docs/User Guide/accessibility",
               "sidebar": "docSidebar"
             },
             {
@@ -111,6 +111,41 @@
             {
               "id": "User Guide/Checklists/voucher_conflict",
               "path": "/Symbiota-Documentation/docs/User Guide/Checklists/voucher_conflict",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Datasets/create_dataset",
+              "path": "/Symbiota-Documentation/docs/User Guide/Datasets/create_dataset",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Datasets/Datasets",
+              "path": "/Symbiota-Documentation/docs/User Guide/Datasets/",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Datasets/Datasets",
+              "path": "/Symbiota-Documentation/docs/User Guide/Datasets/",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Datasets/edit_dataset",
+              "path": "/Symbiota-Documentation/docs/User Guide/Datasets/edit_dataset",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Download/download_data",
+              "path": "/Symbiota-Documentation/docs/User Guide/Download/download_data",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Download/download_images",
+              "path": "/Symbiota-Documentation/docs/User Guide/Download/download_images",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/permissions",
+              "path": "/Symbiota-Documentation/docs/User Guide/permissions",
               "sidebar": "docSidebar"
             }
           ],
