@@ -1,0 +1,39 @@
+{
+  "id": "User Guide/Checklists/checklists",
+  "title": "Checklists",
+  "description": "To create a checklist, you now need to obtain \"Create a Checklist\" permissions from a portal administrator or the Symbiota Support Hub. For assistance, email the Hub.",
+  "source": "@site/versioned_docs/version-1.4.0/User Guide/Checklists/checklists.md",
+  "sourceDirName": "User Guide/Checklists",
+  "slug": "/User Guide/Checklists/",
+  "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.4.0/User Guide/Checklists/checklists.md",
+  "tags": [],
+  "version": "1.4.0",
+  "frontMatter": {
+    "title": "Checklists",
+    "date": "2021-10-14T00:00:00.000Z",
+    "lastmod": "2024-04-10T00:00:00.000Z",
+    "authors": [
+      "Katie Pearson",
+      "Lindsay Walker"
+    ],
+    "draft": false,
+    "weight": 30,
+    "keywords": [
+      "checklist",
+      "inventory",
+      "flora"
+    ]
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Accessibility Options",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Accessibility"
+  },
+  "next": {
+    "title": "Adding Taxa to Checklist",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/add"
+  }
+}

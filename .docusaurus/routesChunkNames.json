@@ -249,7 +249,7 @@
     },
     "content": "content---symbiota-documentation-markdown-page-393-551"
   },
-  "/Symbiota-Documentation/docs-f12": {
+  "/Symbiota-Documentation/docs-c34": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---symbiota-documentation-docsaba-af4"
@@ -327,28 +327,108 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---symbiota-documentation-docs-next-user-guide-accessibility-3-b-8-879"
   },
-  "/Symbiota-Documentation/docs-f01": {
+  "/Symbiota-Documentation/docs-638": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---symbiota-documentation-docs-20-d-9d5"
   },
-  "/Symbiota-Documentation/docs-c50": {
+  "/Symbiota-Documentation/docs-c6a": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/Symbiota-Documentation/docs/about-92c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---symbiota-documentation-docs-aboutfae-7b3"
   },
-  "/Symbiota-Documentation/docs/New Feature-c2a": {
+  "/Symbiota-Documentation/docs/Editor Guide/AddingRecords-12d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---symbiota-documentation-docs-new-featureb-9-f-78a"
+    "content": "content---symbiota-documentation-docs-editor-guide-adding-recordse-0-a-3b4"
   },
-  "/Symbiota-Documentation/docs/New Feature2-1cd": {
+  "/Symbiota-Documentation/docs/User Guide/accessibility-bbf": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---symbiota-documentation-docs-new-feature-272-e-c4d"
+    "content": "content---symbiota-documentation-docs-user-guide-accessibilitye-15-966"
   },
-  "/Symbiota-Documentation/docs/User Guide/Accessibility-57e": {
+  "/Symbiota-Documentation/docs/User Guide/Checklists/-713": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---symbiota-documentation-docs-user-guide-accessibility-373-28f"
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-1-c-3-0bb"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/-f2e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-7-b-3-3b9"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/add_taxa-790": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-add-taxa-3-c-9-7ff"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/add_voucher-20d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-add-voucher-068-7bf"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/create_checklist-080": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-create-checklist-9-f-6-0da"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/dynamic_checklist-64d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-dynamic-checklistf-7-f-275"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/games_checklist-398": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-games-checklist-033-50c"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/report_checklist-ed0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-report-checklist-14-c-128"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/split_checklist-0f4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-split-checklist-6-d-3-44b"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Checklists/voucher_conflict-c85": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-checklists-voucher-conflict-554-b51"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Datasets/-7d6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-datasets-272-f64"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Datasets/-cda": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-datasets-3-d-8-fab"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Datasets/create_dataset-afb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-datasets-create-dataset-0-e-2-25e"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Datasets/edit_dataset-665": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-datasets-edit-dataset-9-c-5-429"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Download/download_data-4d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-download-download-data-160-78e"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Download/download_images-2d6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-download-download-images-9-a-8-46e"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Identification_Keys/-5b9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-identification-keys-cf-2-eba"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Identification_Keys/-337": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-identification-keys-ae-1-c3e"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Identification_Keys/admin-95d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-identification-keys-admin-9-ab-23e"
+  },
+  "/Symbiota-Documentation/docs/User Guide/Identification_Keys/edit-880": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-identification-keys-edit-725-a52"
+  },
+  "/Symbiota-Documentation/docs/User Guide/permissions-ddd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-user-guide-permissions-25-a-5e4"
   },
   "/Symbiota-Documentation/-a99": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",

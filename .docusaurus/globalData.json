@@ -46,7 +46,7 @@
           "label": "1.4.0",
           "isLast": true,
           "path": "/Symbiota-Documentation/docs",
-          "mainDocId": "New Feature",
+          "mainDocId": "Editor Guide/AddingRecords",
           "docs": [
             {
               "id": "about",
@@ -54,18 +54,118 @@
               "sidebar": "docSidebar"
             },
             {
-              "id": "New Feature",
-              "path": "/Symbiota-Documentation/docs/New Feature",
+              "id": "Editor Guide/AddingRecords",
+              "path": "/Symbiota-Documentation/docs/Editor Guide/AddingRecords",
               "sidebar": "docSidebar"
             },
             {
-              "id": "New Feature2",
-              "path": "/Symbiota-Documentation/docs/New Feature2",
+              "id": "User Guide/accessibility",
+              "path": "/Symbiota-Documentation/docs/User Guide/accessibility",
               "sidebar": "docSidebar"
             },
             {
-              "id": "User Guide/Accessibility",
-              "path": "/Symbiota-Documentation/docs/User Guide/Accessibility",
+              "id": "User Guide/Checklists/add_taxa",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/add_taxa",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Checklists/add_voucher",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/add_voucher",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Checklists/Checklists",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Checklists/Checklists",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Checklists/create_checklist",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/create_checklist",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Checklists/dynamic_checklist",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/dynamic_checklist",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Checklists/games_checklist",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/games_checklist",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Checklists/report_checklist",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/report_checklist",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Checklists/split_checklist",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/split_checklist",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Checklists/voucher_conflict",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/voucher_conflict",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Datasets/create_dataset",
+              "path": "/Symbiota-Documentation/docs/User Guide/Datasets/create_dataset",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Datasets/Datasets",
+              "path": "/Symbiota-Documentation/docs/User Guide/Datasets/",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Datasets/Datasets",
+              "path": "/Symbiota-Documentation/docs/User Guide/Datasets/",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Datasets/edit_dataset",
+              "path": "/Symbiota-Documentation/docs/User Guide/Datasets/edit_dataset",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Download/download_data",
+              "path": "/Symbiota-Documentation/docs/User Guide/Download/download_data",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Download/download_images",
+              "path": "/Symbiota-Documentation/docs/User Guide/Download/download_images",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Identification_Keys/admin",
+              "path": "/Symbiota-Documentation/docs/User Guide/Identification_Keys/admin",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Identification_Keys/edit",
+              "path": "/Symbiota-Documentation/docs/User Guide/Identification_Keys/edit",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Identification_Keys/Identification_Keys",
+              "path": "/Symbiota-Documentation/docs/User Guide/Identification_Keys/",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Identification_Keys/Identification_Keys",
+              "path": "/Symbiota-Documentation/docs/User Guide/Identification_Keys/",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/permissions",
+              "path": "/Symbiota-Documentation/docs/User Guide/permissions",
               "sidebar": "docSidebar"
             }
           ],
@@ -73,8 +173,8 @@
           "sidebars": {
             "docSidebar": {
               "link": {
-                "path": "/Symbiota-Documentation/docs/New Feature",
-                "label": "New Feature"
+                "path": "/Symbiota-Documentation/docs/Editor Guide/AddingRecords",
+                "label": "Editor Guide/AddingRecords"
               }
             }
           }
