@@ -16,8 +16,8 @@ keywords: ["checklist","inventory","flora","voucher"]
 There are two main ways to add voucher specimens to a research checklist. You can add specific, individual specimens from your own collection to the checklist through the occurrence editor (the page of the specimen record) or add specimens from any collection through the Manage Linked Voucher tool on the checklist page.
 
 ### Adding Specimens from Any Collection (Manage Linked Voucher Tool)
-
-youtube NRW2kh6xln0
+ 
+[![Video Demo of Adding Individual Taxa](http://img.youtube.com/vi/NRW2kh6xln0/0.jpg)](http://www.youtube.com/watch?v=NRW2kh6xln0 "Video Demo of Adding Individual Taxa")
 
 1. Navigate to the homepage of your checklist.
 2. Click the pencil icon that has a V next to it (the center icon in the top right corner of the page, highlighted below).
@@ -64,7 +64,7 @@ NOTE:  You will be able to change the search statement in the future, so you are
 
 ### Adding Individual Specimens from Your Own Collection
 
-NOTE: You must be an editor of a collection to assign specimens in this way.
+***NOTE:*** *You must be an editor of a collection to assign specimens in this way.*
 
 1. Look up a specific specimen in your own collection (e.g., by clicking Edit Existing Occurrence Records in your Data Editor Control Panel and searching by a specific catalog number or by using other search terms).
 2. On the resulting page, click the Linked Resources tab.

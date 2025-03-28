@@ -21,11 +21,11 @@ This method should be used if you do not already have a list of taxa prepared, a
 2. If this is your first time defining search criteria, you will be prompted with a "Edit Search Statement" box. Use the fields available here to define the search criteria for the occurrences you would like to see. For example, you can list a state or county, taxon, a bounding box, or any combination of these (or additional) fields.
 	* If you have previously created a search statement, you can edit your search statement by clicking the magnifying glass icon at the top of the page.
 
-NOTE: Take care to make your search statement general enough that you will get the maximum number of specimens; fewer criteria is better. For example, rather than including both "United States" in **country** and "Arizona" in **state**, try just using "Arizona" in **state** so that even records with "USA" or "United States of America" are included in your search results. You will likely need to conduct several different searches to ensure a complete result (e.g., do a search for "AZ" as well as one for "Arizona").
+***NOTE:*** *Take care to make your search statement general enough that you will get the maximum number of specimens; fewer criteria is better. For example, rather than including both "United States" in **country** and "Arizona" in **state**, try just using "Arizona" in **state** so that even records with "USA" or "United States of America" are included in your search results. You will likely need to conduct several different searches to ensure a complete result (e.g., do a search for "AZ" as well as one for "Arizona").*
 	
 ![Checklist Search Statement](/img/checklistsearchstatement.png)
 
-NOTE: If you restrict your search based on coordinates, ***your results will be limited to specimens that have coordinate data***. Depending on the portal, this may represent only 30-50% of available records.
+***NOTE:*** *If you restrict your search based on coordinates, ***your results will be limited to specimens that have coordinate data***. Depending on the portal, this may represent only 30-50% of available records.*
 
 3. After you have defined your search criteria, click the Missing Taxa tab.
 4. In the Display Mode dropdown list, select Batch Linking.
@@ -42,7 +42,7 @@ From here you will see a table consiting of the first 1000 records that match yo
 
 ### Adding Individual Taxa
 
-youtube jm2_mn2nClo
+[![Video Demo of Adding Individual Taxa](http://img.youtube.com/vi/jm2_mn2nClo/0.jpg)](http://www.youtube.com/watch?v=jm2_mn2nClo "Video Demo of Adding Individual Taxa")
 
 1. On the checklist page, click the rightmost pencil icon (labeled spp.) at the top right of the page. This will bring up a panel on the lower right side of the screen.
 2. Add the name of a taxon you wish to add. Do NOT include the authorship of the taxon. You can start typing, and a dropdown list will allow you to select the taxon from available options.
@@ -60,9 +60,9 @@ youtube jm2_mn2nClo
 
 ### Batch Uploading Taxa from a File
 
-NOTE: It is recommended to add a few taxa individually before attempting a batch upload so that you can get familiar with the data types and formats.
+***NOTE:*** *It is recommended to add a few taxa individually before attempting a batch upload so that you can get familiar with the data types and formats.*
 
-youtube Hnk09MYlMVg
+[![Video Demo of Batch Uploading Taxa](http://img.youtube.com/vi/Hnk09MYlMVg/0.jpg)](http://www.youtube.com/watch?v=Hnk09MYlMVg "Video Demo of Batch Uploading Taxa")
 
 If you have several taxa to add at one time, you can upload them in a CSV (comma separated value) file. The easiest way to create the desired listing is to use Microsoft Excel or OpenOffice Calc and then save the file as a CSV file.
 In your CSV file, one column in the file should be labeled sciname. This should contain the scientific name of the taxon WITHOUT the authorship included. In this CSV file, you must be very careful to spell the scientific names correctly. If you have an error in your spelling, you will not be able to load that name into your checklist.
