@@ -144,6 +144,26 @@
               "sidebar": "docSidebar"
             },
             {
+              "id": "User Guide/Identification_Keys/admin",
+              "path": "/Symbiota-Documentation/docs/User Guide/Identification_Keys/admin",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Identification_Keys/edit",
+              "path": "/Symbiota-Documentation/docs/User Guide/Identification_Keys/edit",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Identification_Keys/Identification_Keys",
+              "path": "/Symbiota-Documentation/docs/User Guide/Identification_Keys/",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Identification_Keys/Identification_Keys",
+              "path": "/Symbiota-Documentation/docs/User Guide/Identification_Keys/",
+              "sidebar": "docSidebar"
+            },
+            {
               "id": "User Guide/permissions",
               "path": "/Symbiota-Documentation/docs/User Guide/permissions",
               "sidebar": "docSidebar"

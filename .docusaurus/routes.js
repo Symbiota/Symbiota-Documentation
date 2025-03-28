@@ -114,7 +114,7 @@ export default [
   },
   {
     path: '/Symbiota-Documentation/docs',
-    component: ComponentCreator('/Symbiota-Documentation/docs', '0e6'),
+    component: ComponentCreator('/Symbiota-Documentation/docs', 'c34'),
     routes: [
       {
         path: '/Symbiota-Documentation/docs/1.1.0',
@@ -232,11 +232,11 @@ export default [
       },
       {
         path: '/Symbiota-Documentation/docs',
-        component: ComponentCreator('/Symbiota-Documentation/docs', 'd2e'),
+        component: ComponentCreator('/Symbiota-Documentation/docs', '638'),
         routes: [
           {
             path: '/Symbiota-Documentation/docs',
-            component: ComponentCreator('/Symbiota-Documentation/docs', 'fc1'),
+            component: ComponentCreator('/Symbiota-Documentation/docs', 'c6a'),
             routes: [
               {
                 path: '/Symbiota-Documentation/docs/about',
@@ -349,6 +349,30 @@ export default [
               {
                 path: '/Symbiota-Documentation/docs/User Guide/Download/download_images',
                 component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Download/download_images', '2d6'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Identification_Keys/',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Identification_Keys/', '5b9'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Identification_Keys/',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Identification_Keys/', '337'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Identification_Keys/admin',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Identification_Keys/admin', '95d'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Identification_Keys/edit',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Identification_Keys/edit', '880'),
                 exact: true,
                 sidebar: "docSidebar"
               },
