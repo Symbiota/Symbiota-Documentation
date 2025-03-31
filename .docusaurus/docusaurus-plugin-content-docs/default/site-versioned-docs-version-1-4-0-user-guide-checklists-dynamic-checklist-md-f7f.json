@@ -27,10 +27,10 @@
   "sidebar": "docSidebar",
   "previous": {
     "title": "Creating a Checklist",
-    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/create_checklist"
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/creating_checklist"
   },
   "next": {
-    "title": "Games in Checklists",
-    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/games_checklist"
+    "title": "Exporting Checklist Reports",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/exporting_checklist_report"
   }
 }

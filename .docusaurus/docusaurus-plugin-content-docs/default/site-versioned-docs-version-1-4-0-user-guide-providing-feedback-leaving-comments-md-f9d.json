@@ -1,0 +1,41 @@
+{
+  "id": "User Guide/Providing Feedback/leaving_comments",
+  "title": "Leaving Comments",
+  "description": "If you notice an issue or would like to ask a question about a particular occurrence in a Symbiota portal, you can leave a comment on that occurrence that will then be automatically emailed to the collection manager and, in some cases, the portal manager.",
+  "source": "@site/versioned_docs/version-1.4.0/User Guide/Providing Feedback/leaving_comments.md",
+  "sourceDirName": "User Guide/Providing Feedback",
+  "slug": "/User Guide/Providing Feedback/leaving_comments",
+  "permalink": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/leaving_comments",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.4.0/User Guide/Providing Feedback/leaving_comments.md",
+  "tags": [],
+  "version": "1.4.0",
+  "frontMatter": {
+    "title": "Leaving Comments",
+    "date": "2022-01-21T00:00:00.000Z",
+    "authors": [
+      "Katie Pearson"
+    ],
+    "editors": [
+      "Lindsay Walker"
+    ],
+    "lastmod": "2024-04-03T00:00:00.000Z",
+    "draft": false,
+    "weight": 12,
+    "keywords": [
+      "comment",
+      "correction",
+      "contact"
+    ]
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Contacting a Collection",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/contacting_collection"
+  },
+  "next": {
+    "title": "Suggesting Edits",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/suggesting_edits"
+  }
+}

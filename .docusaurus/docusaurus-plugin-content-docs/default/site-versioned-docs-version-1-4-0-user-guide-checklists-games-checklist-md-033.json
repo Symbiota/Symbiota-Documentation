@@ -32,11 +32,11 @@
   },
   "sidebar": "docSidebar",
   "previous": {
-    "title": "Dynamic Checklists",
-    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/dynamic_checklist"
+    "title": "Exporting Checklist Reports",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/exporting_checklist_report"
   },
   "next": {
-    "title": "Exporting Checklist Reports",
-    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/report_checklist"
+    "title": "Splitting Checklists",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/splitting_checklist"
   }
 }

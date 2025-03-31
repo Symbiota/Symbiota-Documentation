@@ -64,18 +64,13 @@
               "sidebar": "docSidebar"
             },
             {
-              "id": "User Guide/Checklists/add_taxa",
-              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/add_taxa",
+              "id": "User Guide/Checklists/adding_taxa",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/adding_taxa",
               "sidebar": "docSidebar"
             },
             {
-              "id": "User Guide/Checklists/add_voucher",
-              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/add_voucher",
-              "sidebar": "docSidebar"
-            },
-            {
-              "id": "User Guide/Checklists/Checklists",
-              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/",
+              "id": "User Guide/Checklists/adding_voucher",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/adding_voucher",
               "sidebar": "docSidebar"
             },
             {
@@ -84,8 +79,8 @@
               "sidebar": "docSidebar"
             },
             {
-              "id": "User Guide/Checklists/create_checklist",
-              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/create_checklist",
+              "id": "User Guide/Checklists/creating_checklist",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/creating_checklist",
               "sidebar": "docSidebar"
             },
             {
@@ -94,18 +89,18 @@
               "sidebar": "docSidebar"
             },
             {
+              "id": "User Guide/Checklists/exporting_checklist_report",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/exporting_checklist_report",
+              "sidebar": "docSidebar"
+            },
+            {
               "id": "User Guide/Checklists/games_checklist",
               "path": "/Symbiota-Documentation/docs/User Guide/Checklists/games_checklist",
               "sidebar": "docSidebar"
             },
             {
-              "id": "User Guide/Checklists/report_checklist",
-              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/report_checklist",
-              "sidebar": "docSidebar"
-            },
-            {
-              "id": "User Guide/Checklists/split_checklist",
-              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/split_checklist",
+              "id": "User Guide/Checklists/splitting_checklist",
+              "path": "/Symbiota-Documentation/docs/User Guide/Checklists/splitting_checklist",
               "sidebar": "docSidebar"
             },
             {
@@ -116,11 +111,6 @@
             {
               "id": "User Guide/Datasets/create_dataset",
               "path": "/Symbiota-Documentation/docs/User Guide/Datasets/create_dataset",
-              "sidebar": "docSidebar"
-            },
-            {
-              "id": "User Guide/Datasets/Datasets",
-              "path": "/Symbiota-Documentation/docs/User Guide/Datasets/",
               "sidebar": "docSidebar"
             },
             {
@@ -144,28 +134,43 @@
               "sidebar": "docSidebar"
             },
             {
-              "id": "User Guide/Identification_Keys/admin",
-              "path": "/Symbiota-Documentation/docs/User Guide/Identification_Keys/admin",
+              "id": "User Guide/Identification Keys/admin",
+              "path": "/Symbiota-Documentation/docs/User Guide/Identification Keys/admin",
               "sidebar": "docSidebar"
             },
             {
-              "id": "User Guide/Identification_Keys/edit",
-              "path": "/Symbiota-Documentation/docs/User Guide/Identification_Keys/edit",
+              "id": "User Guide/Identification Keys/edit",
+              "path": "/Symbiota-Documentation/docs/User Guide/Identification Keys/edit",
               "sidebar": "docSidebar"
             },
             {
-              "id": "User Guide/Identification_Keys/Identification_Keys",
-              "path": "/Symbiota-Documentation/docs/User Guide/Identification_Keys/",
-              "sidebar": "docSidebar"
-            },
-            {
-              "id": "User Guide/Identification_Keys/Identification_Keys",
-              "path": "/Symbiota-Documentation/docs/User Guide/Identification_Keys/",
+              "id": "User Guide/Identification Keys/Identification Keys",
+              "path": "/Symbiota-Documentation/docs/User Guide/Identification Keys/",
               "sidebar": "docSidebar"
             },
             {
               "id": "User Guide/permissions",
               "path": "/Symbiota-Documentation/docs/User Guide/permissions",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Providing Feedback/contacting_collection",
+              "path": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/contacting_collection",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Providing Feedback/leaving_comments",
+              "path": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/leaving_comments",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Providing Feedback/Providing Feedback",
+              "path": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "User Guide/Providing Feedback/suggesting_edits",
+              "path": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/suggesting_edits",
               "sidebar": "docSidebar"
             }
           ],

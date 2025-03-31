@@ -1,14 +1,14 @@
 {
-  "id": "User Guide/Checklists/add_voucher",
+  "id": "User Guide/Checklists/adding_voucher",
   "title": "Adding Vouchers to Checklist",
   "description": "|OVERVIEW|",
-  "source": "@site/versioned_docs/version-1.4.0/User Guide/Checklists/add_voucher.md",
+  "source": "@site/versioned_docs/version-1.4.0/User Guide/Checklists/adding_voucher.md",
   "sourceDirName": "User Guide/Checklists",
-  "slug": "/User Guide/Checklists/add_voucher",
-  "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/add_voucher",
+  "slug": "/User Guide/Checklists/adding_voucher",
+  "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/adding_voucher",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.4.0/User Guide/Checklists/add_voucher.md",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.4.0/User Guide/Checklists/adding_voucher.md",
   "tags": [],
   "version": "1.4.0",
   "frontMatter": {
@@ -34,11 +34,11 @@
   },
   "sidebar": "docSidebar",
   "previous": {
-    "title": "Checklists",
-    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/"
-  },
-  "next": {
     "title": "Adding Taxa to Checklist",
     "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/adding_taxa"
+  },
+  "next": {
+    "title": "Creating a Checklist",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/creating_checklist"
   }
 }
