@@ -1,0 +1,39 @@
+{
+  "id": "Editor Guide/Joining An Existing Portal/managing-multiple-portals",
+  "title": "Managing Multiple Portals",
+  "description": "What do I do if I have multiple collections? Should I keep them all in one portal?",
+  "source": "@site/versioned_docs/version-1.4.0/Editor Guide/Joining An Existing Portal/managing-multiple-portals.md",
+  "sourceDirName": "Editor Guide/Joining An Existing Portal",
+  "slug": "/Editor Guide/Joining An Existing Portal/managing-multiple-portals",
+  "permalink": "/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/managing-multiple-portals",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.4.0/Editor Guide/Joining An Existing Portal/managing-multiple-portals.md",
+  "tags": [],
+  "version": "1.4.0",
+  "frontMatter": {
+    "title": "Managing Multiple Portals",
+    "date": "2022-02-18T00:00:00.000Z",
+    "lastmod": "2025-03-31T00:00:00.000Z",
+    "weight": 4,
+    "draft": false,
+    "authors": [
+      "Katie Pearson"
+    ],
+    "editors": [
+      "Lindsay Walker"
+    ],
+    "keywords": [
+      "multiple collections"
+    ]
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Management Types",
+    "permalink": "/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/management-types"
+  },
+  "next": {
+    "title": "New Feature",
+    "permalink": "/Symbiota-Documentation/docs/New Feature"
+  }
+}

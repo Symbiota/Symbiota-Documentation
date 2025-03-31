@@ -249,7 +249,7 @@
     },
     "content": "content---symbiota-documentation-markdown-page-393-551"
   },
-  "/Symbiota-Documentation/docs-f12": {
+  "/Symbiota-Documentation/docs-632": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---symbiota-documentation-docsaba-af4"
@@ -327,16 +327,32 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---symbiota-documentation-docs-next-user-guide-accessibility-3-b-8-879"
   },
-  "/Symbiota-Documentation/docs-f01": {
+  "/Symbiota-Documentation/docs-a69": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---symbiota-documentation-docs-20-d-9d5"
   },
-  "/Symbiota-Documentation/docs-c50": {
+  "/Symbiota-Documentation/docs-93c": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/Symbiota-Documentation/docs/about-92c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---symbiota-documentation-docs-aboutfae-7b3"
+  },
+  "/Symbiota-Documentation/docs/Editor Guide/Collection Statistics/collection-statistics-55b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-editor-guide-collection-statistics-collection-statisticsae-8-947"
+  },
+  "/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/joining-an-existing-portal-48a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-editor-guide-joining-an-existing-portal-joining-an-existing-portal-77-b-361"
+  },
+  "/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/management-types-1b9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-editor-guide-joining-an-existing-portal-management-typese-25-369"
+  },
+  "/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/managing-multiple-portals-b91": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---symbiota-documentation-docs-editor-guide-joining-an-existing-portal-managing-multiple-portalsfa-6-04d"
   },
   "/Symbiota-Documentation/docs/New Feature-c2a": {
     "__comp": "__comp---theme-doc-item-178-a40",

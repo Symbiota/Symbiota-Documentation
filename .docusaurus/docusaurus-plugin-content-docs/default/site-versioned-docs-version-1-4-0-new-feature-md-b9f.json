@@ -15,6 +15,10 @@
     "title": "New Feature"
   },
   "sidebar": "docSidebar",
+  "previous": {
+    "title": "Managing Multiple Portals",
+    "permalink": "/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/managing-multiple-portals"
+  },
   "next": {
     "title": "New Feature 2",
     "permalink": "/Symbiota-Documentation/docs/New Feature2"

@@ -114,7 +114,7 @@ export default [
   },
   {
     path: '/Symbiota-Documentation/docs',
-    component: ComponentCreator('/Symbiota-Documentation/docs', 'f12'),
+    component: ComponentCreator('/Symbiota-Documentation/docs', '632'),
     routes: [
       {
         path: '/Symbiota-Documentation/docs/1.1.0',
@@ -232,15 +232,39 @@ export default [
       },
       {
         path: '/Symbiota-Documentation/docs',
-        component: ComponentCreator('/Symbiota-Documentation/docs', 'f01'),
+        component: ComponentCreator('/Symbiota-Documentation/docs', 'a69'),
         routes: [
           {
             path: '/Symbiota-Documentation/docs',
-            component: ComponentCreator('/Symbiota-Documentation/docs', 'c50'),
+            component: ComponentCreator('/Symbiota-Documentation/docs', '93c'),
             routes: [
               {
                 path: '/Symbiota-Documentation/docs/about',
                 component: ComponentCreator('/Symbiota-Documentation/docs/about', '92c'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/Editor Guide/Collection Statistics/collection-statistics',
+                component: ComponentCreator('/Symbiota-Documentation/docs/Editor Guide/Collection Statistics/collection-statistics', '55b'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/joining-an-existing-portal',
+                component: ComponentCreator('/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/joining-an-existing-portal', '48a'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/management-types',
+                component: ComponentCreator('/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/management-types', '1b9'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/managing-multiple-portals',
+                component: ComponentCreator('/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/managing-multiple-portals', 'b91'),
                 exact: true,
                 sidebar: "docSidebar"
               },

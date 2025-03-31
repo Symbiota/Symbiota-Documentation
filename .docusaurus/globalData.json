@@ -46,11 +46,31 @@
           "label": "1.4.0",
           "isLast": true,
           "path": "/Symbiota-Documentation/docs",
-          "mainDocId": "New Feature",
+          "mainDocId": "Editor Guide/Collection Statistics/collection-statistics",
           "docs": [
             {
               "id": "about",
               "path": "/Symbiota-Documentation/docs/about",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "Editor Guide/Collection Statistics/collection-statistics",
+              "path": "/Symbiota-Documentation/docs/Editor Guide/Collection Statistics/collection-statistics",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "Editor Guide/Joining An Existing Portal/joining-an-existing-portal",
+              "path": "/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/joining-an-existing-portal",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "Editor Guide/Joining An Existing Portal/management-types",
+              "path": "/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/management-types",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "Editor Guide/Joining An Existing Portal/managing-multiple-portals",
+              "path": "/Symbiota-Documentation/docs/Editor Guide/Joining An Existing Portal/managing-multiple-portals",
               "sidebar": "docSidebar"
             },
             {
@@ -73,8 +93,8 @@
           "sidebars": {
             "docSidebar": {
               "link": {
-                "path": "/Symbiota-Documentation/docs/New Feature",
-                "label": "New Feature"
+                "path": "/Symbiota-Documentation/docs/Editor Guide/Collection Statistics/collection-statistics",
+                "label": "Editor Guide/Collection Statistics/collection-statistics"
               }
             }
           }
