@@ -114,7 +114,11 @@ export default [
   },
   {
     path: '/Symbiota-Documentation/docs',
+<<<<<<< HEAD
     component: ComponentCreator('/Symbiota-Documentation/docs', '632'),
+=======
+    component: ComponentCreator('/Symbiota-Documentation/docs', '281'),
+>>>>>>> base-version
     routes: [
       {
         path: '/Symbiota-Documentation/docs/1.1.0',
@@ -232,11 +236,19 @@ export default [
       },
       {
         path: '/Symbiota-Documentation/docs',
+<<<<<<< HEAD
         component: ComponentCreator('/Symbiota-Documentation/docs', 'a69'),
         routes: [
           {
             path: '/Symbiota-Documentation/docs',
             component: ComponentCreator('/Symbiota-Documentation/docs', '93c'),
+=======
+        component: ComponentCreator('/Symbiota-Documentation/docs', 'b8c'),
+        routes: [
+          {
+            path: '/Symbiota-Documentation/docs',
+            component: ComponentCreator('/Symbiota-Documentation/docs', '106'),
+>>>>>>> base-version
             routes: [
               {
                 path: '/Symbiota-Documentation/docs/about',
@@ -245,6 +257,7 @@ export default [
                 sidebar: "docSidebar"
               },
               {
+<<<<<<< HEAD
                 path: '/Symbiota-Documentation/docs/Editor Guide/Collection Statistics/collection-statistics',
                 component: ComponentCreator('/Symbiota-Documentation/docs/Editor Guide/Collection Statistics/collection-statistics', '55b'),
                 exact: true,
@@ -271,18 +284,148 @@ export default [
               {
                 path: '/Symbiota-Documentation/docs/New Feature',
                 component: ComponentCreator('/Symbiota-Documentation/docs/New Feature', 'c2a'),
+=======
+                path: '/Symbiota-Documentation/docs/Editor Guide/AddingRecords',
+                component: ComponentCreator('/Symbiota-Documentation/docs/Editor Guide/AddingRecords', '12d'),
+>>>>>>> base-version
                 exact: true,
                 sidebar: "docSidebar"
               },
               {
-                path: '/Symbiota-Documentation/docs/New Feature2',
-                component: ComponentCreator('/Symbiota-Documentation/docs/New Feature2', '1cd'),
+                path: '/Symbiota-Documentation/docs/User Guide/accessibility',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/accessibility', 'bbf'),
                 exact: true,
                 sidebar: "docSidebar"
               },
               {
-                path: '/Symbiota-Documentation/docs/User Guide/Accessibility',
-                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Accessibility', '57e'),
+                path: '/Symbiota-Documentation/docs/User Guide/Checklists/',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Checklists/', '713'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Checklists/adding_taxa',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Checklists/adding_taxa', '6c0'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Checklists/adding_voucher',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Checklists/adding_voucher', 'e51'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Checklists/creating_checklist',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Checklists/creating_checklist', '150'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Checklists/dynamic_checklist',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Checklists/dynamic_checklist', '64d'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Checklists/exporting_checklist_report',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Checklists/exporting_checklist_report', 'b93'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Checklists/games_checklist',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Checklists/games_checklist', '398'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Checklists/splitting_checklist',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Checklists/splitting_checklist', '179'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Checklists/voucher_conflict',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Checklists/voucher_conflict', 'c85'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Datasets/',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Datasets/', '7d6'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Datasets/create_dataset',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Datasets/create_dataset', 'afb'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Datasets/edit_dataset',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Datasets/edit_dataset', '665'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Download/download_data',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Download/download_data', '4d9'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Download/download_images',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Download/download_images', '2d6'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Identification Keys/',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Identification Keys/', '021'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Identification Keys/admin',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Identification Keys/admin', 'e38'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Identification Keys/edit',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Identification Keys/edit', '02e'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/permissions',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/permissions', 'ddd'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Providing Feedback/',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Providing Feedback/', '4fc'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Providing Feedback/contacting_collection',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Providing Feedback/contacting_collection', 'f56'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Providing Feedback/leaving_comments',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Providing Feedback/leaving_comments', '23e'),
+                exact: true,
+                sidebar: "docSidebar"
+              },
+              {
+                path: '/Symbiota-Documentation/docs/User Guide/Providing Feedback/suggesting_edits',
+                component: ComponentCreator('/Symbiota-Documentation/docs/User Guide/Providing Feedback/suggesting_edits', '8db'),
                 exact: true,
                 sidebar: "docSidebar"
               }

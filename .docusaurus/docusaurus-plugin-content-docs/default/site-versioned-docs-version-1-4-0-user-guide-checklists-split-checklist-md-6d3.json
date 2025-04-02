@@ -1,0 +1,40 @@
+{
+  "id": "User Guide/Checklists/split_checklist",
+  "title": "Splitting Checklists",
+  "description": "|OVERVIEW|",
+  "source": "@site/versioned_docs/version-1.4.0/User Guide/Checklists/split_checklist.md",
+  "sourceDirName": "User Guide/Checklists",
+  "slug": "/User Guide/Checklists/split_checklist",
+  "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/split_checklist",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.4.0/User Guide/Checklists/split_checklist.md",
+  "tags": [],
+  "version": "1.4.0",
+  "frontMatter": {
+    "title": "Splitting Checklists",
+    "date": "2023-01-04T00:00:00.000Z",
+    "lastmod": "2024-12-11T00:00:00.000Z",
+    "authors": [
+      "Katie Pearson"
+    ],
+    "draft": false,
+    "weight": 50,
+    "keywords": [
+      "parent checklist",
+      "child checklist",
+      "parent",
+      "child",
+      "taxonomic list"
+    ]
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Games in Checklists",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/games_checklist"
+  },
+  "next": {
+    "title": "Voucher Conflicts Tab",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/voucher_conflict"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "User Guide/Providing Feedback/comment/leaving_comments",
+  "title": "Comentando en los Registros",
+  "description": "Si nota un problema o le gustaría hacer una pregunta acerca de una ocurrencia en particular en un portal Symbiota, puede dejar un comentario en esa ocurrencia y será enviado por correo automáticamente al administrador de la colección y, en algunos casos, al administrador del portal.",
+  "source": "@site/versioned_docs/version-1.4.0/User Guide/Providing Feedback/comment/leaving_comments.md",
+  "sourceDirName": "User Guide/Providing Feedback/comment",
+  "slug": "/User Guide/Providing Feedback/comment/leaving_comments",
+  "permalink": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/comment/leaving_comments",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.4.0/User Guide/Providing Feedback/comment/leaving_comments.md",
+  "tags": [],
+  "version": "1.4.0",
+  "frontMatter": {
+    "title": "Comentando en los Registros",
+    "date": "2022-01-21T00:00:00.000Z",
+    "authors": [
+      "Katie Pearson"
+    ],
+    "translators": [
+      "Samanta Orellana"
+    ],
+    "draft": false,
+    "weight": 32,
+    "keywords": [
+      "comentar",
+      "corrección",
+      "contacto"
+    ]
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Providing Feedback",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/"
+  },
+  "next": {
+    "title": "Leaving Comments",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/leaving_comments"
+  }
+}

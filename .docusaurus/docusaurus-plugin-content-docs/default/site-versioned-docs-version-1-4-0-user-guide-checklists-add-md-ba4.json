@@ -1,0 +1,39 @@
+{
+  "id": "User Guide/Checklists/add",
+  "title": "Adding Taxa to Checklist",
+  "description": "NOTE: This page describes how to add taxa (species) to a checklist in a Symbiota portal.",
+  "source": "@site/versioned_docs/version-1.4.0/User Guide/Checklists/add.md",
+  "sourceDirName": "User Guide/Checklists",
+  "slug": "/User Guide/Checklists/add",
+  "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/add",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.4.0/User Guide/Checklists/add.md",
+  "tags": [],
+  "version": "1.4.0",
+  "frontMatter": {
+    "title": "Adding Taxa to Checklist",
+    "date": "2021-10-14T00:00:00.000Z",
+    "lastmod": "2024-12-11T00:00:00.000Z",
+    "authors": [
+      "Neil Cobb",
+      "Katie Pearson"
+    ],
+    "draft": false,
+    "weight": 10,
+    "keywords": [
+      "checklist",
+      "inventory",
+      "flora"
+    ]
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Checklists",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/"
+  },
+  "next": {
+    "title": "Voucher Conflicts Tab",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Checklists/voucher_conflicts"
+  }
+}
