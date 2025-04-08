@@ -19,9 +19,9 @@ To suggest changes to an occurrence record:
 1) Open the occurrence record and select the link at the bottom of the record that reads, "Occurrence Editor", as in the example below.
 ![Public Feedback Example](/img/publicfeedback.png)
 
-2) Open the record and make changes using the Occurrence Data form. Note that public users **cannot** make suggested changes to _Catalog Number_ or _Scientific Name_ values; use the [commenting](/symbiota-docs/user/public_feedback/comment/) tools to leave remarks related to these fields.
+2) Open the record and make changes using the Occurrence Data form. Note that public users **cannot** make suggested changes to _Catalog Number_ or _Scientific Name_ values; use the [commenting](https://biokic.github.io/symbiota-docs/user/public_feedback/comment/) tools to leave remarks related to these fields.
 
-***NOTE:** *More information about editing records can be found on the [Editing Records](/symbiota-docs/editor/edit/) page.*
+***NOTE:** *More information about editing records can be found on the [Editing Records](https://biokic.github.io/symbiota-docs/editor/edit/) page.*
 
 3) Select the "Save Edits" button at the bottom of the page once your modifications are complete. Your suggested changes must be approved by an administrator of the collection before they will become public. 
 ![Public Feedback Example](/img/publicfeedback_confirmation.png)
