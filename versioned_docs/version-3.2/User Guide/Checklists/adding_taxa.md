@@ -8,6 +8,8 @@ weight: 10
 keywords: ["checklist","inventory","flora"]
 ---
 
+import ReactPlayer from "react-player";
+
 |**OVERVIEW**|
 | --- | 
 | This page describes how to add taxa (species) to a checklist in a Symbiota portal. |
@@ -42,7 +44,11 @@ From here you will see a table consiting of the first 1000 records that match yo
 
 ### Adding Individual Taxa
 
-[![Video Demo of Adding Individual Taxa](http://img.youtube.com/vi/jm2_mn2nClo/0.jpg)](http://www.youtube.com/watch?v=jm2_mn2nClo "Video Demo of Adding Individual Taxa")
+<ReactPlayer
+  playing
+  controls
+  url="https://www.youtube.com/watch?v=jm2_mn2nClo"
+/>
 
 1. On the checklist page, click the rightmost pencil icon (labeled spp.) at the top right of the page. This will bring up a panel on the lower right side of the screen.
 2. Add the name of a taxon you wish to add. Do NOT include the authorship of the taxon. You can start typing, and a dropdown list will allow you to select the taxon from available options.
