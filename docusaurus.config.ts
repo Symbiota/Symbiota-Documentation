@@ -92,7 +92,7 @@ const config: Config = {
           position: 'left',
           items: [
             {
-              label: 'v3.2.0',
+              label: 'v3.2',
               to: 'docs/Editor%20Guide/AddingRecords'
             }
           ]

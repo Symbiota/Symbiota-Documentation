@@ -45,7 +45,7 @@ From here you will see a table consiting of the first 1000 records that match yo
 ### Adding Individual Taxa
 
 <ReactPlayer
-  playing
+  playing={false}
   controls
   url="https://www.youtube.com/watch?v=jm2_mn2nClo"
 />
