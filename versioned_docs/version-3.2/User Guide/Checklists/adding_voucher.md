@@ -9,9 +9,13 @@ weight: 15
 keywords: ["checklist","inventory","flora","voucher"]
 ---
 
-|**OVERVIEW**|
-| --- | 
-|This page describes how to add voucher specimens (physical evidence of the existence of a taxon in a checklist) to a checklist in a Symbiota portal.|
+import ReactPlayer from "react-player";
+
+:::info
+
+This page describes how to add voucher specimens (physical evidence of the existence of a taxon in a checklist) to a checklist in a Symbiota portal.
+
+:::
 
 There are two main ways to add voucher specimens to a research checklist. You can add specific, individual specimens from your own collection to the checklist through the occurrence editor (the page of the specimen record) or add specimens from any collection through the Manage Linked Voucher tool on the checklist page.
 
@@ -68,7 +72,11 @@ NOTE:  You will be able to change the search statement in the future, so you are
 
 ### Adding Individual Specimens from Your Own Collection
 
-***NOTE:*** *You must be an editor of a collection to assign specimens in this way.*
+:::note
+
+You must be an editor of a collection to assign specimens in this way.
+
+:::
 
 1. Look up a specific specimen in your own collection (e.g., by clicking Edit Existing Occurrence Records in your Data Editor Control Panel and searching by a specific catalog number or by using other search terms).
 2. On the resulting page, click the Linked Resources tab.

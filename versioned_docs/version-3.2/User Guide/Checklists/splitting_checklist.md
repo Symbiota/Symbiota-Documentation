@@ -8,9 +8,11 @@ weight: 50
 keywords: ["parent checklist","child checklist","parent","child","taxonomic list"]
 ---
 
-|**OVERVIEW**|
-| --- | 
-|This page describes how to split a single checklist into multiple checklists based on taxonomic groups. For example, you can make a master checklist of all taxa in a certain region, and then you can make child checklists that contain different taxonomic groups from that checklist (e.g., "Birds of Nevada County" can come from the parent checklist "Vertebrates of Nevada County").|
+:::info
+
+This page describes how to split a single checklist into multiple checklists based on taxonomic groups. For example, you can make a master checklist of all taxa in a certain region, and then you can make child checklists that contain different taxonomic groups from that checklist (e.g., "Birds of Nevada County" can come from the parent checklist "Vertebrates of Nevada County").
+
+:::
 
 To split a single checklist into multiple checklists, or just create child checklists that duplicate the information in the parent checklist, use the Batch Parse Species List Tool.
 

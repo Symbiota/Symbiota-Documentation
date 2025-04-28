@@ -9,4 +9,4 @@ keywords: ["checklists","dynamic"]
 
 This page will describe how to create and use dynamic checklists.
 
-Want this page faster? [Contribute](https://biokic.github.io/symbiota-docs/contribute/)!
+Want this page faster? [Contribute](/docs/contribute/)!

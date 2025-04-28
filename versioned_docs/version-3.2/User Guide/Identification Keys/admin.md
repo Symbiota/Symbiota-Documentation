@@ -8,11 +8,17 @@ authors: ["Katie Pearson"]
 keywords: ["checklist","keys","identification","character","state","ID"]
 ---
 
-|**OVERVIEW**|
-| --- | 
-|This page describes how to add or edit the characters and states that are available in Identification Keys. To edit which character states are applied to a given taxon, visit the [Editing ID Key States for Taxa](edit) page.|
+:::info
 
-***NOTE:*** *A user must have **Identification Keys Administrator** access to edit character and state values in a portal, since these edits affect the entire portal, not just a single checklist.*
+This page describes how to add or edit the characters and states that are available in Identification Keys. To edit which character states are applied to a given taxon, visit the [Editing ID Key States for Taxa](edit) page.
+
+:::
+
+:::note
+
+A user must have **Identification Keys Administrator** access to edit character and state values in a portal, since these edits affect the entire portal, not just a single checklist.
+
+:::
 
 ### Structure of Identification Keys
 
@@ -28,7 +34,11 @@ Setting up identification keys in a portal requires the administrator to import 
 
 ### Adding/Editing Characters
 
-***NOTE:*** *Changes made to characters and character states affect all identification keys and checklists across the portal. Please coordinate changes with other ID Key Administrators, when possible.*
+:::warning
+
+Changes made to characters and character states affect all identification keys and checklists across the portal. Please coordinate changes with other ID Key Administrators, when possible.
+
+:::
 
 Navigate to the Character Management page by visiting the page's sitemap ("portal domain"/sitemap.php) or going directly to the page ("portal domain"/ident/admin/index.php).
 

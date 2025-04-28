@@ -8,7 +8,13 @@ weight: 30
 keywords: ["checklist","inventory","flora"]
 ---
 
-  To create a checklist, you now need to obtain "Create a Checklist" permissions from a portal administrator or the Symbiota Support Hub. For assistance, [email the Hub](mailto:help@symbiota.org).
+import ReactPlayer from "react-player";
+
+:::note
+
+To create a checklist, you now need to obtain "Create a Checklist" permissions from a portal administrator or the Symbiota Support Hub. For assistance, [email the Hub](mailto:help@symbiota.org).
+
+:::
 
 A checklist is a list of taxa for a certain region or use (e.g., a teaching list so that students can learn a certain set of taxa, or a list of rare or threatened taxa). The checklist tools in Symbiota offer:
   * Viewing a checklist by scientific names, common names, images in the image library, or a combination of these options
@@ -17,12 +23,15 @@ A checklist is a list of taxa for a certain region or use (e.g., a teaching list
   * Identification and name recognition/spelling games (study aids)
   * Identification keys consisting of only taxa from the checklist
 
+<ReactPlayer
+  playing={false}
+  controls
+  url="http://www.youtube.com/watch?v=YwBC-52j6Ps"
+/>
 
-To create a checklist, you can:
-  * Upload a pre-existing list of taxonomic names using the [batch uploader](https://biokic.github.io/symbiota-docs/user/checklist/add/).
-  * Find taxa that should be included in your checklist based on voucher specimens that meet user-specified geographic criteria (e.g., a polygon, bounding box, or text field). [Instructions here](https://biokic.github.io/symbiota-docs/user/checklist/from-vouch/).
-
-youtube YwBC-52j6Ps
+### To create a checklist, you can:
+  * Upload a pre-existing list of taxonomic names using the [batch uploader](adding_taxa#batch-uploading-taxa-from-a-file).
+  * Find taxa that should be included in your checklist based on voucher specimens that meet user-specified geographic criteria (e.g., a polygon, bounding box, or text field). [Instructions here](adding_taxa#batch-adding-taxa-by-searching-the-portal).
 
 Additional resources about creating checklists in association with a floristics project can be found below:
 * [Mid-Atlantic Megalopolis Creating a Flora](https://www.mamdigitization.org/_files/ugd/6f7156_e81b7b8abc6746b9af680bad1d60911a.pdf)

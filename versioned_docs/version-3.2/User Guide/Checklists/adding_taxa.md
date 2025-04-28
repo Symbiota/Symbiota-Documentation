@@ -10,9 +10,11 @@ keywords: ["checklist", "inventory", "flora"]
 
 import ReactPlayer from "react-player";
 
-| **OVERVIEW**                                                                       |
-| ---------------------------------------------------------------------------------- |
-| This page describes how to add taxa (species) to a checklist in a Symbiota portal. |
+:::info
+
+This page describes how to add taxa (species) to a checklist in a Symbiota portal.
+
+:::
 
 There are three ways to add taxa to a checklist, by querying the portal for taxa that meet your search criteria, by adding taxa individually, or by batch uploading a list of taxa and notes.
 
@@ -24,10 +26,19 @@ This method should be used if you do not already have a list of taxa prepared, a
 2. If this is your first time defining search criteria, you will be prompted with a "Edit Search Statement" box. Use the fields available here to define the search criteria for the occurrences you would like to see. For example, you can list a state or county, taxon, a bounding box, or any combination of these (or additional) fields.
    - If you have previously created a search statement, you can edit your search statement by clicking the magnifying glass icon at the top of the page.
 
-**_NOTE:_** _Take care to make your search statement general enough that you will get the maximum number of specimens; fewer criteria is better. For example, rather than including both "United States" in **country** and "Arizona" in **state**, try just using "Arizona" in **state** so that even records with "USA" or "United States of America" are included in your search results. You will likely need to conduct several different searches to ensure a complete result (e.g., do a search for "AZ" as well as one for "Arizona")._
+:::tip
+
+Take care to make your search statement general enough that you will get the maximum number of specimens; fewer criteria is better. For example, rather than including both "United States" in **country** and "Arizona" in **state**, try just using "Arizona" in **state** so that even records with "USA" or "United States of America" are included in your search results. You will likely need to conduct several different searches to ensure a complete result (e.g., do a search for "AZ" as well as one for "Arizona").
+
+:::
+
 ![Checklist Search Statement](/img/checklistsearchstatement.png)
 
-**_NOTE:_** \*If you restrict your search based on coordinates, **_your results will be limited to specimens that have coordinate data_**. Depending on the portal, this may represent only 30-50% of available records.\*
+:::warning
+
+If you restrict your search based on coordinates, **_your results will be limited to specimens that have coordinate data_**. Depending on the portal, this may represent only 30-50% of available records.
+
+:::
 
 3. After you have defined your search criteria, click the Missing Taxa tab.
 4. In the Display Mode dropdown list, select Batch Linking.
@@ -66,7 +77,11 @@ From here you will see a table consiting of the first 1000 records that match yo
 
 ### Batch Uploading Taxa from a File
 
-**_NOTE:_** _It is recommended to add a few taxa individually before attempting a batch upload so that you can get familiar with the data types and formats._
+:::tip
+
+It is recommended to add a few taxa individually before attempting a batch upload so that you can get familiar with the data types and formats.
+
+:::
 
 <ReactPlayer
   playing={false}

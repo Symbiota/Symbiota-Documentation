@@ -8,9 +8,11 @@ weight: 10
 keywords: ["dataset","inventory"]
 ---
 
-|**OVERVIEW**|
-| --- | 
-|This page describes how to edit lists of occurrences, called "datasets," in a Symbiota portal.|
+:::info
+
+This page describes how to edit lists of occurrences, called "datasets," in a Symbiota portal.
+
+:::
 
 ### Edit an Existing Dataset
 1. Click My Profile.
@@ -30,7 +32,7 @@ In the **Occurrence List** tab, you can:
     * add occurrences to a dataset. Click the name of the dataset you created, navigate to the Occurrences tab and click the "occurrence search page" link. Or you can start from the general search page for the Symbiota portal.
 
 ### Add Records to an Existing Dataset
-1. Conduct a search from the main search page of the Symbiota portal. This is usually accessed by clicking "Search" or "Search Collections" on the home page of the portal. For more information about searching in a Symbiota portal, visit [this page](https://biokic.github.io/symbiota-docs/user/search/). **When you conduct the search, click the "List Display" button".**
+1. Conduct a search from the main search page of the Symbiota portal. This is usually accessed by clicking "Search" or "Search Collections" on the home page of the portal. For more information about searching in a Symbiota portal, visit [this page](/docs/user_guid/search/). **When you conduct the search, click the "List Display" button".**
 2. From the List Display, click the button with the dataset icon.
 ![dataset button](/img/datasetbutton.PNG "dataset button")
 3. This will open the Dataset Management box. Select the dataset to which you would like to add the specimens from the "Dataset target" dropdown menu.

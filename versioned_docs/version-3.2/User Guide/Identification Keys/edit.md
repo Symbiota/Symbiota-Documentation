@@ -8,11 +8,17 @@ authors: ["Katie Pearson"]
 keywords: ["checklist","keys","identification","character","state","ID"]
 ---
 
-|**OVERVIEW**|
-| --- | 
-|This page describes how to edit the charater states that are applied to given taxa for identification keys.|
+:::info
 
-***NOTE:*** *A user must have **Identification Keys Editor** access to edit character and state values in a portal, since these edits affect the entire portal, not just a single checklist.*
+This page describes how to edit the charater states that are applied to given taxa for identification keys.
+
+:::
+
+:::note
+
+A user must have **Identification Keys Editor** access to edit character and state values in a portal, since these edits affect the entire portal, not just a single checklist.
+
+:::
 
 ### Structure of Identification Keys
 

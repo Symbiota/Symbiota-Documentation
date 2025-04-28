@@ -9,9 +9,11 @@ weight: 48
 keywords: ["checklist","inventory","flora","games"]
 ---
 
-|**OVERVIEW**|
-| --- | 
-|**This page describes how to use the games features of checklists for educational purposes.** No user permissions or portal login is required to play games created from preexisting, publicly visible checklists. Learn how to create checklists [here](create_checklist). Games created from checklists can be used as study aids.|
+:::info
+
+**This page describes how to use the games features of checklists for educational purposes.** No user permissions or portal login is required to play games created from preexisting, publicly visible checklists. Learn how to create checklists [here](create_checklist). Games created from checklists can be used as study aids.
+
+:::
 
 1. Log into your Symbiota profile and navigate to your portal's list of existing checklists. Look for a "Projects" or "Checklists" tab at the top of your portal interface.
 
@@ -31,10 +33,12 @@ keywords: ["checklist","inventory","flora","games"]
 - If you correctly guess the genus and species before your chances run out (0), your number of games won will increase. If you do not correctly guess the species, select _Reveal the Answer_ to display the answer. In either case, a link will then appear to the taxon record for further study.
 - _New Game_ will prompt the next question. Your number of games played, won, and success rate will be tracked as you continue playing and initiate new games.
 
-### Other tips
+:::tip
 - Your selected difficulty level affects how many chances you get: 3 (hardest), 6, or 12 (easiest).
 - Spaces are already displayed for you. You do not have to guess them.
 - You cannot change the difficulty level mid-game.
+
+:::
 
 ## Flash Card Quiz
 
@@ -50,9 +54,11 @@ keywords: ["checklist","inventory","flora","games"]
 - Selecting _Display Common Names_ will add common names to the species list that displays in the _Name of Above Organism_ dropdown menu.
 - _Reset Game_ will reset your score to zero.
 
-### Other tips
+:::tip
 - If the images are not displaying, try using a different browser.
 - The quiz will bring up the first image associated with the taxon record, up to a maximum of five images. The sort order of these images can be edited on the taxon record to display in a different order (see "Game administration" below).
+
+:::
 
 ## Game administration
 ### Checklists

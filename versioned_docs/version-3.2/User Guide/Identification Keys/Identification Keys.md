@@ -8,9 +8,13 @@ authors: ["Katie Pearson"]
 keywords: ["checklist","keys","identification","character","state","ID"]
 ---
 
-|**OVERVIEW**|
-| --- | 
-|This page describes how to navigate identification keys built in to checklists in Symbiota portals. View our documentation about [checklists](../Checklists), [editing characters and character states](admin), and [editing character states applied to taxa](edit).|
+import ReactPlayer from "react-player";
+
+:::info
+
+This page describes how to navigate identification keys built in to checklists in Symbiota portals. View our documentation about [checklists](../Checklists), [editing characters and character states](admin), and [editing character states applied to taxa](edit).
+
+:::
 
 ### Structure of Identification Keys
 
@@ -26,7 +30,11 @@ Setting up identification keys in a portal requires the administrator to import 
 
 ### Using Identification Keys
 
-***NOTE:*** *Identification keys are not turned on and/or configured in all portals and require extensive configuring in order to be used across many taxa. To access this feature, contact your portal administrator.*
+:::note
+
+*Identification keys are not turned on and/or configured in all portals and require extensive configuring in order to be used across many taxa. To access this feature, contact your portal administrator.
+
+:::
 
 Identification keys can be used within checklists to identify a taxon within the list that possesses certain character states. A user can click the character states that match those of their sample/individual of interest, and the taxon/taxa with the same character state(s) will be displayed on the checklist.
 

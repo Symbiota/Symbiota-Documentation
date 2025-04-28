@@ -9,14 +9,20 @@ weight: 20
 keywords: ["checklist","inventory","flora"]
 ---
 
-|**OVERVIEW**|
-| --- | 
-|This page describes how to create a checklist or biotic inventory in a Symbiota portal.|
+:::info
 
-***Important Note***: *The "Create a Checklist" permission has been granted for the majority of existing users (accounts created before June 2022). If you do not have "Create a Checklist enabled", and need it, ask your portal admin (super admin) or the Support Hub to add these user permissions to your account. All new users will need to request permission to create checklists/datasets moving forward.*
+This page describes how to create a checklist or biotic inventory in a Symbiota portal.
+
+:::
+
+:::note
+
+The "Create a Checklist" permission has been granted for the majority of existing users (accounts created before June 2022). If you do not have "Create a Checklist enabled", and need it, ask your portal admin (super admin) or the Support Hub to add these user permissions to your account. All new users will need to request permission to create checklists/datasets moving forward.
+
+:::
 
 1.	Log in to the Symbiota profile (if you don't already have an account, click New Account to create one).
-2.	Click “My Profile”
+2.	Click "My Profile"
 3.	Under the “Species Checklists” tab, click the add icon. ![Plus Sign Icon](/img/add.png)
 4.	Fill out the “Create New Checklist” box with the desired information.
       * Most checklists will be a General Checklist. Alternatively, you can another list type from the Checklist Type dropdown menu. A Species Exclusion List is used to curate a subset of taxa that are purposely excluded from another list, and a Rare, threatened, protected species list is used to compile a state-level list of rare, threatened, and protected taxa for which locality data will be redacted for specimens in that state.

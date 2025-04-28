@@ -7,15 +7,17 @@ weight: 120
 keywords: ["users","permissions","access"]
 ---
 
-|**OVERVIEW**|
-| --- | 
-|This page describes the possible levels of user permissions that can be granted for a given Symbiota portal.|
+:::info
+
+This page describes the possible levels of user permissions that can be granted for a given Symbiota portal.
+
+:::
 
 Once a user has created an account in a Symbiota portal, they can be granted permissions for one or many collections in that portal. Permissions can be granted by administrators of individual collections or by the portal manager or other superadministrator. Portals have different policies for granting permissions to users, so it is best to contact the portal manager or individual collections for which you would like user permissions.
 
 ### Types of User Permissions
 
-_Permissions that can be assigned by a collection manager or other administrator_
+#### Permissions that can be assigned by a collection manager or other administrator
 
 * **Administrator**: (generally a curator or manager of a collection) can use all tools in the Administration Control Panel. For example, this user can edit the contact information and description for your collection, view edits made to your records, batch upload data, and use data cleaning tools. Administrators can also delete records.
 
@@ -27,7 +29,7 @@ _Permissions that can be assigned by a collection manager or other administrator
 
 * **Create a Checklist**: can create new checklists and datasets. See [Creating a Checklist](https://biokic.github.io/symbiota-docs/user/checklist/create/).
 
-_Permission types that can only be assigned by a superadministrator_
+#### Permission types that can only be assigned by a superadministrator
 
 * **Global Rare Species Reader**: can view locality data for all specimens in a portal (if provided). See [Redacting / Obscuring Data](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/redaction/).
 
