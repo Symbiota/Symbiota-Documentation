@@ -36,4 +36,8 @@ Note that the taxa you will see on the left will **only** include those that wer
 
 ### Related Resources
 
-[![Identification Keys](http://img.youtube.com/vi/GMk2WkE3Hno/0.jpg)](http://www.youtube.com/watch?v=GMk2WkE3Hno "Identification Keys")
+<ReactPlayer
+  playing={false}
+  controls
+  url="http://www.youtube.com/watch?v=GMk2WkE3Hno"
+/>

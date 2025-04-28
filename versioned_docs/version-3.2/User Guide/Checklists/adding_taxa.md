@@ -68,7 +68,11 @@ From here you will see a table consiting of the first 1000 records that match yo
 
 **_NOTE:_** _It is recommended to add a few taxa individually before attempting a batch upload so that you can get familiar with the data types and formats._
 
-[![Video Demo of Batch Uploading Taxa](http://img.youtube.com/vi/Hnk09MYlMVg/0.jpg)](http://www.youtube.com/watch?v=Hnk09MYlMVg "Video Demo of Batch Uploading Taxa")
+<ReactPlayer
+  playing={false}
+  controls
+  url="http://www.youtube.com/watch?v=Hnk09MYlMVg"
+/>
 
 If you have several taxa to add at one time, you can upload them in a CSV (comma separated value) file. The easiest way to create the desired listing is to use Microsoft Excel or OpenOffice Calc and then save the file as a CSV file.
 In your CSV file, one column in the file should be labeled sciname. This should contain the scientific name of the taxon WITHOUT the authorship included. In this CSV file, you must be very careful to spell the scientific names correctly. If you have an error in your spelling, you will not be able to load that name into your checklist.
