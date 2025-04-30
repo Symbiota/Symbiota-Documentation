@@ -16,7 +16,7 @@ This page describes how to change or add contact information or information abou
 
 ![Edit Metadata Example](/img/metadata_editor.PNG)
 
-# Collections Metadata
+## Collections Metadata
 1. Navigate to your Administration Control Panel (_My Profile > Occurrence Management > name of collection_).
 2. In the Administration Control Panel, click Edit Metadata. In the first tab you can change:
       * **Institution Code** - The name (or acronym) in use by the institution having custody of the occurrence records. This field is required. For more details, see Darwin Core definition. Herbaria should also register this code with [IndexHerbariorum](https://sweetgum.nybg.org/science/ih/).
@@ -37,7 +37,7 @@ This page describes how to change or add contact information or information abou
       * **Sort Sequence** - Leave this field empty if you want the collections to sort alphabetically (default)
       * **Collection ID** - Global Unique Identifier for this collection (see dwc:collectionID): If your collection already has a previously assigned GUID, that identifier should be represented here. For physical specimens, the recommended best practice is to use an identifier from a collections registry such as the [Global Registry of Biodiversity Repositories](http://grbio.org).
       
-# Collection Contacts
+## Collection Contacts
 1. Navigate to your Administration Control Panel (_My Profile > Occurrence Management > name of collection_).
 2. In the Administration Control Panel, click **Contacts & Resources**. In this tab you can change:
 3. In the Contacts & Resource tab, you can add links to other resources (e.g., homepages or lab pages), add or edit contact information, or add or edit the mailing address for your institution. Click a pencil icon to edit or an X icon to delete existing links/resources. **Listing at least two contacts is strongly recommended**, and that, when available, one of these contacts includes a generic departmental email (e.g. yourherbarium@youruniversity.edu).
