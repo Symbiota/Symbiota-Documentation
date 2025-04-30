@@ -1,5 +1,5 @@
 ---
-title: 'Collector or Observer Guide'
+title: 'Collector/Observer Guide'
 date: 2022-11-29
 lastmod: 2024-10-08
 weight: 4
