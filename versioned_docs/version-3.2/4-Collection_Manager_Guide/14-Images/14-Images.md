@@ -17,7 +17,7 @@ This page describes the types of media that are supported by Symbiota portals.
 
 :::
 
-:::tip
+:::note
 
 As of Symbiota version 3.2, Symbiota portals support audio files! For this reason, most tools are now labeled **media** or **multimedia** tools, rather than "image tools," as in previous versions of Symbiota. **Media** refers to any audiovisual media such as images or audio files; however, video files are not currently supported.
 

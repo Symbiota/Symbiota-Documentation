@@ -93,7 +93,7 @@ const config: Config = {
           items: [
             {
               label: 'v3.2',
-              to: 'docs/Editor%20Guide/AddingRecords'
+              to: 'docs/Collector_Observer_Guide/'
             }
           ]
         },

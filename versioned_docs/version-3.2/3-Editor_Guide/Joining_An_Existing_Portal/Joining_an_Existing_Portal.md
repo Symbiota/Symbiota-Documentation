@@ -11,7 +11,7 @@ keywords: ["join","contribute"]
 
 
 
-Click the button below to find a list of active Symbiota portals. You will want to select a Symbiota portal that matches the scope of your data. You can add your data to a Symbiota portal as a "live" collection or a "snapshot" (see [this page](/symbiota-docs/coll_manager/join/mng) for more information about management types in Symbiota portals).
+Click the link below to find a list of active Symbiota portals. You will want to select a Symbiota portal that matches the scope of your data. You can add your data to a Symbiota portal as a "live" collection or a "snapshot" (see [this page](/symbiota-docs/coll_manager/join/mng) for more information about management types in Symbiota portals).
 
 [📇 **List of Symbiota Portals**](https://symbiota.org/symbiota-portals/)
 
