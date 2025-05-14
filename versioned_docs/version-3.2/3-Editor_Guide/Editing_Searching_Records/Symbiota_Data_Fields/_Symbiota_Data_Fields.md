@@ -16,7 +16,7 @@ The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.or
 
 :::note
 
-Fields listed here differ from the fields visible in the data uploading tools. For field information specific to the data upload tools, see the [Data Import fields page](https://biokic.github.io/symbiota-docs/coll_manager/upload/fields/).
+Fields listed here differ from the fields visible in the data uploading tools. For field information specific to the data upload tools, see the [Data Import fields page](/docs/Collection_Manager_Guide/Importing_Uploading/data_import_fields).
 
 :::
 

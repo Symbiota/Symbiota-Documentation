@@ -7,6 +7,6 @@ authors: ["Katie Pearson"]
 keywords: ["editing"]
 ---
 
-General instructions for editing records can be found in the [Editor Guide](https://biokic.github.io/symbiota-docs/editor/edit/).
+General instructions for editing records can be found in the [Editor Guide](/docs/Editor_Guide/Editing_Searching_Records).
 
 Collection managers (i.e., users with administrator permissions) can additionally conduct batch edits and delete records.

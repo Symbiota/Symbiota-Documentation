@@ -7,7 +7,7 @@ authors: ["Katie Pearson"]
 keywords: ["checklist","report"]
 ---
 
-You can generate a number of useful reports using the Reports tab in the [Manage Linked Vouchers tool](https://biokic.github.io/symbiota-docs/user/checklist/voucher/), as shown in the menu below.
+You can generate a number of useful reports using the Reports tab in the Manage Linked Vouchers tool, as shown in the menu below. To navigate to this tab, click the Voucher administration icon in the top right corner of your checklist ![Voucher Icon](/img/voucheradminicon.png), then click the Reports tab.
 
 You can print a list of species, list of vouchers, list of potential species additions, and other options from this page.
 

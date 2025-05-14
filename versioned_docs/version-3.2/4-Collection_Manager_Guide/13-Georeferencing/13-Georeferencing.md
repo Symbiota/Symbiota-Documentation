@@ -7,6 +7,6 @@ authors: ["Katie Pearson"]
 keywords: ["georeferencing"]
 ---
 
-General instructions and resources for georeferencing can be found in the [Editor Guide](https://biokic.github.io/symbiota-docs/editor/georeference/).
+General instructions and resources for georeferencing can be found in the [Editor Guide](/docs/Editor_Guide/Georeferencing).
 
 Collection managers (i.e., users with administrator permissions) can additionally push data to the GEOLocate Collaborative Georeference client.

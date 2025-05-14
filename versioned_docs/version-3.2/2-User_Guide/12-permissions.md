@@ -22,15 +22,15 @@ Once a user has created an account in a Symbiota portal, they can be granted per
 
 * **Editor**: (generally a collector, technician, digitizer, or volunteer) can use all tools in the Data Editor Control Panel, including adding and editing records, printing labels, batch annotating specimens, batch georeferencing specimens, and managing loans. Editors cannot delete records.
 
-* **Rare Species Reader**: can view locality data for all specimens in a collection, even if the locality information is redacted from the general public (see [Redacting / Obscuring Data](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/redaction/)).
+* **Rare Species Reader**: can view locality data for all specimens in a collection, even if the locality information is redacted from the general public (see [Redacting / Obscuring Data](/docs/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data)).
 
 * **Personal Observation/Specimen Profile Manager**: can add, edit, and manage data belonging to them in the "personal observations profile" (variously labeled the "specimens being processed" or "general research observations" profile, depending on the portal). The personal observations profile is a single collection in the portal that contains pooled data from all personal observation profile managers; however, a single user can only edit data that they have personally added to this collection through their user profile.
 
-* **Create a Checklist**: can create new checklists and datasets. See [Creating a Checklist](https://biokic.github.io/symbiota-docs/user/checklist/create/).
+* **Create a Checklist**: can create new checklists and datasets. See [Creating a Checklist](/docs/User_Guide/Checklists/creating_checklist).
 
 #### Permission types that can only be assigned by a superadministrator
 
-* **Global Rare Species Reader**: can view locality data for all specimens in a portal (if provided). See [Redacting / Obscuring Data](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/redaction/).
+* **Global Rare Species Reader**: can view locality data for all specimens in a portal (if provided). See [Redacting / Obscuring Data](/docs/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data).
 
 * **Glossary Editor**: can add descriptions, images, or other information to the portal glossary (if enabled)
 

@@ -27,7 +27,7 @@ The Material Sample tab will only be visible if it has been activated for your c
 
 ## Material Sample Data Fields
 
-Definitions for data fields displayed on the Material Sample tab are defined in the [Symbiota Data Fields](/symbiota-docs/editor/edit/fields/#material-sample-fields) documentation.
+Definitions for data fields displayed on the Material Sample tab are defined in the [Symbiota Data Fields](/docs/Editor_Guide/Editing_Searching_Records/Symbiota_Data_Fields#material-sample-fields) documentation.
 
 ## Adding/Editing Material Sample Records
 
@@ -46,7 +46,7 @@ One specimen occurrence in a Symbiota portal can be associated with one or more 
 **To add a new material sample to an existing catalog record:**
 
 1) Navigate to the Occurrence Editor: _My Profile > Occurrence Records > name of collection > Edit Existing Records_
-2) [Search](/symbiota-docs/editor/edit) for the record that the sample will be associated with. Open the record so that the Occurence Editor form appears.
+2) [Search](/docs/Editor_Guide/Editing_Searching_Records) for the record that the sample will be associated with. Open the record so that the Occurence Editor form appears.
 3) At the top of the form, select the Material Sample tab.
 4) Select the plus sign icon to begin adding a new material sample.
 5) As you fill out the form, consult the [Symbiota definitions for Material Sample data fields](/docs/Collection_Manager_Guide/Editing_Searching_Records/Symbiota_Data_Fields#material-sample-fields) if you are unfamiliar with these terms.

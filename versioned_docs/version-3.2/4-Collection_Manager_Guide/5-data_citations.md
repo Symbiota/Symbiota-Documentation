@@ -62,7 +62,7 @@ If your collection is not publishing to GBIF, you can still encourage researcher
 
 :::tip
 
-Learn how to publish your data to GBIF [here](/symbiota-docs/coll_manager/data_publishing/gbif/).
+Learn how to publish your data to GBIF [here](/docs/Collection_Manager_Guide/Data_Publishing/publishing_gbif).
 
 :::
 

@@ -9,7 +9,7 @@ keywords: ["batch", "OCR","optical character recognition","automated transcripti
 
 import ReactPlayer from "react-player";
 
-Optical Character Recognition (OCR) is the use of computer algorithms to detect text information from images. If OCR tools are activated in your Symbiota portal, you can use OCR to attempt to parse textual information from pictures of, e.g., specimen labels and enter data into the appropriate fields from there. Instructions for using batch OCR processes are provided below. For instructions for using OCR in the Occurrence editor, see the [OCR page in the Editor Guide](https://biokic.github.io/symbiota-docs/editor/edit/ocr/).
+Optical Character Recognition (OCR) is the use of computer algorithms to detect text information from images. If OCR tools are activated in your Symbiota portal, you can use OCR to attempt to parse textual information from pictures of, e.g., specimen labels and enter data into the appropriate fields from there. Instructions for using batch OCR processes are provided below. For instructions for using OCR in the Occurrence editor, see the [OCR page in the Editor Guide](/docs/Editor_Guide/Editing_Searching_Records/ocr).
 
 ### Batch Generating OCR for Records in a Portal
 To run OCR on many specimen images at a time

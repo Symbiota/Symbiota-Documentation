@@ -13,8 +13,8 @@ This page describes how to batch edit records.
 
 :::
 
-* For batch georeferencing instructions, visit [this page](https://biokic.github.io/symbiota-docs/editor/georeference/batch/).
-* Scientific names can only be batch changed through the [Batch Annotation tools](https://biokic.github.io/symbiota-docs/editor/edit/annotations/) or the [Taxonomic Cleaning tools](/docs/Collection%20Manager%20Guide/Data%20Cleaning/taxonomic_cleaning).
+* For batch georeferencing instructions, visit [this page](/docs/Editor_Guide/Georeferencing/batch_georeferencing).
+* Scientific names can only be batch changed through the [Batch Annotation tools](/docs/Editor_Guide/Editing_Searching_Records/annotations) or the [Taxonomic Cleaning tools](/docs/Collection_Manager_Guide/Data_Cleaning/taxonomic_cleaning).
 
 :::warning
 
@@ -32,7 +32,7 @@ In older versions of Symbiota, the batch edit button was an icon like this: ![Ed
 
 :::
 
-**Option B:** **To apply batch changes to a subset of records**, first search for the records of interest using the [search form](https://biokic.github.io/symbiota-docs/editor/edit/). Once you have the set of records to which you would like to make a batch edit, click the Batch Edit Button at the top of your selected table of records.
+**Option B:** **To apply batch changes to a subset of records**, first search for the records of interest using the [search form](/docs/Editor_Guide/Editing_Searching_Records). Once you have the set of records to which you would like to make a batch edit, click the Batch Edit Button at the top of your selected table of records.
 
 3. From the dropdown menu next to "Field Name" in Batch Update, select the field you want to edit.
 ![Batch Edit Tool](/img/batchedittool.png) 
