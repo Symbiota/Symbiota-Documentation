@@ -26,7 +26,7 @@ Upon opening the Record Editor page, you will see 4-5 tabs, depending on your le
 
 **Material Sample** - allows for association of multiple material sample records per specimen occurrence. For this tab to be visible, it must be configured per portal and activated per collection. Contact your Collection Administrator for more information. See [Material Sample](/docs/Editor_Guide/Editing_Searching_Records/material_samples)
 
-**Linked Resources** – allows linkage of checklists, duplicates, and genetic resources to the record. See [Linking Records/Resources](/docs/Editor_Guide/linked_resources)
+**Linked Resources** – allows linkage of checklists, duplicates, and genetic resources to the record. See [Linking Records/Resources](/docs/Editor_Guide/linking_records)
 
 **Traits** - allows for scoring of trait data. For this tab to be visible, it must be configured per portal and activated per collection. Contact your Collection Administrator for more information. See [Traits](/docs/Editor_Guide/Traits)
 

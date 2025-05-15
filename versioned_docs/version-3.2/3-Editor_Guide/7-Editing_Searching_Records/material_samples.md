@@ -49,7 +49,7 @@ One specimen occurrence in a Symbiota portal can be associated with one or more 
 2) [Search](/docs/Editor_Guide/Editing_Searching_Records) for the record that the sample will be associated with. Open the record so that the Occurence Editor form appears.
 3) At the top of the form, select the Material Sample tab.
 4) Select the plus sign icon to begin adding a new material sample.
-5) As you fill out the form, consult the [Symbiota definitions for Material Sample data fields](/docs/Collection_Manager_Guide/Editing_Searching_Records/symbiota_data_fields#material-sample-fields) if you are unfamiliar with these terms.
+5) As you fill out the form, consult the [Symbiota definitions for Material Sample data fields](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#material-sample-fields) if you are unfamiliar with these terms.
 6) Select the "Add Record" button to save the new material sample record.
 7) Repeat, starting at step 4, to add additional material sample records.
 
