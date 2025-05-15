@@ -1,4 +1,16 @@
 node_modules/
 build/
 .env
-.docusaurus/
+.docusaurus/client-modules.js
+.docusaurus/docusaurus-plugin-debug/default/__plugin.json
+.docusaurus/docusaurus-plugin-debug/default/p/symbiota-documentation-docusaurus-debug-content-c1e.json
+.docusaurus/docusaurus.config.mjs
+.docusaurus/DONT-EDIT-THIS-FOLDER
+.docusaurus/globalData.json
+.docusaurus/i18n.json
+.docusaurus/registry.js
+.docusaurus/routes.js
+.docusaurus/routesChunkNames.json
+.docusaurus/site-metadata.json
+.docusaurus/site-storage.json
+.docusaurus
