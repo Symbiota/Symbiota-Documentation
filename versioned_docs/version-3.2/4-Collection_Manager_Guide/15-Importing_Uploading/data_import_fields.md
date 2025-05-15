@@ -9,6 +9,7 @@ keywords: ["data upload","data import","file upload","IPT"]
 ---
 
 import Button from '@site/src/components/Button';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 :::info
 
@@ -18,7 +19,7 @@ This page lists the possible specimen fields that can be imported into a Symbiot
 
 You can select any number of fields in the table below to include in your file upload, but some fields are more commonly used than others. At the button below, you will find a template based on plant collections in Excel format. The second row provides field explanataions and the third row provides an example. Delete these rows and save the file as a CSV (UTF-8) before attempting to upload.
 
-<Button link="/documents/UploadTemplateForCollectors.xlsx" label="Download Example Template" />
+<Button link="{useBaseUrl('/documents/UploadTemplateForCollectors.xlsx')}" label="Download Example Template" />
 
 If the data portal is being used to displaying a “snapshot” of your data stored in your local central database, the upload file MUST have a field that serves as the unique identifier for each incoming specimen record (dbpk). This field serves a link between the source record and the snapshot record within the portal. If the import is a CSV file, the first row must contain field names. Note that field names do not have to match the name used below, but there cannot be any characters ($#@&%) in the column names. If you have issues saving your import profile, your field names may be too long! Try shortening the field names in the CSV file.
 
