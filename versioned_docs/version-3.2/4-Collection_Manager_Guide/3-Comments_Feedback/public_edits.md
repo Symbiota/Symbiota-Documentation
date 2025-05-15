@@ -28,7 +28,7 @@ Once activated, any portal user who is logged in can suggest changes to your occ
 To review suggested changes made by public users:
 1) Navigate to the _Administration Control Panel > Review/Verify Occurrence Edits_.
 2) In the Filter panel, set _Applied Status_ = "Not Applied" and select _Submit Filter_ to filter out pending public edits to your occurence records. 
-3) Proceed to use the [Specimen Edit Reviewer](/symbiota-docs/coll_manager/review/) to accept and reject suggested changes to your records.
+3) Proceed to use the [Specimen Edit Reviewer](/docs/Collection_Manager_Guide/Crowdsourcing/reviewing_crowdsourcing) to accept and reject suggested changes to your records.
 
 ### What do public portal users see?
 Refer to the [User Guide](/docs/User_Guide/Providing_Feedback/suggesting_edits) for more information.

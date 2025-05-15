@@ -28,7 +28,7 @@ Images uploaded or linked to specimens in a Symbiota portal should be JPGs or in
 
 #### Batch Adding Externally Hosted Media Resources
 
-Externally Hosted media resources can be added to Symbiota records using one of three primary methods: (1) using the URL mapping tool and a [spreadsheet of catalog numbers with media URLs](/symbiota-docs/coll_manager/images/url_upload/); (2) mapping a column of media links to the associatedMedia field when conducting a Full Text File Upload or Skeletal File Upload. For more information about uploading text files, see [this page](/symbiota-docs/coll_manager/upload/). (If you already have data in the portal, and you just want to add media links, do NOT use Full Text File Upload); or (3) importing a Darwin Core Archive of your data with a fully-populated [multimedia extension](https://rs.gbif.org/extension/gbif/1.0/multimedia.xml).
+Externally Hosted media resources can be added to Symbiota records using one of three primary methods: (1) using the URL mapping tool and a [spreadsheet of catalog numbers with media URLs](/docs/Collection_Manager_Guide/Images/media_upload_url); (2) mapping a column of media links to the associatedMedia field when conducting a Full Text File Upload or Skeletal File Upload. For more information about uploading text files, see [this page](/docs/Collection_Manager_Guide/Importing_Uploading/). (If you already have data in the portal, and you just want to add media links, do NOT use Full Text File Upload); or (3) importing a Darwin Core Archive of your data with a fully-populated [multimedia extension](https://rs.gbif.org/extension/gbif/1.0/multimedia.xml).
 
 #### Batch Adding Internally Hosted Media Resources
 

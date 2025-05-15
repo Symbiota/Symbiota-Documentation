@@ -18,7 +18,7 @@ Upon opening the Record Editor page, you will see 4-5 tabs, depending on your le
 
 ![Occurrence Editor Tabs](/img/editortabs.png)
 
-**Occurrence Data** – See [Symbiota Data Fields](/docs/Editor_Guide/Symbiota_Data_Fields)
+**Occurrence Data** – See [Symbiota Data Fields](/docs/Editor_Guide/symbiota_data_fields)
 
 **Determination History** – where annotations are shown and can be entered. Annotations can also be batch uploaded from separate files. See [Annotations](/docs/Editor_Guide/Editing_Searching_Records/annotations)
 
