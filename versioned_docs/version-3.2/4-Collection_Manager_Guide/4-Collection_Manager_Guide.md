@@ -10,4 +10,4 @@ This guide describes how to use tools and functions that a user with administrat
 
 Administrators automatically gain Editor permissions as well, so much of the content in the [Editor Guide](/docs/Editor_Guide) will also be useful for Collection Managers / Administrators.
 
-For information about becoming an administrator, see our [User Permissions](/docs/User_Guide/permissions/) page.
+For information about becoming an administrator, see our [User Permissions](/docs/User_Guide/user_permissions/) page.

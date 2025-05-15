@@ -73,8 +73,8 @@ Example CITEME.txt content:
 
 >This data package was downloaded from the Ecdysis Portal on 2022-10-25 17:03:40. <br></br>
 > Please use the following format to cite this dataset:<br></br>
-> Biodiversity occurrence data published by: Ecdysis Portal (accessed through the Ecdysis Portal Portal, https://serv.biokic.asu.edu/ecdysis, 2022-10-25). <br></br>
-> For more information on citation formats, please see the following page: https://serv.biokic.asu.edu/ecdysis/includes/usagepolicy.php
+> Biodiversity occurrence data published by: Ecdysis Portal (accessed through the Ecdysis Portal Portal, https://ecdysis.org, 2022-10-25). <br></br>
+> For more information on citation formats, please see the following page: https://ecdysis.org/includes/usagepolicy.php
 
 ## Data Usage Policy & Portal Citations
 Some portal communities maintain their own portal-wide data usage policies for media and specimen records, which includes a recommended citation format for the portal. This information can typically be found on the **_Sitemap_ > _Media Library_ > _Usage Policy and Copyright Information_**. To request modifications to your portal's data usage policy, or to have one added to your portal, contact your portal manager. 
