@@ -1,7 +1,7 @@
 ---
 title: "Data Citations"
 date: 2022-10-26
-lastmod: 2025-01-31
+lastmod: 2025-05-14
 authors: ["Lindsay Walker"]
 editors: ["Katie Pearson"]
 draft: "false"
