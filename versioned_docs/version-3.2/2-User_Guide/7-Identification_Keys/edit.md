@@ -33,7 +33,7 @@ A **state** is the specific trait that is shared within the taxon (e.g., "3-15 m
 Setting up identification keys in a portal requires the administrator to import or add character and state values (see ID Keys Administrator instructions [here](admin). Then, an identification keys editor can assign certain state values to certain taxa.
 
 ### Editing Character States Assigned to Taxa
-The character states applied to taxa can be edited from the checklist editor. If you would like to edit the character states for taxa, but don't have a specific checklist in which to do so, you can [create a temporary checklist](../Checklists/create_checklist) in which to do this and then delete the checklist once you are done.
+The character states applied to taxa can be edited from the checklist editor. If you would like to edit the character states for taxa, but don't have a specific checklist in which to do so, you can [create a temporary checklist](../Checklists/creating_checklist) in which to do this and then delete the checklist once you are done.
 
 Ensure that you are logged in, then navigate to the checklist containing the taxa you would like to edit. Click the small pencil icon with "Edit Character Matrix" next to it in the top right corner of the page.
 

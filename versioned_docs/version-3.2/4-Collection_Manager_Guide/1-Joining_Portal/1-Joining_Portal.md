@@ -11,7 +11,7 @@ keywords: ["join","contribute"]
 
 import Button from '@site/src/components/Button';
 
-Click the button below to find a list of active Symbiota portals. You will want to select a Symbiota portal that matches the scope of your data. You can add your data to a Symbiota portal as a "live" collection or a "snapshot" (see [this page](/docs/Collection_Manager_Guide/Joining_Existing_Portal/management_types) for more information about management types in Symbiota portals).
+Click the button below to find a list of active Symbiota portals. You will want to select a Symbiota portal that matches the scope of your data. You can add your data to a Symbiota portal as a "live" collection or a "snapshot" (see [this page](/docs/Collection_Manager_Guide/Joining_Portal/management_types) for more information about management types in Symbiota portals).
 
 <Button label="List of Symbiota Portals" link="https://symbiota.org/symbiota-portals/" />
 

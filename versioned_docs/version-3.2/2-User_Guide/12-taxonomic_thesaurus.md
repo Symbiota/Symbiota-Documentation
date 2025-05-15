@@ -25,7 +25,7 @@ Symbiota portals are built with a taxonomic backbone so that:
 
 The curation and accuracy of a portal's taxonomic thesaurus depends largely on the community managing and using the portal. Some portal communities actively curate their taxonomic thesaurus, while others use it largely as a curational tool and update it sparingly. Users interested in helping to curate the taxonomic thesaurus of a portal should contact the portal manager or [help@symbiota.org](mailto:help@symbiota.org).
 
-The taxonomic thesaurus can be edited by superadministrators and users with express Taxonomy Editor permissions (see the [User Permissions](permissions) page for more information).
+The taxonomic thesaurus can be edited by superadministrators and users with express Taxonomy Editor permissions (see the [User Permissions](user_permissions) page for more information).
 
 ### Multiple thesauri
 

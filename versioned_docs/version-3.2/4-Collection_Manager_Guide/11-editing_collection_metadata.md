@@ -10,7 +10,7 @@ keywords: ["collection name","metadata","contact info"]
 
 :::info
 
-This page describes how to change or add contact information or information about your collection (e.g., homepage, collection title, acronym, description). New collections will be asked to complete [this form](https://forms.gle/JcSB35c9wyPxiFPi7) to facilitate the intial setup of your of collection profile; this information can be modified once the profile is established using the instructions below. If you opt to [publish data to GBIF](/docs/Collection_ManagerGuide/Data_Publishing/publishing_gbif), the same metadata provided about your collection will also be shared to GBIF. 
+This page describes how to change or add contact information or information about your collection (e.g., homepage, collection title, acronym, description). New collections will be asked to complete [this form](https://forms.gle/JcSB35c9wyPxiFPi7) to facilitate the intial setup of your of collection profile; this information can be modified once the profile is established using the instructions below. If you opt to [publish data to GBIF](/docs/Collection_Manager_Guide/Data_Publishing/publishing_gbif), the same metadata provided about your collection will also be shared to GBIF. 
 
 :::
 

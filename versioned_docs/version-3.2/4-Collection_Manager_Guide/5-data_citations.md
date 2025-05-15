@@ -13,7 +13,7 @@ import ReactPlayer from "react-player";
 
 :::info
 
-Some citation features will require initial configuration by your portal manager or the Symbiota Support Hub prior to full implementation. [Refer to the relevant portal manager documentation for more information](/symbiota-docs/portal_manager/current_notes/citations/).
+Some citation features will require initial configuration by your portal manager or the Symbiota Support Hub prior to full implementation. [Refer to the relevant portal manager documentation for more information](/docs/Portal_Manager_Guide/Current_Notes/citations/).
 
 :::
  

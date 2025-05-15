@@ -14,7 +14,7 @@ This page provides instructions on how to search for and edit records.
 
 :::
 
-* To batch edit records (only available to collection administrators), visit [this page](/docs/Collection_Manager_Guide/batch_editing_records/).
+* To batch edit records (only available to collection administrators), visit [this page](/docs/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
 * For an overview of fields in the occurrence editor form, visit [this page](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
 * For an explanation of the record editor tabs, visit [this page](/docs/Editor_Guide/Editing_Searching_Records/record_editor_tabs).
 

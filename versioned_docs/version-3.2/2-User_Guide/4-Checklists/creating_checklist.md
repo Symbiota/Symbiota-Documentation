@@ -35,4 +35,4 @@ The "Create a Checklist" permission has been granted for the majority of existin
         5. If you are dissatisfied with your polygon, you can delete or redraw it by clicking the appropriate button on the bottom right. When you are satisifed with your polygon, click the Save Polygon button. 
     * You can decide whether you want to keep this checklist private, or if you want it to be available to the public by selecting Private or Public from the Access dropdown menu.
 
-To add taxa (species) to your list, see the section [Add Taxa to Checklist](add_taxa).
+To add taxa (species) to your list, see the section [Add Taxa to Checklist](adding_taxa).

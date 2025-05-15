@@ -11,7 +11,7 @@ keywords: ["checklist","inventory","flora","games"]
 
 :::info
 
-**This page describes how to use the games features of checklists for educational purposes.** No user permissions or portal login is required to play games created from preexisting, publicly visible checklists. Learn how to create checklists [here](create_checklist). Games created from checklists can be used as study aids.
+**This page describes how to use the games features of checklists for educational purposes.** No user permissions or portal login is required to play games created from preexisting, publicly visible checklists. Learn how to create checklists [here](creating_checklist). Games created from checklists can be used as study aids.
 
 :::
 
@@ -62,9 +62,9 @@ keywords: ["checklist","inventory","flora","games"]
 
 ## Game administration
 ### Checklists
-The species displayed in each game are dependent on the contents of the selected checklist. Editing a checklist requires a portal login and possibly additional permissions depending on who created (owns) the list. You can [add/remove taxa](add_taxa) that display in games by editing checklists, if your account has permission to do so.
+The species displayed in each game are dependent on the contents of the selected checklist. Editing a checklist requires a portal login and possibly additional permissions depending on who created (owns) the list. You can [add/remove taxa](adding_taxa) that display in games by editing checklists, if your account has permission to do so.
 
 ### Images
-If your account has [Taxon Profile Editor permissions](../permissions), you can edit which images display in the flash card quiz by changing the sort order of images in the Taxon Profile Editor, such that the images with a value of "1" will appear first, "2" second, and so on. The default sort value is "50". However, **be aware** that image sorting changes made in the Taxon Profile Editor will affect how the images display across the entire portal--not just within your game.
+If your account has [Taxon Profile Editor permissions](../user_permissions), you can edit which images display in the flash card quiz by changing the sort order of images in the Taxon Profile Editor, such that the images with a value of "1" will appear first, "2" second, and so on. The default sort value is "50". However, **be aware** that image sorting changes made in the Taxon Profile Editor will affect how the images display across the entire portal--not just within your game.
 
 ![Sort Images in the Taxon Profile Editor](/img/games_imagesort.png)
