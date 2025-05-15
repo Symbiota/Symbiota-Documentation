@@ -1,0 +1,42 @@
+{
+  "id": "User Guide/Providing Feedback/suggesting_edits",
+  "title": "Suggesting Edits",
+  "description": "|OVERVIEW|",
+  "source": "@site/versioned_docs/version-1.4.0/User Guide/Providing Feedback/suggesting_edits.md",
+  "sourceDirName": "User Guide/Providing Feedback",
+  "slug": "/User Guide/Providing Feedback/suggesting_edits",
+  "permalink": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/suggesting_edits",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-1.4.0/User Guide/Providing Feedback/suggesting_edits.md",
+  "tags": [],
+  "version": "1.4.0",
+  "frontMatter": {
+    "title": "Suggesting Edits",
+    "date": "2024-04-03T00:00:00.000Z",
+    "lastmod": "2024-05-20T00:00:00.000Z",
+    "weight": 15,
+    "draft": false,
+    "authors": [
+      "Lindsay Walker"
+    ],
+    "editors": [
+      "Katie Pearson"
+    ],
+    "keywords": [
+      "crowdsourcing",
+      "annotations",
+      "comments",
+      "public feedback"
+    ]
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Leaving Comments",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/leaving_comments"
+  },
+  "next": {
+    "title": "User Permissions",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/permissions"
+  }
+}

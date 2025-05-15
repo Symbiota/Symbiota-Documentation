@@ -1,0 +1,22 @@
+{
+  "id": "video_example",
+  "title": "Example with embedded video",
+  "description": "<ReactPlayer",
+  "source": "@site/docs/video_example.mdx",
+  "sourceDirName": ".",
+  "slug": "/video_example",
+  "permalink": "/Symbiota-Documentation/docs/next/video_example",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/video_example.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Example with embedded video"
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Example with downloadable spreadsheet",
+    "permalink": "/Symbiota-Documentation/docs/next/static_doc_example"
+  }
+}

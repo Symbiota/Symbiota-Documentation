@@ -1,0 +1,26 @@
+{
+  "id": "New Feature",
+  "title": "New Feature",
+  "description": "v1.4 has this new feature detailed herein. Yay!",
+  "source": "@site/versioned_docs/version-3.2.0/New Feature.md",
+  "sourceDirName": ".",
+  "slug": "/New Feature",
+  "permalink": "/Symbiota-Documentation/docs/3.2.0/New Feature",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-3.2.0/New Feature.md",
+  "tags": [],
+  "version": "3.2.0",
+  "frontMatter": {
+    "title": "New Feature"
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Adding Records",
+    "permalink": "/Symbiota-Documentation/docs/3.2.0/Editor Guide/AddingRecords"
+  },
+  "next": {
+    "title": "New Feature 2",
+    "permalink": "/Symbiota-Documentation/docs/3.2.0/New Feature2"
+  }
+}

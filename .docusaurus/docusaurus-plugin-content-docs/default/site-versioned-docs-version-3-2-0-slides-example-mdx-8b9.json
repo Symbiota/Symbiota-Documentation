@@ -1,0 +1,26 @@
+{
+  "id": "slides_example",
+  "title": "Example with embedded slides",
+  "description": "<iframe",
+  "source": "@site/versioned_docs/version-3.2.0/slides_example.mdx",
+  "sourceDirName": ".",
+  "slug": "/slides_example",
+  "permalink": "/Symbiota-Documentation/docs/3.2.0/slides_example",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-3.2.0/slides_example.mdx",
+  "tags": [],
+  "version": "3.2.0",
+  "frontMatter": {
+    "title": "Example with embedded slides"
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "About",
+    "permalink": "/Symbiota-Documentation/docs/3.2.0/about"
+  },
+  "next": {
+    "title": "Example with embedded video",
+    "permalink": "/Symbiota-Documentation/docs/3.2.0/video_example"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "static_doc_example",
+  "title": "Example with downloadable spreadsheet",
+  "description": "Download Spreadsheet",
+  "source": "@site/docs/static_doc_example.mdx",
+  "sourceDirName": ".",
+  "slug": "/static_doc_example",
+  "permalink": "/Symbiota-Documentation/docs/next/static_doc_example",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/static_doc_example.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Example with downloadable spreadsheet"
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Example with embedded slides",
+    "permalink": "/Symbiota-Documentation/docs/next/slides_example"
+  },
+  "next": {
+    "title": "Example with embedded video",
+    "permalink": "/Symbiota-Documentation/docs/next/video_example"
+  }
+}

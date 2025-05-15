@@ -1,0 +1,42 @@
+{
+  "id": "User Guide/Checklists/games_checklist",
+  "title": "Games in Checklists",
+  "description": "|OVERVIEW|",
+  "source": "@site/versioned_docs/version-3.2.0/User Guide/Checklists/games_checklist.md",
+  "sourceDirName": "User Guide/Checklists",
+  "slug": "/User Guide/Checklists/games_checklist",
+  "permalink": "/Symbiota-Documentation/docs/3.2.0/User Guide/Checklists/games_checklist",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-3.2.0/User Guide/Checklists/games_checklist.md",
+  "tags": [],
+  "version": "3.2.0",
+  "frontMatter": {
+    "title": "Games in Checklists",
+    "date": "2022-04-08T00:00:00.000Z",
+    "lastmod": "2024-12-11T00:00:00.000Z",
+    "authors": [
+      "Lindsay Walker"
+    ],
+    "editors": [
+      "Katie Pearson"
+    ],
+    "draft": false,
+    "weight": 48,
+    "keywords": [
+      "checklist",
+      "inventory",
+      "flora",
+      "games"
+    ]
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Exporting Checklist Reports",
+    "permalink": "/Symbiota-Documentation/docs/3.2.0/User Guide/Checklists/exporting_checklist_report"
+  },
+  "next": {
+    "title": "Splitting Checklists",
+    "permalink": "/Symbiota-Documentation/docs/3.2.0/User Guide/Checklists/splitting_checklist"
+  }
+}

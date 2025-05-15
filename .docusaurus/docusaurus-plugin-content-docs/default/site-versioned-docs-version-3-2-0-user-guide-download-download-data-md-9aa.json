@@ -1,0 +1,36 @@
+{
+  "id": "User Guide/Download/download_data",
+  "title": "Downloading Data",
+  "description": "Downloading data from Symbiota portals can easily be done from a public search.",
+  "source": "@site/versioned_docs/version-3.2.0/User Guide/Download/download_data.md",
+  "sourceDirName": "User Guide/Download",
+  "slug": "/User Guide/Download/download_data",
+  "permalink": "/Symbiota-Documentation/docs/3.2.0/User Guide/Download/download_data",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-3.2.0/User Guide/Download/download_data.md",
+  "tags": [],
+  "version": "3.2.0",
+  "frontMatter": {
+    "title": "Downloading Data",
+    "date": "2021-11-12T00:00:00.000Z",
+    "lastmod": "2024-01-26T00:00:00.000Z",
+    "draft": false,
+    "weight": 40,
+    "authors": [
+      "Katie Pearson"
+    ],
+    "keywords": [
+      "download"
+    ]
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Editing Datasets",
+    "permalink": "/Symbiota-Documentation/docs/3.2.0/User Guide/Datasets/edit_dataset"
+  },
+  "next": {
+    "title": "Downloading Images",
+    "permalink": "/Symbiota-Documentation/docs/3.2.0/User Guide/Download/download_images"
+  }
+}

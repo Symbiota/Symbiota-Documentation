@@ -1,0 +1,35 @@
+{
+  "id": "User Guide/Providing Feedback/contacting_collection",
+  "title": "Contacting a Collection",
+  "description": "To contact the collections manager or curator of a collection, visit the Collection Details page of that collection by doing the following:",
+  "source": "@site/versioned_docs/version-3.2/User Guide/Providing Feedback/contacting_collection.md",
+  "sourceDirName": "User Guide/Providing Feedback",
+  "slug": "/User Guide/Providing Feedback/contacting_collection",
+  "permalink": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/contacting_collection",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-3.2/User Guide/Providing Feedback/contacting_collection.md",
+  "tags": [],
+  "version": "3.2",
+  "frontMatter": {
+    "title": "Contacting a Collection",
+    "date": "2023-04-19T00:00:00.000Z",
+    "authors": [
+      "Katie Pearson, Lindsay Walker"
+    ],
+    "draft": false,
+    "weight": 10,
+    "keywords": [
+      "contact"
+    ]
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Providing Feedback",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/"
+  },
+  "next": {
+    "title": "Leaving Comments",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Providing Feedback/leaving_comments"
+  }
+}

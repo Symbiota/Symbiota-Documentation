@@ -1,0 +1,24 @@
+{
+  "id": "ppt_embed",
+  "title": "ppt_embed",
+  "description": "// If absolute URL from the remote server is provided, configure the CORS",
+  "source": "@site/docs/ppt_embed.mdx",
+  "sourceDirName": ".",
+  "slug": "/ppt_embed",
+  "permalink": "/Symbiota-Documentation/docs/next/ppt_embed",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ppt_embed.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "About",
+    "permalink": "/Symbiota-Documentation/docs/next/about"
+  },
+  "next": {
+    "title": "Example with embedded slides",
+    "permalink": "/Symbiota-Documentation/docs/next/slides_example"
+  }
+}

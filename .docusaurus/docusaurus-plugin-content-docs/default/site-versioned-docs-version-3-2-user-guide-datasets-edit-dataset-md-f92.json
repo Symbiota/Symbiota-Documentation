@@ -1,0 +1,37 @@
+{
+  "id": "User Guide/Datasets/edit_dataset",
+  "title": "Editing Datasets",
+  "description": "|OVERVIEW|",
+  "source": "@site/versioned_docs/version-3.2/User Guide/Datasets/edit_dataset.md",
+  "sourceDirName": "User Guide/Datasets",
+  "slug": "/User Guide/Datasets/edit_dataset",
+  "permalink": "/Symbiota-Documentation/docs/User Guide/Datasets/edit_dataset",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-3.2/User Guide/Datasets/edit_dataset.md",
+  "tags": [],
+  "version": "3.2",
+  "frontMatter": {
+    "title": "Editing Datasets",
+    "date": "2022-05-20T00:00:00.000Z",
+    "lastmod": "2022-05-20T00:00:00.000Z",
+    "authors": [
+      "Katie Pearson"
+    ],
+    "draft": false,
+    "weight": 10,
+    "keywords": [
+      "dataset",
+      "inventory"
+    ]
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Creating Datasets",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Datasets/create_dataset"
+  },
+  "next": {
+    "title": "Downloading Data",
+    "permalink": "/Symbiota-Documentation/docs/User Guide/Download/download_data"
+  }
+}

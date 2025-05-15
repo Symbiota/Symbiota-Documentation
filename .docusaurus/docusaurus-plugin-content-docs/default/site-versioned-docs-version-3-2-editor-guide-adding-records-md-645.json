@@ -1,0 +1,32 @@
+{
+  "id": "Editor Guide/AddingRecords",
+  "title": "Adding Records",
+  "description": "There are several ways to add occurrence records, depending on your level of permissions. Editors can add specimens as skeletal records, as full records, and by uploading an image.",
+  "source": "@site/versioned_docs/version-3.2/Editor Guide/AddingRecords.md",
+  "sourceDirName": "Editor Guide",
+  "slug": "/Editor Guide/AddingRecords",
+  "permalink": "/Symbiota-Documentation/docs/Editor Guide/AddingRecords",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-3.2/Editor Guide/AddingRecords.md",
+  "tags": [],
+  "version": "3.2",
+  "frontMatter": {
+    "title": "Adding Records",
+    "date": "2021-10-22T00:00:00.000Z",
+    "draft": false,
+    "weight": 5,
+    "authors": [
+      "Katie Pearson"
+    ],
+    "keywords": [
+      "add",
+      "create"
+    ]
+  },
+  "sidebar": "docSidebar",
+  "next": {
+    "title": "New Feature",
+    "permalink": "/Symbiota-Documentation/docs/New Feature"
+  }
+}
