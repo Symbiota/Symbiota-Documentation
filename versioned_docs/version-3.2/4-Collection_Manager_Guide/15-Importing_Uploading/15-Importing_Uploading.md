@@ -56,7 +56,7 @@ Conversely, a **Skeletal File Upload** will only import data into fields that ar
 
 ![Example of Data Upload Module](/img/DataUploadModule.png)
 
-8. Select which fields in your CSV file (**Source Fields**) will correspond to which fields in the Symbiota portal (**Target Fields**). Check the [Symbiota Data Field Guide](/docs/Collection_Manager_Guide/Uploading_Importing/data_import_fields) for definitions of each data field. Also see the **Uploading Tips** section below.
+8. Select which fields in your CSV file (**Source Fields**) will correspond to which fields in the Symbiota portal (**Target Fields**). Check the [Symbiota Data Field Guide](/docs/Collection_Manager_Guide/Importing_Uploading/data_import_fields) for definitions of each data field. Also see the **Uploading Tips** section below.
 9. Once you are satisfied with your field-to-field mapping (see next Notes), click the “Save Mapping” button.
 10. Select whether you would like the script to match the data in your file to existing data in the portal based on Catalog Number or Other Catalog Numbers. You will only need to do this if you are adding data to records that already exist in the portal. Otherwise, leave these unchecked.
 11. Select the Processing Status that you would like to apply to all your uploaded records (if desired) by selecting an option from the dropdown menu.
@@ -85,7 +85,7 @@ If you have already created an import profile, or if you have been instructed to
 
 ![Darwin Core Import Profile Mapping Page](/img/dwc_import_profile.JPG)
 
-8. Because the incoming file is aligned with Darwin Core, you will not likely need to change the mappings of this file. However, it is a good idea to check the fields. Check the [Symbiota Data Field Guide](/docs/Collection_Manager_Guide/Uploading_Importing/data_import_fields) for definitions of each data field. Also see the **Uploading Tips** section below.
+8. Because the incoming file is aligned with Darwin Core, you will not likely need to change the mappings of this file. However, it is a good idea to check the fields. Check the [Symbiota Data Field Guide](/docs/Collection_Manager_Guide/Importing_Uploading/data_import_fields) for definitions of each data field. Also see the **Uploading Tips** section below.
 
 9. Once you are satisfied with your field-to-field mapping, click the “Save Mapping” button.
 10. If you want all the incoming data to be assigned a specific processing status, select that processing status value from the dropdown menu. If not, leave the processing status as "Leave as is / No Explicit Setting".
@@ -118,7 +118,7 @@ The same cautions as a manual Darwin Core Archive upload apply to this upload ty
 
 :::tip
 
-A list of fields that can be imported into a Symbiota data portal can be [found here](/docs/Collection_Manager_Guide/Uploading_Importing/data_import_fields).
+A list of fields that can be imported into a Symbiota data portal can be [found here](/docs/Collection_Manager_Guide/Importing_Uploading/data_import_fields).
 
 :::
 

@@ -348,7 +348,7 @@ The language of the label information or record<br></br>
 See Darwin Core's [language](https://dwc.tdwg.org/terms/#dwc:language)
 
 ### Label Project
-This field is used to group records from a specific project or category. Once a value is entered in this field, all records with that same value can be printed at one time using the [batch label printing tools](/docs/Editor_Guide/label_customization)<br></br>
+This field is used to group records from a specific project or category. Once a value is entered in this field, all records with that same value can be printed at one time using the [batch label printing tools](/docs/Editor_Guide/Label_Customization)<br></br>
 **Examples:** Plants of Sedona 2012<br></br>
 This field does not map the Darwin Core and is excluded from Darwin Core Archive exports.
 

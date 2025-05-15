@@ -10,7 +10,7 @@ keywords: ["data upload","data import","determinations", "annotations"]
 
 :::info
 
-This page provides instructions for bulk uploading specimen determinations/annotations and associating them with their respective specimen records. For instructions for adding individual determinations or the batch annotation tool, see [this page](/docs/Editor_Guide/Editing_Searching_records/annotations/). This tool can only be accessed by a superadministrator.
+This page provides instructions for bulk uploading specimen determinations/annotations and associating them with their respective specimen records. For instructions for adding individual determinations or the batch annotation tool, see [this page](/docs/Editor_Guide/Editing_Searching_Records/annotations/). This tool can only be accessed by a superadministrator.
 
 :::
 

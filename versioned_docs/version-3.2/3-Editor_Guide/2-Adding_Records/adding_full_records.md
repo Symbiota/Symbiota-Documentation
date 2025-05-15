@@ -16,7 +16,7 @@ Navigate to your Data Editor Control Panel (My Profile > Occurrence Management >
 
 :::tip
 
-  To learn more about the data fields available in Symbiota, visit [this page](/docs/Editor_Guide/editing_searching_records/symbiota_data_fields).
+  To learn more about the data fields available in Symbiota, visit [this page](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
 
 :::
 

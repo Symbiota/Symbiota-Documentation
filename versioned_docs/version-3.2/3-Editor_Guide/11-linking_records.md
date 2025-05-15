@@ -84,7 +84,7 @@ You can click the underlined portion of the occurrence search results to view th
 
 :::tip
 
-To batch link vouchers to a checklist, see the [Adding Vouchers to Checklist page](/docs/User_Guide/Checklist/adding_vouchers).
+To batch link vouchers to a checklist, see the [Adding Vouchers to Checklist page](/docs/User_Guide/Checklists/adding_vouchers).
 
 :::
 
