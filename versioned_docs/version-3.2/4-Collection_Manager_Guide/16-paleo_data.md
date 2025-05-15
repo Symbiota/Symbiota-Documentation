@@ -52,13 +52,13 @@ At present, the default value for [_basisOfRecord_](https://dwc.tdwg.org/terms/#
  ![Paleo Module for Symbiota Portals](/img/paleo_basisofrecord.png)
 
  ## Fossil Localities/Sites
- At present, locality (site) data are entered at the specimen occurence level--i.e., on a record-by-record basis--in Symbiota portals. Locality data are also **publicly visible by default**. Refer to the documentation on [locality redaction](/docs/Collection%20Manager%20Guide/Data%20Publishing/redacting_obscuring_data) for instructions on how to obscure this information for sensitive localities.
+ At present, locality (site) data are entered at the specimen occurence level--i.e., on a record-by-record basis--in Symbiota portals. Locality data are also **publicly visible by default**. Refer to the documentation on [locality redaction](/docs/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data) for instructions on how to obscure this information for sensitive localities.
  
  ## Extinct Taxa
  Extinct taxa are supported in Symbiota. Refer to the [Taxonomy Tree Viewer](https://www.pteridoportal.org/portal/taxa/taxonomy/taxonomydisplay.php) in Pteridoportal for [examples](https://www.pteridoportal.org/portal/taxa/index.php?taxon=66863).
  
  ## Data Publishing Considerations
-At present, while Symbiota supports paleontological data, including the Darwin Core Class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext), values in these fields do not export within Darwin Core archives when [published to GBIF](/docs/Collection%20Manager%20Guide/Data%20Publishing/) via Symbiota portals. However, this information can be exported as part of a [backup file](/docs/Collection%20Manager%20Guide/Downloading/downloading_copy).
+At present, while Symbiota supports paleontological data, including the Darwin Core Class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext), values in these fields do not export within Darwin Core archives when [published to GBIF](/docs/Collection_Manager_Guide/Data_Publishing/) via Symbiota portals. However, this information can be exported as part of a [backup file](/docs/Collection_Manager_Guide/Downloading/downloading_copy).
 
 ## Printing Labels
 Similar to data publishing, values in the Darwin Core Class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext) are not currently available within the label editor's visual interface. [Contact](https://symbiota.org/contact-the-support-hub/) the Symbiota Support Hub if you need assistance with [creating customized labels](/docs/Editor_Guide/Label_Customization) that include paleo-related data fields.

@@ -18,7 +18,7 @@ This page describes how to batch edit records.
 
 :::warning
 
-Exercise caution when using this tool. We strongly recommend [downloading a copy of your database](/docs/Collection%20Manager%20Guide/Downloading/downloading_copy) prior to making batch edits
+Exercise caution when using this tool. We strongly recommend [downloading a copy of your database](/docs/Collection_Manager_Guide/Downloading/downloading_copy) prior to making batch edits
 
 :::
 
