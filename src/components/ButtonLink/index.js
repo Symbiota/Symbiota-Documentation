@@ -1,3 +1,4 @@
+// h/t chatGTP
 import React from "react";
 import clsx from "clsx";
 import useBaseUrl from "@docusaurus/useBaseUrl";
@@ -25,8 +26,6 @@ const ButtonLink = ({
 
   const buttonSize = size ? sizeMap[size] : "";
   const sizeClass = buttonSize ? `button--${buttonSize}` : "";
-  console.log("deleteMe sizeClass is: ");
-  console.log(sizeClass);
   const outlineClass = outline ? "button--outline" : "";
   const variantClass = variant ? `button--${variant}` : "";
   const blockClass = block ? "button--block" : "";
@@ -40,8 +39,6 @@ const ButtonLink = ({
     disabledClass,
     className
   );
-  console.log("deleteMe allClasses is: ");
-  console.log(allClasses);
 
   const handleClick = (e) => {
     if (disabled) {
