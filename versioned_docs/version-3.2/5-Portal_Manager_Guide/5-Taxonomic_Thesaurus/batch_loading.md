@@ -9,7 +9,7 @@ weight: 10
 keywords: ["taxonomy","taxonomic thesaurus"]
 ---
 
-import Button from '@site/src/components/Button';
+import ButtonLink from '@site/src/components/ButtonLink';
 
 :::info
 
@@ -42,7 +42,12 @@ However, if the higher taxonomy for this name does not already exist in your por
 | genus | Buccinidae | Buccinum | Buccinidae | | 180 |
 | species | Buccinum | Buccinum polaris | Buccinidae | Gray, 1839 | 220 |
 
-<Button label="Download Example CSV" link="/documents/Fresh_Symbiota_Install_Animalia_Sample_Taxonomy_2023-06-21.csv" />
+<ButtonLink
+  link="/documents/Fresh_Symbiota_Install_Animalia_Sample_Taxonomy_2023-06-21.csv"
+  label="Download Example Template"
+  download={true}
+  style={{marginBottom: '2vh'}}
+/>
 
 ### Tips for preparing your input file
 - **Parent taxa must already exist in the portal's thesaurus or be included in the input file.** As an alternative to a parent taxon column, as shown above, the input file can contain columns for the core hierarchy that is defined within the _taxonunits_ table (e.g. kingdom, division, class, subclass, order, family, etc).

@@ -9,6 +9,7 @@ keywords: ["edit","fields","data fields", "terms", "dwc terms", "paleontology fi
 ---
 
 import Button from '@site/src/components/Button';
+import ButtonLink from '@site/src/components/ButtonLink';
 
 The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.org/standards/dwc/" target="_blank" rel="noopener noreferrer">Darwin Core</a> data exchange standard. For more details, links to the Darwin Core definitions are supplied for each term. Learn more about Darwin Core terms in the following TDWG pages:
 - [TDWG - Darwin Core quick reference guide](https://dwc.tdwg.org/terms/)
@@ -24,8 +25,12 @@ Fields listed here differ from the fields visible in the data uploading tools. F
   Since portals have the ability to customize the field names found on their data entry form, field names may differ from the core field definition and how it is mapped to Darwin Core export tools.
 :::
 
-<Button label="Download full content as a CSV" link="/docs/documents/SymbiotaDataFields_202111.csv" />
-<Button label="See full content as a CSV" link="/docs/documents/SymbiotaDataFields_202111.csv" />
+<ButtonLink
+  link="documents/SymbiotaDataFields_202111.csv"
+  label="Download full content as a CSV"
+  download={true}
+  style={{marginBottom: '2vh'}}
+/>
 
 ## Standard Fields
 
