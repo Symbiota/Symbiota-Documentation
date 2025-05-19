@@ -6,8 +6,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Symbiota Docs',
-  tagline: 'Growing archive of help files for one of the most popular Natural History content management systems',
-  favicon: 'img/favicon.ico',
+  tagline: 'Growing archive of help pages for one of the most popular biodiversity collection management and aggregation systems',
+  favicon: 'img/miniSymbiotaLogo.jpg',
 
   // Set the production url of your site here
   url: 'https://symbiota.github.io',
@@ -29,7 +29,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'es', 'fr', 'pt'],
+    locales: ['en', 'es'],
   },
 
   presets: [
@@ -42,7 +42,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Symbiota/Symbiota-Documentation/tree/main',
         },
         blog: {
           showReadingTime: true,
@@ -53,7 +53,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Symbiota/Symbiota-Documentation/tree/main',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -68,12 +68,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/LogoSymbiotaPNG.png',
     navbar: {
       title: 'Symbiota Docs',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Symbiota Logo',
+        src: 'img/LogoSymbiotaPNG.png',
       },
       items: [
         {
@@ -92,14 +92,14 @@ const config: Config = {
           position: 'left',
           items: [
             {
-              label: 'v3.2',
+              label: '3.2',
               to: 'docs/Collector_Observer_Guide/'
             }
           ]
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/Symbiota/Symbiota-Documentation',
+          href: 'https://github.com/Symbiota/Symbiota-Documentation/tree/main',
           label: 'GitHub',
           position: 'right',
         },
@@ -148,7 +148,7 @@ const config: Config = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Symbiota Support Hub. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
