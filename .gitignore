@@ -13,3 +13,4 @@ build/
 .docusaurus/routesChunkNames.json
 .docusaurus/site-metadata.json
 .docusaurus/site-storage.json
+.docusaurus
