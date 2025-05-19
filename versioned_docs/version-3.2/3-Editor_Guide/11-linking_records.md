@@ -65,7 +65,7 @@ You can click the underlined portion of the occurrence search results to view th
 
 **Occurrence - External Link:** a link to an occurrence (specimen/observation) that is available in another data portal / database (e.g., another Symbiota portal, GBIF, Arctos, etc.). 
 
-1. Complete the same steps 1-7 from "[Occurrence - Internal](/docs/Editor_Guide/linking_records#linking-an-occurrence-to-a-record-within-the-portal-occurrence---internal-this-portal)", as applicable, but select "Occurrence - External Link" from the **Association Type** dropdown menu.
+1. Complete the same steps 1-7 from "[Occurrence - Internal](/docs/Editor_Guide/linking_records#linking-to-a-record-within-the-same-portal)", as applicable, but select "Occurrence - External Link" from the **Association Type** dropdown menu.
 2. In the **Resource URL** field, enter the URL/link to the external resource that you would like to link to your occurrence.  For example, here is a URL for a records from the Bryophyte Portal that could be entered: [https://bryophyteportal.org/portal/collections/individual/index.php?occid=4595185](https://bryophyteportal.org/portal/collections/individual/index.php?occid=4595185).
 3. (Optional) In the **Additional Identifier of Object** field, enter any unique identifier that belongs to the occurrence object that you are linking to your occurrence subject.
 4. (Optional) In the **Verbatim Scientific Name** field, enter the name of the taxon represented by your external resource that you would like to link to your occurrence.
@@ -75,7 +75,7 @@ You can click the underlined portion of the occurrence search results to view th
 
 **Taxon Observation:** the assertion of a taxon being associated with the occurrence you are linking to. This may be, for example, the host taxon of the occurrence, a parasite, a taxon sharing the same habitat, etc.
 
-1. Complete the same steps 1-7 from "[Occurrence - Internal](/docs/Editor_Guide/linking_records#linking-an-occurrence-to-a-record-within-the-portal-occurrence---internal-this-portal)", as applicable, but select "Taxon Observation" from the **Association Type** dropdown menu.
+1. Complete the same steps 1-7 from "[Occurrence - Internal](/docs/Editor_Guide/linking_records#linking-to-a-record-within-the-same-portal)", as applicable, but select "Taxon Observation" from the **Association Type** dropdown menu.
 2. In the **Verbatim Scientific Name** field, enter the name of the taxon that you would like to link to your occurrence.
 3. Click the Create Association button.
 

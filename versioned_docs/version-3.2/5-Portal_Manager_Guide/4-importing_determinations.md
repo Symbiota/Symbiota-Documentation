@@ -82,4 +82,4 @@ Not all fields available through the Extended Data Importer for bulk determinati
 | [**sourceIdentifier**](https://dwc.tdwg.org/terms/#dwc:identificationID) | Text (45) | An identifier for the Identification (the body of information associated with the assignment of a scientific name). May be a global unique identifier or an identifier specific to the data set. |
 | [**taxonConceptID**](https://dwc.tdwg.org/terms/#dwc:taxonConceptID) | Text (45) | An identifier for the taxonomic concept to which the determination refers. |
 | [**taxonRemarks**](https://dwc.tdwg.org/terms/#dwc:taxonRemarks) | Text (2000) | Any additional notes regarding the taxonomic name to which the specimen was identified. |
-| [**verbatimIdentification**]((https://dwc.tdwg.org/terms/#dwc:verbatimIdentification)) | Text (250) | A string representing the taxonomic identification as it appeared in the original record. |
+| [**verbatimIdentification**](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification) | Text (250) | A string representing the taxonomic identification as it appeared in the original record. |

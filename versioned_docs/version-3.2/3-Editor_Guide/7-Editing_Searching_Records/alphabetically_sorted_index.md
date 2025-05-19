@@ -19,7 +19,7 @@ Click each field to see a full definition and examples.
 - [Biostratigraphy (Biozone)](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#biostratigraphy-biozone)
 - [Biota (Flora/Fauna)](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#biota-florafauna)
 - [Catalog Number](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#catalog-number)
-- [Collection Code](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#collection-code)
+- [Collection Code](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#collection-code-override)
 - [Collector](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#collector)
 - [Continent](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#continent)
 - [Country](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#country)

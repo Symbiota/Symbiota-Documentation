@@ -55,7 +55,7 @@ The available **Relationship Type** values are defined per portal and ideally co
 
 The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (catalog number, other catalog number, or occurrenceID),  and (2) resourceUrl. The resourceUrl should be a link to the external resource that you would like to be associated with your records.
 
-Optional fields ([defined below](/docs/Collection_Manager_Guide/Importing_Uploading/linked_resources#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, object identifier (catalog number, occurrenceID, or occid), and relationshipID.
+Optional fields ([defined below](/docs/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, object identifier (catalog number, occurrenceID, or occid), and relationshipID.
 
 ##### 2. "Occurrence - Internal (this portal)" Uploads
 
