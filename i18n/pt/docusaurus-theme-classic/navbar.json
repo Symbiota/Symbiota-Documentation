@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Symbiota Docs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Symbiota Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Versions": {
+    "message": "Versions",
+    "description": "Navbar item with label Versions"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.3.2": {
+    "message": "3.2",
+    "description": "Navbar item with label 3.2"
+  }
+}
