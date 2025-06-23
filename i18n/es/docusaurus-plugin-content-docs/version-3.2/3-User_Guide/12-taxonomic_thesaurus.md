@@ -5,21 +5,21 @@ authors: ["Katie Pearson"]
 translators: ["Samanta Orellana"]
 draft: false
 weight: 111
-keywords: ["tesauro","nombres científicos","taxonomía"]
+keywords: ["tesauro", "nombres científicos", "taxonomía"]
 ---
 
-{{< notice info >}}
-   Esta página describe el uso del tesauro taxonómico en los portales Symbiota.
-{{</ notice >}}
+:::info
+Esta página describe el uso del tesauro taxonómico en los portales Symbiota.
+:::
 
 Mientras proveen datos básicos para la ciencia de la taxonomía, los portales Symbiota no están diseñados para ser recursos taxonómicos. Otros recursos seguramente estarán más actualizados y curados cuidadosamente que los portales Symbiota, que están diseñados para el descubrimiento y curación de datos más que para la precisión taxonómica.
 
 Los portales Symbiota están construidos con un esqueleto o tesauro taxonómico para que:
+
 1. Los usuarios puedan realizar búsquedas para ocurrencias de un taxón, y que los sinónimos de ese taxón sean incluidas en los resultados de la búsqueda.
-2. Los taxa puedan ser vinculados jerárquicamente para que la búsqueda de taxa superiores (e.g., familias) resulte en listados incluyendo los taxa inferiores (e.g., especies) 
+2. Los taxa puedan ser vinculados jerárquicamente para que la búsqueda de taxa superiores (e.g., familias) resulte en listados incluyendo los taxa inferiores (e.g., especies)
 3. El personal de entrada de datos pueda seleccionar nombres taxonómicos de una lista en lugar de escribir nombres completos en latín.
 4. Los nombres de las familias y los autores puedan ser agregados automáticamente para ocurrencias con nombres científicos.
-
 
 ### Curación de la Información Taxonómica
 

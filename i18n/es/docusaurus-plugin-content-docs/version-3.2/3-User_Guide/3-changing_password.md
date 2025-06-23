@@ -5,7 +5,7 @@ authors: ["Katie Pearson"]
 translators: ["Samanta Orellana"]
 draft: false
 weight: 29
-keywords: ["contraseña","perfil"]
+keywords: ["contraseña", "perfil"]
 ---
 
 Para cambiar su contraseña, usuario, o alguna otra información personal en un portal Symbiota:
@@ -14,12 +14,12 @@ Para cambiar su contraseña, usuario, o alguna otra información personal en un 
 2. Navegue a Mi Perfil.
 3. Haga click en la pestaña de Perfil del Usuario.
 4. A partir de aquí, utilice los enlaces en negritas para:
-      * **Editar Perfil**: cambiar nombres, apellidos, correo electrónico, ORCID, título, institución o dirección
-      * **Cambiar Contraseña**: ingresar su contraseña actual, seguida por su contraseña nueva dos veces
-      * **Cambiar Usuario**: ingresar un nuevo usuario, seguido por su contraseña actual para confirmar
-      * **Manejar Acceso**: aquí puede limpiar sus tokens de acceso, que son como "rutas" para editar datos en su nombre en el portal. Si el número parece alto, puede limpiar estos tokens de acceso. Esto requerirá que ingrese su usuario y contraseña nuevamente al conectarse de cualquier computadora o dispositivo.
+   - **Editar Perfil**: cambiar nombres, apellidos, correo electrónico, ORCID, título, institución o dirección
+   - **Cambiar Contraseña**: ingresar su contraseña actual, seguida por su contraseña nueva dos veces
+   - **Cambiar Usuario**: ingresar un nuevo usuario, seguido por su contraseña actual para confirmar
+   - **Manejar Acceso**: aquí puede limpiar sus tokens de acceso, que son como "rutas" para editar datos en su nombre en el portal. Si el número parece alto, puede limpiar estos tokens de acceso. Esto requerirá que ingrese su usuario y contraseña nuevamente al conectarse de cualquier computadora o dispositivo.
 
-![página de Perfil de Usuario](/symbiota-docs/images/UserProfile.PNG)
+![página de Perfil de Usuario](/img/UserProfile.PNG)
 
 ### Restableciendo su Contraseña
 
