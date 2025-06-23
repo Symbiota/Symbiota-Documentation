@@ -3,7 +3,7 @@ title: "Collection Statistics"
 date: 2021-11-30
 authors: ["Katie Pearson"]
 weight: 4
-keywords: ["statistics","number of specimens","reports"]
+keywords: ["statistics", "number of specimens", "reports"]
 ---
 
 :::info
@@ -21,14 +21,15 @@ Collection statistics are generated on command and are not created "on the fly".
 :::
 
 Statistics relating to the number of specimens, images, georeferences, and taxa within a collection can be found on that collection's Collection Profile page. An example collection profile is shown in the screenshot below and can be found [here](https://cch2.org/portal/collections/misc/collprofiles.php?collid=12). The collection statistics are found at the bottom of the page and include:
-* Number of total records
-* Number of records that are georeferenced
-* Number of records that have associated media
-* Total number of media resources in the collection
-* Number of specimens that are identified at least to the level of species
-* Number of families, genera, species, and total taxa that represented in the collection (NOTE: these numbers are calculated using only taxonomic names that have been indexed to the taxonomic thesaurus)
 
-![Collection Profile Page](/img/collprofile.PNG)
+- Number of total records
+- Number of records that are georeferenced
+- Number of records that have associated media
+- Total number of media resources in the collection
+- Number of specimens that are identified at least to the level of species
+- Number of families, genera, species, and total taxa that represented in the collection (NOTE: these numbers are calculated using only taxonomic names that have been indexed to the taxonomic thesaurus)
+
+![Collection Profile Page](/img/collprofile.png)
 
 Collection profiles can be accessed by visiting the Collection Search Page (click Search Collections) at the following URL: [BASE URL]/collections/index.php. For example, for the CCH2 portal, the full URL is https://cch2.org/portal/collections/index.php.
 
@@ -44,4 +45,4 @@ To view statistics regarding the processing statuses in your collection, navigat
 
 This page will also show you how many of your occurrences do not have linked media resources and how many lack skeletal data (i.e., a value in the Scientific Name field).
 
-![Reports Tab in Processing Toolbox](/img/reportstab.PNG)
+![Reports Tab in Processing Toolbox](/img/reportstab.png)

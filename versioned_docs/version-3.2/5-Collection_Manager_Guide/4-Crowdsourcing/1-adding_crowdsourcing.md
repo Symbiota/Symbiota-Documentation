@@ -4,7 +4,7 @@ date: 2021-10-11
 weight: 3
 draft: false
 authors: ["Katie Pearson"]
-keywords: ["crowdsourcing","volunteer","citizen science","community science"]
+keywords: ["crowdsourcing", "volunteer", "citizen science", "community science"]
 ---
 
 :::info
@@ -33,7 +33,7 @@ Don't see a Crowdsourcing tab? Crowdsourcing may not be enabled in your portal. 
 
 4. On the resulting page, you will see tallies of how many records are in the queue, how many have been processed, and how many could be added to the queue. Click the Add to Queue button to see additional options for refining which specimens you will include in the queue (shown in screenshot below).
 
-![Add Specimens to Crowdsourcing Queue](/img/crowdsourcing2.PNG)
+![Add Specimens to Crowdsourcing Queue](/img/crowdsourcing2.png)
 
 :::tip
 
@@ -42,5 +42,5 @@ You can't conduct a search for values that don't exist! Many "unprocessed" recor
 :::
 
 5. Define how many specimens you will add to the queue at one time by modifying the number in the Record Limit field.
-      * It is recommended to not add many thousands of records to the queue at one time. Too many records may leave your crowdsourcers feeling hopeless to finish the task!
+   - It is recommended to not add many thousands of records to the queue at one time. Too many records may leave your crowdsourcers feeling hopeless to finish the task!
 6. Click the Add to Queue button.

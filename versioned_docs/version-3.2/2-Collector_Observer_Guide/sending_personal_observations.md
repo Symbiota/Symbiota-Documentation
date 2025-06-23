@@ -4,12 +4,12 @@ date: 2022-11-29
 weight: 3
 draft: false
 authors: ["Katie Pearson"]
-keywords: ["transfer","export"]
+keywords: ["transfer", "export"]
 ---
 
 :::info
 
- This page describes how a collector or other personal observation profile editor can transfer or send their data to a collection
+This page describes how a collector or other personal observation profile editor can transfer or send their data to a collection
 
 :::
 
@@ -24,6 +24,7 @@ Once your specimen data are entered into the Symbiota portal, if the collection 
 Use this option if you would like to send a copy of a lot of data to another collection, rather than transferring the data to the collection (and removing it from your own).
 
 If you are sending data for a great number of specimens, or if the collection to which you are sending the data is not "live-managed" in the portal, you may want to send your data as a CSV file. To do this:
+
 1. Navigate to your collection profile by logging into the Symbiota portal and clicking My Profile > Occurrence Management tab.
 2. Click "Download backup file (CSV extract)" in the top box of this tab.
 3. Remove all the specimens that you do not wish to send from this CSV (e.g., by sorting by date or location in Excel).
@@ -41,10 +42,8 @@ To transfer a specimen from your personal observation profile, you must have adm
 
 2. From the dropdown menu, select the name of the collection to which you would like to transfer your record. **This action will remove the specimen from your personal observation profile!**
 
-![Transferring a specimen between collections](/img/transferspecimen.PNG)
-
+![Transferring a specimen between collections](/img/transferspecimen.png)
 
 ### Batch transferring specimens from a personal profile to a collection
 
 Contact your portal administrator to batch transfer many specimens from your personal observation profile to another collection in the portal.
-

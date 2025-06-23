@@ -14,4 +14,4 @@ After [conducting a search](/docs/User_Guide/searching_records), click the downl
 
 This is usually displayed at the top right corner of the page, as shown below:
 
-![Search Results Example](/img/search3.PNG)
+![Search Results Example](/img/search3.png)

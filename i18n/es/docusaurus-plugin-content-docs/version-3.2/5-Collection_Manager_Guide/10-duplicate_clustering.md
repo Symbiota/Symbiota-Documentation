@@ -5,7 +5,7 @@ draft: false
 weight: 58
 authors: ["Katie Pearson"]
 translators: ["Samanta Orellana"]
-keywords: ["duplicados","especímenes duplicados"]
+keywords: ["duplicados", "especímenes duplicados"]
 ---
 
 import ReactPlayer from "react-player";
@@ -21,9 +21,10 @@ Las ocurrencias pueden ser enlazadas como duplicados individualmente durante o d
 Las ocurrencias también pueden ser enlazadas automáticamente por lote por la herramienta de Agrupamiento de Duplicados. Esta herramienta crea un índice temporal de las fechas de colecta, números de colector y apellidos de colectores de sus ocurrencias, y después enlaza cualquier ocurrencia que comparte estas tres características.
 
 Para ver o enlazar duplicados, navegue al Panel de Control de Administración (Mi Perfil > Manejo de Ocurrencias > nombre de la colección) y haga click en Agrupamiento de Duplicados.
-* Para ver duplicados existentes, haga click en *Grupos de especímenes duplicados*
-* Para ver duplicados con identificaciones taxonómicas que no encajan, haga click en *Grupos de especímenes duplicados con identificaciones conflictivas*. Un ejemplo de los resultados de esta herramienta es mostrado abajo.
-* Para enlazar duplicados por lote, haga click en *Enlazar especímenes duplicados por lote*. Esto ejecutará automáticamente un script para enlazar registros, que creará los grupos de duplicados.
+
+- Para ver duplicados existentes, haga click en _Grupos de especímenes duplicados_
+- Para ver duplicados con identificaciones taxonómicas que no encajan, haga click en _Grupos de especímenes duplicados con identificaciones conflictivas_. Un ejemplo de los resultados de esta herramienta es mostrado abajo.
+- Para enlazar duplicados por lote, haga click en _Enlazar especímenes duplicados por lote_. Esto ejecutará automáticamente un script para enlazar registros, que creará los grupos de duplicados.
 
 :::tip
 
@@ -31,7 +32,7 @@ Cuando está revisando los grupos de duplicados, puede ver el registro para cual
 
 :::
 
-![Ejemplo de Conflictos Duplicados](/img/exampleduplicateconflicts.PNG)
+![Ejemplo de Conflictos Duplicados](/img/exampleduplicateconflicts.png)
 
 Aquí puede encontrar un tutorial en video sobre cómo se pueden usar las herramientas de agrupación en clústeres duplicadas para resolver identificaciones conflictivas:
 

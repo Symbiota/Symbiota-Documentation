@@ -6,7 +6,17 @@ authors: ["Katie Pearson"]
 editors: [""]
 draft: false
 weight: 5
-keywords: ["geography","geographic thesaurus","country","continent","state","province","county","municipality"]
+keywords:
+  [
+    "geography",
+    "geographic thesaurus",
+    "country",
+    "continent",
+    "state",
+    "province",
+    "county",
+    "municipality",
+  ]
 ---
 
 1. Use the Sitemap to navigate to the Geographic Thesaurus under "Administrative Functions (Super Admins only)".
@@ -20,7 +30,7 @@ The search box will show a dropdown list of all terms matching your search term,
 
 3. To edit the values in the Geographic Unit box, click the pencil icon (highlighted below), make any edits, and click the Save Edits button. This is also where you can change the parent geographic unit for this unit (see Parent term field) and the preferred/accepted term for this unit (see Preferred term field).
 
-![Geographic Unit Editing Form](/img/Geothes_edit.PNG)
+![Geographic Unit Editing Form](/img/Geothes_edit.png)
 
 4. To delete the term, click the Delete Geographic Unit button below the Geographic Unit box.
 5. To edit the children terms (i.e., terms beneath this unit in the hierarchy), view the list below the Geographic Unit box. To remove children from this geographic unit, click the name of the child term and edit its Parent term.

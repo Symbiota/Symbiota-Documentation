@@ -6,7 +6,7 @@ editors: ["Lindsay Walker"]
 lastmod: 2024-04-03
 draft: false
 weight: 12
-keywords: ["comment","correction","contact"]
+keywords: ["comment", "correction", "contact"]
 ---
 
 If you notice an issue or would like to ask a question about a particular occurrence in a Symbiota portal, you can leave a comment on that occurrence that will then be automatically emailed to the collection manager and, in some cases, the portal manager.
@@ -23,4 +23,4 @@ Symbiota does not automatically associate your contact information with your com
 
 :::
 
-![Comment Tab on the Public Display](/img/comment.PNG)
+![Comment Tab on the Public Display](/img/comment.png)

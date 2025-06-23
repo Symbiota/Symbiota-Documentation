@@ -5,7 +5,7 @@ lastmod: 2021-10-11
 weight: 3
 draft: false
 authors: ["Katie Pearson"]
-keywords: ["crowdsourcing","voluntarios"]
+keywords: ["crowdsourcing", "voluntarios"]
 translators: ["Samanta Orellana"]
 ---
 
@@ -26,11 +26,11 @@ Esta página describe cómo revisar y aprobar ediciones que han sido realizadas 
 :::
 
 4. Si hay registros que necesitan aprobación, serán mostrados bajo Aprobación Pendiente. Hacer click en Revisar para revisarlos.
-      * Alternativamente, puede revisar registros editados por usuarios individuales haciendo click en Revisar en la columna Pendientes de Revisión, en los recuadros de la parte inferior de la página.
+   - Alternativamente, puede revisar registros editados por usuarios individuales haciendo click en Revisar en la columna Pendientes de Revisión, en los recuadros de la parte inferior de la página.
 5. Revisar los registros en la tabla generada, o hacer click en el ícono de lápiz para ver registros individuales junto con sus imágenes.
 6. Para aprobar registros, hacer click en la casilla junto a los registros que desea aprobar, diríjase al final de la página y haga click en Enviar Revisiones.
 
-![Crowdsourcing Example](/img/crowdsourceexample.PNG)
+![Crowdsourcing Example](/img/crowdsourceexample.png)
 
 :::tip
 

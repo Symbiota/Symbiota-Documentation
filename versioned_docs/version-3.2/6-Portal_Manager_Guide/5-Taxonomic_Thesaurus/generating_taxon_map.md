@@ -6,7 +6,7 @@ authors: ["Katie Pearson"]
 editors: [""]
 draft: false
 weight: 20
-keywords: ["taxonomy","taxon map","taxon profile"]
+keywords: ["taxonomy", "taxon map", "taxon profile"]
 ---
 
 :::info
@@ -23,7 +23,7 @@ You can also manually set the boundaries of the map viewing box by editing the l
 
 You can change the base layer of the map by clicking the layers icon in the top right corner of the map and selecting the appropriate radio button from the options.
 
-![Screenshot of Taxon Profile Map Tool](/img/taxonprofilemap.PNG)
+![Screenshot of Taxon Profile Map Tool](/img/taxonprofilemap.png)
 
 Start typing the name of taxon for which you would like to generate a map in the "Taxon Name" field and select a matching taxon from the taxonomic thesaurus. If you can't find your taxon of interest in the dropdown list, [add it to the taxonomic thesaurus](/docs/Portal_Manager_Guide/Taxonomic_Thesaurus/adding_taxa).
 
@@ -33,13 +33,13 @@ If you select a taxon with any children taxa (e.g., you select a genus or family
 
 :::
 
-![Screenshot of Available Criteria for Taxon Profile Map Tool](/img/MapThumbnailCriteria.PNG)
+![Screenshot of Available Criteria for Taxon Profile Map Tool](/img/MapThumbnailCriteria.png)
 
 Adjust the parameters and click the "Preview Map" button to adjust the appearance of your thumbnail map. Depending on number of available records and the distribution of your taxon, you may need to play with the available parameters to produce a useful thumbnail.
 
-* If you want to create a map of points where records are located, select the "Dot Map" option from the Map Type box. Select "Heat Map" for a heat map.
-* Check the box next to "Automatically adjust bounds to fit coordinate data" if you would like the map boundaries to adjust automatically to include all the georeferenced records of that taxon.
-* ⚠️ If you adjust the boundaries of the map manually and would like to keep those boundaries, make sure you uncheck the "Automatically adjust bounds to fit coordinate data" box before clicking "Build Map(s)".
+- If you want to create a map of points where records are located, select the "Dot Map" option from the Map Type box. Select "Heat Map" for a heat map.
+- Check the box next to "Automatically adjust bounds to fit coordinate data" if you would like the map boundaries to adjust automatically to include all the georeferenced records of that taxon.
+- ⚠️ If you adjust the boundaries of the map manually and would like to keep those boundaries, make sure you uncheck the "Automatically adjust bounds to fit coordinate data" box before clicking "Build Map(s)".
 
 Once you are satisfied with the appearance of your map, click "Build Map(s)".
 
@@ -47,13 +47,13 @@ Once you are satisfied with the appearance of your map, click "Build Map(s)".
 
 The appearance of the heat map can be adjusted by changing the **heat radius** (using the slider) and the **heat density** (using the minimum and maximum density fields).
 
-A larger heat radius would mean that each point is represented by a larger colored area on the map. 
+A larger heat radius would mean that each point is represented by a larger colored area on the map.
 
-![Example of a Larger Heat Radius](/img/LargeHeatRadius.PNG)
+![Example of a Larger Heat Radius](/img/LargeHeatRadius.png)
 
 Whereas a smaller heat radius makes each point represent a smaller colored area on the map.
 
-![Example of a Smaller Heat Radius](/img/SmallHeatRadius.PNG)
+![Example of a Smaller Heat Radius](/img/SmallHeatRadius.png)
 
 Setting a smaller Minimum Density value will require a certain number of records to be present in an area before it will show up as "heat" on the map, and it will intensify the "heat" of locations with multiple records. Setting a larger Minimum Density value will lower the relative "heat" of hot spots.
 

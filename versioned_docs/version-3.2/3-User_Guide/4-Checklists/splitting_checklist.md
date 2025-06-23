@@ -5,7 +5,8 @@ lastmod: 2024-12-11
 authors: ["Katie Pearson"]
 draft: false
 weight: 50
-keywords: ["parent checklist","child checklist","parent","child","taxonomic list"]
+keywords:
+  ["parent checklist", "child checklist", "parent", "child", "taxonomic list"]
 ---
 
 :::info
@@ -18,15 +19,15 @@ To split a single checklist into multiple checklists, or just create child check
 
 From your parent checklist (i.e., the checklist that you would like to split/parse), click the Checklist Administration button (top right corner with a pencil and A symbol), then click the Related Checklists tab. Scroll down, and you will see the Batch Parse Species List tool.
 
-![Batch Parse Species List Tool](/img/batchparsespecieslist.PNG)
+![Batch Parse Species List Tool](/img/batchparsespecieslist.png)
 
-In the first box of the **taxonomic node** field, begin to type the name of the parent node for all the taxa you would like to include in your child checklist, then select the matching name from the dropdown list. *You can add multiple nodes to the checklist by running this tool several times and adding to the same child checklist each time.* You can alternatively add the taxon ID number from the portal into the second field. This will automatically be populated if you select a taxon name from the dropdown list.
+In the first box of the **taxonomic node** field, begin to type the name of the parent node for all the taxa you would like to include in your child checklist, then select the matching name from the dropdown list. _You can add multiple nodes to the checklist by running this tool several times and adding to the same child checklist each time._ You can alternatively add the taxon ID number from the portal into the second field. This will automatically be populated if you select a taxon name from the dropdown list.
 
 In the **target checklist** field, select the name of the checklist that you would like to add or transfer the taxa to, or select Create New Checklist to add these taxa to a brand new checklist.
 
 Select **transfer taxa** if you would like to remove the taxa from your parent list and add them to the new list that you selected in the **target checklist** field. Select **copy taxa** if you would like to copy the taxa from the parent list, but not delete them from the parent list.
 
-Select a checklist from the **Link to parent checklist** field if you would like to link the newly defined checklist taxa to a parent checklist *other than the parent checklist that you are parsing*.
+Select a checklist from the **Link to parent checklist** field if you would like to link the newly defined checklist taxa to a parent checklist _other than the parent checklist that you are parsing_.
 
 If you would also like to add the newly defined checklist to a specific project to which you have administrator access, select the project from the **Add to project** dropdown list.
 

@@ -4,7 +4,8 @@ date: 2021-10-11
 weight: 3
 draft: false
 authors: ["Katie Pearson"]
-keywords: ["crowdsourcing","voluntario","ciencia ciudadana","ciencia comunitaria"]
+keywords:
+  ["crowdsourcing", "voluntario", "ciencia ciudadana", "ciencia comunitaria"]
 translators: ["Samanta Orellana"]
 ---
 
@@ -34,7 +35,7 @@ Los especímenes pueden ser trabajados por voluntarios si (1) tienen una imagen 
 
 4. En la página resultante, verá conteos de cuántos registros están en la lista de espera, cuántos han sido procesados, y cuántos han sido sido añadidos a la lista de espera. Haga click en el botón de Añadir a la Lista de Espera para ver opciones adicionales para refinar cuáles especímenes quiere incluir en la lista (mostrado en la imagen de abajo).
 
-![Add Specimens to Crowdsourcing Queue](/img/crowdsourcing2.PNG)
+![Add Specimens to Crowdsourcing Queue](/img/crowdsourcing2.png)
 
 :::tip
 
@@ -43,5 +44,5 @@ Los especímenes pueden ser trabajados por voluntarios si (1) tienen una imagen 
 :::
 
 5. Defina cuántos especímenes va a añadir a la lista de espera a la vez, modificando el número en el campo de Límite de Registros.
-      * Se recomienda que no añada muchos miles de registros a la lista de espera a la vez. ¡Muchos registros pueden hacer que sus voluntarios se sientan abrumados para terminar la tarea!
+   - Se recomienda que no añada muchos miles de registros a la lista de espera a la vez. ¡Muchos registros pueden hacer que sus voluntarios se sientan abrumados para terminar la tarea!
 6. Haga click en el botón de Añadir a Lista de Espera.
