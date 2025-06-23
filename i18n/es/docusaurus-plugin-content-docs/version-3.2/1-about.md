@@ -1,4 +1,5 @@
 ---
+id: 'about'
 title: 'Acerca de'
 ---
 

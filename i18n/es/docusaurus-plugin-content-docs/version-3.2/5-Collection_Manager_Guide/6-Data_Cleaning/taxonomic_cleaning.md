@@ -5,14 +5,14 @@ weight: 4
 draft: false
 authors: ["Katie Pearson"]
 translators: ["Samanta Orellana"]
-keywords: ["taxonomía","limpieza de datos"]
+keywords: ["taxonomía", "limpieza de datos"]
 ---
 
 import ReactPlayer from "react-player";
 
 :::info
 
-Esta página describe cómo usar las dos herramientas de limpieza taxonómica en los portales Symbiota. Para más información acerca del tesauro taxonómico, visite la página [Taxonomy](/contribute/).
+Esta página describe cómo usar las dos herramientas de limpieza taxonómica en los portales Symbiota. Para más información acerca del tesauro taxonómico, visite la página [Taxonomy](/docs/User_Guide/taxonomic_thesaurus).
 
 :::
 
