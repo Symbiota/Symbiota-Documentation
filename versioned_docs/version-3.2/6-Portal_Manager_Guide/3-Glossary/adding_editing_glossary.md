@@ -23,7 +23,7 @@ On the glossary page, click the name of an entry (to edit) or click "Add New Ter
 
 The following fields are available when you add a new term.
 
-![Adding a New Glossary Term](/img/addglossaryterm.png)
+![Adding a New Glossary Term](/img/addglossaryterm.PNG)
 
 To link a glossary term to a specific taxonomic group, begin to the type the name of the taxonomic group in the **Taxonomic Group** field and select the appropriate name from the dropdown menu.
 
@@ -35,13 +35,13 @@ Once a glossary term is created, you can edit the previous data you entered and/
 
 On the glossary page, click the name of an entry. In the pop-up window, click the pencil icon in the top right corner of the window.
 
-![Editing a Glossary Term](/img/editglossaryterm.png)
+![Editing a Glossary Term](/img/editglossaryterm.PNG)
 
 In the **Details** tab, you can edit any of the basic information for the term, such as definition, source, or language.
 
 From here, you can link the term to another related term (e.g., subclass, part) using the **Related Terms** tab.
 
-![Linking Glossary Terms](/img/glossaryrelatedterm.png)
+![Linking Glossary Terms](/img/glossaryrelatedterm.PNG)
 
 You can add one or many translations of the term using the **Translations** tab.
 

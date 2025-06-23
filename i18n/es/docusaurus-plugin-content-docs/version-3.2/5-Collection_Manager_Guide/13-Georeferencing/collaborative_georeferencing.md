@@ -40,7 +40,7 @@ Instrucciones y ejemplos para el paso 5 pueden ser encontradas aquí ([GEOLocate
 2. Hacer click en la Caja de Herramientas de Procesamiento.
 3. Si CoGe ha sido habilitado para su portal, una pestaña nombrada GeoLocate CoGe será visible. Hacer click en esta pestaña. Si CoGe no está habilitado, contacte al administrador de su portal para solicitar esta función.
 
-![GeoLocate CoGe tab](/img/geolocatecoge.png)
+![GeoLocate CoGe tab](/img/geolocatecoge.PNG)
 
 5. Hacer click en la casilla **CoGe Status** en la página resultante, y conéctese a CoGe usando su usuario e información de cuenta CoGe en la ventana o pestaña emergente.
 6. Regrese a su página en el portal Symbiota.
@@ -66,7 +66,7 @@ También puede utilizar el botón "Download Records Locally" para revisar rápid
 10. Regrese al [sitio CoGe](https://coge.geo-locate.org/), navegue a su tableero, haga click en el nombre de la comunidad a la que envió los registros, y haga click en el botón GO TO COMMUNITY.
 11. Haga click en el nombre del conjunto de datos que envió a CoGe.
 
-![Tablero CoGe](/img/cogedashboard.png)
+![Tablero CoGe](/img/cogedashboard.PNG)
 
 13. Haga click en el botón Update Cache.
 14. Una vez el cache ha sido completamente actualizado, los datos estarán disponibles en el [sitio web de CoGe](https://www.geo-locate.org/web/WebComGeoref.aspx).
@@ -78,4 +78,4 @@ También puede utilizar el botón "Download Records Locally" para revisar rápid
 3. En la casilla de Filtro en la parte superior derecha, seleccione la opción External (externo) del menú desplegable en el campo Editing Source (editar fuente). Luego haga click en Submit Filter (enviar filtro).
 4. Las ediciones que fueron aplicadas en CoGe ahora serán visibles en la tabla de revisor.
 
-![Ediciones de Coge](/img/viewcogeedits.png)
+![Ediciones de Coge](/img/viewcogeedits.PNG)

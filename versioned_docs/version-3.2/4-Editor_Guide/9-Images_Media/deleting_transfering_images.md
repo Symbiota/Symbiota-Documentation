@@ -30,7 +30,7 @@ This page describes how to transfer media resources to other records in your col
 9. If there are results of your search, they will be listed below the **Voucher Search Pane** as shown below. To select one of the listed occurrences for linking, click Select Occurrence Record. This will close the window and import that record's SymbiotaID number into the **Remap to Another Specimen** panel.
    - If you don't find the record you are looking for, try using different search terms. If the record does not exist, you can click the Create New Occurrence button to create a brand new occurrence for the media resource.
 
-![Occurrence Linking Aid](/img/occlinkingaid.png)
+![Occurrence Linking Aid](/img/occlinkingaid.PNG)
 
 10. Back on the Media tab of the Occurrence Editor page, click the Remap Resource button.
 

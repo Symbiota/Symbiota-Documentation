@@ -4,9 +4,8 @@ date: 2021-10-12
 authors: ["Katie Pearson"]
 draft: false
 weight: 2
-keywords: ["data cleaning","duplicates"]
+keywords: ["data cleaning", "duplicates"]
 ---
-
 
 :::info
 
@@ -14,11 +13,11 @@ This page describes how to identify and merge (when necessary) specimens with du
 
 :::
 
-This tool can be found in the ***Administration Control Panel (My Profile > Occurrence Management > name of collection).***
+This tool can be found in the **_Administration Control Panel (My Profile > Occurrence Management > name of collection)._**
 
 To use the tool, first select whether you would like to list duplicates based on Catalog Numbers or Other Catalog Numbers from the “List Duplicates based on...” box. If duplicates exist, a table of duplicate records will appear on the resulting page.
 
-![Duplicate Cleaning Tool](/img/dupecatnums.png)
+![Duplicate Cleaning Tool](/img/dupecatnums.PNG)
 
 From here, you can evaluate whether the duplicate records should be edited, merged, or ignored. To view and/or edit a record, click the number in the ID column next to the record you wish to view. This will open that specimen’s Record Editor page.
 

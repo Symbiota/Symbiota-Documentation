@@ -19,7 +19,7 @@ To split a single checklist into multiple checklists, or just create child check
 
 From your parent checklist (i.e., the checklist that you would like to split/parse), click the Checklist Administration button (top right corner with a pencil and A symbol), then click the Related Checklists tab. Scroll down, and you will see the Batch Parse Species List tool.
 
-![Batch Parse Species List Tool](/img/batchparsespecieslist.png)
+![Batch Parse Species List Tool](/img/batchparsespecieslist.PNG)
 
 In the first box of the **taxonomic node** field, begin to type the name of the parent node for all the taxa you would like to include in your child checklist, then select the matching name from the dropdown list. _You can add multiple nodes to the checklist by running this tool several times and adding to the same child checklist each time._ You can alternatively add the taxon ID number from the portal into the second field. This will automatically be populated if you select a taxon name from the dropdown list.
 

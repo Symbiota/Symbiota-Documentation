@@ -36,4 +36,4 @@ Esta página describe cómo cambiar o añadir información de contactos o inform
    - **ID de Colección** - El Identificador Único Global para esta colección (ver dwc:collectionID): Si su colección ya cuenta con un GUID asignado previamente, ese identificador debería ser agregado aquí. Para especímenes físicos, las buenas prácticas recomendadas son utilizar el identificador de un registro oficial de colecciones como el [Global Registry of Biodiversity Repositories](http://grbio.org).
 3. En la pestaña de Contactos y Recursos, puede añadir enlaces a otros recursos (e.g., páginas web de colecciones o laboratorios), añadir o editar información de contacto, o añadir o editar direcciones postales para su institución. Haga click en el ícono de lápiz para editar o en el ícono de X para borrar enlaces/recursos existentes.
 
-![Edit Metadata Example](/img/metadata_editor.png)
+![Edit Metadata Example](/img/metadata_editor.PNG)

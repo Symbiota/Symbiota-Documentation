@@ -5,7 +5,7 @@ lastmod: 2023-09-29
 draft: false
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
-keywords: ["edit","tabs"]
+keywords: ["edit", "tabs"]
 ---
 
 :::info
@@ -16,7 +16,7 @@ This page explains the tabs at the top of the Occurrence Editor tool.
 
 Upon opening the Record Editor page, you will see 4-5 tabs, depending on your level of permissions. The image shown below is of the Record Editor page for a user with administrative permissions. A brief explanation of each tab is provided below.
 
-![Occurrence Editor Tabs](/img/editortabs.png)
+![Occurrence Editor Tabs](/img/editortabs.PNG)
 
 **Occurrence Data** – See [Symbiota Data Fields](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields)
 

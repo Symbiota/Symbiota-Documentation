@@ -1,5 +1,5 @@
 ---
-title: 'Collector/Observer Guide'
+title: "Collector/Observer Guide"
 date: 2022-11-29
 lastmod: 2024-10-08
 weight: 4
@@ -17,11 +17,11 @@ By managing collection data in a Symbiota portal, collectors can take advantage 
 
 :::
 
-Most Symbiota portals have a central collection profile generally referred to as the "personal observation profile". It is sometimes called the "general research observations" profile or "specimens being processed" profile. For example, see SEINet's "General Research Observations" [collection here](https://swbiodiversity.org/seinet/collections/misc/collprofiles.php?collid=102). This collection profile is shared among all users who have been sponsored as editors of this collection profile; however, ***users may only edit records that they have entered into this profile.*** Records in this profile are publicly viewable once they are entered, but they may only be edited by the user who added them.
+Most Symbiota portals have a central collection profile generally referred to as the "personal observation profile". It is sometimes called the "general research observations" profile or "specimens being processed" profile. For example, see SEINet's "General Research Observations" [collection here](https://swbiodiversity.org/seinet/collections/misc/collprofiles.php?collid=102). This collection profile is shared among all users who have been sponsored as editors of this collection profile; however, **_users may only edit records that they have entered into this profile._** Records in this profile are publicly viewable once they are entered, but they may only be edited by the user who added them.
 
 The personal observation profile is intended to be a place where collectors can manage their records (e.g., add and edit data, print specimen labels) and distribute the data to the collections where they will send their specimens, if applicable. A diagram of a generalized workflow is shown below.
 
-![Personal Observation Profile General Workflow](/img/persobsprofile.png)
+![Personal Observation Profile General Workflow](/img/persobsprofile.PNG)
 
 This workflow saves everyone time and energy because collections do not need to re-transcribe the data. Morever, even though there may be many duplicates for a specimen, the data only need to be entered once. This single data entry also reduces the likelihood of data entry error.
 
@@ -33,16 +33,17 @@ Sponsored users have the following options for managing their data in the Person
 
 ![Personal Observation Profile Options](/img/persobsoptions.JPG)
 
-* **Search Records:** search through the records that you have entered into this profile. You can conduct custom, detailed searches from this interace. Tutorial information can be found [on this page](/docs/Editor_Guide/Editing_Searching_Records).
-* **Add a New Record:** tutorials for [adding records here](/docs/Editor_Guide/Adding_Records/adding_full_records) and for [editing records here](/docs/Editor_Guide/Editing_Searching_Records)
-* **Print Labels:** print labels for specimens of all types, including specimen packets. [Tutorials here](/docs/Editor_Guide/Label_Customization/).
-* **Print Annotation Labels:** print annotation/determination/identification labels for specimens that already have full labels. [Tutorials here](/docs/Editor_Guide/Label_Customization/annotation_label_printing).
-* **Submit image-vouchered observation:** use an image to create a new record, if you did not collect a specimen for the record. The available data entry fields are similar to those used to add a new specimen record (see above).
-* **Review/Verify Occurrence Edits:** view, revert, or apply edits that you have made to your records. [Tutorial here](/docs/Collection_Manager_Guide/reviewing_edits).
-* **Download backup file (CSV extract):** download a copy of your data to review or send to a collection. CSV files may be opened in Excel or a similar spreadsheet software.
-* **View User Comments:** because your data are publicly visible, users may leave comments on your records. Use this tool to view and manage those comments. See [this page](/docs/Collection_Manager_Guide/Comments_Feedback/public_comments) for more information.
+- **Search Records:** search through the records that you have entered into this profile. You can conduct custom, detailed searches from this interace. Tutorial information can be found [on this page](/docs/Editor_Guide/Editing_Searching_Records).
+- **Add a New Record:** tutorials for [adding records here](/docs/Editor_Guide/Adding_Records/adding_full_records) and for [editing records here](/docs/Editor_Guide/Editing_Searching_Records)
+- **Print Labels:** print labels for specimens of all types, including specimen packets. [Tutorials here](/docs/Editor_Guide/Label_Customization/).
+- **Print Annotation Labels:** print annotation/determination/identification labels for specimens that already have full labels. [Tutorials here](/docs/Editor_Guide/Label_Customization/annotation_label_printing).
+- **Submit image-vouchered observation:** use an image to create a new record, if you did not collect a specimen for the record. The available data entry fields are similar to those used to add a new specimen record (see above).
+- **Review/Verify Occurrence Edits:** view, revert, or apply edits that you have made to your records. [Tutorial here](/docs/Collection_Manager_Guide/reviewing_edits).
+- **Download backup file (CSV extract):** download a copy of your data to review or send to a collection. CSV files may be opened in Excel or a similar spreadsheet software.
+- **View User Comments:** because your data are publicly visible, users may leave comments on your records. Use this tool to view and manage those comments. See [this page](/docs/Collection_Manager_Guide/Comments_Feedback/public_comments) for more information.
 
 ## Related Resources
+
 <ReactPlayer
   playing={false}
   controls

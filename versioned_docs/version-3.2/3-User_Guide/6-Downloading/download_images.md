@@ -16,14 +16,14 @@ This page describes how to download images from a Symbiota portal.
 
 :::warning
 
-It is incumbent upon data users to abide by usage rights when downloading images from Symbiota portals.*** *Usage rights appear on collection profiles, occurrence records, and in each portal community's respective Data Usage Guidelines (_Sitemap > Image Library > Usage Policy and Copyright Information_).
+It is incumbent upon data users to abide by usage rights when downloading images from Symbiota portals.*\*\* *Usage rights appear on collection profiles, occurrence records, and in each portal community's respective Data Usage Guidelines (_Sitemap > Image Library > Usage Policy and Copyright Information_).
 
 :::
 
 ## Download Images Individually
 
 Images can be downloaded directly by opening images from occurrence records and saving them locally:
-![Search Results Example](/img/download_image.png)
+![Search Results Example](/img/download_image.PNG)
 
 ## Batch Image Downloading
 

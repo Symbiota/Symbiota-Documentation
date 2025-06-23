@@ -32,7 +32,7 @@ Take care to make your search statement general enough that you will get the max
 
 :::
 
-![Checklist Search Statement](/img/checklistsearchstatement.png)
+![Checklist Search Statement](/img/checklistsearchstatement.PNG)
 
 :::warning
 

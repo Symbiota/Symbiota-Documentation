@@ -12,7 +12,7 @@ keywords: ["manejo", "en vivo", "snapshot"]
 
 Existen dos tipos principales en los que las colecciones pueden presentar sus datos en los portales Symbiota: **en vivo** o como una **snapshot** (imagen o copia).
 
-![](/img/asu_live_managed.png)
+![](/img/asu_live_managed.PNG)
 
 Una colección **en vivo** es una que maneja sus datos directamente en el portal Symbiota. Las tareas de ingreso de datos, edición de datos, y digitalización son conducidas por medio de el sitio web del portal Symbiota. Las colecciones en vivo pueden iniciar con tantos o tan pocos datos como deseen; si la colección ya posee una hoja de cálculo, base de datos o Archivo Darwin Core de los datos de su colección, pueden importar los datos hacia el portal Symbiota y manejarlos directamente en el portal de ahí en adelante. Una colección también puede iniciar el proceso de digitalización (agregar fotografías) dentro del portal sin datos iniciales. Algunas ventajas del manejo en vivo en un portal Symbiota incluyen:
 

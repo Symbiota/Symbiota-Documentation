@@ -5,7 +5,7 @@ lastmod: 2025-05-14
 authors: ["Katie Pearson"]
 draft: false
 weight: 20
-keywords: ["linked resources","extended specimen","host","relationship"]
+keywords: ["linked resources", "extended specimen", "host", "relationship"]
 ---
 
 :::info
@@ -26,7 +26,7 @@ Because some associations are with external resources, not all associations are 
 
 Associations can be searched in the [public search form](/docs/User_Guide/searching_records) of a portal under the "Associations" box.
 
-![Associations Search](/img/associationssearch.png)
+![Associations Search](/img/associationssearch.PNG)
 
 You can search for specific types of associations using the Association Type dropdown list, or you can search for associations between specific taxa using the Taxon search box.
 
@@ -41,4 +41,3 @@ Using the Taxon box in the Associations search will search for records that have
 To search for records with _any_ documented association, you can select an Association Type from the dropdown list and leave the Taxon box in the Associations search blank.
 
 :::
-

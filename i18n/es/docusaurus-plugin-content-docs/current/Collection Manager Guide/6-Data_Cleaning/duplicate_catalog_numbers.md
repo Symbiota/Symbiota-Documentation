@@ -5,9 +5,8 @@ authors: ["Katie Pearson"]
 translators: ["Samanta Orellana"]
 draft: false
 weight: 2
-keywords: ["limpieza de datos","duplicados"]
+keywords: ["limpieza de datos", "duplicados"]
 ---
-
 
 :::info
 
@@ -19,7 +18,7 @@ Esta herramienta puede ser encontrada en el Panel de Control de Administración 
 
 Para usar esta herramienta, primero deber seleccionar si desea listar duplicados basados en Números de Catálogo u Otros Números de Catálogo en la casilla “Listar Duplicados basado en...”. Si existen duplicados, una tabla de registros duplicados aparecerá en la página resultante.
 
-![Herramienta de Limpieza de Duplicados](/img/dupecatnums.png)
+![Herramienta de Limpieza de Duplicados](/img/dupecatnums.PNG)
 
 A partir de aquí, se puede evaluar si los registros duplicados deben ser editados, fusionados o ignorados. Para ver y/o editar un registro, haga click en el número de la columna ID a la par del registro que desea ver column next to the record you wish to view. Esto abrirá la página de Edición de Registros del espécimen.
 

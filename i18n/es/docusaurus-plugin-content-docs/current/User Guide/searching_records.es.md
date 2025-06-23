@@ -20,13 +20,13 @@ Los portales Symbiota contienen datos de especímenes y observaciones con enfoqu
 Puede haber hasta tres pestañas en la parte superior de la página, dependiendo del portal, "Especímenes y Observaciones", "Especímenes", y "Observaciones". Los especímenes son colecciones físicas de un organismo, mientras que las observaciones son observaciones humanas o fotografías de organismos que no son respaldadas con especímenes físicos. Use estas pestañas para elegir entre estos tipos de ocurrencias, si es deseado.
 :::
 
-![Colecciones de Especímenes y Observaciones](/img/search2.png)
+![Colecciones de Especímenes y Observaciones](/img/search2.PNG)
 
 :::tip
 Note que las colecciones pueden estar agrupadas en categorías. Estas categorías pueden ser minimizadas o maximizadas haciendo click en la casilla con los signos más y menos, respectivamente, en la parte inferior izquerda del nombre del grupo.
 :::
 
-![Opciones de Búsqueda en Colecciones](/img/search1.png)
+![Opciones de Búsqueda en Colecciones](/img/search1.PNG)
 
 3. Haga click en el botón de Búsqueda ubicado a la derecha.
 4. En la página siguiente, puede ingresar los griterios para buscar registros de interés.
@@ -36,10 +36,10 @@ Note que las colecciones pueden estar agrupadas en categorías. Estas categoría
    - Puede ingresar valores múltiples en un mismo campo separando los valores con punto y comas. Por ejemplo, si quiere buscar en dos condados distintos, como Kern e Inyo, debe ingresar "Kern;Inyo" en el campo de condado.
 5. Haga click en Desplegar Lista para realizar la búsqueda y ver los resultados como una lista, o haga click en Desplegar Tablas para realizar la búsqueda y ver los resultados como una tabla.
 
-![Desplegar Lista](/img/search3.png)
+![Desplegar Lista](/img/search3.PNG)
 **Desplegar Lista**
 
-![Desplegar Tabla](/img/search4.png)
+![Desplegar Tabla](/img/search4.PNG)
 **Desplegar Tabla**
 
 :::tip
@@ -47,7 +47,7 @@ Para regresar a la página de los Criterios de Búsqueda y refinar su búsqueda,
 :::
 
 :::tip
-Para ordenar los resultados de la búsqueda, haga click en Desplegar Tabla (o en el botón Desplegar Tabla ![Botón Desplegar Tabla](/img/tabledisplaybutton.png). En la ventana de Resultados de Búsqueda en la parte superior de la página, seleccione el campo que le gustaría ordenar, un segundo campo que le gustaría ordenar (si aplica), y luego si le gustaría ordenar los resultados de manera ascendente o descendente. Luego haga click en Ordenar.
+Para ordenar los resultados de la búsqueda, haga click en Desplegar Tabla (o en el botón Desplegar Tabla ![Botón Desplegar Tabla](/img/tabledisplaybutton.PNG). En la ventana de Resultados de Búsqueda en la parte superior de la página, seleccione el campo que le gustaría ordenar, un segundo campo que le gustaría ordenar (si aplica), y luego si le gustaría ordenar los resultados de manera ascendente o descendente. Luego haga click en Ordenar.
 :::
 
 ### Búsqueda en Mapa
@@ -62,4 +62,4 @@ Más personalizaciones pueden ser realizadas en la ventana de Opciones de Mapa d
 
 Una vez que haya conducido la búsqueda, podrá ver una lista de especímenes haciendo click en el botón Abrir Panel de Búsqueda y viendo el menú de Registros y Taxa. También puede descargar los registros de especímenes, descargar un archivo KLM de los registros de especímenes o generar un enlace permanente para compartir los resultados de la búsqueda, haciendo click en los botones respectivos en esta página.
 
-![Desplegar Búsqueda en Mapa](/img/search5.png)
+![Desplegar Búsqueda en Mapa](/img/search5.PNG)

@@ -4,7 +4,7 @@ date: 2021-12-02
 draft: false
 authors: ["Katie Pearson"]
 weight: 15
-keywords: ["georeferencing","collaborative georeferencing","GEOLocate"]
+keywords: ["georeferencing", "collaborative georeferencing", "GEOLocate"]
 ---
 
 The GEOLocate Collaborative Georeference Tool (CoGe) can be activated and integrated in a Symbiota portal to engage multiple users in a central georeferencing platform outside of the portal. More information about this platform can be found here: [GeoLocate CoGe page](https://coge.geo-locate.org/).
@@ -25,20 +25,21 @@ You can either have data pushed to CoGe directly from your Symbiota portal, or y
 
 :::
 
-A manual for collections managers/administrators using the Collaborative Georeferencing (CoGe) tool can be found here: [https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf](https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf). This manual covers steps 1-3 in the above workflow, but does not cover how to add occurrences to CoGe from a Symbiota portal. Video tutorials can be found here: [https://www.geo-locate.org/community/default.html](https://www.geo-locate.org/community/default.html). 
+A manual for collections managers/administrators using the Collaborative Georeferencing (CoGe) tool can be found here: [https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf](https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf). This manual covers steps 1-3 in the above workflow, but does not cover how to add occurrences to CoGe from a Symbiota portal. Video tutorials can be found here: [https://www.geo-locate.org/community/default.html](https://www.geo-locate.org/community/default.html).
 
 Instructions for step 4 are provided below.
 
-Example instructions for step 5 can be found here ([GEOLocate CoGe Training Course](https://www.capturingcaliforniasflowers.org/georeferencingcourse-coge.html)), and a written protocol can be found here ([GEOLocate CoGe Protocol](https://www.capturingcaliforniasflowers.org/uploads/1/6/3/7/16372936/georeferencingincoge.docx)). 
+Example instructions for step 5 can be found here ([GEOLocate CoGe Training Course](https://www.capturingcaliforniasflowers.org/georeferencingcourse-coge.html)), and a written protocol can be found here ([GEOLocate CoGe Protocol](https://www.capturingcaliforniasflowers.org/uploads/1/6/3/7/16372936/georeferencingincoge.docx)).
 
 ### Pushing Specimens from a Symbiota Portal to GEOLocate CoGe
+
 #### (step 4 from above workflow)
 
 1. Navigate to your Administration Control Panel (My Profile > Occurrence Editor > name of collection).
 2. Click Processing Toolbox.
 3. If CoGe has been enabled for your portal, a tab labeled GeoLocate CoGe will be visible. Click this tab. If CoGe is not enabled, contact your portal manager to request this feature.
 
-![GeoLocate CoGe tab](/img/geolocatecoge.png)
+![GeoLocate CoGe tab](/img/geolocatecoge.PNG)
 
 5. Click Login to CoGe in the **CoGe Status** box on the resulting page and log in to CoGe using your CoGe user account information in the pop-up window/tab.
 6. Return to your Symbiota portal page.
@@ -64,7 +65,7 @@ You can also use the "Download Records Locally" button to quickly check whether 
 10. Return to the [CoGe site](https://coge.geo-locate.org/), navigate to your Dashboard, click the name of the community to which you just pushed records, and click the GO TO COMMUNITY button.
 11. Click the name of the dataset that you just pushed to CoGe.
 
-![CoGe Dashboard](/img/cogedashboard.png)
+![CoGe Dashboard](/img/cogedashboard.PNG)
 
 13. Click the Update Cache button.
 14. Once the cache has been fully updated, they will be available via the [CoGe web client](https://www.geo-locate.org/web/WebComGeoref.aspx).
@@ -76,4 +77,4 @@ You can also use the "Download Records Locally" button to quickly check whether 
 3. In the Filter box at the top right, select External from the dropdown menu of the Editing Source field. Then click Submit Filter.
 4. The edits that were applied in CoGe will now be visible in the reviewer table.
 
-![Edits from Coge](/img/viewcogeedits.png)
+![Edits from Coge](/img/viewcogeedits.PNG)

@@ -24,7 +24,7 @@ Existen tres categorías de imágenes que pueden ser vinculadas en un portal Sym
 2. Navegue a la página de Editor de Ocurrencias del registro de espécimen en el que desea añadir la imagen (Mi Perfil > Manejo de Ocurrencias > nombre de la colección > Editar Registros de Ocurrencia Existentes > realice la búsqueda del espécimen)
 3. Haga click en la pestaña de imágenes.
 
-![Pestaña de Imágenes](/img/imagestab.png)
+![Pestaña de Imágenes](/img/imagestab.PNG)
 
 4. Si una imagen ya ha sido añadida al espécimen, y desea añadir otra, haga click en el signo más verde, en la parte superior derecha de la ventana. De otra forma, la interfaz de carga de imagen será marcada en amarillo en esta página.
 5. Haga click en el Botón Elegir archivo y navegue al archivo de la imagen que desea subir. Si, en cambio, tiene una URL hacia la imagen, puede hacer click en Ingresar URL y pegar la URL en el campo resultante.

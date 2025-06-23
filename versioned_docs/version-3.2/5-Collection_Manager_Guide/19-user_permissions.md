@@ -2,9 +2,9 @@
 title: "User Permissions"
 date: 2021-11-02
 lastmod: 2023-04-20
-authors: ["Katie Pearson","Lindsay Walker"]
+authors: ["Katie Pearson", "Lindsay Walker"]
 weight: 200
-keywords: ["users","permissions","access"]
+keywords: ["users", "permissions", "access"]
 ---
 
 :::info
@@ -34,11 +34,11 @@ To assign user permissions, you must be an Administrator of the collection for w
 3. The resulting page will show a list of all Administrators, Editors, and Rare Species Readers assigned to your collection.
 4. To remove a user's permissions, click the "X" icon next to their name:
 
- ![Example](/img/permissions_remove.png)
- 
+![Example](/img/permissions_remove.PNG)
+
 5. To add or edit a user's permissions, select their name from the dropdown list under "Add New Admin/Editor/Reader", select the radio button next to the level of permissions you wish to assign, and click the "Add Permission for User" button:
 
- ![Example](/img/permissions_add.png)
+![Example](/img/permissions_add.PNG)
 
 :::tip
 

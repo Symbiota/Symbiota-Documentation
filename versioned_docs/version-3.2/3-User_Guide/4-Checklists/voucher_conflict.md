@@ -13,4 +13,4 @@ To view this tool, navigate to the [Manage Linked Vouchers](adding_vouchers) too
 
 You can also update your checklist from these new identifications by clicking the checkbox next to the voucher you would like to update, and then clicking the Link Vouchers to Corrected Identification button. If the "Remove taxa from checklist if all vouchers are removed" box is unchecked, any non-vouchered taxa in your checklist (resulting from updating the vouchers' identifications in your checklist) will be removed from your checklist as well.
 
-![Voucher Conflicts Tab](/img/voucherconflictstab.png)
+![Voucher Conflicts Tab](/img/voucherconflictstab.PNG)

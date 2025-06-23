@@ -19,7 +19,7 @@ Para cambiar su contraseña, usuario, o alguna otra información personal en un 
    - **Cambiar Usuario**: ingresar un nuevo usuario, seguido por su contraseña actual para confirmar
    - **Manejar Acceso**: aquí puede limpiar sus tokens de acceso, que son como "rutas" para editar datos en su nombre en el portal. Si el número parece alto, puede limpiar estos tokens de acceso. Esto requerirá que ingrese su usuario y contraseña nuevamente al conectarse de cualquier computadora o dispositivo.
 
-![página de Perfil de Usuario](/img/UserProfile.png)
+![página de Perfil de Usuario](/img/UserProfile.PNG)
 
 ### Restableciendo su Contraseña
 

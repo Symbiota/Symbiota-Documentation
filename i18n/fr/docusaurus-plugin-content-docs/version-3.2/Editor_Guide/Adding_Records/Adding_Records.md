@@ -8,4 +8,4 @@ type: docs
 
 **Header in french**
 
-![BioKIC Logo](/img/biokic-logo.png)
+![BioKIC Logo](/img/biokic-logo.PNG)

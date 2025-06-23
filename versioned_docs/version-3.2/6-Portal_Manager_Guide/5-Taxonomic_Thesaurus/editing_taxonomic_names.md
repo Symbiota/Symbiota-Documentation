@@ -32,7 +32,7 @@ The taxonomic thesaurus of a Symbiota portal requires frequent curation due to t
 
 - In the Editor tab, you can edit the scientific name, rank, notes, source, and whether the taxon's locality information is globally redacted for all occurrences in the portal. Click the pencil icon in the top right corner of the page to edit these fields.
 
-![Taxon Editing Form](/img/edittaxon.png)
+![Taxon Editing Form](/img/edittaxon.PNG)
 
 ### Changing the parent or accepted name of a taxon
 
@@ -45,13 +45,13 @@ If you are changing a taxon to Not Accepted, you must also resolve the accepted 
 
 :::
 
-![Edit Taxonomic Placement](/img/edittaxonomicplacement.png)
+![Edit Taxonomic Placement](/img/edittaxonomicplacement.PNG)
 
 ### Deleting a taxon
 
 - In the Delete tab, you can delete a taxon from the taxonomic thesaurus. Before doing so, you must resolve all linkages to that taxon as listed in this tab.
 - To move all the linkages and resources from one taxon to another (e.g., in the case of duplicate taxonomic names entered in the thesaurus), enter the name of the taxon in the Remap Resources to Another Taxon box and click the Remap Taxon button.
 
-![Deleting a Taxon](/img/deletetaxon.png)
+![Deleting a Taxon](/img/deletetaxon.PNG)
 
-![Deleting a Taxon](/img/deletetaxon2.png)
+![Deleting a Taxon](/img/deletetaxon2.PNG)

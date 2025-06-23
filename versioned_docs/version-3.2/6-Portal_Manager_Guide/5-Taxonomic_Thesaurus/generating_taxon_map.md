@@ -23,7 +23,7 @@ You can also manually set the boundaries of the map viewing box by editing the l
 
 You can change the base layer of the map by clicking the layers icon in the top right corner of the map and selecting the appropriate radio button from the options.
 
-![Screenshot of Taxon Profile Map Tool](/img/taxonprofilemap_redo.png)
+![Screenshot of Taxon Profile Map Tool](/img/taxonprofilemap_redo.PNG)
 
 Start typing the name of taxon for which you would like to generate a map in the "Taxon Name" field and select a matching taxon from the taxonomic thesaurus. If you can't find your taxon of interest in the dropdown list, [add it to the taxonomic thesaurus](/docs/Portal_Manager_Guide/Taxonomic_Thesaurus/adding_taxa).
 
@@ -33,7 +33,7 @@ If you select a taxon with any children taxa (e.g., you select a genus or family
 
 :::
 
-![Screenshot of Available Criteria for Taxon Profile Map Tool](/img/MapThumbnailCriteria.png)
+![Screenshot of Available Criteria for Taxon Profile Map Tool](/img/MapThumbnailCriteria.PNG)
 
 Adjust the parameters and click the "Preview Map" button to adjust the appearance of your thumbnail map. Depending on number of available records and the distribution of your taxon, you may need to play with the available parameters to produce a useful thumbnail.
 
@@ -49,11 +49,11 @@ The appearance of the heat map can be adjusted by changing the **heat radius** (
 
 A larger heat radius would mean that each point is represented by a larger colored area on the map.
 
-![Example of a Larger Heat Radius](/img/LargeHeatRadius.png)
+![Example of a Larger Heat Radius](/img/LargeHeatRadius.PNG)
 
 Whereas a smaller heat radius makes each point represent a smaller colored area on the map.
 
-![Example of a Smaller Heat Radius](/img/SmallHeatRadius.png)
+![Example of a Smaller Heat Radius](/img/SmallHeatRadius.PNG)
 
 Setting a smaller Minimum Density value will require a certain number of records to be present in an area before it will show up as "heat" on the map, and it will intensify the "heat" of locations with multiple records. Setting a larger Minimum Density value will lower the relative "heat" of hot spots.
 

@@ -32,17 +32,17 @@ There are three possible results of a duplicate search using this tool.
 
 ##### Possible EXACT Duplicates
 
-![Possible EXACT Duplicate results](/img/exactdupe.png)
+![Possible EXACT Duplicate results](/img/exactdupe.PNG)
 This result occurs when a record with a matching collector last name, collector number, and date is found in a collection other than the one you are currently working in. This may represent a true duplicate specimen.
 
 ##### Possible EXACT Duplicates with NOTICE
 
-![Possible EXACT Duplicate results within collection](/img/exactdupeincol.png)
+![Possible EXACT Duplicate results within collection](/img/exactdupeincol.PNG)
 This result occurs when a record with a matching collector last name, collector number, and date is found within the collection you are currently working in. This may represent a true duplicate specimen, if you have them in your collection, or it could represent unintentional duplicate data entry (i.e., an error).
 
 ##### Possible Matching Duplicate EVENTS
 
-![Possible Duplicate EVENT results](/img/dupematchevent.png)
+![Possible Duplicate EVENT results](/img/dupematchevent.PNG)
 This result occurs when a record with a matching collector last name and date was found, but the exact collector number was not found. In this case, the results presented will include collector numbers slightly above and slightly below the number that you entered. These records may still be useful because they may share, e.g., locality data with the record that you are currently entering/editing.
 
 ### Handling duplicate match results
@@ -69,4 +69,4 @@ This option is only available if the identified duplicate belongs to the same co
 
 This option is only available if the identified duplicate belongs to the same collection that you are currently editing. If you click this option, the two records will be merged together. **The record in the pop-up window will be prioritized over data in your occurrence editor.** For example, if the record listed in the pop-up window has "USA" in the country field, and the record in the occurrence editor has "United States" in the country field, the merged record will have "USA" in the country field. Fields that are empty in one of the two records will be filled in with the data from the record that has data in that field. All media resources (e.g., images) and linked resources will be included in the merged record. All unique determinations will be included in the merged record with the exception of any "current determination" belonging to the record in the occurrence editor, which will be discarded. As a result, you will have one current determination (belonging to the record in the pop-up window) and all other previous determinations associated with the record. For this reason, it is a good idea to check the Determinations tab of the merged record before moving on.
 
-![Possible EXACT Duplicate results within collection](/img/exactdupeincolfull.png)
+![Possible EXACT Duplicate results within collection](/img/exactdupeincolfull.PNG)

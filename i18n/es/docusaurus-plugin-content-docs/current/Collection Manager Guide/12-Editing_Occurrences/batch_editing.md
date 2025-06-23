@@ -5,18 +5,18 @@ lastmod: 2021-11-30
 draft: false
 authors: ["Cynthia Skema", "Ann Barber"]
 editors: ["Katie Pearson"]
-keywords: ["batch", "edit","change","record search form"]
+keywords: ["batch", "edit", "change", "record search form"]
 translators: ["Samanta Orellana"]
 ---
 
 :::info
 
- Esta página describe cómo editar registros por lote.
+Esta página describe cómo editar registros por lote.
 
 :::
 
-* Para ver instruciones acerca de georreferenciación por lote, visite [esta página](https://biokic.github.io/symbiota-docs/es/editor/georeference/batch/).
-* Los nombres científicos únicamente pueden ser cambiados por lote utilizando las [herramientas de Anotaciones por Lote](https://biokic.github.io/symbiota-docs/es/editor/edit/annotations/) o las [herramientas de Limpieza Taxonómica](/docs/Collection%20Manager%20Guide/Data%20Cleaning/taxonomic_cleaning).
+- Para ver instruciones acerca de georreferenciación por lote, visite [esta página](https://biokic.github.io/symbiota-docs/es/editor/georeference/batch/).
+- Los nombres científicos únicamente pueden ser cambiados por lote utilizando las [herramientas de Anotaciones por Lote](https://biokic.github.io/symbiota-docs/es/editor/edit/annotations/) o las [herramientas de Limpieza Taxonómica](/docs/Collection%20Manager%20Guide/Data%20Cleaning/taxonomic_cleaning).
 
 :::note
 
@@ -24,8 +24,8 @@ Tenga precaución cuando utilice esta herramienta. También recomendamos descarg
 
 :::
 
-1. Existen dos opciones para editar registros de especímenes por lote: puede cambiar el valor del conjunto entero de registros en su colección o puede cambiar un valor por un grupo de registros seleccionados. Para cambiar todos los registros, haga click en “Desplegar Tabla" (_Display Table_) en el formulario de Búsqueda de Registros, luego haga click en el ícono de edición ![Edit Icon](/img/editplus.png) arriba de la tabla resultante con todos los registros de su colección. Continúe hacia el paso 3.
-2. Para cambiar el valor para un grupo seleccionado de registros, primero busque los registros de interés utilizando el [formulario de búsqueda](https://biokic.github.io/symbiota-docs/es/editor/edit/). Una vez tenga el grupo de datos con los que desea hacer una edición por lote, haga click en el Ícono de Edición ![Edit Icon](/img/editplus.png) en la parte superior de su tabla de registros seleccionada.
+1. Existen dos opciones para editar registros de especímenes por lote: puede cambiar el valor del conjunto entero de registros en su colección o puede cambiar un valor por un grupo de registros seleccionados. Para cambiar todos los registros, haga click en “Desplegar Tabla" (_Display Table_) en el formulario de Búsqueda de Registros, luego haga click en el ícono de edición ![Edit Icon](/img/editplus.PNG) arriba de la tabla resultante con todos los registros de su colección. Continúe hacia el paso 3.
+2. Para cambiar el valor para un grupo seleccionado de registros, primero busque los registros de interés utilizando el [formulario de búsqueda](https://biokic.github.io/symbiota-docs/es/editor/edit/). Una vez tenga el grupo de datos con los que desea hacer una edición por lote, haga click en el Ícono de Edición ![Edit Icon](/img/editplus.PNG) en la parte superior de su tabla de registros seleccionada.
 3. En el menú desplegable junto al "Nombre del Campo" en la Actualización por Lote, seleccione el campo que desea editar.
 4. En “Valor Actual:” introduzca el texto que está presente en el campo que desea editar.
 5. En “Valor Nuevo:” introduzca el texto que desea agregar en el campo editado.

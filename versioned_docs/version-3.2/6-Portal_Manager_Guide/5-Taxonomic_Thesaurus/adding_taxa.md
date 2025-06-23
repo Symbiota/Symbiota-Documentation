@@ -34,7 +34,7 @@ Both the parent taxon (e.g., genus of the species you would like to add) and the
 1. Navigate to the taxonomic thesaurus (Sitemap > scroll down to Taxonomy > Taxonomic Tree Viewer), or just add "taxa/taxonomy/taxonomydisplay.php" to your base path.
 2. Click the plus sign icon at the top right corner of the screen.
 3. Enter information about the taxon in the provided form.
-   ![Taxon Data Entry Form](/img/addnewtaxon.png)
+   ![Taxon Data Entry Form](/img/addnewtaxon.PNG)
 
 :::tip
 

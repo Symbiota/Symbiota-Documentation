@@ -101,12 +101,12 @@ const config: Config = {
       //... other Algolia params
     },
     // Replace with your project's social card
-    image: "img/LogoSymbiotaPNG.png",
+    image: "img/LogoSymbiotaPNG.PNG",
     navbar: {
       title: "Symbiota Docs",
       logo: {
         alt: "Symbiota Logo",
-        src: "img/LogoSymbiotaPNG.png",
+        src: "img/LogoSymbiotaPNG.PNG",
       },
       items: [
         {

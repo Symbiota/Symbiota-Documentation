@@ -29,7 +29,7 @@ Statistics relating to the number of specimens, images, georeferences, and taxa 
 - Number of specimens that are identified at least to the level of species
 - Number of families, genera, species, and total taxa that represented in the collection (NOTE: these numbers are calculated using only taxonomic names that have been indexed to the taxonomic thesaurus)
 
-![Collection Profile Page](/img/collprofile.png)
+![Collection Profile Page](/img/collprofile.PNG)
 
 Collection profiles can be accessed by visiting the Collection Search Page (click Search Collections) at the following URL: [BASE URL]/collections/index.php. For example, for the CCH2 portal, the full URL is https://cch2.org/portal/collections/index.php.
 
@@ -45,4 +45,4 @@ To view statistics regarding the processing statuses in your collection, navigat
 
 This page will also show you how many of your occurrences do not have linked media resources and how many lack skeletal data (i.e., a value in the Scientific Name field).
 
-![Reports Tab in Processing Toolbox](/img/reportstab.png)
+![Reports Tab in Processing Toolbox](/img/reportstab.PNG)

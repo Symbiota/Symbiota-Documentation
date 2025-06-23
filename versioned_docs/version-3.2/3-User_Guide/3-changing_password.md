@@ -18,7 +18,7 @@ To change your password, username, or any other personal information in a Symbio
    - **Change Login**: enter a new username, followed by your current password to confirm
    - **Manage Access**: here you can clear your access tokens, which are like "pathways" to editing data on your behalf in the portal. If the number seems high, you can clear the access tokens. This will require you to enter your username and password anew upon logging in from any computer or device.
 
-![User Profile page](/img/UserProfile.png)
+![User Profile page](/img/UserProfile.PNG)
 
 ### Resetting your Password
 
