@@ -26,7 +26,7 @@ Because some associations are with external resources, not all associations are 
 
 Associations can be searched in the [public search form](/docs/User_Guide/searching_records) of a portal under the "Associations" box.
 
-![Associations Search](/img/associationssearch.PNG)
+![Associations Search](/img/associationssearch.png)
 
 You can search for specific types of associations using the Association Type dropdown list, or you can search for associations between specific taxa using the Taxon search box.
 
