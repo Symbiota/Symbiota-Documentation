@@ -38,11 +38,11 @@ To transfer a specimen from your personal observation profile, you must have adm
 
 1. Open the specimen that you would like to transfer and click the Admin tab (far right).
 
-![Tabs available in the editor panel](/img/editortabs.PNG)
+![Tabs available in the editor panel](/img/editortabs.png)
 
 2. From the dropdown menu, select the name of the collection to which you would like to transfer your record. **This action will remove the specimen from your personal observation profile!**
 
-![Transferring a specimen between collections](/img/transferspecimen.PNG)
+![Transferring a specimen between collections](/img/transferspecimen.png)
 
 ### Batch transferring specimens from a personal profile to a collection
 
