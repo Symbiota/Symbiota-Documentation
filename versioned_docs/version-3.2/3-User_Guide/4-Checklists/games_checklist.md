@@ -18,7 +18,7 @@ keywords: ["checklist", "inventory", "flora", "games"]
 1. Log into your Symbiota profile and navigate to your portal's list of existing checklists. Look for a "Projects" or "Checklists" tab at the top of your portal interface.
 
 2. Select the checklist containing content that you wish to play with. On the checklist page, click the "Games" link at the top of the Options box.
-   ![Games Navigation from Checklist](/img/games_navigation.PNG)
+   ![Games Navigation from Checklist](/img/games_navigation.png)
 
 ## Name Game
 
@@ -26,7 +26,7 @@ keywords: ["checklist", "inventory", "flora", "games"]
 
 "Name Game" is a memory recall game that prompts users to guess (and spell) a genus and species included in a checklist.
 
-![Games Navigation from Checklist](/img/games_namegame.PNG)
+![Games Navigation from Checklist](/img/games_namegame.png)
 
 ### How to play
 
@@ -49,7 +49,7 @@ keywords: ["checklist", "inventory", "flora", "games"]
 
 "Flash Card Quiz" prompts users to identify species from a checklist using images.
 
-![Games Navigation from Checklist](/img/games_flashcardquiz.PNG)
+![Games Navigation from Checklist](/img/games_flashcardquiz.png)
 
 ### How to play
 
@@ -76,4 +76,4 @@ The species displayed in each game are dependent on the contents of the selected
 
 If your account has [Taxon Profile Editor permissions](../user_permissions), you can edit which images display in the flash card quiz by changing the sort order of images in the Taxon Profile Editor, such that the images with a value of "1" will appear first, "2" second, and so on. The default sort value is "50". However, **be aware** that image sorting changes made in the Taxon Profile Editor will affect how the images display across the entire portal--not just within your game.
 
-![Sort Images in the Taxon Profile Editor](/img/games_imagesort.PNG)
+![Sort Images in the Taxon Profile Editor](/img/games_imagesort.png)
