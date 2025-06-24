@@ -23,7 +23,7 @@ It is incumbent upon data users to abide by usage rights when downloading images
 ## Download Images Individually
 
 Images can be downloaded directly by opening images from occurrence records and saving them locally:
-![Search Results Example](/img/download_image.PNG)
+![Search Results Example](/img/download_image.png)
 
 ## Batch Image Downloading
 
