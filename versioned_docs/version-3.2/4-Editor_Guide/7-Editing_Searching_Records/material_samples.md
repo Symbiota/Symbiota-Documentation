@@ -21,7 +21,7 @@ The Material Sample tab will only be visible if it has been activated for your c
 
 :::
 
-| ![Material Sample Module](/img/materialsampleblank.PNG) |
+| ![Material Sample Module](/img/materialsampleblank.png) |
 | :-----------------------------------------------------: |
 |    Material Sample tab within the Occurrence Editor     |
 
@@ -39,7 +39,7 @@ One specimen occurrence in a Symbiota portal can be associated with one or more 
 
 ### Adding Individual Material Samples
 
-|                                                                                                        ![Material Sample Example](/img/materialsampleeditor.PNG)                                                                                                         |
+|                                                                                                        ![Material Sample Example](/img/materialsampleeditor.png)                                                                                                         |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Specimen occurrence with multiple associated material sample records as viewed from within the Occurrence Editor. [This example](https://biorepo.neonscience.org/portal/collections/individual/index.php?occid=277316) is from the NEON Biorepository's Symbiota portal. |
 
