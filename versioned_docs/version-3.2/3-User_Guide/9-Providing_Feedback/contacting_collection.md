@@ -13,6 +13,6 @@ To contact the collections manager or curator of a collection, visit the Collect
 2. Click **"more info..."** after the name of the collection you are interested in.
 3. Contact information for the person or people responsible for the collection will be listed at the top of this page, as illustrated below.
 
-|                                                                               ![Locating contacts](/img/contactsexample.PNG)                                                                                |
+|                                                                               ![Locating contacts](/img/contactsexample.png)                                                                                |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Contact information can be located at the top of each collection's profile page. The [example](https://www.cch2.org/portal/collections/misc/collprofiles.php?collid=12) above is from the CCH2 Data Portal. |
