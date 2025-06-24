@@ -14,7 +14,7 @@ Users must be sponsored by a collection administrator in order to add and edit r
 
 Sponsored users have the following options for managing their data in the Personal Observations Profile collection. Related tutorial documentation is linked below.
 
-![Personal Observation Profile Options](/img/persobsoptions.JPG)
+![Personal Observation Profile Options](/img/persobsoptions.jpg)
 
 * **Search Records:** search through the records that you have entered into this profile. You can conduct custom, detailed searches from this interace. Tutorial information can be found [on this page](/docs/Editor_Guide/Editing_Searching_Records).
 * **Add a New Record:** tutorials for [adding records here](/docs/Editor_Guide/Adding_Records/adding_full_records) and for [editing records here](/docs/Editor_Guide/Editing_Searching_Records)
