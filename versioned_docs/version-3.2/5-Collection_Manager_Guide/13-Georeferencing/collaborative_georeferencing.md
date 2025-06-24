@@ -39,7 +39,7 @@ Example instructions for step 5 can be found here ([GEOLocate CoGe Training Cour
 2. Click Processing Toolbox.
 3. If CoGe has been enabled for your portal, a tab labeled GeoLocate CoGe will be visible. Click this tab. If CoGe is not enabled, contact your portal manager to request this feature.
 
-![GeoLocate CoGe tab](/img/geolocatecoge.PNG)
+![GeoLocate CoGe tab](/img/geolocatecoge.png)
 
 5. Click Login to CoGe in the **CoGe Status** box on the resulting page and log in to CoGe using your CoGe user account information in the pop-up window/tab.
 6. Return to your Symbiota portal page.
@@ -65,7 +65,7 @@ You can also use the "Download Records Locally" button to quickly check whether 
 10. Return to the [CoGe site](https://coge.geo-locate.org/), navigate to your Dashboard, click the name of the community to which you just pushed records, and click the GO TO COMMUNITY button.
 11. Click the name of the dataset that you just pushed to CoGe.
 
-![CoGe Dashboard](/img/cogedashboard.PNG)
+![CoGe Dashboard](/img/cogedashboard.png)
 
 13. Click the Update Cache button.
 14. Once the cache has been fully updated, they will be available via the [CoGe web client](https://www.geo-locate.org/web/WebComGeoref.aspx).
@@ -77,4 +77,4 @@ You can also use the "Download Records Locally" button to quickly check whether 
 3. In the Filter box at the top right, select External from the dropdown menu of the Editing Source field. Then click Submit Filter.
 4. The edits that were applied in CoGe will now be visible in the reviewer table.
 
-![Edits from Coge](/img/viewcogeedits.PNG)
+![Edits from Coge](/img/viewcogeedits.png)

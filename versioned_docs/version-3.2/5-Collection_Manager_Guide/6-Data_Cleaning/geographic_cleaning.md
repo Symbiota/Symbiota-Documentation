@@ -35,6 +35,6 @@ The Geography Cleaning Tool will search your database for non-standardized geogr
 
 This tool will also check whether there are records that lack data in the country, state/province, or county fields, yet have geographic data in other fields. For example, the line “Null country with non-Null state/province” lists all records that do not have a country value in the specimen record even though there is a state or province listed in the state/province field of that record. You can click “List records...” and assign a higher geographic value to those records (see example below).
 
-![Geography Cleaning Tool Example](/img/geocleaningexample.PNG)
+![Geography Cleaning Tool Example](/img/geocleaningexample.png)
 
 Similar lists are provided for records with empty state/province fields but filled county fields and for records with empty county fields but filled locality fields.

@@ -16,4 +16,4 @@ The "Create a Checklist" permission has been granted for the majority of existin
 
 In the user profile page, find the "Assign New Permissions" options, and mark the checkbox that says "Create a Checklist", and then click the "Add Permission" button to complete the process.
 
-![checklist-add-permission.PNG](/img/checklist-add-permission.PNG)
+![checklist-add-permission.png](/img/checklist-add-permission.png)

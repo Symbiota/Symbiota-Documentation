@@ -29,7 +29,7 @@ Don't see a Crowdsourcing tab? Crowdsourcing may not be enabled in your portal. 
 5. Review records in the provided table, or click the pencil icon to view individual records along with their images.
 6. To approve records, click the check box next to the records you wish to approve, scroll down to the bottom of the page, and click Submit Reviews.
 
-![Crowdsourcing Example](/img/crowdsourceexample.PNG)
+![Crowdsourcing Example](/img/crowdsourceexample.png)
 
 :::tip
 

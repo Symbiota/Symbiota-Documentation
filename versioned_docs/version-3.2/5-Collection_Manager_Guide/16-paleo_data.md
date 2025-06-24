@@ -17,7 +17,7 @@ The use of Symbiota portals for managing and sharing paleontological collections
 
 The "Paleo Module" is a non-standard module available for collections in Symbiota portals that contain records of fossil specimen occurrences. This module is activated on a **per-collection** basis (i.e. not per portal) and appears as an additional form within the Occurrence Editor. Contact your portal administrator to have this module activated for your collection.
 
-![Paleo Module for Symbiota Portals](/img/paleo_module.PNG)
+![Paleo Module for Symbiota Portals](/img/paleo_module.png)
 
 ## Geochronologic/Chronostratigraphic Data
 
@@ -37,15 +37,15 @@ If the paleo module has been activated for your collection's profile in a Symbio
 
 When bulk ingesting data that includes values destined for the _Eon, Era, Period, Epoch_ and/or _Stage_ fields, be aware of the idiosyncrasies illustrated below:
 
-|                                                                                                                                                                                                                                                         ![Paleo Module for Symbiota Portals](/img/paleo_ageerror1.PNG)                                                                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                         ![Paleo Module for Symbiota Portals](/img/paleo_ageerror1.png)                                                                                                                                                                                                                                                          |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | **Only one hierarchy for age-related data can be specified within the Occurrence Editor.** In other words, if a specimen's possible age may span multiple divisions of geologic time--e.g. _Early Interval_="Campanian" and _Late Interval_="Danian"--at present, you can only specify one hierarchy using the Paleo Module form. In the example above, the hierachy for "Danian" is selected. However, full hierarchies for both _Late Interval_ and _Early Interval_ can be [bulk uploaded](/docs/Collection_Manager_Guide/Importing_Uploading) after cataloging, if desired. |
 
-|                                                                                                                                                         ![Paleo Module for Symbiota Portals](/img/paleo_ageerror2.PNG)                                                                                                                                                          |
+|                                                                                                                                                         ![Paleo Module for Symbiota Portals](/img/paleo_ageerror2.png)                                                                                                                                                          |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | ⚠️ **While a controlled vocabulary exists, it is only _suggested_; therefore, illogical age values can be keystroked and saved the Occurrence Editor**. In the example above, because “Lower Cretaceous” exists as value for _Epoch_, the form accepted this value, even though it's an [illogical choice](https://stratigraphy.org/timescale/) for _Stage_ = “Maastrichtian”). |
 
-|                                                                                                                                                                                                                      ![Paleo Module for Symbiota Portals](/img/paleo_ageerror3.PNG)                                                                                                                                                                                                                       |
+|                                                                                                                                                                                                                      ![Paleo Module for Symbiota Portals](/img/paleo_ageerror3.png)                                                                                                                                                                                                                       |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | ❗**A "mismatched term" error will appear if an entered value does not perfectly align with your portal's suggested controlled vocabulary in the _Eon, Era, Period, Epoch_ and _Stage_ fields**. In this example, the suggested vocabulary prefers "Upper Cretaceous" to "Late Cretaceous"; therefore, when "Late Cretaceous" is entered, an error appears. This error is only visible on the Occurence Editor interface and will _not_ affect how your data are stored, exported, or displayed publicly. |
 
@@ -53,7 +53,7 @@ When bulk ingesting data that includes values destined for the _Eon, Era, Period
 
 At present, the default value for [_basisOfRecord_](https://dwc.tdwg.org/terms/#dwc:basisOfRecord) in Symbiota portals is "PreservedSpecimen"; however, the correct value for paleontological occurrences is "FossilSpecimen". This value can be manually selected in the Occurrence Editor form during cataloging, or by [batch editing](/docs/Collection_Manager_Guide/Editing_Occurrences/batch_editing) to replace "PreservedSpecimen" with "FossilSpecimen" after cataloging is complete.
 
-![Paleo Module for Symbiota Portals](/img/paleo_basisofrecord.PNG)
+![Paleo Module for Symbiota Portals](/img/paleo_basisofrecord.png)
 
 ## Fossil Localities/Sites
 

@@ -31,7 +31,7 @@ As collections become available online, properly citing them has become increasi
 
 Collections that publish their data to GBIF automatically have access to robust data usage tracking through the generation of a DOI that uniquely identifies your collection online. When this DOI is included in citations of your data, automated citation tracking becomes possible. GBIF's documentation on this topic can be found [here](https://www.gbif.org/citation-guidelines).
 
-![How to cite your data in GBIF](/img/citation_gbif1.PNG)
+![How to cite your data in GBIF](/img/citation_gbif1.png)
 
 #### Where is my collection's properly formatted citation?
 
@@ -42,13 +42,13 @@ In order for citations to link to your collections in GBIF and Symbiota, data us
 
 It is wise to preemptively encourage researchers to properly cite your data according to these guidelines, which can be found on your collections profile:
 
-![Sample Profile Citation](/img/citation_analog.PNG)
+![Sample Profile Citation](/img/citation_analog.png)
 
 #### What happens once my data are cited?
 
 If your data are cited properly in digitally available published literature, GBIF will track these citations once they are indexed by Google Scholar. In turn, these citations will tally in the "citation widget" that appears at the top of your collections profile. Clicking on the widget will direct you to a bibliography of works that have used your digitized collections data:
 
-![Sample GBIF Citation Widget](/img/citation_widget.PNG)
+![Sample GBIF Citation Widget](/img/citation_widget.png)
 
 :::note
 
@@ -84,6 +84,6 @@ Example CITEME.txt content:
 
 Some portal communities maintain their own portal-wide data usage policies for media and specimen records, which includes a recommended citation format for the portal. This information can typically be found on the **_Sitemap_ > _Media Library_ > _Usage Policy and Copyright Information_**. To request modifications to your portal's data usage policy, or to have one added to your portal, contact your portal manager.
 
-|                                 ![Sample Portal Data Use Policy](/img/citation_portal.PNG)                                  |
+|                                 ![Sample Portal Data Use Policy](/img/citation_portal.png)                                  |
 | :-------------------------------------------------------------------------------------------------------------------------: |
 | Citation guidelines provided in the [CCH2 portal's data usage policy](https://www.cch2.org/portal/includes/usagepolicy.php) |

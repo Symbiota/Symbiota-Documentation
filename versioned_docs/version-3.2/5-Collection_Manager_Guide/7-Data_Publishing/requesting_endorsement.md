@@ -15,7 +15,7 @@ import ReactPlayer from "react-player";
 
 :::
 
-|                             ![Example GBIF publisher page](/img/endorsementpublisherexample.PNG)                             |
+|                             ![Example GBIF publisher page](/img/endorsementpublisherexample.png)                             |
 | :--------------------------------------------------------------------------------------------------------------------------: |
 | Sample GBIF publisher page for the [ASU Biocollections](https://www.gbif.org/publisher/814cdfb5-d4f8-4453-815f-ea5df98e76bf) |
 
@@ -25,7 +25,7 @@ import ReactPlayer from "react-player";
 - ⚠️ **If your organization is found in the search form, do not request endorsement.** Look for the contacts listed on your organization's publisher page. If you are unsure whether your collection should be published as a dataset in connection with this existing publisher page, reach out to the listed contacts for assistance before proceeding with data publishing. You can also ask the Support Hub for advice in this situation if you're not sure what to do.
 - **If your organization is not found in the search form, proceed with the remaining steps on this page.**
 
-|                                                                                                                                                                                                                                                       ![Example GBIF publisher page](/img/endorsementpublisherexample2.PNG)                                                                                                                                                                                                                                                       |
+|                                                                                                                                                                                                                                                       ![Example GBIF publisher page](/img/endorsementpublisherexample2.png)                                                                                                                                                                                                                                                       |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | **It's possible your organization is already registered as a publisher, as is often the case for museums and universities that maintain multiple natural history collections.** If you determine that your organization is already registered as a publisher, reach out to the contact(s) listed on your institution's publisher page to have them add your collection added as a separate dataset. For example, the ASU Biocollections are published to GBIF as [a series of datasets](https://www.gbif.org/dataset/search?publishing_org=814cdfb5-d4f8-4453-815f-ea5df98e76bf). |
 
@@ -57,7 +57,7 @@ To complete the form:
 
 10. Once approved, your organization will be listed as an "Endorsed Publisher" on [the Support Hub's Participant page on GBIF](https://www.gbif.org/participant/429). When you open your new publisher page, note the **publisher key** that appears in the URL for the webpage; [use this key when you go to publish your data to GBIF (Step 4)](/docs/Collection_Manager_Guide/Data_Publishing/publishing_gbif).
 
-![Example GBIF publisher page](/img/endorsementpublisherkey.PNG)
+![Example GBIF publisher page](/img/endorsementpublisherkey.png)
 
 <ReactPlayer
   playing={false}

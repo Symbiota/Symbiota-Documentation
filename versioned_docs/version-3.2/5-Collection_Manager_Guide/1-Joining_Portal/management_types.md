@@ -11,7 +11,7 @@ keywords: ["management", "live", "snapshot"]
 
 There are two main ways that collections present their data in Symbiota portals: **live** or as a **snapshot**. Each collection's data management method in Symbiota can be found on its respective profile. For example:
 
-![Live-Managed Collection Example](/img/asu_live_managed.PNG)
+![Live-Managed Collection Example](/img/asu_live_managed.png)
 
 A **live** collection is one that manages their data directly in the Symbiota portal. Data entry, data editing, and digitization are conducted via a web browser within Symbiota portal. Live collections can start with as much or as little data as a collection wishes; if the collection already has a spreadsheet, database, or Darwin Core Archive of their collection data, they can import the data into the Symbiota portal and manage the data in the portal henceforth. A collection can also start the digitization process in the portal without any starting data. Some advantages to live management in a Symbiota portal include:
 

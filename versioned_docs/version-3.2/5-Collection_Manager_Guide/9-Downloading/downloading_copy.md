@@ -26,7 +26,7 @@ To download a copy of your specimen data from a Symbiota portal:
 1. Navigate to the **_Administration Control Panel_** (_My Profile > Occurrence Management > name of collection_) > **_Download Data Backup File_** (under General Maintenance Tasks)
 2. A new window will appear asking you to select the character set (ISO-8859-1 or UTF-8) that will be used in your downloaded dataset. Click the Perform Backup button. The resulting file will be a zipped Darwin Core Archive.
 
-![Exporter Tool](/img/admincontrolpanel_backup.PNG)
+![Exporter Tool](/img/admincontrolpanel_backup.png)
 
 To access your backup data, unzip/open the Darwin Core Archive folder. This folder will contain several files, including the following CSV (Comma Separated) files that can be opened as a spreadsheet in MS Excel, Google Sheets, etc:
 

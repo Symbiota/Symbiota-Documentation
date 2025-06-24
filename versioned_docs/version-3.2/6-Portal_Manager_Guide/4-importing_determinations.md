@@ -20,7 +20,7 @@ This page provides instructions for bulk uploading specimen determinations/annot
 
 :::
 
-|                                                     ![Single Determination History Form](/img/determinationhistoryform.PNG)                                                     |
+|                                                     ![Single Determination History Form](/img/determinationhistoryform.png)                                                     |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Data associated with specimen identifications (aka taxonomic determinations or annotations) can be added to specimen records in bulk using the **Extended Data Importer** tool. |
 

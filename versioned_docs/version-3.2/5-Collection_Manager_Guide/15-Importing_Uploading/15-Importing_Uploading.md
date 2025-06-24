@@ -55,7 +55,7 @@ Conversely, a **Skeletal File Upload** will only import data into fields that ar
 6. If the collection to which you are uploading data is live managed (the portal is your database system), proceed to step 7. If the collection to which you are uploading data is a “snapshot” of a specimen database managed within the home institution, select the primary key for the source specimen record from the dropdown menu. The primary key is a required field for snapshot datasets that will serve as the primary record identifier (the permanent link between the source database and the portal records). This field must be populated for every record with unique values. These values must also be stable and not changed in the central database over time. Snapshots will typically use the catalog number (accession number), barcode, or database primary key from the source database specimen table for this field.
 7. You will then see a page that will look similar to the one shown below. The length and contents of the Source Field/Target Field table will depend on what columns were included in the original CSV file.
 
-![Example of Data Upload Module](/img/DataUploadModule.PNG)
+![Example of Data Upload Module](/img/DataUploadModule.png)
 
 8. Select which fields in your CSV file (**Source Fields**) will correspond to which fields in the Symbiota portal (**Target Fields**). Check the [Symbiota Data Field Guide](/docs/Collection_Manager_Guide/Importing_Uploading/data_import_fields) for definitions of each data field. Also see the **Uploading Tips** section below.
 9. Once you are satisfied with your field-to-field mapping (see next Notes), click the “Save Mapping” button.
@@ -64,7 +64,7 @@ Conversely, a **Skeletal File Upload** will only import data into fields that ar
 12. Click the Start Upload button. This will upload your data into a _temporary_ table so you can review it before committing the final upload.
 13. Verify that the correct number of records are being updated and/or added by viewing the Pending Data Transport Report on the next page.
 
-![Screenshot of Pending Data Transfer Report](/img/PendingDataTransport.PNG)
+![Screenshot of Pending Data Transfer Report](/img/PendingDataTransport.png)
 
 14. View the data that have been stored in the temporary table to ensure correct mapping and formatting of the fields you are uploading. You can either:
     - Click the small box icon to the right of "Records to be updated" or "New records" to view the records in a table in your browser.

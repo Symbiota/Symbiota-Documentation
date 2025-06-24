@@ -33,7 +33,7 @@ Don't see a Crowdsourcing tab? Crowdsourcing may not be enabled in your portal. 
 
 4. On the resulting page, you will see tallies of how many records are in the queue, how many have been processed, and how many could be added to the queue. Click the Add to Queue button to see additional options for refining which specimens you will include in the queue (shown in screenshot below).
 
-![Add Specimens to Crowdsourcing Queue](/img/crowdsourcing2.PNG)
+![Add Specimens to Crowdsourcing Queue](/img/crowdsourcing2.png)
 
 :::tip
 

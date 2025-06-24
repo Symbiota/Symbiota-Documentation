@@ -38,7 +38,7 @@ When viewing clustered duplicates, you can view the record for any occurrence by
 
 :::
 
-![Example Duplicate Conflicts](/img/exampleduplicateconflicts.PNG)
+![Example Duplicate Conflicts](/img/exampleduplicateconflicts.png)
 
 A video walkthrough of how duplicate clustering tools can be used to resolve conflicting identifications can be found here:
 

@@ -82,7 +82,7 @@ Optional fields ([defined below](/docs/Collection_Manager_Guide/Importing_Upload
 
 ##### 3. "Occurrence - External Link" Uploads
 
-|                                                    ![Example General Resource](/img/linkedresources_relatedoccurrences.PNG)                                                    |
+|                                                    ![Example General Resource](/img/linkedresources_relatedoccurrences.png)                                                    |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Linkages to occurrences and similar resources that are managed outside of your Symbiota portal can be bulk imported using the "Occurrence - Externally Managed" upload option. |
 
@@ -101,7 +101,7 @@ Optional fields ([defined below](/docs/Collection_Manager_Guide/Importing_Upload
 
 ##### 4. "Taxon Observation" Uploads
 
-|                             ![Example Taxon Observation Linkage](/img/linkedresources_assoctaxa.PNG)                              |
+|                             ![Example Taxon Observation Linkage](/img/linkedresources_assoctaxa.png)                              |
 | :-------------------------------------------------------------------------------------------------------------------------------: |
 | Observations that are not associated with digitized occurrences can be bulk imported using the "Taxon Observation" upload option. |
 

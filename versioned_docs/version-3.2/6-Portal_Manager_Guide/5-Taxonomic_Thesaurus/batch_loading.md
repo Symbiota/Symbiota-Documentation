@@ -66,14 +66,14 @@ style={{marginBottom: '2vh'}}
 ## Ingest the File Using the Batch Loader
 
 Once your file is prepared, if your user account has the appropriate permissions, you can batch upload taxonomy from a spreadsheet (CSV) or text file by navigating to _Sitemap > Taxonomy > Batch Upload a Taxonomic Data File > Taxa Upload_.
-![Taxonomy Batch Upload Tool](/img/taxonomybatchloader.PNG)
+![Taxonomy Batch Upload Tool](/img/taxonomybatchloader.png)
 
 1. Select your formatted input file.
 2. Select the Target Thesaurus. (Your portal may only have one option.)
 3. Select the Target Kingdom (all names in the input file will be associated with this Kingdom).
 
 4. Once you select _Map Input File_, you will be prompted to map the fields in your input file to target fields in the database. Note that the parent taxon = _parentstr_ and scientificName = _scinameinput_.
-   ![Taxonomy Batch Upload Tool](/img/taxonomybatchloader2.PNG)
+   ![Taxonomy Batch Upload Tool](/img/taxonomybatchloader2.png)
 
 5. Once the fields are mapped, select _Verify Mapping_.
 

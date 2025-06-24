@@ -20,7 +20,7 @@ The option to enabled public edits is managed on a **per-collection basis** and 
 
 Once activated, any portal user who is logged in can suggest changes to your occurrence records using a paired-down version of the Occurrence Editor form. Public users cannot suggest edits to _Catalog Number_ or _Scientific Name_ values.
 
-|                                                                                                ![Public Feedback Example](/img/publicfeedback.PNG)                                                                                                |
+|                                                                                                ![Public Feedback Example](/img/publicfeedback.png)                                                                                                |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Once Public Edits are enabled via the [Collection Metadata Editor](/docs/Collection_Manager_Guide/editing_collection_metadata#collections-metadata), any user who is logged into the portal can suggest changes to individual occurrence records. |
 
