@@ -16,7 +16,7 @@ Esta página describe cómo editar registros por lote.
 :::
 
 - Para ver instruciones acerca de georreferenciación por lote, visite [esta página](https://biokic.github.io/symbiota-docs/es/editor/georeference/batch/).
-- Los nombres científicos únicamente pueden ser cambiados por lote utilizando las [herramientas de Anotaciones por Lote](https://biokic.github.io/symbiota-docs/es/editor/edit/annotations/) o las [herramientas de Limpieza Taxonómica](/docs/Collection%20Manager%20Guide/Data%20Cleaning/taxonomic_cleaning).
+- Los nombres científicos únicamente pueden ser cambiados por lote utilizando las [herramientas de Anotaciones por Lote](https://biokic.github.io/symbiota-docs/es/editor/edit/annotations/) o las [herramientas de Limpieza Taxonómica](/docs/Collection_Manager_Guide/Data_Cleaning/taxonomic_cleaning).
 
 :::note
 
@@ -34,7 +34,7 @@ Tenga precaución cuando utilice esta herramienta. También recomendamos descarg
 
 :::note
 
-⚠️ Es fácil cambiar texto que no se quería cambiar, de una manera inadvertida. Generalmente, mientras más específico sea su texto en “Valor Actual:”, menos probable es que vaya a enfrentar consecuencias inesperadas. De ser posible, obtenga un estimado de cuántos registros en su tabla deberían verse afectados por las ediciones, y compare con el número de registros citados en la advertencia. Si los números no coinciden, vuelva a revisar su estrategia de selección.<br>
+⚠️ Es fácil cambiar texto que no se quería cambiar, de una manera inadvertida. Generalmente, mientras más específico sea su texto en “Valor Actual:”, menos probable es que vaya a enfrentar consecuencias inesperadas. De ser posible, obtenga un estimado de cuántos registros en su tabla deberían verse afectados por las ediciones, y compare con el número de registros citados en la advertencia. Si los números no coinciden, vuelva a revisar su estrategia de selección.<br/>
 No es posible revisar el conteo de registros cuando se filtra por el campo “Modificado Por” primero. Hacerlo, regresa un conteo del número de campos editados por el usuario dentro de todos los registros afectados, en lugar del total de registros que son editados.
 
 :::

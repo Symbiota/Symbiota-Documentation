@@ -8,7 +8,7 @@ weight: 111
 keywords: ["tesauro", "nombres científicos", "taxonomía"]
 ---
 
-{{< notice info >}}
+:::info
 Esta página describe el uso del tesauro taxonómico en los portales Symbiota.
 :::
 
