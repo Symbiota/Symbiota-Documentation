@@ -35,12 +35,12 @@ Processing Status integrates with the following tools in Symbiota portals:
 
 The Processing Status can also be batch edited and searched using Data Editor Search Form (_Data Editor Control Panel > Edit Existing Occurrence Records_):
 
-![Occurrence Editor Tabs](/img/processingstatusquery.PNG)
+![Occurrence Editor Tabs](/img/processingstatusquery.png)
 
 ### Editing Processing Status
 
 _Processing Status_ and _Status Auto-Set_ are located under the Curation section of the Occurrence Editor form:
-![Occurrence Editor Tabs](/img/processingstatus.PNG)
+![Occurrence Editor Tabs](/img/processingstatus.png)
 
 #### Manually
 
