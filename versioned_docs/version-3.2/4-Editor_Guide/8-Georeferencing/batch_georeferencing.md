@@ -18,9 +18,9 @@ This page describes the functionality of the Batch Georeferencing tool. Distinct
 2. In the Data Editor Control Panel, click “Batch Georeference Specimens.”
 3. Enter your desired search terms in the provided Query Form box. You can search by Country, State, County, Municiplaity, Processing Status, and/or Locality Terms. Then click Generate List.
 
-![Batch Georeferencing Tool](/img/batchgeoreference.PNG)
+![Batch Georeferencing Tool](/img/batchgeoreference.png)
 
-4. Select the entry that you want to work on and click the Geolocate icon ![Batch Georeferencing Tool](/img/geolocate.PNG) at the top right of the search results. This will open a new GeoLocate window (see next screenshot) displaying a map and, in some cases, possible location(s) for the specimen that GeoLocate inferred from the text.
+4. Select the entry that you want to work on and click the Geolocate icon ![Batch Georeferencing Tool](/img/geolocate.png) at the top right of the search results. This will open a new GeoLocate window (see next screenshot) displaying a map and, in some cases, possible location(s) for the specimen that GeoLocate inferred from the text.
    - The green dot is GeoLocate’s best guess for the locality of the specimen. You may also see red dots, which are alternative guesses.
    - To view the reasons why GeoLocate selected these dots, click the “# possible locations found” tab to the right of the Workbench tab. The words in all caps are those that GeoLocate used to infer a location.
 
@@ -31,7 +31,7 @@ This page describes the functionality of the Batch Georeferencing tool. Distinct
 7. If there are dots on the map, investigate whether any of them could be a good starting point for your georeferencing by comparing the dots’ locations on the map to the text in the Locality String (see dashed box in screenshot above). It is possible that none of the dots indicate the correct locality. If this is the case, you can ignore the dots or remove them by clicking the “# possible locations found” tab and clicking the circled ‘x’ to the left of each rejected entry (see below).
    - When deciding whether to use one of the GeoLocate dots, make sure to check that the state and county where the dot has been placed matches the state and county indicated by the record.
 
-![GEOLocate Options](/img/geolocateoptions.PNG)
+![GEOLocate Options](/img/geolocateoptions.png)
 
 8. Either starting with a GeoLocate dot, if appropriate, or from scratch, use the Locality String to determine an approximate location for the specimen. This will likely require searching other references (e.g., Google maps) for location and feature names.
    - You can change the base layer (i.e., the type of map shown in the GeoLocate window) by clicking the plus symbol in the upper right corner of the window (see next screenshot).
@@ -49,7 +49,7 @@ This page describes the functionality of the Batch Georeferencing tool. Distinct
       - To redo a polygon, click the “Clear Polygon” button to the right of the “Options” button.
     - Make sure to note any uncertainty you experienced when setting the error radius. For example, if you were georeferencing a named place that did not have clear boundaries, explain how you determined a suitable error radius by putting a note in the Remarks field on the search results page where you first selected your specimen record.
 
-![Batch Georeferencing Form](/img/batchgeoreferencemod.PNG)
+![Batch Georeferencing Form](/img/batchgeoreferencemod.png)
 
 11. When you are confident in your GeoLocate point and error radius, click the “Save To Your Application” button at the bottom of the GeoLocate window. You will be taken back to the search results page where you first selected your specimen record (see first screenshot).
     - The coordinates and error will now show up below the search results in the appropriate Latitude, Longitude, and Error fields. If you created an error polygon, its coordinates will be listed in the Footprint WKT field.
