@@ -18,7 +18,7 @@ This page describes how to tag media resources (e.g., images) linked to occurren
 
 Occurrence media resources can be tagged with important metadata about what is contained within that media resource. For example, a specimen image an be marked as representing an adult organism or an immature organism. Some possible tags are shown below:
 
-![Media Resource Tags](/img/imagetags.PNG)
+![Media Resource Tags](/img/imagetags.png)
 
 To tag an media resource, navigate to the occurrence to which that media resource belongs (see [this page](/docs/Editor_Guide/Editing_Searching_Records)). Then click the Media tab. Click the pencil icon next to the Taxonomic Name field and scroll down to the checklist of tags that you can add to the media resource. Click the Submit Resource Edits button when complete.
 
@@ -41,4 +41,4 @@ Even though you access this tool through the Media Search interface, you will ne
 5. Select the Media Tag from the dropdown list that you would like to apply, then check the boxes next to the media resources to which you would like to apply that tag.
 6. Click the Batch Assign Tag button to apply that tag to the selected media resources.
 
-![Batch Media Tagging Interface](/img/batchtag.PNG)
+![Batch Media Tagging Interface](/img/batchtag.png)
