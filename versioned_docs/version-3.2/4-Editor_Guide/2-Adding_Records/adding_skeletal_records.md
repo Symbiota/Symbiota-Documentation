@@ -49,7 +49,7 @@ After Add Record is clicked, the data in the Skeletal Data box fields will NOT b
 
 :::
 
-![Skeletal Records Added](/img/skeletaladded.PNG)
+![Skeletal Records Added](/img/skeletaladded.png)
 
 :::tip
 
