@@ -35,4 +35,4 @@ The Material Sample tab will only be visible if it has been activated for your c
 
   7. Once your fields have been satisfactorily mapped, click Import Data. The result of the import will be displayed, record-by-record, on the next screen.
 
-![Material Sample Module](/img/matsampleupload.JPG)
+![Material Sample Module](/img/matsampleupload.jpg)

@@ -43,13 +43,13 @@ If you restrict your search based on coordinates, **_your results will be limite
 3. After you have defined your search criteria, click the Missing Taxa tab.
 4. In the Display Mode dropdown list, select Batch Linking.
 
-![Display Mode of Missing Taxa Tab](/img/checklistdisplaymode.JPG)
+![Display Mode of Missing Taxa Tab](/img/checklistdisplaymode.jpg)
 
 From here you will see a table consiting of the first 1000 records that match your search criteria and that represent taxa that are not already in your checklist. To add taxa to the checklist from this page, check the boxes next to the vouchers with taxonomic names that you wish to add to your checklist (check the box in the top left corner of the table to check all the records in the table).
 
 5. To add **_only_** the taxonomic names represented by these specimens to your checklist, check the "Add names without linking vouchers" box, then click the Submit Vouchers button. To add the taxonomic names **_and_** link vouchers to your checklist, leave this box unchecked and click the Submit Vouchers button.
 
-![Options to Add Taxa and/or Vouchers to a Checklist](/img/checklistsubmitvouchers.JPG)
+![Options to Add Taxa and/or Vouchers to a Checklist](/img/checklistsubmitvouchers.jpg)
 
 6. After linking the desired taxa, refresh the list and link the next batch as necessary until all desired taxonomic names have been added.
 

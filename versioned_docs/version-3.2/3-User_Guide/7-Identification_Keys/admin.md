@@ -56,15 +56,15 @@ On the first **Details** tab, you can change the name of the character, change t
 
 You can also decide whether to show or hide characters by selecting "Hidden" from the Difficulty dropdown menu.
 
-![Details Page of the Character Editor](/img/editcharacter1.JPG)
+![Details Page of the Character Editor](/img/editcharacter1.jpg)
 
 In the **Character States** tab, you can add or edit the states that belong to the character. Remember that character states are the options that the user can choose from when trying to identify a sample. The character states are what the ID Key Editor will choose between when assigning a state to a certain taxon. See below for instructions on editing character states.
 
-![Character States Page of the Character Editor](/img/editcharacter2.JPG)
+![Character States Page of the Character Editor](/img/editcharacter2.jpg)
 
 In the **Taxonomic Linkages** tab, you can apply the character to the highest phylogenetic/taxonomic node to which a character belongs. For example, if a character applies to all plants, you would apply the character to the entire kingdom Plantae. Taxonomic branches can also be excluded. For example, if a character was relevant to all families in an order except one, you could set the "Relevance to taxon" = "Relevant" for the order, then add the excluded family with "Relevance to taxon" = "Exclude".
 
-![Taxonomic Linkages Page of the Character Editor](/img/editcharacter3.JPG)
+![Taxonomic Linkages Page of the Character Editor](/img/editcharacter3.jpg)
 
 The final "Admin" tab allows you to delete the character. All character states must be removed from the character before it can be deleted.
 
@@ -74,4 +74,4 @@ From the Character Management page, click on the name of the character that belo
 
 To add a new character state, click the green plus sign at the top right side of the page (circled below).
 
-![Character State Editor Page](/img/editcharacterstate.JPG)
+![Character State Editor Page](/img/editcharacterstate.jpg)
