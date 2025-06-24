@@ -126,11 +126,11 @@ const config: Config = {
           items: [
             {
               label: "3.3 (Latest)",
-              to: "docs/about/",
+              to: "docs/about",
             },
             {
               label: "3.2",
-              to: "docs/about/",
+              to: "docs/3.2/about",
             },
           ],
         },
