@@ -25,14 +25,14 @@ This guide describes the use of the label printing tool in Symbiota to print lic
 
 The default packet label looks like this:
 
-![Default Packet Label](/img/printdefaultpacket.PNG)
+![Default Packet Label](/img/printdefaultpacket.png)
 
 1. To print a packet, navigate to the Data Editor Control Panel (My Profile > Occurrence Management > name of collection).
 2. Click Print Specimen Labels from the Data Editor Control Panel.
 3. Enter search terms into the Define Specimen Recordset form to search for the specimens for which you would like to print packets. Then click the Filter Specimen Records button.
 4. Check the boxes next to the specimens for which you would like to print packets, or click the checkbox at the top of the checkboxes column to select all the records.
 
-![Label Printing List](/img/printpacketlist.PNG)
+![Label Printing List](/img/printpacketlist.png)
 
 5. Scroll down to the Label Printing form at the bottom of the page.
 6. From the Label Profiles dropdown menu, select Generic Lichen Packet.
@@ -48,14 +48,14 @@ The default packet label looks like this:
 15. Note that Other Catalog Numbers are not listed on packets by default. To add this field, create a custom label packet profile as described in the next section and include Other Catalog Numbers in your list of printed fields.
 16. When printing your packet, make sure to print at 100% scale. Use Print Preview and adjust the margins as necessary so that the packet is centered and the correct size. If printing from Google Chrome, click the More Settings option and uncheck the Headers and footers box.
 
-![Print Preview when Printing a Packet](/img/printpreviewpacket.PNG)
+![Print Preview when Printing a Packet](/img/printpreviewpacket.png)
 
 ### Customizing Your Own Packet-Printing Profile
 
 1. Complete steps 1-7 as above.
 2. Click the pencil icon next to Label Profiles.
 
-![Print](/img/printprofile.PNG)
+![Print](/img/printprofile.png)
 
 3. Find the profile labeled Generic Lichen Packet.
 4. To customize the packet-printing profile for your own personal use, click the Select Target option under Generic Lichen Packet and select “User Profile”. To customize the 5. packet-printing profile for your entire collection (i.e., other people will also be able to use this profile), select “Collection Profile” from the dropdown menu.
@@ -64,7 +64,7 @@ The default packet label looks like this:
    - To remove the barcode from your packet, uncheck the box next to **Display barcode**. If you do this, make sure to delete “Custom Collection Name” from the **Footer text** field.
 7. To edit which fields are listed on your packet and/or the orientation of those fields, scroll down to the JSON field and click “visual interface”.
 
-![Print Visual Interface](/img/printvisualinterface.PNG)
+![Print Visual Interface](/img/printvisualinterface.png)
 
 - In the bottom center of the screen, you will see a preview of the label that you are customizing.
 - The left-hand Fields Available column contains a bank of fields that you can draw from and include on your label
@@ -73,7 +73,7 @@ The default packet label looks like this:
 - The Line Options on the bottom right can be used to select a delimiter between fields on the same line and edit the text alignment and spacing after selecting a line in the Label Content Area.
 - To add a new line, scroll to the bottom of the Label Content Area and click the ADD LINE button. Beware of adding additional lines to the Label Content Area! If you have too much content, it may not fit on the packet label.
 
-![Print Customization](/img/printcustomize.PNG)
+![Print Customization](/img/printcustomize.png)
 
 8. Customize your label by adding fields (drag and drop fields from the Field Available column into the Label Content Area), removing fields (click the x icon next to the field in the Label Content Area), editing fields (using Field Options), and editing lines (using Line Options) as desired.
 9. Click the SAVE FORMAT & CLOSE button.
