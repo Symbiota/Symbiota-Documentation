@@ -21,7 +21,7 @@ Most Symbiota portals have a central collection profile generally referred to as
 
 The personal observation profile is intended to be a place where collectors can manage their records (e.g., add and edit data, print specimen labels) and distribute the data to the collections where they will send their specimens, if applicable. A diagram of a generalized workflow is shown below.
 
-![Personal Observation Profile General Workflow](/img/persobsprofile.PNG)
+![Personal Observation Profile General Workflow](/img/persobsprofile.png)
 
 This workflow saves everyone time and energy because collections do not need to re-transcribe the data. Morever, even though there may be many duplicates for a specimen, the data only need to be entered once. This single data entry also reduces the likelihood of data entry error.
 
