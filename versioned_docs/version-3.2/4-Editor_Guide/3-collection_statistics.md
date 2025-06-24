@@ -27,7 +27,7 @@ Statistics relating to the number of specimens, images, georeferences, and taxa 
 - Number of specimens that are identified at least to the level of species
 - Number of families, genera, species, and total taxa that represented in the collection (NOTE: these numbers are calculated using only taxonomic names that have been indexed to the taxonomic thesaurus)
 
-![Collection Profile Page](/img/collprofile.PNG)
+![Collection Profile Page](/img/collprofile.png)
 
 <figcaption align = "center">_Collection Profile for [OBI in CCH2](https://www.cch2.org/portal/collections/misc/collprofiles.php?collid=12)._</figcaption>
 
@@ -47,6 +47,6 @@ To view statistics regarding the processing statuses in your collection, navigat
 
 This page will also show you how many of your occurrences do not have linked images and how many lack skeletal data (i.e., a value in the Scientific Name field).
 
-![Reports Tab in Processing Toolbox](/img/reportstab.PNG)
+![Reports Tab in Processing Toolbox](/img/reportstab.png)
 
 <figcaption align = "center">_Administration Control Panel > Processing Toolbox > Reports tab_</figcaption>
