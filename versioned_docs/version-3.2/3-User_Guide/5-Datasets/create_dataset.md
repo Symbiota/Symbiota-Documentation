@@ -20,12 +20,12 @@ You can access the tools to create a new dataset either (A) through the general 
 
 1. Conduct a search from the main search page of the Symbiota portal. This is usually accessed by clicking "Search" or "Search Collections" on the home page of the portal. For more information about searching in a Symbiota portal, visit [this page](/docs/User_Guide/searching_records). **When you conduct the search, click the "List Display" button".**
 2. From the List Display, click the button with the dataset icon.
-   ![dataset button](/img/datasetbutton.PNG "dataset button")
+   ![dataset button](/img/datasetbutton.png "dataset button")
 3. This will open the Dataset Management box. Select the dataset to which you would like to add the specimens from the "Dataset target" dropdown menu, or select "Create New Dataset" to start building a new dataset.
 4. From here, you can select the specimens you would like to include in your dataset from your query by checking the boxes outlined by dotted lines for each specimen.
    _ To only add a few specimens from the page, check the boxes next to the desired specimens, then click the "Add Selected Records to Dataset" button.
    _ To add all the specimens on the page, check the box next to "Select all records on page", then click the "Add Selected Records to Dataset" button. \* To add **all** specimens resulted from your query, click the "Add Complete Query to Dataset" button.
-   ![dataset management box](/img/datasetmanagement.PNG "dataset management box")
+   ![dataset management box](/img/datasetmanagement.png "dataset management box")
 5. Once you have added occurrences to the dataset, you will be taken to the Dataset Manager page. Click the General Management Tab to can edit or add a name, internal notes, or a description to the dataset, or to make the dataset public (check the "Publicly Visible" box).
 
 ### Through the dataset management page
