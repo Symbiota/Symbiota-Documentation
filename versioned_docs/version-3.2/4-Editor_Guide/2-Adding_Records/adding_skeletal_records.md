@@ -3,7 +3,7 @@ title: "Adding Skeletal Records"
 date: 2021-10-22
 draft: false
 authors: ["Ed Gilbert", "Katie Pearson"]
-keywords: ["add","create"]
+keywords: ["add", "create"]
 ---
 
 import ReactPlayer from "react-player";

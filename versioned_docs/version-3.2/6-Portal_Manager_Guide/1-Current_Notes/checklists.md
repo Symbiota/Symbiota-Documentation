@@ -5,7 +5,7 @@ lastmod: 2023-10-27
 authors: ["Laura Rocha Prado", "Katie Pearson"]
 draft: false
 weight: 10
-keywords: ["checklist","inventory","permission"]
+keywords: ["checklist", "inventory", "permission"]
 ---
 
 ## June 2022-current: Checklists permissions

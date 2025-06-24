@@ -6,7 +6,7 @@ authors: ["Katie Pearson"]
 editors: [""]
 draft: false
 weight: 30
-keywords: ["vocabulary","identification keys","character matrix"]
+keywords: ["vocabulary", "identification keys", "character matrix"]
 ---
 
 :::note
@@ -15,7 +15,7 @@ Only users with Superadministrator or Glossary Editor permissions may add or edi
 
 :::
 
-The glossary is publicly available on most portals via the sitemap *only after at least one entry has been added to the glossary*. Until then, the glossary is linked in the Sitemap under **Administrative Functions (Super Admins only)**.
+The glossary is publicly available on most portals via the sitemap _only after at least one entry has been added to the glossary_. Until then, the glossary is linked in the Sitemap under **Administrative Functions (Super Admins only)**.
 
 On the glossary page, click the name of an entry (to edit) or click "Add New Term" at the top right corner of the page to add a new glossary entry. Note that you can use the Search box to search for an existing entry.
 
@@ -23,11 +23,11 @@ On the glossary page, click the name of an entry (to edit) or click "Add New Ter
 
 The following fields are available when you add a new term.
 
-![Adding a New Glossary Term](/img/addglossaryterm.PNG)
+![Adding a New Glossary Term](/img/addglossaryterm.png)
 
 To link a glossary term to a specific taxonomic group, begin to the type the name of the taxonomic group in the **Taxonomic Group** field and select the appropriate name from the dropdown menu.
 
-To link a glossary term to another glossary term as a synonym or translation, select the appropriate relationship from the dropdown menu following **Relationship** and the desired term from the dropdown menu following the **Related Term** field. *To link the term to another  term that is not a synonym or translation, click the Create Term button and then edit that term using the instructions below.*
+To link a glossary term to another glossary term as a synonym or translation, select the appropriate relationship from the dropdown menu following **Relationship** and the desired term from the dropdown menu following the **Related Term** field. _To link the term to another term that is not a synonym or translation, click the Create Term button and then edit that term using the instructions below._
 
 #### Editing an Existing Glossary Term
 
@@ -35,13 +35,13 @@ Once a glossary term is created, you can edit the previous data you entered and/
 
 On the glossary page, click the name of an entry. In the pop-up window, click the pencil icon in the top right corner of the window.
 
-![Editing a Glossary Term](/img/editglossaryterm.PNG)
+![Editing a Glossary Term](/img/editglossaryterm.png)
 
 In the **Details** tab, you can edit any of the basic information for the term, such as definition, source, or language.
 
 From here, you can link the term to another related term (e.g., subclass, part) using the **Related Terms** tab.
 
-![Linking Glossary Terms](/img/glossaryrelatedterm.PNG)
+![Linking Glossary Terms](/img/glossaryrelatedterm.png)
 
 You can add one or many translations of the term using the **Translations** tab.
 

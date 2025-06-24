@@ -25,4 +25,4 @@ You can make certain Accessibility Options the default for whenever you log in t
 3. Click Edit Profile.
 4. Check the box next to "Check to indicate a preference for vertical form layout".
 
-<!-- ![How to turn on Accessibility Options](/symbiota-docs/images/accessibilityoptionprofile.PNG) -->
+<!-- ![How to turn on Accessibility Options](/img/accessibilityoptionprofile.png) -->

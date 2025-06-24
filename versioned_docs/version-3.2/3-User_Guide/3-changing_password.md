@@ -4,7 +4,7 @@ date: 2021-11-12
 authors: ["Katie Pearson"]
 draft: false
 weight: 29
-keywords: ["password","profile"]
+keywords: ["password", "profile"]
 ---
 
 To change your password, username, or any other personal information in a Symbiota portal:
@@ -13,12 +13,12 @@ To change your password, username, or any other personal information in a Symbio
 2. Navigate to My Profile.
 3. Click the User Profile tab.
 4. From here, use the bold black links to:
-      * **Edit Profile**: change first name, last name, email address, ORCID, title, institution, or address
-      * **Change Password**: enter your current password, followed by your new password twice
-      * **Change Login**: enter a new username, followed by your current password to confirm
-      * **Manage Access**: here you can clear your access tokens, which are like "pathways" to editing data on your behalf in the portal. If the number seems high, you can clear the access tokens. This will require you to enter your username and password anew upon logging in from any computer or device.
+   - **Edit Profile**: change first name, last name, email address, ORCID, title, institution, or address
+   - **Change Password**: enter your current password, followed by your new password twice
+   - **Change Login**: enter a new username, followed by your current password to confirm
+   - **Manage Access**: here you can clear your access tokens, which are like "pathways" to editing data on your behalf in the portal. If the number seems high, you can clear the access tokens. This will require you to enter your username and password anew upon logging in from any computer or device.
 
-![User Profile page](/img/UserProfile.PNG)
+![User Profile page](/img/UserProfile.png)
 
 ### Resetting your Password
 

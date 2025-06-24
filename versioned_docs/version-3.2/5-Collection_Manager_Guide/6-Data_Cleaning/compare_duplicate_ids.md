@@ -4,7 +4,7 @@ date: 2021-10-11
 authors: ["Katie Pearson"]
 draft: false
 weight: 1
-keywords: ["data cleaning","taxonomy","duplicates"]
+keywords: ["data cleaning", "taxonomy", "duplicates"]
 ---
 
 :::info

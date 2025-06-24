@@ -3,12 +3,12 @@ title: "Adding Full Records"
 date: 2021-10-22
 draft: false
 authors: ["Katie Pearson"]
-keywords: ["add","create"]
+keywords: ["add", "create"]
 ---
 
 :::info
 
-  This page describes where to add a new record by entering the data directly into the portal. For information about batch uploading label information, see [this page](/docs/Collection_Manager_Guide/Importing_Uploading).
+This page describes where to add a new record by entering the data directly into the portal. For information about batch uploading label information, see [this page](/docs/Collection_Manager_Guide/Importing_Uploading).
 
 :::
 
@@ -16,7 +16,7 @@ Navigate to your Data Editor Control Panel (My Profile > Occurrence Management >
 
 :::tip
 
-  To learn more about the data fields available in Symbiota, visit [this page](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
+To learn more about the data fields available in Symbiota, visit [this page](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
 
 :::
 

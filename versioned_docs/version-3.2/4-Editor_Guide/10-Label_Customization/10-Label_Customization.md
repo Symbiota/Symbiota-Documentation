@@ -4,7 +4,7 @@ date: 2021-11-22
 draft: false
 weight: 105
 authors: ["Katie Pearson"]
-keywords: ["labels","printing"]
+keywords: ["labels", "printing"]
 ---
 
 import ReactPlayer from "react-player";

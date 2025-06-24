@@ -2,7 +2,7 @@ yangshun:
   name: Yangshun Tay
   title: Front End Engineer @ Facebook
   url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+  image_url: https://github.com/yangshun.PNG
   page: true
   socials:
     x: yangshunz
@@ -12,10 +12,10 @@ slorber:
   name: Sébastien Lorber
   title: Docusaurus maintainer
   url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+  image_url: https://github.com/slorber.PNG
   page:
     # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+    permalink: "/all-sebastien-lorber-articles"
   socials:
     x: sebastienlorber
     linkedin: sebastienlorber

@@ -22,6 +22,7 @@ To view and vet comments posted on records from your collection, navigate to the
 ![View Comments](/img/examplecomments.png)
 
 On the Comments Listing page, you can:
+
 - hide comments from the public (in cases of sensitive or personal data)
 - mark comments as reviewed (i.e., you have resolved the issue described by the comment)
 - delete comments (in cases of spam or inappropriate content)

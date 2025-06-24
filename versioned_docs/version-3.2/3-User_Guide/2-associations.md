@@ -5,7 +5,7 @@ lastmod: 2025-05-14
 authors: ["Katie Pearson"]
 draft: false
 weight: 20
-keywords: ["linked resources","extended specimen","host","relationship"]
+keywords: ["linked resources", "extended specimen", "host", "relationship"]
 ---
 
 :::info
@@ -41,4 +41,3 @@ Using the Taxon box in the Associations search will search for records that have
 To search for records with _any_ documented association, you can select an Association Type from the dropdown list and leave the Taxon box in the Associations search blank.
 
 :::
-

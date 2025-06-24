@@ -5,7 +5,7 @@ lastmod: 2027-09-27
 draft: false
 authors: ["Katie Pearson"]
 weight: 10
-keywords: ["edit","annotation","identification","determination"]
+keywords: ["edit", "annotation", "identification", "determination"]
 ---
 
 :::info
@@ -51,14 +51,15 @@ A table of specimens of the indicated taxon will appear below the "Define Specim
 ![Batch Annotation Entry Form](/img/batchannotationform.png)
 
 Add information about the name change in the "New Determination Details" box.
-* Indicate whether the change is due to a new identification ("Identification Adjustment/Verification") or a nomenclatural change ("Nomenclatural Adjustment").
-* (Optional) Add an identification qualifier (e.g., "aff." or "cf."). See Darwin Core's [identificationQualifier](https://dwc.tdwg.org/terms/#dwc:identificationQualifier)
-* Enter the new scientific name in the "Scientific Name" field. The "Author" field will automatically populate if the taxon is already in the taxon table. If the taxon is not in the taxon table, you will have to manually enter the author of the scientific name.
-* Add the name of the determiner (person who identified the record) in the "Determiner" field (see Darwin Core's [identifiedBy](https://dwc.tdwg.org/terms/#dwc:identifiedBy))
-* Enter the full date of determination in the "Date" field (see Darwin Core's [dateIdentified](https://dwc.tdwg.org/terms/#dwc:dateIdentified)). It is recommended to use the format YYYY-MM-DD if possible. If only a year is provided, enter the year. If only a year and month are provided, enter it in YYYY-MM format.
-* (Optional) Indicate the confidence in the determination (Low, Medium, or High) in the "Confidence of Determination" field. This field is for internal curatorial use and is not included in a Darwin Core Archive export.
-* (Optional) List your determination references in the "Reference" field. (See Darwin Core's [identificationReferences](https://dwc.tdwg.org/terms/#dwc:identificationReferences))
-* (Optional) Include any other notes in the "Notes" field. (See Darwin Core's [identificationRemarks](https://dwc.tdwg.org/terms/#dwc:identificationRemarks))
+
+- Indicate whether the change is due to a new identification ("Identification Adjustment/Verification") or a nomenclatural change ("Nomenclatural Adjustment").
+- (Optional) Add an identification qualifier (e.g., "aff." or "cf."). See Darwin Core's [identificationQualifier](https://dwc.tdwg.org/terms/#dwc:identificationQualifier)
+- Enter the new scientific name in the "Scientific Name" field. The "Author" field will automatically populate if the taxon is already in the taxon table. If the taxon is not in the taxon table, you will have to manually enter the author of the scientific name.
+- Add the name of the determiner (person who identified the record) in the "Determiner" field (see Darwin Core's [identifiedBy](https://dwc.tdwg.org/terms/#dwc:identifiedBy))
+- Enter the full date of determination in the "Date" field (see Darwin Core's [dateIdentified](https://dwc.tdwg.org/terms/#dwc:dateIdentified)). It is recommended to use the format YYYY-MM-DD if possible. If only a year is provided, enter the year. If only a year and month are provided, enter it in YYYY-MM format.
+- (Optional) Indicate the confidence in the determination (Low, Medium, or High) in the "Confidence of Determination" field. This field is for internal curatorial use and is not included in a Darwin Core Archive export.
+- (Optional) List your determination references in the "Reference" field. (See Darwin Core's [identificationReferences](https://dwc.tdwg.org/terms/#dwc:identificationReferences))
+- (Optional) Include any other notes in the "Notes" field. (See Darwin Core's [identificationRemarks](https://dwc.tdwg.org/terms/#dwc:identificationRemarks))
 
 If you check the _Make this the current determination_ box, the scientific name will be updated for the selected records. Otherwise, the determination will be added to the specimens' records, but the most current ID name will not be changed.
 

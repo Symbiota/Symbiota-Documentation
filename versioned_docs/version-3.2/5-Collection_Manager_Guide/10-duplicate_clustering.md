@@ -5,7 +5,7 @@ lastmod: 2023-03-24
 draft: false
 weight: 58
 authors: ["Katie Pearson"]
-keywords: ["duplicates","duplicate specimens"]
+keywords: ["duplicates", "duplicate specimens"]
 ---
 
 import ReactPlayer from "react-player";
@@ -27,9 +27,10 @@ Because creating duplicate specimens is not universal among collection types, to
 :::
 
 To view or link duplicates, navigate to your Administration Control Panel (My Profile > Occurrence Management > name of collection) and click Duplicate Clustering.
-* To view existing duplicates, click *Specimen duplicate clusters*
-* To view duplicates with taxonomic identifications that do not match, click *Specimen duplicate clusters with conflicted identifications*. An example output of this tool is shown in the screenshot below.
-* To batch link duplicates, click *Batch link specimen duplicates*. This will automatically run the batch linking script to create duplicate clusters.
+
+- To view existing duplicates, click _Specimen duplicate clusters_
+- To view duplicates with taxonomic identifications that do not match, click _Specimen duplicate clusters with conflicted identifications_. An example output of this tool is shown in the screenshot below.
+- To batch link duplicates, click _Batch link specimen duplicates_. This will automatically run the batch linking script to create duplicate clusters.
 
 :::tip
 
@@ -37,7 +38,7 @@ When viewing clustered duplicates, you can view the record for any occurrence by
 
 :::
 
-![Example Duplicate Conflicts](/img/exampleduplicateconflicts.PNG)
+![Example Duplicate Conflicts](/img/exampleduplicateconflicts.png)
 
 A video walkthrough of how duplicate clustering tools can be used to resolve conflicting identifications can be found here:
 

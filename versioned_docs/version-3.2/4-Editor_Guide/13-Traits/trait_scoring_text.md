@@ -4,7 +4,7 @@ date: 2021-12-09
 draft: false
 weight: 10
 authors: ["Katie Pearson"]
-keywords: ["trait scoring","attribute scoring","phenology","traits"]
+keywords: ["trait scoring", "attribute scoring", "phenology", "traits"]
 ---
 
 :::info
@@ -19,7 +19,7 @@ Trait scoring tools are not activated in all portals. Contact your portal manage
 
 :::
 
-Navigate to your Data Editor Control Panel (My Profile > Occurrence Management > name of collection), click Occurrence Trait Coding Tools, and select “Trait Mining from Verbatim Text”. In the Harvesting Filter box, select the Occurrence trait that you would like to score. 
+Navigate to your Data Editor Control Panel (My Profile > Occurrence Management > name of collection), click Occurrence Trait Coding Tools, and select “Trait Mining from Verbatim Text”. In the Harvesting Filter box, select the Occurrence trait that you would like to score.
 
 ![Trait Scoring from Text](/img/traitscorefromtextfilter.png)
 

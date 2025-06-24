@@ -3,7 +3,7 @@ title: "Reviewing Edits"
 date: 2021-12-07
 weight: 170
 authors: ["Katie Pearson"]
-keywords: ["edits","review"]
+keywords: ["edits", "review"]
 ---
 
 :::info

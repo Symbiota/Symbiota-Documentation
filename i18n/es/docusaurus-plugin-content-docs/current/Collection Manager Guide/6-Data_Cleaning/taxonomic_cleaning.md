@@ -5,7 +5,7 @@ weight: 4
 draft: false
 authors: ["Katie Pearson"]
 translators: ["Samanta Orellana"]
-keywords: ["taxonomía","limpieza de datos"]
+keywords: ["taxonomía", "limpieza de datos"]
 ---
 
 import ReactPlayer from "react-player";
@@ -28,24 +28,24 @@ Las herramientas de limpieza taxonómica son excelentes recursos para limpiar no
 
 Esta función analiza los valores que existen en el campo de Nombre Científico en su base de datos y marca los valores que no están incluídos en el tesauro taxonómico (i.e., no están vinculados a un nombre reconocido). Note que esta herramienta NO evalúa si un nombre es aceptado de acuerdo con la taxonomía actual. El número de nombres científicos no reconocidos es desplegado en la parte superior de la ventana del Menú de Acción.
 
-![Menú de Acciones de Limpieza Taxonómica](/img/taxonomycleaning.png)
+![Menú de Acciones de Limpieza Taxonómica](/img/taxonomycleaning.PNG)
 
 Puede evaluar los nombres científicos no reconocidos y vincularlos con nombres del taxón correcto haciendo click en el nombre del Recurso Taxonómico con el cual quiere comparar los nombres, seleccionando el reino a evaluar, y haciendo click en el botón Analizar Nombres Taxonómicos. Si quiere iniciar con cierto nombre (e.g., ya ha revisado nombres hasta _Mentzelia_), puede introducir este nombre en el campo de Índice de Inicio. También puede alterar el número de nombres que le gustaría que el portal incluya por análisis, agregando el número en el campo de Nombres Procesados por Análisis.
 Existen múltiples tipos de resultados al utilizar esta herramienta. En general, la herramienta enumerará los nombres que se están intentando indexar (i.e., hacer coincidir con un nombre taxonómico existente), buscar su recurso taxonómico definido para eso nombre y, si el nombre no es encontrado en el recurso taxonómico, revisar el tesauro taxonómico por nombres similares a los nombres no reconocidos. Va a obtener varias opciones para resolver nombres no reconocidos, dependiendo del tipo de resultado. Para ver los especímenes asociados con cualquier nombre no reconocido, haga click en el ícono de lápiz a la derecha del nombre y número de especímenes, en corchetes. Los tipos de resultados son explicados con más detalles a continuación.
 
 #### Ejemplo 1: Nombres mal escritos, nombres incompletos, o variantes ortográficas
 
-![Taxonomy Cleaning Example 1](/img/taxclean1.png)
+![Taxonomy Cleaning Example 1](/img/taxclean1.PNG)
 Este es el tipo más común de resultado. En este caso, descubrirá que el nombre sin reconocer fue mal escrito o escrito de manera distinta que el nombre reconocido. Puede hacer click en “remapear a este taxón” para cambiar el nombre de los especímenes de esos registros al nombre reconocido.
 
 #### Ejemplo 2: Nombre de taxón sin publicar o no reconocido
 
-![Taxonomy Cleaning Example 2](/img/taxclean1.png)
+![Taxonomy Cleaning Example 2](/img/taxclean1.PNG)
 En este caso, descubrirá que el nombre desplegado en el espécimen no ha sido publicado o no está incluido actualmente en el tesauro taxonómico. En este caso, puede utilizar su experiencia taxonómica para decidir si este espécimen debería ser remapeado a un nombre taxonómico diferente (si está lo suficientemente seguro que son sinónimos) y/o anotar, si el nombre taxonómico debería ser dejado como está y debería ser incluído en el tesauro taxonómico. Si piensa que el nombre ya debería encontrarse en el tesauro taxonómico y no lo encuentra luego de una búsqueda manual, contacte al administrador del portal.
 
 #### Ejemplo 3: El nombre existe pero no se encuentra en el tesauro taxonómico
 
-![Taxonomy Cleaning Example 3](/img/taxclean3.png)
+![Taxonomy Cleaning Example 3](/img/taxclean3.PNG)
 Cuando el portal no encuentra un nombre en el tesauro taxonómico, pero sí encuentra el nombre en el recurso taxonómico, se importará el nombre taxonómico al tesauro taxonómico. Esto también mapeará automáticamente el nombre taxonómico del espécimen a esta nueva entrada en el tesauro taxonómico.
 
 Si no ha analizado todos los nombres taxonómicos de una vez, puede hacer click en el botón Continuar Analizando Nombres para que Symbiota revise los siguientes 20 nombres (o cualquier número elegido por el usuario).

@@ -22,17 +22,20 @@ It is strongly recommended that curators or collection managers regularly downlo
 :::
 
 To download a copy of your specimen data from a Symbiota portal:
-1) Navigate to the **_Administration Control Panel_** (_My Profile > Occurrence Management > name of collection_) > **_Download Data Backup File_** (under General Maintenance Tasks)
-2) A new window will appear asking you to select the character set (ISO-8859-1 or UTF-8) that will be used in your downloaded dataset. Click the Perform Backup button. The resulting file will be a zipped Darwin Core Archive.
+
+1. Navigate to the **_Administration Control Panel_** (_My Profile > Occurrence Management > name of collection_) > **_Download Data Backup File_** (under General Maintenance Tasks)
+2. A new window will appear asking you to select the character set (ISO-8859-1 or UTF-8) that will be used in your downloaded dataset. Click the Perform Backup button. The resulting file will be a zipped Darwin Core Archive.
 
 ![Exporter Tool](/img/admincontrolpanel_backup.png)
 
 To access your backup data, unzip/open the Darwin Core Archive folder. This folder will contain several files, including the following CSV (Comma Separated) files that can be opened as a spreadsheet in MS Excel, Google Sheets, etc:
+
 - occurrences.csv = your specimen records
 - identifications.csv = the specimen identifications associated with each specimen record
 - measurementOrFact.csv = trait data associated with each specimen record
 - multimedia.csv = links to media/images associated with each specimen record
 
 The archive also contains metadata about your collection and about the fields contained in each of the CSV files. For more information about the format and use of Darwin Core Archives, see the following resources:
-* [https://github.com/gbif/ipt/wiki/DwCAHowToGuide](https://github.com/gbif/ipt/wiki/DwCAHowToGuide)
-* [https://en.wikipedia.org/wiki/Darwin_Core_Archive](https://en.wikipedia.org/wiki/Darwin_Core_Archive)
+
+- [https://github.com/gbif/ipt/wiki/DwCAHowToGuide](https://github.com/gbif/ipt/wiki/DwCAHowToGuide)
+- [https://en.wikipedia.org/wiki/Darwin_Core_Archive](https://en.wikipedia.org/wiki/Darwin_Core_Archive)
