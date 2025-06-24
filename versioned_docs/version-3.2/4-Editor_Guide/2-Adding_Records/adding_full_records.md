@@ -22,4 +22,4 @@ To learn more about the data fields available in Symbiota, visit [this page](/do
 
 Before you click **Add record** to create the new record, you can select one of three options for the next action you will perform, shown below. "Go to New Record and Carryover Locality Information" is useful for entering data from a single collection event that will share locality information. "Remain on Editing Page" should be used when the user wishes to double-check the record or add supplementary information such as media resources (e.g., images) or annotations.
 
-![Options for Adding Records](/img/newrecordoptions.PNG)
+![Options for Adding Records](/img/newrecordoptions.png)
