@@ -23,9 +23,9 @@ Optical Character Recognition (OCR) is the use of computer algorithms to detect 
 
 - If you do not check "OCR Whole Image" the OCR will **only** run on whatever is visible in the viewing panel. Thus, if you would like to OCR only the label of the image, you can zoom in so that only the label is visible.
 
-![OCR in Occurrence Editor](/img/occeditorwithocrbox.PNG)
+![OCR in Occurrence Editor](/img/occeditorwithocrbox.png)
 
 3. Click the OCR Image button.
 4. After OCR has run, a box will appear below the Options box with the parsed text. From here, you can save the OCR by clicking the Save OCR button and/or you can copy and paste text from the box into the fields in the Occurrence Editor.
 
-![OCR Results](/img/occeditorwithocr.PNG)
+![OCR Results](/img/occeditorwithocr.png)
