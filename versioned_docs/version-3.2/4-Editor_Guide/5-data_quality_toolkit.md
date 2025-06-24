@@ -76,7 +76,7 @@ _Method 1:_
 1. Navigate to the [Record Search Form](/docs/Editor_Guide/Editing_Searching_Records) for your collection.
 2. In the Sort By field, select Date. Then select "descending" in the second dropdown list.
 
-![Screenshot of Sorting by Date](/img/SortByDateDescending.PNG)
+![Screenshot of Sorting by Date](/img/SortByDateDescending.png)
 
 3. Click Display Table. After the page loads, the highest dates will be listed at the top of the resulting table. Edit these records by clicking the link in the Symbiota ID column (far left).
 
@@ -95,7 +95,7 @@ _Method 2:_
 5. Click the List Display button (or the Search button, if provided).
 6. The search results will show you all specimens supposedly collected after today's date. You can view and edit these records by clicking the "Full Record Details" link underneath the specimen's summary, then clicking the Occurrence Editor link on the resulting pop-up window.
 
-![Screenshot of Occurrence Editor Link from Public Display](/img/OccurrenceEditorLinkFromPublicDisplay.PNG)
+![Screenshot of Occurrence Editor Link from Public Display](/img/OccurrenceEditorLinkFromPublicDisplay.png)
 
 #### Date is Suspiciously Old
 
