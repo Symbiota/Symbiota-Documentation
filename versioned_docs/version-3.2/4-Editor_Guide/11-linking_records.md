@@ -28,7 +28,7 @@ This page describes how to link single associated occurrences, checklists, dupli
 
 To link an occurrence with an external (or internal) resource or record, navigate to that record's occurrence editor page (see [this page](/docs/Editor_Guide/Editing_Searching_Records) for instructions) and click the Linked Resources tab.
 
-![Linked Resources Tab](/img/linkedresourcestab.PNG)
+![Linked Resources Tab](/img/linkedresourcestab.png)
 
 ## Linking Associations (External/Internal Resources or Occurrences)
 
@@ -68,7 +68,7 @@ You can click the underlined portion of the occurrence search results to view th
 
 :::
 
-![Create New Internal Association Example](/img/createinternalassociation.PNG)
+![Create New Internal Association Example](/img/createinternalassociation.png)
 
 ### Linking to a record in a different portal/database
 
