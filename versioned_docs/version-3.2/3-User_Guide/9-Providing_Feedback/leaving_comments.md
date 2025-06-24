@@ -23,4 +23,4 @@ Symbiota does not automatically associate your contact information with your com
 
 :::
 
-![Comment Tab on the Public Display](/img/comment.PNG)
+![Comment Tab on the Public Display](/img/comment.png)
