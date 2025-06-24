@@ -51,7 +51,7 @@ Additional resources about creating checklists in association with a floristics 
 
 - [West Fork of Oak Creek Flora](https://swbiodiversity.org/seinet/checklists/checklist.php?clid=2&pid=1)
 
-![Checklist Sample](/img/checklists_oakcreekexample.PNG)
+![Checklist Sample](/img/checklists_oakcreekexample.png)
 
 ## Related Resources
 
