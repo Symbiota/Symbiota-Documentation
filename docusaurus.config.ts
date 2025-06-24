@@ -125,6 +125,10 @@ const config: Config = {
           position: "left",
           items: [
             {
+              label: "3.3 (Latest)",
+              to: "docs/about/",
+            },
+            {
               label: "3.2",
               to: "docs/about/",
             },
