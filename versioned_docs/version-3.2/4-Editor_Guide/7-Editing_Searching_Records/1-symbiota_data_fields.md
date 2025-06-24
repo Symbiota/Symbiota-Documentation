@@ -550,7 +550,7 @@ See GGBN Material Sample Extension's [samp_size](http://gensc.org/ns/mixs/samp_s
 Free text field to describe a sample's permanent physical storage location.<br></br>
 **Examples:** Freezer 3; Oversize Storage; Cab011, Dwr002
 
-### Storage Location
+### Remarks
 
 Free text field to provide additional notes, comments, and context unique to a sample that cannot be captured by other existing data fields. Limited to 250 characters.<br></br>
 **Examples:** genotype sampling; left jaw consumed in research; with post-cranial skeleton

@@ -1,7 +1,7 @@
 ---
 title: "Material Samples"
 date: 2023-09-29
-lastmod: 2024-09-27
+lastmod: 2025-06-23
 draft: false
 authors: ["Lindsay Walker"]
 editors: ["Katie Pearson"]
@@ -61,7 +61,7 @@ To **edit** existing material sample records, navigate to the Material Sample ta
 
 ### Batch Adding Material Samples
 
-At present, material sample records cannot be [batch uploaded](/docs/Collection_Manager_Guide/Importing_Uploading) from within a Symbiota portal's user interface. Collection Administrators are advised to contact their Portal Manager or the Symbiota Support Hub for assistance if this is desired.
+Material sample records can be batch uploaded using the Extended Data Import tools in the Administrator Control Panel. See [this page](/docs/Collection_Manager_Guide/Importing_Uploading/material_samples) for instructions.
 
 ### Downloading Material Samples
 
