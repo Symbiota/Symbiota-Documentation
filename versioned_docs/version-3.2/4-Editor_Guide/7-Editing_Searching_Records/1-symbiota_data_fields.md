@@ -476,7 +476,7 @@ See Darwin Core's [dataGeneralizations](https://dwc.tdwg.org/terms/#dwc:dataGene
 
 ## Material Sample Fields
 
-| ![Material Sample Module](/img/materialsampleblank.PNG) |
+| ![Material Sample Module](/img/materialsampleblank.png) |
 | :-----------------------------------------------------: |
 |                   Material Sample tab                   |
 
@@ -557,7 +557,7 @@ Free text field to provide additional notes, comments, and context unique to a s
 
 ## Paleontology Fields
 
-| ![Paleo Module](/img/paleo_module.PNG)  |
+| ![Paleo Module](/img/paleo_module.png)  |
 | :-------------------------------------: |
 | Paleo Module on the Occurrence Data tab |
 
