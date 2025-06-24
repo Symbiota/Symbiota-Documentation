@@ -23,7 +23,7 @@ The following steps 2-3 apply to Symbiota portals that have codebases that are v
 
 2. On the next page, you can enter search criteria to find records of interest. Click the Expand All Sections button if you would like to see all of the possible criteria you can search on.
 
-![Symbiota 3.1 search interface](/img/newsamplesearch.PNG)
+![Symbiota 3.1 search interface](/img/newsamplesearch.png)
 
 - The criteria you can use will vary depending on the portal, but generally include the following categories: 1) Taxonomic Criteria, 2) Locality Criteria, 3) Latitude and Longitude, 4) Collector Criteria, 5) Specimen Criteria, and 6) Trait Criteria (if enabled).
 - Any number of criteria can be entered and search at the same time. The criteria you are searching by will show up as "chips" on the right side of the screen under "Criteria." Click the X on any of these chips to remove them from your search criteria.
@@ -42,7 +42,7 @@ To return to the Search Criteria page and refine your search, click the "back" b
 
 :::tip
 
-To view the results in a table or to sort the search results, click the Table Display button. ![Table Display Button](/img/table.PNG) In the Search Results box at the top of the page, select the field you would like to sort by, a second field you would like to sort by (if applicable), then whether you would like to sort results in ascending or descending order. Then click Sort. To switch back to list view, click the List Display button. ![List Display Button](/img/list.PNG)
+To view the results in a table or to sort the search results, click the Table Display button. ![Table Display Button](/img/table.png) In the Search Results box at the top of the page, select the field you would like to sort by, a second field you would like to sort by (if applicable), then whether you would like to sort results in ascending or descending order. Then click Sort. To switch back to list view, click the List Display button. ![List Display Button](/img/list.png)
 
 :::
 
@@ -58,7 +58,7 @@ The following steps 2-5 apply to Symbiota portals that have codebases older than
    - If you do not wish to search specific collections, leave all the collections checked.
    - There may be three tabs at the top of the page, "Specimens & Observations", "Specimens", and "Observations". Specimens are physical collections of an organism, while observations are human observations or photos of organisms that are not supported by physical specimens. Use these tabs to select between these types of occurrences, if desired.
 
-![Specimen and Observation Collections](/img/search2.PNG)
+![Specimen and Observation Collections](/img/search2.png)
 
 :::tip
 
@@ -66,7 +66,7 @@ Notice that collections may be grouped together into categories. These categorie
 
 :::
 
-![Search Collections Options](/img/search1.PNG)
+![Search Collections Options](/img/search1.png)
 
 3. Click the Search button on the far right.
 4. On the next page, you can enter search criteria to find records of interest.
@@ -77,10 +77,10 @@ Notice that collections may be grouped together into categories. These categorie
    - **Specimen Criteria**: If enabled for your portal, this search category may contain a dropdown list to query _materialSampleType_. Further documentation on the Material Sample module can be found [here](/docs/Editor_Guide/Editing_Searching_Records/material_samples).
 5. Click List Display to conduct the search and view results as a list, or click Table Display to conduct the search and view results in a table.
 
-![List Display](/img/search3.PNG)
+![List Display](/img/search3.png)
 **List Display**
 
-![Table Display](/img/search4.PNG)
+![Table Display](/img/search4.png)
 **Table Display**
 
 :::tip
@@ -91,7 +91,7 @@ To return to the Search Criteria page and refine your search, click Search Crite
 
 :::tip
 
-To view the results in a table or to sort the search results, click the Table Display button. ![Table Display Button](/img/tabledisplaybutton.PNG) In the Search Results box at the top of the page, select the field you would like to sort by, a second field you would like to sort by (if applicable), then whether you would like to sort results in ascending or descending order. Then click Sort.
+To view the results in a table or to sort the search results, click the Table Display button. ![Table Display Button](/img/tabledisplaybutton.png) In the Search Results box at the top of the page, select the field you would like to sort by, a second field you would like to sort by (if applicable), then whether you would like to sort results in ascending or descending order. Then click Sort.
 
 :::
 
@@ -107,7 +107,7 @@ Further customizations can be made in the Map Options tab of the search panel in
 
 Once you have conducted a search, you can view a list of specimens by clicking the Open Search Panel button and viewing the Records and Taxa menu item. You can also download the specimen records, download a KML file of the specimen records, or generate a shareable link to these search results by clicking on the respective buttons on this page.
 
-![Map Search Display](/img/search5.PNG)
+![Map Search Display](/img/search5.png)
 
 ## Cross-Portal Search
 
@@ -117,7 +117,7 @@ Some portals include the ability to search not only in the portal database, but 
 
 To use this feature, navigate to the Map Search in your portal and check the box next to "Enable Cross Portal Search". You will then see a dropdown list of the available portals to search and new "Taxa" field. Select the desired portal (there will likely only be one) and enter the name of the taxon or taxa that you would like to search in the other portal. The "Taxa" field at the very top of the form will reference your current portal's taxonomic thesaurus, while the "Taxa" field under the Cross Portal Search option will reference the taxonomic thesaurus of the other portal (the one selected in the dropdown list).
 
-![Cross-Portal Search Checkbox](/img/crossportalsearch.PNG)
+![Cross-Portal Search Checkbox](/img/crossportalsearch.png)
 
 The resulting map will include results from both portals you have searched. The dots will be colored by taxon by default. To color the dots by portal, click the Portal List tab and click the Auto Color button.
 
@@ -134,11 +134,11 @@ Using Quick Search forms, you can search for multiple taxa (_scientificName_ val
 ### By portal
 
 Some Symbiota portals feature a portal-wide taxon quick search form on their homepage. Use this form to search for all specimen records in the portal that are linked to the portal's central taxonomic thesaurus by typing directly into the form and then selecting the "Search" button. If you begin typing a scientific name in this box and a dropdown list does not appear (shown below), then the taxon you are searching for does not exist in the portal's taxonomic thesaurus.
-![Homepage Quick Search](/img/quicksearch_homepage.PNG)
-![Homepage Quick Search](/img/quicksearch_dropdown.PNG)
+![Homepage Quick Search](/img/quicksearch_homepage.png)
+![Homepage Quick Search](/img/quicksearch_dropdown.png)
 
 ### By collection
 
 Similar to the portal-wide quick search forms described above, some Symbiota portals feature quick search forms on Collection Profiles to facilitate searching for records limited to individual datasets. Currently, these forms can be used to search within a given Collection Profile by _Catalog Number_ or _Scientific Name_ (Taxon).
 
-![Homepage Quick Search](/img/quicksearch_collprofile.PNG)
+![Homepage Quick Search](/img/quicksearch_collprofile.png)
