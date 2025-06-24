@@ -11,7 +11,7 @@ keywords: ["management", "live", "snapshot"]
 
 There are two main ways that collections present their data in Symbiota portals: **live** or as a **snapshot**. Each collection's data management method in Symbiota can be found on its respective profile. For example:
 
-![Example Management Type](/img/managementtype-example.PNG)
+![Example Management Type](/img/managementtype-example.png)
 
 <figcaption align = "center">_Collection Profile for [RSA-Wood in CCH2](https://www.cch2.org/portal/collections/misc/collprofiles.php?collid=105) showing the management type as "Live Data"._</figcaption>
 
