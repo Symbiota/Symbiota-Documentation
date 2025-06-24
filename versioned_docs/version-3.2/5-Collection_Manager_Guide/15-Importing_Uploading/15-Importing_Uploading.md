@@ -85,7 +85,7 @@ If you have already created an import profile, or if you have been instructed to
 6. Click the Choose File button and select the Darwin Core Archive (packaged as a zip file) that you would like to upload. Then click the Analyze File button.
 7. On the resulting page, you will have the option to view and/or verify the mappings of the incoming (1) occurrences file, (2) identification history file (if it exists), and (3) multimedia file (if it exists). If one or more of these files does not exist in the incoming DwC-A, the checkbox to the left of it will be grayed out. To view or verify the mappings, click "view details" to the right of the file you wish to view.
 
-![Darwin Core Import Profile Mapping Page](/img/dwc_import_profile.JPG)
+![Darwin Core Import Profile Mapping Page](/img/dwc_import_profile.jpg)
 
 8. Because the incoming file is aligned with Darwin Core, you will not likely need to change the mappings of this file. However, it is a good idea to check the fields. Check the [Symbiota Data Field Guide](/docs/Collection_Manager_Guide/Importing_Uploading/data_import_fields) for definitions of each data field. Also see the **Uploading Tips** section below.
 
