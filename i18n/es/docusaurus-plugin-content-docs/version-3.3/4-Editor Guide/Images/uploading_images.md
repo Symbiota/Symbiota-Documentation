@@ -11,7 +11,9 @@ keywords: ["imágenes"]
 import ReactPlayer from "react-player";
 
 :::info
+
 Esta página describe cómo cargar imágenes individuales de _campo_ y de _especímenes_ directamente a un portal Symbiota. También es posible vincular imágenes que están almacenadas en servidores externos. Para más información de la última opción, visite la página [Añadiendo/Vinculando Imágenes por Lote](https://biokic.github.io/symbiota-docs/es/coll_manager/images/batch/).
+
 :::
 
 Existen tres categorías de imágenes que pueden ser vinculadas en un portal Symbiota. Instrucciones para cargar cada uno de estos tipos son descritas a continuación.
@@ -29,7 +31,9 @@ Existen tres categorías de imágenes que pueden ser vinculadas en un portal Sym
 6. Introduzca cualquier información adicional, si desea, en los otros campos de la carga de imagen.
 
 :::tip
+
 Puede agregar un número en el campo Ordenar si desea definir el orden en el cual múltiples imágenes van a aparecer en la página de ocurrencia. Si ingresa un número mayor que 500 en el campo de Ordenar, esa imagen será desplegada en los detalles de la ocurrencia, pero no en la página de Perfil Taxonómico de ese taxón. Esto es ideal para imágenes de poca calidad o imágenes sensibles (e.g. especímenes atropellados).
+
 :::
 
 7. Haga click en el botón Enviar Nueva Imagen.
@@ -39,7 +43,7 @@ Puede agregar un número en el campo Ordenar si desea definir el orden en el cua
 Imágenes sin localidad específica de localidad (e.g. coordenadas lat/long) son vinculadas únicamente al nombre científico del organismo. Estas imágenes pueden ser vistas en la página de Perfiles Taxonómicos, que tiene información general como descripciones, mapas de distribución, sinónimos, y nombres comunes. Para cargar imágenes:
 
 1. Ingrese en su cuenta del portal.
-   :::note
+   {{< notice note >}}
    Debe tener permisos de Editor de Perfiles Taxonómicos para poder realizar los siguientes pasos.
    :::
 2. Navegar a la página del taxón que desea editar. Para hacerlo, puede realizar lo siguiente:
