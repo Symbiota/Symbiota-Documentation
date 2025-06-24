@@ -30,7 +30,7 @@ Esta página describe cómo revisar y aprobar ediciones que han sido realizadas 
 5. Revisar los registros en la tabla generada, o hacer click en el ícono de lápiz para ver registros individuales junto con sus imágenes.
 6. Para aprobar registros, hacer click en la casilla junto a los registros que desea aprobar, diríjase al final de la página y haga click en Enviar Revisiones.
 
-![Crowdsourcing Example](/img/crowdsourceexample.PNG)
+![Crowdsourcing Example](/img/crowdsourceexample.png)
 
 :::tip
 

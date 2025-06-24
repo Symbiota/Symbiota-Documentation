@@ -27,7 +27,7 @@ Para ejecutar un análisis OCR en muchas imágenes de especímenes a la vez
 3. Si el OCR está disponible en su portal, haga click en la pestaña de OCR.
 4. Desde aquí, puede ver cuántos especímenes tienen guardado algún resultado OCR, y puede ejecutar un análisis OCR en un número designado de especímenes utilizando la casilla **Analizar Imágenes por lote con OCR, usando el Motor Tesseract OCR**. Indicar el estado de procesamiento de los registros para los cuales desea ejecutar el análisis OCR en el campo "estado de procesamiento", e indique cuántos de estos registros le gustaría analizar a la vez, utilizando el campo "Número de registros a procesar".
 
-![Batch OCR Tool](/img/batchocr1.PNG)
+![Batch OCR Tool](/img/batchocr1.png)
 
 Un video tutorial de este proceso puede ser encontrado aquí:
 
@@ -51,4 +51,4 @@ Para cargar un archivo, asegúrese que su colección y archivos cumplen con los 
 - Ya que el texto OCR necesita ser vinculado a la imagen de origen, las imágenes deben haber sido cargadas previamente en el portal
 - Si existe más de una imagen vinculada al espécimen, el nombre completo del archivo será usado para determinar cuál imagen será vinculada al OCR
 
-![Batch OCR Upload](/img/batchocr2.PNG)
+![Batch OCR Upload](/img/batchocr2.png)

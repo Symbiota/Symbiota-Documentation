@@ -36,6 +36,6 @@ La Herramienta de Limpieza Geográfica buscará en sus bases de datos términos 
 
 Esta herramienta también verificará si existen registros que carecen de datos en los campos de país, estado/provincia, condado, aunque tengan datos geográficos en otros campos. Por ejemplo, la línea “País nulo con estados/provincias no nulos” despliega todos los registros que no tienen un valor de país en el registro del espécimen, aunque exista un estado o provincia listada en el campo respectivo. Puede hacer click en “Listar registros...” y asignar un valor geográfico superior a esos registros (ver ejemplo abajo).
 
-![Ejemplo de Herramienta de Limpieza Geográfica](/img/geocleaningexample.PNG)
+![Ejemplo de Herramienta de Limpieza Geográfica](/img/geocleaningexample.png)
 
 Listados similares son provistos para registros con campos vacíos de estado/provincia pero con información en el campo de condado, y para registros con campos vacíos de condado, pero información en el campo de localidad.

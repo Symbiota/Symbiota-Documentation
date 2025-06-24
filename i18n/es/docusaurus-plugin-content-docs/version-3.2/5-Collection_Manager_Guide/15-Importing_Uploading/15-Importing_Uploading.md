@@ -51,7 +51,7 @@ Esta página provee instrucciones para subir datos en una colección existente d
 6. Si la colección a la que está subiendo los datos es de manejo en vivo (el portal es su sistema de manejo de datos), proceda al paso 7. Si la colección a la que desea subir datos es un “snapshot” o una base de datos de especímenes manejada en la institución base, seleccione la llave primaria para la fuente del registro del espécime del menú desplegable. La llave primaria es un campo requerido para conjuntos de datos que servirán como el identificador primario del registro (el enlace permanente entre la base de datos original y el registro en el portal). Este campo debe estar completo para cada registro, con valores únicos. Estos valores también deben ser estables y no deben cambiar en la base de datos central con el tiempo. Las colecciones snapshot típicamente utilizarán el número de catálogo (número de acceso), código de barras, o la llave primaria de la base de datos original para este campo.
 7. Ahora verá un apágina que se verá similar a la mostrada abajo. La longitud y contenido de los campos Campos de Origen/Campos Objetivo de la tabla dependeràn de qué columnas fueron incluidas en el archivo CSV original.
 
-![Ejemplo del Módulo de Carga de Datos](/img/DataUploadModule.PNG)
+![Ejemplo del Módulo de Carga de Datos](/img/DataUploadModule.png)
 
 8. Seleccione cuáles campos en su archivo CSV (**Campos Originarios** o _Source Fields_) corresponden con cuáles campos en el portal Symbiota portal (**Campos Destino** o _Target Fields_). Revise la [Guía de Campos de Datos de Symbiota](/docs/Collection_Manager_Guide/Importing_Uploading/data_import_fields) para definiciones de cada campo de datos. También vea la sección **Tips para la Carga de Datos** abajo.
 9. Una vez que esté satisfecho con su mapeo de campo a campo (ver las siguientes Notas), haga click en el botón "Guardar Mapeo".
@@ -60,7 +60,7 @@ Esta página provee instrucciones para subir datos en una colección existente d
 12. Haga click en el botón de Iniciar Carga. Esto cargará sus datos en una tabla _temporal_ para que usted pueda revisarla antes de realizar la carga final.
 13. Verifique que el número correcto de registros están siendo actualizados y/o añadidos, viendo el Reporte de Datos Pendientes de Transferir en la página siguiente.
 
-![Captura de pantalla del Reporte de Datos Pendientes de Transferir](/img/PendingDataTransport.PNG)
+![Captura de pantalla del Reporte de Datos Pendientes de Transferir](/img/PendingDataTransport.png)
 
 14. Vea los datos que han sido almacenados en la tabla temporal para asegurarse que mapeó y configuró los campos que desea subir, de manera adecuada. Puede ya sea:
     - Hacer click en el ícono pequeño de caja a la derecha de "Registros para ser actualizados" o "Nuevos registros" para ver los registros en una tabla en su navegador.

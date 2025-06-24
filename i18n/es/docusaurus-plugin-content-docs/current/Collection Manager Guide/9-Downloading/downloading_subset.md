@@ -19,7 +19,7 @@ Esta página describe cómo encontrar y usar la herramienta de Exportación de d
 4. Use el Estado de Procesamiento y filtros adicionales para definir el conjunto de datos que desea descargar de su colección. También puede seleccionar si desea descargar un Archivo Darwin Core estricto (Darwin Core) o un archivo conteniendo todos los campos de Symbiota (Symbiota Native); si le gustaría descargar la historia de determinación (identificaciones), imágenes, y/o atributos de las ocurrencias (si está habilitado); si le gustaría obtener los resultados en un archivo comprimido ZIP; y el formato del archivo y tipo de caracteres ([ISO-8859-1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1) o [UTF-8](https://en.wikipedia.org/wiki/UTF-8)) para su descarga.
 5. Haga click en el botón de Descargar Registros.
 
-![Exporter Tool](/img/exportertool.PNG)
+![Exporter Tool](/img/exportertool.png)
 
 #### Descargando Especímenes sin Georreferencias
 

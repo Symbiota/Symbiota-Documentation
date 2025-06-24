@@ -33,7 +33,7 @@ Si desea redactar datos por lote, puede descargar un archivo CSV de todos los re
 
 Además, los datos de localidad e imágenes pueden ser redactados a nivel de especie por alguien con permisos de superadministrador o con permisos de edición. Para hacer esto, encuentre las especies en el Visualizador del Árbol Taxonómico y abra el editor (ya sea haciendo click en el nombre del taxón o haciendo click en el lápiz junto al nombre). Cambiar el campo de Seguridad de Localidad a "ocultar datos de localidad".
 
-![Ejemplo de Editor de Taxonomía](/img/taxoneditorexample.PNG)
+![Ejemplo de Editor de Taxonomía](/img/taxoneditorexample.png)
 
 Esto ocultará los datos de localidad para todas las ocurrencias de ese taxón en todo el portal. Las colecciones pueden optar por desactivar esta opción, quitando la marca en la casilla de Seguridad de Localidad individualmente en los registros, o contactando al administrador del portal para realizar cambios por lote.
 

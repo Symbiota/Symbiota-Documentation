@@ -17,7 +17,7 @@ Esta página explica las pestañas en la parte superior de la herramienta Editor
 
 Al abrir la página de Editor de Registros, podrá ver de 4-5 pestañas,dependiendo de sus niveles de permiso. la imagen mostrada abajo es de la página del Editor de Registros de un usuario con permisos administrativos. Una explicación breve de cada pestaña es provista abajo.
 
-![Pestañas del Editor de Ocurrencias](/img/editortabs.PNG)
+![Pestañas del Editor de Ocurrencias](/img/editortabs.png)
 
 Datos de Ocurrencia – Ver [Campos de Datos de Symbiota](/docs/Editor_Guide/Symbiota_Data_Fields)
 

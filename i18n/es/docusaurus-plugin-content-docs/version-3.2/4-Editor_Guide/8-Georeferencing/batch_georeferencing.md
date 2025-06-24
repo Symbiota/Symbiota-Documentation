@@ -19,9 +19,9 @@ Esta página describe la funcionalidad de la herramienta de Georreferenciación 
 2. En el Panel de Control de Edición, haga click en “Georreferenciar Especímenes por Lote.”
 3. Añada sus términos de búsqueda deseados en la casilla del Formulario de Consultas. Puede buscar por País, Estado, Condado, Municipalidad, Estado de Procesamiento y/o Términos de Localidad. Luego haga click en Generar Lista.
 
-![Herramienta de Georreferenciación por Lote](/img/batchgeoreference.PNG)
+![Herramienta de Georreferenciación por Lote](/img/batchgeoreference.png)
 
-4. Seleccione la entrada en la que quiere trabajar y haga click en el ícono de Geolocate ![Herramienta de Georreferenciación por Lote](/img/geolocate.PNG) en la parte superior derecha de los resultados de la búsqueda. Esto abrirá una nueva ventana de GeoLocate (ver la siguiente imagen) desplegando un mapa y, en algunos casos, posibles localidades para el espécimen que GeoLocate infiere a partir del texto.
+4. Seleccione la entrada en la que quiere trabajar y haga click en el ícono de Geolocate ![Herramienta de Georreferenciación por Lote](/img/geolocate.png) en la parte superior derecha de los resultados de la búsqueda. Esto abrirá una nueva ventana de GeoLocate (ver la siguiente imagen) desplegando un mapa y, en algunos casos, posibles localidades para el espécimen que GeoLocate infiere a partir del texto.
    - El punto verde es la mejor aproximación de GeoLocate para la localidad del espécimen. También puede ver los puntos rojos, que representan opciones alternativas.
    - Para ver las razones por las que GeoLocate seleccionó estos puntos, haga click en la pestaña “# possible locations found” a la derecha de la pestaña Workbench. Las palabras en todas las capas, son aquellas que GeoLocate usó para inferir la localidad.
 
@@ -32,7 +32,7 @@ Esta página describe la funcionalidad de la herramienta de Georreferenciación 
 7. Si aparecen puntos en el mapa, investigue si alguno de ellos podría ser un buen inicio para georreferenciar, comparando los puntos con las localidades en el mapa y el texto en la casilla de Localidad (ver la casilla punteada en la imagen de arribae). Es posible que ninguno de los puntos indique la localidad correcta. Si este es el caso, puede ignorar los puntos o removerlos haciendo click en la pestaña “# possible locations found” y haciendo click en la ‘x’ circular a la izquierda de cada resultado rechazado (vea abajo).
    - Cuando esté decidiendo si usar o no los puntos obtenidos en GeoLocate, asegúrese de revisar que el estado y el país en el que se encuentra el punto coincida con el estado y el país indicado en el registro.
 
-![GEOLocate Options](/img/geolocateoptions.PNG)
+![GEOLocate Options](/img/geolocateoptions.png)
 
 8. Ya sea si empieza con un punto de GeoLocate, de ser apropiado, o si empieza sin puntos, use la información en la casilla de Localidad para determinar una localidad aproximada para el espécimen. Esto probablemente va a requerir revisar otras fuentes (e.g., Google maps) para revisar los nombres de localidades e indicaciones.
    - Puede cambiar la capa base (i.e., el tipo de mapa mostrado en la ventana de GeoLocate) haciendo click en el símbolo más en la esquina superior derecha de la ventana (ver la imagen siguiente).
@@ -50,7 +50,7 @@ Esta página describe la funcionalidad de la herramienta de Georreferenciación 
       - Para volver a hacer el polígono, haga click en el botón “Clear Polygon” a la derecha del botón de “Options”.
     - Asegúrese anotar cualquier duda que haya surgido al trazar el radio de error. Por ejemplo, si está georreferenciando un sitio que no tiene límites claros, explique cómo determinó un radio de error razonable, agregando una nota en el campo de Comentarios en la página de resultados de búsqueda, donde seleccionó inicialmente el registro del espécimen.
 
-![Batch Georeferencing Form](/img/batchgeoreferencemod.PNG)
+![Batch Georeferencing Form](/img/batchgeoreferencemod.png)
 
 11. Cuando esté seguro del punto y el radio de error en GeoLocate, haga click en el botón “Save To Your Application” en la parte inferior de la ventana de GeoLocate. Será regresado a la página de resultados de la búsqueda, donde seleccionó inicialmente el registro del espécimen (ver primera imagen).
     - The coordinates and error will now show up below the search results in the appropriate Latitude, Longitude, and Error fields. If you created an error polygon, its coordinates will be listed in the Footprint WKT field.

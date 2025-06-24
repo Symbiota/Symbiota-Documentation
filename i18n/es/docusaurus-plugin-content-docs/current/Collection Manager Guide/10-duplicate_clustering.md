@@ -32,7 +32,7 @@ Cuando está revisando los grupos de duplicados, puede ver el registro para cual
 
 :::
 
-![Ejemplo de Conflictos Duplicados](/img/exampleduplicateconflicts.PNG)
+![Ejemplo de Conflictos Duplicados](/img/exampleduplicateconflicts.png)
 
 Aquí puede encontrar un tutorial en video sobre cómo se pueden usar las herramientas de agrupación en clústeres duplicadas para resolver identificaciones conflictivas:
 

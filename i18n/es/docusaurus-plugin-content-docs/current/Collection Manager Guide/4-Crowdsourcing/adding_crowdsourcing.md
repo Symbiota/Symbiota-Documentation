@@ -35,7 +35,7 @@ Los especímenes pueden ser trabajados por voluntarios si (1) tienen una imagen 
 
 4. En la página resultante, verá conteos de cuántos registros están en la lista de espera, cuántos han sido procesados, y cuántos han sido sido añadidos a la lista de espera. Haga click en el botón de Añadir a la Lista de Espera para ver opciones adicionales para refinar cuáles especímenes quiere incluir en la lista (mostrado en la imagen de abajo).
 
-![Add Specimens to Crowdsourcing Queue](/img/crowdsourcing2.PNG)
+![Add Specimens to Crowdsourcing Queue](/img/crowdsourcing2.png)
 
 :::tip
 

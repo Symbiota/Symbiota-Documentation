@@ -30,7 +30,7 @@ Estadísticas relacionadas con el número de especímenes, imágenes, georrefere
 - Número de especímenes que están identificados al menos a nivel de especie
 - Número de familias, géneros, especies, y total de taxa que están representados en la colección (NOTA: estos números son calculados únicamente los nombres taxonómicos que han sido indexados en el tesauro taxonómico)
 
-![Página del Perfil de la Colección](/img/collprofile.PNG)
+![Página del Perfil de la Colección](/img/collprofile.png)
 
 Los perfiles de las colecciones pueden ser accesados visitando la página de Búsqueda en Colecciones (hacer click en Búsqueda en Colecciones) en el siguiente URL: [BASE URL]/collections/index.php. Por ejemplo, para el portal CCH2, el URL completo es https://cch2.org/portal/collections/index.php.
 
@@ -46,4 +46,4 @@ Para ver estadísticas acerca del estado de procesamiento de su colección, nave
 
 Esta página también le mostrará cuántas de sus ocurrencias no tienen imágenes vinculadas y a cuántas les hacen falta datos esqueléticos (p.e., un valor en el campo de Nombre Científico).
 
-![Tabla de Reportes en la Caja de Herramientas de Procesamiento](/img/reportstab.PNG)
+![Tabla de Reportes en la Caja de Herramientas de Procesamiento](/img/reportstab.png)

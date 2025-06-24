@@ -18,9 +18,9 @@ El Reconocimiento Óptico de Caracteres (OCR) es el uso de algoritmos de computa
 
 - Si no marca "OCR Imagen Completa" el OCR **únicamente** analizará lo que esté fisible en el panel. Entonces, si quisiera analizar únicamente la etiqueta con OCR, puede hacer zoom en la imagen para que solo la etiqueta sea visible, luego haga click en OCR Imágen.
 
-![OCR en el Editor de Ocurrencias](/img/occeditorwithocrbox.PNG)
+![OCR en el Editor de Ocurrencias](/img/occeditorwithocrbox.png)
 
 3. Haga click en el botón OCR Imagen.
 4. Después de haber corrido el OCR, una ventana aparecerá abajo de la ventana de Opciones, con el texto analizado. A partir de aquí, puede guardar el OCR haciendo click en el botón Guardar OCR y/o puede copiar y pegar el texto de la caja en los campos del Editor de Ocurrencias.
 
-![Resultados OCR](/img/occeditorwithocr.PNG)
+![Resultados OCR](/img/occeditorwithocr.png)
