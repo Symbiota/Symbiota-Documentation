@@ -124,9 +124,13 @@ const config: Config = {
           label: "Versions",
           position: "left",
           items: [
-            {
-              label: "3.3 (Latest)",
+              {
+              label: "3.4 (Latest)",
               to: "docs/about",
+            },
+            {
+              label: "3.3",
+              to: "docs/3.3/about",
             },
             {
               label: "3.2",
