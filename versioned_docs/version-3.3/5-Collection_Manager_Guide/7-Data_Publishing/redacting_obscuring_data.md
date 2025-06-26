@@ -26,7 +26,7 @@ Redacting locality data in Symbiota portals is currently binary: an occurrence c
 
 ## How redacting data affects various users
 
-Specimen occurrences with locality security applied affects portal users as follows:
+Specimen occurrences with record security applied affects portal users as follows:
 
 - **Administrators, Editors**: all locality details are visible and can be edited on a per-collection basis
 - **Rare Species Readers**: locality details are visible and can be downloaded, _but not edited_, on a per-collection basis
@@ -36,7 +36,7 @@ Specimen occurrences with locality security applied affects portal users as foll
 
 :::tip
 
-The complete list of fields that are redacted when locality security is applied includes: _recordnumber_, _eventdate_, _verbatimeventdate_, _locality_, _locationid_, _decimallatitude_, _decimallongitude_, _verbatimcoordinates_, _locationremarks_, _georeferenceremarks_, _geodeticdatum_, _minimumelevationinmeters_, _maximumelevationinmeters_, _verbatimelevation_, _habitat_, _associatedtaxa_
+The complete list of fields that are redacted when the "Locality Security applied" setting is selected includes: _recordnumber_, _eventdate_, _verbatimeventdate_, _locality_, _locationid_, _decimallatitude_, _decimallongitude_, _verbatimcoordinates_, _locationremarks_, _georeferenceremarks_, _geodeticdatum_, _minimumelevationinmeters_, _maximumelevationinmeters_, _verbatimelevation_, _habitat_, _associatedtaxa_
 
 :::
 

@@ -17,7 +17,7 @@ This page defines each of the possible permission levels that can be assigned by
 
 **Administrator**: can use all tools in the Administration Control Panel. For example, this user can edit the contact information and description for your collection, view edits made to your records, batch upload data, and use data cleaning tools. Administrators can also delete records.
 
-**Editor**: can use all tools in the Data Editor Control Panel, including adding and editing records, printing labels, batch annotating specimens, batch georeferencing specimens, and managing loans. Editors cannot delete records. Editors can view and modify all locality data, including for records with locality security applied.
+**Editor**: can use all tools in the Data Editor Control Panel, including adding and editing records, printing labels, batch annotating specimens, batch georeferencing specimens, and managing loans. Editors cannot delete records. Editors can view and modify all locality data, including for records with record security applied.
 
 **Rare Species Reader**: can view and download locality data for all specimens in your collection, even if the locality information is redacted from the general public (see [Redacting / Obscuring Data](/docs/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data)).
 
