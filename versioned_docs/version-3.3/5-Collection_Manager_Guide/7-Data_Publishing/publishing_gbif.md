@@ -24,8 +24,7 @@ Your portal must be set up as a GBIF Publishing Installation to publishing your 
 
 :::
 
-# General workflow for first-time data publishers
-
+## Workflow for new data publishers
 1. [Use these instructions](/docs/Collection_Manager_Guide/Data_Publishing/requesting_endorsement) to set up an institutional account with GBIF so that there is a direct publishing agreement established between GBIF and the institution. Since the institutional account may be used to list multiple collection datasets associated with that institution (e.g. https://www.gbif.org/publisher/4c0e9f60-c489-11d8-bf60-b8a03c50a862 ), you should coordinate with other collections within your institution, if applicable. Note that the institutional datasets can be published to GBIF using different publishing resources. For instance, the zoological collections could import their data from VertNet IPT (http://ipt.vertnet.org) or their institutional IPT, vascular plant data from [SEINet](https://swbiodiversity.org), and lichens from the [Lichen Portal](https://lichenportal.org).
    * If you are sure your institution is not yet registered, complete the registration form linked above and follow the instructions provided by GBIF. 
    * If your institution is already registered, review the GBIF metadata for your organization and existing datasets and contact GBIF to make any necessary changes. Be sure that none of the existing datasets contain the same data you are trying to publish. If they do, make the appropriate arrangements with GBIF so that the old dataset can be archived BEFORE re-publishing the new dataset.
@@ -38,7 +37,7 @@ Your portal must be set up as a GBIF Publishing Installation to publishing your 
 5. Before you submit data to GBIF for the first time, you will need to contact GBIF's Help Desk (helpdesk@gbif.org). **Look for the recommended draft email message to send to GBIF by following the instructions under the "Validate Key" button.** 
 6. Once GBIF affirms that the portal has permission to submit data to your GBIF Publisher Page, click the "Submit Data" button. A link to your GBIF dataset will be immediately displayed, though it may take an hour or so for your data to be loaded, indexed, and available.
 
-# To refresh your data after first-time publication
+## To refresh your data after first-time publication
 1. Return to the _Administration Contol Panel_ and navigate to the _Darwin Core Archive Publishing_ link. Click "Create/Refresh Darwin Core Archive" button.
 
 <ReactPlayer
@@ -47,7 +46,7 @@ Your portal must be set up as a GBIF Publishing Installation to publishing your 
   url="https://www.youtube.com/watch?v=aDbw9RF4w08"
 />
 
-# Special instructions for snapshots
+## Special instructions for snapshots
 ### Suggested workflows for populating _occurrenceid_:
 
 #### Option 1: Generate GUIDs outside of Symbiota and then bring them into the portal
