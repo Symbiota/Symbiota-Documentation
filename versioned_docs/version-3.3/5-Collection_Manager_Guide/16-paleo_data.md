@@ -33,13 +33,13 @@ If your portal community has not yet selected a standard upon which to base this
 
 ### Bulk Importing & Manipulating Age-Related Values
 
-If the paleo module has been activated for your collection's profile in a Symbiota portal, data can be imported, downloaded, and batch updated using the same methods for non-paleo collections. Refer to the documentation on [Importing and Uploading Data](/docs/Collection_Manager_Guide/Importing_Uploading) for more information.
+If the paleo module has been activated for your collection's profile in a Symbiota portal, data can be imported, downloaded, and batch updated using the same methods for non-paleo collections. Refer to the documentation on [Importing and Uploading Data](/Collection_Manager_Guide/Importing_Uploading) for more information.
 
 When bulk ingesting data that includes values destined for the _Eon, Era, Period, Epoch_ and/or _Stage_ fields, be aware of the idiosyncrasies illustrated below:
 
 |                                                                                                                                                                                                                                                         ![Paleo Module for Symbiota Portals](/img/paleo_ageerror1.png)                                                                                                                                                                                                                                                          |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| **Only one hierarchy for age-related data can be specified within the Occurrence Editor.** In other words, if a specimen's possible age may span multiple divisions of geologic time--e.g. _Early Interval_="Campanian" and _Late Interval_="Danian"--at present, you can only specify one hierarchy using the Paleo Module form. In the example above, the hierachy for "Danian" is selected. However, full hierarchies for both _Late Interval_ and _Early Interval_ can be [bulk uploaded](/docs/Collection_Manager_Guide/Importing_Uploading) after cataloging, if desired. |
+| **Only one hierarchy for age-related data can be specified within the Occurrence Editor.** In other words, if a specimen's possible age may span multiple divisions of geologic time--e.g. _Early Interval_="Campanian" and _Late Interval_="Danian"--at present, you can only specify one hierarchy using the Paleo Module form. In the example above, the hierachy for "Danian" is selected. However, full hierarchies for both _Late Interval_ and _Early Interval_ can be [bulk uploaded](/Collection_Manager_Guide/Importing_Uploading) after cataloging, if desired. |
 
 |                                                                                                                                                         ![Paleo Module for Symbiota Portals](/img/paleo_ageerror2.png)                                                                                                                                                          |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -51,13 +51,13 @@ When bulk ingesting data that includes values destined for the _Eon, Era, Period
 
 ## Entering _BasisOfRecord_
 
-At present, the default value for [_basisOfRecord_](https://dwc.tdwg.org/terms/#dwc:basisOfRecord) in Symbiota portals is "PreservedSpecimen"; however, the correct value for paleontological occurrences is "FossilSpecimen". This value can be manually selected in the Occurrence Editor form during cataloging, or by [batch editing](/docs/Collection_Manager_Guide/Editing_Occurrences/batch_editing) to replace "PreservedSpecimen" with "FossilSpecimen" after cataloging is complete.
+At present, the default value for [_basisOfRecord_](https://dwc.tdwg.org/terms/#dwc:basisOfRecord) in Symbiota portals is "PreservedSpecimen"; however, the correct value for paleontological occurrences is "FossilSpecimen". This value can be manually selected in the Occurrence Editor form during cataloging, or by [batch editing](/Collection_Manager_Guide/Editing_Occurrences/batch_editing) to replace "PreservedSpecimen" with "FossilSpecimen" after cataloging is complete.
 
 ![Paleo Module for Symbiota Portals](/img/paleo_basisofrecord.png)
 
 ## Fossil Localities/Sites
 
-At present, locality (site) data are entered at the specimen occurence level--i.e., on a record-by-record basis--in Symbiota portals. Locality data are also **publicly visible by default**. Refer to the documentation on [locality redaction](/docs/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data) for instructions on how to obscure this information for sensitive localities.
+At present, locality (site) data are entered at the specimen occurence level--i.e., on a record-by-record basis--in Symbiota portals. Locality data are also **publicly visible by default**. Refer to the documentation on [locality redaction](/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data) for instructions on how to obscure this information for sensitive localities.
 
 ## Extinct Taxa
 
@@ -65,11 +65,11 @@ Extinct taxa are supported in Symbiota. Refer to the [Taxonomy Tree Viewer](http
 
 ## Data Publishing Considerations
 
-At present, while Symbiota supports paleontological data, including the Darwin Core Class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext), values in these fields do not export within Darwin Core archives when [published to GBIF](/docs/Collection_Manager_Guide/Data_Publishing/) via Symbiota portals. However, this information can be exported as part of a [backup file](/docs/Collection_Manager_Guide/Downloading/downloading_copy).
+At present, while Symbiota supports paleontological data, including the Darwin Core Class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext), values in these fields do not export within Darwin Core archives when [published to GBIF](/Collection_Manager_Guide/Data_Publishing/) via Symbiota portals. However, this information can be exported as part of a [backup file](/Collection_Manager_Guide/Downloading/downloading_copy).
 
 ## Printing Labels
 
-Similar to data publishing, values in the Darwin Core Class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext) are not currently available within the label editor's visual interface. [Contact](https://symbiota.org/contact-the-support-hub/) the Symbiota Support Hub if you need assistance with [creating customized labels](/docs/Editor_Guide/Label_Customization) that include paleo-related data fields.
+Similar to data publishing, values in the Darwin Core Class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext) are not currently available within the label editor's visual interface. [Contact](https://symbiota.org/contact-the-support-hub/) the Symbiota Support Hub if you need assistance with [creating customized labels](/Editor_Guide/Label_Customization) that include paleo-related data fields.
 
 # Best Practices
 

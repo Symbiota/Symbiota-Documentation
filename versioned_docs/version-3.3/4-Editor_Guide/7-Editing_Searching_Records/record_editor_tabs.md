@@ -18,16 +18,16 @@ Upon opening the Record Editor page, you will see 4-5 tabs, depending on your le
 
 ![Occurrence Editor Tabs](/img/editortabs.png)
 
-**Occurrence Data** – See [Symbiota Data Fields](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields)
+**Occurrence Data** – See [Symbiota Data Fields](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields)
 
-**Determination History** – where annotations are shown and can be entered. Annotations can also be batch uploaded from separate files. See [Annotations](/docs/Editor_Guide/Editing_Searching_Records/annotations)
+**Determination History** – where annotations are shown and can be entered. Annotations can also be batch uploaded from separate files. See [Annotations](/Editor_Guide/Editing_Searching_Records/annotations)
 
-**Media** – provides information on media resources associated with the record. See [Images](/docs/Editor_Guide/Images_Media)
+**Media** – provides information on media resources associated with the record. See [Images](/Editor_Guide/Images_Media)
 
-**Material Sample** - allows for association of multiple material sample records per specimen occurrence. For this tab to be visible, it must be configured per portal and activated per collection. Contact your Collection Administrator for more information. See [Material Sample](/docs/Editor_Guide/Editing_Searching_Records/material_samples)
+**Material Sample** - allows for association of multiple material sample records per specimen occurrence. For this tab to be visible, it must be configured per portal and activated per collection. Contact your Collection Administrator for more information. See [Material Sample](/Editor_Guide/Editing_Searching_Records/material_samples)
 
-**Linked Resources** – allows linkage of checklists, duplicates, and genetic resources to the record. See [Linking Records/Resources](/docs/Editor_Guide/linking_records)
+**Linked Resources** – allows linkage of checklists, duplicates, and genetic resources to the record. See [Linking Records/Resources](/Editor_Guide/linking_records)
 
-**Traits** - allows for scoring of trait data. For this tab to be visible, it must be configured per portal and activated per collection. Contact your Collection Administrator for more information. See [Traits](/docs/Editor_Guide/Traits)
+**Traits** - allows for scoring of trait data. For this tab to be visible, it must be configured per portal and activated per collection. Contact your Collection Administrator for more information. See [Traits](/Editor_Guide/Traits)
 
 **Admin** – tracks changes made to Edit History, allows for transfers of specimens between collections, and provides a means for deleting an occurrence record. Only users with administrative permissions can view this tab

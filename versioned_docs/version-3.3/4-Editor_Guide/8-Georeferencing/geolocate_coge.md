@@ -11,4 +11,4 @@ The GEOLocate Collaborative Georeference Tool (CoGe) can be activated and integr
 
 A training course for georeferencing using GEOLocate CoGe can be found here: [GEOLocate CoGe Training Course](https://www.capturingcaliforniasflowers.org/georeferencingcourse-coge.html), and a written protocol can be found here: [GEOLocate CoGe Protocol](https://www.capturingcaliforniasflowers.org/uploads/1/6/3/7/16372936/georeferencingincoge.docx).
 
-For instructions on how to push specimens from your collection to CoGe, visit the [collection manager CoGe page](/docs/Collection_Manager_Guide/Georeferencing/collaborative_georeferencing).
+For instructions on how to push specimens from your collection to CoGe, visit the [collection manager CoGe page](/Collection_Manager_Guide/Georeferencing/collaborative_georeferencing).

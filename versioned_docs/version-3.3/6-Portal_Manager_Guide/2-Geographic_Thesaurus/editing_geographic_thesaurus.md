@@ -34,4 +34,4 @@ The search box will show a dropdown list of all terms matching your search term,
 
 4. To delete the term, click the Delete Geographic Unit button below the Geographic Unit box.
 5. To edit the children terms (i.e., terms beneath this unit in the hierarchy), view the list below the Geographic Unit box. To remove children from this geographic unit, click the name of the child term and edit its Parent term.
-6. To add a child term, click the plus icon at the top of the "children" list and follow [the instructions here](/docs/Portal_Manager_Guide/Geographic_Thesaurus/adding_geographic_units).
+6. To add a child term, click the plus icon at the top of the "children" list and follow [the instructions here](/Portal_Manager_Guide/Geographic_Thesaurus/adding_geographic_units).

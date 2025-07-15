@@ -59,7 +59,7 @@ style={{marginBottom: '2vh'}}
 - You can only batch input taxonomy for one Kingdom at a time (Animalia, Fungi, etc.)
 - Make sure not to map more than one source column to the same target, and that source column names are unique from one another.
 - The batch loader will import new taxonomy in the order it appears in the file, starting with the first row. It is therefore best to organize the input file such that highest ranks appear first, followed by lower ranking taxa.
-- Non-ranked nodes / unranked clades are supported by the bulk loader and do not require _rankid_ values. However, it can be easier to ingest these names [using the frontend interface](/docs/Portal_Manager_Guide/Taxonomic_Thesaurus/adding_taxa), especially if only a few unranked names are to be added.
+- Non-ranked nodes / unranked clades are supported by the bulk loader and do not require _rankid_ values. However, it can be easier to ingest these names [using the frontend interface](/Portal_Manager_Guide/Taxonomic_Thesaurus/adding_taxa), especially if only a few unranked names are to be added.
 - Many fields that appear on Taxon Profile pages can be batch imported using this tool (e.g. vernacular names, language values, etc.). To preview what fields are available for bulk importing, create a small test CSV and open it using the steps 1-4 outlined in the following section.
 - Contact the Hub or someone with backend access to add new ranks. Ranks are added on a per-kingdom basis and may require community discussion in order to be inserted into the hierarchy.
 
