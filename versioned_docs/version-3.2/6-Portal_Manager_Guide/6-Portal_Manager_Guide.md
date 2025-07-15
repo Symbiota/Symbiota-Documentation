@@ -12,6 +12,6 @@ This guide will describe how to setup and maintain a Symbiota portal. It will co
 
 :::tip
 
-For current notes related to the ongoing Symbiota developments and how to implement new features in your portal, please refer to the [Current Notes section](/Portal_Manager_Guide/Current_Notes).
+For current notes related to the ongoing Symbiota developments and how to implement new features in your portal, please refer to the [Current Notes section](/docs/Portal_Manager_Guide/Current_Notes).
 
 :::

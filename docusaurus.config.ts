@@ -39,13 +39,27 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          routeBasePath: "/",
+          routeBasePath: "docs",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/Symbiota/Symbiota-Documentation/tree/main",
         },
-        blog: false,
+        blog: {
+          showReadingTime: true,
+          feedOptions: {
+            type: ["rss", "atom"],
+            xslt: true,
+          },
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            "https://github.com/Symbiota/Symbiota-Documentation/tree/main",
+          // Useful options to enforce blogging best practices
+          onInlineTags: "warn",
+          onInlineAuthors: "warn",
+          onUntruncatedBlogPosts: "warn",
+        },
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -116,11 +130,11 @@ const config: Config = {
           items: [
             {
               label: "3.3 (Latest)",
-              to: "/",
+              to: "docs/about",
             },
             {
               label: "3.2",
-              to: "3.2/",
+              to: "docs/3.2/about",
             },
           ],
         },

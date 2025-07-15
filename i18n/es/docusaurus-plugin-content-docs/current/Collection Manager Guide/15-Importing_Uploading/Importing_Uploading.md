@@ -34,11 +34,11 @@ Esta página provee instrucciones para subir datos en una colección existente d
 
 ### Carga Manual de Archivo Darwin Core
 
-[¡Contribuya con esta sección!](/contribute)
+[¡Contribuya con esta sección!](/docs/contribute)
 
 ### Recurso IPT / Proveedor de Archivo Darwin Core
 
-[¡Contribuya con esta sección!](/contribute)
+[¡Contribuya con esta sección!](/docs/contribute)
 
 ### Carga de Archivos o Carga de Archivos Esqueléticos
 
@@ -53,7 +53,7 @@ Esta página provee instrucciones para subir datos en una colección existente d
 
 ![Ejemplo del Módulo de Carga de Datos](/img/DataUploadModule.png)
 
-8. Seleccione cuáles campos en su archivo CSV (**Campos Originarios** o _Source Fields_) corresponden con cuáles campos en el portal Symbiota portal (**Campos Destino** o _Target Fields_). Revise la [Guía de Campos de Datos de Symbiota](/Collection_Manager_Guide/Uploading_Importing/data_import_fields) para definiciones de cada campo de datos. También vea la sección **Tips para la Carga de Datos** abajo.
+8. Seleccione cuáles campos en su archivo CSV (**Campos Originarios** o _Source Fields_) corresponden con cuáles campos en el portal Symbiota portal (**Campos Destino** o _Target Fields_). Revise la [Guía de Campos de Datos de Symbiota](/docs/Collection_Manager_Guide/Uploading_Importing/data_import_fields) para definiciones de cada campo de datos. También vea la sección **Tips para la Carga de Datos** abajo.
 9. Una vez que esté satisfecho con su mapeo de campo a campo (ver las siguientes Notas), haga click en el botón "Guardar Mapeo".
 10. Seleccione si le gustaría que el script haga coincider los datos de su archivo con datos existentes en el portal basado en el Número de Catálogo o en Otros Números de Catálogo. Solamente necesita hacer esto si está añadiendo tados a registros que ya existan en el portal. De otra forma, déjelo sin marcar.
 11. Seleccione el Estado de Procesamiento que le gustaría aplicar a todos los registros cargados (si lo desea) seleccionando la opción del menú desplegable.
@@ -81,7 +81,7 @@ Esta página provee instrucciones para subir datos en una colección existente d
 
 :::tip
 
-Una lista de campos que pueden ser importados a un portal de datos Symbiota puede ser [encontrado aquí](/Collection_Manager_Guide/Uploading_Importing/data_import_fields).
+Una lista de campos que pueden ser importados a un portal de datos Symbiota puede ser [encontrado aquí](/docs/Collection_Manager_Guide/Uploading_Importing/data_import_fields).
 
 :::
 

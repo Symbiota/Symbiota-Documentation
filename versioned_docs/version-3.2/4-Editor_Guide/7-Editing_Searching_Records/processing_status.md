@@ -30,8 +30,8 @@ There are no standard definitions for these status values. Collaborative digitiz
 
 Processing Status integrates with the following tools in Symbiota portals:
 
-- [Crowdsourcing module](/Editor_Guide/Crowdsourcing): when _Processing Status_="Unprocessed" **and** a record has at least one associated image, it is available to be added to the [Crowdsourcing queue](/Collection_Manager_Guide/Crowdsourcing/adding_crowdsourcing).
-- [Reports](/Collection_Manager_Guide/collection_statistics): the numbers of records per processing status can be quickly viewed by a collection administrator through the Reports tab of the Processing Toolbox.
+- [Crowdsourcing module](/docs/Editor_Guide/Crowdsourcing): when _Processing Status_="Unprocessed" **and** a record has at least one associated image, it is available to be added to the [Crowdsourcing queue](/docs/Collection_Manager_Guide/Crowdsourcing/adding_crowdsourcing).
+- [Reports](/docs/Collection_Manager_Guide/collection_statistics): the numbers of records per processing status can be quickly viewed by a collection administrator through the Reports tab of the Processing Toolbox.
 
 The Processing Status can also be batch edited and searched using Data Editor Search Form (_Data Editor Control Panel > Edit Existing Occurrence Records_):
 

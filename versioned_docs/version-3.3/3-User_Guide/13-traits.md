@@ -20,7 +20,7 @@ Traits are not activated in all portals. At present, traits can only be set up o
 
 In Symbiota portals, **traits** are defined as measurements or characteristics of specific records. This may include, for example, the phenology (e.g., life history stage) of the specimen, height, or mass. Symbiota portals currently only support categorical traits, not numerical traits (i.e., precise measurements, such as "40 g").
 
-Records with certain traits can be searched in the [public search form](/User_Guide/searching_records) under the "Traits"  box.
+Records with certain traits can be searched in the [public search form](/docs/User_Guide/searching_records) under the "Traits"  box.
 
 :::warning
 

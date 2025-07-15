@@ -37,11 +37,11 @@ There are three categories of media that can be linked to a Symbiota portal:
 
 Media (e.g., images) relating to physical specimens should be linked to their respective specimen records. Specimen-linked media are available both from the Occurrence Details page and the Taxon Profile page for the taxon associated with the most recent determination. If the specimen identification is annotated, the taxonomic identification of the media resource will be automatically re-mapped to that taxon. Specimen-linked media can be added through the Occurrence Editor or in batch via multiple processes.
 
-See [Uploading Images & Other Media](/Editor_Guide/Images_Media/batch_uploading_images) for more details.
+See [Uploading Images & Other Media](/docs/Editor_Guide/Images_Media/batch_uploading_images) for more details.
 
 ### Field Media without Location
 
-Media without specific locality information (e.g. lat/long coordinates) are linked only to the scientific name of the organism. These media resources can be viewed through Taxon Profile Pages, which have general information such as descriptions, distribution maps, synonyms, and common names. Field media are uploaded and managed through the Taxon Profile pages by users with Taxon Profile editing permissions. Field media with specific locality details (e.g. coordinates) can be loaded as Media Vouchers (see "Field Media with Location" tab). See [Uploading Images & Other Media](/Editor_Guide/Images_Media/batch_uploading_images) for more details.
+Media without specific locality information (e.g. lat/long coordinates) are linked only to the scientific name of the organism. These media resources can be viewed through Taxon Profile Pages, which have general information such as descriptions, distribution maps, synonyms, and common names. Field media are uploaded and managed through the Taxon Profile pages by users with Taxon Profile editing permissions. Field media with specific locality details (e.g. coordinates) can be loaded as Media Vouchers (see "Field Media with Location" tab). See [Uploading Images & Other Media](/docs/Editor_Guide/Images_Media/batch_uploading_images) for more details.
 
 ### Field Media with Location
 
@@ -49,7 +49,7 @@ Field media with specific locality information can adequately serve as vouchers 
 
 Image Vouchers are displayed on both the Occurrence Details and the Taxon Profile pages. Image-supported observations can be uploaded using the Observation Submission page. Up to three images can be submitted for a single observation. Data fields required for an image to qualify as a voucher include: observer name, observation date, country, state, locality description, latitude, longitude, and at least one image. Contact your data portal administrator for information on whether observations are allowed and the necessary protocols for submitting an observation. Some portals require the review of a tutorial before one is authorized to submit an observation.
 
-See [Uploading Images & Other Media](/Editor_Guide/Images_Media/batch_uploading_images) for more details.
+See [Uploading Images & Other Media](/docs/Editor_Guide/Images_Media/batch_uploading_images) for more details.
 
 # Related Video Tutorials
 

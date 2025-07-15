@@ -17,7 +17,7 @@ This page describes how to access and use the label printing functions in a Symb
 
 :::tip
 
-For instructions on printing specimen packets, see [this page](/Editor_Guide/Label_Customization/specimen_packet_printing)
+For instructions on printing specimen packets, see [this page](/docs/Editor_Guide/Label_Customization/specimen_packet_printing)
 
 :::
 

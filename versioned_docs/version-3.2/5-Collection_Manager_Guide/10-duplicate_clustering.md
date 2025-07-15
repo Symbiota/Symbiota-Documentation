@@ -16,7 +16,7 @@ This page describes how to view and batch link duplicate specimens (specimens of
 
 :::
 
-Occurrences can be linked as duplicates individually during or after data entry using tools in the occurrence editor. See [this page](/Editor_Guide/linking_records) for more information about linking duplicates on an individual basis and [this page](/Editor_Guide/Editing_Searching_Records/duplicate_matching) for information about using the duplicate matching tool during data entry.
+Occurrences can be linked as duplicates individually during or after data entry using tools in the occurrence editor. See [this page](/docs/Editor_Guide/linking_records) for more information about linking duplicates on an individual basis and [this page](/docs/Editor_Guide/Editing_Searching_Records/duplicate_matching) for information about using the duplicate matching tool during data entry.
 
 Occurrences can also be batch-linked automatically by the Duplicate Clustering tool. This tool creates a temporary index of your occurrences' collection dates, collector numbers, and collector last names, then links any occurrences that share all three of these characteristics.
 

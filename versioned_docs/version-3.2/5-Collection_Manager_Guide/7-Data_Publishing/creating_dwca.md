@@ -16,7 +16,7 @@ A [Darwin Core Archive](http://en.wikipedia.org/wiki/Darwin_Core_Archive) (DwC-A
 
 :::note
 
-You can only publish a Darwin Core Archive of occurrences that have unique occurrence IDs and GUIDs. In your [collection metadata page](/Collection_Manager_Guide/editing_collection_metadata), make sure that you have selected a source for your GUID and that this source contains unique values for each occurrence.
+You can only publish a Darwin Core Archive of occurrences that have unique occurrence IDs and GUIDs. In your [collection metadata page](/docs/Collection_Manager_Guide/editing_collection_metadata), make sure that you have selected a source for your GUID and that this source contains unique values for each occurrence.
 
 :::
 

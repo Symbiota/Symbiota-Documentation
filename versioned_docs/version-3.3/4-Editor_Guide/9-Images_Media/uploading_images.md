@@ -12,7 +12,7 @@ import ReactPlayer from "react-player";
 
 :::info
 
-This page describes how to upload individual *field* and *specimen*-related media resources (e.g., images) using the Symbiota portal interface. Technically, media resources are **not** stored _within_ a Symbiota database. Instead, the URLs of the media resources are stored. Thus, it is also possible to link media resources that are stored in external servers. For information about the latter option, visit the [Batch Adding/Linking Images](/Editor_Guide/Images_Media/batch_uploading_images) page.
+This page describes how to upload individual *field* and *specimen*-related media resources (e.g., images) using the Symbiota portal interface. Technically, media resources are **not** stored _within_ a Symbiota database. Instead, the URLs of the media resources are stored. Thus, it is also possible to link media resources that are stored in external servers. For information about the latter option, visit the [Batch Adding/Linking Images](/docs/Editor_Guide/Images_Media/batch_uploading_images) page.
 
 :::
 
