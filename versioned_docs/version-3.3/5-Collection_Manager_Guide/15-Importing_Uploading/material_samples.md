@@ -10,7 +10,7 @@ keywords: ["sequences","tissue samples"]
 
 :::info
 
-This page describes how to batch upload [material sample](/docs/Editor_Guide/Editing_Searching_Records/material_samples/) data to your collection. A material sample is generally considered a subsample of an occurrence.
+This page describes how to batch upload [material sample](/Editor_Guide/Editing_Searching_Records/material_samples/) data to your collection. A material sample is generally considered a subsample of an occurrence.
 
 :::
 
@@ -25,7 +25,7 @@ The Material Sample tab will only be visible if it has been activated for your c
   3. Click the "Choose File" button to upload a properly formatted associations file into the uploader (see sections below for formatting requirements).
   4. Select "Material Sample" from the Import Type dropdown menu.
   5. Click Initialize Upload.
-  6. On the resulting page, you will be able to map the fields in your uploaded file (on the left) with the available material sample fields (on the right). See the listing of [material sample fields](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#material-sample-fields) for definitions of the available fields.
+  6. On the resulting page, you will be able to map the fields in your uploaded file (on the left) with the available material sample fields (on the right). See the listing of [material sample fields](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#material-sample-fields) for definitions of the available fields.
 
   :::tip
 

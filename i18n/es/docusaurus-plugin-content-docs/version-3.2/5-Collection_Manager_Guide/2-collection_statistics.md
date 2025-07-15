@@ -17,7 +17,7 @@ Esta página describe cómo puede encontrar información acerca de cuántas ocur
 
 :::note
 
-Las estadísticas de las colecciones son generadas en la línea de comando y no son creadas en el momento. El administrador de la colección debe refrescar periódicamente las estadísticas del perfil a su cargo. Las estadísticas de las colecciones también son refrescadas automáticamente cuando un nuevo [Archivo Darwin Core es publicado/creado](/docs/Collection_Manager_Guide/Data_Publishing/creating_dwca).
+Las estadísticas de las colecciones son generadas en la línea de comando y no son creadas en el momento. El administrador de la colección debe refrescar periódicamente las estadísticas del perfil a su cargo. Las estadísticas de las colecciones también son refrescadas automáticamente cuando un nuevo [Archivo Darwin Core es publicado/creado](/Collection_Manager_Guide/Data_Publishing/creating_dwca).
 
 :::
 

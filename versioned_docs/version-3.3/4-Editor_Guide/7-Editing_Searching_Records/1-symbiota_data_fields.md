@@ -27,7 +27,7 @@ The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.or
 
 :::note
 
-Fields listed here differ from the fields visible in the data uploading tools. For field information specific to the data upload tools, see the [Data Import fields page](/docs/Collection_Manager_Guide/Importing_Uploading/data_import_fields).
+Fields listed here differ from the fields visible in the data uploading tools. For field information specific to the data upload tools, see the [Data Import fields page](/Collection_Manager_Guide/Importing_Uploading/data_import_fields).
 
 :::
 
@@ -52,7 +52,7 @@ See Darwin Core's [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber)
 
 ### Additional Identifier Values
 
-Any other identifier for a specimen record that is not the central catalog number. This field is typically used to store the old catalog numbers, accession numbers, National Park identifiers, etc. Identifiers can be assigned a tag name to distinguish it from other identifiers (e.g. old accession #, NPS#, etc). These identifiers map best to dwc:otherCatalogNumbers definition, and thus included in the exports under this field. More information about this system can be found on the [Catalog Numbers documentation page](/docs/Editor_Guide/Editing_Searching_Records/catalog_numbers).<br></br>
+Any other identifier for a specimen record that is not the central catalog number. This field is typically used to store the old catalog numbers, accession numbers, National Park identifiers, etc. Identifiers can be assigned a tag name to distinguish it from other identifiers (e.g. old accession #, NPS#, etc). These identifiers map best to dwc:otherCatalogNumbers definition, and thus included in the exports under this field. More information about this system can be found on the [Catalog Numbers documentation page](/Editor_Guide/Editing_Searching_Records/catalog_numbers).<br></br>
 **Examples:** 12345, TUZI 3082, NPS Acc #: GUIS-M-00126.<br></br>
 See Darwin Core's [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers) and the [Alternative Identifiers extension](https://rs.gbif.org/extension/gbif/1.0/identifier.xml).
 
@@ -208,7 +208,7 @@ See Darwin Core's [locationID](https://dwc.tdwg.org/terms/#dwc:locationID)
 
 ### Security
 
-Selecting "Locality Security applied" from the dropdown meny will hide locality details below the level of county from unauthorized users. This is typically done because the species is rare or threatened, or because the collection location is private. Images are also hidden to protect locality details that might be viewable from the label. Users that are logged into the system and have the necessary permission to view locality details (e.g. collection managers) will continue to have access to all data. Locality Security will automatically be applied if the species name is on any of the rare species lists &nbsp;(see sitemap). Selecting "Fully Security applied" will completely hide the record from all public users who do not have editor or administrator permissions for your collection. This level of security is NOT recommended for most records, as it obscured valuable data for research and the public. Leaving the Security field at "Security not applied" will allow default settings to be applied as determined by the sensitive species administrators, which is the recommendation for most records. For more information on sensitive species protection, see the page on [Sensitive Species Protection](/docs/User_Guide/redacted_protected_data).<br></br>
+Selecting "Locality Security applied" from the dropdown meny will hide locality details below the level of county from unauthorized users. This is typically done because the species is rare or threatened, or because the collection location is private. Images are also hidden to protect locality details that might be viewable from the label. Users that are logged into the system and have the necessary permission to view locality details (e.g. collection managers) will continue to have access to all data. Locality Security will automatically be applied if the species name is on any of the rare species lists &nbsp;(see sitemap). Selecting "Fully Security applied" will completely hide the record from all public users who do not have editor or administrator permissions for your collection. This level of security is NOT recommended for most records, as it obscured valuable data for research and the public. Leaving the Security field at "Security not applied" will allow default settings to be applied as determined by the sensitive species administrators, which is the recommendation for most records. For more information on sensitive species protection, see the page on [Sensitive Species Protection](/User_Guide/redacted_protected_data).<br></br>
 This field is not defined by the Darwin Core standard.
 
 ### Location Remarks
@@ -428,7 +428,7 @@ See Darwin Core's [language](https://dwc.tdwg.org/terms/#dwc:language)
 
 ### Label Project
 
-This field is used to group records from a specific project or category. Once a value is entered in this field, all records with that same value can be printed at one time using the [batch label printing tools](/docs/Editor_Guide/Label_Customization)<br></br>
+This field is used to group records from a specific project or category. Once a value is entered in this field, all records with that same value can be printed at one time using the [batch label printing tools](/Editor_Guide/Label_Customization)<br></br>
 **Examples:** Plants of Sedona 2012<br></br>
 This field does not map the Darwin Core and is excluded from Darwin Core Archive exports.
 

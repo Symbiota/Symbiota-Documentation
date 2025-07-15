@@ -15,6 +15,6 @@ Only users with Superadministrator or Identification Keys Administrator permissi
 
 :::
 
-Glossary terms can be linked to both characters and character states used in [identification keys](/docs/User_Guide/Identification_Keys) to help define these characters and character states.
+Glossary terms can be linked to both characters and character states used in [identification keys](/User_Guide/Identification_Keys) to help define these characters and character states.
 
-Glossary terms can be linked in the same interface used to edit and add characters and character states. Instructions for doing so [can be found here](/docs/User_Guide/Identification_Keys/admin).
+Glossary terms can be linked in the same interface used to edit and add characters and character states. Instructions for doing so [can be found here](/User_Guide/Identification_Keys/admin).
