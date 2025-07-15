@@ -143,7 +143,9 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 New versions of the documentation can be generated automatically using the npm command `npm run docusaurus docs:version x.y.z`. See [here](https://docusaurus.io/versioning) for more information.
 
-You will need to add a link to the new version of documentation manually to `docusaurus.config.ts` by adding a new item element to the items array for dropdown menu with `label: 'Versions'`. The `Latest` label will also need to be updated. Versioned language files are automatically copied from their respective `/i18n/lang/docusaurus-plugin-content-docs/current/` directories.
+Because we are not using the `docs` directory to stage new changes, as Docusaurus expects, the new version will not contain the correct files. Navigate to the new version's directory in `versioned-docs` and delete its contents. Copy all the contents from the previous version's directory and paste them into the new version's directory. Repeat this process for the appropriate i18n directories as well.
+
+Next, add a link to the new version of documentation to `docusaurus.config.ts` by manually adding a new item element to the items array for dropdown menu with `label: 'Versions'`. Make sure to change the `Latest` label to the newest version, removing it from the most recent version.
 
 ### Adding a new language
 
