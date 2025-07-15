@@ -9,9 +9,9 @@ weight: 30
 keywords: ["geography","geographic thesaurus","country","continent","state","province","county","municipality"]
 ---
 
-For instructions on how to add geographic units to the geographic thesaurus, [click here](/Portal_Manager_Guide/Geographic_Thesaurus/adding_geographic_units).
+For instructions on how to add geographic units to the geographic thesaurus, [click here](/docs/Portal_Manager_Guide/Geographic_Thesaurus/adding_geographic_units).
 
-For instructions on how to edit existing geographic units, [click here](/Portal_Manager_Guide/Geographic_Thesaurus/editing_geographic_thesaurus).
+For instructions on how to edit existing geographic units, [click here](/docs/Portal_Manager_Guide/Geographic_Thesaurus/editing_geographic_thesaurus).
 
 The geographic thesaurus is a database structure that allows portal superadministrators to manage geographic units and their relationships (hierarchical and synonymous) in a Symbiota portal. All terms entered in the geographic thesaurus are given a numeric rank that corresponds to the level of the unit (e.g., country = 50) and a **parent unit** (unless the geographic unit is a "root" term). Each unit can have one to many children units and one to many synonyms.
 

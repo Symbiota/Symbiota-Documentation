@@ -21,7 +21,7 @@ Trait scoring tools are not activated in all portals. Contact your portal manage
 
 ### Scoring traits for a single specimen
 
-Navigate to the Occurence Editor for the occurrence you wish to score (see [this page](/Editor_Guide/Editing_Searching_Records) for help finding specimens) and click on the Traits tab. Any traits available for scoring will be displayed in boxes in this tab. To view additional scoring optiosn for a given trait, click the black triangle at the top right of the box (highlighted below). From here, you can score the traits from any available images. You can also remove trait information by clicking the Delete Coding button.
+Navigate to the Occurence Editor for the occurrence you wish to score (see [this page](/docs/Editor_Guide/Editing_Searching_Records) for help finding specimens) and click on the Traits tab. Any traits available for scoring will be displayed in boxes in this tab. To view additional scoring optiosn for a given trait, click the black triangle at the top right of the box (highlighted below). From here, you can score the traits from any available images. You can also remove trait information by clicking the Delete Coding button.
 
 ![Traits Tab](/img/traitstab.png)
 

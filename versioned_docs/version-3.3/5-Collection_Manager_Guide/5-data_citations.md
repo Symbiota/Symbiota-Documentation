@@ -13,7 +13,7 @@ import ReactPlayer from "react-player";
 
 :::info
 
-Some citation features will require initial configuration by your portal manager or the Symbiota Support Hub prior to full implementation. [Refer to the relevant portal manager documentation for more information](/Portal_Manager_Guide/Current_Notes/citations/).
+Some citation features will require initial configuration by your portal manager or the Symbiota Support Hub prior to full implementation. [Refer to the relevant portal manager documentation for more information](/docs/Portal_Manager_Guide/Current_Notes/citations/).
 
 :::
 
@@ -65,7 +65,7 @@ If your collection is not publishing to GBIF, you can still encourage researcher
 
 :::tip
 
-Learn how to publish your data to GBIF [here](/Collection_Manager_Guide/Data_Publishing/publishing_gbif).
+Learn how to publish your data to GBIF [here](/docs/Collection_Manager_Guide/Data_Publishing/publishing_gbif).
 
 :::
 

@@ -11,7 +11,7 @@ import ReactPlayer from "react-player";
 
 :::info
 
-This page describes how to use the two taxonomic cleaning tools in Symbiota portals. For more information about the taxonomic thesaurus, visit the [Taxonomy](/User_Guide/taxonomic_thesaurus) page.
+This page describes how to use the two taxonomic cleaning tools in Symbiota portals. For more information about the taxonomic thesaurus, visit the [Taxonomy](/docs/User_Guide/taxonomic_thesaurus) page.
 
 :::
 

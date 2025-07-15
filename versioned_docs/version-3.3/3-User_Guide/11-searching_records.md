@@ -74,7 +74,7 @@ Notice that collections may be grouped together into categories. These categorie
    - Any number of criteria can be entered and search at the same time.
    - You can search for multiple values in a single field by separating the values by commas. For example, if you want to search by both Kern and Inyo counties, you should enter "Kern,Inyo" in the county field.
    - **Latitude and Longitude**: To define a latitude/longitude bounding box, polygon, or point with radius in which to search, enter the values in the provided fields or click the Mapping Aid icon to create the box, shape, or point radius in the Leaflet mapping interface.
-   - **Specimen Criteria**: If enabled for your portal, this search category may contain a dropdown list to query _materialSampleType_. Further documentation on the Material Sample module can be found [here](/Editor_Guide/Editing_Searching_Records/material_samples).
+   - **Specimen Criteria**: If enabled for your portal, this search category may contain a dropdown list to query _materialSampleType_. Further documentation on the Material Sample module can be found [here](/docs/Editor_Guide/Editing_Searching_Records/material_samples).
 5. Click List Display to conduct the search and view results as a list, or click Table Display to conduct the search and view results in a table.
 
 ![List Display](/img/search3.png)

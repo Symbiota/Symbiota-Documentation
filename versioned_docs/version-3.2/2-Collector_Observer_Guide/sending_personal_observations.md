@@ -17,7 +17,7 @@ This page describes how a collector or other personal observation profile editor
 
 Use this option if you would like to send a copy of some data to another collection, rather than transferring the data to the collection (and removing it from your own).
 
-Once your specimen data are entered into the Symbiota portal, if the collection to which you would like to send your data is "live-managed" in a Symbiota portal (i.e., they use the portal as their main database), that collection can easily import your data as they process the incoming specimens. To do so, they will use the [Add New Record](/Editor_Guide/Adding_Records/adding_full_records) tool and enter in only the collector name, number, and date for the specimen. They can then use the [Duplicates Tool](/Editor_Guide/Editing_Searching_Records/duplicate_matching) to "Transfer All Fields" or "Transfer to Empty Fields", which will bring in all data associated with the matching specimen.
+Once your specimen data are entered into the Symbiota portal, if the collection to which you would like to send your data is "live-managed" in a Symbiota portal (i.e., they use the portal as their main database), that collection can easily import your data as they process the incoming specimens. To do so, they will use the [Add New Record](/docs/Editor_Guide/Adding_Records/adding_full_records) tool and enter in only the collector name, number, and date for the specimen. They can then use the [Duplicates Tool](/docs/Editor_Guide/Editing_Searching_Records/duplicate_matching) to "Transfer All Fields" or "Transfer to Empty Fields", which will bring in all data associated with the matching specimen.
 
 ### Copying data for many specimens
 

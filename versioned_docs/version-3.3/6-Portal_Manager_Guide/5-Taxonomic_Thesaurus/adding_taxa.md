@@ -18,8 +18,8 @@ A user must have Super Administrator or Taxonomic Editor permissions to add to o
 There are three main ways that a user can add taxonomic names to the taxonomic thesaurus:
 
 1. Individually via the Taxonomy Explorer interface
-2. Automatically via the [Taxonomic Cleaning Tools](/Collection_Manager_Guide/Data_Cleaning/taxonomic_cleaning)
-3. Batch via the [Taxonomic File Upload Tool](/Portal_Manager_Guide/Taxonomic_Thesaurus/batch_loading)
+2. Automatically via the [Taxonomic Cleaning Tools](/docs/Collection_Manager_Guide/Data_Cleaning/taxonomic_cleaning)
+3. Batch via the [Taxonomic File Upload Tool](/docs/Portal_Manager_Guide/Taxonomic_Thesaurus/batch_loading)
 
 Additional information about options 1 and 2 are provided below (see the link above for instructions for option 3).
 
@@ -52,4 +52,4 @@ If you're copying and pasting the name from another source, you can paste it int
 
 ### Batch adding taxa using the Taxonomic Cleaning Tool
 
-The Taxonomic Cleaning Tool is useful not only for cleaning misspellings and errors, but also for adding taxaonomic names to the taxonomic thesaurus. If a taxonomic authority has been enabled in the symbini file, you will be able to cross-reference the un-indexed name in a collection with that taxonomic authority. Running the taxonomic cleaning tool will then auto-import any names that are not indexed in the collection that can be found in that taxonomic thesaurus. See the instructions for using the [Taxonomic Cleaning Tools](/Collection_Manager_Guide/Data_Cleaning/taxonomic_cleaning).
+The Taxonomic Cleaning Tool is useful not only for cleaning misspellings and errors, but also for adding taxaonomic names to the taxonomic thesaurus. If a taxonomic authority has been enabled in the symbini file, you will be able to cross-reference the un-indexed name in a collection with that taxonomic authority. Running the taxonomic cleaning tool will then auto-import any names that are not indexed in the collection that can be found in that taxonomic thesaurus. See the instructions for using the [Taxonomic Cleaning Tools](/docs/Collection_Manager_Guide/Data_Cleaning/taxonomic_cleaning).

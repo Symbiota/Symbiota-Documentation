@@ -24,36 +24,36 @@ For more help with data quality, see the following resources:
 
 ### Table of Contents
 
-- [Catalog Numbers and Other Identifiers](/Editor_Guide/data_quality_toolkit#catalog-numbers-and-other-identifiers)
-  - [Duplicate Catalog Numbers](/Editor_Guide/data_quality_toolkit#duplicate-catalog-numbers)
-- [Dates](/Editor_Guide/data_quality_toolkit#dates)
-  - [Date Hasn't Happened Yet](/Editor_Guide/data_quality_toolkit#date-hasnt-happened-yet)
-  - [Date is Suspiciously Old](/Editor_Guide/data_quality_toolkit#date-is-suspiciously-old)
-  - [Identified Date Earlier than Collected Date](/Editor_Guide/data_quality_toolkit#identified-date-earlier-than-collected-date)
-  - [Year, Month, and Day Values Do Not Match Date](/Editor_Guide/data_quality_toolkit#year-month-and-day-values-do-not-match-date)
-- [Geography](/Editor_Guide/data_quality_toolkit#geography)
-  - [Coordinates are Zero](/Editor_Guide/data_quality_toolkit#coordinates-are-zero)
-  - [Coordinates Do Not Fall Within Named Geographic Unit](/Editor_Guide/data_quality_toolkit#coordinates-do-not-fall-within-named-geographic-unit)
-  - [Georeference Metadata with no Associated Georeference](/Editor_Guide/data_quality_toolkit#georeference-metadata-with-no-associated-georeference)
-  - [Elevation is Unlikely](/Editor_Guide/data_quality_toolkit#elevation-is-unlikely)
-  - [Improperly Negated Latitudes/Longitudes](/Editor_Guide/data_quality_toolkit#improperly-negated-latitudeslongitudes)
-  - [Invalid Coordinates](/Editor_Guide/data_quality_toolkit#invalid-coordinates)
-  - [Lower Geography Values are Provided, but No Higher Geography](/Editor_Guide/data_quality_toolkit#lower-geography-values-are-provided-but-no-higher-geography)
-  - [Minimum and Maximum Elevation Values Mismatched](/Editor_Guide/data_quality_toolkit#minimum-and-maximum-elevation-values-mismatched)
-  - [Mismatched Country and CountryCode Values](/Editor_Guide/data_quality_toolkit#mismatched-country-and-countrycode-values)
-  - [Mismatched Geographic Terms](/Editor_Guide/data_quality_toolkit#mismatched-geographic-terms)
-  - [Missing Geodetic Datum](/Editor_Guide/data_quality_toolkit#missing-geodetic-datum)
-  - [Missing Latitudes/Longitudes](/Editor_Guide/data_quality_toolkit#missing-latitudeslongitudes)
-  - [Misspelled Geographic Unit Names](/Editor_Guide/data_quality_toolkit#misspelled-geographic-unit-names)
-- [Taxonomy](/Editor_Guide/data_quality_toolkit#taxonomy)
-  - [Misspelled or Invalid Taxonomic Names](/Editor_Guide/data_quality_toolkit#misspelled-or-invalid-taxonomic-names)
-  - [Unknown Higher Taxonomy](/Editor_Guide/data_quality_toolkit#unknown-higher-taxonomy)
-- [Other Issues](/Editor_Guide/data_quality_toolkit#other-issues)
-  - [Incorrect Character Encodings](/Editor_Guide/data_quality_toolkit#incorrect-character-encodings)
-  - [Incorrect Line Endings](/Editor_Guide/data_quality_toolkit#incorrect-line-endings)
-  - [Invalid Individual Count](/Editor_Guide/data_quality_toolkit#invalid-individual-count)
-  - [Non-standardized BasisOfRecord Values](/Editor_Guide/data_quality_toolkit#non-standardized-basisofrecord-values)
-- [Recordings](/Editor_Guide/data_quality_toolkit#recordings)
+- [Catalog Numbers and Other Identifiers](/docs/Editor_Guide/data_quality_toolkit#catalog-numbers-and-other-identifiers)
+  - [Duplicate Catalog Numbers](/docs/Editor_Guide/data_quality_toolkit#duplicate-catalog-numbers)
+- [Dates](/docs/Editor_Guide/data_quality_toolkit#dates)
+  - [Date Hasn't Happened Yet](/docs/Editor_Guide/data_quality_toolkit#date-hasnt-happened-yet)
+  - [Date is Suspiciously Old](/docs/Editor_Guide/data_quality_toolkit#date-is-suspiciously-old)
+  - [Identified Date Earlier than Collected Date](/docs/Editor_Guide/data_quality_toolkit#identified-date-earlier-than-collected-date)
+  - [Year, Month, and Day Values Do Not Match Date](/docs/Editor_Guide/data_quality_toolkit#year-month-and-day-values-do-not-match-date)
+- [Geography](/docs/Editor_Guide/data_quality_toolkit#geography)
+  - [Coordinates are Zero](/docs/Editor_Guide/data_quality_toolkit#coordinates-are-zero)
+  - [Coordinates Do Not Fall Within Named Geographic Unit](/docs/Editor_Guide/data_quality_toolkit#coordinates-do-not-fall-within-named-geographic-unit)
+  - [Georeference Metadata with no Associated Georeference](/docs/Editor_Guide/data_quality_toolkit#georeference-metadata-with-no-associated-georeference)
+  - [Elevation is Unlikely](/docs/Editor_Guide/data_quality_toolkit#elevation-is-unlikely)
+  - [Improperly Negated Latitudes/Longitudes](/docs/Editor_Guide/data_quality_toolkit#improperly-negated-latitudeslongitudes)
+  - [Invalid Coordinates](/docs/Editor_Guide/data_quality_toolkit#invalid-coordinates)
+  - [Lower Geography Values are Provided, but No Higher Geography](/docs/Editor_Guide/data_quality_toolkit#lower-geography-values-are-provided-but-no-higher-geography)
+  - [Minimum and Maximum Elevation Values Mismatched](/docs/Editor_Guide/data_quality_toolkit#minimum-and-maximum-elevation-values-mismatched)
+  - [Mismatched Country and CountryCode Values](/docs/Editor_Guide/data_quality_toolkit#mismatched-country-and-countrycode-values)
+  - [Mismatched Geographic Terms](/docs/Editor_Guide/data_quality_toolkit#mismatched-geographic-terms)
+  - [Missing Geodetic Datum](/docs/Editor_Guide/data_quality_toolkit#missing-geodetic-datum)
+  - [Missing Latitudes/Longitudes](/docs/Editor_Guide/data_quality_toolkit#missing-latitudeslongitudes)
+  - [Misspelled Geographic Unit Names](/docs/Editor_Guide/data_quality_toolkit#misspelled-geographic-unit-names)
+- [Taxonomy](/docs/Editor_Guide/data_quality_toolkit#taxonomy)
+  - [Misspelled or Invalid Taxonomic Names](/docs/Editor_Guide/data_quality_toolkit#misspelled-or-invalid-taxonomic-names)
+  - [Unknown Higher Taxonomy](/docs/Editor_Guide/data_quality_toolkit#unknown-higher-taxonomy)
+- [Other Issues](/docs/Editor_Guide/data_quality_toolkit#other-issues)
+  - [Incorrect Character Encodings](/docs/Editor_Guide/data_quality_toolkit#incorrect-character-encodings)
+  - [Incorrect Line Endings](/docs/Editor_Guide/data_quality_toolkit#incorrect-line-endings)
+  - [Invalid Individual Count](/docs/Editor_Guide/data_quality_toolkit#invalid-individual-count)
+  - [Non-standardized BasisOfRecord Values](/docs/Editor_Guide/data_quality_toolkit#non-standardized-basisofrecord-values)
+- [Recordings](/docs/Editor_Guide/data_quality_toolkit#recordings)
 
 ### Catalog Numbers and Other Identifiers
 
@@ -61,7 +61,7 @@ For more help with data quality, see the following resources:
 
 **Problem:** The same catalog number is used multiple times within your dataset. (This problem may or may not be intentional, depending on your collection's policies. It is generally best to not duplicate catalog numbers, when possible).
 
-**Solution:** Use the [duplicate catalog number tool](/Collection_Manager_Guide/Data_Cleaning/duplicate_catalog_numbers) to view, edit, and/or merge duplicates. Note that only users with administrator permissions can use this tool.
+**Solution:** Use the [duplicate catalog number tool](/docs/Collection_Manager_Guide/Data_Cleaning/duplicate_catalog_numbers) to view, edit, and/or merge duplicates. Note that only users with administrator permissions can use this tool.
 
 ### Dates
 
@@ -73,7 +73,7 @@ For more help with data quality, see the following resources:
 
 _Method 1:_
 
-1. Navigate to the [Record Search Form](/Editor_Guide/Editing_Searching_Records) for your collection.
+1. Navigate to the [Record Search Form](/docs/Editor_Guide/Editing_Searching_Records) for your collection.
 2. In the Sort By field, select Date. Then select "descending" in the second dropdown list.
 
 ![Screenshot of Sorting by Date](/img/SortByDateDescending.png)
@@ -101,7 +101,7 @@ _Method 2:_
 
 **Problem:** The date the specimen was collected (often designated using the [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate[) field) is outside the expected historical date range. The expected date range depends on the institution, but it is unlikely that most collections have specimens with dates prior to 1600.
 
-**Solution:** See the methods described in the [Date Hasn't Happened Yet](/Editor_Guide/data_quality_toolkit#date-hasnt-happened-yet) section, but do the following modifications:
+**Solution:** See the methods described in the [Date Hasn't Happened Yet](/docs/Editor_Guide/data_quality_toolkit#date-hasnt-happened-yet) section, but do the following modifications:
 
 _Method 1:_
 
@@ -115,13 +115,13 @@ In step 3, enter 0001-01-01 in the first Collection Date field (or the Collectio
 
 **Problem:** The date the specimen was identified (dateIdentified field) is earlier than the date the specimen was collected (eventDate).
 
-**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/User_Guide/Downloading/download_data), as a [backup file](/Collection_Manager_Guide/Downloading/downloading_copy), or using the [exporter tool](/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the dateIdentified to the eventDate field (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Identified_Date_Earlier_than_Collected_Date)).
+**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/docs/User_Guide/Downloading/download_data), as a [backup file](/docs/Collection_Manager_Guide/Downloading/downloading_copy), or using the [exporter tool](/docs/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the dateIdentified to the eventDate field (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Identified_Date_Earlier_than_Collected_Date)).
 
 #### Year, Month, and Day Values Do Not Match Date
 
 **Problem:** The event [year](https://dwc.tdwg.org/terms/#dwc:year), [month](https://dwc.tdwg.org/terms/#dwc:month), and [day](https://dwc.tdwg.org/terms/#dwc:day) values do not match the provided [event date](https://dwc.tdwg.org/terms/#dwc:eventDate). The event date is often the date of collection for preserved specimens.
 
-**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/User_Guide/Downloading/download_data), as a [backup file](/Collection_Manager_Guide/Downloading/downloading_copy), or using the [exporter tool](/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the dateIdentified to the eventDate field (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Year,_Month,_and_Day_Values_Do_Not_Match_Date)).
+**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/docs/User_Guide/Downloading/download_data), as a [backup file](/docs/Collection_Manager_Guide/Downloading/downloading_copy), or using the [exporter tool](/docs/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the dateIdentified to the eventDate field (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Year,_Month,_and_Day_Values_Do_Not_Match_Date)).
 
 ### Geography
 
@@ -131,16 +131,16 @@ In step 3, enter 0001-01-01 in the first Collection Date field (or the Collectio
 
 **Solution:**
 
-1. Navigate to the [Record Search Form](/Editor_Guide/Editing_Searching_Records) for your collection.
+1. Navigate to the [Record Search Form](/docs/Editor_Guide/Editing_Searching_Records) for your collection.
 2. In Custom Field 1, select Decimal Latitude from the first dropdown menu, select EQUALS from the second dropdown menu, and enter 0 into the blank field.
-3. Either individually edit erroneous records by clicking the link in the Symbiota ID column (far left), or batch edit all entries using the [Batch Editing Tool](/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
+3. Either individually edit erroneous records by clicking the link in the Symbiota ID column (far left), or batch edit all entries using the [Batch Editing Tool](/docs/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
 4. Repeat steps 2 and 3 for the Decimal Longitude field. Alternatively, you can search for records with 0 for both latitude and longitude by adding another custom search term. To do so, click the pencil icon to the right of Custom Field 1 and adjust the fields of Custom Field 2 accordingly.
 
 #### Coordinates Do Not Fall Within Named Geographic Unit
 
 **Problem:** The provided coordinates do not fall within the geographic boundaries of the named country, state, and/or county.
 
-**Solution:** The problem cannot currently be identified using Symbiota portal tools. We recommend using the [GBIF Reverse Geocoding API](https://github.com/gbif/geocode) to verify coordinate-country matching, or by simply [publishing your data to GBIF](/Collection_Manager_Guide/Data_Publishing/publishing_gbif) and viewing the data quality flags of your dataset.
+**Solution:** The problem cannot currently be identified using Symbiota portal tools. We recommend using the [GBIF Reverse Geocoding API](https://github.com/gbif/geocode) to verify coordinate-country matching, or by simply [publishing your data to GBIF](/docs/Collection_Manager_Guide/Data_Publishing/publishing_gbif) and viewing the data quality flags of your dataset.
 
 #### Georeference Metadata with no Associated Georeference
 
@@ -148,7 +148,7 @@ In step 3, enter 0001-01-01 in the first Collection Date field (or the Collectio
 
 **Problem:**
 
-1. Navigate to the [Record Search Form](/Editor_Guide/Editing_Searching_Records) for your collection.
+1. Navigate to the [Record Search Form](/docs/Editor_Guide/Editing_Searching_Records) for your collection.
 2. In Custom Field 1, select Decimal Latitude from the first dropdown menu and select IS NULL from the second dropdown menu.
 3. Click the pencil icon to the right of Custom Field 1 to add another custom field.
 4. In Custom Field 2, select the georeference metadata field you would like to compare (see list of suggestions above) and select IS NOT NULL from the second dropdown menu.
@@ -166,7 +166,7 @@ Click the box and arrow icon to the right of the Symbiota ID number to open the 
 
 **Solution:**
 
-1. Navigate to the [Record Search Form](/Editor_Guide/Editing_Searching_Records) for your collection.
+1. Navigate to the [Record Search Form](/docs/Editor_Guide/Editing_Searching_Records) for your collection.
 2. Do one of the following:
    - _Minimum Elevation_: In Custom Field 1, select Elevation Minimum from the first dropdown menu, select LESS THAN from the second dropdown menu, and enter -11000 into the blank field.
    - _Maximum Elevation_: In Custom Field 1, select Elevation Maximum from the first dropdown menu, select GREATER THAN from the second dropdown menu, and enter 17000 into the blank field.
@@ -176,7 +176,7 @@ Click the box and arrow icon to the right of the Symbiota ID number to open the 
 
 **Problem:** The sign of the latitude ([decimalLatitude](https://dwc.tdwg.org/terms/#dwc:decimalLatitude)) or longitude ([decimalLongitude](https://dwc.tdwg.org/terms/#dwc:decimalLongitude)) does not match the sign/hemisphere of the given country. For example, all longitudes in the U.S. should be negative.
 
-**Solution:** The problem cannot currently be identified using Symbiota portal tools. We recommend using the [GBIF Reverse Geocoding API](https://github.com/gbif/geocode) to verify coordinate-country matching, or by simply [publishing your data to GBIF](/Collection_Manager_Guide/Data_Publishing/publishing_gbif) and viewing the data quality flags of your dataset.
+**Solution:** The problem cannot currently be identified using Symbiota portal tools. We recommend using the [GBIF Reverse Geocoding API](https://github.com/gbif/geocode) to verify coordinate-country matching, or by simply [publishing your data to GBIF](/docs/Collection_Manager_Guide/Data_Publishing/publishing_gbif) and viewing the data quality flags of your dataset.
 
 #### Invalid Coordinates
 
@@ -184,7 +184,7 @@ Click the box and arrow icon to the right of the Symbiota ID number to open the 
 
 **Solution:** Some types of invalid coordinates can be identified using the Record Search Form.
 
-1. Navigate to the [Record Search Form](/Editor_Guide/Editing_Searching_Records) for your collection.
+1. Navigate to the [Record Search Form](/docs/Editor_Guide/Editing_Searching_Records) for your collection.
 2. Do one of the following:
    - In Custom Field 1, select Decimal Latitude from the first dropdown menu, select LESS THAN from the second dropdown menu, and enter -90 in the blank field.
    - In Custom Field 1, select Decimal Latitude from the first dropdown menu, select GREATER THAN from the second dropdown menu, and enter 90 into the blank field.
@@ -196,19 +196,19 @@ Click the box and arrow icon to the right of the Symbiota ID number to open the 
 
 **Problem:** Lower geography (e.g., county, state/province) values exist, but no higher geography values (e.g., country) are provided.
 
-**Solution:** This issue can be quickly identified and fixed using the [geography cleaning tools](/Collection_Manager_Guide/Data_Cleaning/geographic_cleaning). Note that you must have administrator permissions to use these tools.
+**Solution:** This issue can be quickly identified and fixed using the [geography cleaning tools](/docs/Collection_Manager_Guide/Data_Cleaning/geographic_cleaning). Note that you must have administrator permissions to use these tools.
 
 #### Minimum and Maximum Elevation Values Mismatched
 
 **Problem:** The minimum elevation ([minimumElevationInMeters](https://dwc.tdwg.org/terms/#dwc:minimumElevationInMeters)) has a greater value than the maximum elevation ([maximumElevationInMeters](https://dwc.tdwg.org/terms/#dwc:maximumElevationInMeters)).
 
-**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/User_Guide/Downloading/download_data), as a [backup file](/Collection_Manager_Guide/Downloading/downloading_copy), or using the [exporter tool](/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the minimumElevationInMeters to the maximumElevationInMeters field.
+**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/docs/User_Guide/Downloading/download_data), as a [backup file](/docs/Collection_Manager_Guide/Downloading/downloading_copy), or using the [exporter tool](/docs/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the minimumElevationInMeters to the maximumElevationInMeters field.
 
 #### Mismatched Country and CountryCode Values
 
 **Problem:** The provided value for country and countryCode do not match.
 
-**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/User_Guide/Downloading/download_data), as a [backup file](/Collection_Manager_Guide/Downloading/downloading_copy), or using the [exporter tool](/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the unique combinations of country and countryCode to look for deviations (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Mismatched_Country_and_CountryCode_Values)).
+**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/docs/User_Guide/Downloading/download_data), as a [backup file](/docs/Collection_Manager_Guide/Downloading/downloading_copy), or using the [exporter tool](/docs/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the unique combinations of country and countryCode to look for deviations (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Mismatched_Country_and_CountryCode_Values)).
 
 #### Missing Geodetic Datum
 
@@ -216,17 +216,17 @@ Click the box and arrow icon to the right of the Symbiota ID number to open the 
 
 **Solution:**
 
-1. Navigate to the [Record Search Form](/Editor_Guide/Editing_Searching_Records) for your collection.
+1. Navigate to the [Record Search Form](/docs/Editor_Guide/Editing_Searching_Records) for your collection.
 2. In Custom Field 1, select Geodetic Datum from the first dropdown list and IS NULL from the second dropdown.
 3. Click the pencil icon to the right of Custom Field 1 to add another Custom field.
 4. In Custom Field 2, select Decimal Latitude from the first dropdown list and IS NOT NULL from the second dropdown.
-5. Either individually edit erroneous records by clicking the link in the Symbiota ID column (far left), or batch edit all entries using the [Batch Editing Tool](/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
+5. Either individually edit erroneous records by clicking the link in the Symbiota ID column (far left), or batch edit all entries using the [Batch Editing Tool](/docs/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
 
 #### Mismatched Geographic Terms
 
 **Problem:** A record has lower geographic terms (e.g., state/province, county) that do not exist under the provided higher geographic term(s). For example, country = Canada and stateProvince = Sussex. There is no Sussex province in Canada.
 
-**Solution:** This issue can be quickly identified and fixed using the [geography cleaning tools](/Collection_Manager_Guide/Data_Cleaning/geographic_cleaning). Note that you must have administrator permissions to use these tools.
+**Solution:** This issue can be quickly identified and fixed using the [geography cleaning tools](/docs/Collection_Manager_Guide/Data_Cleaning/geographic_cleaning). Note that you must have administrator permissions to use these tools.
 
 #### Missing Latitudes/Longitudes
 
@@ -234,7 +234,7 @@ Click the box and arrow icon to the right of the Symbiota ID number to open the 
 
 **Solution:**
 
-1. Navigate to the [Record Search Form](/Editor_Guide/Editing_Searching_Records) for your collection.
+1. Navigate to the [Record Search Form](/docs/Editor_Guide/Editing_Searching_Records) for your collection.
 2. In Custom Field 1, select Decimal Latitude (or Decimal Longitude) from the first dropdown list and IS NOT NULL from the second dropdown.
 3. Click the pencil icon to the right of Custom Field 1 to add another Custom field.
 4. In Custom Field 2, select Decimal Longitude (or Decimal Latitude, whichever is not the same as what you entered in Custom Field 1) from the first dropdown list and IS NULL from the second dropdown.
@@ -244,7 +244,7 @@ Click the box and arrow icon to the right of the Symbiota ID number to open the 
 
 **Problem:** The geographic units (e.g., [country](https://dwc.tdwg.org/terms/#dwc:country), [state/province](https://dwc.tdwg.org/terms/#dwc:stateProvince), [county](https://dwc.tdwg.org/terms/#dwc:county)) are misspelled, resulting in poor matching of geographic unit names to existing geographic lists.
 
-**Solution:** This issue can be quickly identified and fixed using the [geography cleaning tools](/Collection_Manager_Guide/Data_Cleaning/geographic_cleaning). Note that you must have administrator permissions to use these tools.
+**Solution:** This issue can be quickly identified and fixed using the [geography cleaning tools](/docs/Collection_Manager_Guide/Data_Cleaning/geographic_cleaning). Note that you must have administrator permissions to use these tools.
 
 ### Taxonomy
 
@@ -252,13 +252,13 @@ Click the box and arrow icon to the right of the Symbiota ID number to open the 
 
 **Problem:** Scientific names are misspelled, resulting in poor matching of taxonomic names to taxonomic databases.
 
-**Solution:** This issue can be quickly identified and fixed using the [taxonomic cleaning tools](/Collection_Manager_Guide/Data_Cleaning/taxonomic_cleaning). Note that you must have administrator permissions to use these tools.
+**Solution:** This issue can be quickly identified and fixed using the [taxonomic cleaning tools](/docs/Collection_Manager_Guide/Data_Cleaning/taxonomic_cleaning). Note that you must have administrator permissions to use these tools.
 
 #### Unknown Higher Taxonomy
 
 **Problem:** Species may be missing higher taxonomic information.
 
-**Solution:** This is only a problem in Symbiota portals if you have scientific names that are not included in the [taxonomic thesaurus](/User_Guide/taxonomic_thesaurus). You can use the [taxonomic cleaning tools](/Collection_Manager_Guide/Data_Cleaning/taxonomic_cleaning) to automatically import names from Catalog of Life or other resources into the thesaurus (your ability to do this depends on the portal), or contact your portal administrator about adding missing names to the thesaurus.
+**Solution:** This is only a problem in Symbiota portals if you have scientific names that are not included in the [taxonomic thesaurus](/docs/User_Guide/taxonomic_thesaurus). You can use the [taxonomic cleaning tools](/docs/Collection_Manager_Guide/Data_Cleaning/taxonomic_cleaning) to automatically import names from Catalog of Life or other resources into the thesaurus (your ability to do this depends on the portal), or contact your portal administrator about adding missing names to the thesaurus.
 
 ### Other Issues
 
@@ -268,9 +268,9 @@ Click the box and arrow icon to the right of the Symbiota ID number to open the 
 
 **Solution:** There is no cross-field searching tools that would enable you to find mis-rendered symbols across all fields, but you can search certain fields. For example:
 
-1. Navigate to the [Record Search Form](/Editor_Guide/Editing_Searching_Records) for your collection.
+1. Navigate to the [Record Search Form](/docs/Editor_Guide/Editing_Searching_Records) for your collection.
 2. In Custom Field 1, select a field to search from the first dropdown list, select CONTAINS from the second dropdown, and enter a mis-converted character (e.g., Ã©) into the blank field. [This page](https://www.i18nqa.com/debug/utf8-debug.html) provides a helpful table with common problems with character encodings. You can conduct searches for the values in the "Actual" column and replace them with the values in the "Expected" column. For example, if you suspect there are "ë" values in a certain field, you'll want to search on "Ã«".
-3. Either individually edit erroneous records by clicking the link in the Symbiota ID column (far left), or batch edit all entries using the [Batch Editing Tool](/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
+3. Either individually edit erroneous records by clicking the link in the Symbiota ID column (far left), or batch edit all entries using the [Batch Editing Tool](/docs/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
 
 #### Incorrect Line Endings
 
@@ -278,9 +278,9 @@ Click the box and arrow icon to the right of the Symbiota ID number to open the 
 
 **Solution:** This is unlikely to be a problem for data that has already been imported into a Symbiota portal. It is possible that erroneous (¶) symbols will be retained. In this case:
 
-1. Navigate to the [Record Search Form](/Editor_Guide/Editing_Searching_Records/) for your collection.
+1. Navigate to the [Record Search Form](/docs/Editor_Guide/Editing_Searching_Records/) for your collection.
 2. In Custom Field 1, select a field to search from the first dropdown list (such as Locality), select CONTAINS from the second dropdown, and enter ¶ into the blank field.
-3. Either individually edit erroneous records by clicking the link in the Symbiota ID column (far left), or batch edit all entries with this symbol using the [Batch Editing Tool](/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
+3. Either individually edit erroneous records by clicking the link in the Symbiota ID column (far left), or batch edit all entries with this symbol using the [Batch Editing Tool](/docs/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
 
 #### Invalid Individual Count
 
@@ -288,7 +288,7 @@ Click the box and arrow icon to the right of the Symbiota ID number to open the 
 
 **Solution:**
 
-1. Navigate to the [Record Search Form](/Editor_Guide/Editing_Searching_Records) for your collection.
+1. Navigate to the [Record Search Form](/docs/Editor_Guide/Editing_Searching_Records) for your collection.
 2. In Custom Field 1, select Individual Count from the first dropdown list, select LESS THAN from the second dropdown list, and enter 1 in the blank field.
 3. Edit erroneous records by clicking the link in the Symbiota ID column (far left).
 
@@ -304,12 +304,12 @@ Note that even punctuation and capitalization differences in these values (e.g.,
 
 **Solution:**
 
-1. Navigate to the [Record Search Form](/Editor_Guide/Editing_Searching_Records) for your collection.
+1. Navigate to the [Record Search Form](/docs/Editor_Guide/Editing_Searching_Records) for your collection.
 2. In Custom Field 1, select Basis of Record from the first dropdown list, select NOT EQUALS from the second dropdown list, and enter "PreservedSpecimen" in the blank field.
 3. Click the pencil icon to the right of Custom Field 1 to add another Custom field.
 4. In Custom Field 2, select Basis of Record from the first dropdown list, select NOT EQUALS from the second dropdown list, and enter "FossilSpecimen" in the blank field.
 5. Repeat steps 3-4 for as many other valid BasisOfRecord values you think might exist in your collection.
-6. Either individually edit erroneous records by clicking the link in the Symbiota ID column (far left), or batch edit all entries using the [Batch Editing Tool](/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
+6. Either individually edit erroneous records by clicking the link in the Symbiota ID column (far left), or batch edit all entries using the [Batch Editing Tool](/docs/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
 
 ### Recordings
 

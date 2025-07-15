@@ -20,7 +20,7 @@ Occurrence media resources can be tagged with important metadata about what is c
 
 ![Media Resource Tags](/img/imagetags.png)
 
-To tag an media resource, navigate to the occurrence to which that media resource belongs (see [this page](/Editor_Guide/Editing_Searching_Records)). Then click the Media tab. Click the pencil icon next to the Taxonomic Name field and scroll down to the checklist of tags that you can add to the media resource. Click the Submit Resource Edits button when complete.
+To tag an media resource, navigate to the occurrence to which that media resource belongs (see [this page](/docs/Editor_Guide/Editing_Searching_Records)). Then click the Media tab. Click the pencil icon next to the Taxonomic Name field and scroll down to the checklist of tags that you can add to the media resource. Click the Submit Resource Edits button when complete.
 
 ### Batch tagging media resources
 

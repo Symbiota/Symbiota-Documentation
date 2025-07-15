@@ -14,6 +14,6 @@ Users may gain access to redacted location information by being granted Rare Spe
 
 :::tip
 
-Not sure how to contact the manager of a collection? Visit the [Contacting a Collection](/User_Guide/Providing_Feedback/contacting_collection) page.
+Not sure how to contact the manager of a collection? Visit the [Contacting a Collection](/docs/User_Guide/Providing_Feedback/contacting_collection) page.
 
 :::

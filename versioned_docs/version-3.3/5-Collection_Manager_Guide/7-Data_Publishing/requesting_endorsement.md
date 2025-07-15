@@ -55,7 +55,7 @@ To complete the form:
 
 9. Select "Register Organization". At this point, if you selected the Symbiota Support Hub as your endorsing node, GBIF will notify the Hub that your organization has requested endorsement as a publisher.
 
-10. Once approved, your organization will be listed as an "Endorsed Publisher" on [the Support Hub's Participant page on GBIF](https://www.gbif.org/participant/429). When you open your new publisher page, note the **publisher key** that appears in the URL for the webpage; [use this key when you go to publish your data to GBIF (Step 4)](/Collection_Manager_Guide/Data_Publishing/publishing_gbif).
+10. Once approved, your organization will be listed as an "Endorsed Publisher" on [the Support Hub's Participant page on GBIF](https://www.gbif.org/participant/429). When you open your new publisher page, note the **publisher key** that appears in the URL for the webpage; [use this key when you go to publish your data to GBIF (Step 4)](/docs/Collection_Manager_Guide/Data_Publishing/publishing_gbif).
 
 ![Example GBIF publisher page](/img/endorsementpublisherkey.png)
 

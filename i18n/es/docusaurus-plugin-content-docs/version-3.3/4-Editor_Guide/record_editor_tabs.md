@@ -19,11 +19,11 @@ Al abrir la página de Editor de Registros, podrá ver de 4-5 pestañas,dependie
 
 ![Pestañas del Editor de Ocurrencias](/img/editortabs.png)
 
-Datos de Ocurrencia – Ver [Campos de Datos de Symbiota](/Editor_Guide/Symbiota_Data_Fields)
+Datos de Ocurrencia – Ver [Campos de Datos de Symbiota](/docs/Editor_Guide/Symbiota_Data_Fields)
 
-Historia de Determinación – donde las anotaciones son mostradas y pueden ser ingresadas. Las anotaciones también pueden ingresarse en lote desde archivos separados. Ver [Anotaciones](/Editor_Guide/Editing_Searching_Records/annotations)
+Historia de Determinación – donde las anotaciones son mostradas y pueden ser ingresadas. Las anotaciones también pueden ingresarse en lote desde archivos separados. Ver [Anotaciones](/docs/Editor_Guide/Editing_Searching_Records/annotations)
 
-Imágenes – provee información acerca de las imágenes asociadas con el registro. Ver [Imágenes](/Editor_Guide/images)
+Imágenes – provee información acerca de las imágenes asociadas con el registro. Ver [Imágenes](/docs/Editor_Guide/images)
 
 Recursos Enlazados – permite la vinculación de listados de especies, duplicados y recursos genéticos al registro
 

@@ -21,7 +21,7 @@ import ReactPlayer from "react-player";
 
 :::info
 
-This page describes how to batch upload associated occurrences or other linked resources to your records. For general information about linked resources or to upload individual linked resources, see [this page](/Editor_Guide/linking_records).
+This page describes how to batch upload associated occurrences or other linked resources to your records. For general information about linked resources or to upload individual linked resources, see [this page](/docs/Editor_Guide/linking_records).
 
 :::
 
@@ -33,7 +33,7 @@ This tool uses terms **subject** and **object** to refer to two different types 
 2. Click Import/Update Specimen Records, then select "Extended Data Import".
 3. Click the "Choose File" button to upload a properly formatted associations file into the uploader (see sections below for formatting requirements).
 4. Select "Associations" from the Import Type dropdown menu.
-5. Select the desired Association Type from the next dropdown menu: [Non-occurrence Resource Link](/Collection_Manager_Guide/Importing_Uploading/linked_resources#1-non-occurrence-resource-link-uploads), [Occurrence - Internal (this portal)](/Collection_Manager_Guide/Importing_Uploading/linked_resources#2-occurrence---internal-this-portal-uploads), [Occurrence - External Link](/Collection_Manager_Guide/Importing_Uploading/linked_resources#3-occurrence---external-link-uploads), or [Taxon Observation](/Collection_Manager_Guide/Importing_Uploading/linked_resources#4-taxon-observation-uploads). Only one Association Type may be uploaded per import file.
+5. Select the desired Association Type from the next dropdown menu: [Non-occurrence Resource Link](/docs/Collection_Manager_Guide/Importing_Uploading/linked_resources#1-non-occurrence-resource-link-uploads), [Occurrence - Internal (this portal)](/docs/Collection_Manager_Guide/Importing_Uploading/linked_resources#2-occurrence---internal-this-portal-uploads), [Occurrence - External Link](/docs/Collection_Manager_Guide/Importing_Uploading/linked_resources#3-occurrence---external-link-uploads), or [Taxon Observation](/docs/Collection_Manager_Guide/Importing_Uploading/linked_resources#4-taxon-observation-uploads). Only one Association Type may be uploaded per import file.
 6. Click the "Initialize Import" button.
 7. Select the desired Relationship Type from the dropdown menu.
 
@@ -44,7 +44,7 @@ The available **Relationship Type** values are defined per portal and ideally co
 :::
 
 8. (Optional) Select the desired Relationship Subtype from the dropdown menu. The options in this list are also defined per portal as with Relationship Type.
-9. Map the fields in your input file (on the left of the resulting page) to appropriate target fields (see [Table 1. Linked Resources Upload Fields](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)). **The fields available in the dropdown list will depend on the Association Type you are uploading.**
+9. Map the fields in your input file (on the left of the resulting page) to appropriate target fields (see [Table 1. Linked Resources Upload Fields](/docs/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)). **The fields available in the dropdown list will depend on the Association Type you are uploading.**
 10. If you would like to overwrite previously-uploaded associations with identical values of the "identifier" field, check the box labeled "Update records with matching identifiers."
 11. Click the Import Data button.
 
@@ -63,7 +63,7 @@ style={{marginBottom: '2vh'}}
 
 The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (catalog number, other catalog number, or occurrenceID), and (2) resourceUrl. The resourceUrl should be a link to the external resource that you would like to be associated with your records.
 
-Optional fields ([defined below](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, object identifier (catalog number, occurrenceID, or occid), and relationshipID.
+Optional fields ([defined below](/docs/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, object identifier (catalog number, occurrenceID, or occid), and relationshipID.
 
 ##### 2. "Occurrence - Internal (this portal)" Uploads
 
@@ -78,7 +78,7 @@ style={{marginBottom: '2vh'}}
 
 The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (catalog number, other catalog number, and/or occurrenceID), and (2) an object identifier for the occurrence object you are linking to the subject occurrence (catalog number, occurrenceID, or occid/Symbiota number). The object identifier will be used to link to an existing record within the portal.
 
-Optional fields ([defined below](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, and relationshipID.
+Optional fields ([defined below](/docs/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, and relationshipID.
 
 ##### 3. "Occurrence - External Link" Uploads
 
@@ -97,7 +97,7 @@ style={{marginBottom: '2vh'}}
 
 The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (catalog number, other catalog number, or occurrenceID), and (2) resourceUrl. It is also strongly recommended to include a value for verbatimSciname (scientific name) so that the relationship can be searchable.
 
-Optional fields ([defined below](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, objectID, relationshipID, resourceUrl, and verbatimSciname.
+Optional fields ([defined below](/docs/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, objectID, relationshipID, resourceUrl, and verbatimSciname.
 
 ##### 4. "Taxon Observation" Uploads
 
@@ -122,7 +122,7 @@ style={{marginBottom: '2vh'}}
 
 The **required fields** for this upload type are (1) an identifier for the occurrence (subject) you are linking to (catalog number, other catalog number, or occurrenceID) and (2) scientific name (of the object association being added).
 
-Optional fields ([defined below](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, objectID, and relationshipID.
+Optional fields ([defined below](/docs/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, objectID, and relationshipID.
 
 ### Table 1. Linked Resources Upload Fields
 
@@ -135,7 +135,7 @@ The **Data Type** column defines what type of data (e.g., text or numeric) can b
 | Field Name                                                                                         | Data Type (Length in characters) | Description                                                                                                                                                                                                                 |
 | -------------------------------------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | subject identifier: [**catalogNumber**](https://dwc.tdwg.org/terms/#dwc:catalogNumber)             | Text (32)                        | The primary human-readable identifier for the subject record you are linking to.                                                                                                                                            |
-| subject identifier: [**otherCatalogNumbers**](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers) | Text (45)                        | An alternative catalog number stored as an "Additional Identifier" in the portal for the subject record you are linking to. See [this page](/Editor_Guide/Editing_Searching_Records/catalog_numbers) for more context. |
+| subject identifier: [**otherCatalogNumbers**](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers) | Text (45)                        | An alternative catalog number stored as an "Additional Identifier" in the portal for the subject record you are linking to. See [this page](/docs/Editor_Guide/Editing_Searching_Records/catalog_numbers) for more context. |
 | subject identifier: [**occurrenceID**](https://dwc.tdwg.org/terms/#dwc:occurrenceID)               | Text (255)                       | The global unique identifier (GUID) of the subject record you are linking to.                                                                                                                                               |
 | [**accordingTo**](https://dwc.tdwg.org/terms/#dwc:relationshipAccordingTo)                         | Text (45)                        | The source asserting the relationship between the subject and object.                                                                                                                                                       |
 | [**basisOfRecord**](https://dwc.tdwg.org/terms/#dwc:basisOfRecord)                                 | Text (45)                        | The nature of the record, from the Darwin Core controlled vocabulary. The most commonly used are _PreservedSpecimen_, _FossilSpecimen_, and _HumanObservation_.                                                             |
