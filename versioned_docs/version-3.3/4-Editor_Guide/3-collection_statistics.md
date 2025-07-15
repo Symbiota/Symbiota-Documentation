@@ -8,7 +8,7 @@ weight: 4
 keywords: ["statistics", "number of specimens", "reports"]
 ---
 
-:::note
+:::info
 This page describes how you can find information about how many occurrences and images you have in your collection.
 :::
 
