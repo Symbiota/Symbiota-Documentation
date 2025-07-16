@@ -42,17 +42,6 @@ download={true}
 style={{marginBottom: '2vh'}}
 />
 
-## Table of Contents
-- [Standard Fields](#standard-fields)
-  - [Collector Info](#collector-info)
-  - [Latest Identification](#latest-identification)
-  - [Locality](#locality)
-  - [Misc](#misc)
-  - [Curation](#curation)
-- [Module-specific Fields](#special-module-specific-fields)
-  - [Material Sample](#material-sample)
-  - [Paleontology](#paleontology)
-
 # Standard Fields
 
 ## Collector Info
