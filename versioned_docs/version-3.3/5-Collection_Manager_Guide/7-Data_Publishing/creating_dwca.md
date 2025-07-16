@@ -1,6 +1,7 @@
 ---
 title: "Creating a Darwin Core Archive"
 date: 2021-10-07
+lastmod: 2025-07-15
 authors: ["Katie Pearson"]
 weight: 10
 keywords: ["data publishing","Darwin Core", "DwC-A","Darwin Core Archive"]
@@ -12,7 +13,7 @@ This page describes how you can package your data as a Darwin Core Archive (stan
 
 :::
 
-A [Darwin Core Archive](http://en.wikipedia.org/wiki/Darwin_Core_Archive) (DwC-A) is a data standard that is commonly used to package species occurrence data into a single, self-contained dataset. A DwC-A includes metadata, a file of occurrence data, and, often, files for determinations (identifications), images, and any other data extensions.
+A [Darwin Core Archive](http://en.wikipedia.org/wiki/Darwin_Core_Archive) (DwC-A) is a data standard that is commonly used to package species occurrence data into a single, self-contained dataset. A DwC-A includes metadata, a file of occurrence data, and, often, files for determinations (identifications), multimedia, and any other data extensions.
 
 :::note
 

@@ -1,7 +1,7 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2025-05-12
+lastmod: 2025-07-15
 draft: false
 authors: ["Ed Gilbert", "Katie Pearson", "Lindsay Walker"]
 editors: ["Laura Rocha Prado"]
@@ -208,7 +208,7 @@ See Darwin Core's [locationID](https://dwc.tdwg.org/terms/#dwc:locationID)
 
 ### Security
 
-Selecting "Locality Security applied" from the dropdown meny will hide locality details below the level of county from unauthorized users. This is typically done because the species is rare or threatened, or because the collection location is private. Images are also hidden to protect locality details that might be viewable from the label. Users that are logged into the system and have the necessary permission to view locality details (e.g. collection managers) will continue to have access to all data. Locality Security will automatically be applied if the species name is on any of the rare species lists &nbsp;(see sitemap). Selecting "Fully Security applied" will completely hide the record from all public users who do not have editor or administrator permissions for your collection. This level of security is NOT recommended for most records, as it obscured valuable data for research and the public. Leaving the Security field at "Security not applied" will allow default settings to be applied as determined by the sensitive species administrators, which is the recommendation for most records. For more information on sensitive species protection, see the page on [Sensitive Species Protection](/docs/User_Guide/redacted_protected_data).<br></br>
+Selecting "Locality Security applied" from the dropdown meny will hide locality details below the level of county from unauthorized users. This is typically done because the species is rare or threatened, or because the collection location is private. Images or other media are also hidden to protect locality details that might be viewable from the label. Users that are logged into the system and have the necessary permission to view locality details (e.g. collection managers) will continue to have access to all data. Locality Security will automatically be applied if the species name is on any of the rare species lists &nbsp;(see sitemap). Selecting "Fully Security applied" will completely hide the record from all public users who do not have editor or administrator permissions for your collection. This level of security is NOT recommended for most records, as it obscured valuable data for research and the public. Leaving the Security field at "Security not applied" will allow default settings to be applied as determined by the sensitive species administrators, which is the recommendation for most records. For more information on sensitive species protection, see the page on [Sensitive Species Protection](/docs/User_Guide/redacted_protected_data).<br></br>
 This field is not defined by the Darwin Core standard.
 
 ### Location Remarks
