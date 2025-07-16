@@ -42,7 +42,27 @@ download={true}
 style={{marginBottom: '2vh'}}
 />
 
-## Standard Fields
+## Table of Contents
+- [Standard Fields](#standard-fields)
+  - [Collector Info](#collector-info)
+  - [Latest Identification](#latest-identification)
+  - [Locality](#locality)
+  - [Misc](#misc)
+  - [Curation](#curation)
+- [Module-specific Fields](#special-module-specific-fields)
+  - [Material Sample](#material-sample)
+  - [Paleontology](#paleontology)
+
+
+
+# Standard Fields
+
+## Collector Info
+
+
+| ![Collector Info](/img/occeditor_collectorinfo.png)  |
+| :-------------------------------------: |
+| Collector Info section of the Occurrence Editor form |
 
 ### Catalog Number
 
@@ -91,6 +111,12 @@ See Darwin Core's [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate)
 The date of collection/observation exactly as provided on a label or in field notes. Particularly useful for non-standard date formats or date ranges.<br></br>
 **Examples:** Spring 1901, March-April 1952, late Sept. 1909<br></br>
 See Darwin Core's [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate)
+
+## Latest Identification
+
+| ![Collector Info](/img/occeditor_latestidentification.png)  |
+| :-------------------------------------: |
+| Latest Identification section of the Occurrence Editor form |
 
 ### Scientific Name
 
@@ -145,6 +171,12 @@ See Darwin Core's [identificationRemarks](https://dwc.tdwg.org/terms/#dwc:identi
 Any additional notes regarding the taxonomic name to which the specimen was identified. In biological collections, this field is often where vernacular names are stored.<br></br>
 **Examples:** "Smalley's wooly aster"<br></br>
 See Darwin Core's [taxonRemarks](https://dwc.tdwg.org/terms/#dwc:taxonRemarks)
+
+## Locality
+
+| ![Collector Info](/img/occeditor_locality.png)  |
+| :-------------------------------------: |
+| Locality section of the Occurrence Editor form |
 
 ### Continent
 
@@ -295,6 +327,12 @@ Notes regarding the georeferencing of the specimen.<br></br>
 **Examples:** "placed point at centroid of city, error radius to the extend of city boundaries as viewed on Google Satellite"<br></br>
 See Darwin Core's [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks)
 
+## Misc
+
+| ![Collector Info](/img/occeditor_misc.png)  |
+| :-------------------------------------: |
+| Misc section of the Occurrence Editor form |
+
 ### Habitat
 
 The description of the habitat in which the specimen was collected.<br></br>
@@ -395,6 +433,12 @@ See Darwin Core's [establishmentMeans](https://dwc.tdwg.org/terms/#dwc:establish
 Check this box when the organism was established with the aid of humans at the time of collection. This true/false field enables the ability to filter non-native or naturalized species.<br></br>
 This field is not currently supported by Darwin Core and is therefore not included in Darwin Core exports.
 
+## Curation
+
+| ![Collector Info](/img/occeditor_curation.png)  |
+| :-------------------------------------: |
+| Curation section of the Occurrence Editor form |
+
 ### Type Status
 
 The type designation of a specimen, if it is a type specimen<br></br>
@@ -479,11 +523,19 @@ Internal notes associated with the occurrence record. Data entered in this field
 **Examples:** "data reviewed on 2025-05-12", "potential issues with georeferencing, to be reviewed by curator"<br></br>
 See Darwin Core's [dataGeneralizations](https://dwc.tdwg.org/terms/#dwc:dataGeneralizations)
 
-## Material Sample Fields
+## Special Module-specific Fields
+
+:::info
+
+The following data fields correspond to modules that may not be available in all Symbiota portals. Some modules may require community discussion to activate. Contact your Portal Manager for more information.
+
+:::
+
+## Material Sample
 
 | ![Material Sample Module](/img/materialsampleblank.png) |
 | :-----------------------------------------------------: |
-|                   Material Sample tab                   |
+|  Material Sample tab on the Occurrence Editor form      |
 
 :::note
 
@@ -560,17 +612,11 @@ Free text field to describe a sample's permanent physical storage location.<br><
 Free text field to provide additional notes, comments, and context unique to a sample that cannot be captured by other existing data fields. Limited to 250 characters.<br></br>
 **Examples:** genotype sampling; left jaw consumed in research; with post-cranial skeleton
 
-## Paleontology Fields
+## Paleontology
 
 | ![Paleo Module](/img/paleo_module.png)  |
 | :-------------------------------------: |
-| Paleo Module on the Occurrence Data tab |
-
-:::note
-
-Controlled vocabularies for the following data fields are managed per portal. Modifications to these values may require community discussion. Contact your Portal Administrator for more information.
-
-:::
+| Paleontology/Geological Context fields on the Occurrence Editor form |
 
 ### Local Stage
 The name of an interval in geological time that is used locally or regionally but isn’t necessarily internationally accepted, such as a North American Land Mammal Age.<br></br>
