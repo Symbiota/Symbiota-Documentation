@@ -1,7 +1,7 @@
 ---
 title: "Searching for Records"
 date: 2021-10-11
-lastmod: 2024-10-04
+lastmod: 2025-07-15
 authors: ["Katie Pearson, Lindsay Walker"]
 draft: false
 keywords: ["search", "specimens", "observations"]
@@ -31,6 +31,11 @@ The following steps 2-3 apply to Symbiota portals that have codebases that are v
 - **Latitude and Longitude**: To define a latitude/longitude bounding box, polygon, or point with radius in which to search, enter the values in the provided fields or click the appropriate button at the top of the Latitude & Longitude search criteria to create the box, shape, or point radius in the mapping interface.
 - **Sample Properties**: Here you can search by catalog number or limit your search criteria to only include records that are types (i.e., have a value in the TypeStatus field), records that have media, records that have genetic data, records that are georeferenced, or records that have material samples (if enabled in your portal). You can also opt to include cultivated or captive records in this criterion category.
 - **Trait Criteria**: Here you can limit your search to include only records with certain values of trait criteria. Note that the search will only be able to provide you with records that have been scored for those particular traits, and the absence of a certain trait value applied to a specimen does not necessarily indicate that a trait value does not apply to a record. Furthermore, the record is an "OR" search. Selecting multiple trait values will return all records with **at least one** of those traits.
+- **Associations**: Here you can search for documentated relationships between organisms or resources. Learn more about assocations [here](/docs/Editor_Guide/linking_records/). Click the "Association Type" dropdown list to view the types of relationships supported in the portal you are searching. As with all searches, _search results depend on whether a relationship has been formally established between two things_. For example, while a record may list several associated taxa on its specimen label, those might not have been entered as formal relationships in the database structure. You may still find relationships in the "associatedTaxa" field that cannot be found through this search interface. Associations may be:
+      - Internal occurrence: relationships between records in the portal you are searching
+      - External occurrence: relationships between a record in the portal and a record in a different database
+      - Non-occurrence taxonomic: relationship that is not documented by two specimen records (e.g., a specimen is listed as having an association with another taxon on its specimen label)
+      - Non-occurrence reference: relationship of a record in the portal with another resource, such as a website or publication
 
 3. Click the Search button on the far right to conduct your search.
 
@@ -42,7 +47,7 @@ To return to the Search Criteria page and refine your search, click the "back" b
 
 :::tip
 
-To view the results in a table or to sort the search results, click the Table Display button. ![Table Display Button](/img/table.png) In the Search Results box at the top of the page, select the field you would like to sort by, a second field you would like to sort by (if applicable), then whether you would like to sort results in ascending or descending order. Then click Sort. To switch back to list view, click the List Display button. ![List Display Button](/img/list.png)
+To view the results in a table, click the Table Display button. ![Table Display Button](/img/tabledisplaybutton.png) To switch back to list view, click the List Display button. ![List Display Button](/img/list.png) To sort your search results, click the Sort Records button. ![Sort Records Button](/img/sortrecords.png) In the Search Results box at the top of the page, select the field you would like to sort by, a second field you would like to sort by (if applicable), then whether you would like to sort results in ascending or descending order. Then click Sort.
 
 :::
 
