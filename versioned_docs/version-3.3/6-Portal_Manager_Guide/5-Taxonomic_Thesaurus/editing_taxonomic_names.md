@@ -28,7 +28,7 @@ The taxonomic thesaurus of a Symbiota portal requires frequent curation due to t
 2. Search for the name of the taxon you would like to edit in the **Taxon** box.
 3. Click the pencil icon to the right of the taxon you would like to edit.
 
-### Editing basic information (name, authorship, source, locality security)
+### Editing basic information (name, authorship, source, record security)
 
 - In the Editor tab, you can edit the scientific name, rank, notes, source, and whether the taxon's locality information is globally redacted for all occurrences in the portal. Click the pencil icon in the top right corner of the page to edit these fields.
 
