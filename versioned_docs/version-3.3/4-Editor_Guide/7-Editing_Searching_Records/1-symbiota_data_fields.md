@@ -1,7 +1,7 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2025-05-12
+lastmod: 2025-07-15
 draft: false
 authors: ["Ed Gilbert", "Katie Pearson", "Lindsay Walker"]
 editors: ["Laura Rocha Prado"]
@@ -100,14 +100,14 @@ See Darwin Core's [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificNam
 
 ### Author
 
-The name of the person who first named the taxa. This field autofills after entering the scientific name. If the name entered in the Scientific Name field is present in the taxonomic thesaurus, this field will be automatically populated from the taxonomic thesaurus.<br></br>
-**Examples:** L., A. Gray<br></br>
+The name of the person who first named the taxa. This field autofills after entering the scientific name. If the name entered in the Scientific Name field is present in the taxonomic thesaurus, this field will be automatically populated from the taxonomic thesaurus. Formatting convention may vary by discipline, e.g. botany vs. zoology.<br></br>
+**Examples:** L., A. Gray, (Anderson, 1938)<br></br>
 See Darwin Core's [scientificNameAuthorship](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship)
 
 ### Identification Qualifier
 
 The determiner's expression of uncertainty in their identification. This will be listed on the label along with the scientific name.<br></br>
-**Examples:** cf., aff.<br></br>
+**Examples:** cf., aff., ?<br></br>
 See Darwin Core's [identificationQualifier](https://dwc.tdwg.org/terms/#dwc:identificationQualifier)
 
 ### Family
@@ -119,7 +119,7 @@ See Darwin Core's [family](https://dwc.tdwg.org/terms/#dwc:family)
 ### Identified By
 
 The name of the person who identified the specimen. Also called a determiner.<br></br>
-**Examples:** L. R. Landrum<br></br>
+**Examples:** Leslie R. Landrum<br></br>
 See Darwin Core's [identifiedBy](https://dwc.tdwg.org/terms/#dwc:identifiedBy)
 
 ### Date Identified
@@ -203,7 +203,7 @@ See Darwin Core's [locality](https://dwc.tdwg.org/terms/#dwc:locality)
 ### Location ID
 
 An identifier for the set of location information (data associated with dcterms:Location). May be a global unique identifier or an identifier specific to the dataset.<br></br>
-**Examples:** https://opencontext.org/subjects/768A875F-E205-4D0B-DE55-BAB7598D0FD1<br></br>
+**Examples:** https://opencontext.org/subjects/768A875F-E205-4D0B-DE55-BAB7598D0FD1, USNM loc. 2126<br></br>
 See Darwin Core's [locationID](https://dwc.tdwg.org/terms/#dwc:locationID)
 
 ### Security
@@ -315,13 +315,16 @@ See Darwin Core's [associatedTaxa](https://dwc.tdwg.org/terms/#dwc:associatedTax
 
 ### Description
 
-A physical description of the specimen at the time of collection. This often includes information that can be lost or difficult to observe after the collection and preservation process.<br></br>
-**Examples:** Shrub 3 m tall, corolla yellow<br></br>
-This field is not supported by Darwin Core and is concatenated into occurrenceRemarks when downloaded as a Darwin Core Archive.
+A physical description of the specimen at the time of collection. This often includes information that can be lost or difficult to observe after the collection and preservation process. _For paleontological collections:_ A description that contextualizes what the cataloged fossil material physically represents, which can include verbose anatomical description (if the latter, isolate the value using a [key: value] pair, as in the example below).<br></br>
+**Examples (botany):** Shrub 3 m tall, corolla yellow<br></br>
+**Example (fossils):** Bones are included in the composite mount of USNM V 10304<br></br>
+**Example (fossils):** [MORPHOLOGY REMARKS: an almost perfect corralum 80mm long and 30mm in maximum diameter] 1 plastercast with 5 remnants of the original specimen
+
+This field is not supported by Darwin Core and is concatenated into [occurrenceRemarks](#notes) when downloaded as a Darwin Core Archive.
 
 ### Notes
 
-Any additional notes regarding the specimen.<br></br>
+Any additional notes regarding the specimen occurrence at a place in time.<br></br>
 **Examples:** "common in this region", "this specimen collected as part of master's thesis project"<br></br>
 See Darwin Core's [occurrenceRemarks](https://dwc.tdwg.org/terms/#dwc:occurrenceRemarks)
 
@@ -345,8 +348,10 @@ See Darwin Core's [sex](https://dwc.tdwg.org/terms/#dwc:sex)
 
 ### Individual Count
 
-The number of individuals represented by the occurrence<br></br>
+The number of individuals represented by the occurrence. For fossil collections, please include a quantity descriptor.<br></br>
 **Examples:** 2, 15<br></br>
+**Examples (fossils only):** 2 item(s), 200 estimate
+
 See Darwin Core's [individualCount](https://dwc.tdwg.org/terms/#dwc:individualCount)
 
 ### Sampling Protocol
@@ -358,7 +363,7 @@ See Darwin Core's [samplingProtocol](https://dwc.tdwg.org/terms/#dwc:samplingPro
 ### Preparations
 
 Preparation or preservation method for a specimen. While no universal controlled vocabulary currently exists for this field, a practical example can be found [here](https://github.com/tdwg/cd/issues/64#issuecomment-781653290).<br></br>
-**Examples:** in ethanol, skeleton, pressed and dried<br></br>
+**Examples:** in ethanol, skeleton, pressed and dried, part-counterpart<br></br>
 See Darwin Core's [preparations](https://dwc.tdwg.org/terms/#dwc:preparations)
 
 ### Phenology (Reproduction Condition)
@@ -434,7 +439,7 @@ This field does not map the Darwin Core and is excluded from Darwin Core Archive
 
 ### Dupe Count
 
-The number of duplicate specimens created. This will dictate the number of labels printed for specimen.<br></br>
+The number of duplicate botanical specimens created. This will dictate the number of labels printed for specimen.<br></br>
 **Examples:** 10, 2<br></br>
 See Darwin Core's [duplicatequantity](https://dwc.tdwg.org/terms/#dwc:duplicatequantity)
 
@@ -459,7 +464,7 @@ See Darwin Core's [ownerInstitutionCode](https://dwc.tdwg.org/terms/#dwc:ownerIn
 ### Basis of Record
 
 The type of record the specimen is classified as. For physical collections, this field defaults to "PreservedSpecimen" (aka physical specimen), and for observation projects, the default is "HumanObservation"<br></br>
-**Examples:** PreservedSpecimen, LivingSpecimen, Observation<br></br>
+**Examples:** PreservedSpecimen, LivingSpecimen, Observation, FossilSpecimen<br></br>
 See Darwin Core's [basisOfRecord](https://dwc.tdwg.org/terms/#dwc:basisOfRecord)
 
 ### Processing Status
@@ -567,123 +572,103 @@ Controlled vocabularies for the following data fields are managed per portal. Mo
 
 :::
 
-### Eon
-
-The longest geologic time intervals<br></br>
-**Examples:** Archean, Proterozoic, Phanerozoic<br></br>
-See Darwin Core's [earliestEonOrLowestEonothem](https://dwc.tdwg.org/terms/#dwc:earliestEonOrLowestEonothem) and [latestEonOrHighestEonothem](https://dwc.tdwg.org/terms/#dwc:latestEonOrHighestEonothem)
-
-### Era
-
-A subdivision of an eon that is a shorter interval of geologic time<br></br>
-**Examples:** Archean, Proterozoic, Phanerozoic<br></br>
-See Darwin Core's [earliestEraOrLowestErathem](https://dwc.tdwg.org/terms/#dwc:earliestEraOrLowestErathem) and [latestEraOrHighestErathem](https://dwc.tdwg.org/terms/#dwc:latestEraOrHighestErathem)
-
-### Period
-
-A subdivision of an era that is a shorter interval of geologic time<br></br>
-**Examples:** Ordovician, Silurian, Devonian, Carboniferous, Mississippian, Pennsylvanian, Permian, Triassic, Jurassic, Cretaceous, Paleogene, Neogene, Quaternary<br></br>
-See Darwin Core's [earliestPeriodOrLowestSystem](https://dwc.tdwg.org/terms/#dwc:earliestPeriodOrLowestSystem) and [latestPeriodOrHighestSystem](https://dwc.tdwg.org/terms/#dwc:latestPeriodOrHighestSystem)
-
-### Epoch
-
-A subdivision of a period that is a shorter interval of geologic time<br></br>
-**Examples:** Lower, Middle, Upper Ordovician; Wenlock; Pridoli; Lower, Middle, Upper Devonian; Lower, Middle, Upper Mississippian; Lower, Middle, Upper Pennsylvanian; Cisuralian; Lower, Middle, Upper Jurassic; Lower, Upper Cretaceous; Paleocene; Eocene; Oligocene; Miocene; Pliocene; Pleistocene; Holocene<br></br>
-See Darwin Core's [earliestEpochOrLowestSeries](https://dwc.tdwg.org/terms/#dwc:earliestEpochOrLowestSeries) and [latestEpochOrHighestSeries](https://dwc.tdwg.org/terms/#dwc:latestEpochOrHighestSeries)
-
-### Stage
-
-The chronostratigraphic term given to the succession of rock strata laid down in a single geochronologic age<br></br>
-**Examples:** Lochkovian, Emsian, Eifelian, Givetian, Frasnian, Tournaisian, Serpukhovian, Moscovian, Changhsingian, Norian, Oxfordian, Hauterivian, Albian, Maastrichtian, Thanetian, Messinian, etc.<br></br>
-See Darwin Core's [earliestAgeOrLowestStage](https://dwc.tdwg.org/terms/#dwc:earliestAgeOrLowestStage) and [latestAgeOrHighestStage](https://dwc.tdwg.org/terms/#dwc:latestAgeOrHighestStage)
-
 ### Local Stage
+The name of an interval in geological time that is used locally or regionally but isn’t necessarily internationally accepted, such as a North American Land Mammal Age.<br></br>
+**Examples:** `Barstovian` `Povolzhian` `Ulatsian` `Helvetian`
 
-A local name for a stage that was applied to this specimen<br></br>
-**Examples:** Ulatsian, Helvetian
+### Early Interval and Late Interval
+The earliest (geologically oldest) and latest (geologically youngest) possible interval of geological time attributable to the stratigraphic horizon from which the cataloged fossil material was collected. Refer to the [Paleo Module](/5-Collection_Manager_Guide/16-paleo_data.md) documentation for more information. Every _Early Interval_ value entered should have a corresponding _Late Interval_ value; likewise, these values should be logical, i.e. the _Early Interval_ value should be either the same as or geologically older than the _Late Interval_ value. **Use values from the [ICS time scale](https://stratigraphy.org/chart) to maximize data interoperability unless directed differently by your Portal Manager.** Correctly entered values will automatically populate the hierarchical series of corresponding Darwin Core terms (see below).<br></br>
+**Example 1:** _Early Interval_ = `Eocene` and _Late Interval_ = `Oligocene`<br></br>
+**Example 2:** _Early Interval_ = `Eocene` and _Late Interval_ = `Eocene`<br></br>
+**Incorrect (missing value)**: _Early Interval_ = `Eocene` and _Late Interval_ = null/blank <br></br>
+**Incorrect (illogical order)**: _Early Interval_ = `Oligocene` and _Late Interval_ = `Eocene`
 
-### Early Interval
+For _**Early Interval**_, see also Darwin Core’s [earliestEonOrLowestEonothem](https://dwc.tdwg.org/terms/#dwc:earliestEonOrLowestEonothem), [earliestEraOrLowestErathem](https://dwc.tdwg.org/terms/#dwc:earliestEraOrLowestErathem), [earliestPeriodOrLowestSystem](https://dwc.tdwg.org/terms/#dwc:earliestPeriodOrLowestSystem), [earliestEpochOrLowestSeries](https://dwc.tdwg.org/terms/#dwc:earliestEpochOrLowestSeries), and [earliestAgeOrLowestStage](https://dwc.tdwg.org/terms/#dwc:earliestAgeOrLowestStage).
 
-Name of the earliest possible geochronologic eon, era, period, epoch or age, or the lowest chronostratigraphic eonothem, erathem, system, series, or stage attributable to the stratigraphic horizon from which the cataloged specimen was collected<br></br>
-**Examples:** Aalenian, Aeronian, Albian, Anisian, Aptian, Aquitanian, Archean, Artinskian, Asselian, Bajocian, Barremian, Bartonian
+For _**Late Interval**_, see also Darwin Core’s [latestEonOrHighestEonothem](https://dwc.tdwg.org/terms/#dwc:latestEonOrHighestEonothem), [latestEraOrHighestErathem](https://dwc.tdwg.org/terms/#dwc:latestEraOrHighestErathem), [latestPeriodOrHighestSystem](https://dwc.tdwg.org/terms/#dwc:latestPeriodOrHighestSystem), [latestEpochOrHighestSeries](https://dwc.tdwg.org/terms/#dwc:latestEpochOrHighestSeries), and [latestAgeOrHighestStage](https://dwc.tdwg.org/terms/#dwc:latestAgeOrHighestStage).
+
 
 ### Late Interval
 
-Name of the latest possible geochronologic eon, era, period, epoch or age, or the highest chronostratigraphic eonothem, erathem, system, series or stage attributable to the stratigraphic horizon from which the cataloged specimen was collected<br></br>
-**Examples:** Aalenian, Aeronian, Albian, Anisian, Aptian, Aquitanian, Archean, Artinskian, Asselian, Bajocian, Barremian, Bartonian
+See above for [_Early Interval_ and _Late Interval_](#early-interval-and-late-interval).
+
 
 ### Absolute Age
 
-Field to record the age of specimen/rock in years determined using radioactive decay of isotopes (Carbon-14, argon-argon, potassium-argon, uranium-lead, etc.) and other quantitative dating methods<br></br>
-**Examples:** 20 Ma, 75 ka, 10.5 – 12.7 +/- 0.5 Ma
+The numerically resolved age of the cataloged fossil material in years determined using absolute dating techniques, such as radiocarbon/carbon-14 dating, K-Ar, U-Pb, and Ar-Ar dating, etc.<br></br>
+**Examples:** `20 Ma` `75 ka` `10.5 – 12.7 +/- 0.5 Ma`
 
 ### Storage Age
 
-Field for institutions that arrange collections by geologic time or biostratigraphy. The physical location of a specimen within the collection space<br></br>
-**Examples:** Miocene, Wasatchian, Paleocene, Bridgerian
+Physical storage location of the cataloged fossil material within the collection space.<br></br>
+**Examples:** `Cabinet: 1 | Tray 4` `Miocene Cabinet` `Bridgerian`
 
-### Biota (Flora/Fauna)
+### Biota
 
-Name given to collections of fossils of the same age from a single locality or multiple localities within a specific geographic area<br></br>
-**Examples:** Chalk Bluffs, Stewart Valley, Bridge Creek, Mazon Creek
+The name given to various collections of fossils of the same geological time interval as the cataloged fossil material, typically from one or more localities within a specific geographic area.<br></br>
+**Examples:** `Chalk Bluffs` `Stewart Valley` `Bridge Creek` `Mazon Creek`
 
-### Biostratigraphy (Biozone)
+### Biostratigraphy
 
-The name of the lowest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected<br></br>
-**Examples:** Wa0, Uvigerinella sparsicostata Zone, Ogygiocaris<br></br>
+The name of the lowest possible geological [biostratigraphic zone](https://stratigraphy.org/guide/bio) of the stratigraphic horizon from which the cataloged fossil material was collected.<br></br>
+**Examples:** `Wa0` `Uvigerinella sparsicostata Zone` `Ogygiocaris`<br></br>
 See Darwin Core's [lowestBiostratigraphicZone](https://dwc.tdwg.org/terms/#dwc:lowestBiostratigraphicZone) and [highestBiostratigraphicZone](https://dwc.tdwg.org/terms/#dwc:highestBiostratigraphicZone)
 
 ### Group
 
-The name of the lithostratigraphic group from which the cataloged specimen was collected. The [National Geologic Map Database Geolex Search](https://ngmdb.usgs.gov/Geolex/search) is a great resource for the named lithostratigraphic units accepted by the USGS.<br></br>
-**Examples:** Bathurst, Lower Wealden, Monte Cristo, Contra Costa, Panoche<br></br>
+The name of the lithostratigraphic group from which the cataloged fossil material was collected. Data providers may wish to refer to the [National Geologic Map Database Geolex Search](https://ngmdb.usgs.gov/Geolex/search) to standardize values according to lithostratigraphic names accepted by the US Geological Survey.<br></br>
+**Examples:** `Bathurst` `Lower Wealden` `Monte Cristo` `Contra Costa` `Panoche`<br></br>
 See Darwin Core's [group](https://dwc.tdwg.org/terms/#dwc:group)
 
 ### Formation
 
-The name of the lithostratigraphic formation from which the cataloged specimen was collected. The [National Geologic Map Database Geolex Search](https://ngmdb.usgs.gov/Geolex/search) is a great resource for the named lithostratigraphic units accepted by the USGS.<br></br>
-**Examples:** Notch Peak, House Limestone, Fillmore, Chinle<br></br>
+The name of the lithostratigraphic formation from which the cataloged fossil material was collected. Data providers may wish to refer to the [National Geologic Map Database Geolex Search](https://ngmdb.usgs.gov/Geolex/search) to standardize values according to lithostratigraphic names accepted by the US Geological Survey.<br></br>
+**Examples:** `Notch Peak` `House Limestone` `Fillmore` `Chinle`<br></br>
 See Darwin Core's [formation](https://dwc.tdwg.org/terms/#dwc:formation)
 
 ### Member
 
-The name of the lithostratigraphic member from which the cataloged item was collected. The [National Geologic Map Database Geolex Search](https://ngmdb.usgs.gov/Geolex/search) is a great resource for the named lithostratigraphic units accepted by the USGS.<br></br>
-**Examples:** Lava Dam, Hellnmaria, Brown Mountain Sandstone<br></br>
+The name of the lithostratigraphic member from which the cataloged fossil material was collected. Data providers may wish to refer to the [National Geologic Map Database Geolex Search](https://ngmdb.usgs.gov/Geolex/search) to standardize values according to lithostratigraphic names accepted by the US Geological Survey.<br></br>
+**Examples:** `Lava Dam` `Hellnmaria` `Brown Mountain Sandstone`<br></br>
 See Darwin Core's [member](https://dwc.tdwg.org/terms/#dwc:member)
 
 ### Bed
 
-The name of the lithostratigraphic bed from which the cataloged item was collected. The [National Geologic Map Database Geolex Search](https://ngmdb.usgs.gov/Geolex/search) is a great resource for the named lithostratigraphic units accepted by the USGS.<br></br>
-**Example:** Harlem coal<br></br>
+The name of the lithostratigraphic bed from which the cataloged fossil material was collected. Data providers may wish to refer to the [National Geologic Map Database Geolex Search](https://ngmdb.usgs.gov/Geolex/search) to standardize values according to lithostratigraphic names accepted by the US Geological Survey.<br></br>
+**Example:** `Harlem coal`<br></br>
 See Darwin Core's [bed](https://dwc.tdwg.org/terms/#dwc:bed)
 
 ### Taxon Environment
 
-The depositional environment of the rock unit from which cataloged specimen was collected<br></br>
-**Examples:** marine, lacustrine, non-marine, marine-non-marine
+The depositional environment of the rock unit from which the cataloged fossil material was collected. A controlled vocabulary is enforced.<br></br>
+**Examples:** `marine` `non-marine` `marine and non-marine`
 
 ### Lithology
 
-Field for terms to describe the types of rock/sediment from which the cataloged specimen was collected<br></br>
-**Examples:** sandstone, mudstone, siltstone, shale<br></br>
-See Darwin Core's [lithostratigraphicTerms](https://dwc.tdwg.org/terms/#dwc:lithostratigraphicTerms)
+The rock/sediment types from which the cataloged fossil material was collected.<br></br>
+**Examples:** `sandstone` `mudstone` `siltstone` `shale`<br></br>
 
 ### Strat Remarks
 
-Field to record additional details about the geology, stratigraphy, more detailed lithology description, palynological sampling info, core data, etc.
+Additional details about the cataloged fossil material’s geological and/or stratigraphic context that cannot be captured using other fields, such as more detailed information about where a specimen was collected in relation to a measured stratigraphic section or context for palynological sampling, core data, etc.<br></br>
+**Examples:** `Fossil collected ~1.5m from the base of the stratigraphic section originally described by Alderson, 1981.` `Specimen collected 150 feet below top of unit.`<br></br>
+
 
 ### Element
 
-"Field to record type of plant organ cataloged specimen represents<br></br>
-**Examples:** stem, strobilus, sterile leaf, fertile leaf, pinnule(s), rooting organ, rootlet, megasporangium, sporangium, spore, sterile axis, fertile axis, root
+The anatomical element(s) represented by the cataloged fossil material. Recommendation is to use a [discipline-specific controlled vocabulary](https://drive.google.com/drive/folders/1aNHpsLJLuVOubVmbohOZk2VbfDv3BlLH?usp=drive_link) and to pipe-separate distinct values. Record more verbose anatomical descriptions in [_Description_](#description).<br></br>
+**Examples (invertebrates):** `pygidium/pygidia` `thorax`<br></br>
+**Examples (vertebrates):** `skull: dentary` `skull: maxilla` `vertebra: centrum`<br></br>
+**Examples (paleobotany):** `stem` `strobilus` `root` `pinnule(s)`<br></br>
+**Examples (ichnofossils):** `vertebrate trackway`<br></br>
 
 ### Slide Properties
 
-Field to record types of prepared slides of specimens, noting the type of preparation and mounting medium, and to provide England Finder coordinates for palynomorph slides<br></br>
-**Examples:** strewn, petrographic thin-section, mounted peel
+ Information about prepared slides derived from the cataloged fossil material, noting details like the type of preparation and mounting medium. England Finder coordinates may be recorded in this field, e.g. for palynomorph slides.<br></br>
+**Examples:** `strewn` `petrographic thin-section` `mounted peel`
 
 ### Geological Context ID
 
-An identifier for the set of information associated with a GeologicalContext (the location within a geological context, such as stratigraphy). May be a global unique identifier or an identifier specific to the data set<br></br>
-**Example:** https://opencontext.org/subjects/e54377f7-4452-4315-b676-40679b10c4d9<br></br>
+An identifier for the set of information associated with the cataloged fossil material’s GeologicalContext, e.g. _Group_, _Formation_, _Member_, _Bed_, _Early/Late Interval_. Ideally, this should be a global unique identifier or an identifier specific to the data set.<br></br>
+**Example:** `https://opencontext.org/subjects/e54377f7-4452-4315-b676-40679b10c4d9` `https://macrostrat.org/sift/#/strat_name_concept/8320`<br></br>
 See Darwin Core's [geologicalContextID](https://dwc.tdwg.org/terms/#dwc:geologicalContextID)
