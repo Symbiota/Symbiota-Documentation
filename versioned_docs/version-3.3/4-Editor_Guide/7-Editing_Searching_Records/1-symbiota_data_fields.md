@@ -648,7 +648,7 @@ The depositional environment of the rock unit from which the cataloged fossil ma
 The rock/sediment types from which the cataloged fossil material was collected.<br></br>
 **Examples:** `sandstone` `mudstone` `siltstone` `shale`<br></br>
 
-### Strat Remarks
+### Stratigraphic Remarks
 
 Additional details about the cataloged fossil material’s geological and/or stratigraphic context that cannot be captured using other fields, such as more detailed information about where a specimen was collected in relation to a measured stratigraphic section or context for palynological sampling, core data, etc.<br></br>
 **Examples:** `Fossil collected ~1.5m from the base of the stratigraphic section originally described by Alderson, 1981.` `Specimen collected 150 feet below top of unit.`<br></br>
