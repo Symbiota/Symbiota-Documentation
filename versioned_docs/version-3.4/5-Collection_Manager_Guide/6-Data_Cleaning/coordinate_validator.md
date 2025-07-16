@@ -13,21 +13,13 @@ This page describes how to use the coordinate validator tool, located under the 
 
 :::
 
-Navigate to these tools through the **_Administration Control Panel (My Profile > Occurrence Management > name of collection)_**. Click **_Data Cleaning Tools_**, then view the box below the **_Specimen Coordinates_** header.
-
-The Coordinate Validator tool can be used to determine whether the coordinates associated with your records actually fall within the political boundaries of the provided Country, State/Province, and County.
+## Things to know before using this tool
 
 :::note
 
-This tool will only work as expected if your portal's geographic thesaurus includes geographic polygons, which can be added automatically by a superadministrator using the [Geographic Harvester](/docs/Portal_Manager_Guide/Geographic_Thesaurus/geographic_harvester). Contact your superadministrator if the tool does not seem to be functioning.
+This tool will only work as expected if your portal's geographic thesaurus includes geographic polygons, which can be added automatically by a superadministrator using the [Geographic Harvester](/docs/Portal_Manager_Guide/Geographic_Thesaurus/geographic_harvester). Contact your Portal Manager if the tool does not seem to be functioning.
 
 :::
-
-The Statistics and Action Panel provides information about how many of your specimens are georeferenced, as well as how many records with or without coordinates have data in the "verbatim coordinates" field. Non-georeferenced records with values in the "verbatim coordinates" field are a good place to start when you begin georeferencing, as they may have coordinates that can simply be converted into decimal latitude/longitude values.
-
-![Coordinates Statistics Panel](/img/coordinatevalidatoractionpanel.png)
-
-To use the Coordinate Validator Tool, click the **Verify coordinates against political boundaries** link.
 
 :::tip
 
@@ -35,9 +27,23 @@ It is recommended to use the [Geography Cleaning Tools](/docs/Collection_Manager
 
 :::
 
+## How to locate the Coordinate Validator
+
+Navigate to these tools through the **_Administration Control Panel (My Profile > Occurrence Management > name of collection)_**. Click **_Data Cleaning Tools_**, then view the box below the **_Specimen Coordinates_** header.
+
+The Coordinate Validator tool can be used to determine whether the coordinates associated with your records actually fall within the political boundaries of the provided Country, State/Province, and County.
+
+The Statistics and Action Panel provides information about how many of your specimens are georeferenced, as well as how many records with or without coordinates have data in the "verbatim coordinates" field. Non-georeferenced records with values in the "verbatim coordinates" field are a good place to start when you begin georeferencing, as they may have coordinates that can simply be converted into decimal latitude/longitude values.
+
+![Coordinates Statistics Panel](/img/coordinatevalidatoractionpanel.png)
+
+## How to run the Coordinate Validator
+
+To use the Coordinate Validator Tool, click the **Verify coordinates against political boundaries** link.
+
 If your collection has coordinates, you will see one of two things on the next page:
 - If you have never validated your coordinates, you will see a table of "Unverified records listed by county." Click the table icon to view specimens belonging to the listed country values.
-- If you have previously validated your coordinates, you will see a "Ranking Statistics" table consisting of all the potentially problematic records from the previous validataion attempt.
+- If you have previously validated your coordinates, you will see a "Ranking Statistics" table consisting of all the potentially problematic records from the previous validation attempt.
 
 To validate (or re-validate) your coordinates, check the boxes next to your preferred options. You can have the tool populate values for country, state/province, and/or county based on the coordinates for records that do not currently have values in those fields. Click the "(Re-)Validate All Coordinates" button to run the tool.
 
@@ -45,11 +51,13 @@ To validate (or re-validate) your coordinates, check the boxes next to your pref
 
 :::warning
 
-This tool may take several minutes to run!
+This tool may take several minutes to run! Do not navigate away from this window while the tool is running.
 
 :::
 
 The resulting Ranking Statistics table will show totals of potentially problematic records based on the types of issues discovered, described below. To view records with the named potential issues, click the number in the Questionable Records column.
+
+### Explanation of potential issues discovered
 
 #### Failed to validate coordinate based on geographic thesaurus
 
@@ -60,7 +68,11 @@ Records with this issue may:
 
 Because polygons in the thesaurus are sometimes imprecise, you are likely to always have records in this category.
 
-**Important Note:** The tool can only fully validate coordinates for countries that have state and county polygons in the taxonomic thesaurus. Contact your portal administrator for help with countries that do not yet have sub-country polygons.
+:::warning
+
+The tool can only fully validate coordinates for countries that have state and county polygons in the taxonomic thesaurus. Contact your portal administrator for help with countries that do not yet have sub-country polygons.
+
+:::
 
 #### Failed to validate coordinate despite known search polygon
 
