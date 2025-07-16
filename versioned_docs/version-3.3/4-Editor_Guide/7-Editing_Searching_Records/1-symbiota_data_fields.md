@@ -57,7 +57,6 @@ style={{marginBottom: '2vh'}}
 
 ## Collector Info
 
-
 | ![Collector Info](/img/occeditor_collectorinfo.png)  |
 | :-------------------------------------: |
 | Collector Info section of the Occurrence Editor form |
@@ -167,7 +166,7 @@ See Darwin Core's [identificationRemarks](https://dwc.tdwg.org/terms/#dwc:identi
 ### Taxon Remarks
 
 Any additional notes regarding the taxonomic name to which the specimen was identified. In biological collections, this field is often where vernacular names are stored.<br></br>
-**Examples:** `Smalley's wooly aster` `Taxon likely no longer valid`<br></br>
+**Examples:** `Taxon likely no longer valid` `Smalley's wooly aster`<br></br>
 See Darwin Core's [taxonRemarks](https://dwc.tdwg.org/terms/#dwc:taxonRemarks)
 
 ## Locality
@@ -236,16 +235,16 @@ An identifier for the set of location information (data associated with dcterms:
 **Examples:** `https://opencontext.org/subjects/768A875F-E205-4D0B-DE55-BAB7598D0FD1` `USNM loc. 2126`<br></br>
 See Darwin Core's [locationID](https://dwc.tdwg.org/terms/#dwc:locationID)
 
-### Security
-
-Selecting `Locality Security applied` from the dropdown meny will hide locality details below the level of county from unauthorized users. This is typically done because the species is rare or threatened, or because the collection location is private. Images or other media are also hidden to protect locality details that might be viewable from the label. Users that are logged into the system and have the necessary permission to view locality details (e.g. collection managers) will continue to have access to all data. Locality Security will automatically be applied if the species name is on any of the rare species lists &nbsp;(see sitemap). Selecting `Fully Security applied` will completely hide the record from all public users who do not have editor or administrator permissions for your collection. **Unless legal protections apply, this level of security is generally NOT recommended for most records, as it reduces the discoverability of your collections and obscures valuable data from research and public use.** Leaving the Security field at `Security not applied` will allow default settings to be applied as determined by the sensitive species administrators, which is the recommendation for most records. **Refer to the Collection Manager Guide for more information on how [data redaction works](/docs/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data) in Symbiota portals.**<br></br>
-This field is not defined by the Darwin Core standard.
-
 ### Location Remarks
 
 Comments or notes about the locality.<br></br>
 **Examples:** `Previously known as Mt. Evans` `Locality no longer accessible`<br></br>
 See Darwin Core's [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks)
+
+### Security
+
+Selecting `Locality Security applied` from the dropdown meny will hide locality details below the level of county from unauthorized users. This is typically done because the species is rare or threatened, or because the collection location is private. Images or other media are also hidden to protect locality details that might be viewable from the label. Users that are logged into the system and have the necessary permission to view locality details (e.g. collection managers) will continue to have access to all data. Locality Security will automatically be applied if the species name is on any of the rare species lists &nbsp;(see sitemap). Selecting `Fully Security applied` will completely hide the record from all public users who do not have editor or administrator permissions for your collection. **Unless legal protections apply, this level of security is generally NOT recommended for most records, as it reduces the discoverability of your collections and obscures valuable data from research and public use.** Leaving the Security field at `Security not applied` will allow default settings to be applied as determined by the sensitive species administrators, which is the recommendation for most records. **Refer to the Collection Manager Guide for more information on how [data redaction works](/docs/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data) in Symbiota portals.**<br></br>
+This field is not defined by the Darwin Core standard.
 
 ### Latitude and Longitude
 
@@ -301,29 +300,29 @@ The name (or username) of the person who georeferenced the specimen record. This
 **Examples:** `Amanda Gonzales` `emakings` `acbarber`<br></br>
 See Darwin Core's [georeferencedBy](https://dwc.tdwg.org/terms/#dwc:georeferencedBy)
 
-### Georeference Protocol
-
-The source of the standards used to georeference.<br></br>
-**Examples:** `Georeferencing Quick Guide. Zermoglio et al. 2020` `Engelbrecht, I. 2021. https://doi.org/10.3897/biss.5.73572`<br></br>
-See Darwin Core's [georeferenceProtocol](https://dwc.tdwg.org/terms/#dwc:georeferenceProtocol)
-
 ### Georeference Sources
 
 The tool or tools used to georeference and any references consulted to georeference the record<br></br>
 **Examples:** `GeoLocate` `Google Earth` `USGS 1:24000 Florence Montana Quad 1967`<br></br>
 See Darwin Core's [georeferenceSources](https://dwc.tdwg.org/terms/#dwc:georeferenceSources)
 
-### Georef Verification Status
-
-This field is used to indicate whether or not the geoference has been reviewed or verified.<br></br>
-**Examples:** `reviewed` `not reviewed` `needs verification` `verified by collector`<br></br>
-See Darwin Core's [georeferenceVerificationStatus](https://dwc.tdwg.org/terms/#dwc:georeferenceVerificationStatus)
-
 ### Georeference Remarks
 
 Notes regarding the georeferencing of the specimen.<br></br>
 **Examples:** `placed point at centroid of city, error radius to the extend of city boundaries as viewed on Google Satellite`<br></br>
 See Darwin Core's [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks)
+
+### Georeference Protocol
+
+The source of the standards used to georeference.<br></br>
+**Examples:** `Georeferencing Quick Guide. Zermoglio et al. 2020` `Engelbrecht, I. 2021. https://doi.org/10.3897/biss.5.73572`<br></br>
+See Darwin Core's [georeferenceProtocol](https://dwc.tdwg.org/terms/#dwc:georeferenceProtocol)
+
+### Georef Verification Status
+
+This field is used to indicate whether or not the geoference has been reviewed or verified.<br></br>
+**Examples:** `reviewed` `not reviewed` `needs verification` `verified by collector`<br></br>
+See Darwin Core's [georeferenceVerificationStatus](https://dwc.tdwg.org/terms/#dwc:georeferenceVerificationStatus)
 
 ## Misc
 
@@ -567,7 +566,7 @@ Value from a controlled vocabulary describing the current state of a sample with
 Value from a controlled vocabulary defining the physical storage/preservation method of a sample. Values for this field are controlled by a vocabulary table in the database.<br></br>
 **Examples:** `dry` `ethanol` `liquid nitrogen` `pinned/pointed`
 
-### Preservation Date
+### Preparation Date
 
 The date of a sample's physical preparation. Dates in this field visually conform to MM/DD/YYYY formatting. Manual data entry into this field is validated using a calendar form.<br></br>
 **Examples:** `08/01/2022` `05/14/2025`
@@ -610,7 +609,7 @@ Free text field to provide additional notes, comments, and context unique to a s
 | Paleontology/Geological Context fields on the Occurrence Editor form |
 
 ### Early Interval and Late Interval
-The earliest (geologically oldest, i.e. "Early Interval") and latest (geologically youngest, i.e. "Late Interval") possible intervals of geological time attributable to the stratigraphic horizon from which the cataloged fossil material was collected. Refer to the [Paleo Module](/5-Collection_Manager_Guide/16-paleo_data.md) documentation for more information. Every _Early Interval_ value entered should have a corresponding _Late Interval_ value; likewise, these values should be logical, i.e. the _Early Interval_ value should be either the same as or geologically older than the _Late Interval_ value. Use values from the [ICS time scale](https://stratigraphy.org/chart) to maximize data interoperability unless directed differently by your Portal Manager. Correctly entered values will automatically populate the hierarchical series of corresponding Darwin Core terms (see examples below).<br></br>
+The earliest (geologically oldest, i.e. "Early Interval") and latest (geologically youngest, i.e. "Late Interval") possible intervals of geological time attributable to the stratigraphic horizon from which the cataloged fossil material was collected. Every _Early Interval_ value entered should have a corresponding _Late Interval_ value; likewise, these values should be logical, i.e. the _Early Interval_ value should be either the same as or geologically older than the _Late Interval_ value. Use values from the [ICS time scale](https://stratigraphy.org/chart) to maximize data interoperability unless directed differently by your Portal Manager. Correctly entered values will automatically populate the hierarchical series of corresponding Darwin Core terms (see examples below).<br></br>
 **Example 1:** _Early Interval_ = `Eocene` and _Late Interval_ = `Oligocene`<br></br>
 **Example 2:** _Early Interval_ = `Eocene` and _Late Interval_ = `Eocene`<br></br>
 **Incorrect (missing value)**: _Early Interval_ = `Eocene` and _Late Interval_ = null/blank <br></br>
@@ -620,11 +619,9 @@ For _**Early Interval**_, see also Darwin Core’s [earliestEonOrLowestEonothem]
 
 For _**Late Interval**_, see also Darwin Core’s [latestEonOrHighestEonothem](https://dwc.tdwg.org/terms/#dwc:latestEonOrHighestEonothem), [latestEraOrHighestErathem](https://dwc.tdwg.org/terms/#dwc:latestEraOrHighestErathem), [latestPeriodOrHighestSystem](https://dwc.tdwg.org/terms/#dwc:latestPeriodOrHighestSystem), [latestEpochOrHighestSeries](https://dwc.tdwg.org/terms/#dwc:latestEpochOrHighestSeries), and [latestAgeOrHighestStage](https://dwc.tdwg.org/terms/#dwc:latestAgeOrHighestStage).
 
-
 ### Late Interval
 
 See above for [_Early Interval_ and _Late Interval_](#early-interval-and-late-interval).
-
 
 ### Absolute Age
 
