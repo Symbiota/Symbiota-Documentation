@@ -1,15 +1,15 @@
 ---
 title: "Collection Statistics"
 date: 2021-11-30
-lastmod: 2025-03-32
+lastmod: 2025-07-15
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
 weight: 4
 keywords: ["statistics", "number of specimens", "reports"]
 ---
 
-:::info
-This page describes how you can find information about how many occurrences and images you have in your collection.
+:::note
+This page describes how you can find information about how many occurrences and media resources (e.g., images) you have in your collection.
 :::
 
 ### Viewing Collection Statistics
@@ -18,12 +18,12 @@ This page describes how you can find information about how many occurrences and 
 Collection statistics are generated on command and are not created "on the fly". A collection administrator should periodically refresh collection statistics. Collection statistics are also automatically refreshed when a new [Darwin Core Archive is published/created](/docs/Collection_Manager_Guide/Data_Publishing/creating_dwca).
 :::
 
-Statistics relating to the number of specimens, images, georeferences, and taxa within a collection can be found on that collection's Collection Profile page. An example collection profile is shown in the screenshot below and can be found [here](https://cch2.org/portal/collections/misc/collprofiles.php?collid=12). The collection statistics are found at the bottom of the page and include:
+Statistics relating to the number of specimens, media resources, georeferences, and taxa within a collection can be found on that collection's Collection Profile page. An example collection profile is shown in the screenshot below and can be found [here](https://cch2.org/portal/collections/misc/collprofiles.php?collid=12). The collection statistics are found at the bottom of the page and include:
 
 - Number of total records
 - Number of records that are georeferenced
-- Number of records that have associated images
-- Total number of images in the collection
+- Number of records that have associated media
+- Total number of media resources in the collection
 - Number of specimens that are identified at least to the level of species
 - Number of families, genera, species, and total taxa that represented in the collection (NOTE: these numbers are calculated using only taxonomic names that have been indexed to the taxonomic thesaurus)
 
@@ -45,7 +45,7 @@ Collection statistics are generated on command and are not created "on the fly".
 
 To view statistics regarding the processing statuses in your collection, navigate to your Administration Control Panel (_My Profile > Occurrence Management > name of collection_), then click "Processing Toolbox" and then the "Reports" tab. A table will be displayed that shows you the number of specimens in each processing status. To view occurrences one by one, click the edit (pencil) icon in the **Count** column. To view occurrences as a list, click the table icon in the **Count** column.
 
-This page will also show you how many of your occurrences do not have linked images and how many lack skeletal data (i.e., a value in the Scientific Name field).
+This page will also show you how many of your occurrences do not have linked media and how many lack skeletal data (i.e., a value in the Scientific Name field).
 
 ![Reports Tab in Processing Toolbox](/img/reportstab.png)
 
