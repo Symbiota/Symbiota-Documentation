@@ -34,7 +34,7 @@ Click each field to see a full definition and examples.
 - [Disposition](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#disposition)
 - [Dupe Count](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#dupe-count)
 - [Dynamic Properties](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#dynamic-properties)
-- [Early Interval](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval)
+- [Early Interval](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval)
 - [Element](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#element)
 - [Elevation in Meters](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#elevation-in-meters)
 - [End Date](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#end-date)

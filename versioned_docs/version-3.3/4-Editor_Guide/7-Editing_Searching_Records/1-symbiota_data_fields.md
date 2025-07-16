@@ -1,7 +1,7 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2025-07-15
+lastmod: 2025-07-16
 draft: false
 authors: ["Ed Gilbert", "Katie Pearson", "Lindsay Walker"]
 editors: ["Laura Rocha Prado"]
@@ -142,7 +142,7 @@ See Darwin Core's [identificationRemarks](https://dwc.tdwg.org/terms/#dwc:identi
 
 ### Taxon Remarks
 
-Any additional notes regarding the taxonomic name to which the specimen was identified. This field is often where vernacular names are stored.<br></br>
+Any additional notes regarding the taxonomic name to which the specimen was identified. In biological collections, this field is often where vernacular names are stored.<br></br>
 **Examples:** "Smalley's wooly aster"<br></br>
 See Darwin Core's [taxonRemarks](https://dwc.tdwg.org/terms/#dwc:taxonRemarks)
 
@@ -577,7 +577,7 @@ The name of an interval in geological time that is used locally or regionally bu
 **Examples:** `Barstovian` `Povolzhian` `Ulatsian` `Helvetian`
 
 ### Early Interval and Late Interval
-The earliest (geologically oldest) and latest (geologically youngest) possible interval of geological time attributable to the stratigraphic horizon from which the cataloged fossil material was collected. Refer to the [Paleo Module](/5-Collection_Manager_Guide/16-paleo_data.md) documentation for more information. Every _Early Interval_ value entered should have a corresponding _Late Interval_ value; likewise, these values should be logical, i.e. the _Early Interval_ value should be either the same as or geologically older than the _Late Interval_ value. **Use values from the [ICS time scale](https://stratigraphy.org/chart) to maximize data interoperability unless directed differently by your Portal Manager.** Correctly entered values will automatically populate the hierarchical series of corresponding Darwin Core terms (see below).<br></br>
+The earliest (geologically oldest, i.e. "Early Interval") and latest (geologically youngest, i.e. "Late Interval") possible intervals of geological time attributable to the stratigraphic horizon from which the cataloged fossil material was collected. Refer to the [Paleo Module](/5-Collection_Manager_Guide/16-paleo_data.md) documentation for more information. Every _Early Interval_ value entered should have a corresponding _Late Interval_ value; likewise, these values should be logical, i.e. the _Early Interval_ value should be either the same as or geologically older than the _Late Interval_ value. Use values from the [ICS time scale](https://stratigraphy.org/chart) to maximize data interoperability unless directed differently by your Portal Manager. Correctly entered values will automatically populate the hierarchical series of corresponding Darwin Core terms (see examples below).<br></br>
 **Example 1:** _Early Interval_ = `Eocene` and _Late Interval_ = `Oligocene`<br></br>
 **Example 2:** _Early Interval_ = `Eocene` and _Late Interval_ = `Eocene`<br></br>
 **Incorrect (missing value)**: _Early Interval_ = `Eocene` and _Late Interval_ = null/blank <br></br>
@@ -610,7 +610,7 @@ The name given to various collections of fossils of the same geological time int
 
 ### Biostratigraphy
 
-The name of the lowest possible geological [biostratigraphic zone](https://stratigraphy.org/guide/bio) of the stratigraphic horizon from which the cataloged fossil material was collected.<br></br>
+The name of the [biostratigraphic unit](https://stratigraphy.org/guide/bio) from which the cataloged fossil material was collected.<br></br>
 **Examples:** `Wa0` `Uvigerinella sparsicostata Zone` `Ogygiocaris`<br></br>
 See Darwin Core's [lowestBiostratigraphicZone](https://dwc.tdwg.org/terms/#dwc:lowestBiostratigraphicZone) and [highestBiostratigraphicZone](https://dwc.tdwg.org/terms/#dwc:highestBiostratigraphicZone)
 
