@@ -38,7 +38,7 @@ Since portals have the ability to customize the field names found on their data 
 :::
 
 <ButtonLink
-link="documents/SymbiotaDataFields_202111.csv"
+link="documents/SymbiotaDataFields_202533.csv"
 label="Download full content as a CSV"
 download={true}
 style={{marginBottom: '2vh'}}
@@ -90,7 +90,7 @@ See Darwin Core's [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate)
 
 ### End Date
 
-The last date of collection, in the case of a range of collecting dates. While dates can be entered using your preferred format, the value will be converted and stored as an ISO-8601 numeric format (YYYY-MM-DD). Note that unknown month and days can be entered as "00". For example, a collection with a date of "March 1956" can be entered as "1956-03-00".<br></br>
+The last date of collection, in the case of a range of collecting dates. While dates can be entered using your preferred format, the value will be converted and stored as an ISO-8601 numeric format (YYYY-MM-DD). Note that unknown month and days can be entered as `00`. For example, a collection with a date of "March 1956" can be entered as `1956-03-00`.<br></br>
 **Examples:** `1983-09-15` `1983-07-00` `1934-00-00`<br></br>
 See Darwin Core's [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate)
 
