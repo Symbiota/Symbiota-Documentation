@@ -34,7 +34,9 @@ Fields listed here differ from the fields visible in the data uploading tools. F
 :::
 
 :::warning
+
 Since portals have the ability to customize the field names found on their data entry form, field names may differ from the core field definition and how it is mapped to Darwin Core export tools.
+
 :::
 
 <ButtonLink
@@ -111,6 +113,12 @@ See Darwin Core's [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEv
 The Latin name of the specimen without the author. Could be anything from kingdom down to subspecies or variety, depending on the level of the identification.<br></br>
 **Examples:** `Pinaceae` `Pinus` `Pinus edulis` `Pinus edulis var. fallax`<br></br>
 See Darwin Core's [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName)
+
+:::tip
+
+When directly entering data into _Scientific Name_ using the Occurrence Editor, a dropdown menu may appear based on your portal's internal Taxonomic Thesaurus to aid data entry. Taxa not included in the dropdown list can still be entered and saved.
+
+:::
 
 ### Author
 
@@ -207,6 +215,12 @@ See Darwin Core's [stateProvince](https://dwc.tdwg.org/terms/#dwc:stateProvince)
 The name of the county in which the specimen was collected. To aid data entry, a dropdown menu will appear as one types, though names outside of the list can still be entered. For non-U.S. records, enter the next geographic region below state/province.<br></br>
 **Examples:** `Maricopa` `Washington`<br></br>
 See Darwin Core's [county](https://dwc.tdwg.org/terms/#dwc:county)
+
+:::tip
+
+When directly entering data into _Country_, _State/Province_, and _County_ using the Occurrence Editor, a dropdown menu may appear based on your portal's internal Geographic Thesaurus to aid data entry. Values not included in the dropdown list can still be entered and saved.
+
+:::
 
 ### Municipality
 
