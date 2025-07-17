@@ -54,7 +54,7 @@ style={{marginBottom: '2vh'}}
 
 ### Catalog Number
 
-The unique identifier (primary key) for the specimen record. This field should be used to store the barcode or the accession number (herbaria only). This field is enforced to be unique per collection"<br></br>
+The unique identifier (primary key) for the specimen record. This field should be used to store the barcode or the accession number (herbaria only). This field is enforced to be unique per collection.<br></br>
 **Examples:** `WIS-L-0123456`, `ASUCOB0012345`<br></br>
 See Darwin Core's [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber)
 
@@ -216,7 +216,7 @@ See Darwin Core's [municipality](https://dwc.tdwg.org/terms/#dwc:municipality)
 
 ### Locality
 
-The name of the municipality in which the specimen was collected. For specimens collected outside of the United States, enter the 4th level geographic designation.<br></br>
+The detailed location in which the specimen was collected.<br></br>
 **Examples:** `9.5 miles NW of Sedona along Boynton Pass Rd.`<br></br>
 See Darwin Core's [locality](https://dwc.tdwg.org/terms/#dwc:locality)
 
@@ -234,7 +234,7 @@ See Darwin Core's [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRema
 
 ### Security
 
-Selecting `Locality Security applied` from the dropdown meny will hide locality details below the level of county from unauthorized users. This is typically done because the species is rare or threatened, or because the collection location is private. Images or other media are also hidden to protect locality details that might be viewable from the label. Users that are logged into the system and have the necessary permission to view locality details (e.g. collection managers) will continue to have access to all data. Locality Security will automatically be applied if the species name is on any of the rare species lists &nbsp;(see sitemap). Selecting `Fully Security applied` will completely hide the record from all public users who do not have editor or administrator permissions for your collection. **Unless legal protections apply, this level of security is generally NOT recommended for most records, as it reduces the discoverability of your collections and obscures valuable data from research and public use.** Leaving the Security field at `Security not applied` will allow default settings to be applied as determined by the sensitive species administrators, which is the recommendation for most records. **Refer to the Collection Manager Guide for more information on how [data redaction works](/docs/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data) in Symbiota portals.**<br></br>
+Selecting `Locality Security applied` from the dropdown meny will hide locality details below the level of county from unauthorized users. This is typically done because the species is rare or threatened, or because the collection location is private. Images or other media are also hidden to protect locality details that might be viewable from the label. Users that are logged into the system and have the necessary permission to view locality details (e.g. collection managers) will continue to have access to all data. Locality Security will automatically be applied if the species name is on a portal's Protected Species list (accessible via Sitemap). Selecting `Fully Security applied` will completely hide the record from all public users who do not have editor or administrator permissions for your collection. **Unless legal protections apply, this level of security is generally NOT recommended for most records, as it reduces the discoverability of your collections and obscures valuable data from research and public use.** Leaving the Security field at `Security not applied` will allow default settings to be applied as determined by the sensitive species administrators, which is the recommendation for most records. **Refer to the Collection Manager Guide for more information on how [data redaction works](/docs/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data) in Symbiota portals.**<br></br>
 This field is not defined by the Darwin Core standard.
 
 ### Latitude and Longitude
@@ -245,19 +245,19 @@ See Darwin Core's [decimalLatitude](https://dwc.tdwg.org/terms/#dwc:decimalLatit
 
 ### Uncertainty
 
-The accuracy of the georeference coordinates in meters (numeric value only). This is measured as the radius of a circle where the true point would be found if known. If coordinates are collected using a GPS, than the accuracy would be the error found within the GPS unit (usually around 10m). While previously collected specimens that have coordinates on the label recorded by the collector typically do not state the source of the coordinates (GPS, map, etc), it is typically a good assumption that the coordinates are accurate within one to two hundred meters. If the locality details are vague such as just "Grand Canyon", then the coordinates should be the centroid within the uncertainty encompassing the greater area where the specimen may have been collected. If the locality is "Boynton Canyon, Sedona", the uncertainty would be about 1500 m. This field autofills when using GeoLocate for georeferencing.<br></br>
+The accuracy of the georeference coordinates in meters (numeric value only). This is measured as the radius of a circle where the true point would be found if known. If coordinates are collected using a GPS, than the accuracy would be the error found within the GPS unit (usually around 10m). While previously collected specimens that have coordinates on the label recorded by the collector typically do not state the source of the coordinates (GPS, map, etc), it is typically a good assumption that the coordinates are accurate within one to two hundred meters. If the locality details are vague such as just "`Grand Canyon`, then the coordinates should be the centroid within the uncertainty encompassing the greater area where the specimen may have been collected. If the locality is `Boynton Canyon, Sedona`, the uncertainty would be about 1500 m. This field autofills when using GeoLocate for georeferencing.<br></br>
 **Examples:** `42000` `100`<br></br>
 See Darwin Core's [coordinateUncertaintyInMeters](https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters)
 
 ### Datum
 
-The geographic system that was used to get the coordinates. This field autofills when using [GeoLocate](http://www.museum.tulane.edu/geolocate/) or the Mapping tool for georeferencing.<br></br>
+The geographic system that was used when determining the coordinates. This field autofills when using [GeoLocate](http://www.museum.tulane.edu/geolocate/) or the Mapping tool for georeferencing.<br></br>
 **Examples:** `NAD27` `NAD83` `WGS84`<br></br>
 See Darwin Core's [geodeticDatum](https://dwc.tdwg.org/terms/#dwc:geodeticDatum)
 
 ### Verbatim Coordinates
 
-Enter coordinate vlaues here from the specimen label if they are in a format other than decimal degrees. If your coordinates are in "degrees, minutes, seconds", "UTM", or "township-range-section" (TRS) format, click the "F" button to view the formatting tools. Fill in the appropriate box with the coordinates on your label and click the Insert Values button. Valid values in "degrees-minutes-seconds" or "UTM" formats will be automatically converted into decimal latitude and longitude values. If a value has previously been entered into the Verbatim Coordinates field, you can try to click the double arrows ("&lt;&lt;") to the left of this field to try to auto-convert them into decimal latitude and longitude. Township-range-section coordinates cannot be automatically converted in the data entry form, but they may be converted into an appropriate georeference using the GEOLocate tool. For more information about this and about using the coordinate tools, [see this tutorial video](https://www.youtube.com/watch?v=XyYPYJ1guMY&t=70s).<br></br>
+Coordinate values as transcribed from a specimen label, locality leger, or field notes if they were not originally recorded decimal degrees. If your coordinates are in Degrees-Minutes-Seconds (DMS), Universal Transverse Mercator (UTM), or the Township-Range-Section" (TRS) format, click the "F" button to view the formatting tools. Fill in the appropriate box with the coordinates on your label and select the appropriate "Insert Values" button. Valid values in DMS or UTM formats will automatically convert into decimal degree values. If a value has previously been entered into the Verbatim Coordinates field, you can try to click the double arrows (&lt;&lt;) to the left of this field to try to auto-convert them into decimal degrees format. TRS coordinates cannot be automatically converted in the data entry form, but they may be converted into an appropriate georeference using the GEOLocate tool. For more information about this and about using the coordinate tools, [see this tutorial video](https://www.youtube.com/watch?v=XyYPYJ1guMY&t=70s).<br></br>
 **Examples:** `34° 13.940' N 112° 2.370' W` `12 420944E 4064025N` `TRS: T40N R32E S29`<br></br>
 See Darwin Core's [verbatimCoordinates](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates)
 
@@ -269,7 +269,7 @@ See Darwin Core's [minimumElevationInMeters](https://dwc.tdwg.org/terms/#dwc:min
 
 ### Verbatim Elevation
 
-The verbatim elevation at which the specimen was collected. This is typically used to record an elevation measurement that was recorded in feet or an uncertainty designation. When the elevation in meters field is left blank, the value will automatically be converted to meters. Click the "&lt;&lt;" symbol to replace the previously entered meters values.<br></br>
+The verbatim elevation at which the specimen was collected. This is typically used to record an elevation measurement that was recorded in feet or an uncertainty designation. When the elevation in meters field is left blank, the value will automatically be converted to meters. Select the double arrows (&lt;&lt;) to replace the previously entered meters values.<br></br>
 **Examples:** `4500ft` `4500 feet` `ca 4500'` `ca 2000m` `4500' +-300'`<br></br>
 See Darwin Core's [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation)
 
@@ -293,7 +293,7 @@ See Darwin Core's [georeferencedBy](https://dwc.tdwg.org/terms/#dwc:georeference
 
 ### Georeference Sources
 
-The tool or tools used to georeference and any references consulted to georeference the record<br></br>
+The tool or tools used to georeference and any references consulted to georeference the record.<br></br>
 **Examples:** `GeoLocate` `Google Earth` `USGS 1:24000 Florence Montana Quad 1967`<br></br>
 See Darwin Core's [georeferenceSources](https://dwc.tdwg.org/terms/#dwc:georeferenceSources)
 
@@ -311,7 +311,7 @@ See Darwin Core's [georeferenceProtocol](https://dwc.tdwg.org/terms/#dwc:georefe
 
 ### Georef Verification Status
 
-This field is used to indicate whether or not the geoference has been reviewed or verified.<br></br>
+A status used to indicate whether or not the geoference has been reviewed or verified.<br></br>
 **Examples:** `reviewed` `not reviewed` `needs verification` `verified by collector`<br></br>
 See Darwin Core's [georeferenceVerificationStatus](https://dwc.tdwg.org/terms/#dwc:georeferenceVerificationStatus)
 
@@ -329,7 +329,7 @@ See Darwin Core's [habitat](https://dwc.tdwg.org/terms/#dwc:habitat)
 
 ### Substrate
 
-The substrate on which the specimen was collected. Mostly used for lichen and bryophyte specimens.<br></br>
+The substrate on which the specimen was collected (mostly used for lichens, bryophytes, and zoological specimens).<br></br>
 **Examples:** `on basalt` `trunk of oak`<br></br>
 Darwin Core currently lumps this information into [dwc:habitat](#habitat).
 
@@ -341,7 +341,7 @@ See Darwin Core's [associatedTaxa](https://dwc.tdwg.org/terms/#dwc:associatedTax
 
 ### Description
 
-A physical description of the specimen at the time of collection. This often includes information that can be lost or difficult to observe after the collection and preservation process. **For fossil collections:** A description that contextualizes what the cataloged fossil material physically represents, which can include verbose anatomical description (if the latter, isolate the value using a [key: value] pair, as in the example below).<br></br>
+A physical description of the specimen at the time of collection. This often includes information that can be lost or difficult to observe after the collection and preservation process. **For fossil collections:** A description that contextualizes what the cataloged fossil material physically represents.<br></br>
 **Examples (botany):** `Shrub 3 m tall` `corolla yellow`<br></br>
 **Examples (fossils):** `Bones are included in the composite mount of USNM V 10304` `1 plastercast with 5 remnants of the original specimen`<br></br>
 
@@ -361,7 +361,7 @@ See Darwin Core's [dynamicProperties](https://dwc.tdwg.org/terms/#dwc:dynamicPro
 
 ### Life Stage
 
-The age or stage of the organism at the time of collection/observation. Typically used for zoological collections.<br></br>
+The age or stage of the organism at the time of collection/observation (typically used for zoological collections).<br></br>
 **Examples:** `larva` `juvenile` `adult`<br></br>
 See Darwin Core's [lifeStage](https://dwc.tdwg.org/terms/#dwc:lifeStage)
 
@@ -373,7 +373,7 @@ See Darwin Core's [sex](https://dwc.tdwg.org/terms/#dwc:sex)
 
 ### Individual Count
 
-The number of individuals represented by the occurrence. For fossil collections, please include a quantity descriptor.<br></br>
+The number of individuals represented by the occurrence. **For fossil collections:** include a quantity descriptor.<br></br>
 **Examples:** `2` `15`<br></br>
 **Examples (fossils only):** `2 item(s)` `200 estimate`
 
@@ -381,19 +381,19 @@ See Darwin Core's [individualCount](https://dwc.tdwg.org/terms/#dwc:individualCo
 
 ### Sampling Protocol
 
-The names and references to methods used to collect or sample an occurrence<br></br>
+The names and references to methods used to collect or sample an occurrence.<br></br>
 **Examples:** `UV light trap` `mist net` `Takats et al. 2001. Guidelines for Nocturnal Owl Monitoring in North America. Beaverhill Bird Observatory and Bird Studies Canada, Edmonton, Alberta. 32 pp., http://www.bsc-eoc.org/download/Owl.pdf`<br></br>
 See Darwin Core's [samplingProtocol](https://dwc.tdwg.org/terms/#dwc:samplingProtocol)
 
 ### Preparations
 
-Preparation or preservation method for a specimen. While no universal controlled vocabulary currently exists for this field, a practical example can be found [here](https://github.com/tdwg/cd/issues/64#issuecomment-781653290).<br></br>
+Preparation or preservation method for a specimen. While no universal controlled vocabulary currently exists for this field, a practical example for biological collections can be found [here](https://github.com/tdwg/cd/issues/64#issuecomment-781653290).<br></br>
 **Examples:** `in ethanol` `study skin` `pressed and dried` `part-counterpart`<br></br>
 See Darwin Core's [preparations](https://dwc.tdwg.org/terms/#dwc:preparations)
 
 ### Phenology (Reproduction Condition)
 
-The reproductive stage the specimen is in. Typically used for plant and fungal collections.<br></br>
+The reproductive stage the specimen is in.<br></br>
 **Examples:** `flower` `fruit` `sterile`<br></br>
 See Darwin Core's [reproductiveCondition](https://dwc.tdwg.org/terms/#dwc:reproductiveCondition)
 
@@ -411,7 +411,7 @@ See Darwin Core's [vitality](https://dwc.tdwg.org/terms/#dwc:vitality)
 
 ### Establishment Means
 
-The state or quality of establishment of the individual at the time of collection<br></br>
+The state or quality of establishment of the individual at the time of collection.<br></br>
 **Examples:** `cultivated` `invasive` `native`<br></br>
 See Darwin Core's [establishmentMeans](https://dwc.tdwg.org/terms/#dwc:establishmentMeans)
 
@@ -428,37 +428,37 @@ This field is not currently supported by Darwin Core and is therefore not includ
 
 ### Type Status
 
-The type designation of a specimen, if it is a type specimen.<br></br>
+The type designation of a specimen, whether it is a name-bearing specimen or part of a type series.<br></br>
 **Examples:** `holotype` `isotype` `paratype`<br></br>
 See Darwin Core's [typeStatus](https://dwc.tdwg.org/terms/#dwc:typeStatus)
 
 ### Disposition
 
-The location or status of the physical specimen<br></br>
+The location or status of the physical specimen with respect to a collection.<br></br>
 **Examples:** `missing` `on loan` `in collection` `stored under genus "Mimulus"`<br></br>
 See Darwin Core's [disposition](https://dwc.tdwg.org/terms/#dwc:disposition)
 
 ### Occurrence ID (override)
 
-This is the Global Unique Identification (GUID) for the specimen. This value should be stable and uniquely identify the specimen relative to all other specimens within the world. If your collection is set to have occurrenceIDs/GUIDs generated by the portal (this is the suggested setting for all live-managed collections), this field will appear blank in the occurrence editor form. To view the occurrenceID value associated with your specimen, click the Public Display link at the top of the page.<br></br>
+The Globally Unique Identifier (GUID) for the specimen. This value should be stable and uniquely identify the specimen relative to all other specimens within the world. If your collection is set to have occurrenceIDs/GUIDs generated by the portal (this is the suggested setting for all live-managed collections), this field will appear blank in the Occurrence Editor form. To view the occurrenceID value associated with your specimen, click the Public Display link at the top of the page.<br></br>
 **Examples:** `000866d2-c177-4648-a200-ead4007051b9` `urn:catalog:UWBM:Bird:89776`<br></br>
 See Darwin Core's [occurrenceid](https://dwc.tdwg.org/terms/#dwc:occurrenceid)
 
 ### Field Number
 
-An identifier given to the collecting event in the field. This number often serves as a link between the event indicated in the field notes and the specimen record<br></br>
+An identifier given to the collecting event in the field. This number often serves as a link between the event indicated in the field notes and the specimen record.<br></br>
 **Examples:** `2024-04-05-00045` `JOSHUATREE_35` `2025AH0718-01`<br></br>
 See Darwin Core's [fieldnumber](https://dwc.tdwg.org/terms/#dwc:fieldnumber)
 
 ### Language
 
-The language of the label information or record<br></br>
+The language of the label information or record.<br></br>
 **Examples:** `en` `es` `pt` `fr`<br></br>
 See Darwin Core's [language](https://dwc.tdwg.org/terms/#dc:language)
 
 ### Label Project
 
-This field is used to group records from a specific project or category. Once a value is entered in this field, all records with that same value can be printed at one time using the [batch label printing tools](/docs/Editor_Guide/Label_Customization)<br></br>
+A value used to group records from a specific project or category for internal use. Once a value is entered in this field, all records with that same value can be printed at one time using the [batch label printing tools](/docs/Editor_Guide/Label_Customization)<br></br>
 **Examples:** `Plants of Sedona 2012` `PCC TCN 2018`<br></br>
 This field does not map the Darwin Core and is excluded from Darwin Core Archive exports.
 
@@ -470,25 +470,25 @@ See Darwin Core's [duplicatequantity](https://dwc.tdwg.org/terms/#dwc:duplicateq
 
 ### Institution Code (override)
 
-The acronym of the institution that stewards this occurrence. Only enter a value if the institution is different than what was entered when the metadata for the institution was added to the portal.<br></br>
+The acronym of the institution that stewards this occurrence. Only enter a value if it differs from what is entered in the collection's metadata in the portal.<br></br>
 **Examples:** `NMNH` `FLMNH`<br></br>
 See Darwin Core's [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode)
 
 ### Collection Code (override)
 
-The acronym of the collection that stewards this occurrence. Only enter a value if the collection is different than what was entered when the metadata for the collection was added to the portal.<br></br>
+The acronym of the collection that stewards this occurrence. Only enter a value if it differs from what is entered in the collection's metadata in the portal.<br></br>
 **Examples:** `Herps` `F`<br></br>
 See Darwin Core's [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode)
 
 ### Owner Code (override)
 
-The name (or acronym) in use by the institution having ownership of the object(s) or information referred to in the record. Only enter a value if the collection is different than what was entered when the metadata for the collection was added to the portal.<br></br>
-**Examples:** `NPS` `NMNH`<br></br>
+The name (or acronym) in use by the institution having ownership of the object(s) or information referred to in the record. Only enter a value if it differs from what is entered in the collection's metadata in the portal.<br></br>
+**Examples:** `NPS` `BLM` `NMNH`<br></br>
 See Darwin Core's [ownerInstitutionCode](https://dwc.tdwg.org/terms/#dwc:ownerInstitutionCode)
 
 ### Basis of Record
 
-The type of record the specimen is classified as. For physical collections, this field defaults to "PreservedSpecimen" (aka physical specimen), and for observation projects, the default is "HumanObservation"<br></br>
+The type of record the specimen is classified as. For collections of physically preserved specimens, this field defaults to `PreservedSpecimen` or `FossilSpecimen` depending on how your collection is configured; for observation projects, the default is `HumanObservation`.<br></br>
 **Examples:** `PreservedSpecimen` `LivingSpecimen` `HumanObservation` `MaterialCitation` `FossilSpecimen`<br></br>
 See Darwin Core's [basisOfRecord](https://dwc.tdwg.org/terms/#dwc:basisOfRecord)
 
@@ -526,7 +526,7 @@ Controlled vocabularies for Material Sample data fields are managed per portal, 
 
 ### Sample Type
 
-Controlled vocabulary defining the sample type, which is often anatomical in nature.<br></br>
+The sample type, which is often anatomical in nature. Controlled vocabulary enforced on a per-portal basis.<br></br>
 **Examples:** `skull` `liver` `gastrointestinal tract` `genetalia` `DNA`<br></br>
 See the GGBN Material Sample Extension's [materialSampleType](http://data.ggbn.org/schemas/ggbn/terms/materialSampleType)
 
@@ -543,18 +543,18 @@ A globally unique identifier for the material sample. In the absence of a persis
 
 ### Sample Condition
 
-Free text field to describe the physical condition of the sample. Use of a controlled vocabulary is recommended but not required.<br></br>
+The physical condition of the sample. Use of a controlled vocabulary is recommended but not required.<br></br>
 **Examples:** `very poor` `poor` `fair` `good` `unknown`<br></br>
 See the GGBN Material Sample Extension's [quality](http://data.ggbn.org/schemas/ggbn/terms/quality)
 
 ### Disposition
 
-Value from a controlled vocabulary describing the current state of a sample with respect to its collection. Values for this field are controlled by a vocabulary table in the database.<br></br>
+The current state of a sample with respect to its collection. Controlled vocabulary enforced.<br></br>
 **Examples:** `in collection` `being processed` `consumed` `on loan` `deaccessioned` `missing`
 
 ### Preservation Type
 
-Value from a controlled vocabulary defining the physical storage/preservation method of a sample. Values for this field are controlled by a vocabulary table in the database.<br></br>
+The physical storage/preservation method of a sample. Controlled vocabulary enforced.<br></br>
 **Examples:** `dry` `ethanol` `liquid nitrogen` `pinned/pointed`
 
 ### Preparation Date
@@ -569,7 +569,7 @@ Name of the individual who prepared a sample, selected from the dropdown list. T
 
 ### Preparation Details
 
-Free text field to record notes providing more context about the physical preparation and condition of the sample.<br></br>
+Notes providing more context about the physical preparation and condition of the sample.<br></br>
 **Examples:** `upper and lower GI tract` `kidney, left, whole` `prepared with borax`
 
 ### Individual Count
@@ -579,18 +579,18 @@ The number of loanable objects associated with the sample, i.e. all pieces of th
 
 ### Sample Size
 
-Free text field to quantify the sample beyond counted number of objects, e.g. dry weight.<br></br>
+Quantification of the sample beyond counted number of objects, e.g. dry weight.<br></br>
 **Examples:** `200 uL` `20 g`<br></br>
 See GGBN Material Sample Extension's [samp_size](http://gensc.org/ns/mixs/samp_size).
 
 ### Storage Location
 
-Free text field to describe a sample's permanent physical storage location.<br></br>
+A sample's physical storage location with respect to its collection.<br></br>
 **Examples:** `Freezer 3` `Oversize Storage` `Cab011 | Dwr002`
 
 ### Remarks
 
-Free text field to provide additional notes, comments, and context unique to a sample that cannot be captured by other existing data fields. Limited to 250 characters.<br></br>
+Additional notes, comments, and context unique to a sample that cannot be captured by other existing data fields.<br></br>
 **Examples:** `genotype sampling` `left jaw consumed in research` `with post-cranial skeleton`
 
 ## Paleontology
