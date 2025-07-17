@@ -609,7 +609,7 @@ Additional notes, comments, and context unique to a sample that cannot be captur
 
 ## Paleontology
 
-| ![Paleo Module](/img/paleo_module.png)  |
+| ![Paleo Module](/img/occeditor_paleo.png)  |
 | :-------------------------------------: |
 | Paleontology/Geological Context fields on the Occurrence Editor form |
 
