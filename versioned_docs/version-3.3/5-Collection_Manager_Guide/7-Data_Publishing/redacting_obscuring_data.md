@@ -1,7 +1,7 @@
 ---
 title: "Redacting / Obscuring Data"
 Date: 2021-11-01
-lastmod: 2024-12-05
+lastmod: 2025-07-15
 authors: ["Katie Pearson", "Ed Gilbert"]
 editors: ["Lindsay Walker"]
 weight: 80
@@ -68,7 +68,7 @@ If you wish to batch redact data, you can download a CSV file of all the specime
 
 ### Globally redacting locality data for certain taxa
 
-Locality data and images can be redacted for all occurrences by a specific taxon by someone with Super Administrator or Taxon Editor user permissions. To do this, find the species in the Taxonomic Tree Viewer or Taxonomy Explorer and open the editor (either by clicking on the taxon name or clicking the pencil next to the name). Change _Locality Security_ from "show all locality data" to "hide locality data".
+Locality data and media (e.g., images) can be redacted for all occurrences by a specific taxon by someone with Super Administrator or Taxon Editor user permissions. To do this, find the species in the Taxonomic Tree Viewer or Taxonomy Explorer and open the editor (either by clicking on the taxon name or clicking the pencil next to the name). Change _Locality Security_ from "show all locality data" to "hide locality data".
 
 ![Taxonomy Editor Example](/img/taxoneditorexample.png)
 

@@ -1,7 +1,7 @@
 ---
 title: "Batch Editing"
 date: 2021-10-28
-lastmod: 2024-09-24
+lastmod: 2025-07-17
 draft: false
 authors: ["Lindsay Walker", "Katie Pearson", "Cynthia Skema", "Ann Barber"]
 keywords: ["batch", "edit", "change", "record search form"]
@@ -18,13 +18,13 @@ This page describes how to batch edit records.
 
 :::warning
 
-Exercise caution when using this tool. We strongly recommend [downloading a copy of your database](/docs/Collection_Manager_Guide/Downloading/downloading_copy) prior to making batch edits
+Exercise caution when using this tool. We strongly recommend [downloading a copy of your database](/docs/Collection_Manager_Guide/Downloading/downloading_copy) prior to making batch edits. For this reason, only users with Administrator permissions can access the batch editing tools.
 
 :::
 
 There are two options for batch editing specimen records: you can change a value for 1) the **entire** set of records in your collection or 2) change a value for a **subset** of records.
 
-1. Navigate to the Record Search Form (_Administration Control Panel > Edit Existing Occurrence Records_).
+1. Navigate to the Record Search Form (_Data Editor Control Panel > Edit Existing Occurrence Records_).
 2. **Option A:** **To apply batch changes to all records**, click on “Display Table” in the Record Search Form, then click the Batch Edit button above the resulting table of all records from your collection. Continue to step 3. ![Batch Edit Button](/img/batcheditbutton.png)
 
 :::note

@@ -1,7 +1,7 @@
 ---
 title: "Record Editor Tabs"
 date: 2021-10-26
-lastmod: 2023-09-29
+lastmod: 2025-07-15
 draft: false
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
@@ -22,7 +22,7 @@ Upon opening the Record Editor page, you will see 4-5 tabs, depending on your le
 
 **Determination History** – where annotations are shown and can be entered. Annotations can also be batch uploaded from separate files. See [Annotations](/docs/Editor_Guide/Editing_Searching_Records/annotations)
 
-**Media** – provides information on media resources associated with the record. See [Images](/docs/Editor_Guide/Images_Media)
+**Media** – provides information on media resources associated with the record. See [Images & Other Media](/docs/Editor_Guide/Images_Media)
 
 **Material Sample** - allows for association of multiple material sample records per specimen occurrence. For this tab to be visible, it must be configured per portal and activated per collection. Contact your Collection Administrator for more information. See [Material Sample](/docs/Editor_Guide/Editing_Searching_Records/material_samples)
 
