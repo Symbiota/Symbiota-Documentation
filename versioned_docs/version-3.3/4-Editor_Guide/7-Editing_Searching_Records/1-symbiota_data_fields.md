@@ -40,7 +40,7 @@ Since portals have the ability to customize the field names found on their data 
 :::
 
 <ButtonLink
-link="/documents/SymbiotaDataFields_202533.csv"
+link="/documents/SymbiotaDataFields202533.csv"
 label="Download full content as a CSV"
 download={true}
 style={{marginBottom: '2vh'}}
