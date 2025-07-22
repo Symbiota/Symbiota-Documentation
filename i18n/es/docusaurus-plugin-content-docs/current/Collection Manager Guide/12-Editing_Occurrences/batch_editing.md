@@ -16,7 +16,7 @@ Esta página describe cómo editar registros por lote.
 :::
 
 - Para ver instruciones acerca de georreferenciación por lote, visite [esta página](https://biokic.github.io/symbiota-docs/es/editor/georeference/batch/).
-- Los nombres científicos únicamente pueden ser cambiados por lote utilizando las [herramientas de Anotaciones por Lote](https://biokic.github.io/symbiota-docs/es/editor/edit/annotations/) o las [herramientas de Limpieza Taxonómica](/docs/Collection%20Manager%20Guide/Data%20Cleaning/taxonomic_cleaning).
+- Los nombres científicos únicamente pueden ser cambiados por lote utilizando las [herramientas de Anotaciones por Lote](https://biokic.github.io/symbiota-docs/es/editor/edit/annotations/) o las [herramientas de Limpieza Taxonómica](/Collection%20Manager%20Guide/Data%20Cleaning/taxonomic_cleaning).
 
 :::note
 

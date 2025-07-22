@@ -7,4 +7,4 @@ authors: ["Katie Pearson"]
 keywords: ["add","create"]
 ---
 
-There are several ways to add occurrence records, depending on your level of permissions. Editors can add specimens as [skeletal records](/docs/Editor_Guide/Adding_Records/adding_skeletal_records), as [full records](/docs/Editor_Guide/Adding_Records/adding_full_records), and by [uploading an image](/docs/Editor_Guide/Adding_Records/adding_records_images).
+There are several ways to add occurrence records, depending on your level of permissions. Editors can add specimens as [skeletal records](/Editor_Guide/Adding_Records/adding_skeletal_records), as [full records](/Editor_Guide/Adding_Records/adding_full_records), and by [uploading an image](/Editor_Guide/Adding_Records/adding_records_images).

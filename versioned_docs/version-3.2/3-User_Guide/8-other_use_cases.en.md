@@ -17,7 +17,7 @@ This page contains user-contributed content related to various uses of Symbiota-
 :::
 
 :::note
-  It is incumbent upon the data user to [appropriately cite](/docs/Collection_Manager_Guide/data_citations) the applicable data portals and data providers in publications, reports, theses, disserations, and similar works.
+  It is incumbent upon the data user to [appropriately cite](/Collection_Manager_Guide/data_citations) the applicable data portals and data providers in publications, reports, theses, disserations, and similar works.
 :::
 
 ## Checklists

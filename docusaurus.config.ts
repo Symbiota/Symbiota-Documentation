@@ -39,7 +39,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          routeBasePath: "docs",
+          routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -130,11 +130,11 @@ const config: Config = {
           items: [
             {
               label: "3.3 (Latest)",
-              to: "docs/about",
+              to: "/",
             },
             {
               label: "3.2",
-              to: "docs/3.2/about",
+              to: "3.2/",
             },
           ],
         },
