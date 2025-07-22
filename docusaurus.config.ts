@@ -1,6 +1,7 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import clientRedirects from "@docusaurus/plugin-client-redirects";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -64,10 +65,25 @@ const config: Config = {
           customCss: "./src/css/custom.css",
         },
         gtag: {
-          trackingID: 'G-BH1RW5WQB6',
+          trackingID: "G-BH1RW5WQB6",
           anonymizeIP: true,
         },
       } satisfies Preset.Options,
+    ],
+  ],
+
+  plugins: [
+    // other plugins if you add any
+    [
+      clientRedirects,
+      {
+        redirects: [
+          {
+            from: ["/docs/about"],
+            to: "/", // This should be your homepage route
+          },
+        ],
+      },
     ],
   ],
 
