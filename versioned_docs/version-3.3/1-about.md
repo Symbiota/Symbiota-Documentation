@@ -2,8 +2,6 @@
 id: 'about'
 title: Home (About)
 slug: /
-aliases:
-  - /about
 ---
 
 # Welcome to Symbiota Docs!

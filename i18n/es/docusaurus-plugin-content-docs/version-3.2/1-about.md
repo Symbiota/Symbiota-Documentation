@@ -2,8 +2,6 @@
 id: 'about'
 title: 'Acerca de'
 slug: /
-aliases:
-  - /about
 ---
 
 [Symbiota Docs - actual](https://symbiota.org/docs) es un repositorio central de documentación sobre portales de datos basados en Symbiota. Este sitio es mantenido por Symbiota Support Hub, pero se alienta a todos los usuarios de Symbiota a contribuir. [Contáctenos](https://biokic.github.io/symbiota-docs/contact/) para contribuir o proporcionar comentarios sobre este sitio.
