@@ -1,6 +1,7 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import clientRedirects from "@docusaurus/plugin-client-redirects";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -39,31 +40,36 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          routeBasePath: "docs",
+          routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/Symbiota/Symbiota-Documentation/tree/main",
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ["rss", "atom"],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/Symbiota/Symbiota-Documentation/tree/main",
-          // Useful options to enforce blogging best practices
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "warn",
-        },
+        blog: false,
         theme: {
           customCss: "./src/css/custom.css",
         },
+        gtag: {
+          trackingID: "G-BH1RW5WQB6",
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
+    ],
+  ],
+
+  plugins: [
+    // other plugins if you add any
+    [
+      clientRedirects,
+      {
+        redirects: [
+          {
+            from: ["/docs/about"],
+            to: "/", // This should be your homepage route
+          },
+        ],
+      },
     ],
   ],
 
@@ -125,8 +131,12 @@ const config: Config = {
           position: "left",
           items: [
             {
+              label: "3.3 (Latest)",
+              to: "/",
+            },
+            {
               label: "3.2",
-              to: "docs/about/",
+              to: "3.2/",
             },
           ],
         },

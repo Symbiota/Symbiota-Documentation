@@ -66,7 +66,7 @@ Several different versions of the documentation exist in parallel within this sa
 
 Specifically, the working version of the documentation (not seen by the end user upon publication) exists in the `docs/` directory. Folders within this `docs/` directory represent nested structures within the documentation that will be respected and rendered in the Docs side menu (seen after clicking on the Docs link in the navbar).
 
-Different versions of the documentation live in the `versioned_docs/version-x.y.z/` folders. Their directory structure should largely resemble that found in `docs/` excepting those ocassions where the documentation is meant to diverge. When a new version of the documentation is generated (which can be done with an npm command; see 'Cutting a new version' section below), a copy of the `docs/` folder is generated in the `versioned_docs/` directory with the new version name. See [here](https://docusaurus.io/docs/versioning) for more details.
+Different versions of the documentation live in the `versioned_docs/version-x.y.z/` folders. Their directory structure should largely resemble that found in `docs/` excepting those ocassions where the documentation is meant to diverge. When a new version of the documentation is generated (which can be done with an npm command; see 'Cutting a new version' section below), a copy of the `docs/` folder is generated in the `versioned_docs/` directory with the new version name. See [here](https://docusaurus.io/versioning) for more details.
 
 Versions of the documentation in different languages live in the `i18n/` folder. Within each language folder in that directory, different versions of the documentation can be found in the `.../docusaurus-plugin-content-docs/version-x.y.z/` folders. These are all also markdown files. If any files exist in the default language documentation (English in our case) that are missing translations, they will be present in the default language.
 
@@ -138,11 +138,14 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ### Cutting a new version
 
-New versions of the documentation can be generated automatically using the npm command `npm run docusaurus docs:version x.y.z`. See [here](https://docusaurus.io/docs/versioning) for more information.
+New versions of the documentation can be generated automatically using the npm command `npm run docusaurus docs:version x.y.z`. See [here](https://docusaurus.io/versioning) for more information.
 
-You will need to add a link to the new version of documentation manually to `docusaurus.config.ts` by adding a new item element to the items array for dropdown menu with `label: 'Versions'`. The `Latest` label will also need to be updated. Don't forget that the version that was previously the "latest" version's `to: "docs/about/",` attribute will need to be updated to include the version number (e.g., `to: "docs/3.3/about/",`).
+You will need to add a link to the new version of documentation manually to `docusaurus.config.ts` by adding a new item element to the items array for dropdown menu with `label: 'Versions'`. The `Latest` label will also need to be updated. Don't forget that the version that was previously the "latest" version's `to` attribute will need to be updated to include the version number (e.g., `to: "3.3/",`).
 
 Versioned language files are automatically copied from their respective `/i18n/lang/docusaurus-plugin-content-docs/current/` directories.
+Because we are not using the `docs` directory to stage new changes, as Docusaurus expects, the new version will not contain the correct files. Navigate to the new version's directory in `versioned-docs` and delete its contents. Copy all the contents from the previous version's directory and paste them into the new version's directory. Repeat this process for the appropriate i18n directories as well.
+
+Next, add a link to the new version of documentation to `docusaurus.config.ts` by manually adding a new item element to the items array for dropdown menu with `label: 'Versions'`. Make sure to change the `Latest` label to the newest version, removing it from the most recent version.
 
 ### Adding a new language
 
@@ -168,4 +171,4 @@ cp -r src/pages/**.mdx i18n/fr/docusaurus-plugin-content-pages
 
 When a new version is cut, whatever documentation is present in a particular language's `current/` directory will be copied into the new version name's directory for each language.
 
-See more details [here](https://docusaurus.io/docs/i18n/tutorial).
+See more details [here](https://docusaurus.io/i18n/tutorial).
