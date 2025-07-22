@@ -27,7 +27,7 @@ You can select any number of fields in the table below to include in your file u
 
 If the data portal is being used to displaying a “snapshot” of your data stored in your local central database, the upload file MUST have a field that serves as the unique identifier for each incoming specimen record (dbpk). This field serves a link between the source record and the snapshot record within the portal. If the import is a CSV file, the first row must contain field names. Note that field names do not have to match the name used below, but there cannot be any characters ($#@&%) in the column names. If you have issues saving your import profile, your field names may be too long! Try shortening the field names in the CSV file.
 
-For more information about data fields, also see our [Symbiota Data Fields](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) page.
+For more information about data fields, also see our [Symbiota Data Fields](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) page.
 
 *Italic* = Darwin Core fields<br/>
 **Bold** = strongly encouraged fields, though none of the fields are technically required<br/>
@@ -42,7 +42,7 @@ For Darwin Core fields, click on the link in the "Name" column to see the DwC fi
 | Name | Type | Notes |
 |-|-|-|
 | associatedCollectors | Text (255) | All collectors except the primary collector, separated by commas or semicolons. |
-| [_associatedMedia_](https://dwc.tdwg.org/terms/#dwc:associatedMedia) | Text (255) | URL to media resources, delimited by commas or semicolons. More information about uploading links to media resources (e.g., images) can be found on [this page](/Collection_Manager_Guide/Images/media_upload_url). |
+| [_associatedMedia_](https://dwc.tdwg.org/terms/#dwc:associatedMedia) | Text (255) | URL to media resources, delimited by commas or semicolons. More information about uploading links to media resources (e.g., images) can be found on [this page](/docs/Collection_Manager_Guide/Images/media_upload_url). |
 | [_associatedSequences_](https://dwc.tdwg.org/terms/#dwc:associatedSequences) | Text (65,535) | **Note:** This field is not yet accessible in the occurrence editor.|
 | [_associatedTaxa_](https://dwc.tdwg.org/terms/#dwc:associatedTaxa) | Text (65,535) | Associated taxa delimited by commas or semicolons |
 | authorInfraspecific | Text | The authorship of the infraspecific epithet, if different than the authorship of the specific epithet. If you do not provide authorships, authorships will be automatically assigned according to the taxonomic thesaurus (if the name is found in the thesaurus). See also specify:subspecies_author,  specify:variety_author, and specify:forma_author.  |
@@ -100,7 +100,7 @@ For Darwin Core fields, click on the link in the "Name" column to see the DwC fi
 | [_identificationRemarks_](https://dwc.tdwg.org/terms/#dwc:identificationRemarks) | Text (2000) | |
 | [_identifiedBy_](https://dwc.tdwg.org/terms/#dwc:identifiedBy) | Text (255) | |
 | [_individualCount_](https://dwc.tdwg.org/terms/#dwc:individualCount) | Text (45) | |
-| [_informationWithheld_](https://dwc.tdwg.org/terms/#dwc:informationWithheld) | Text (250) | E.g., "coordinates not provided due to rare species". If a record's locality data are redacted using _localitySecurity_, the public version of this field will autopopulate a list field names that contain redacted data. More information [here](/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data). |
+| [_informationWithheld_](https://dwc.tdwg.org/terms/#dwc:informationWithheld) | Text (250) | E.g., "coordinates not provided due to rare species". If a record's locality data are redacted using _localitySecurity_, the public version of this field will autopopulate a list field names that contain redacted data. More information [here](/docs/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data). |
 | [_infraspecificEpithet_](https://dwc.tdwg.org/terms/#dwc:infraspecificEpithet) | Text (255) | |
 | [_institutionCode_](https://dwc.tdwg.org/terms/#dwc:institutionCode) | Text (32) | Populate only if different than source collection (i.e., the manager/metadata/) associated with your collection) |
 | [_island_](https://dwc.tdwg.org/terms/#dwc:island) | Text (75) | **Note:** This field is not yet accessible in the occurrence editor. |
@@ -117,7 +117,7 @@ For Darwin Core fields, click on the link in the "Name" column to see the DwC fi
 | \*lngMin | Decimal number  | Longitude minutes |
 | \*lngSec | Decimal number | Longitude seconds |
 | [**_locality_**](https://dwc.tdwg.org/terms/#dwc:locality) | Text (65,535) | |
-| localitySecurity | Integer | 0=don’t hide locality details from general public, 1=hide locality, coordinates, and images . For more information about redacting locality information, see [this page](/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data). |
+| localitySecurity | Integer | 0=don’t hide locality details from general public, 1=hide locality, coordinates, and images . For more information about redacting locality information, see [this page](/docs/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data). |
 | localitySecurityReason | Text (100) | Description of why a locality is hidden from public view. |
 | [_locationID_](https://dwc.tdwg.org/terms/#dwc:locationID) | Text (150) | |
 | [_locationRemarks_](https://dwc.tdwg.org/terms/#dwc:locationRemarks) | Text (65,535) |
@@ -133,9 +133,9 @@ For Darwin Core fields, click on the link in the "Name" column to see the DwC fi
 | [**_occurrenceId_**](https://dwc.tdwg.org/terms/#dwc:occurrenceID) | Text (255) | Occurrence Global Unique Identifier (GUID) |
 | [_occurrenceRemarks_](https://dwc.tdwg.org/terms/#dwc:occurrenceRemarks) | Text (65,535) | General notes or remarks about the occurrence/specimen. |
 | [_organismID_](https://dwc.tdwg.org/terms/#dwc:organismID) | | |
-| [_otherCatalogNumbers_](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers) | Text (255) | To take advantage of the [Tag Name + Identifier system](/Editor_Guide/Editing_Searching_Records/catalog_numbers) (in which you can tag an identifier/other catalog number with a specific title), enter the tag name followed by a colon and then the identifier value, e.g., "Old Accession Number: 12345". For multiple identifiers, separate the tag name + identifiers by semicolons, e.g., "NP #: 4321; Accession #: 9876" |
+| [_otherCatalogNumbers_](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers) | Text (255) | To take advantage of the [Tag Name + Identifier system](/docs/Editor_Guide/Editing_Searching_Records/catalog_numbers) (in which you can tag an identifier/other catalog number with a specific title), enter the tag name followed by a colon and then the identifier value, e.g., "Old Accession Number: 12345". For multiple identifiers, separate the tag name + identifiers by semicolons, e.g., "NP #: 4321; Accession #: 9876" |
 | [_ownerInstitutionCode_](https://dwc.tdwg.org/terms/#dwc:ownerInstitutionCode) | Text (32) | |
-| paleoJSON | Text (65,535) | A JSON-formatted field containing the data to be included in the Symbiota [paleo module](/Collection_Manager_Guide/paleo_data).  Documentation coming soon! |
+| paleoJSON | Text (65,535) | A JSON-formatted field containing the data to be included in the Symbiota [paleo module](/docs/Collection_Manager_Guide/paleo_data).  Documentation coming soon! |
 | [_parentLocationID_](https://dwc.tdwg.org/terms/#dwc:parentLocationID) | | **Note:** This field is not yet accessible in the occurrence editor. |
 | [_preparations_](https://dwc.tdwg.org/terms/#dwc:preparations) | Text (100) | |
 | processingStatus | | Processing status for digitization tasks. This field is not publicly accessible. |

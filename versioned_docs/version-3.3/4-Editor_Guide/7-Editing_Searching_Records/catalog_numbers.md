@@ -60,4 +60,4 @@ Just like when you conduct a search on the Other Catalog Numbers field, values e
 
 ### Duplicate Catalog and Other Catalog Numbers
 
-Collection administrators can identify and resolve duplicate catalog numbers or other catalog numbers using the [Data Cleaning Tools](/Collection_Manager_Guide/Data_Cleaning/compare_duplicate_ids).
+Collection administrators can identify and resolve duplicate catalog numbers or other catalog numbers using the [Data Cleaning Tools](/docs/Collection_Manager_Guide/Data_Cleaning/compare_duplicate_ids).

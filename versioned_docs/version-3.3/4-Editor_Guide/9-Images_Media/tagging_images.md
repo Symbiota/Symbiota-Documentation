@@ -1,7 +1,7 @@
 ---
 title: "Tagging Images/Media"
 date: 2021-12-13
-lastmod: 2025-01-31
+lastmod: 2025-07-15
 draft: false
 weight: 6
 authors: ["Katie Pearson"]
@@ -20,11 +20,11 @@ Occurrence media resources can be tagged with important metadata about what is c
 
 ![Media Resource Tags](/img/imagetags.png)
 
-To tag an media resource, navigate to the occurrence to which that media resource belongs (see [this page](/Editor_Guide/Editing_Searching_Records)). Then click the Media tab. Click the pencil icon next to the Taxonomic Name field and scroll down to the checklist of tags that you can add to the media resource. Click the Submit Resource Edits button when complete.
+To tag an media resource, navigate to the occurrence to which that media resource belongs (see [this page](/docs/Editor_Guide/Editing_Searching_Records)). Then click the Media tab. Click the pencil icon next to the Taxonomic Name field and scroll down to the checklist of tags that you can add to the media resource. Click the Submit Resource Edits button when complete.
 
 ### Batch tagging media resources
 
-1. Navigate to the Media Search interface in your portal. This is usually listed on main menu of your portal, potentially nested in an "Images" dropdown section. If you can't find it here, navigate to your Sitemap and click "Interactive Search Tool" under the Media Library header.
+1. Navigate to the Media Search interface in your portal. This is usually listed on main menu of your portal, potentially nested in a "Media" or "Images" dropdown section. If you can't find it here, navigate to your Sitemap and click "Interactive Search Tool" under the Media Library header.
 
 :::note
 

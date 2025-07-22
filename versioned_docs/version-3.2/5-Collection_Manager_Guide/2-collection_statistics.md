@@ -16,7 +16,7 @@ This page describes how you can find information about how many occurrences and 
 
 :::note
 
-Collection statistics are generated on command and are not created "on the fly". A collection administrator should periodically refresh collection statistics. Collection statistics are also automatically refreshed when a new [Darwin Core Archive is published/created](/Collection_Manager_Guide/Data_Publishing/creating_dwca).
+Collection statistics are generated on command and are not created "on the fly". A collection administrator should periodically refresh collection statistics. Collection statistics are also automatically refreshed when a new [Darwin Core Archive is published/created](/docs/Collection_Manager_Guide/Data_Publishing/creating_dwca).
 
 :::
 

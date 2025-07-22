@@ -24,7 +24,7 @@ In Symbiota portals, **associations** are defined as relationships between a rec
 
 Because some associations are with external resources, not all associations are relationships between two taxa. Associations may link records to publications, external websites, or other non-occurrence resources.
 
-Associations can be searched in the [public search form](/User_Guide/searching_records) of a portal under the "Associations" box.
+Associations can be searched in the [public search form](/docs/User_Guide/searching_records) of a portal under the "Associations" box.
 
 ![Associations Search](/img/associationssearch.png)
 

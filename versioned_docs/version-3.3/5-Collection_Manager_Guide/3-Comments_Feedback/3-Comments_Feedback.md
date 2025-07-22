@@ -15,8 +15,8 @@ import ReactPlayer from "react-player";
 Sourcing public feedback on your specimen occurrences is one way to improve the "cleanliness", or quality, of your data. Symbiota offers several tools to help you gather this information from anyone with a portal user account.
 :::
 
-- [Commenting](/Collection_Manager_Guide/Comments_Feedback/public_comments/)
-- [Public Edits](/Collection_Manager_Guide/Comments_Feedback/public_edits/)
+- [Commenting](/docs/Collection_Manager_Guide/Comments_Feedback/public_comments/)
+- [Public Edits](/docs/Collection_Manager_Guide/Comments_Feedback/public_edits/)
  
 ### Related Resources
   <ReactPlayer

@@ -1,7 +1,7 @@
 ---
 title: "Deleting Records"
 date: 2021-12-08
-lastmod: 2025-01-31
+lastmod: 2025-07-15
 draft: false
 weight: 60
 authors: ["Katie Pearson"]
@@ -25,9 +25,9 @@ Deleting a specimen record is only appropriate when that specimen no longer exis
 
 To delete a record:
 
-1. Navigate to the specimen record that you would like to delete and open the Occurrence Editor form for that record. (See [this page](/Editor_Guide/Editing_Searching_Records) for help navigating to specific records.)
+1. Navigate to the specimen record that you would like to delete and open the Occurrence Editor form for that record. (See [this page](/docs/Editor_Guide/Editing_Searching_Records) for help navigating to specific records.)
 2. Open the Admin tab.
-3. Select the “Evaluate record for deletion” button to determine whether the record can be safely deleted. If an media resource (e.g., image) is associated with the record, you will need to disassociate the resource from the specimen record before it can be deleted (see the [deleting/remapping images page](/Editor_Guide/Images_Media/deleting_transfering_images)). Likewise, a warning will appear if the specimen record is linked to a checklist, which must be resolved before the specimen record can be deleted. If there are no warnings at this point, click the "Delete Occurrence" button to remove the record from your dataset.
+3. Select the "Evaluate record for deletion" button to determine whether the record can be safely deleted. If a media resource (e.g., image) is associated with the record, you will need to disassociate the resource from the specimen record before it can be deleted (see the [deleting/remapping images page](/docs/Editor_Guide/Images_Media/deleting_transfering_images)). Likewise, a warning will appear if the specimen record is linked to a checklist, which must be resolved before the specimen record can be deleted. If there are no warnings at this point, click the "Delete Occurrence" button to remove the record from your dataset.
 
 ![Admin tab of the Occurrence Editor](/img/admintab_delete.png)
 

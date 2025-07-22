@@ -14,9 +14,9 @@ This page provides instructions on how to search for and edit records.
 
 :::
 
-- To batch edit records (only available to collection administrators), visit [this page](/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
-- For an overview of fields in the occurrence editor form, visit [this page](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
-- For an explanation of the record editor tabs, visit [this page](/Editor_Guide/Editing_Searching_Records/record_editor_tabs).
+- To batch edit records (only available to collection administrators), visit [this page](/docs/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
+- For an overview of fields in the occurrence editor form, visit [this page](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
+- For an explanation of the record editor tabs, visit [this page](/docs/Editor_Guide/Editing_Searching_Records/record_editor_tabs).
 
 To edit or search for records, select "Edit Existing Occurrence Records" from the Data Editor Control Panel (accessed via My Profile > Occurrence Management > name of collection). On the resulting Record Search Form, you can enter one or multiple search terms to customize your results.
 

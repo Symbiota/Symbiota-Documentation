@@ -1,7 +1,7 @@
 ---
 title: "Importing Determinations"
 date: 2023-10-31
-lastmod: 2024-06-06
+lastmod: 2025-07-15
 authors: ["Lindsay Walker"]
 editors: ["Katie Pearson"]
 weight: 40
@@ -10,7 +10,7 @@ keywords: ["data upload", "data import", "determinations", "annotations"]
 
 :::info
 
-This page provides instructions for bulk uploading specimen determinations/annotations and associating them with their respective specimen records. For instructions for adding individual determinations or the batch annotation tool, see [this page](/Editor_Guide/Editing_Searching_Records/annotations/). This tool can only be accessed by a superadministrator.
+This page provides instructions for bulk uploading specimen determinations/annotations and associating them with their respective specimen records. For instructions for adding individual determinations or the batch annotation tool, see [this page](/docs/Editor_Guide/Editing_Searching_Records/annotations/). This tool can only be accessed by a superadministrator.
 
 :::
 
@@ -49,13 +49,13 @@ For example:
 
 :::tip
 
-Refer to the [Symbiota Data Fields](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) and [Data Import Fields](/Collection_Manager_Guide/Importing_Uploading/data_import_fields) guides for more information about some of the fields listed below.
+Refer to the [Symbiota Data Fields](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) and [Data Import Fields](/docs/Collection_Manager_Guide/Importing_Uploading/data_import_fields) guides for more information about some of the fields listed below.
 
 :::
 
 :::tip
 
-Not all fields available through the Extended Data Importer for bulk determination ingestion are visible through the Occurrence Editor interface. However, once imported, these values can be exported, for example, through a [data backup](/Collection_Manager_Guide/Downloading/downloading_copy).
+Not all fields available through the Extended Data Importer for bulk determination ingestion are visible through the Occurrence Editor interface. However, once imported, these values can be exported, for example, through a [data backup](/docs/Collection_Manager_Guide/Downloading/downloading_copy).
 
 :::
 
@@ -74,9 +74,9 @@ Not all fields available through the Extended Data Importer for bulk determinati
 | isCurrent                                                                                             | Integer (2)        | Use the value "Y" to flag a determination as the most current. However, doing so will not override existing determinations that have already been flagged as the most current.                                                                                                                            |
 | printQueue                                                                                            | Integer (2)        | Use the value "1" to add a determination to the annotation print queue.                                                                                                                                                                                                                                   |
 | [**scientificNameAuthorship**](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship)              | Text (255)         | The name of the person who first named the taxon. If the scientific name provided is matched to one in the taxonomic thesaurus, this will be auto-filled according to the thesaurus entry.                                                                                                                |
-| sciname 🔸                                                                                            |                    | Taxonomic identification without authorship string. See [Data Import Fields](/Collection_Manager_Guide/Importing_Uploading/data_import_fields).                                                                                                                                                      |
-| securityStatus                                                                                        | Integer (11)       | Use the value "1" to [redact images and locality data](/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data) for the associated occurrence record; use "0" to keep all details visible. See [Symbiota Data Fields](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields). |
-| securityStatusReason                                                                                  | Text (100)         | Explanation for data redaction. See [Symbiota Data Fields](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).                                                                                                                                                                            |
+| sciname 🔸                                                                                            |                    | Taxonomic identification without authorship string. See [Data Import Fields](/docs/Collection_Manager_Guide/Importing_Uploading/data_import_fields).                                                                                                                                                      |
+| securityStatus                                                                                        | Integer (11)       | Use the value "1" to [redact images/media and locality data](/docs/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data) for the associated occurrence record; use "0" to keep all details visible. See [Symbiota Data Fields](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields). |
+| securityStatusReason                                                                                  | Text (100)         | Explanation for data redaction. See [Symbiota Data Fields](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).                                                                                                                                                                            |
 | sortSequence                                                                                          | Integer (10)       | Specifies the sequential sort order of multiple determinations on the determination history tab and in the public display. Low numbers will sort higher than high numbers.                                                                                                                                |
 | [**sourceIdentifier**](https://dwc.tdwg.org/terms/#dwc:identificationID)                              | Text (45)          | An identifier for the Identification (the body of information associated with the assignment of a scientific name). May be a global unique identifier or an identifier specific to the data set.                                                                                                          |
 | [**taxonConceptID**](https://dwc.tdwg.org/terms/#dwc:taxonConceptID)                                  | Text (45)          | An identifier for the taxonomic concept to which the determination refers.                                                                                                                                                                                                                                |

@@ -10,7 +10,7 @@ keywords:
 
 import ReactPlayer from "react-player";
 
-Optical Character Recognition (OCR) is the use of computer algorithms to detect text information from images. If OCR tools are activated in your Symbiota portal, you can use OCR to attempt to parse textual information from pictures of, e.g., specimen labels and enter data into the appropriate fields from there. Instructions for using batch OCR processes are provided below. For instructions for using OCR in the Occurrence editor, see the [OCR page in the Editor Guide](/Editor_Guide/Editing_Searching_Records/ocr).
+Optical Character Recognition (OCR) is the use of computer algorithms to detect text information from images. If OCR tools are activated in your Symbiota portal, you can use OCR to attempt to parse textual information from pictures of, e.g., specimen labels and enter data into the appropriate fields from there. Instructions for using batch OCR processes are provided below. For instructions for using OCR in the Occurrence editor, see the [OCR page in the Editor Guide](/docs/Editor_Guide/Editing_Searching_Records/ocr).
 
 ### Batch Generating OCR for Records in a Portal
 

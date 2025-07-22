@@ -22,17 +22,17 @@ import ReactPlayer from "react-player";
 
 :::info
 
-This page describes how to link single associated occurrences, checklists, duplicates, or genetic resources with occurrence records. For batch adding linked resources, see [this page](/Collection_Manager_Guide/Importing_Uploading). Note that you must be a collection administrator to use the batch upload tool.
+This page describes how to link single associated occurrences, checklists, duplicates, or genetic resources with occurrence records. For batch adding linked resources, see [this page](/docs/Collection_Manager_Guide/Importing_Uploading). Note that you must be a collection administrator to use the batch upload tool.
 
 :::
 
-To link an occurrence with an external (or internal) resource or record, navigate to that record's occurrence editor page (see [this page](/Editor_Guide/Editing_Searching_Records) for instructions) and click the Linked Resources tab.
+To link an occurrence with an external (or internal) resource or record, navigate to that record's occurrence editor page (see [this page](/docs/Editor_Guide/Editing_Searching_Records) for instructions) and click the Linked Resources tab.
 
 ![Linked Resources Tab](/img/linkedresourcestab.png)
 
 ## Linking Associations (External/Internal Resources or Occurrences)
 
-In the Associated Occurrences box of the Linked Resources tab, you can link an occurrence with a(n) (1) external resource (not another specimen or observation) or website ("[Non-Occurrence Resource Link](/Editor_Guide/linking_records#linking-to-an-external-non-occurrence-resource)"), (2) Internal Occurrence ("[Occurrence - Internal (this portal)](/Editor_Guide/linking_records#linking-to-a-record-within-the-same-portal)"), (3) occurrence in another portal or database ("[Occurrence - External Link](/Editor_Guide/linking_records#linking-to-a-record-in-a-different-portaldatabase)"), and/or (4) observational (non-vouchered) occurrence of a specific taxon ("[Taxon Observation](/Editor_Guide/linking_records#linking-to-an-observation-that-lacks-a-record-taxon-observation)").
+In the Associated Occurrences box of the Linked Resources tab, you can link an occurrence with a(n) (1) external resource (not another specimen or observation) or website ("[Non-Occurrence Resource Link](/docs/Editor_Guide/linking_records#linking-to-an-external-non-occurrence-resource)"), (2) Internal Occurrence ("[Occurrence - Internal (this portal)](/docs/Editor_Guide/linking_records#linking-to-a-record-within-the-same-portal)"), (3) occurrence in another portal or database ("[Occurrence - External Link](/docs/Editor_Guide/linking_records#linking-to-a-record-in-a-different-portaldatabase)"), and/or (4) observational (non-vouchered) occurrence of a specific taxon ("[Taxon Observation](/docs/Editor_Guide/linking_records#linking-to-an-observation-that-lacks-a-record-taxon-observation)").
 
 ### Linking to an external (non-occurrence) resource
 
@@ -74,7 +74,7 @@ You can click the underlined portion of the occurrence search results to view th
 
 **Occurrence - External Link:** a link to an occurrence (specimen/observation) that is available in another data portal / database (e.g., another Symbiota portal, GBIF, Arctos, etc.).
 
-1. Complete the same steps 1-7 from "[Occurrence - Internal](/Editor_Guide/linking_records#linking-to-a-record-within-the-same-portal)", as applicable, but select "Occurrence - External Link" from the **Association Type** dropdown menu.
+1. Complete the same steps 1-7 from "[Occurrence - Internal](/docs/Editor_Guide/linking_records#linking-to-a-record-within-the-same-portal)", as applicable, but select "Occurrence - External Link" from the **Association Type** dropdown menu.
 2. In the **Resource URL** field, enter the URL/link to the external resource that you would like to link to your occurrence. For example, here is a URL for a records from the Bryophyte Portal that could be entered: [https://bryophyteportal.org/portal/collections/individual/index.php?occid=4595185](https://bryophyteportal.org/portal/collections/individual/index.php?occid=4595185).
 3. (Optional) In the **Additional Identifier of Object** field, enter any unique identifier that belongs to the occurrence object that you are linking to your occurrence subject.
 4. (Optional) In the **Verbatim Scientific Name** field, enter the name of the taxon represented by your external resource that you would like to link to your occurrence.
@@ -84,7 +84,7 @@ You can click the underlined portion of the occurrence search results to view th
 
 **Taxon Observation:** the assertion of a taxon being associated with the occurrence you are linking to. This may be, for example, the host taxon of the occurrence, a parasite, a taxon sharing the same habitat, etc.
 
-1. Complete the same steps 1-7 from "[Occurrence - Internal](/Editor_Guide/linking_records#linking-to-a-record-within-the-same-portal)", as applicable, but select "Taxon Observation" from the **Association Type** dropdown menu.
+1. Complete the same steps 1-7 from "[Occurrence - Internal](/docs/Editor_Guide/linking_records#linking-to-a-record-within-the-same-portal)", as applicable, but select "Taxon Observation" from the **Association Type** dropdown menu.
 2. In the **Verbatim Scientific Name** field, enter the name of the taxon that you would like to link to your occurrence.
 3. Click the Create Association button.
 
@@ -94,7 +94,7 @@ You can click the underlined portion of the occurrence search results to view th
 
 :::tip
 
-To batch link vouchers to a checklist, see the [Adding Vouchers to Checklist page](/User_Guide/Checklists/adding_vouchers).
+To batch link vouchers to a checklist, see the [Adding Vouchers to Checklist page](/docs/User_Guide/Checklists/adding_vouchers).
 
 :::
 
@@ -104,11 +104,11 @@ There are several ways to link an occurrence to duplicate specimens. You can:
 
 - In the Linked Resource tab of the occurrence editor, click the Search for Records to Link button in the **Specimen Duplicates** box. This will open a search window that you can use to identify and link duplicate specimens. You can search according to collector name, collector number, date, catalog number, or occid (SymbiotaID) using this tool.
 - In the main Occurrence Data tab of the occurrence editor, click the Duplicates button. This will search the portal for occurrences with the same collector last name, number, and date. If a potential identical duplicate is identified, you can check the box next to Link as Duplicate, then click Transfer All Fields or Transfer to Empty Fields Only to initiate the link. This will also transfer any data from that duplicate into your specimen record. Newly transferred data will be highlighted in blue.
-- Batch link records to their duplicates using the [Duplicate Clustering tool](/Collection_Manager_Guide/duplicate_clustering).
+- Batch link records to their duplicates using the [Duplicate Clustering tool](/docs/Collection_Manager_Guide/duplicate_clustering).
 
 ## Linking to Genetic Resources and Sequences
 
-- In the **Genetic Resources** box of the Linked Resources tab, enter information about the genetic sequence associated with your occurrence in the provided fields. Be sure to provide a URL to the sequence. Here is an example of an acceptable URL from GenBank: [`https://www.ncbi.nlm.nih.gov/nuccore/BV165924.1`](https://www.ncbi.nlm.nih.gov/nuccore/BV165924.1). In addition to adding these links one-by-one through the Linked Resources tab, genetic data can also be associated with specimen records in batch by mapping these URLs to _associatedSequences_ as a [bulk data upload](/Collection_Manager_Guide/Importing_Uploading).
+- In the **Genetic Resources** box of the Linked Resources tab, enter information about the genetic sequence associated with your occurrence in the provided fields. Be sure to provide a URL to the sequence. Here is an example of an acceptable URL from GenBank: [`https://www.ncbi.nlm.nih.gov/nuccore/BV165924.1`](https://www.ncbi.nlm.nih.gov/nuccore/BV165924.1). In addition to adding these links one-by-one through the Linked Resources tab, genetic data can also be associated with specimen records in batch by mapping these URLs to _associatedSequences_ as a [bulk data upload](/docs/Collection_Manager_Guide/Importing_Uploading).
 
 <ReactPlayer
   playing={false}

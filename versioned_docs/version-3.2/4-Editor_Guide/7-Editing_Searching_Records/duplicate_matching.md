@@ -18,7 +18,7 @@ The Duplicate Matching tool allows the user to search the entire database (i.e.,
 
 ### Searching for duplicates
 
-1. [Search for and open a record](/Editor_Guide/Editing_Searching_Records) that you wish to edit, or [add a new record](/Editor_Guide/Adding_Records/adding_full_records).
+1. [Search for and open a record](/docs/Editor_Guide/Editing_Searching_Records) that you wish to edit, or [add a new record](/docs/Editor_Guide/Adding_Records/adding_full_records).
 2. Enter the name of the collector/observer into the Collector/Observer field, the collector's unique collector number (if applicable) into the Number field, and the date of collection into the Date field (in YYYY-MM-DD format).
 3. Click the "Duplicates" button.
 
@@ -59,7 +59,7 @@ Transfer the data from all fields in the identified duplicate specimen or event 
 
 #### Link as Duplicate
 
-Checking this box and then clicking one of the additional options will create a duplicate linkage between the record you are editing and the duplicate record. For more information about duplicate linkages, visit the [Duplicate Clustering](/Collection_Manager_Guide/duplicate_clustering) documentation.
+Checking this box and then clicking one of the additional options will create a duplicate linkage between the record you are editing and the duplicate record. For more information about duplicate linkages, visit the [Duplicate Clustering](/docs/Collection_Manager_Guide/duplicate_clustering) documentation.
 
 #### Go to Record
 

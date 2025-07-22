@@ -12,7 +12,7 @@ import ReactPlayer from "react-player";
 
 :::info
 
-Esta página describe cómo usar las dos herramientas de limpieza taxonómica en los portales Symbiota. Para más información acerca del tesauro taxonómico, visite la página [Taxonomy](/User_Guide/taxonomic_thesaurus).
+Esta página describe cómo usar las dos herramientas de limpieza taxonómica en los portales Symbiota. Para más información acerca del tesauro taxonómico, visite la página [Taxonomy](/docs/User_Guide/taxonomic_thesaurus).
 
 :::
 

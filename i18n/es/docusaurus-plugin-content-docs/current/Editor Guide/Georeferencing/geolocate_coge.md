@@ -12,4 +12,4 @@ La herramienta de Georreferenciación Colaborativa de GEOLocate (CoGe) puede ser
 
 Un curso de entrenamiento de georreferenciación usando el CoGe de GEOLocate puede ser encontrado aquí: [GEOLocate CoGe Training Course](https://www.capturingcaliforniasflowers.org/georeferencingcourse-coge.html), and a written protocol can be found here: [GEOLocate CoGe Protocol](https://www.capturingcaliforniasflowers.org/uploads/1/6/3/7/16372936/georeferencingincoge.docx).
 
-Para intrucciones de cómo enviar especímenes de su colección a CoGe, visite la [página de CoGe para encargados de colecciones](/Collection_Manager_Guide/Georeferencing/collaborative_georeferencing).
+Para intrucciones de cómo enviar especímenes de su colección a CoGe, visite la [página de CoGe para encargados de colecciones](/docs/Collection_Manager_Guide/Georeferencing/collaborative_georeferencing).
