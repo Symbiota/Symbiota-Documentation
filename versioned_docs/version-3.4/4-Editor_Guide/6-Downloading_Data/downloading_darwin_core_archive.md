@@ -1,5 +1,5 @@
 ---
-title: "Downloading a Darwin Core Archive"
+title: "Downloading a Full Darwin Core Archive"
 date: 2021-10-07
 lastmod:  2021-10-07
 authors: ["Katie Pearson"]

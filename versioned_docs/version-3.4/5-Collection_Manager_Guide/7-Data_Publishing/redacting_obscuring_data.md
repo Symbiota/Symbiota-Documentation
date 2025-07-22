@@ -64,7 +64,7 @@ The locality data can be redacted for individual occurrences by checking the _Se
 
 ### Batch redacting locality data for certain occurrences
 
-If you wish to batch redact data, you can download a CSV file of all the specimen records you wish to redact using the [Exporter tool](/docs/Collection_Manager_Guide/Downloading/downloading_subset), then add a column called "LocalitySecurity". Enter "1" in this column for all specimens for which you wish to redact data (conversely, you would enter "0" to keep the data publicly visible, or leave this field blank). Use the [Skeletal File Uploader](/docs/Collection_Manager_Guide/Importing_Uploading/#file-upload-or-skeletal-file-upload) to upload this spreadsheet into the portal, mapping the new column to _localitySecurity_. You may need to ask your portal manager to clear out any existing values in this field before importing via the Skeletal File Uploader.
+If you wish to batch redact data, you can download a CSV file of all the specimen records you wish to redact from the [Record Search Form](/docs/Collection_Manager_Guide/Downloading/downloading_subset), then add a column called "LocalitySecurity". Enter "1" in this column for all specimens for which you wish to redact data (conversely, you would enter "0" to keep the data publicly visible, or leave this field blank). Use the [Skeletal File Uploader](/docs/Collection_Manager_Guide/Importing_Uploading/#file-upload-or-skeletal-file-upload) to upload this spreadsheet into the portal, mapping the new column to _localitySecurity_. You may need to ask your portal manager to clear out any existing values in this field before importing via the Skeletal File Uploader.
 
 ### Globally redacting locality data for certain taxa
 

@@ -115,13 +115,13 @@ In step 3, enter 0001-01-01 in the first Collection Date field (or the Collectio
 
 **Problem:** The date the specimen was identified (dateIdentified field) is earlier than the date the specimen was collected (eventDate).
 
-**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/docs/User_Guide/Downloading/download_data), as a [backup file](/docs/Collection_Manager_Guide/Downloading/downloading_copy), or using the [exporter tool](/docs/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the dateIdentified to the eventDate field (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Identified_Date_Earlier_than_Collected_Date)).
+**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/docs/User_Guide/Downloading/download_data), as a [backup file](/docs/Collection_Manager_Guide/Downloading/downloading_copy), or [export from the Record Search Form](/docs/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the dateIdentified to the eventDate field (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Identified_Date_Earlier_than_Collected_Date)).
 
 #### Year, Month, and Day Values Do Not Match Date
 
 **Problem:** The event [year](https://dwc.tdwg.org/terms/#dwc:year), [month](https://dwc.tdwg.org/terms/#dwc:month), and [day](https://dwc.tdwg.org/terms/#dwc:day) values do not match the provided [event date](https://dwc.tdwg.org/terms/#dwc:eventDate). The event date is often the date of collection for preserved specimens.
 
-**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/docs/User_Guide/Downloading/download_data), as a [backup file](/docs/Collection_Manager_Guide/Downloading/downloading_copy), or using the [exporter tool](/docs/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the dateIdentified to the eventDate field (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Year,_Month,_and_Day_Values_Do_Not_Match_Date)).
+**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/docs/User_Guide/Downloading/download_data), as a [backup file](/docs/Collection_Manager_Guide/Downloading/downloading_copy), or [export from the Record Search Form](/docs/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the dateIdentified to the eventDate field (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Year,_Month,_and_Day_Values_Do_Not_Match_Date)).
 
 ### Geography
 
@@ -202,13 +202,13 @@ Click the box and arrow icon to the right of the Symbiota ID number to open the 
 
 **Problem:** The minimum elevation ([minimumElevationInMeters](https://dwc.tdwg.org/terms/#dwc:minimumElevationInMeters)) has a greater value than the maximum elevation ([maximumElevationInMeters](https://dwc.tdwg.org/terms/#dwc:maximumElevationInMeters)).
 
-**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/docs/User_Guide/Downloading/download_data), as a [backup file](/docs/Collection_Manager_Guide/Downloading/downloading_copy), or using the [exporter tool](/docs/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the minimumElevationInMeters to the maximumElevationInMeters field.
+**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/docs/User_Guide/Downloading/download_data), as a [backup file](/docs/Collection_Manager_Guide/Downloading/downloading_copy), or [export from the Record Search Form](/docs/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the minimumElevationInMeters to the maximumElevationInMeters field.
 
 #### Mismatched Country and CountryCode Values
 
 **Problem:** The provided value for country and countryCode do not match.
 
-**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/docs/User_Guide/Downloading/download_data), as a [backup file](/docs/Collection_Manager_Guide/Downloading/downloading_copy), or using the [exporter tool](/docs/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the unique combinations of country and countryCode to look for deviations (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Mismatched_Country_and_CountryCode_Values)).
+**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](/docs/User_Guide/Downloading/download_data), as a [backup file](/docs/Collection_Manager_Guide/Downloading/downloading_copy), or [export from the Record Search Form](/docs/Collection_Manager_Guide/Downloading/downloading_subset). You can then use a spreadsheet program to compare the unique combinations of country and countryCode to look for deviations (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Mismatched_Country_and_CountryCode_Values)).
 
 #### Missing Geodetic Datum
 
