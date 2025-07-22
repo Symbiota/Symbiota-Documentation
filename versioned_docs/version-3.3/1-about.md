@@ -6,7 +6,7 @@ title: Home (About)
 # Welcome to Symbiota Docs!
 
 :::info
-**[Symbiota](https://symbiota.org/)** is an open-source software for managing and mobilizing biodiversity data that serves over 2,000 natural history collections and over 95 million occurrence (specimen or observation) records. Visit **[Symbiota.org](https://symbiota.org/)** to learn more. The central code for this version of Symbiota can be found in [GitHub](https://github.com/Symbiota/Symbiota).
+Hey **[Symbiota](https://symbiota.org/)** is an open-source software for managing and mobilizing biodiversity data that serves over 2,000 natural history collections and over 95 million occurrence (specimen or observation) records. Visit **[Symbiota.org](https://symbiota.org/)** to learn more. The central code for this version of Symbiota can be found in [GitHub](https://github.com/Symbiota/Symbiota).
 :::
 
 **[Symbiota Docs](https://symbiota.org/docs)** is a central repository for documentation regarding Symbiota-based data portals. This site is maintained by the Symbiota Support Hub, but all Symbiota users may contribute. [Contact Us](https://symbiota.org/contact-the-support-hub/) to contribute or provide feedback on this site.

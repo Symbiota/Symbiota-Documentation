@@ -5,6 +5,7 @@ authors: ["Katie Pearson"]
 draft: false
 weight: 111
 keywords: ["thesaurus","scientific names","taxonomy"]
+sidebar_position: 3
 ---
 
 :::info

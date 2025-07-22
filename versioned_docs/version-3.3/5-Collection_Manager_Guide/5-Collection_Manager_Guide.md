@@ -2,6 +2,7 @@
 title: 'Collection Manager Guide'
 date: 2025-04-29
 weight: 1
+sidebar_position: 3
 ---
 
 #### Welcome to the Collection Manager Guide!

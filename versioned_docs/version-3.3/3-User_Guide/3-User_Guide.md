@@ -4,6 +4,7 @@ date: 2021-10-08
 weight: 1
 description: 'Learn to access, view, and download data and checklists.'
 type: 'docs'
+sidebar_position: 2
 ---
 
 #### Welcome to the User Guide!

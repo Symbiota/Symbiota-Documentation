@@ -4,6 +4,7 @@ date: 2021-10-06
 lastmod: 2021-10-06
 weight: 2
 authors: ["Katie Pearson","Laura Rocha Prado"]
+sidebar_position: 1
 ---
 
 #### Welcome to the Editor Guide!

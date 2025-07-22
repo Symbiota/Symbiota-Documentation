@@ -5,6 +5,7 @@ authors: ["Katie Pearson"]
 draft: false
 weight: 29
 keywords: ["password", "profile"]
+sidebar_position: 1
 ---
 
 To change your password, username, or any other personal information in a Symbiota portal:

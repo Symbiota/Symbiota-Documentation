@@ -6,6 +6,7 @@ translators: ["Samanta Orellana"]
 draft: false
 weight: 100
 keywords: ["búsqueda", "especímenes", "observaciones"]
+sidebar_position: 2
 ---
 
 Los portales Symbiota contienen datos de especímenes y observaciones con enfoques regionales y taxonómicos. Para buscar y ver estos datos, puede usar una de las herramientas descritas abajo.

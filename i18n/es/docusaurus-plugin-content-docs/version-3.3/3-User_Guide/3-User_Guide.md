@@ -3,6 +3,7 @@ title: 'Guía del Usuario'
 date: 2021-10-08
 lastmod: 2025-06-23
 weight: 1
+sidebar_position: 1
 ---
 
 #### ¡Bienvenido a la Guía del Usuario!

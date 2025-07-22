@@ -6,6 +6,7 @@ authors: ["Ed Gilbert","Katie Pearson"]
 editors: ["Lindsay Walker"]
 draft: false
 keywords: ["rare species","redacted data","protected data","protected species"]
+sidebar_position: 4
 ---
 
 Some collections redact location information data (latitude/longitude and locality description) for certain specimens from the general public. Individual specimens may have redacted location data because (a) the location is confidential (e.g., private or protected property), or (b) the taxon of the species is rare, threatened, endangered, or otherwise imperiled. Which taxa are selected for data redaction depends on the data portal, since some taxa are rare in certain places, but not in others.

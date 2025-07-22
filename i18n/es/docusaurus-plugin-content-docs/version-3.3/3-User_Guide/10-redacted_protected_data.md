@@ -7,6 +7,7 @@ draft: false
 weight: 80
 keywords:
   ["especies raras", "datos ocultos", "datos protegidos", "especies protegidas"]
+sidebar_position: 3
 ---
 
 Algunas colecciones ocultan información de datos de localidad (latitud/longitud y descripción de la localidad) de ciertos especímenes para el público en general. Especímenes individuales pueden tener datos de localidad ocultos porque (a) la localidad es confidencial (e.g., propiedad privada o protegida), o (b) la especie es rara especie es rara, amenazada, o en peligro de alguna manera. Cuales taxa están seleccionados para poseer datos ocultos, depende del portal, ya que algunos taxa son raros en algunos lugares, pero no en otros.

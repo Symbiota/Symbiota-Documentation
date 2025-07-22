@@ -4,6 +4,7 @@ date: 2021-10-06
 lastmod: 2025-06-23
 weight: 2
 authors: ["Katie Pearson"]
+sidebar_position: 3
 ---
 
 #### ¡Bienvenido a la Guía del Editor!

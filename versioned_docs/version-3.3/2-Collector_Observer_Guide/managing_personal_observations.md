@@ -5,6 +5,8 @@ weight: 3
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["transfer","export"]
+sidebar_position: 2
+sidebar_class_name: green
 ---
 :::note
 

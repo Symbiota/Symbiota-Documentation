@@ -6,6 +6,7 @@ translators: ["Samanta Orellana"]
 draft: false
 weight: 111
 keywords: ["tesauro", "nombres científicos", "taxonomía"]
+sidebar_position: 1
 ---
 
 :::info

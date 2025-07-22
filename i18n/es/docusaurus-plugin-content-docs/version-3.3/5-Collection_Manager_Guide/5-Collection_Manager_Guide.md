@@ -3,6 +3,7 @@ title: 'Guía del Administrador de Colecciones'
 date: 2025-04-29
 lastmod: 2025-06-23
 weight: 1
+sidebar_position: 2
 ---
 
 #### ¡Bienvenido a la Guía del Administrador de Colecciones!

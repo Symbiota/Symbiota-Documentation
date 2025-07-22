@@ -6,6 +6,7 @@ translators: ["Samanta Orellana"]
 draft: false
 weight: 29
 keywords: ["contraseña", "perfil"]
+sidebar_position: 5
 ---
 
 Para cambiar su contraseña, usuario, o alguna otra información personal en un portal Symbiota:
