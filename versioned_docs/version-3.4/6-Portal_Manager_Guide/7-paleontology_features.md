@@ -2,6 +2,7 @@
 title: "Paleontology Features"
 date: 2025-07-22
 lastmod: 2025-07-22
+authors: ["Lindsay Walker"]
 draft: false
 weight: 50
 keywords: ["paleontology", "fossil", "geological context", "configuration"]
@@ -31,7 +32,7 @@ All [paleontology-related fields](/docs/Editor_Guide/Editing_Searching_Records/s
 ### Basis of Record
 **All occurrence records that represent fossil specimens must be cataloged such that _[Basis of Record](https://dwc.tdwg.org/terms/#dwc:basisOfRecord)_ = `Fossil Specimen`**. Thus, for portals where the full suite of paleontology data management features are activated, `FossilSpecimen` will become the default setting for _Dataset Type_ when a new Collections Profile is created. In turn, all new occurrence records that are cataloged into a Collection Profile where _Dataset Type_ = `Fossil Specimens`, all records will contain _Basis of Record_ = `FossilSpecimen`. A Portal Manager can manually change this value to `PreservedSpecimen` on a per-collection basis through the Metadata Editor if necessary/appropriate.
 
-:::danger  
+:::warning  
 Portal Managers should take care to ensure that _Dataset Type_ is appropriately configured when creating new Collection Profiles. Further, a given Collection Profile should **only** be used for cataloging extant OR extinct (fossil) specimen occurrences; **in other words, do not commingle catalog records with variable _Basis of Record_ values in the same Collection Profile**.
 :::
 
