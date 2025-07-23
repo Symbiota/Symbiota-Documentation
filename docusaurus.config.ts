@@ -51,7 +51,7 @@ const config: Config = {
           customCss: "./src/css/custom.css",
         },
         gtag: {
-          trackingID: "G-BH1RW5WQB6",
+          trackingID: 'G-BH1RW5WQB6',
           anonymizeIP: true,
         },
       } satisfies Preset.Options,
@@ -130,9 +130,13 @@ const config: Config = {
           label: "Versions",
           position: "left",
           items: [
+              {
+              label: "3.4 (Latest)",
+              to: "docs/about",
+            },
             {
-              label: "3.3 (Latest)",
-              to: "/",
+              label: "3.3",
+              to: "docs/3.3/about",
             },
             {
               label: "3.2",
