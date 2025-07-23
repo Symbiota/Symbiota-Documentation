@@ -22,12 +22,12 @@ A suite of features has been developed to facilitate the management and mobiliza
 ## Data management
 
 ### Paleo Module  
-The “Paleo Module” contains [Darwin Core-compliant](https://dwc.tdwg.org/terms/#geologicalcontext) and [Symbiota-specific](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields/#paleontology) data fields. The mechanics of entering geologic time-related data into this module is described in the Editor guide.
+The “Paleo Module” contains [Darwin Core-compliant](https://dwc.tdwg.org/terms/#geologicalcontext) and [Symbiota-specific](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields/#paleontology) data fields. The mechanics of entering geologic time-related data into this module is described in the Editor guide.
 
 ![Paleo Module](/img/portalmanager_paleomodule2025.png)
 
 ### Data Upload Module
-All [paleontology-related fields](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields/#paleontology) can be bulk ingested using the [Data Upload Module](/docs/Collection_Manager_Guide/Importing_Uploading/), e.g. from a spreadsheet or an IPT. Refer to the [data import field](/docs/Collection_Manager_Guide/Importing_Uploading/data_import_fields) documentation for more information about data formatting requirements and specific data types (text, integer, etc.) that can be ingested into each one. Data loaded into the Upload Module destined for the Paleo Module can be previewed in the user interface as well as in the `uploadspectemp` table.
+All [paleontology-related fields](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields/#paleontology) can be bulk ingested using the [Data Upload Module](/Collection_Manager_Guide/Importing_Uploading/), e.g. from a spreadsheet or an IPT. Refer to the [data import field](/Collection_Manager_Guide/Importing_Uploading/data_import_fields) documentation for more information about data formatting requirements and specific data types (text, integer, etc.) that can be ingested into each one. Data loaded into the Upload Module destined for the Paleo Module can be previewed in the user interface as well as in the `uploadspectemp` table.
 
 ### Basis of Record
 **All occurrence records that represent fossil specimens must be cataloged such that _[Basis of Record](https://dwc.tdwg.org/terms/#dwc:basisOfRecord)_ = `Fossil Specimen`**. Thus, for portals where the full suite of paleontology data management features are activated, `FossilSpecimen` will become the default setting for _Dataset Type_ when a new Collections Profile is created. In turn, all new occurrence records that are cataloged into a Collection Profile where _Dataset Type_ = `Fossil Specimens`, all records will contain _Basis of Record_ = `FossilSpecimen`. A Portal Manager can manually change this value to `PreservedSpecimen` on a per-collection basis through the Metadata Editor if necessary/appropriate.
@@ -37,7 +37,7 @@ Portal Managers should take care to ensure that _Dataset Type_ is appropriately 
 :::
 
 ### Data Editor search form
-All [paleontology-related fields](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields/#paleontology) can be queried using the Data Editor search form (accessible from the _Data Editor Control Panel > Edit Existing Occurrence Records_). Paleontology fields that are visible in the Data Editor search form’s table view can also be edited using the associated [Batch Update tool](/docs/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
+All [paleontology-related fields](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields/#paleontology) can be queried using the Data Editor search form (accessible from the _Data Editor Control Panel > Edit Existing Occurrence Records_). Paleontology fields that are visible in the Data Editor search form’s table view can also be edited using the associated [Batch Update tool](/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
 
 
 ## Data discoverability
@@ -52,12 +52,12 @@ Public query results can be viewed and sorted in List or Table view, and several
 
 ![Public Query Results](/img/portalmanager_paleosearchlistview.png)
 
-[Paleontology-related fields](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields/#paleontology) will be visible through the Public Display for individual records under the heading, “GEOLOGICAL CONTEXT”, and values entered for _[Element](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#element)_ will display directly above this section. For example:
+[Paleontology-related fields](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields/#paleontology) will be visible through the Public Display for individual records under the heading, “GEOLOGICAL CONTEXT”, and values entered for _[Element](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#element)_ will display directly above this section. For example:
 
 ![Public Record View](/img/portalmanager_paleopublicrecordview.png)
 
 ## Data export and publishing
-Data from all [paleontology-related fields](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields/#paleontology) can be exported to [backup data files](/docs/Collection_Manager_Guide/Downloading/downloading_copy) by Collection Administrators, but only [Darwin Core-compliant fields](https://dwc.tdwg.org/terms/#geologicalcontext) will be exported and published to Darwin Core Archives. 
+Data from all [paleontology-related fields](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields/#paleontology) can be exported to [backup data files](/Collection_Manager_Guide/Downloading/downloading_copy) by Collection Administrators, but only [Darwin Core-compliant fields](https://dwc.tdwg.org/terms/#geologicalcontext) will be exported and published to Darwin Core Archives. 
 
 ## Geologic map layer
 All mapping interfaces will display a geologic map layer made available using the [Macrostrat API](https://macrostrat.org/#api).
@@ -73,7 +73,7 @@ Similar to how a portal’s Taxonomic Thesaurus helps standardize higher taxonom
 ![Public Record View](/img/portalmanager_paleomodule2025earlylate.png)
 
 ### Taxon environment
-An additional controlled vocabulary exists for the field, _[Taxon Environment](/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#taxon-environment)_. Values for this vocabulary are currently hard-coded into Symbiota and cannot be modified using the table, `ctcontrolvocabterm`.
+An additional controlled vocabulary exists for the field, _[Taxon Environment](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#taxon-environment)_. Values for this vocabulary are currently hard-coded into Symbiota and cannot be modified using the table, `ctcontrolvocabterm`.
 
 ## Feature activation
 ### Whole portal configuration
@@ -84,7 +84,7 @@ For portals that are primarily used to maintain recent biological specimen data,
 :::
 
 ### Paleo Module activation per collection
-The [Paleo Module](#paleo-module) can be activated on a per-collection basis (i.e., without activating all other paleo features in the portal) by a Portal Manager with backend database access as follows: `omcollections`: _dynamicProperties_ = `{"editorProps":{"modules-panel":[{"paleo":{"status":1}}]}}`. If this module is activated on a per-collection basis, **functionality will be limited** to the visibility of this module on the Occurrence Editor form, and only for Collections Profiles where it has been activated; however, data entered into this module can only be accessed (queried, downloaded, etc.) by downloading a [backup data file](/docs/Collection_Manager_Guide/Downloading/downloading_copy) (a function only available to users with Administrator permissions). Activation of this module on a per-collection basis will enable data publishing.
+The [Paleo Module](#paleo-module) can be activated on a per-collection basis (i.e., without activating all other paleo features in the portal) by a Portal Manager with backend database access as follows: `omcollections`: _dynamicProperties_ = `{"editorProps":{"modules-panel":[{"paleo":{"status":1}}]}}`. If this module is activated on a per-collection basis, **functionality will be limited** to the visibility of this module on the Occurrence Editor form, and only for Collections Profiles where it has been activated; however, data entered into this module can only be accessed (queried, downloaded, etc.) by downloading a [backup data file](/Collection_Manager_Guide/Downloading/downloading_copy) (a function only available to users with Administrator permissions). Activation of this module on a per-collection basis will enable data publishing.
 
 # Acknowledgments 
 Tools for aggregating fossil specimen data using Symbiota were initially developed as part of NSF Award [#1802504](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1802504). These features were subsequently enhanced and expanded to include support for active (live) management and publishing of fossil specimen data as collaboration between the Symbiota Support Hub, the US National Museum of Natural History, and University of Colorado at Boulder (NSF Awards [#2324688](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2324688), [#2324689](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2324689), and [#2324690](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2324690)/[2525603](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2525603)).
