@@ -42,7 +42,7 @@ The complete list of fields that are redacted when locality security is applied 
 
 :::tip
 
-Users with Administrator permissions can grant or remove access to their collections data through the Administation Control Panel. [Learn how here](/docs/Collection_Manager_Guide/user_permissions).
+Users with Administrator permissions can grant or remove access to their collections data through the Administation Control Panel. [Learn how here](/Collection_Manager_Guide/user_permissions).
 
 :::
 
@@ -64,7 +64,7 @@ The locality data can be redacted for individual occurrences by checking the _Se
 
 ### Batch redacting locality data for certain occurrences
 
-If you wish to batch redact data, you can download a CSV file of all the specimen records you wish to redact using the [Exporter tool](/docs/Collection_Manager_Guide/Downloading/downloading_subset), then add a column called "LocalitySecurity". Enter "1" in this column for all specimens for which you wish to redact data (conversely, you would enter "0" to keep the data publicly visible, or leave this field blank). Use the [Skeletal File Uploader](/docs/Collection_Manager_Guide/Importing_Uploading/#file-upload-or-skeletal-file-upload) to upload this spreadsheet into the portal, mapping the new column to _localitySecurity_. You may need to ask your portal manager to clear out any existing values in this field before importing via the Skeletal File Uploader.
+If you wish to batch redact data, you can download a CSV file of all the specimen records you wish to redact using the [Exporter tool](/Collection_Manager_Guide/Downloading/downloading_subset), then add a column called "LocalitySecurity". Enter "1" in this column for all specimens for which you wish to redact data (conversely, you would enter "0" to keep the data publicly visible, or leave this field blank). Use the [Skeletal File Uploader](/Collection_Manager_Guide/Importing_Uploading/#file-upload-or-skeletal-file-upload) to upload this spreadsheet into the portal, mapping the new column to _localitySecurity_. You may need to ask your portal manager to clear out any existing values in this field before importing via the Skeletal File Uploader.
 
 ### Globally redacting locality data for certain taxa
 
@@ -98,13 +98,13 @@ Keep in mind that the _Security_ field must contain a value of "1" for your data
    - Checklist editors do not need Rare Species Administrator or any other special editing rights to manage the list
 3. Checklist editors add species needing protection using the normal checklist editing tools.
 
-   - See [checklist tutorials](/docs/User_Guide/Checklists/) for help creating and managing checklists.
+   - See [checklist tutorials](/User_Guide/Checklists/) for help creating and managing checklists.
 
    ![Checklist Example](/img/checklist_protected.png)
 
 ## How users can request access to redacted data
 
-Individuals who require access to redacted data for legitimate reasons are encouraged to [directly reach out](/docs/User_Guide/Providing_Feedback/contacting_collection) to the contact(s) listed on collections profiles to acquire data access. However, if the request is complex and requires contacting numerous collections, individuals can contact the Symbiota Support Hub for assistance in reaching out to the relevant collections. Please keep your [collection's contact information](/docs/Collection_Manager_Guide/editing_collection_metadata#collection-contacts) up to date so that portal users and the Support Hub can contact you about these requests. It is also recommended that you add hub@symbiota.org to your own contacts so these messages are not blocked by an institutional firewall or routed to spam.
+Individuals who require access to redacted data for legitimate reasons are encouraged to [directly reach out](/User_Guide/Providing_Feedback/contacting_collection) to the contact(s) listed on collections profiles to acquire data access. However, if the request is complex and requires contacting numerous collections, individuals can contact the Symbiota Support Hub for assistance in reaching out to the relevant collections. Please keep your [collection's contact information](/Collection_Manager_Guide/editing_collection_metadata#collection-contacts) up to date so that portal users and the Support Hub can contact you about these requests. It is also recommended that you add hub@symbiota.org to your own contacts so these messages are not blocked by an institutional firewall or routed to spam.
 
 ## Related Resources
 

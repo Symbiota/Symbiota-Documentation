@@ -57,7 +57,7 @@ Conversely, a **Skeletal File Upload** will only import data into fields that ar
 
 ![Example of Data Upload Module](/img/DataUploadModule.png)
 
-8. Select which fields in your CSV file (**Source Fields**) will correspond to which fields in the Symbiota portal (**Target Fields**). Check the [Symbiota Data Field Guide](/docs/Collection_Manager_Guide/Importing_Uploading/data_import_fields) for definitions of each data field. Also see the **Uploading Tips** section below.
+8. Select which fields in your CSV file (**Source Fields**) will correspond to which fields in the Symbiota portal (**Target Fields**). Check the [Symbiota Data Field Guide](/Collection_Manager_Guide/Importing_Uploading/data_import_fields) for definitions of each data field. Also see the **Uploading Tips** section below.
 9. Once you are satisfied with your field-to-field mapping (see next Notes), click the “Save Mapping” button.
 10. Select whether you would like the script to match the data in your file to existing data in the portal based on Catalog Number or Other Catalog Numbers. You will only need to do this if you are adding data to records that already exist in the portal. Otherwise, leave these unchecked.
 11. Select the Processing Status that you would like to apply to all your uploaded records (if desired) by selecting an option from the dropdown menu.
@@ -87,7 +87,7 @@ If you have already created an import profile, or if you have been instructed to
 
 ![Darwin Core Import Profile Mapping Page](/img/dwc_import_profile.jpg)
 
-8. Because the incoming file is aligned with Darwin Core, you will not likely need to change the mappings of this file. However, it is a good idea to check the fields. Check the [Symbiota Data Field Guide](/docs/Collection_Manager_Guide/Importing_Uploading/data_import_fields) for definitions of each data field. Also see the **Uploading Tips** section below.
+8. Because the incoming file is aligned with Darwin Core, you will not likely need to change the mappings of this file. However, it is a good idea to check the fields. Check the [Symbiota Data Field Guide](/Collection_Manager_Guide/Importing_Uploading/data_import_fields) for definitions of each data field. Also see the **Uploading Tips** section below.
 
 9. Once you are satisfied with your field-to-field mapping, click the “Save Mapping” button.
 10. If you want all the incoming data to be assigned a specific processing status, select that processing status value from the dropdown menu. If not, leave the processing status as "Leave as is / No Explicit Setting".
@@ -121,17 +121,17 @@ The same cautions as a manual Darwin Core Archive upload apply to this upload ty
 
 :::tip
 
-A list of fields that can be imported into a Symbiota data portal can be [found here](/docs/Collection_Manager_Guide/Importing_Uploading/data_import_fields).
+A list of fields that can be imported into a Symbiota data portal can be [found here](/Collection_Manager_Guide/Importing_Uploading/data_import_fields).
 
 :::
 
 :::warning
 
-You can delete erroneous records [one-by-one](/docs/Collection_Manager_Guide/deleting_records), but not in batch. If you're new to using data ingestion tools in Symbiota portals, start by uploading a small number of records before ingesting larger datasets.
+You can delete erroneous records [one-by-one](/Collection_Manager_Guide/deleting_records), but not in batch. If you're new to using data ingestion tools in Symbiota portals, start by uploading a small number of records before ingesting larger datasets.
 
 :::
 
-- To take advantage of the [Tag Name + Identifier](/docs/Editor_Guide/Editing_Searching_Records/catalog_numbers) system (in which you can tag an identifier/other catalog number with a specific title), enter the tag name followed by a colon and then the identifier value, e.g., "Old Accession Number: 12345". For multiple identifiers, separate the tag name + identifiers by semicolons, e.g., "NP #: 4321; Accession #: 9876"
+- To take advantage of the [Tag Name + Identifier](/Editor_Guide/Editing_Searching_Records/catalog_numbers) system (in which you can tag an identifier/other catalog number with a specific title), enter the tag name followed by a colon and then the identifier value, e.g., "Old Accession Number: 12345". For multiple identifiers, separate the tag name + identifiers by semicolons, e.g., "NP #: 4321; Accession #: 9876"
 - If the scientific names in your CSV file include taxonomic authorship (e.g., _Acer circinatum_ Pursh), map this field to the Target Field “scientificname.” If the scientific names included in your CSV file do NOT include taxonomic authorship (e.g., _Acer circinatum_), map this field to “sciname.”
 - Collection dates mapped to eventDate will be evaluated and validated. Illegal dates will be placed in the verbatimEventDate field. The majority of the standard date formats are accepted, including Gregorian dates and Excel numeric date format (US only).
   eventDate will be generated from separate year,month, and day field values. If month or day fields are left null, ’00’ values will be used (ex: 1954-03-00, 1965-00-00). Month field values can be numeric or text (English or Spanish).

@@ -8,4 +8,4 @@ weight: 90
 keywords: ["images"]
 ---
 
-See [this page](/docs/Collection_Manager_Guide/Images) to learn more about how images are handled in Symbiota portals.
+See [this page](/Collection_Manager_Guide/Images) to learn more about how images are handled in Symbiota portals.

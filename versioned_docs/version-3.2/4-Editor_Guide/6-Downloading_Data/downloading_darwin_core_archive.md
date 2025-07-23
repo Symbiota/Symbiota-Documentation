@@ -14,7 +14,7 @@ This page describes how you can download Darwin Core Archive files (DwC-A; stand
 :::
 
 **If you are an administrator of a collection**, you can download a Darwin Core Archive of your collection in one of two ways:
-* Navigate to your Administration Contol Panel (My Profile > Occurrence Management > name of your collection) and click Darwin Core Archive Publishing. If you have already created a DwC-A, click the link next to "DwC-Archive File:". If you have not yet created a DwC-A, [create one](/docs/Collection_Manager_Guide/Data_Publishing/creating_dwca).
+* Navigate to your Administration Contol Panel (My Profile > Occurrence Management > name of your collection) and click Darwin Core Archive Publishing. If you have already created a DwC-A, click the link next to "DwC-Archive File:". If you have not yet created a DwC-A, [create one](/Collection_Manager_Guide/Data_Publishing/creating_dwca).
 * Navigate to your Administration Contol Panel (My Profile > Occurrence Management > name of your collection) and click Download Data Backup file. The backup file will be in the format of a Darwin Core Archive, but all specimens will be included in the file, even if they don't have unique GUIDs.
 
 **If you are not an administrator of a collection, or you would like to download a DwC-A of another collection**:

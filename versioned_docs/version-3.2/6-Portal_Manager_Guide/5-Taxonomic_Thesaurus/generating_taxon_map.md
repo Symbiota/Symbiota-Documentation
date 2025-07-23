@@ -25,7 +25,7 @@ You can change the base layer of the map by clicking the layers icon in the top 
 
 ![Screenshot of Taxon Profile Map Tool](/img/taxonprofilemap_redo.png)
 
-Start typing the name of taxon for which you would like to generate a map in the "Taxon Name" field and select a matching taxon from the taxonomic thesaurus. If you can't find your taxon of interest in the dropdown list, [add it to the taxonomic thesaurus](/docs/Portal_Manager_Guide/Taxonomic_Thesaurus/adding_taxa).
+Start typing the name of taxon for which you would like to generate a map in the "Taxon Name" field and select a matching taxon from the taxonomic thesaurus. If you can't find your taxon of interest in the dropdown list, [add it to the taxonomic thesaurus](/Portal_Manager_Guide/Taxonomic_Thesaurus/adding_taxa).
 
 :::tip
 
