@@ -5,7 +5,6 @@ lastmod: 2025-05-14
 authors: ["Katie Pearson"]
 editors: [""]
 draft: false
-weight: 5
 keywords: ["taxonomy", "taxonomic thesaurus"]
 ---
 

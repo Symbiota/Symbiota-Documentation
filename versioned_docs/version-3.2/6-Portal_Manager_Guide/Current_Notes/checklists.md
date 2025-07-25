@@ -4,7 +4,6 @@ date: 2022-07-06
 lastmod: 2023-10-27
 authors: ["Laura Rocha Prado", "Katie Pearson"]
 draft: false
-weight: 10
 keywords: ["checklist", "inventory", "permission"]
 ---
 

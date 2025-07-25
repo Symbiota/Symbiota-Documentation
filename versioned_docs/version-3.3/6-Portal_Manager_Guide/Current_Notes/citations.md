@@ -4,7 +4,6 @@ date: 2022-09-01
 lastmod: 2022-09-01
 authors: ["Laura Rocha Prado"]
 draft: false
-weight: 10
 keywords: ["citing","citations","downloads"]
 ---
 

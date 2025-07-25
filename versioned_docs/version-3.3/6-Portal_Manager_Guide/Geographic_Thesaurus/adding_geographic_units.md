@@ -5,7 +5,6 @@ lastmod: 2024-02-08
 authors: ["Katie Pearson"]
 editors: [""]
 draft: false
-weight: 1
 keywords: ["geography","geographic thesaurus","country","continent","state","province","county","municipality"]
 ---
 

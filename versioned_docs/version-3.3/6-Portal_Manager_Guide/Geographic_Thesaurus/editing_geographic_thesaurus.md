@@ -5,7 +5,6 @@ lastmod: 2024-02-08
 authors: ["Katie Pearson"]
 editors: [""]
 draft: false
-weight: 5
 keywords:
   [
     "geography",

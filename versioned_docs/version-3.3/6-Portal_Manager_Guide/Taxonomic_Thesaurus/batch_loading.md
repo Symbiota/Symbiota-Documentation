@@ -5,7 +5,6 @@ lastmod: 2023-06-22
 authors: ["Cat Chapman"]
 editors: ["Lindsay Walker, Katie Pearson"]
 draft: false
-weight: 10
 keywords: ["taxonomy", "taxonomic thesaurus"]
 ---
 

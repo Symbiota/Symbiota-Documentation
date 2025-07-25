@@ -4,7 +4,6 @@ date: 2024-02-08
 lastmod: 2024-02-29
 authors: ["Katie Pearson"]
 draft: false
-weight: 10
 keywords:
   [
     "geography",

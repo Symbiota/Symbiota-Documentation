@@ -5,7 +5,6 @@ lastmod: 2023-02-09
 authors: ["Katie Pearson"]
 editors: [""]
 draft: false
-weight: 15
 keywords:
   [
     "taxonomy",

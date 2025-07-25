@@ -5,7 +5,6 @@ lastmod: 2023-02-19
 authors: ["Katie Pearson"]
 editors: [""]
 draft: false
-weight: 20
 keywords: ["taxonomy", "taxon map", "taxon profile"]
 ---
 
