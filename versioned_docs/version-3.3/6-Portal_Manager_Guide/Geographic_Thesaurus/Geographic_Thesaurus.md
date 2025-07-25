@@ -5,8 +5,8 @@ lastmod: 2024-02-08
 authors: ["Katie Pearson"]
 editors: [""]
 draft: false
-weight: 30
 keywords: ["geography","geographic thesaurus","country","continent","state","province","county","municipality"]
+sidebar_position: 20
 ---
 
 For instructions on how to add geographic units to the geographic thesaurus, [click here](/Portal_Manager_Guide/Geographic_Thesaurus/adding_geographic_units).

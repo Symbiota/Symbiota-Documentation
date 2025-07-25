@@ -5,7 +5,7 @@ lastmod: 2023-01-06
 authors: ["Katie Pearson"]
 editors: [""]
 draft: false
-weight: 30
+sidebar_position: 30
 keywords: ["vocabulary","identification keys","character matrix"]
 ---
 
