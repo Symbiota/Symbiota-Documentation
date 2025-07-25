@@ -7,6 +7,7 @@ authors: ["Katie Pearson"]
 editors: [""]
 translators: ["Samanta Orellana"]
 keywords: ["editar", "pestañas"]
+sidebar_position: 40
 ---
 
 :::info

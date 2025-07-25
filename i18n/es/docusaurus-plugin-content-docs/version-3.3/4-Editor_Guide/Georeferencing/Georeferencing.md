@@ -6,8 +6,8 @@ draft: false
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
 translators: ["Samanta Orellana"]
-weight: 70
 keywords: ["georreferenciando"]
+sidebar_position: 20
 ---
 
 **Georreferenciar** es el proceso de asignar coordenadas a descripciones generalmente textuales de localidades de ocurrencia (e.g., la ubicación donde un espécimen fue colectado). Algunos recursos útiles acerca de georreferenciar pueden ser encontrados [en el sitio web de iDigBio](https://www.idigbio.org/wiki/index.php/Georeferencing). Symbiota incluye varias herramientas para facilitar este proceso:

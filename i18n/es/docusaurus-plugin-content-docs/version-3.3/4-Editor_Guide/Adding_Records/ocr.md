@@ -7,6 +7,7 @@ authors: ["Katie Pearson"]
 translators: ["Samanta Orellana"]
 keywords:
   ["reconocimiento óptico de caracteres", "transcripción automática", "OCR"]
+sidebar_position: 17
 ---
 
 El Reconocimiento Óptico de Caracteres (OCR) es el uso de algoritmos de computadora para detectar información de texto a partir de imágenes. Si las herramientas OCR están activadas en su portal Symbiota, puede utilizar OCR para intentar analizar información textual a partir de imágenes de (por ejemplo) etiquetas de especímenes, para introducir datos en los campos apropiados. Instrucciones para usar OCR en el Editor de Ocurrencias son presentados abajo. Para protocolos de trabajo con ORC por lote, ver [página OCR en la Guía para Encargados de Colecciones](/Collection_Manager_Guide/batch_ocr).

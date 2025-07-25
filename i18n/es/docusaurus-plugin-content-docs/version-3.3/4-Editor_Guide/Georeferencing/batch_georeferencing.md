@@ -3,7 +3,7 @@ title: "Georreferenciación por Lote"
 date: 2021-11-16
 lastmod: 2021-11-16
 draft: false
-weight: 40
+weight: 20
 authors: ["Katie Pearson"]
 translators: ["Samanta Orellana"]
 keywords: ["georreferenciando", "ediciones por lote"]

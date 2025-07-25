@@ -5,6 +5,7 @@ draft: false
 authors: ["Katie Pearson"]
 translation: ["Samanta Orellana"]
 keywords: ["añadir","crear"]
+sidebar_position: 13
 ---
 
 :::info

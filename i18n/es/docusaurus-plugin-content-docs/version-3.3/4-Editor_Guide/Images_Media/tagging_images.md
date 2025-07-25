@@ -2,10 +2,10 @@
 title: "Etiquetando Imágenes"
 date: 2021-12-13
 draft: false
-weight: 6
 authors: ["Katie Pearson"]
 translators: ["Samanta Orellana"]
 keywords: ["etiquetas de imagen", "anotación de imagen"]
+sidebar_position: 27
 ---
 
 :::info

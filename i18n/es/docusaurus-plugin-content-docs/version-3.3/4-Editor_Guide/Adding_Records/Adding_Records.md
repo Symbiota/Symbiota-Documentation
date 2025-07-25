@@ -3,10 +3,10 @@ title: "Guía para Editores"
 date: 2021-10-06
 lastmod: 2022-01-03
 icon: 'ti-marker-alt'
-weight: 2
 authors: ["Katie Pearson","Laura Rocha Prado"]
 description: "Aprenda a editar, manejar, importar y exportar datos en portales Symbiota"
 type: 'docs'
+sidebar_position: 10
 ---
 
 #### ¡Bienvenidos a la Guía para Editores!
