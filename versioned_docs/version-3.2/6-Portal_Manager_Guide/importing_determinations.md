@@ -4,7 +4,7 @@ date: 2023-10-31
 lastmod: 2024-06-06
 authors: ["Lindsay Walker"]
 editors: ["Katie Pearson"]
-weight: 40
+sidebar_position: 40
 keywords: ["data upload", "data import", "determinations", "annotations"]
 ---
 
