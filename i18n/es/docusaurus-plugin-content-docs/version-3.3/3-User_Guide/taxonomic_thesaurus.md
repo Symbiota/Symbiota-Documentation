@@ -4,7 +4,7 @@ date: 2021-10-14
 authors: ["Katie Pearson"]
 translators: ["Samanta Orellana"]
 draft: false
-sidebar_position: 80
+sidebar_position: 125
 keywords: ["tesauro", "nombres científicos", "taxonomía"]
 ---
 

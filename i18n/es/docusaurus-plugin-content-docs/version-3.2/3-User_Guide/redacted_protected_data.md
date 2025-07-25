@@ -4,7 +4,7 @@ date: 2021-10-08
 authors: ["Ed Gilbert", "Katie Pearson"]
 translators: ["Samanta Orellana"]
 draft: false
-sidebar_position: 60
+sidebar_position: 45
 keywords:
   ["especies raras", "datos ocultos", "datos protegidos", "especies protegidas"]
 ---

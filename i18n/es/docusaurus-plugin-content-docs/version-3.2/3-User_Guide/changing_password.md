@@ -4,7 +4,7 @@ date: 2021-11-12
 authors: ["Katie Pearson"]
 translators: ["Samanta Orellana"]
 draft: false
-sidebar_position: 40
+sidebar_position: 35
 keywords: ["contraseña", "perfil"]
 ---
 
