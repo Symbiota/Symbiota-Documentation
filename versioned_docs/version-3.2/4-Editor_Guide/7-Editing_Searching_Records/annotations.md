@@ -30,7 +30,7 @@ After you add a date, make sure you hit "Tab" on your keyboard or click on the n
 
 :::
 
-If you wish to print this annotation label now or in the future, also check the _Add to Annotation Print Cue_ box. Click Submit Determination.
+If you wish to print this annotation label now or in the future, also check the _Add to Annotation Print Queue_ box. Click Submit Determination.
 
 ![Add New Determination Form](/img/addnewdetermination.png)
 
