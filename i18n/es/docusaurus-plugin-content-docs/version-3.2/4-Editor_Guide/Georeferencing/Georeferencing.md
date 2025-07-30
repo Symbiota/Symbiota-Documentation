@@ -6,7 +6,7 @@ draft: false
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
 translators: ["Samanta Orellana"]
-weight: 70
+sidebar_position: 80
 keywords: ["georreferenciando"]
 ---
 

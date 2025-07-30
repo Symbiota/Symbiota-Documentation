@@ -1,7 +1,6 @@
 ---
 title: "Cargando Imágenes"
 date: 2021-10-06
-weight: 10
 draft: false
 authors: ["Ed Gilbert", "Ben Brandt", "Katie Pearson"]
 translators: ["Samanta Orellana"]

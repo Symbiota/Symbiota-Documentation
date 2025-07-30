@@ -4,7 +4,6 @@ date: 2021-12-02
 draft: false
 authors: ["Katie Pearson"]
 translators: ["Samanta Orellana"]
-weight: 10
 keywords: ["georreferenciando", "georreferenciación colaborativa", "GEOLocate"]
 ---
 

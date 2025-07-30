@@ -6,5 +6,5 @@ icon: 'ti-marker-alt'
 authors: ["Lindsay Walker"]
 description: "imágenes, medios"
 type: 'docs'
-sidebar_position: 30
+sidebar_position: 90
 ---
