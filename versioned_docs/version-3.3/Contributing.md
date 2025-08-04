@@ -2,8 +2,7 @@
 title: "Contributing"
 date: 2021-10-06
 lastmod: 2025-05-14
-weight: 3
-draft: false
+sidebar_position: 100
 authors: ["Laura Rocha Prado", "Katie Pearson"]
 keywords: ["contribute", "translations"]
 ---
