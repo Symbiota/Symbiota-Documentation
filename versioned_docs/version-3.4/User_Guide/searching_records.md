@@ -3,7 +3,6 @@ title: "Searching for Records"
 date: 2021-10-11
 lastmod: 2025-07-15
 authors: ["Katie Pearson, Lindsay Walker"]
-draft: false
 sidebar_position: 110
 keywords: ["search", "specimens", "observations"]
 ---
