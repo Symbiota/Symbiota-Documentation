@@ -131,8 +131,12 @@ const config: Config = {
           position: "left",
           items: [
             {
-              label: "3.3 (Latest)",
+              label: "3.4 (Latest)",
               to: "/",
+            },
+            {
+              label: "3.3",
+              to: "3.3/",
             },
             {
               label: "3.2",
