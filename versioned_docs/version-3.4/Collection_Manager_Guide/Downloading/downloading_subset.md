@@ -14,9 +14,9 @@ This page describes how to download a subset of your data using one of two tools
 
 ## Record Search Form
 
-You can download a specialized subset of your data directly from the [Record Search Form](/docs/Editor_Guide/Editing_Searching_Records/). Conduct your search, then click the button with the download icon (![Download Icon](/img/dl.png)) to download the search results.
+You can download a specialized subset of your data directly from the [Record Search Form](/Editor_Guide/Editing_Searching_Records/). Conduct your search, then click the button with the download icon (![Download Icon](/img/dl.png)) to download the search results.
 
-For more information about your download options, see [this page](/docs/User_Guide/Downloading/download_data#download-options).
+For more information about your download options, see [this page](/User_Guide/Downloading/download_data#download-options).
 
 ## Exporter Tool
 
