@@ -1,8 +1,7 @@
 ---
 title: "Catalog Numbers"
 date: 2022-02-28
-lastmod: 2022-04-14
-draft: false
+sidebar_position: 30
 authors: ["Katie Pearson, Ed Gilbert"]
 keywords:
   [

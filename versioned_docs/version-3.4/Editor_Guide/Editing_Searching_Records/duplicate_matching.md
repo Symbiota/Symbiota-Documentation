@@ -2,9 +2,8 @@
 title: "Duplicate Matching"
 date: 2022-11-30
 lastmod: 2024-09-27
-draft: false
 authors: ["Katie Pearson"]
-weight: 20
+sidebar_position: 50
 keywords: ["duplicate", "copy", "transfer"]
 ---
 

@@ -2,8 +2,7 @@
 title: "Duplicate Clustering"
 date: 2021-12-13
 lastmod: 2023-03-24
-draft: false
-weight: 100
+sidebar_position: 107
 authors: ["Katie Pearson"]
 keywords: ["duplicates", "duplicate specimens"]
 ---

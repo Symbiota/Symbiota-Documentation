@@ -3,8 +3,7 @@ title: "Paleontology Features"
 date: 2025-07-22
 lastmod: 2025-07-22
 authors: ["Lindsay Walker"]
-draft: false
-weight: 50
+sidebar_position: 60
 keywords: ["paleontology", "fossil", "geological context", "configuration"]
 ---
 
@@ -12,7 +11,7 @@ keywords: ["paleontology", "fossil", "geological context", "configuration"]
 Symbiota includes features to facilitate the management and mobilization of fossil specimen data. Some of these features can be activated on a per-collection basis, whereas others must be activated on a per-portal basis. This page describes these features and steps that a Portal Manager can take to activate them for a given Symbiota portal community.  
 :::
 
-:::danger 
+:::note 
 **Fossil specimens have distinct data requirements from recent biological ("[neontological](https://www.merriam-webster.com/dictionary/neontology)") collections.** Prior to activating features for paleontological data mobilization and management in a Symbiota portal, Portal Managers are strongly encouraged to refer to the [Paleo Data Knowledge Hub](https://paleo-data.github.io/knowledge-hub/) for discipline-specific guidance, as well as [additional documentation](https://paleo-data.github.io/knowledge-hub/topics?topic=symbiota) for Symbiota. Likewise, Portal Managers are encouraged to refer portal users to these resources. Engagement with the [Paleo Data Working Group](https://paleo-data.github.io/knowledge-hub/community/about-pdwg) (aka "PDWG") is also advised.   
 :::
 

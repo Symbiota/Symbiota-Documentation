@@ -2,7 +2,7 @@
 title: "Annotations / Determinations"
 date: 2021-10-26
 lastmod: 2027-09-27
-draft: false
+sidebar_position: 10
 authors: ["Katie Pearson"]
 keywords: ["edit", "annotation", "identification", "determination"]
 ---

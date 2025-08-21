@@ -22,7 +22,7 @@ To edit or search for records, select "Edit Existing Occurrence Records" from th
 
 | ![Record Search Form](/img/new_recordsearchform.png) |
 | :-----------------------------------------------------: |
-|**Screenshot of a Record Search Form.** Note that your Record Search Form may not include the Occurrence Trait Filter, if [traits](/docs/Editor_Guide/Traits/) have not been set up in your portal. The [Batch Update Tool](/docs/Collection_Manager_Guide/Editing_Occurrences/batch_editing) button will only show up above this form if you are a collection administrator.|
+|**Screenshot of a Record Search Form.** Note that your Record Search Form may not include the Occurrence Trait Filter, if [traits](/Editor_Guide/Traits/) have not been set up in your portal. The [Batch Update Tool](/Collection_Manager_Guide/Editing_Occurrences/batch_editing) button will only show up above this form if you are a collection administrator.|
 
 To search according to fields not explicitly stated in the Record Search Form, select the field from the dropdown menu after Custom Field 1. You can include up to 8 Custom fields in your search. The second dropdown lists after the Custom Field names will allow you to conduct more specific searches, such as for ranges or fields that are null. The options include:
 

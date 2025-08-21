@@ -4,8 +4,7 @@ date: 2025-07-22
 lastmod: 2025-07-23
 authors: ["Lindsay Walker"]
 editors: ["Katie Pearson"]
-draft: "false"
-weight: 30
+sidebar_position: 60
 keywords: ["paleontology", "fossil", “geological context”]
 ---
 
