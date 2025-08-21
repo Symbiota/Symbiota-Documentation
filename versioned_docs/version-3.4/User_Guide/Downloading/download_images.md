@@ -2,8 +2,7 @@
 title: "Downloading Images/Media"
 date: 2023-06-19
 lastmod: 2025-07-15
-draft: false
-weight: 40
+sidebar_position: 20
 authors: ["Lindsay Walker"]
 editors: ["Katie Pearson"]
 keywords: ["Download"]

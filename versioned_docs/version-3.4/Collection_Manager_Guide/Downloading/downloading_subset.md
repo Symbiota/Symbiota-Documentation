@@ -1,18 +1,24 @@
 ---
-title: "Download a Subset of Data (Exporter)"
-date: 2021-12-07
-lastmod: 2025-01-31
-draft: false
-sidebar_position: 10
+title: "Downloading a Subset of Your Data"
+date: 2025-07-22
+lastmod:  2025-07-22
 authors: ["Katie Pearson"]
-keywords: ["download", "exporter"]
+editors: 
+keywords: ["export","custom download"]
 ---
-
 :::info
 
-This page describes how to find and use the Exporter tool, which allows you to download a subset of your data as a Darwin Core Archive.
+This page describes how to download a subset of your data using one of two tools: the Record Search Form, or the Exporter Tool.
 
 :::
+
+## Record Search Form
+
+You can download a specialized subset of your data directly from the [Record Search Form](/docs/Editor_Guide/Editing_Searching_Records/). Conduct your search, then click the button with the download icon (![Download Icon](/img/dl.png)) to download the search results.
+
+For more information about your download options, see [this page](/docs/User_Guide/Downloading/download_data#download-options).
+
+## Exporter Tool
 
 1. Navigate to your Administration Control Panel (My Profile > Occurrence Managment > name of collection).
 2. Click Processing Tools.

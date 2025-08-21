@@ -1,8 +1,7 @@
 ---
 title: "Downloading a Copy of your Data"
 date: 2021-11-29
-lastmod: 2025-01-31
-draft: false
+lastmod: 2025-07-22
 sidebar_position: 5
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
@@ -28,12 +27,7 @@ To download a copy of your specimen data from a Symbiota portal:
 
 ![Exporter Tool](/img/admincontrolpanel_backup.png)
 
-To access your backup data, unzip/open the Darwin Core Archive folder. This folder will contain several files, including the following CSV (Comma Separated) files that can be opened as a spreadsheet in MS Excel, Google Sheets, etc:
-
-- occurrences.csv = your specimen records
-- identifications.csv = the specimen identifications associated with each specimen record
-- measurementOrFact.csv = trait data associated with each specimen record
-- multimedia.csv = links to media/images associated with each specimen record
+To access your backup data, unzip/open the Darwin Core Archive folder. This folder will contain several files, as described [on this page](/User_Guide/Downloading/download_data#download-options).
 
 The archive also contains metadata about your collection and about the fields contained in each of the CSV files. For more information about the format and use of Darwin Core Archives, see the following resources:
 
