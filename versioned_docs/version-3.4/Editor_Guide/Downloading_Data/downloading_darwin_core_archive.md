@@ -1,5 +1,5 @@
 ---
-title: "Downloading a Darwin Core Archive"
+title: "Downloading a Full Darwin Core Archive"
 date: 2021-10-07
 lastmod:  2021-10-07
 authors: ["Katie Pearson"]
@@ -21,3 +21,9 @@ This page describes how you can download Darwin Core Archive files (DwC-A; stand
 1. Navigate to the Sitemap of the portal (generally an option on the menu).
 2. Under "Collections", click Darwin Core Archives (DwC-A).
 3. Find the collection for which you would like to download a DwC-A and click the link in the DwC-A column. The size of the file will be displayed in parentheses.
+
+:::tip
+
+For more information about your download options, see [this page](/User_Guide/Downloading/download_data#download-options).
+
+:::
