@@ -38,7 +38,7 @@ Setting up identification keys in a portal requires the administrator to import 
 
 Identification keys can be used within checklists to identify a taxon within the list that possesses certain character states. A user can click the character states that match those of their sample/individual of interest, and the taxon/taxa with the same character state(s) will be displayed on the checklist.
 
-![Identification Keys Example](/img/idkeys1.jpg)
+![Identification Keys Example](/img/idkeys1_v2.jpg)
 
 Note that the taxa you will see on the left will **only** include those that were in the original checklist.
 
