@@ -56,7 +56,7 @@ The master list of Protected Species in a given portal can be viewed by all port
 
 :::tip
 
-To find records in your collection that have data redaction applied, use the Data Editor Search form to construct a query where "_Record Security_ + EQUALS + 1". Doing so will recall records where the location data has been obscured from public view.
+To find records in your collection that have data redaction applied, use the Data Editor Search form to construct a query where "_Record Security_ + EQUALS + 1".
 
 :::
 
