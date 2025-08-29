@@ -1,7 +1,7 @@
 ---
 title: "Redacting / Obscuring Data"
 Date: 2021-11-01
-lastmod: 2025-07-15
+lastmod: 2025-08-29
 authors: ["Katie Pearson", "Ed Gilbert"]
 editors: ["Lindsay Walker"]
 sidebar_position: 20
@@ -53,6 +53,12 @@ The master list of Protected Species in a given portal can be viewed by all port
 |                                                                          ![Protected Species](/img/redaction_protectedspecies.png)                                                                          |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | To view all protected taxa in a portal, navigate to _Sitemap > Collections > Protected Species_. This example comes [from SEINet](https://swbiodiversity.org/seinet/collections/misc/protectedspecies.php). |
+
+:::tip
+
+To find records in your collection that have data redaction applied, use the Data Editor Search form to construct a query where "_Record Security_ + EQUALS + 1". Doing so will recall records where the location data has been obscured from public view.
+
+:::
 
 ## How to redact data
 
