@@ -4,7 +4,7 @@ date: 2014-08-23
 lastmod: 2025-09-12
 draft: false
 authors: ["Ed Gilbert"]
-editors: ["Katie Pearson"]
+editors: ["Katie Pearson","Lindsay Walker"]
 keywords: ["join","contribute"]
 sidebar_position: 10
 ---
