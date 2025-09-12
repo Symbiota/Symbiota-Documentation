@@ -1,7 +1,7 @@
 ---
 title: "Joining an Existing Portal"
 date: 2014-08-23
-lastmod: 2021-12-16
+lastmod: 2025-09-12
 draft: false
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson"]
@@ -31,7 +31,7 @@ Typically, the portal manager will need the information in the following list to
   * Contact(s):  name, title, email, and ORCID, if available
   * Link(s) to homepage and/or other external resources
   * Collection or institution icon – a small image that visually represents the collection, icons that are roughly the same height and width work best
-  * Preferred usage rights. The portal manager should be able to advice you on this. It may also be useful to read the following Creative Commons links: https://creativecommons.org/licenses/, http://wiki.creativecommons.org/Data
+  * Preferred usage rights. The portal manager should be able to advise you on this. It may also be useful to read the following Creative Commons links: https://creativecommons.org/licenses/, http://wiki.creativecommons.org/Data
   * Whether you are publishing a snapshot of your data that will be periodically updated, or you plan to manage the data as a live dataset directly within the portal
   * Source of the Global Unique identifier (GUID) for the specimen records. If the specimen records are managed directly within the portal, we recommend letting the portal automatically generate a GUID (UUID) when records are created. _If a data snapshot is published from a local in-house data management system, GUIDs need to be generated locally and then included in the data published to the portal._
 
