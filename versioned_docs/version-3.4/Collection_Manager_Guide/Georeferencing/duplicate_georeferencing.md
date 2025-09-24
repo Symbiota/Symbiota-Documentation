@@ -1,8 +1,9 @@
 ---
 title: "Duplicate Georeference Harvester"
-date: 2025-09/23
+date: 2025-09-23
 draft: false
 authors: ["Katie Pearson"]
+editors: ["Lindsay Walker"]
 sidebar_position: 3
 keywords: ["georeferencing", "coordinates"]
 ---
@@ -21,7 +22,7 @@ For this tool to find duplicate georeferences, your specimens must already be li
 
 :::
 
-To navigate to this tool, go to your Administration Control Panel (My Profile > Occurrence Editor > name of collection), select Duplicate Clustering, then "Batch copy duplicate georeference data".
+To navigate to this tool, go to your Administration Control Panel (_My Profile > Occurrence Editor > name of collection_), select Duplicate Clustering, then "Batch copy duplicate georeference data".
 
 ## Conducting a search
 
@@ -56,15 +57,17 @@ Click the Search button to conduct a search.
 
 ## Selecting duplicate georeferences to copy
 
-After conducting a search, you will see a table of records that match your search criteria.
+After conducting a search, you will see a table of records that match your search criteria:
+
+|![Example Duplicate Georeferences Table](/img/exampleduplicategeoreferences.png)|
+|:--:|
+| The "target" specimen/records--i.e., the records that will receive data, if copied--are highlighed by the darkest shade of grey. |
 
 :::tip
 
 To adjust the fields visible in this resulting table, click the Hide Fields button and check the boxes next to fields you do not wish to see.
 
 :::
-
-![Example Duplicate Georeferences Table](/img/exampleduplicategeoreferences.png)
 
 Check the boxes next to records that you wish to copy georeference data from.
 
@@ -74,7 +77,7 @@ Click the Copy Duplicate Data button when you have selected all the records for 
 
 :::warning
 
-Clicking the Copy Duplicate Data button will **replace** the georeference data in the target (dark grey) record with the data from the checked duplicate record. That includes all of the following fields: decimalLatitude, decimalLongitude, geodeticDatum, footprintWKT, coordinateUncertaintyInMeters, georeferencedBy, georeferenceRemarks, georeferenceSources, georeferenceProtocol, and georeferenceVerificationStatus. Do not click this button unless you are sure that you want the data from all of these fields included in your resulting record.
+Clicking the Copy Duplicate Data button will **replace** the georeference data in the target (dark grey) record with the data from the checked duplicate record. That includes all of the following fields: decimalLatitude, decimalLongitude, geodeticDatum, footprintWKT, coordinateUncertaintyInMeters, georeferencedBy, georeferenceRemarks, georeferenceSources, georeferenceProtocol, and georeferenceVerificationStatus. **Do not click this button unless you are sure that you want the data from all of these fields included in your resulting record.**
 
 :::
 
@@ -82,3 +85,8 @@ The tool will then process the duplicates and return a printout of all the recor
 
 ![Listing of records updated by georeference duplicate tool](/img/duplicateupdatedrecord.png)
 
+:::info
+
+Changes made to records using this tool will **not** be tracked in either the Edit History tab or in the Review/Verify Edits table. However, when a duplicate georeference is copied between records, metadata will be automatically added to the target record's _Georeference Remarks_ (example: "Copied from duplicate UCSB UCSB_SCIRH00972").
+
+:::
