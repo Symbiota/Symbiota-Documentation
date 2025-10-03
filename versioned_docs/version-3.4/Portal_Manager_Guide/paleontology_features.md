@@ -41,7 +41,7 @@ All [paleontology-related fields](/Editor_Guide/Editing_Searching_Records/symbio
 
 ## Data discoverability
 ### Public search forms
-Some fields associated with the Darwin Core class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext) can be queried using the public search form and map search interfaces, as shown below. 
+Some fields associated with the Darwin Core class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext) can be queried using the publicly available search form and map search interfaces, as shown below. Instructions for using these public search tools is available in the [User Guide](/User_Guide/searching_records#geological-context).
 
 ![Public Search Form](/img/portalmanager_paleosearchpublicform.png)
 ![Public Search Form](/img/portalmanager_paleosearchpublicmap.png)

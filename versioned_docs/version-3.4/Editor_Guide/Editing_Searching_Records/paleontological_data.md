@@ -9,11 +9,15 @@ keywords: ["paleontology", "paleo", "fossil", “geological context”]
 ---
 
 :::info
+
 This page describes how to add and edit data associated with fossil specimen occurrences. The features described on this page will only be visible if features related to paleontological collections have been configured in your portal.
+
 :::
 
 :::warning
+
 **Fossil specimens have distinct data requirements from recent biological ("[neontological](https://www.merriam-webster.com/dictionary/neontology)") collections.** For discipline-specific advice regarding the digitization and general management of paleontological collections data, please refer to the [Paleo Data Knowledge Hub](https://paleo-data.github.io/), which also contains [Symbiota-specific guidance](https://paleo-data.github.io/topics?topic=symbiota).
+
 :::
 
 ## Orientation
@@ -44,7 +48,9 @@ For example:
 | (null/blank) | `Oligocene` | ❌ null values not allowed |
 
 :::tip
+
 A warning will appear if the values for _Early Interval_ and _Later Interval_ are entered incorrectly.
+
 :::
 
 ### What if I have a geological time-related value that doesn’t appear in the list?
@@ -69,3 +75,18 @@ For example:
 | `Late Miocene` | `Late Miocene` | `[VERBATIM CHRONOSTRATIGRAPHY: Upper Mio?]` |
 | `Permian` | `Permian` | `[VERBATIM CHRONOSTRATIGRAPHY: Late Permian?]` |
 | `Paleogene` | `Neogene` | `[VERBATIM CHRONOSTRATIGRAPHY: Tertiary]` |
+
+## Querying fossil specimen data
+When a portal is configured for managing and sharing fossil specimen data, geological context data associated with fossil collections can be queried by:
+1) Using your portal's public search form and Map Search interface ([instructions](/User_Guide/searching_records#geological-context))
+2) Using the Data Editor search form ([instructions](/Editor_Guide/Editing_Searching_Records/))
+
+:::tip
+
+The main difference between using the publicly visible search forms versus the Data Editor search form to retrieve fossil specimen records is how they retrieve data associated with geological time (i.e., _Early Interval_, _Late Interval_). Specifically, the public search forms will produce **time-inclusive** search results, whereas the Data Editor search form will produce **literal** search results.
+
+For example:
+- If you want to find all records where "Oligocene" was the literal/actual value entered for _Early Interval_ or _Late Interval_, use the Data Editor search form.
+- If you want to find all records associated with the Oligocene epoch in time—including records where _Early Interval_ (or _Late Interval_) was entered as "Rupelian" or "Chattian", which are geological time intervals [contained within the Oligocene](https://stratigraphy.org/chart/?target=ischart:Oligocene)—use the public search form.
+
+:::
