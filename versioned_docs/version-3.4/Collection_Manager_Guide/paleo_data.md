@@ -1,7 +1,7 @@
 ---
 title: "Fossil Collections"
 date: 2022-11-23
-lastmod: 2025-10-25
+lastmod: 2025-10-13
 authors: ["Lindsay Walker"]
 editors: ["Lindsay Walker"]
 sidebar_position: 125
@@ -26,7 +26,7 @@ Documentation related to the management and mobilization of fossil specimen data
 | [**Symbiota Portal Manager Guide: Paleontology Features**](/Portal_Manager_Guide/paleontology_features) | Outlines features that can be activated in a Symbiota portal for the discovery, management, and mobilization of fossil specimen data. |
 | [**Symbiota Editor Guide: Fossil Specimen Data**](/Editor_Guide/Editing_Searching_Records/paleontological_data) | Outlines instructions related to the mechanics of entering data associated with fossil specimens (i.e., chronostratigraphic data). |
 | [**Symbiota User Guide: Searching for Records**](/User_Guide/searching_records#geological-context) | Outlines instructions related to the mechanics of searching for data associated with fossil specimens using the publicly visible search form and Map Search interfaces. |
-| [**Paleo Data Knowledge Hub**](https://paleo-data.github.io/) | Community resource for documenting best practices and recommendations for the management and mobilization of data associated with fossil collections. **New Symbiota data providers are advised to start [here](https://paleo-data.github.io/how-to-guides/start-using-symbiota).** Maintained by the [Paleo Data Working Group](https://paleo-data.github.io/community/about-pdwg). |
+| [**Paleo Data Knowledge Hub**](https://paleo-data.github.io/) | Community resource for documenting best practices and recommendations for the management and mobilization of data associated with fossil collections. **New Symbiota data providers are advised to start [here](https://paleo-data.github.io/tutorials/start-using-symbiota.html).** |
 
 ### Additional considerations
 

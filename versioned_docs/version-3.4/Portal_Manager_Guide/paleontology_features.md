@@ -1,7 +1,7 @@
 ---
 title: "Paleontology Features"
 date: 2025-07-22
-lastmod: 2025-10-03
+lastmod: 2025-10-13
 authors: ["Lindsay Walker"]
 sidebar_position: 60
 keywords: ["paleontology", "paleo", "fossil", "geological context", "configuration"]
@@ -12,7 +12,7 @@ Symbiota includes features to facilitate the management and mobilization of foss
 :::
 
 :::warning 
-**Fossil specimens have distinct data requirements from recent biological ("[neontological](https://www.merriam-webster.com/dictionary/neontology)") collections.** Prior to activating features for paleontological data mobilization and management in a Symbiota portal, Portal Managers are strongly encouraged to refer to the [Paleo Data Knowledge Hub](https://paleo-data.github.io/) for discipline-specific guidance, as well as [additional documentation](https://paleo-data.github.io/knowledge-hub/topics?topic=symbiota) for Symbiota. Likewise, Portal Managers are encouraged to refer portal users to these resources. Engagement with the [Paleo Data Working Group](https://paleo-data.github.io/community/about-pdwg) (aka "PDWG") is also advised.   
+**Fossil specimens have distinct data requirements from recent biological ("[neontological](https://www.merriam-webster.com/dictionary/neontology)") collections.** Prior to activating features for paleontological data mobilization and management in a Symbiota portal, Portal Managers are strongly encouraged to refer to the [Paleo Data Knowledge Hub](https://paleo-data.github.io/) for discipline-specific guidance, which includes [additional documentation](https://paleo-data.github.io/topics?topic=symbiota) about Symbiota. Likewise, Portal Managers are encouraged to refer portal users to these resources. Engagement with the [Paleo Data Working Group](https://paleo-data.github.io/community/about-pdwg) (aka "PDWG") is also advised.   
 :::
 
 ## Introduction
@@ -65,7 +65,7 @@ All mapping interfaces will display a geologic map layer made available using th
 
 ## Vocabulary configuration
 ### Chronostratigraphic data
-A controlled vocabulary of chronostratographic terms is maintained in the `omoccurpaleogts` table. By default, this table is populated with values from the [GBIF GeoTime Vocabulary](https://registry.gbif.org/vocabulary/GeoTime), which is based on the [International Commission on Stratigraphy's (ICS) Chronostratigraphic Chart](https://stratigraphy.org/chart). These values are recommended for use to maximize the interoperability of data within your portal, as well as with data in external aggregators.
+A controlled vocabulary of chronostratographic terms is maintained in the `omoccurpaleogts` table. By default, this table is populated with values from the [GBIF GeoTime Vocabulary](https://registry.gbif.org/vocabulary/GeoTime), which is based on the [International Commission on Stratigraphy's Chronostratigraphic Chart](https://stratigraphy.org/chart). These values are recommended for use to maximize the interoperability of data within your portal, as well as with data in external aggregators.
 
 Similar to how a portal’s Taxonomic Thesaurus helps standardize higher taxonomy, this table exists to standardize data associated with geologic time. Specifically, it is used to backfill hierarchical values associated with the fields, _Early Interval_ and _Late Interval_. For example, if a user enters _Early Interval_ = "Tithonian", the `omoccurpaleogts` table will associate this value with the appropriate _[Eon](https://dwc.tdwg.org/terms/#dwc:earliestEonOrLowestEonothem)_, _[Era](https://dwc.tdwg.org/terms/#dwc:earliestEraOrLowestErathem)_, _[Period](https://dwc.tdwg.org/terms/#dwc:earliestPeriodOrLowestSystem)_, and _[Epoch](https://dwc.tdwg.org/terms/#dwc:earliestEpochOrLowestSeries)_ values. The mechanics of entering geologic time-related data is described in the [Editor guide](/Editor_Guide/Editing_Searching_Records/paleontological_data#entering-chronostratigraphic-data). 
 

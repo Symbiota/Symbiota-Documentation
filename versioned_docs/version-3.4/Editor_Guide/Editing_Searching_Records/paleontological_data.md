@@ -1,7 +1,7 @@
 ---
 title: "Fossil Specimen Data"
 date: 2025-07-22
-lastmod: 2025-10-03
+lastmod: 2025-10-13
 authors: ["Lindsay Walker"]
 editors: ["Lindsay Walker, Katie Pearson"]
 sidebar_position: 60
@@ -16,14 +16,14 @@ This page describes how to add and edit data associated with fossil specimen occ
 
 :::warning
 
-**Fossil specimens have distinct data requirements from recent biological ("[neontological](https://www.merriam-webster.com/dictionary/neontology)") collections.** For discipline-specific advice regarding the digitization and general management of paleontological collections data, please refer to the [Paleo Data Knowledge Hub](https://paleo-data.github.io/), which also contains [Symbiota-specific guidance](https://paleo-data.github.io/topics?topic=symbiota).
+**Fossil specimens have distinct data requirements from recent biological ("[neontological](https://www.merriam-webster.com/dictionary/neontology)") collections.** For discipline-specific advice regarding the digitization and general management of paleontological collections data, please refer to the [Paleo Data Knowledge Hub](https://paleo-data.github.io).
 
 :::
 
 ## Orientation
 
 ![Paleo Module](/img/occeditor_paleo2025.png)
-Information specific to fossil specimens, such as geological age and rock units, can be recorded in the "Paleontology" section of the Occurrence Editor form, which is informally referred to as the "Paleo Module". When entering data associated with fossil specimens, it is **imperative** that Data Editors refer to the [associated data field definitions](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#paleontology). [Additional guidance](https://paleo-data.github.io/how-to-guides/manage-data-about-specimens-using-symbiota) on direct data entry specific to fossil specimens (for this module, as well as the entirety of the Occurrence Editor) is maintained by the [Paleo Data Working Group](https://paleo-data.github.io/community/about-pdwg).
+Information specific to fossil specimens, such as geological age and rock units, can be recorded in the "Paleontology" section of the Occurrence Editor form, which is informally referred to as the "Paleo Module". Before entering data associated with fossil specimens, Data Editors should review the [associated data field definitions](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#paleontology). Additional guidance on direct data entry specific to fossil specimens (for this module, as well as the entirety of the Occurrence Editor) is maintained in the [Paleo Data Knowledge Hub](https://paleo-data.github.io/how-to-guides/manage-data-about-specimens-using-symbiota).
 
 ## Entering chronostratigraphic data
 Data related to geological time (e.g., chronostratigraphic/chronometric data) can be captured using several fields, including: _[Early Interval](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval)_, _[Late Interval](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval)_, _[Absolute Age](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#absolute-age)_, and _[Local Stage](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#local-stage)_.
