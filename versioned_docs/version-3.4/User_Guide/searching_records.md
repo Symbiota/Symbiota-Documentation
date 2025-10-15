@@ -1,7 +1,7 @@
 ---
 title: "Searching for Records"
 date: 2021-10-11
-lastmod: 2025-07-15
+lastmod: 2025-10-03
 authors: ["Katie Pearson, Lindsay Walker"]
 sidebar_position: 110
 keywords: ["search", "specimens", "observations"]
@@ -18,7 +18,10 @@ Symbiota portals serve data from specimens and observations according to regiona
 3. Once you have selected your desired search criteria, indicate whether you would like to see the results in a List (100 per page) or Table (1000 per page) format using the radio button above the Search button.
 4. Click the Search button on the far right to conduct your search.
 
-![Symbiota search interface](/img/newsamplesearch.png)
+
+| ![Symbiota search interface](/img/newsamplesearch.png)  |
+| :-------------------------------------: |
+| Publicly accessible search form visible on Symbiota portals |
 
 ### Search Criteria
 - The criteria you can use will vary depending on the portal, but generally include the following categories: 1) Taxonomic Criteria, 2) Locality Criteria, 3) Latitude and Longitude, 4) Collecting Event Criteria, 5) Specimen/Observation Properties, 6) Trait Criteria (if enabled), 7) Associations (if they exist in your portal), 8) Geological Context (if enabled), and 8) Taxon Character Criteria (if enabled).
@@ -52,8 +55,15 @@ For more information about traits, [visit this page](/User_Guide/traits). Here y
 #### Associations
 For detailed instructions on how to use associations searches, [visit this page](/User_Guide/associations). This module is used to search for documented associations between records and other things, such as other specimens/observations, literature, or other "extended specimen" information. This search will result in records that have a formally linked association of a record with the taxon you enter into the Associations module.  The absence of a certain association in the portal does not necessarily indicate that this association does not exist in, e.g., the "associatedTaxon" field.
 
-#### Geologic Context
-This module is only enabled for portals with paleontological data. It allows users to search for records with certain values of group, formation, member, bed, early interval, and late interval.
+#### Geological Context
+This section of the search form will be available if an entire portal is configured for managing and sharing fossil specimen data. It enables users to search for occurrence records associated with lithostratigraphic (_Group_, _Formation_, _Member_, _Bed_) and chronostratigraphic (_Early Interval_, _Late Interval_) information.
+
+Here are some tips for using this section of the search form:
+- Correctly querying _Early Interval_ and _Late Interval_ requires a user to specify values in both fields, even if the values are the same. For example, _Early Interval_="Jurassic" and _Late Interval_="Cretaceous" **or** _Early Interval_="Jurassic" and _Late Interval_="Jurassic" are both correct queries, whereas leaving either field blank/null will return an error.
+- Search results based on _Early Interval_ and _Late Interval_ will be **inclusive** of all records associated with the specified time intervals. For example, searching on _Early Interval_="Cretaceous" and _Late Interval_="Cretaceous" will return all records with a _Late Interval_ **or** _Early Interval_ value that overlaps with the Cretaceous period in geologic time, e.g., all records cataloged as "Cretaceous" to "Cretaceous", in addition to records cataloged as "Jurassic" to "Cretaceous", "Campanian" to "Maastrichtian", "Late Cretaceous" to "Paleocene"—among many other possible combinations.
+- Unless indicated differently on a given Symbiota portal, the default values for _Early Interval_ and _Late Interval_ are based on the [International Commission on Stratigraphy's Chronostratigraphic Chart](https://stratigraphy.org/chart).
+- The same constraints apply to searches conducted using the [Map Search](#map-search) interface.
+
 
 #### Taxon Character Criteria
 Here you can search for records that belong to taxa with certain characteristics. "Characters" in Symbiota portals are defined as taxon-level characteristics, for example, "plant habit" for a species or "presence of elytra" for certain insect species. Note that the search will only be able to provide you with records belonging to taxa that have been scored for those particular characters, and the absence of a certain character value applied to a taxon does not necessarily indicate that a character value does not apply to that taxon. This module is an "AND" search. Selecting multiple character values will return all records with all of those character states. For more information about characters and character states, see the pages referring to [Identification Keys](/User_Guide/Identification_Keys/).
@@ -65,6 +75,9 @@ To view the results in a table or to sort the search results, click the Table Di
 :::
 
 ## Map Search
+| ![Map Search Display](/img/search5.png)  |
+| :-------------------------------------: |
+| Publicly accessible Map Search interface visible on Symbiota portals |
 
 Depending on the portal, the Map Search function may be under the Search Collections menu item, or listed as a separate menu item on the homepage.
 
@@ -74,9 +87,16 @@ To select specific collections from which you would like to search, select the C
 
 Further customizations can be made in the Map Options tab of the search panel including grid size and min. cluster size. These will affect how many specimens will be clustered together on the map. You can also turn off clustering in this tab.
 
+Portals configured for managing and sharing fossil specimen data may display additional fields within the Map Search Criteria panel (_Group_, _Formation_, _Member_, _Bed_, _Early Interval_, _Late Interval_). The instructions that apply to the [Geological Context section](#geological-context) of the main public search form also apply to the Geological Context fields on the Map Search interface.
+
 Once you have conducted a search, you can view a list of specimens by clicking the Open Search Panel button and viewing the Records and Taxa menu item. You can also download the specimen records, download a KML file of the specimen records, or generate a shareable link to these search results by clicking on the respective buttons on this page.
 
-![Map Search Display](/img/search5.png)
+:::tip
+
+When using the Map Search, hover over the layer icon (☰) in the upper right-hand corner of the map window to turn additional map layers on/off.
+![Map Search Display](/img/search_layers.png)
+
+:::
 
 ## Cross-Portal Search
 
