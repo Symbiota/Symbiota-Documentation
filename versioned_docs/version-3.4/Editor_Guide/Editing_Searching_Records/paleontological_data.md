@@ -14,9 +14,9 @@ This page describes how to add and edit data associated with fossil specimen occ
 
 :::
 
-:::warning
+:::info
 
-**Fossil specimens have distinct data requirements from recent biological ("[neontological](https://www.merriam-webster.com/dictionary/neontology)") collections.** For discipline-specific advice regarding the digitization and general management of paleontological collections data, please refer to the [Paleo Data Knowledge Hub](https://paleo-data.github.io).
+⚠️ **Fossil specimens have distinct data requirements from recent biological ("[neontological](https://www.merriam-webster.com/dictionary/neontology)") collections.** For discipline-specific advice regarding the digitization and general management of paleontological collections data, please refer to the [Paleo Data Knowledge Hub](https://paleo-data.github.io).
 
 :::
 
