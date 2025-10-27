@@ -1,7 +1,7 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2025-07-16
+lastmod: 2025-10-27
 draft: false
 authors: ["Ed Gilbert", "Katie Pearson", "Lindsay Walker"]
 editors: ["Laura Rocha Prado"]
@@ -695,7 +695,7 @@ Additional details about the cataloged fossil material’s geological and/or str
 
 ### Element
 
-The anatomical element(s) represented by the cataloged fossil material. Recommendation is to use a [discipline-specific controlled vocabulary](https://drive.google.com/drive/folders/1aNHpsLJLuVOubVmbohOZk2VbfDv3BlLH?usp=drive_link) and to pipe-separate distinct values. Record more verbose anatomical descriptions in [_Description_](#description).<br></br>
+The anatomical element(s) represented by the cataloged fossil material. Recommendation is to use a discipline-specific controlled vocabulary and to pipe-separate distinct values. Record more verbose anatomical descriptions in [_Description_](#description).<br></br>
 **Examples (invertebrates):** `pygidium/pygidia` `thorax`<br></br>
 **Examples (vertebrates):** `skull: dentary` `skull: maxilla` `vertebra: centrum`<br></br>
 **Examples (paleobotany):** `stem` `strobilus` `root` `pinnule(s)`<br></br>
