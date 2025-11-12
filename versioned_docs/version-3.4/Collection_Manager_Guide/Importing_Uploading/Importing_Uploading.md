@@ -1,7 +1,7 @@
 ---
 title: "Importing & Uploading Data"
 date: 2021-10-07
-lastmod: 2024-08-29
+lastmod: 2025-11-12
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson", "Lindsay Walker"]
 sidebar_position: 150
@@ -12,64 +12,72 @@ import ReactPlayer from "react-player";
 
 :::info
 
-This page provides instructions for uploading data into an existing collection in a Symbiota portal. Contact your portal manager if you do not already have a collection in your desired Symbiota portal.
+This page provides instructions for uploading data into an existing collection in a Symbiota portal. Contact your Portal Manager if you do not already have a collection in your desired Symbiota portal.
 
 :::
+
+Data import options are located under the _Import/Update Specimen Records_ section of the Administration Control Panel:
+![Admin Control Panel](/img/uploadoptions.png)
 
 ## Upload Types
 
 There are several options for uploading data into a Symbiota portal:
 
-- **Full Text File Upload:** Use this upload type if you will provide a comma-separated value (CSV) or tab-separated value (TSV) file containing ALL fields of your occurrence data. You can convert an Excel document into a CSV file by clicking Save As, then selecting comma-delimited (CSV) from the file types. **Note that, if data exists in the portal for any of the occurrences you are uploading, those data will be overwritten by the incoming data.** To upload partial records, use a Skeletal File Upload.
-- **Skeletal File Upload:** Use this upload type if you will provide a CSV or TSV file containing data from only a few fields (e.g., georeferences or other ancillary data). **Note that this upload type can only fill in fields that are currently _empty_ in the portal.** The data provided in a skeletal file upload will NOT overwrite existing data in the database, so any pre-existing data in the desired fields must be deleted if you wish to replace it with the data from the skeletal file.
-- **Darwin Core Archive Manual Upload:** Use this upload type if the data you wish to upload is in the format of a [Darwin Core Archive](http://en.wikipedia.org/wiki/Darwin_Core_Archive). A Darwin Core Archive (DwC-A) is a data standard that is commonly used to package species occurrence data into a single, self-contained dataset. A DwC-A includes metadata, a file of occurrence data, and, often, files for determinations (identifications) and media links (e.g., images).
-- **IPT Resource / Darwin Core Archive Provider:** Use this upload type if you will provide a URL to an existing Darwin Core Archive published on the web, such as one provided through an IPT.
-- **NfN File Upload:** Use this upload type if you will provide a CSV file produced from Notes from Nature.
-- **Direct Database Mapping:**
-- **Stored Procedure:** Use this option if you are transferring from a source schema to a Symbiota database located on the same MySQL database server.
-- **Script Upload:** Use this option if you are transferring from a MySQL source to Symbiota database that is located on a different server.
+- **[Full Text File Upload](#file-upload-or-skeletal-file-upload):** Use this upload type if you will provide a comma-separated value (CSV) or tab-separated value (TSV) file containing ALL fields of your occurrence data. You can convert an Excel document into a CSV file by clicking Save As, then selecting comma-delimited (CSV) from the file types. **⚠️ Note that, if data exists in the portal for any of the occurrences you are uploading, those data will be overwritten by the incoming data.** To upload partial records, use a Skeletal File Upload.
+- **[Skeletal File Upload](#file-upload-or-skeletal-file-upload):** Use this upload type if you will provide a CSV or TSV file containing data from only a few fields (e.g., georeferences or other ancillary data). **⚠️ Note that this upload type can only fill in fields that are currently _empty_ in the portal.** The data provided in a skeletal file upload will NOT overwrite existing data in the database, so any pre-existing data in the desired fields must be deleted if you wish to replace it with the data from the skeletal file.
+- **[Darwin Core Archive Manual Upload](#darwin-core-archive-manual-upload):** Use this upload type if the data you wish to upload is in the format of a [Darwin Core Archive](http://en.wikipedia.org/wiki/Darwin_Core_Archive). A Darwin Core Archive (DwC-A) is a data standard that is commonly used to package species occurrence data into a single, self-contained dataset. A DwC-A includes metadata, a file of occurrence data, and, often, files for determinations (identifications) and media links (e.g., images).
+- **[IPT Resource / Darwin Core Archive Provider](#ipt-resource--darwin-core-archive-provider):** Use this upload type if you will provide a URL to an existing Darwin Core Archive published on the web, such as one provided through an IPT.
+- **Extended Data Import:** Use to import data that create associations between your specimen records and resources that are internal or external to your portal. Detailed instructions are available [here](/Collection_Manager_Guide/Importing_Uploading/linked_resources).
+- **Notes from Nature File Upload:** Use this upload type if you will provide a CSV file produced from [Notes from Nature](https://www.zooniverse.org/organizations/md68135/notes-from-nature).
+- **Saved Import Profiles**: "Import Profiles" can be created and saved when if you intend to repeatedly ingest data from a given data source (described [below](#initiating-the-upload)).
+
+### Advanced Upload Options
+- **Direct Database Mapping**: Advanced import option that allows you to directly map data from another MySQL database.
+- **[Stored Procedure](#stored-procedure):** Use this option if you are transferring from a source schema to a Symbiota database located on the same MySQL database server. Initial setup may require assistance from your Portal Manager.
+- **[Script Upload](#script-upload):** Use this option if you are transferring from a MySQL source to Symbiota database that is located on a different server.
 
 ## Initiating the Upload
 
-1. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of your collection).
-2. Click Import/Update Specimen Records, then select "Create a new Import Profile".
-3. Create a title for your upload in the Title field.
-4. Select the desired Upload Type from the dropdown menu (see **Upload Types** section above).
-5. Follow the directions below according to the Upload Type you have selected.
+This process will allow you to initiate your data upload and simultaneously create a saved "Import Profile" for future use.
+
+1. Navigate to your Administration Control Panel (_My Profile > Occurrence Management > name of your collection_).
+2. In the Adminsration Control Panel, select _Import/Update Specimen Records > Create a new Import Profile_.
+3. Create a title for your new Import Profile in the _Title_ field, e.g. "Import from Your IPT".
+4. Select the desired _Upload Type_ from the dropdown menu (see [Upload Types](#upload-types) section above).
+5. Follow the directions below according to the _Upload Type_ you have selected.
 
 ### File Upload or Skeletal File Upload
 
-:::note
+:::warning
 
-A **Full Text File Upload** will use the incoming data to overwrite all existing occurrence data in the database, even for fields that are not included in the upload file. For example, if your database contains a "country" field, but your input file does not have the "country" field, after upload, the "country" field will be blank. After a Full Text File Upload, the only data associated with your specimens in the occurrence editor will be the data that were in the upload file.
+A **Full Text File Upload** will use the incoming data to **overwrite** all existing occurrence data in the database, even for fields that are not included in the upload file. For example, if your database contains a "country" field, but your input file does not have the "country" field, after upload, the "country" field will be blank. After a Full Text File Upload, the only data associated with your specimens in the occurrence editor will be the data that were in the upload file.
 Conversely, a **Skeletal File Upload** will only import data into fields that are empty. It will not replace existing values within fields.
 
 :::
 
-1. If you or your portal manager have created a Stored Procedure with data cleaning or other checks, enter the name of the stored procedure in the provided field. Otherwise, ignore this step.
-2. Click the Create Profile button.
-3. On the next page, you will see a list of existing upload profiles. Select the profile that you wish to use (the one you just greated) and click Initialize Upload.
+1. If your Portal Manager has created a [Stored Procedure](#stored-procedure) with data cleaning or other checks, enter the name of the stored procedure in the provided field. Otherwise, ignore this step.
+2. Click the "Create Profile" button.
+3. On the next page, you will see a list of existing Import Profiles. Select the profile that you wish to use (the one you just greated) and click "Initialize Upload...".
    - To edit your upload profile in the future, you can click the pencil icon on this page.
-4. Click the Choose File button and navigate to the file that you wish to upload in your File Manager or Finder window. Select that file and click Open.
-5. Click the Analyze File button.
-6. If the collection to which you are uploading data is live managed (the portal is your database system), proceed to step 7. If the collection to which you are uploading data is a “snapshot” of a specimen database managed within the home institution, select the primary key for the source specimen record from the dropdown menu. The primary key is a required field for snapshot datasets that will serve as the primary record identifier (the permanent link between the source database and the portal records). This field must be populated for every record with unique values. These values must also be stable and not changed in the central database over time. Snapshots will typically use the catalog number (accession number), barcode, or database primary key from the source database specimen table for this field.
+4. Select "Choose File" and navigate to the file that you wish to upload in your File Manager or Finder window. Select that file and click Open.
+5. Click the "Analyze File" button.
+6. If the collection to which you are uploading data is **live managed** (i.e., the portal is your primary database system), proceed to Step 7. If the collection to which you are uploading data is a “**snapshot**” (static copy) of a specimen database managed within the home institution, select the primary key for the source specimen record from the dropdown menu. The primary key is a required field for snapshot datasets that will serve as the primary record identifier (the permanent link between the source database and the portal records). This field must be populated for every record with unique values. These values must also be stable and not changed in the central database over time. Snapshots will typically use the catalog number (accession number), barcode, or database primary key from the source database specimen table for this field.
 7. You will then see a page that will look similar to the one shown below. The length and contents of the Source Field/Target Field table will depend on what columns were included in the original CSV file.
 
 ![Example of Data Upload Module](/img/DataUploadModule.png)
 
-8. Select which fields in your CSV file (**Source Fields**) will correspond to which fields in the Symbiota portal (**Target Fields**). Check the [Symbiota Data Field Guide](/Collection_Manager_Guide/Importing_Uploading/data_import_fields) for definitions of each data field. Also see the **Uploading Tips** section below.
+8. Select which fields in your CSV file (**Source Fields**) will correspond to which fields in the Symbiota portal (**Target Fields**). Check the [Data Field Import](/Collection_Manager_Guide/Importing_Uploading/data_import_fields) for and [Data Field Definition](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) guides for more information about each data field in Symbiota. Also see the **[Uploading Tips](#uploading-tips)** section below.
 9. Once you are satisfied with your field-to-field mapping (see next Notes), click the “Save Mapping” button.
 10. Select whether you would like the script to match the data in your file to existing data in the portal based on Catalog Number or Other Catalog Numbers. You will only need to do this if you are adding data to records that already exist in the portal. Otherwise, leave these unchecked.
-11. Select the Processing Status that you would like to apply to all your uploaded records (if desired) by selecting an option from the dropdown menu.
-12. Click the Start Upload button. This will upload your data into a _temporary_ table so you can review it before committing the final upload.
-13. Verify that the correct number of records are being updated and/or added by viewing the Pending Data Transport Report on the next page.
+11. Select the "Processing Status" that you would like to apply to all your uploaded records (if desired) by selecting an option from the dropdown menu.
+12. Click the "Start Upload" button. This will upload your data into a _temporary_ table so you can review it before committing the final upload. **Do not navigate away from this page until the "Pending Data Transfer Report" box is displayed.** 
 
-![Screenshot of Pending Data Transfer Report](/img/PendingDataTransport.png)
+![Screenshot of Pending Data Transfer Report](/img/PendingDataTransport_3-4.png)
 
-14. View the data that have been stored in the temporary table to ensure correct mapping and formatting of the fields you are uploading. You can either:
-    - Click the small box icon to the right of "Records to be updated" or "New records" to view the records in a table in your browser.
-    - Click the multiple file icon to the right of the box icon to download a CSV file of the records to be updated or new records.
-15. If anything is incorrect, fix your CSV file and re-upload it according to the steps you followed above, or return to your field mapping and fix the field mapping. If everything looks good, click the Transfer Records to Central Specimen Table button. **Note that this step is final and is not possible to undo!**
+13. Verify that the correct number of records are being updated and/or added by viewing the Pending Data Transfer Report. During this step, your data remain stored in the temporary table to give you an opportunity to ensure correct mapping and formatting of your data prior to final transfer into the database. You can preview your data import by either:
+    - Clicking on the small box icon to the right of "Occurrences pending transfer", "Records to be updated", and/or "New records" to preview the records in a table in your browser.
+    - Selecting the download (arrow) icon to the right of the box icon to download a CSV file of the records to be updated or added.
+14. If anything is incorrect, do not select "Transfer Records to Central Specimen Table"; instead, fix your CSV file and re-upload it according to the steps you followed above, or return to your field mapping and fix the field mapping. If everything looks good, click the "Transfer Records to Central Specimen Table" button. **This step is final and is not possible to undo!**
 
 ### Darwin Core Archive Manual Upload
 
