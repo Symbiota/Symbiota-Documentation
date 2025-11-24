@@ -28,16 +28,18 @@ The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.or
 - [TDWG - Darwin Core quick reference guide](https://dwc.tdwg.org/terms/)
 - [TDWG - List of Darwin Core terms](https://dwc.tdwg.org/list)
 
-:::note
-
-Fields listed here differ from the fields visible in the data uploading tools. For field information specific to the data upload tools, see the [Data Import fields page](/Collection_Manager_Guide/Importing_Uploading/data_import_fields).
-
+:::warning
+Since portals have the ability to customize the field names found on their data entry form, field names may differ from the core field definition and how it is mapped to Darwin Core export tools.
 :::
 
-:::warning
+## Related Documentation
 
-Since portals have the ability to customize the field names found on their data entry form, field names may differ from the core field definition and how it is mapped to Darwin Core export tools.
+:::tip
+If you want to learn **how to import data** into your portal, that information can be found [here](/Collection_Manager_Guide/Importing_Uploading/). (These [**uploading tips**](/Collection_Manager_Guide/Importing_Uploading/#uploading-tips) may be especially helpful if you're new to importing data into Symbiota portals!)
+:::
 
+:::tip
+Fields listed here differ from the fields visible in the data uploading tools. For field information specific to the data upload tools, see the [**Data Import Fields**](/Collection_Manager_Guide/Importing_Uploading/data_import_fields) documentation.
 :::
 
 <ButtonLink

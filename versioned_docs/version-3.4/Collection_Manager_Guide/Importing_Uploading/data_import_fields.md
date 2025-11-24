@@ -14,7 +14,7 @@ import ButtonLink from '@site/src/components/ButtonLink';
 This page lists the possible specimen fields that can be imported into a Symbiota data portal. The type of field (text, number, etc.) is listed in the **Type** field. The number of characters allowed in that field is displayed in parentheses, when applicable.
 :::
 
-### Complementary Documentation
+## Related Documentation
 
 :::tip
 If you want to learn **how to import data** into your portal, that information can be found [here](/Collection_Manager_Guide/Importing_Uploading/). (These [**uploading tips**](/Collection_Manager_Guide/Importing_Uploading/#uploading-tips) may be especially helpful if you're new to importing data into Symbiota portals!)
@@ -24,15 +24,19 @@ If you want to learn **how to import data** into your portal, that information c
 If you are looking for Symbiota **data field definitions**, that information can be found on [this page](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields).
 :::
 
-### Table Explanation
+## Table Explanation
 
 - **Name**: Name of data field as it exists in the "backend" of your Symbiota portal's underlying database
   - *Italic* = field is based on a term from the [Darwin Core (DwC) data standard](https://dwc.tdwg.org/terms/). For DwC fields, click on the link in the "Name" column to see the official DwC field definition. 
-  - **Bold** = strongly encouraged fields, though none of the fields are technically required
+  - **Bold** = strongly encouraged fields when data are available, though none of the fields are technically required
   - `*` = field is only used to faciliate the data import process; values in this field will be merged into another field after import
 - **Type**: [Type of data](https://www.w3schools.com/sql/sql_datatypes.asp)—such as a text string of a specific length or a formatted date—that can be successfully imported into the specified data field
 - **Notes**: Technical data import tips to complement [Symbiota Data Field definitions](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields). 
 
+## Standard Fields
+:::tip
+Definitions for Symbiota's standard fields can be found [here](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields#collector-info). 
+:::
 | Name | Type | Notes |
 |-|-|-|
 | associatedCollectors | Text (255) | All collectors except the primary collector, separated by commas or semicolons. |
@@ -169,6 +173,37 @@ If you are looking for Symbiota **data field definitions**, that information can
 | \*verbatimLongitude | Text (255) | Used to generate decimal longitude. This field will be merged into verbatimCoordinates. |
 | [_waterBody_](https://dwc.tdwg.org/terms/#dwc:waterBody) | Text (150) | **Note:** This field is not yet accessible in the occurrence editor. |
 | [_year_](https://dwc.tdwg.org/terms/#dwc:year) | Integer (4) | If eventDate is null, year-month-day will be used to build the eventDate. |
+
+## Paleontology Fields
+
+:::tip
+Definitions for Symbiota's paleontology fields can be found [here](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields#paleontology). 
+:::
+
+| Name | Type | Notes |
+|-|-|-|
+| paleo-absoluteAge | varchar(65) | |
+| [_paleo-bed_](https://dwc.tdwg.org/terms/#dwc:bed) | varchar(65) | |
+| paleo-biostratigraphy | varchar(100) | Data imported using paleo-biostratigraphy will override values entered into paleo-highest/lowestbiostratigraphiczone. Therefore, only import data in this field in place of paleo-highest/lowestbiostratigraphiczone but not in addition to these fields. |
+| paleo-biota | varchar(100) | |
+| paleo-earlyinterval | varchar(65) | Refer to the Symbiota Data Field definitions for [Early Interval and Late Interval](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields#early-interval-and-late-interval). |
+| paleo-element | varchar(250) | |
+| [_paleo-formation_](https://dwc.tdwg.org/terms/#dwc:formation)  | varchar(65) | |
+| [_paleo-geologicalcontextid_](https://dwc.tdwg.org/terms/#dwc:geologicalContextID) | varchar(100) | |
+| [*_paleo-highestbiostratigraphiczone_](https://dwc.tdwg.org/terms/#dwc:highestBiostratigraphicZone) | varchar(100) | Values imported using this field will concatenate with lowestBiostratigraphicZone, e.g. "Zone A - Zone B", whereby “Zone A” is the value entered for highestBiostratigraphicZone and “Zone B” is the value entered for lowestBiostratigraphicZone. The result will appear as “Zone A - Zone B” within the Occurrence Editor’s data entry form. For the import to work properly, both highestBiostratigraphicZone and lowestBiostratigraphicZone should contain values; otherwise, use paleo-biostratigraphy. |
+| paleo-latelnterval | varchar(65) | Refer to the Symbiota Data Field definitions for [Early Interval and Late Interval](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields#early-interval-and-late-interval). |
+| [_paleo-lithogroup_](https://dwc.tdwg.org/terms/#dwc:group) | varchar(65) | |
+| paleo-lithology | varchar(700) | |
+| paleo-localStage | varchar(65) | |
+| [*_paleo-lowestbiostratigraphiczone_](https://dwc.tdwg.org/terms/#dwc:lowestBiostratigraphicZone) | varchar(40) | A value imported using this field will concatenate with highestBiostratigraphicZone in the Occurrence Editor,  e.g. "Zone A - Zone B", whereby “Zone A” is the value entered for highestBiostratigraphicZone and “Zone B” is the value entered for lowestBiostratigraphicZone. For the import to work properly, both highestBiostratigraphicZone and lowestBiostratigraphicZone should contain values; otherwise, use paleo-biostratigraphy.  |
+| [_paleo-member_](https://dwc.tdwg.org/terms/#dwc:member) | varchar(65) | |
+| paleo-slideProperties | varchar(1000) | |
+| paleo-stratRemarks | varchar(1000) |  |
+| paleo-taxonEnvironment | varchar(65) | Controlled vocabulary; see Symbiota Data Field definition for Taxon Environment |
+
+## Specify Fields
+| Name | Type | Notes |
+|-|-|-|
 | specify:subspecies | Text | The infraspecific epithet of a subspecies only (without subsp. prefix). |
 | specify:subspecies_author | Text | The authorship of the subspecific epithet. |
 | specify:variety | Text | The infraspecific epithet of a variety only (without var. prefix).|
