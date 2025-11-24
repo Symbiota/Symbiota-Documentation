@@ -1,43 +1,37 @@
 ---
 title: "Data Import Fields"
 date: 2021-10-22
-lastmod: 2023-12-21
+lastmod: 2025-11-21
 authors: ["Ed Gilbert","Katie Pearson"]
 sidebar_position: 5
-editors: ["Katie Pearson"]
+editors: ["Katie Pearson, Lindsay Walker"]
 keywords: ["data upload","data import","file upload","IPT"]
 ---
 
 import ButtonLink from '@site/src/components/ButtonLink';
 
 :::info
-
 This page lists the possible specimen fields that can be imported into a Symbiota data portal. The type of field (text, number, etc.) is listed in the **Type** field. The number of characters allowed in that field is displayed in parentheses, when applicable.
-
 :::
 
-You can select any number of fields in the table below to include in your file upload, but some fields are more commonly used than others. At the button below, you will find a template based on plant collections in Excel format. The second row provides field explanataions and the third row provides an example. Delete these rows and save the file as a CSV (UTF-8) before attempting to upload.
-
-<ButtonLink
-  link="/documents/UploadTemplateForCollectors.xlsx"
-  label="Download Example Template"
-  download={true}
-  style={{marginBottom: '2vh'}}
-/>
-
-If the data portal is being used to displaying a “snapshot” of your data stored in your local central database, the upload file MUST have a field that serves as the unique identifier for each incoming specimen record (dbpk). This field serves a link between the source record and the snapshot record within the portal. If the import is a CSV file, the first row must contain field names. Note that field names do not have to match the name used below, but there cannot be any characters ($#@&%) in the column names. If you have issues saving your import profile, your field names may be too long! Try shortening the field names in the CSV file.
-
-For more information about data fields, also see our [Symbiota Data Fields](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) page.
-
-*Italic* = Darwin Core fields<br/>
-**Bold** = strongly encouraged fields, though none of the fields are technically required<br/>
-\* = for import only, merged into another field after import
+### Complementary Documentation
 
 :::tip
-
-For Darwin Core fields, click on the link in the "Name" column to see the DwC field definition.
-
+If you want to learn **how to import data** into your portal, that information can be found [here](/Collection_Manager_Guide/Importing_Uploading/). (These [**uploading tips**](/Collection_Manager_Guide/Importing_Uploading/#uploading-tips) may be especially helpful if you're new to importing data into Symbiota portals!)
 :::
+
+:::tip
+If you are looking for Symbiota **data field definitions**, that information can be found on [this page](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields).
+:::
+
+### Table Explanation
+
+- **Name**: Name of data field as it exists in the "backend" of your Symbiota portal's underlying database
+  - *Italic* = field is based on a term from the [Darwin Core (DwC) data standard](https://dwc.tdwg.org/terms/). For DwC fields, click on the link in the "Name" column to see the official DwC field definition. 
+  - **Bold** = strongly encouraged fields, though none of the fields are technically required
+  - `*` = field is only used to faciliate the data import process; values in this field will be merged into another field after import
+- **Type**: [Type of data](https://www.w3schools.com/sql/sql_datatypes.asp)—such as a text string of a specific length or a formatted date—that can be successfully imported into the specified data field
+- **Notes**: Technical data import tips to complement [Symbiota Data Field definitions](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields). 
 
 | Name | Type | Notes |
 |-|-|-|
