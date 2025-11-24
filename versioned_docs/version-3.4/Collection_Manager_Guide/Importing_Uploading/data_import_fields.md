@@ -11,7 +11,7 @@ keywords: ["data upload","data import","file upload","IPT"]
 import ButtonLink from '@site/src/components/ButtonLink';
 
 :::info
-This page lists the possible specimen fields that can be imported into a Symbiota data portal. The type of field (text, number, etc.) is listed in the **Type** field. The number of characters allowed in that field is displayed in parentheses, when applicable.
+This page lists the possible specimen fields that can be imported into a Symbiota data portal.
 :::
 
 ## Related Documentation
@@ -26,12 +26,14 @@ If you are looking for Symbiota **data field definitions**, that information can
 
 ## Table Explanation
 
-- **Name**: Name of data field as it exists in the "backend" of your Symbiota portal's underlying database
-  - *Italic* = field is based on a term from the [Darwin Core (DwC) data standard](https://dwc.tdwg.org/terms/). For DwC fields, click on the link in the "Name" column to see the official DwC field definition. 
-  - **Bold** = strongly encouraged fields when data are available, though none of the fields are technically required
-  - `*` = field is only used to faciliate the data import process; values in this field will be merged into another field after import
-- **Type**: [Type of data](https://www.w3schools.com/sql/sql_datatypes.asp)—such as a text string of a specific length or a formatted date—that can be successfully imported into the specified data field
-- **Notes**: Technical data import tips to complement [Symbiota Data Field definitions](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields). 
+| Name | Type | Notes |
+|-|-|-|
+| Name of data field as it exists in your Symbiota portal's underlying database |[Type of data](https://www.w3schools.com/sql/sql_datatypes.asp)—such as a text string of a specific length or a formatted date—that can be successfully imported into the specified data field. The number of allowable characters is displayed parenthetically, when applicable, e.g. "Text (255)". | Technical data import tips to complement [Symbiota Data Field definitions](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields) |
+
+- Explanation of **Name** formatting:
+  - *Italic* = Data field corresponds to the [Darwin Core (DwC) data standard](https://dwc.tdwg.org/terms/). For DwC fields, click on the link in the "Name" column to see the official DwC field definition.
+  - **Bold** = Use of this data field is strongly encouraged  when data are available
+  - `*` = Denotes that a field is only used to faciliate the data import process; values in this field will be merged into another field after import.
 
 ## Standard Fields
 :::tip
@@ -45,7 +47,7 @@ Definitions for Symbiota's standard fields can be found [here](/Editor_Guide/Edi
 | [_associatedTaxa_](https://dwc.tdwg.org/terms/#dwc:associatedTaxa) | Text (65,535) | Associated taxa delimited by commas or semicolons |
 | authorInfraspecific | Text | The authorship of the infraspecific epithet, if different than the authorship of the specific epithet. If you do not provide authorships, authorships will be automatically assigned according to the taxonomic thesaurus (if the name is found in the thesaurus). See also specify:subspecies_author,  specify:variety_author, and specify:forma_author.  |
 | authorSpecies | Text | The authorship of the specific epithet of the species. If you do not provide authorships, authorships will be automatically assigned according to the taxonomic thesaurus (if the name is found in the thesaurus). |
-| [_basisOfRecord_](https://dwc.tdwg.org/terms/#dwc:basisOfRecord) | Text (32) | |
+| [**_basisOfRecord_**](https://dwc.tdwg.org/terms/#dwc:basisOfRecord) | Text (32) | |
 | [_behavior_](https://dwc.tdwg.org/terms/#dwc:behavior) | Text (500) | |
 | [**_catalogNumber_**](https://dwc.tdwg.org/terms/#dwc:catalogNumber) | Text (32) | Barcode or Accession number |
 | [_collectionCode_](https://dwc.tdwg.org/terms/#dwc:collectionCode) | Text (32) | Populate only if different than source collection (i.e., the manager/metadata/) associated with your collection) |

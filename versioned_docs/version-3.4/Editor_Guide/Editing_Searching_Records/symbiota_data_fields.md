@@ -20,16 +20,8 @@ keywords:
 
 # Symbiota Data Fields
 
-import Button from '@site/src/components/Button';
-import ButtonLink from '@site/src/components/ButtonLink';
-
-The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.org/standards/dwc/" target="_blank" rel="noopener noreferrer">Darwin Core</a> data exchange standard. For more details, links to the Darwin Core definitions are supplied for each term. Learn more about Darwin Core terms in the following TDWG pages:
-
-- [TDWG - Darwin Core quick reference guide](https://dwc.tdwg.org/terms/)
-- [TDWG - List of Darwin Core terms](https://dwc.tdwg.org/list)
-
-:::warning
-Since portals have the ability to customize the field names found on their data entry form, field names may differ from the core field definition and how it is mapped to Darwin Core export tools.
+:::info
+This page provides data field definitions to guide the interoperability of data in Symbiota portals.
 :::
 
 ## Related Documentation
@@ -41,6 +33,19 @@ If you want to learn **how to import data** into your portal, that information c
 :::tip
 Fields listed here differ from the fields visible in the data uploading tools. For field information specific to the data upload tools, see the [**Data Import Fields**](/Collection_Manager_Guide/Importing_Uploading/data_import_fields) documentation.
 :::
+
+:::note
+**The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.org/standards/dwc/" target="_blank" rel="noopener noreferrer">Darwin Core (DwC)</a> data standard**. For more details, links to the Darwin Core definitions are supplied for each term. Learn more about Darwin Core terms in the following TDWG pages:
+- [TDWG - Darwin Core Quick Reference Guide](https://dwc.tdwg.org/terms/)
+- [TDWG - List of Darwin Core terms](https://dwc.tdwg.org/list)
+:::
+
+:::warning
+Since portals have the ability to customize the field names found on their data entry form, field names may differ from the core field definition and how it is mapped to Darwin Core export tools.
+:::
+
+import Button from '@site/src/components/Button';
+import ButtonLink from '@site/src/components/ButtonLink';
 
 <ButtonLink
 link="/documents/SymbiotaDataFields202533.csv"
