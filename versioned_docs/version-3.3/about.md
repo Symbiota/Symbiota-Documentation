@@ -11,7 +11,7 @@ sidebar_position: 5
 **[Symbiota](https://symbiota.org/)** is an open-source software for managing and mobilizing biodiversity data that serves over 2,000 natural history collections and over 95 million occurrence (specimen or observation) records. Visit **[Symbiota.org](https://symbiota.org/)** to learn more. The central code for this version of Symbiota can be found in [GitHub](https://github.com/Symbiota/Symbiota).
 :::
 
-**[Symbiota Docs](https://symbiota.org/docs)** is a central repository for documentation regarding Symbiota-based data portals. This site is maintained by the Symbiota Support Hub, but all Symbiota users may contribute. [Contact Us](https://symbiota.org/contact-the-support-hub/) to contribute or provide feedback on this site.
+Symbiota Docs is a central repository for documentation regarding Symbiota-based data portals. This site is maintained by the Symbiota Support Hub, but all Symbiota users may contribute. [Contact Us](https://symbiota.org/contact-the-support-hub/) to contribute or provide feedback on this site.
 
 Symbiota portals are used by thousands of collectors, researchers, collection managers, curators, students, land managers, educators, and others. Symbiota Docs is organized according to the different permissions levels that are available to users of Symbiota portals. In the left-hand menu, you can navigate between the following guides:
 * **[Collector/Observer Guide](/Collector_Observer_Guide/)**: This guide describes how collectors of data and/or specimens can add records to a Symbiota portal's Personal Observations Profile collection. Editors of Personal Observation Profiles need not be affiliated with any particular institution or collection represented in the portal.
