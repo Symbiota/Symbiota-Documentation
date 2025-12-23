@@ -1,7 +1,7 @@
 ---
 title: "Darwin Core Archives"
 date: 2025-01-30
-lastmod: 2025-07-15
+lastmod: 2025-12-23
 draft: false
 weight: 30
 authors: ["Katie Pearson"]
