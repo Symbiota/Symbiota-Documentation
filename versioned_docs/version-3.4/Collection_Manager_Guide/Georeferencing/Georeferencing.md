@@ -9,4 +9,4 @@ keywords: ["georeferencing"]
 
 General instructions and resources for georeferencing can be found in the [Editor Guide](/Editor_Guide/Georeferencing).
 
-Collection managers (i.e., users with administrator permissions) can additionally push data to the GEOLocate Collaborative Georeference client.
+Collection managers (i.e., users with administrator permissions) can additionally push data to the [GEOLocate Collaborative Georeference](/Collection_Manager_Guide/Georeferencing/collaborative_georeferencing) client and use the [Duplicate Data Harvester Tool](/Collection_Manager_Guide/Georeferencing/duplicate_georeferencing) to harvest georeferences from duplicate specimens.
