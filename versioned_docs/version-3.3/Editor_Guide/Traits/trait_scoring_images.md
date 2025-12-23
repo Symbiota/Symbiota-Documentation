@@ -1,6 +1,6 @@
 ---
 title: "Trait Scoring from Images"
-date: 2021-12-09
+date: 2025-12-22
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["trait scoring", "attribute scoring", "phenology", "traits"]
@@ -17,12 +17,6 @@ This page describes how to score traits for an occurrence from an image of that 
 Trait scoring tools are not activated in all portals. Contact your portal manager for more information.
 
 :::
-
-### Scoring traits for a single specimen
-
-Navigate to the Occurence Editor for the occurrence you wish to score (see [this page](/Editor_Guide/Editing_Searching_Records) for help finding specimens) and click on the Traits tab. Any traits available for scoring will be displayed in boxes in this tab. To view additional scoring optiosn for a given trait, click the black triangle at the top right of the box (highlighted below). From here, you can score the traits from any available images. You can also remove trait information by clicking the Delete Coding button.
-
-![Traits Tab](/img/traitstab.png)
 
 ### Scoring traits using the Trait Scoring from Images tools
 
