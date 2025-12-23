@@ -20,7 +20,7 @@ Collection statistics are generated on command and are not created "on the fly".
 
 :::
 
-Statistics relating to the number of specimens, images, georeferences, and taxa within a collection can be found on that collection's Collection Profile page. An example collection profile is shown in the screenshot below and can be found [here](https://cch2.org/portal/collections/misc/collprofiles.php?collid=12). The collection statistics are found at the bottom of the page and include:
+Statistics relating to the number of specimens, images, georeferences, and taxa within a collection can be found on that collection's Collection Profile page. An example collection profile is shown in the screenshot below and can be found [here](https://cch2.org/portal/collections/misc/collprofiles.php?collid=12). The collection statistics include:
 
 - Number of total records
 - Number of records that are georeferenced
@@ -29,7 +29,7 @@ Statistics relating to the number of specimens, images, georeferences, and taxa 
 - Number of specimens that are identified at least to the level of species
 - Number of families, genera, species, and total taxa that represented in the collection (NOTE: these numbers are calculated using only taxonomic names that have been indexed to the taxonomic thesaurus)
 
-![Collection Profile Page](/img/collprofile.png)
+![Collection Profile Page](/img/collprofile2025.PNG)
 
 Collection profiles can be accessed by visiting the Collection Search Page (click Search Collections) at the following URL: [BASE URL]/collections/index.php. For example, for the CCH2 portal, the full URL is https://cch2.org/portal/collections/index.php.
 
@@ -37,7 +37,7 @@ If you are an editor or administrator for a collection, you can also access your
 
 ### Refreshing Collection Statistics
 
-Collection statistics are generated on command and are not created "on the fly". To refresh your collection statistics, navigate to your Administration Control Panel (My Profile > Occurrence Management > name of collection) and click Update Statistics (bottom link in the Administration Control Panel).
+Collection statistics are generated on command and are not created "on the fly". The date the statistics were last refreshed is listed in parentheses below the statistics. To refresh your collection statistics, navigate to your Administration Control Panel (My Profile > Occurrence Management > name of collection) and click Update Statistics (bottom link in the Administration Control Panel).
 
 ### Processing Status Statistics in the Reports Tab
 
