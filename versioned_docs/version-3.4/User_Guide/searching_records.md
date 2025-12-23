@@ -19,9 +19,9 @@ Symbiota portals serve data from specimens and observations according to regiona
 4. Click the Search button on the far right to conduct your search.
 
 
-| ![Symbiota search interface](/img/newsamplesearch.png)  |
+| ![Symbiota search interface](/img/newsamplesearch2025.PNG)  |
 | :-------------------------------------: |
-| Publicly accessible search form visible on Symbiota portals |
+| Publicly accessible search form visible on Symbiota portals. Additional criteria may be present in your portal, depending on how it is configured (see Geological Context and Taxon Character Criteria below). |
 
 ### Search Criteria
 - The criteria you can use will vary depending on the portal, but generally include the following categories: 1) Taxonomic Criteria, 2) Locality Criteria, 3) Latitude and Longitude, 4) Collecting Event Criteria, 5) Specimen/Observation Properties, 6) Trait Criteria (if enabled), 7) Associations (if they exist in your portal), 8) Geological Context (if enabled), and 8) Taxon Character Criteria (if enabled).
