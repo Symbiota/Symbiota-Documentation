@@ -31,7 +31,7 @@ After you add a date, make sure you hit "Tab" on your keyboard or click on the n
 
 If you wish to print this annotation label now or in the future, also check the _Add to Annotation Print Queue_ box. Click Submit Determination.
 
-![Add New Determination Form](/img/addnewdetermination.png)
+![Add New Determination Form](/img/addnewdetermination2025.png)
 
 :::note
 
@@ -43,11 +43,11 @@ If the specimen previously had an identification and you have checked the box ne
 
 You can add many annotations at once using the Add Batch Determinations/Nomenclatural Adjustments tool. Navigate to this tool by accessing the Data Editor Control Panel (My Profile > Occurrence Records > name of collection) and clicking "Add Batch Determinations/Nomenclatural Adjustments." To select the specimens to which determination data will be added ("Define Specimen Recordset"), either enter a list of catalog numbers (separated by commas) in the "Catalog Number:" field or select a taxon to evaluate by entering its name in the "Taxon:" field. Click the Add Record(s) to List button.
 
-![Batch Annotation Search Form](/img/addbatchannotations.png)
+![Batch Annotation Search Form](/img/addbatchannotations2025.png)
 
 A table of specimens of the indicated taxon will appear below the "Define Specimen Recordset" box (see screenshot below). You can then select all the specimens that you wish to annotate by checking or unchecking the boxes in the leftmost column of the table. Use the "Select/Deselect all Specimens" box to uncheck or check all the boxes if you would prefer to select specimens one by one.
 
-![Batch Annotation Entry Form](/img/batchannotationform.png)
+![Batch Annotation Entry Form](/img/batchannotationform2025.png)
 
 Add information about the name change in the "New Determination Details" box.
 
