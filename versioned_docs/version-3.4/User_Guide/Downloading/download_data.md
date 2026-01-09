@@ -19,7 +19,7 @@ Downloading data from Symbiota portals can easily be done from a public search.
 
 :::note
 
-Most portals require you to be logged in to download data. If you don't already have an account, click the "Sign In" button and follow the link to "Create an Account".
+Most portals require you to be logged in to download data. If you don't already have an account, click the "Sign In" button and follow the link to "Create an Account". If you don't remember if you have an account or lost your login information, contact help@symbiota.org for assistance.
 
 :::
 
