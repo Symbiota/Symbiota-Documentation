@@ -16,6 +16,7 @@ Symbiota has a number of useful built-in tools for data cleaning processes. Each
 - [Compare Duplicate IDs Across Collections](/Collection_Manager_Guide/Data_Cleaning/compare_duplicate_ids)
 - [Duplicate Catalog Numbers](/Collection_Manager_Guide/Data_Cleaning/duplicate_catalog_numbers)
 - [Geographic Cleaning Tools](/Collection_Manager_Guide/Data_Cleaning/geographic_cleaning)
+- [Coordinate Validation Tools](/Collection_Manager_Guide/Data_Cleaning/coordinate_validator)
 - [Taxonomic Cleaning Tools](/Collection_Manager_Guide/Data_Cleaning/taxonomic_cleaning)
 - [Data Quality Toolkit](/Editor_Guide/data_quality_toolkit) (designed for Collection Administrators and Editors)
 
