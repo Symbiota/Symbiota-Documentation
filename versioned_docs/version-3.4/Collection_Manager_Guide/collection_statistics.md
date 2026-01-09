@@ -1,6 +1,6 @@
 ---
 title: "Collection Statistics"
-date: 2021-11-30
+date: 2021-12-23
 authors: ["Katie Pearson"]
 sidebar_position: 20
 keywords: ["statistics", "number of specimens", "reports"]
@@ -33,11 +33,11 @@ Statistics relating to the number of specimens, images, georeferences, and taxa 
 
 Collection profiles can be accessed by visiting the Collection Search Page (click Search Collections) at the following URL: [BASE URL]/collections/index.php. For example, for the CCH2 portal, the full URL is https://cch2.org/portal/collections/index.php.
 
-If you are an editor or administrator for a collection, you can also access your statistics by clicking My Profile > Occurrence Management > name of collection.
+If you are an Administrator for a collection, you can also access your statistics by clicking My Profile > Occurrence Management > name of collection.
 
 ### Refreshing Collection Statistics
 
-Collection statistics are generated on command and are not created "on the fly". The date the statistics were last refreshed is listed in parentheses below the statistics. To refresh your collection statistics, navigate to your Administration Control Panel (My Profile > Occurrence Management > name of collection) and click Update Statistics (bottom link in the Administration Control Panel).
+Collection statistics are generated on command and are not created "on the fly". The date the statistics were last refreshed is listed in parentheses below the statistics. To refresh your collection statistics, your user account must have "Administrator" permissions. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of collection) and click Update Statistics (bottom link in the Administration Control Panel).
 
 ### Processing Status Statistics in the Reports Tab
 
