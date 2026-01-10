@@ -1,7 +1,7 @@
 ---
 title: "Importing & Uploading Data"
 date: 2021-10-07
-lastmod: 2025-11-24
+lastmod: 2026-01-09
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson", "Lindsay Walker"]
 sidebar_position: 150
@@ -50,8 +50,7 @@ This process will allow you to initiate your data upload and simultaneously crea
 
 :::warning
 
-A **Full Text File Upload** will use the incoming data to **overwrite** all existing occurrence data in the database, even for fields that are not included in the upload file. For example, if your database contains a "country" field, but your input file does not have the "country" field, after upload, the "country" field will be blank. After a Full Text File Upload, the only data associated with your specimens in the occurrence editor will be the data that were in the upload file.
-Conversely, a **Skeletal File Upload** will only import data into fields that are empty. It will not replace existing values within fields.
+A **Full Text File Upload** will use the incoming data to **overwrite** all existing occurrence data in the database, even for fields that are not included in the upload file. For example, if your database contains a "country" field, but your input file does not have the "country" field, after upload, the "country" field will be blank. After a Full Text File Upload, the only data associated with your specimens in the occurrence editor will be the data that were in the upload file. Conversely, a **Skeletal File Upload** will only import data into fields that are empty. It will not replace existing values within fields. Refer to [Uploading Tips](#uploading-tips) for further guidance.
 
 :::
 
@@ -148,6 +147,12 @@ A list of fields that can be imported into a Symbiota data portal can be [found 
 
 :::warning
 
+Before updating/editing a large volume of existing records using Symbiota's various upload options, consider downloading a [Backup File](/Collection_Manager_Guide/Downloading/downloading_copy) that can be used to [restore](/Collection_Manager_Guide/restoring_database) your data if the import does not work as expected.
+
+:::
+
+:::warning
+
 You can delete erroneous records [one-by-one](/Collection_Manager_Guide/deleting_records), but not in batch. If you're new to using data ingestion tools in Symbiota portals, start by uploading a small number of records before ingesting larger datasets.
 
 :::
@@ -165,12 +170,12 @@ You can delete erroneous records [one-by-one](/Collection_Manager_Guide/deleting
   - If you have UTM coordinates in multiple fields, map the fields (northing, easting, zone) to their matching UTM fields (utmnorthing, utmeasting, utmzone). This will instigate conversion of UTM coordinates to decimal latitude and longitude. The values will additionally be stored in the verbatiumCoordinates field.
   - If you have UTM coordinates in a single field, map this field to utmnorthing and leave other UTM fields null in order to direct scripts to parse using only the UTM parser.
   - TRS coordinates (Public Lands Survey System) can be entered as a single field into verbatimCoordinates, or into separate fields (trstownship, trsrange, trssection, trssectiondetails); however, these coordinates will not be automatically converted into decimal degrees due to potential differences in interpretation. See the georeferencing section of this guide (coming soon) for information about converting TRS coordinates to decimal degrees.
+- **Fossil specimen data**: Importing data into the [Paleo Module](/Editor_Guide/Editing_Searching_Records/paleontological_data#orientation) works similarly to importing data into other fields on the Occurrence Editor form. However, when using the Skeletal File Upload option to modify existing records, importing values into either [_Early Interval_](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval) OR [_Late Interval_](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval) may replace/backfill existing values in the opposite field with the imported value, even if these values are not NULL/blank prior to data upload. Use other methods to modify data in these fields for many records at one time, e.g. via Full Text File Upload or using the [Batch Editing](/Collection_Manager_Guide/Editing_Occurrences/batch_editing) tool.
 - **Snapshots**: If you are using a Symbiota portal to share a “snapshot” of your data managed in an external/locally maintained database, your import file MUST contain a field with the unique identifiers for each incoming specimen record (`dbpk`). This field serves a link between the source record and the snapshot record within the portal.
 - **File formatting**:
   - If you will be importing a CSV-formatted spreadsheet into your portal—as is typically used for a [Full Text File Upload or Skeletal File Upload](#file-upload-or-skeletal-file-upload)—the first/top row of your spreadsheet must contain your selected import field names.
   - Field names in your file to be imported do not have to precisely match the [Symbiota data import field names](/Collection_Manager_Guide/Importing_Uploading/data_import_fields), but special characters ($#@&%) are not permitted. If you have issues saving your import profile, your field names may be too long! Try shortening the field names in your CSV file.
   - You can include any number of data fields in your CSV file to be uploaded, but some fields are more commonly used than others. The [upload template](#upload-template) contains some of the most commonly used fields by herbarium/plant collections.
-
 
 ## Related Video Tutorials
 
