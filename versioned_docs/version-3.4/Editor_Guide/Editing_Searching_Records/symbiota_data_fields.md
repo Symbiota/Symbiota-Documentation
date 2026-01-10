@@ -1,7 +1,7 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2025-11-24
+lastmod: 2025-01-09
 draft: false
 authors: ["Ed Gilbert", "Katie Pearson", "Lindsay Walker"]
 editors: ["Laura Rocha Prado"]
@@ -48,7 +48,7 @@ import Button from '@site/src/components/Button';
 import ButtonLink from '@site/src/components/ButtonLink';
 
 <ButtonLink
-link="/documents/SymbiotaDataFields202533.csv"
+link="/documents/SymbiotaDataFields202634.csv"
 label="Download full content as a CSV"
 download={true}
 style={{marginBottom: '2vh'}}
@@ -508,6 +508,11 @@ The name (or acronym) in use by the institution having ownership of the object(s
 **Examples:** `NPS` `BLM` `NMNH`<br></br>
 See Darwin Core's [ownerInstitutionCode](https://dwc.tdwg.org/terms/#dwc:ownerInstitutionCode)
 
+### Storage Location
+
+Permanent physical storage location of the cataloged material within the collection space.<br></br>
+**Examples:** `Freezer 3` `Oversize Storage` `Cab011 | Dwr002` `Cabinet: 1 | Tray 4` `Miocene Cabinet`
+
 ### Basis of Record
 
 The type of record the specimen is classified as. For collections of physically preserved specimens, this field defaults to `PreservedSpecimen` or `FossilSpecimen` depending on how your collection is configured; for observation projects, the default is `HumanObservation`.<br></br>
@@ -640,11 +645,6 @@ See above for [_Early Interval_ and _Late Interval_](#early-interval-and-late-in
 
 The numerically resolved age of the cataloged fossil material in years determined using absolute dating techniques, such as radiocarbon/carbon-14 dating, K-Ar, U-Pb, and Ar-Ar dating, etc.<br></br>
 **Examples:** `20 Ma` `75 ka` `10.5 – 12.7 +/- 0.5 Ma`
-
-### Storage Age
-
-Physical storage location of the cataloged fossil material within the collection space.<br></br>
-**Examples:** `Cabinet: 1 | Tray 4` `Miocene Cabinet` `Bridgerian`
 
 ### Local Stage
 The name of an interval in geological time that is used locally or regionally but isn’t necessarily internationally accepted, such as a North American Land Mammal Age.<br></br>
