@@ -1,9 +1,10 @@
 ---
 title: "Alphabetically Sorted Index of Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2021-11-16
+lastmod: 2026-01-09
 draft: false
 authors: ["Laura Rocha Prado"]
+editors: ["Lindsay Walker"]
 keywords: ["fields","data fields", "terms", "dwc terms"]
 sidebar_position: 1
 ---
@@ -89,7 +90,7 @@ Click each field to see a full definition and examples.
 - [Slide Properties](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#slide-properties)
 - [Stage](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#stage)
 - [State/Province](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#stateprovince)
-- [Storage Age](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#storage-age)
+- [Storage Location](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#storage-location)
 - [Stratigraphic Remarks](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#stratigraphic-remarks)
 - [Substrate](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#substrate)
 - [Taxon Environment](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#taxon-environment)
