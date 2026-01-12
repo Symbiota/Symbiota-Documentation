@@ -1,7 +1,7 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2025-10-27
+lastmod: 2025-01-09
 draft: false
 authors: ["Ed Gilbert", "Katie Pearson", "Lindsay Walker"]
 editors: ["Laura Rocha Prado"]
@@ -20,28 +20,35 @@ keywords:
 
 # Symbiota Data Fields
 
-import Button from '@site/src/components/Button';
-import ButtonLink from '@site/src/components/ButtonLink';
+:::info
+This page provides data field definitions to guide the interoperability of data in Symbiota portals.
+:::
 
-The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.org/standards/dwc/" target="_blank" rel="noopener noreferrer">Darwin Core</a> data exchange standard. For more details, links to the Darwin Core definitions are supplied for each term. Learn more about Darwin Core terms in the following TDWG pages:
+## Related Documentation
 
-- [TDWG - Darwin Core quick reference guide](https://dwc.tdwg.org/terms/)
-- [TDWG - List of Darwin Core terms](https://dwc.tdwg.org/list)
+:::tip
+If you want to learn **how to import data** into your portal, that information can be found [here](/Collection_Manager_Guide/Importing_Uploading/). (These [**uploading tips**](/Collection_Manager_Guide/Importing_Uploading/#uploading-tips) may be especially helpful if you're new to importing data into Symbiota portals!)
+:::
+
+:::tip
+Fields listed here differ from the fields visible in the data uploading tools. For field information specific to the data upload tools, see the [**Data Import Fields**](/Collection_Manager_Guide/Importing_Uploading/data_import_fields) documentation.
+:::
 
 :::note
-
-Fields listed here differ from the fields visible in the data uploading tools. For field information specific to the data upload tools, see the [Data Import fields page](/Collection_Manager_Guide/Importing_Uploading/data_import_fields).
-
+**The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.org/standards/dwc/" target="_blank" rel="noopener noreferrer">Darwin Core (DwC)</a> data standard**. For more details, links to the Darwin Core definitions are supplied for each term. Learn more about Darwin Core terms in the following TDWG pages:
+- [TDWG - Darwin Core Quick Reference Guide](https://dwc.tdwg.org/terms/)
+- [TDWG - List of Darwin Core terms](https://dwc.tdwg.org/list)
 :::
 
 :::warning
-
 Since portals have the ability to customize the field names found on their data entry form, field names may differ from the core field definition and how it is mapped to Darwin Core export tools.
-
 :::
 
+import Button from '@site/src/components/Button';
+import ButtonLink from '@site/src/components/ButtonLink';
+
 <ButtonLink
-link="/documents/SymbiotaDataFields202533.csv"
+link="/documents/SymbiotaDataFields202634.csv"
 label="Download full content as a CSV"
 download={true}
 style={{marginBottom: '2vh'}}
@@ -501,6 +508,11 @@ The name (or acronym) in use by the institution having ownership of the object(s
 **Examples:** `NPS` `BLM` `NMNH`<br></br>
 See Darwin Core's [ownerInstitutionCode](https://dwc.tdwg.org/terms/#dwc:ownerInstitutionCode)
 
+### Storage Location
+
+Permanent physical storage location of the cataloged material within the collection space.<br></br>
+**Examples:** `Freezer 3` `Oversize Storage` `Cab011 | Dwr002` `Cabinet: 1 | Tray 4` `Miocene Cabinet`
+
 ### Basis of Record
 
 The type of record the specimen is classified as. For collections of physically preserved specimens, this field defaults to `PreservedSpecimen` or `FossilSpecimen` depending on how your collection is configured; for observation projects, the default is `HumanObservation`.<br></br>
@@ -633,11 +645,6 @@ See above for [_Early Interval_ and _Late Interval_](#early-interval-and-late-in
 
 The numerically resolved age of the cataloged fossil material in years determined using absolute dating techniques, such as radiocarbon/carbon-14 dating, K-Ar, U-Pb, and Ar-Ar dating, etc.<br></br>
 **Examples:** `20 Ma` `75 ka` `10.5 – 12.7 +/- 0.5 Ma`
-
-### Storage Age
-
-Physical storage location of the cataloged fossil material within the collection space.<br></br>
-**Examples:** `Cabinet: 1 | Tray 4` `Miocene Cabinet` `Bridgerian`
 
 ### Local Stage
 The name of an interval in geological time that is used locally or regionally but isn’t necessarily internationally accepted, such as a North American Land Mammal Age.<br></br>

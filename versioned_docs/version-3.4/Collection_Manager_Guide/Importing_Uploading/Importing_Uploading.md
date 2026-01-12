@@ -1,7 +1,7 @@
 ---
 title: "Importing & Uploading Data"
 date: 2021-10-07
-lastmod: 2025-11-12
+lastmod: 2026-01-09
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson", "Lindsay Walker"]
 sidebar_position: 150
@@ -50,8 +50,7 @@ This process will allow you to initiate your data upload and simultaneously crea
 
 :::warning
 
-A **Full Text File Upload** will use the incoming data to **overwrite** all existing occurrence data in the database, even for fields that are not included in the upload file. For example, if your database contains a "country" field, but your input file does not have the "country" field, after upload, the "country" field will be blank. After a Full Text File Upload, the only data associated with your specimens in the occurrence editor will be the data that were in the upload file.
-Conversely, a **Skeletal File Upload** will only import data into fields that are empty. It will not replace existing values within fields.
+A **Full Text File Upload** will use the incoming data to **overwrite** all existing occurrence data in the database, even for fields that are not included in the upload file. For example, if your database contains a "country" field, but your input file does not have the "country" field, after upload, the "country" field will be blank. After a Full Text File Upload, the only data associated with your specimens in the occurrence editor will be the data that were in the upload file. Conversely, a **Skeletal File Upload** will only import data into fields that are empty. It will not replace existing values within fields. Refer to [Uploading Tips](#uploading-tips) for further guidance.
 
 :::
 
@@ -125,6 +124,19 @@ The same cautions as a manual Darwin Core Archive upload apply to this upload ty
 1. Write a stored procedure used to transfer records. A sample Linux script is located here: [SampleSystemUpload.sh](https://symbiota.org/wp-content/uploads/SampleSystemUpload.sh). The cleanup scripts can be put in central stored procedure or kept separate.
 2. Set up the script to run as a regular cronjob.
 
+## Upload Template
+
+Using the button below, you can download a pre-made template based on plant/herbarium collections, which can be customized to include more (or fewer) [data fields](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields) according to your needs. In this file, the second row provides field explanations and the third row provides an example value to be imported into your portal. Before initiating your file upload, delete these two rows (retain the first/top row) and save the file as a CSV (UTF-8).
+
+import Button from '@site/src/components/Button';
+import ButtonLink from '@site/src/components/ButtonLink';
+
+<ButtonLink
+  link="/documents/UploadTemplateForCollectors.xlsx"
+  label="Download Example Template"
+  download={true}
+  style={{marginBottom: '2vh'}}/>
+
 ## Uploading Tips
 
 :::tip
@@ -135,22 +147,35 @@ A list of fields that can be imported into a Symbiota data portal can be [found 
 
 :::warning
 
+Before updating/editing a large volume of existing records using Symbiota's various upload options, consider downloading a [Backup File](/Collection_Manager_Guide/Downloading/downloading_copy) that can be used to [restore](/Collection_Manager_Guide/restoring_database) your data if the import does not work as expected.
+
+:::
+
+:::warning
+
 You can delete erroneous records [one-by-one](/Collection_Manager_Guide/deleting_records), but not in batch. If you're new to using data ingestion tools in Symbiota portals, start by uploading a small number of records before ingesting larger datasets.
 
 :::
 
-- To take advantage of the [Tag Name + Identifier](/Editor_Guide/Editing_Searching_Records/catalog_numbers) system (in which you can tag an identifier/other catalog number with a specific title), enter the tag name followed by a colon and then the identifier value, e.g., "Old Accession Number: 12345". For multiple identifiers, separate the tag name + identifiers by semicolons, e.g., "NP #: 4321; Accession #: 9876"
-- If the scientific names in your CSV file include taxonomic authorship (e.g., _Acer circinatum_ Pursh), map this field to the Target Field “scientificname.” If the scientific names included in your CSV file do NOT include taxonomic authorship (e.g., _Acer circinatum_), map this field to “sciname.”
-- Collection dates mapped to eventDate will be evaluated and validated. Illegal dates will be placed in the verbatimEventDate field. The majority of the standard date formats are accepted, including Gregorian dates and Excel numeric date format (US only).
+- **Primary identifiers**: Each record (row) in your import file must have an **identifier** that is either unique to your collection (e.g., a catalog number) or globally unique [dwc:occurrenceid](https://dwc.tdwg.org/terms/#dwc:occurrenceID) value (e.g., a GUID).
+- **Additional identifiers**: To take advantage of the [Tag Name + Identifier](/Editor_Guide/Editing_Searching_Records/catalog_numbers) system (in which you can tag an identifier/other catalog number with a specific title), enter the tag name followed by a colon and then the identifier value, e.g., "Old Accession Number: 12345". For multiple identifiers, separate the tag name + identifiers by semicolons, e.g., "NP #: 4321; Accession #: 9876"
+- **Scientific names**: If the scientific names in your CSV file include taxonomic authorship (e.g., _Acer circinatum_ Pursh), map this field to the Target Field “scientificname.” If the scientific names included in your CSV file do NOT include taxonomic authorship (e.g., _Acer circinatum_), map this field to “sciname.”
+- **Dates**: Collection dates mapped to eventDate will be evaluated and validated. Illegal dates will be placed in the verbatimEventDate field. The majority of the standard date formats are accepted, including Gregorian dates and Excel numeric date format (US only).
   eventDate will be generated from separate year,month, and day field values. If month or day fields are left null, ’00’ values will be used (ex: 1954-03-00, 1965-00-00). Month field values can be numeric or text (English or Spanish).
-- Scripts attempt to extract valid date values from verbatimEventDate field when the eventDate field is null. Values of ’00’ are used for missing month or day (ex: 1954-03-00, 1965-00-00)
-- If your elevation field is not consistently in meters, map it to the verbatimElevation field. Elevations in feet will be converted to meters as long as the units are specified in the field.
-- Coordinate values:
+  - Scripts attempt to extract valid date values from verbatimEventDate field when the eventDate field is null. Values of ’00’ are used for missing month or day (ex: 1954-03-00, 1965-00-00)
+- **Elevations**: If your elevation field is not consistently in meters, map it to the verbatimElevation field. Elevations in feet will be converted to meters as long as the units are specified in the field.
+- **Geographic coordinates**:
   - Upon upload, background scripts will attempt to extract lat/long coordinate values from the verbatimCoordinates field. The field is evaluated for DMS and UTM formats, which are converted to decimal latitude and longitude.
   - If you have lat/long in a single field, you can map this field to verbatimCoordinates, and decimal latitude and longitude fields will be automatically parsed.
   - If you have UTM coordinates in multiple fields, map the fields (northing, easting, zone) to their matching UTM fields (utmnorthing, utmeasting, utmzone). This will instigate conversion of UTM coordinates to decimal latitude and longitude. The values will additionally be stored in the verbatiumCoordinates field.
   - If you have UTM coordinates in a single field, map this field to utmnorthing and leave other UTM fields null in order to direct scripts to parse using only the UTM parser.
   - TRS coordinates (Public Lands Survey System) can be entered as a single field into verbatimCoordinates, or into separate fields (trstownship, trsrange, trssection, trssectiondetails); however, these coordinates will not be automatically converted into decimal degrees due to potential differences in interpretation. See the georeferencing section of this guide (coming soon) for information about converting TRS coordinates to decimal degrees.
+- **Fossil specimen data**: Importing data into the [Paleo Module](/Editor_Guide/Editing_Searching_Records/paleontological_data#orientation) works similarly to importing data into other fields on the Occurrence Editor form. However, when using the Skeletal File Upload option to modify existing records, importing values into either [_Early Interval_](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval) OR [_Late Interval_](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval) may replace/backfill existing values in the opposite field with the imported value, even if these values are not NULL/blank prior to data upload. Use other methods to modify data in these fields for many records at one time, e.g. via Full Text File Upload or using the [Batch Editing](/Collection_Manager_Guide/Editing_Occurrences/batch_editing) tool.
+- **Snapshots**: If you are using a Symbiota portal to share a “snapshot” of your data managed in an external/locally maintained database, your import file MUST contain a field with the unique identifiers for each incoming specimen record (`dbpk`). This field serves a link between the source record and the snapshot record within the portal.
+- **File formatting**:
+  - If you will be importing a CSV-formatted spreadsheet into your portal—as is typically used for a [Full Text File Upload or Skeletal File Upload](#file-upload-or-skeletal-file-upload)—the first/top row of your spreadsheet must contain your selected import field names.
+  - Field names in your file to be imported do not have to precisely match the [Symbiota data import field names](/Collection_Manager_Guide/Importing_Uploading/data_import_fields), but special characters ($#@&%) are not permitted. If you have issues saving your import profile, your field names may be too long! Try shortening the field names in your CSV file.
+  - You can include any number of data fields in your CSV file to be uploaded, but some fields are more commonly used than others. The [upload template](#upload-template) contains some of the most commonly used fields by herbarium/plant collections.
 
 ## Related Video Tutorials
 

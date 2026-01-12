@@ -1,44 +1,44 @@
 ---
 title: "Data Import Fields"
 date: 2021-10-22
-lastmod: 2023-12-21
+lastmod: 2025-11-26
 authors: ["Ed Gilbert","Katie Pearson"]
 sidebar_position: 5
-editors: ["Katie Pearson"]
+editors: ["Katie Pearson, Lindsay Walker"]
 keywords: ["data upload","data import","file upload","IPT"]
 ---
 
 import ButtonLink from '@site/src/components/ButtonLink';
 
 :::info
-
-This page lists the possible specimen fields that can be imported into a Symbiota data portal. The type of field (text, number, etc.) is listed in the **Type** field. The number of characters allowed in that field is displayed in parentheses, when applicable.
-
+This page lists the possible specimen fields that can be imported into a Symbiota data portal.
 :::
 
-You can select any number of fields in the table below to include in your file upload, but some fields are more commonly used than others. At the button below, you will find a template based on plant collections in Excel format. The second row provides field explanataions and the third row provides an example. Delete these rows and save the file as a CSV (UTF-8) before attempting to upload.
-
-<ButtonLink
-  link="/documents/UploadTemplateForCollectors.xlsx"
-  label="Download Example Template"
-  download={true}
-  style={{marginBottom: '2vh'}}
-/>
-
-If the data portal is being used to displaying a “snapshot” of your data stored in your local central database, the upload file MUST have a field that serves as the unique identifier for each incoming specimen record (dbpk). This field serves a link between the source record and the snapshot record within the portal. If the import is a CSV file, the first row must contain field names. Note that field names do not have to match the name used below, but there cannot be any characters ($#@&%) in the column names. If you have issues saving your import profile, your field names may be too long! Try shortening the field names in the CSV file.
-
-For more information about data fields, also see our [Symbiota Data Fields](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) page.
-
-*Italic* = Darwin Core fields<br/>
-**Bold** = strongly encouraged fields, though none of the fields are technically required<br/>
-\* = for import only, merged into another field after import
+## Related Documentation
 
 :::tip
-
-For Darwin Core fields, click on the link in the "Name" column to see the DwC field definition.
-
+If you want to learn **how to import data** into your portal, that information can be found [here](/Collection_Manager_Guide/Importing_Uploading/). (These [**uploading tips**](/Collection_Manager_Guide/Importing_Uploading/#uploading-tips) may be especially helpful if you're new to importing data into Symbiota portals!)
 :::
 
+:::tip
+If you are looking for Symbiota **data field definitions**, that information can be found on [this page](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields).
+:::
+
+## Table Explanation
+
+| Name | Type | Notes |
+|-|-|-|
+| Name of data field as it exists in your Symbiota portal's underlying database |[Type of data](https://www.w3schools.com/sql/sql_datatypes.asp)—such as a text string of a specific length or a formatted date—that can be successfully imported into the specified data field. The number of allowable characters is displayed parenthetically when applicable, e.g. "Text (255)". | Technical data import tips to complement [Symbiota Data Field definitions](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields) |
+
+- Explanation of **Name** formatting:
+  - *Italic* = Data field corresponds to the [Darwin Core (DwC) data standard](https://dwc.tdwg.org/terms/). For DwC fields, click on the link in the "Name" column to see the official DwC field definition.
+  - **Bold** = Use of this data field is strongly encouraged  when data are available
+  - `*` = Denotes that a field is only used to faciliate the data import process; values in this field will be merged into another field after import.
+
+## Standard Fields
+:::tip
+Definitions for Symbiota's standard fields can be found [here](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields#collector-info). 
+:::
 | Name | Type | Notes |
 |-|-|-|
 | associatedCollectors | Text (255) | All collectors except the primary collector, separated by commas or semicolons. |
@@ -47,7 +47,7 @@ For Darwin Core fields, click on the link in the "Name" column to see the DwC fi
 | [_associatedTaxa_](https://dwc.tdwg.org/terms/#dwc:associatedTaxa) | Text (65,535) | Associated taxa delimited by commas or semicolons |
 | authorInfraspecific | Text | The authorship of the infraspecific epithet, if different than the authorship of the specific epithet. If you do not provide authorships, authorships will be automatically assigned according to the taxonomic thesaurus (if the name is found in the thesaurus). See also specify:subspecies_author,  specify:variety_author, and specify:forma_author.  |
 | authorSpecies | Text | The authorship of the specific epithet of the species. If you do not provide authorships, authorships will be automatically assigned according to the taxonomic thesaurus (if the name is found in the thesaurus). |
-| [_basisOfRecord_](https://dwc.tdwg.org/terms/#dwc:basisOfRecord) | Text (32) | |
+| [**_basisOfRecord_**](https://dwc.tdwg.org/terms/#dwc:basisOfRecord) | Text (32) | |
 | [_behavior_](https://dwc.tdwg.org/terms/#dwc:behavior) | Text (500) | |
 | [**_catalogNumber_**](https://dwc.tdwg.org/terms/#dwc:catalogNumber) | Text (32) | Barcode or Accession number |
 | [_collectionCode_](https://dwc.tdwg.org/terms/#dwc:collectionCode) | Text (32) | Populate only if different than source collection (i.e., the manager/metadata/) associated with your collection) |
@@ -66,9 +66,9 @@ For Darwin Core fields, click on the link in the "Name" column to see the DwC fi
 | [_dateIdentified_](https://dwc.tdwg.org/terms/#dwc:dateIdentified) | Text (45) | |
 | [_day_](https://dwc.tdwg.org/terms/#dwc:day) | Integer (4) | If eventDate is null, year-month-day will be used to build the eventDate. |
 | **dbpk** | Text (45) | Specimen record unique identifier (primary key) of source database (record id). Barcode, occurrenceID (GUID), or a database Primary Key is ideal. Can also be catalogNumber, given that it is populated for each record and enforced as unique. Required if collection is “snapshot” of a central database. Not needed if collection is managed directly within portal. |
-| [**_decimalLatitude_**](https://dwc.tdwg.org/terms/#dwc:decimalLatitude) | Decimal number (8) | |
+| [**_decimalLatitude_**](https://dwc.tdwg.org/terms/#dwc:decimalLatitude) | Decimal number (8) | For USA records, value is positive |
 | [**_decimalLongitude_**](https://dwc.tdwg.org/terms/#dwc:decimalLongitude) | Decimal number (8) | For USA records, value is negative |
-| [_disposition_](https://dwc.tdwg.org/terms/#dwc:disposition) | Text (32) | Can be used to put storage location information, if needed. |
+| [_disposition_](https://dwc.tdwg.org/terms/#dwc:disposition) | Text (32) | |
 | duplicateQuantity |  | Used for printing labels. This field is not publicly accessible. |
 | [_dynamicProperties_](https://dwc.tdwg.org/terms/#dwc:dynamicProperties) | Text (65,535) | This field should ideally be formatted in JSON. For non-formatted descriptions, use the verbatimAttributes field. |
 | \*elevationNumber | Integer | Use this field for the elevation values (i.e., numbers) when your elevation values and units fields are separated. These will be concatenated into verbatimElevation. |
@@ -76,7 +76,7 @@ For Darwin Core fields, click on the link in the "Name" column to see the DwC fi
 | endDayOfYear | Integer | The numeric value (1-365) of the ending date of an eventDate range. Used in concert with startDayOfYear. |
 | [_establishmentMeans_](https://dwc.tdwg.org/terms/#dwc:establishmentMeans) | Text (45) | Use of a controlled vocabulary is preferred (see Darwin Core link). |
 | [**_eventDate_**](https://dwc.tdwg.org/terms/#dwc:eventDate) | Date/Time | Date collected, or earliest date of collection, if a range is provided, formatted as YYYY-MM-DD. If other formatting is used, or if date ranges are included, map to the "verbatimEventDate" field instead. |
-| eventDate2 | Date/Time | Latest date collected, when a range is provided. **Note:** This field is not yet accessible in the occurrence editor. |
+| eventDate2 | Date/Time | Latest date collected, when a range is provided. Value will concatenate with eventDate if exported to a Darwin Core Archive. |
 | [_eventID_](https://dwc.tdwg.org/terms/#dwc:eventID) | Text (45) | The unique identifier for a collection event, if provided by the source database. **Note:** This field is not yet accessible in the occurrence editor. |
 | [_eventTime_](https://dwc.tdwg.org/terms/#dwc:eventTime) | Text (45) | **Note:** This field is not yet accessible in the occurrence editor. |
 | exsiccatiIdentifier | Integer (11) | Identifier from exsiccati indexing table |
@@ -148,13 +148,14 @@ For Darwin Core fields, click on the link in the "Name" column to see the DwC fi
 | [_samplingEffort_](https://dwc.tdwg.org/terms/#dwc:samplingEffort) | Text (200) | |
 | [_samplingProtocol_](https://dwc.tdwg.org/terms/#dwc:samplingProtocol) | Text (100) | |
 | [_scientificname_](https://dwc.tdwg.org/terms/#dwc:scientificName) | Text (255) | Scientific name w/ authorship. The authorship will be parsed from the name. |
-| [_scientificNameAuthorship_](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship) | Text (255) | Author of scientific name |
-| [**_sciname_**](https://dwc.tdwg.org/terms/#dwc:genericName) | Text (255) | Scientific name without author |
+| [_scientificNameAuthorship_](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship) | Text (255) | Author of scientific name. If the scientific name is already in your portal's internal taxonomic thesaurus, this field will automatically be filled out upon data import. |
+| [**_sciname_**](https://dwc.tdwg.org/terms/#dwc:genericName) | Text (255) | Scientific name without author. Do not include abbreviations like “sp.” or “indet.” |
 | [_sex_](https://dwc.tdwg.org/terms/#dwc:sex) | Text (45) | |
 | [_specificEpithet_](https://dwc.tdwg.org/terms/#dwc:specificEpithet) | Text (255) | |
 | startDayOfYear | Integer | The numeric value (1-365) of the starting date of an eventDate range. Used in concert with endDayOfYear. |
 | [**_stateProvince_**](https://dwc.tdwg.org/terms/#dwc:stateProvince) | Text (255) | |
 | substrate | Text (500) | The soil or other substrate (e.g., bark, rock) on which a sessile organism was found. In Darwin Core Archive exports, this field is concatenated into "habitat".| 
+| storageLocation | varchar(100) | |
 | [_taxonRank_](https://dwc.tdwg.org/terms/#dwc:taxonRank) | Text (32) | Rank name of infraspecific abbreviation (e.g., var., subsp.) allowed |
 | [_taxonRemarks_](https://dwc.tdwg.org/terms/#dwc:taxonRemarks) | Text (2000) | |
 | tempfield | | The tempfields are provided as temporary holding locations for data that needs to be concatenated or otherwise transformed by a Stored Procedure before it can be moved into its final database field. |
@@ -175,6 +176,37 @@ For Darwin Core fields, click on the link in the "Name" column to see the DwC fi
 | \*verbatimLongitude | Text (255) | Used to generate decimal longitude. This field will be merged into verbatimCoordinates. |
 | [_waterBody_](https://dwc.tdwg.org/terms/#dwc:waterBody) | Text (150) | **Note:** This field is not yet accessible in the occurrence editor. |
 | [_year_](https://dwc.tdwg.org/terms/#dwc:year) | Integer (4) | If eventDate is null, year-month-day will be used to build the eventDate. |
+
+## Paleontology Fields
+
+:::tip
+Definitions for Symbiota's paleontology fields can be found [here](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields#paleontology). 
+:::
+
+| Name | Type | Notes |
+|-|-|-|
+| paleo-absoluteAge | varchar(65) | |
+| [_paleo-bed_](https://dwc.tdwg.org/terms/#dwc:bed) | varchar(65) | |
+| paleo-biostratigraphy | varchar(100) | Data imported using paleo-biostratigraphy will override values entered into paleo-highest/lowestbiostratigraphiczone. Therefore, only import data in this field in place of paleo-highest/lowestbiostratigraphiczone but not in addition to these fields. |
+| paleo-biota | varchar(100) | |
+| paleo-earlyinterval | varchar(65) | Refer to the Symbiota Data Field definitions for [Early Interval and Late Interval](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields#early-interval-and-late-interval). |
+| paleo-element | varchar(250) | |
+| [_paleo-formation_](https://dwc.tdwg.org/terms/#dwc:formation)  | varchar(65) | |
+| [_paleo-geologicalcontextid_](https://dwc.tdwg.org/terms/#dwc:geologicalContextID) | varchar(100) | |
+| [*_paleo-highestbiostratigraphiczone_](https://dwc.tdwg.org/terms/#dwc:highestBiostratigraphicZone) | varchar(100) | Values imported using this field will concatenate with lowestBiostratigraphicZone, e.g. "Zone A - Zone B", whereby “Zone A” is the value entered for highestBiostratigraphicZone and “Zone B” is the value entered for lowestBiostratigraphicZone. The result will appear as “Zone A - Zone B” within the Occurrence Editor’s data entry form. For the import to work properly, both highestBiostratigraphicZone and lowestBiostratigraphicZone should contain values; otherwise, use paleo-biostratigraphy. |
+| paleo-latelnterval | varchar(65) | Refer to the Symbiota Data Field definitions for [Early Interval and Late Interval](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields#early-interval-and-late-interval). |
+| [_paleo-lithogroup_](https://dwc.tdwg.org/terms/#dwc:group) | varchar(65) | |
+| paleo-lithology | varchar(700) | |
+| paleo-localStage | varchar(65) | |
+| [*_paleo-lowestbiostratigraphiczone_](https://dwc.tdwg.org/terms/#dwc:lowestBiostratigraphicZone) | varchar(40) | A value imported using this field will concatenate with highestBiostratigraphicZone in the Occurrence Editor,  e.g. "Zone A - Zone B", whereby “Zone A” is the value entered for highestBiostratigraphicZone and “Zone B” is the value entered for lowestBiostratigraphicZone. For the import to work properly, both highestBiostratigraphicZone and lowestBiostratigraphicZone should contain values; otherwise, use paleo-biostratigraphy.  |
+| [_paleo-member_](https://dwc.tdwg.org/terms/#dwc:member) | varchar(65) | |
+| paleo-slideProperties | varchar(1000) | |
+| paleo-stratRemarks | varchar(1000) |  |
+| paleo-taxonEnvironment | varchar(65) | Controlled vocabulary; see Symbiota Data Field definition for [Taxon Environment](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields#taxon-environment) |
+
+## Specify Fields
+| Name | Type | Notes |
+|-|-|-|
 | specify:subspecies | Text | The infraspecific epithet of a subspecies only (without subsp. prefix). |
 | specify:subspecies_author | Text | The authorship of the subspecific epithet. |
 | specify:variety | Text | The infraspecific epithet of a variety only (without var. prefix).|
