@@ -1,7 +1,7 @@
 ---
 title: "Importing & Uploading Data"
 date: 2021-10-07
-lastmod: 2026-01-09
+lastmod: 2026-01-15
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson", "Lindsay Walker"]
 sidebar_position: 150
@@ -159,7 +159,7 @@ You can delete erroneous records [one-by-one](/Collection_Manager_Guide/deleting
 
 - **Primary identifiers**: Each record (row) in your import file must have an **identifier** that is either unique to your collection (e.g., a catalog number) or globally unique [dwc:occurrenceid](https://dwc.tdwg.org/terms/#dwc:occurrenceID) value (e.g., a GUID).
 - **Additional identifiers**: To take advantage of the [Tag Name + Identifier](/Editor_Guide/Editing_Searching_Records/catalog_numbers) system (in which you can tag an identifier/other catalog number with a specific title), enter the tag name followed by a colon and then the identifier value, e.g., "Old Accession Number: 12345". For multiple identifiers, separate the tag name + identifiers by semicolons, e.g., "NP #: 4321; Accession #: 9876"
-- **Scientific names**: If the scientific names in your CSV file include taxonomic authorship (e.g., _Acer circinatum_ Pursh), map this field to the Target Field “scientificname.” If the scientific names included in your CSV file do NOT include taxonomic authorship (e.g., _Acer circinatum_), map this field to “sciname.”
+- **Scientific names**: If the scientific names in your CSV file include taxonomic authorship (e.g., _Acer circinatum_ Pursh), map this field to the Target Field "scientificName (including author)." If the scientific names included in your CSV file do NOT include taxonomic authorship (e.g., _Acer circinatum_), map this field to "scientificName (excluding author)."
 - **Dates**: Collection dates mapped to eventDate will be evaluated and validated. Illegal dates will be placed in the verbatimEventDate field. The majority of the standard date formats are accepted, including Gregorian dates and Excel numeric date format (US only).
   eventDate will be generated from separate year,month, and day field values. If month or day fields are left null, ’00’ values will be used (ex: 1954-03-00, 1965-00-00). Month field values can be numeric or text (English or Spanish).
   - Scripts attempt to extract valid date values from verbatimEventDate field when the eventDate field is null. Values of ’00’ are used for missing month or day (ex: 1954-03-00, 1965-00-00)

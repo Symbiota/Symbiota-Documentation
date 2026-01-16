@@ -1,7 +1,7 @@
 ---
 title: "Data Import Fields"
 date: 2021-10-22
-lastmod: 2025-11-26
+lastmod: 2026-01-15
 authors: ["Ed Gilbert","Katie Pearson"]
 sidebar_position: 5
 editors: ["Katie Pearson, Lindsay Walker"]
@@ -147,9 +147,9 @@ Definitions for Symbiota's standard fields can be found [here](/Editor_Guide/Edi
 | [_reproductiveCondition_](https://dwc.tdwg.org/terms/#dwc:reproductiveCondition) | Text (255) | e.g. sterile, flw, frt, asci, etc. Use of controlled vocabulary is preferred. |
 | [_samplingEffort_](https://dwc.tdwg.org/terms/#dwc:samplingEffort) | Text (200) | |
 | [_samplingProtocol_](https://dwc.tdwg.org/terms/#dwc:samplingProtocol) | Text (100) | |
-| [_scientificname_](https://dwc.tdwg.org/terms/#dwc:scientificName) | Text (255) | Scientific name w/ authorship. The authorship will be parsed from the name. |
+| **scientificName (excluding author)** | Text (255) | Scientific name without authorship. Do not include abbreviations like “sp.” or “indet.” |
+| [_scientificname (including author)_](https://dwc.tdwg.org/terms/#dwc:scientificName) | Text (255) | Scientific name with full authorship. The authorship will be parsed from the name. |
 | [_scientificNameAuthorship_](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship) | Text (255) | Author of scientific name. If the scientific name is already in your portal's internal taxonomic thesaurus, this field will automatically be filled out upon data import. |
-| [**_sciname_**](https://dwc.tdwg.org/terms/#dwc:genericName) | Text (255) | Scientific name without author. Do not include abbreviations like “sp.” or “indet.” |
 | [_sex_](https://dwc.tdwg.org/terms/#dwc:sex) | Text (45) | |
 | [_specificEpithet_](https://dwc.tdwg.org/terms/#dwc:specificEpithet) | Text (255) | |
 | startDayOfYear | Integer | The numeric value (1-365) of the starting date of an eventDate range. Used in concert with endDayOfYear. |
@@ -219,7 +219,7 @@ Definitions for Symbiota's paleontology fields can be found [here](/Editor_Guide
 | specify:determiner_first_name | Text | The first (given) name of the primary person who applied the taxonomic identification to the record. Will be concatenated into identifiedBy along with middle_initial and last_name fields. |
 | specify:determiner_middle_initial | Text | The middle initial of the primary person who applied the taxonomic identification to the record. Will be concatenated into identifiedBy along with first_name and last_name fields.|
 | specify:determiner_last_name | Text | The last (family) name of the primary person who applied the taxonomic identification to the record. Will be concatenated into identifiedBy along with first_name and middle_initial fields.|
-| specify:qualifier_position | Text | When an identification qualifier is provided, this field will be concatenated along with the qualifier to indicate the part of the scientific name that the qualifier applies to. For example, if the record you are adding reads "Amaranthus cf. albus", enter "Amaranthus albus" in the sciname field, "cf." in the identificationQualifier field, and "albus" in the qualifier_position field. |
+| specify:qualifier_position | Text | When an identification qualifier is provided, this field will be concatenated along with the qualifier to indicate the part of the scientific name that the qualifier applies to. For example, if the record you are adding reads "Amaranthus cf. albus", enter "Amaranthus albus" in the scientificName (excluding author) field, "cf." in the identificationQualifier field, and "albus" in the qualifier_position field. |
 | specify:latitude1 | Decimal number | The westernmost latitude in a range of latitudes provided as a georeference for the record. Will be concatenated along with latitude2 into verbatimCoordinates. |
 | specify:latitude2 | Decimal number | The easternmost latitude in a range of latitudes provided as a georeference for the record. Will be concatenated along with latitude1 into verbatimCoordinates. |
 | specify:longitude1 | Decimal number | The northernmost longitude in a range of longitudes provided as a georeference for the record. Will be concatenated along with longitude2 into verbatimCoordinates.|
