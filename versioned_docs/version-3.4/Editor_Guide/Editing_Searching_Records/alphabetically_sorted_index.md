@@ -44,6 +44,7 @@ Click each field to see a full definition and examples.
 - [Epoch](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#epoch)
 - [Era](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#era)
 - [Establishment Means](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#establishment-means)
+- [Event Time](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#event-time)
 - [Family](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#family)
 - [Field Number](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#field-number)
 - [Formation](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#formation)
