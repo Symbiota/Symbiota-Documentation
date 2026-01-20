@@ -13,7 +13,7 @@ keywords:
 
 Specified geographic units ("geoTerms") saved to the geographic thesaurus can become searchable polygons in the [public search interface](/User_Guide/searching_records) if properly configured. This functionality is intended to allow searching within units of particular interest to a portal, such as park boundaries, Indigenous land boundaries, seed transfer zones, or other areas of interest.
 
-![Public Search Interface with Polygon Search Enabled](/img/searchbypolygon.PNG)
+![Public Search Interface with Polygon Search Enabled](/img/searchbypolygon.png)
 
 To create searchable polygons:
 
