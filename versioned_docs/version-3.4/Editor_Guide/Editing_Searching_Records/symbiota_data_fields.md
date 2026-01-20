@@ -1,7 +1,7 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2025-01-15
+lastmod: 2025-01-20
 draft: false
 authors: ["Ed Gilbert", "Katie Pearson", "Lindsay Walker"]
 editors: ["Laura Rocha Prado"]
@@ -438,7 +438,7 @@ This field is not currently supported by Darwin Core and is therefore not includ
 
 ## Curation
 
-| ![Collector Info](/img/occeditor_curation.png)  |
+| ![Collector Info](/img/occeditor_curation2026.png)  |
 | :-------------------------------------: |
 | Curation section of the Occurrence Editor form |
 
