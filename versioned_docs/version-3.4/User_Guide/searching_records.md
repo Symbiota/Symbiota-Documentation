@@ -19,7 +19,7 @@ Symbiota portals serve data from specimens and observations according to regiona
 4. Click the Search button on the far right to conduct your search.
 
 
-| ![Symbiota search interface](/img/newsamplesearch2025.PNG)  |
+| ![Symbiota search interface](/img/newsamplesearch2025.png)  |
 | :-------------------------------------: |
 | Publicly accessible search form visible on Symbiota portals. Additional criteria may be present in your portal, depending on how it is configured (see Geological Context and Taxon Character Criteria below). |
 
