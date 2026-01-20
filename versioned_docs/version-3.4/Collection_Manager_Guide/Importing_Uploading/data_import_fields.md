@@ -21,14 +21,14 @@ If you want to learn **how to import data** into your portal, that information c
 :::
 
 :::tip
-If you are looking for Symbiota **data field definitions**, that information can be found on [this page](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields).
+If you are looking for Symbiota **data field definitions**, that information can be found on [this page](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
 :::
 
 ## Table Explanation
 
 | Name | Type | Notes |
 |-|-|-|
-| Name of data field as it exists in your Symbiota portal's underlying database |[Type of data](https://www.w3schools.com/sql/sql_datatypes.asp)—such as a text string of a specific length or a formatted date—that can be successfully imported into the specified data field. The number of allowable characters is displayed parenthetically when applicable, e.g. "Text (255)". | Technical data import tips to complement [Symbiota Data Field definitions](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields) |
+| Name of data field as it exists in your Symbiota portal's underlying database |[Type of data](https://www.w3schools.com/sql/sql_datatypes.asp)—such as a text string of a specific length or a formatted date—that can be successfully imported into the specified data field. The number of allowable characters is displayed parenthetically when applicable, e.g. "Text (255)". | Technical data import tips to complement [Symbiota Data Field definitions](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) |
 
 - Explanation of **Name** formatting:
   - *Italic* = Data field corresponds to the [Darwin Core (DwC) data standard](https://dwc.tdwg.org/terms/). For DwC fields, click on the link in the "Name" column to see the official DwC field definition.
@@ -37,7 +37,7 @@ If you are looking for Symbiota **data field definitions**, that information can
 
 ## Standard Fields
 :::tip
-Definitions for Symbiota's standard fields can be found [here](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields#collector-info). 
+Definitions for Symbiota's standard fields can be found [here](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#collector-info). 
 :::
 | Name | Type | Notes |
 |-|-|-|
@@ -180,7 +180,7 @@ Definitions for Symbiota's standard fields can be found [here](/Editor_Guide/Edi
 ## Paleontology Fields
 
 :::tip
-Definitions for Symbiota's paleontology fields can be found [here](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields#paleontology). 
+Definitions for Symbiota's paleontology fields can be found [here](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#paleontology). 
 :::
 
 | Name | Type | Notes |
@@ -189,12 +189,12 @@ Definitions for Symbiota's paleontology fields can be found [here](/Editor_Guide
 | [_paleo-bed_](https://dwc.tdwg.org/terms/#dwc:bed) | varchar(65) | |
 | paleo-biostratigraphy | varchar(100) | Data imported using paleo-biostratigraphy will override values entered into paleo-highest/lowestbiostratigraphiczone. Therefore, only import data in this field in place of paleo-highest/lowestbiostratigraphiczone but not in addition to these fields. |
 | paleo-biota | varchar(100) | |
-| paleo-earlyinterval | varchar(65) | Refer to the Symbiota Data Field definitions for [Early Interval and Late Interval](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields#early-interval-and-late-interval). |
+| paleo-earlyinterval | varchar(65) | Refer to the Symbiota Data Field definitions for [Early Interval and Late Interval](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval). |
 | paleo-element | varchar(250) | |
 | [_paleo-formation_](https://dwc.tdwg.org/terms/#dwc:formation)  | varchar(65) | |
 | [_paleo-geologicalcontextid_](https://dwc.tdwg.org/terms/#dwc:geologicalContextID) | varchar(100) | |
 | [*_paleo-highestbiostratigraphiczone_](https://dwc.tdwg.org/terms/#dwc:highestBiostratigraphicZone) | varchar(100) | Values imported using this field will concatenate with lowestBiostratigraphicZone, e.g. "Zone A - Zone B", whereby “Zone A” is the value entered for highestBiostratigraphicZone and “Zone B” is the value entered for lowestBiostratigraphicZone. The result will appear as “Zone A - Zone B” within the Occurrence Editor’s data entry form. For the import to work properly, both highestBiostratigraphicZone and lowestBiostratigraphicZone should contain values; otherwise, use paleo-biostratigraphy. |
-| paleo-latelnterval | varchar(65) | Refer to the Symbiota Data Field definitions for [Early Interval and Late Interval](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields#early-interval-and-late-interval). |
+| paleo-latelnterval | varchar(65) | Refer to the Symbiota Data Field definitions for [Early Interval and Late Interval](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval). |
 | [_paleo-lithogroup_](https://dwc.tdwg.org/terms/#dwc:group) | varchar(65) | |
 | paleo-lithology | varchar(700) | |
 | paleo-localStage | varchar(65) | |
@@ -202,7 +202,7 @@ Definitions for Symbiota's paleontology fields can be found [here](/Editor_Guide
 | [_paleo-member_](https://dwc.tdwg.org/terms/#dwc:member) | varchar(65) | |
 | paleo-slideProperties | varchar(1000) | |
 | paleo-stratRemarks | varchar(1000) |  |
-| paleo-taxonEnvironment | varchar(65) | Controlled vocabulary; see Symbiota Data Field definition for [Taxon Environment](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields#taxon-environment) |
+| paleo-taxonEnvironment | varchar(65) | Controlled vocabulary; see Symbiota Data Field definition for [Taxon Environment](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#taxon-environment) |
 
 ## Specify Fields
 | Name | Type | Notes |

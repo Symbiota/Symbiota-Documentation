@@ -126,7 +126,7 @@ The same cautions as a manual Darwin Core Archive upload apply to this upload ty
 
 ## Upload Template
 
-Using the button below, you can download a pre-made template based on plant/herbarium collections, which can be customized to include more (or fewer) [data fields](/Editor_Guide/Editing_Searching_Records/Symbiota_data_fields) according to your needs. In this file, the second row provides field explanations and the third row provides an example value to be imported into your portal. Before initiating your file upload, delete these two rows (retain the first/top row) and save the file as a CSV (UTF-8).
+Using the button below, you can download a pre-made template based on plant/herbarium collections, which can be customized to include more (or fewer) [data fields](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) according to your needs. In this file, the second row provides field explanations and the third row provides an example value to be imported into your portal. Before initiating your file upload, delete these two rows (retain the first/top row) and save the file as a CSV (UTF-8).
 
 import Button from '@site/src/components/Button';
 import ButtonLink from '@site/src/components/ButtonLink';
