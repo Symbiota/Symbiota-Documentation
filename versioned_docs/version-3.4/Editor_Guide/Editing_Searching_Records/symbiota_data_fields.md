@@ -1,7 +1,7 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2025-10-09
+lastmod: 2025-01-15
 draft: false
 authors: ["Ed Gilbert", "Katie Pearson", "Lindsay Walker"]
 editors: ["Laura Rocha Prado"]
@@ -20,34 +20,29 @@ keywords:
 
 # Symbiota Data Fields
 
+:::info
+This page provides data field definitions to guide the interoperability of data in Symbiota portals.
+:::
+
+* Fields listed here differ from the fields visible in the data uploading tools. For field information specific to the data upload tools, see the [**Data Import Fields**](/Collection_Manager_Guide/Importing_Uploading/data_import_fields) documentation.
+* If you want to learn **how to import data** into your portal, that information can be found [here](/Collection_Manager_Guide/Importing_Uploading/). (These [**uploading tips**](/Collection_Manager_Guide/Importing_Uploading/#uploading-tips) may be especially helpful if you're new to importing data into Symbiota portals!)
+* The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.org/standards/dwc/" target="_blank" rel="noopener noreferrer">Darwin Core (DwC)</a> data standard. For more details, links to the Darwin Core definitions are supplied for each term. Learn more about Darwin Core terms in the following TDWG pages: [TDWG - Darwin Core Quick Reference Guide](https://dwc.tdwg.org/terms/), [TDWG - List of Darwin Core terms](https://dwc.tdwg.org/list)
+
+# Standard Fields
+
+:::warning
+Since portals have the ability to customize the field names found on their data entry form, field names may differ from the core field definition and how it is mapped to Darwin Core export tools.
+:::
+
 import Button from '@site/src/components/Button';
 import ButtonLink from '@site/src/components/ButtonLink';
 
-The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.org/standards/dwc/" target="_blank" rel="noopener noreferrer">Darwin Core</a> data exchange standard. For more details, links to the Darwin Core definitions are supplied for each term. Learn more about Darwin Core terms in the following TDWG pages:
-
-- [TDWG - Darwin Core quick reference guide](https://dwc.tdwg.org/terms/)
-- [TDWG - List of Darwin Core terms](https://dwc.tdwg.org/list)
-
-:::note
-
-Fields listed here differ from the fields visible in the data uploading tools. For field information specific to the data upload tools, see the [Data Import fields page](/Collection_Manager_Guide/Importing_Uploading/data_import_fields).
-
-:::
-
-:::warning
-
-Since portals have the ability to customize the field names found on their data entry form, field names may differ from the core field definition and how it is mapped to Darwin Core export tools.
-
-:::
-
 <ButtonLink
-link="/documents/SymbiotaDataFields202533.csv"
+link="/documents/SymbiotaDataFields202634.csv"
 label="Download full content as a CSV"
 download={true}
 style={{marginBottom: '2vh'}}
 />
-
-# Standard Fields
 
 ## Collector Info
 
@@ -58,7 +53,7 @@ style={{marginBottom: '2vh'}}
 ### Catalog Number
 
 The unique identifier (primary key) for the specimen record. This field should be used to store the barcode or the accession number (herbaria only). This field is enforced to be unique per collection.<br></br>
-**Examples:** `WIS-L-0123456`, `ASUCOB0012345`<br></br>
+**Examples:** `WIS-L-0123456` `ASUCOB0012345`<br></br>
 See Darwin Core's [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber)
 
 ### Additional Identifier Values
@@ -69,8 +64,8 @@ See Darwin Core's [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCat
 
 ### Collector
 
-The name of the person who collected the specimen or made the observation. Including an ORCID in parenthesis, as shown in the example below, will generate a link to the collector's [ORCID profile](https://orcid.org).<br></br>
-**Examples:** `C.G. Pringle` `Goodding, L.N.` `John Wesley Powell` `M. Andrew Johnston (ORCID 0000-0002-0166-6985)`<br></br>
+The name of the person who collected the specimen or made the observation.<br></br>
+**Examples:** `C.G. Pringle` `Goodding, L.N.` `John Wesley Powell`<br></br>
 See Darwin Core's [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy)
 
 ### Associated Collectors
@@ -102,6 +97,12 @@ See Darwin Core's [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate)
 The date of collection/observation exactly as provided on a label or in field notes. Particularly useful for non-standard date formats or date ranges.<br></br>
 **Examples:** `Spring 1901` `March-April 1952` `late Sept. 1909`<br></br>
 See Darwin Core's [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate)
+
+### Event Time
+
+The time of collection/observation of a record. This field is currently a text field, requiring no specific formatting. However, it is recommended to use a standard such as ISO to represent time.<br></br>
+**Examples:** `18:00:00.000` `2:46 PM`<br></br>
+See Darwin Core's [eventTime](https://dwc.tdwg.org/terms/#dwc:eventTime)
 
 ## Latest Identification
 
@@ -249,7 +250,7 @@ See Darwin Core's [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRema
 
 ### Security
 
-Selecting `Locality Security applied` from the dropdown meny will hide locality details below the level of county from unauthorized users. This is typically done because the species is rare or threatened, or because the collection location is private. Images or other media are also hidden to protect locality details that might be viewable from the label. Users that are logged into the system and have the necessary permission to view locality details (e.g. collection managers) will continue to have access to all data. Locality Security will automatically be applied if the species name is on a portal's Protected Species list (accessible via Sitemap). Selecting `Fully Security applied` will completely hide the record from all public users who do not have editor or administrator permissions for your collection. **Unless legal protections apply, this level of security is generally NOT recommended for most records, as it reduces the discoverability of your collections and obscures valuable data from research and public use.** Leaving the Security field at `Security not applied` will allow default settings to be applied as determined by the sensitive species administrators, which is the recommendation for most records. **Refer to the Collection Manager Guide for more information on how [data redaction works](/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data) in Symbiota portals.**<br></br>
+Selecting `Locality Security applied` from the dropdown meny will hide locality details below the level of county from unauthorized users. This is typically done because the species is rare or threatened, or because the collection location is private. Images or other media are also hidden to protect locality details that might be viewable from the label. Users that are logged into the system and have the necessary permission to view locality details (e.g. collection managers) will continue to have access to all data. Locality Security will automatically be applied if the species name is on a portal's Protected Species list (accessible via Sitemap). Selecting `Full Security applied` will completely hide the record from all public users who do not have editor or administrator permissions for your collection. **Unless legal protections apply, this level of security is generally NOT recommended for most records, as it reduces the discoverability of your collections and obscures valuable data from research and public use.** Leaving the Security field at `Security not applied` will allow default settings to be applied as determined by the sensitive species administrators, which is the recommendation for most records. **Refer to the Collection Manager Guide for more information on how [data redaction works](/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data) in Symbiota portals.**<br></br>
 This field is not defined by the Darwin Core standard.
 
 ### Latitude and Longitude
@@ -455,7 +456,7 @@ See Darwin Core's [disposition](https://dwc.tdwg.org/terms/#dwc:disposition)
 
 ### Occurrence ID (override)
 
-The Globally Unique Identifier (GUID) for the specimen. This value should be stable and uniquely identify the specimen relative to all other specimens within the world. If your collection is set to have occurrenceIDs/GUIDs generated by the portal (this is the suggested setting for all live-managed collections), this field will appear blank in the Occurrence Editor form. To view the occurrenceID value associated with your specimen, click the Public Display link at the top of the page.<br></br>
+The Globally Unique Identifier (GUID) for the specimen. This value should be stable and uniquely identify the specimen relative to all other specimens within the world. If your collection is set to have occurrenceIDs/GUIDs generated by the portal (this is the suggested setting for all live-managed collections), the occurrenceID field will be grey and not editable. To view the full occurrenceID value associated with your specimen, you can click the Public Display link at the top of the page.<br></br>
 **Examples:** `000866d2-c177-4648-a200-ead4007051b9` `urn:catalog:UWBM:Bird:89776`<br></br>
 See Darwin Core's [occurrenceid](https://dwc.tdwg.org/terms/#dwc:occurrenceid)
 
@@ -500,6 +501,11 @@ See Darwin Core's [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCod
 The name (or acronym) in use by the institution having ownership of the object(s) or information referred to in the record. Only enter a value if it differs from what is entered in the collection's metadata in the portal.<br></br>
 **Examples:** `NPS` `BLM` `NMNH`<br></br>
 See Darwin Core's [ownerInstitutionCode](https://dwc.tdwg.org/terms/#dwc:ownerInstitutionCode)
+
+### Storage Location
+
+Permanent physical storage location of the cataloged material within the collection space.<br></br>
+**Examples:** `Freezer 3` `Oversize Storage` `Cab011 | Dwr002` `Cabinet: 1 | Tray 4` `Miocene Cabinet`
 
 ### Basis of Record
 
@@ -610,7 +616,7 @@ Additional notes, comments, and context unique to a sample that cannot be captur
 
 ## Paleontology
 
-| ![Paleo Module](/img/occeditor_paleo.png)  |
+| ![Paleo Module](/img/occeditor_paleo2025.png)  |
 | :-------------------------------------: |
 | Paleontology/Geological Context fields on the Occurrence Editor form |
 
@@ -633,11 +639,6 @@ See above for [_Early Interval_ and _Late Interval_](#early-interval-and-late-in
 
 The numerically resolved age of the cataloged fossil material in years determined using absolute dating techniques, such as radiocarbon/carbon-14 dating, K-Ar, U-Pb, and Ar-Ar dating, etc.<br></br>
 **Examples:** `20 Ma` `75 ka` `10.5 – 12.7 +/- 0.5 Ma`
-
-### Storage Age
-
-Physical storage location of the cataloged fossil material within the collection space.<br></br>
-**Examples:** `Cabinet: 1 | Tray 4` `Miocene Cabinet` `Bridgerian`
 
 ### Local Stage
 The name of an interval in geological time that is used locally or regionally but isn’t necessarily internationally accepted, such as a North American Land Mammal Age.<br></br>
@@ -695,7 +696,7 @@ Additional details about the cataloged fossil material’s geological and/or str
 
 ### Element
 
-The anatomical element(s) represented by the cataloged fossil material. Recommendation is to use a [discipline-specific controlled vocabulary](https://drive.google.com/drive/folders/1aNHpsLJLuVOubVmbohOZk2VbfDv3BlLH?usp=drive_link) and to pipe-separate distinct values. Record more verbose anatomical descriptions in [_Description_](#description).<br></br>
+The anatomical element(s) represented by the cataloged fossil material. Recommendation is to use a discipline-specific controlled vocabulary and to pipe-separate distinct values. Record more verbose anatomical descriptions in [_Description_](#description).<br></br>
 **Examples (invertebrates):** `pygidium/pygidia` `thorax`<br></br>
 **Examples (vertebrates):** `skull: dentary` `skull: maxilla` `vertebra: centrum`<br></br>
 **Examples (paleobotany):** `stem` `strobilus` `root` `pinnule(s)`<br></br>
