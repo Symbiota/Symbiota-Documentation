@@ -26,7 +26,7 @@ This page provides data field definitions to guide the interoperability of data 
 
 * Fields listed here differ from the fields visible in the data uploading tools. For field information specific to the data upload tools, see the [**Data Import Fields**](/Collection_Manager_Guide/Importing_Uploading/data_import_fields) documentation.
 * If you want to learn **how to import data** into your portal, that information can be found [here](/Collection_Manager_Guide/Importing_Uploading/). (These [**uploading tips**](/Collection_Manager_Guide/Importing_Uploading/#uploading-tips) may be especially helpful if you're new to importing data into Symbiota portals!)
-* The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.org/standards/dwc/" target="_blank" rel="noopener noreferrer">Darwin Core (DwC)</a> data standard**. For more details, links to the Darwin Core definitions are supplied for each term. Learn more about Darwin Core terms in the following TDWG pages: [TDWG - Darwin Core Quick Reference Guide](https://dwc.tdwg.org/terms/), [TDWG - List of Darwin Core terms](https://dwc.tdwg.org/list)
+* The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.org/standards/dwc/" target="_blank" rel="noopener noreferrer">Darwin Core (DwC)</a> data standard. For more details, links to the Darwin Core definitions are supplied for each term. Learn more about Darwin Core terms in the following TDWG pages: [TDWG - Darwin Core Quick Reference Guide](https://dwc.tdwg.org/terms/), [TDWG - List of Darwin Core terms](https://dwc.tdwg.org/list)
 
 # Standard Fields
 
@@ -53,7 +53,7 @@ style={{marginBottom: '2vh'}}
 ### Catalog Number
 
 The unique identifier (primary key) for the specimen record. This field should be used to store the barcode or the accession number (herbaria only). This field is enforced to be unique per collection.<br></br>
-**Examples:** `WIS-L-0123456`, `ASUCOB0012345`<br></br>
+**Examples:** `WIS-L-0123456` `ASUCOB0012345`<br></br>
 See Darwin Core's [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber)
 
 ### Additional Identifier Values
@@ -101,7 +101,7 @@ See Darwin Core's [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEv
 ### Event Time
 
 The time of collection/observation of a record. This field is currently a text field, requiring no specific formatting. However, it is recommended to use a standard such as ISO to represent time.<br></br>
-**Examples:** `18:00:00.000`, `2:46 PM`<br></br>
+**Examples:** `18:00:00.000` `2:46 PM`<br></br>
 See Darwin Core's [eventTime](https://dwc.tdwg.org/terms/#dwc:eventTime)
 
 ## Latest Identification
