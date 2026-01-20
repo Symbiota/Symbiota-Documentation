@@ -78,7 +78,7 @@ Definitions for Symbiota's standard fields can be found [here](/Editor_Guide/Edi
 | [**_eventDate_**](https://dwc.tdwg.org/terms/#dwc:eventDate) | Date/Time | Date collected, or earliest date of collection, if a range is provided, formatted as YYYY-MM-DD. If other formatting is used, or if date ranges are included, map to the "verbatimEventDate" field instead. |
 | eventDate2 | Date/Time | Latest date collected, when a range is provided. Value will concatenate with eventDate if exported to a Darwin Core Archive. |
 | [_eventID_](https://dwc.tdwg.org/terms/#dwc:eventID) | Text (45) | The unique identifier for a collection event, if provided by the source database. **Note:** This field is not yet accessible in the occurrence editor. |
-| [_eventTime_](https://dwc.tdwg.org/terms/#dwc:eventTime) | Text (45) | **Note:** This field is not yet accessible in the occurrence editor. |
+| [_eventTime_](https://dwc.tdwg.org/terms/#dwc:eventTime) | Text (45) | The Darwin Core recommends using a time of day that conforms to ISO 8601-1:2019. |
 | exsiccatiIdentifier | Integer (11) | Identifier from exsiccati indexing table |
 | exsiccatiNotes | Text (250) | (Documentation coming soon!) |
 | exsiccatiNumber | Text (45) | (Documentation coming soon!) |
