@@ -23,4 +23,4 @@ To create searchable polygons:
 
 3. Check the box next to Is Searchable and click the Save Edits button. You will only be able to do this if the polygon was properly saved in the thesaurus.
 
-![Checkbox that Enables Polygon Searching](/img/issearchablecheckbox.PNG)
+![Checkbox that Enables Polygon Searching](/img/issearchablecheckbox.png)
