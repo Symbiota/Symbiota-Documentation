@@ -1,7 +1,7 @@
 ---
 title: "Searching for Records"
 date: 2021-10-11
-lastmod: 2025-10-03
+lastmod: 2026-01-15
 authors: ["Katie Pearson, Lindsay Walker"]
 sidebar_position: 110
 keywords: ["search", "specimens", "observations"]
@@ -39,6 +39,8 @@ Here you can search by the scientific or common name(s) of your specimens of int
 
 #### Locality Criteria
 In this module you can search by country, state/province, county, locality, and elevation values. Once you start typing a name, a dropdown list (drawing from the portal's [geographic thesaurus](/Portal_Manager_Guide/Geographic_Thesaurus/)) will show up from which you can select the geographic unit of interest, if desired. You can alternatively enter a value not in the dropdown list. Searches using these criteria are text-based searches which attempt to match the value you enter into the search fields to the values in the corresponding fields of records. **Note that the taxonomic thesaurus does not allow automatic searching across geographic synonyms at this time.** This means that searching for records collected in "NV" will not return all the results for records collected in "Nevada", etc.
+
+In some portals, this section will also include the ability to search by pre-loaded polygons. These are spatial [polygons](https://support.esri.com/en-us/gis-dictionary/polygon) that are of particular importance to the portal community, such as park boundaries, seed transfer zones, or other places of interest. If you select a polygon from this list, your search will only return records that have coordinates that fall within that polygon. Contact your portal administrator for more information about polygons available in your portal.
 
 #### Latitude and Longitude
 To define a latitude/longitude bounding box, polygon, or point with radius in which to search, enter the values in the provided fields or click the appropriate button at the top of the Latitude & Longitude search criteria to create the box, shape, or point radius in the mapping interface.
