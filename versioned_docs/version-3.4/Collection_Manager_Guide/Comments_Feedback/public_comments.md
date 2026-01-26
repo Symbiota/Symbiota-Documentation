@@ -19,7 +19,7 @@ To view and vet comments posted on records from your collection, navigate to the
 
 ![View Comments](/img/admincontrolpanel_comments.png)
 
-![View Comments](/img/examplecomments.png)
+![View Comments](/img/examplecomments2026.png)
 
 On the Comments Listing page, you can:
 
