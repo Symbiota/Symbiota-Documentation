@@ -32,7 +32,7 @@ Specimen occurrences with record security applied affects portal users as follow
 - **Rare Species Readers**: locality details are visible and can be downloaded, _but not edited_, on a per-collection basis
 - **All other users**: no locality details are visible below county, if provided. On a record's public view, any locality-related fields that contain obscured data will be listed in _Information Withheld_.
 
-![Occurrence Editor Example](/img/redaction_informationwithheld.png)
+![Occurrence Editor Example](/img/redaction_informationwithheld2026.png)
 
 :::tip
 
@@ -46,11 +46,11 @@ Users with Administrator permissions can grant or remove access to their collect
 
 :::
 
-## What taxa are protected in my portal?
+## Which taxa are protected in my portal?
 
 The master list of Protected Species in a given portal can be viewed by all portal users, including those who are not logged into the portal.
 
-|                                                                          ![Protected Species](/img/redaction_protectedspecies.png)                                                                          |
+|                                                                          ![Protected Species](/img/redaction_protectedspecies2026.png)                                                                          |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | To view all protected taxa in a portal, navigate to _Sitemap > Collections > Protected Species_. This example comes [from SEINet](https://swbiodiversity.org/seinet/collections/misc/protectedspecies.php). |
 
@@ -64,9 +64,9 @@ To find records in your collection that have data redaction applied, use the Dat
 
 ### Individually redacting locality data for certain occurrences
 
-The locality data can be redacted for individual occurrences by checking the _Security_ box in the Occurrence Editor.
+The locality data can be redacted for individual occurrences by selecting Locality Security applied from the dropdown list under the "Security" field (in the Locality box of the occurrence editor).
 
-![Occurrence Editor Example](/img/redaction_occurrenceeditor.png)
+![Occurrence Editor Example](/img/redaction_occurrenceeditor2026.png)
 
 ### Batch redacting locality data for certain occurrences
 
@@ -76,7 +76,7 @@ If you wish to batch redact data, you can download a CSV file of all the specime
 
 Locality data and media (e.g., images) can be redacted for all occurrences by a specific taxon by someone with Super Administrator or Taxon Editor user permissions. To do this, find the species in the Taxonomic Tree Viewer or Taxonomy Explorer and open the editor (either by clicking on the taxon name or clicking the pencil next to the name). Change _Locality Security_ from "show all locality data" to "hide locality data".
 
-![Taxonomy Editor Example](/img/taxoneditorexample.png)
+![Taxonomy Editor Example](/img/redaction_taxoneditorexample.png)
 
 **This will hide locality data for all occurrences of that taxon throughout the portal, not just for your collection**. Collections can opt out of this option by individually unchecking the _Security_ box within the Occurrence Editor for individual specimen records or by contacting their portal manager for batch changes.
 
@@ -106,7 +106,7 @@ Keep in mind that the _Security_ field must contain a value of "1" for your data
 
    - See [checklist tutorials](/User_Guide/Checklists/) for help creating and managing checklists.
 
-   ![Checklist Example](/img/checklist_protected.png)
+   ![Checklist Example](/img/checklist_protected2026.png)
 
 ## How users can request access to redacted data
 

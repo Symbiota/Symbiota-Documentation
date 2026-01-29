@@ -29,6 +29,6 @@ To delete a record:
 2. Open the Admin tab.
 3. Select the "Evaluate record for deletion" button to determine whether the record can be safely deleted. If a media resource (e.g., image) is associated with the record, you will need to disassociate the resource from the specimen record before it can be deleted (see the [deleting/remapping images page](/Editor_Guide/Images_Media/deleting_transfering_images)). Likewise, a warning will appear if the specimen record is linked to a checklist, which must be resolved before the specimen record can be deleted. If there are no warnings at this point, click the "Delete Occurrence" button to remove the record from your dataset.
 
-![Admin tab of the Occurrence Editor](/img/admintab_delete.png)
+![Admin tab of the Occurrence Editor](/img/admintab_delete2026.png)
 
 To batch delete records, contact your portal manager.

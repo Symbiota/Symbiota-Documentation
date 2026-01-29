@@ -24,3 +24,5 @@ You can only publish a Darwin Core Archive of occurrences that have unique occur
 1. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of your collection).
 2. Click Darwin Core Archive Publishing.
 3. Click the Create/Refresh Darwin Core Archive button.
+
+![Darwin Core Archive Publishing Tool](/img/darwincorearchivepublishing.png)

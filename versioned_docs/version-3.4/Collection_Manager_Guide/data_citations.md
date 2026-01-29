@@ -84,6 +84,6 @@ Example CITEME.txt content:
 
 Some portal communities maintain their own portal-wide data usage policies for media and specimen records, which includes a recommended citation format for the portal. This information can typically be found on the **_Sitemap_ > _Media Library_ > _Usage Policy and Copyright Information_**. To request modifications to your portal's data usage policy, or to have one added to your portal, contact your portal manager.
 
-|                                 ![Sample Portal Data Use Policy](/img/citation_portal.png)                                  |
+|                                 ![Sample Portal Data Use Policy](/img/citation_portal2026.png)                                  |
 | :-------------------------------------------------------------------------------------------------------------------------: |
 | Citation guidelines provided in the [CCH2 portal's data usage policy](https://www.cch2.org/portal/includes/usagepolicy.php) |
