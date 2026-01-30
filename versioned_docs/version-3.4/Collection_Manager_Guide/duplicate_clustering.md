@@ -1,7 +1,7 @@
 ---
 title: "Duplicate Clustering"
 date: 2021-12-13
-lastmod: 2023-03-24
+lastmod: 2026-01-29
 sidebar_position: 107
 authors: ["Katie Pearson"]
 keywords: ["duplicates", "duplicate specimens"]
@@ -30,14 +30,15 @@ To view or link duplicates, navigate to your Administration Control Panel (My Pr
 - To view existing duplicates, click _Specimen duplicate clusters_
 - To view duplicates with taxonomic identifications that do not match, click _Specimen duplicate clusters with conflicted identifications_. An example output of this tool is shown in the screenshot below.
 - To batch link duplicates, click _Batch link specimen duplicates_. This will automatically run the batch linking script to create duplicate clusters.
+- To use linked duplicates to copy georeferences from one specimen record into others, click _Batch copy duplicate georeference data_. More information about this tool can be found [**on this page**](/Collection_Manager_Guide/Georeferencing/duplicate_georeferencing).
 
 :::tip
 
-When viewing clustered duplicates, you can view the record for any occurrence by clicking the catalog number in blue font.
+When viewing clustered duplicates, you can view the record for any occurrence by clicking the catalog number.
 
 :::
 
-![Example Duplicate Conflicts](/img/exampleduplicateconflicts.png)
+![Example Duplicate Conflicts](/img/dupewithconflictingid2026.png)
 
 A video walkthrough of how duplicate clustering tools can be used to resolve conflicting identifications can be found here:
 
