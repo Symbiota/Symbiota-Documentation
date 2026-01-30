@@ -27,9 +27,8 @@ Statistics relating to the number of specimens, media resources, georeferences, 
 - Number of specimens that are identified at least to the level of species
 - Number of families, genera, species, and total taxa that represented in the collection (NOTE: these numbers are calculated using only taxonomic names that have been indexed to the taxonomic thesaurus)
 
-![Collection Profile Page](/img/collprofile.png)
-
-<figcaption align = "center">_Collection Profile for [OBI in CCH2](https://www.cch2.org/portal/collections/misc/collprofiles.php?collid=12)._</figcaption>
+![Collection Profile Page](/img/collstatistics2026.png)
+<figcaption align = "center">_Collection Profile for [Pacific Union College Herbarium in CCH2](https://cch2.org/portal/collections/misc/collprofiles.php?collid=4)._</figcaption>
 
 :::tip
 Collection profiles can be accessed by visiting the Collection Search Page in a given portal (click "Search Collections") at the following URL: `[BASE URL]/collections/index.php`. For example, for the CCH2 portal, the full URL is https://cch2.org/portal/collections/index.php.
@@ -47,6 +46,6 @@ To view statistics regarding the processing statuses in your collection, navigat
 
 This page will also show you how many of your occurrences do not have linked media and how many lack skeletal data (i.e., a value in the Scientific Name field).
 
-![Reports Tab in Processing Toolbox](/img/reportstab.png)
+![Reports Tab in Processing Toolbox](/img/reportstab2026.png)
 
 <figcaption align = "center">_Administration Control Panel > Processing Toolbox > Reports tab_</figcaption>
