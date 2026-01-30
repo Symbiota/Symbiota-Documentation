@@ -1,7 +1,7 @@
 ---
 title: "Restoring your Database"
 date: 2021-12-15
-lastmod: 2025-01-31
+lastmod: 2026-01-29
 draft: false
 sidebar_position: 170
 authors: ["Katie Pearson"]
@@ -16,4 +16,4 @@ To replace your database, navigate to the Administration Control Panel (My Profi
 
 The file will take some time to load and process. Once this is done, a report called “Final transfer” will be displayed at the bottom of the screen. This report will show you how many records will be updated, how many records are new, how many identifications/determinations will be added, and how many records have media links (e.g., images). **_Ensure that these numbers are as expected._** You can preview these records by clicking the table icon to the immediate right of the desired dataset (circled on next screenshot), or you can download these records as a CSV by clicking the two boxes icon to the far right of the desired dataset (in a square on next screenshot). Once you are satisfied that the records will be properly uploaded, click the "Transfer Records to Central Specimen Table" button. **Note that this change is _permanent_ and cannot be undone!**
 
-![Final Transfer Screen](/img/restoredatafinaltransfer.jpg)
+![Final Transfer Screen](/img/restoredatafinaltransfer2026.png)

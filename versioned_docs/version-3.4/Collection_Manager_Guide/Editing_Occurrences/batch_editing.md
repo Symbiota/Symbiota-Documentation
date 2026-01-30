@@ -1,7 +1,7 @@
 ---
 title: "Batch Editing"
 date: 2021-10-28
-lastmod: 2025-07-17
+lastmod: 2026-01-29
 draft: false
 sidebar_position: 5
 authors: ["Lindsay Walker", "Katie Pearson", "Cynthia Skema", "Ann Barber"]
@@ -28,13 +28,7 @@ There are two options for batch editing specimen records: you can change a value
 1. Navigate to the Record Search Form (_Data Editor Control Panel > Edit Existing Occurrence Records_).
 2. **Option A:** **To apply batch changes to all records**, click on “Display Table” in the Record Search Form, then click the Batch Edit button above the resulting table of all records from your collection. Continue to step 3. ![Batch Edit Button](/img/batcheditbutton.png)
 
-:::note
-
-In older versions of Symbiota, the batch edit button was an icon like this: ![Edit Icon](/img/editplus_old.png)
-
-:::
-
-**Option B:** **To apply batch changes to a subset of records**, first search for the records of interest using the [search form](/Editor_Guide/Editing_Searching_Records). Once you have the set of records to which you would like to make a batch edit, click the Batch Edit Button at the top of your selected table of records.
+   **Option B:** **To apply batch changes to a subset of records**, first search for the records of interest using the [search form](/Editor_Guide/Editing_Searching_Records). Once you have the set of records to which you would like to make a batch edit, click the Batch Edit Button at the top of your selected table of records.
 
 3. From the dropdown menu next to "Field Name" in Batch Update, select the field you want to edit.
    ![Batch Edit Tool](/img/batchedittool.png)

@@ -1,7 +1,7 @@
 ---
 title: "Importing & Uploading Data"
 date: 2021-10-07
-lastmod: 2026-01-15
+lastmod: 2026-01-29
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson", "Lindsay Walker"]
 sidebar_position: 150
@@ -63,20 +63,22 @@ A **Full Text File Upload** will use the incoming data to **overwrite** all exis
 6. If the collection to which you are uploading data is **live managed** (i.e., the portal is your primary database system), proceed to Step 7. If the collection to which you are uploading data is a “**snapshot**” (static copy) of a specimen database managed within the home institution, select the primary key for the source specimen record from the dropdown menu. The primary key is a required field for snapshot datasets that will serve as the primary record identifier (the permanent link between the source database and the portal records). This field must be populated for every record with unique values. These values must also be stable and not changed in the central database over time. Snapshots will typically use the catalog number (accession number), barcode, or database primary key from the source database specimen table for this field.
 7. You will then see a page that will look similar to the one shown below. The length and contents of the Source Field/Target Field table will depend on what columns were included in the original CSV file.
 
-![Example of Data Upload Module](/img/DataUploadModule.png)
+![Example of Data Upload Module](/img/datauploadmodule2026.png)
 
 8. Select which fields in your CSV file (**Source Fields**) will correspond to which fields in the Symbiota portal (**Target Fields**). Check the [Data Field Import](/Collection_Manager_Guide/Importing_Uploading/data_import_fields) for and [Data Field Definition](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) guides for more information about each data field in Symbiota. Also see the **[Uploading Tips](#uploading-tips)** section below.
 9. Once you are satisfied with your field-to-field mapping (see next Notes), click the “Save Mapping” button.
 10. Select whether you would like the script to match the data in your file to existing data in the portal based on Catalog Number or Other Catalog Numbers. You will only need to do this if you are adding data to records that already exist in the portal. Otherwise, leave these unchecked.
-11. Select the "Processing Status" that you would like to apply to all your uploaded records (if desired) by selecting an option from the dropdown menu.
-12. Click the "Start Upload" button. This will upload your data into a _temporary_ table so you can review it before committing the final upload. **Do not navigate away from this page until the "Pending Data Transfer Report" box is displayed.** 
+11. Check the box next to "Version data changes" if you would like to store a record of all field changes in the [Edit History table](/Collection_Manager_Guide/reviewing_edits). Do not check this box if you are bringing brand new data into the portal.
+12. Check the box next to "Verify image links from associatedMedia field" if you are adding image URLs to your records via an *associatedMedia* field.
+13. Select the "Processing Status" that you would like to apply to all your uploaded records (if desired) by selecting an option from the dropdown menu.
+14. Click the "Start Upload" button. This will upload your data into a _temporary_ table so you can review it before committing the final upload. **Do not navigate away from this page until the "Pending Data Transfer Report" box is displayed.** 
 
 ![Screenshot of Pending Data Transfer Report](/img/PendingDataTransport_3-4.png)
 
-13. Verify that the correct number of records are being updated and/or added by viewing the Pending Data Transfer Report. During this step, your data remain stored in the temporary table to give you an opportunity to ensure correct mapping and formatting of your data prior to final transfer into the database. You can preview your data import by either:
+15. Verify that the correct number of records are being updated and/or added by viewing the Pending Data Transfer Report. During this step, your data remain stored in the temporary table to give you an opportunity to ensure correct mapping and formatting of your data prior to final transfer into the database. You can preview your data import by either:
     - Clicking on the small box icon to the right of "Occurrences pending transfer", "Records to be updated", and/or "New records" to preview the records in a table in your browser.
     - Selecting the download (arrow) icon to the right of the box icon to download a CSV file of the records to be updated or added.
-14. If anything is incorrect, do not select "Transfer Records to Central Specimen Table"; instead, fix your CSV file and re-upload it according to the steps you followed above, or return to your field mapping and fix the field mapping. If everything looks good, click the "Transfer Records to Central Specimen Table" button. **This step is final and is not possible to undo!**
+16. If anything is incorrect, do not select "Transfer Records to Central Specimen Table"; instead, fix your CSV file and re-upload it according to the steps you followed above, or return to your field mapping and fix the field mapping. If everything looks good, click the "Transfer Records to Central Specimen Table" button. **This step is final and is not possible to undo!**
 
 ### Darwin Core Archive Manual Upload
 
@@ -92,7 +94,7 @@ If you have already created an import profile, or if you have been instructed to
 6. Click the Choose File button and select the Darwin Core Archive (packaged as a zip file) that you would like to upload. Then click the Analyze File button.
 7. On the resulting page, you will have the option to view and/or verify the mappings of the incoming (1) occurrences file, (2) identification history file (if it exists), and (3) multimedia file (if it exists). If one or more of these files does not exist in the incoming DwC-A, the checkbox to the left of it will be grayed out. To view or verify the mappings, click "view details" to the right of the file you wish to view.
 
-![Darwin Core Import Profile Mapping Page](/img/dwc_import_profile.jpg)
+![Darwin Core Import Profile Mapping Page](/img/dwc_import_profile2026.png)
 
 8. Because the incoming file is aligned with Darwin Core, you will not likely need to change the mappings of this file. However, it is a good idea to check the fields. Check the [Symbiota Data Field Guide](/Collection_Manager_Guide/Importing_Uploading/data_import_fields) for definitions of each data field. Also see the **Uploading Tips** section below.
 

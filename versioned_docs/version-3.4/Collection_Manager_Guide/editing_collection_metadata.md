@@ -1,7 +1,7 @@
 ---
 title: "Editing Collection Metadata and Contact Info"
 date: 2021-11-16
-lastmod: 2023-08-30
+lastmod: 2026-01-29
 sidebar_position: 110
 draft: false
 authors: ["Katie Pearson", "Lindsay Walker"]
@@ -44,6 +44,6 @@ This page describes how to change or add contact information or information abou
 2. In the Administration Control Panel, click **Contacts & Resources**. In this tab you can change:
 3. In the Contacts & Resource tab, you can add links to other resources (e.g., homepages or lab pages), add or edit contact information, or add or edit the mailing address for your institution. Click a pencil icon to edit or an X icon to delete existing links/resources. **Listing at least two contacts is strongly recommended**, and that, when available, one of these contacts includes a generic departmental email (e.g. yourherbarium@youruniversity.edu).
 
-|                  ![Collection Contacts](/img/contactsexample.png)                   |
+|                  ![Collection Contacts](/img/contactsexample2026.png)                   |
 | :---------------------------------------------------------------------------------: |
 | Contact information publicly displays at the top of your collection's profile page. |

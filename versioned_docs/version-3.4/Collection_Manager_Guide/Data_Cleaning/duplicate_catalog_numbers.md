@@ -17,7 +17,7 @@ This tool can be found in the **_Administration Control Panel (My Profile > Occu
 
 To use the tool, first select whether you would like to list duplicates based on Catalog Numbers or Other Catalog Numbers from the “List Duplicates based on...” box. If duplicates exist, a table of duplicate records will appear on the resulting page.
 
-![Duplicate Cleaning Tool](/img/dupecatnums.png)
+![Duplicate Cleaning Tool](/img/dupecatnums2026.png)
 
 From here, you can evaluate whether the duplicate records should be edited, merged, or ignored. To view and/or edit a record, click the number in the ID column next to the record you wish to view. This will open that specimen’s Record Editor page.
 

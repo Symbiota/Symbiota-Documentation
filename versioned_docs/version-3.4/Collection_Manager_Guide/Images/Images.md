@@ -1,7 +1,7 @@
 ---
 title: "Images & Other Media"
 date: 2021-10-06
-lastmod: 2025-01-31
+lastmod: 2026-01-29
 sidebar_position: 140
 draft: false
 authors: ["Ed Gilbert","Katie Pearson"]
@@ -56,11 +56,19 @@ See [Uploading Images & Other Media](/Editor_Guide/Images_Media/batch_uploading_
 <ReactPlayer
   playing={false}
   controls
-  url="https://vimeo.com/m1HHN4g4NGg"
+  url="https://youtu.be/m1HHN4g4NGg"
 />
+<br></br>
 
 <ReactPlayer
   playing={false}
   controls
-  url="https://vimeo.com/v2bcx4oKDVI"
+  url="https://youtu.be/v2bcx4oKDVI"
+/>
+<br></br>
+
+<ReactPlayer
+  playing={false}
+  controls
+  url="https://youtu.be/MGd_A3r2oNw"
 />
