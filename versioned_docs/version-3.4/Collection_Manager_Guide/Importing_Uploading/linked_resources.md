@@ -1,7 +1,7 @@
 ---
 title: "Linked Resources / Associations"
 date: 2023-10-30
-lastmod: 2024-10-28
+lastmod: 2026-01-29
 draft: false
 sidebar_position: 15
 authors: ["Katie Pearson"]
@@ -82,7 +82,7 @@ Optional fields ([defined below](/Collection_Manager_Guide/Importing_Uploading/l
 
 ##### 3. "Occurrence - External Link" Uploads
 
-|                                                    ![Example General Resource](/img/linkedresources_relatedoccurrences.png)                                                    |
+|                                                    ![Example General Resource](/img/linkedresources_relatedoccurrences2026.png)                                                    |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Linkages to occurrences and similar resources that are managed outside of your Symbiota portal can be bulk imported using the "Occurrence - Externally Managed" upload option. |
 
@@ -101,7 +101,7 @@ Optional fields ([defined below](/Collection_Manager_Guide/Importing_Uploading/l
 
 ##### 4. "Taxon Observation" Uploads
 
-|                             ![Example Taxon Observation Linkage](/img/linkedresources_assoctaxa.png)                              |
+|                             ![Example Taxon Observation Linkage](/img/linkedresources_assoctaxa2026.png)                              |
 | :-------------------------------------------------------------------------------------------------------------------------------: |
 | Observations that are not associated with digitized occurrences can be bulk imported using the "Taxon Observation" upload option. |
 

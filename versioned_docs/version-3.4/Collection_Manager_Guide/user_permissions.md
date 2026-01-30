@@ -1,7 +1,7 @@
 ---
 title: "User Permissions"
 date: 2021-11-02
-lastmod: 2023-04-20
+lastmod: 2026-01-29
 authors: ["Katie Pearson", "Lindsay Walker"]
 sidebar_position: 190
 keywords: ["users", "permissions", "access"]
@@ -32,13 +32,13 @@ To assign user permissions, you must be an Administrator of the collection for w
 1. Navigate to your Administration Control Panel (_My Profile > Occurrence Management > name of collection_).
 2. Click _Manage Permissions_.
 3. The resulting page will show a list of all Administrators, Editors, and Rare Species Readers assigned to your collection.
-4. To remove a user's permissions, click the "X" icon next to their name:
+4. To remove a user's permissions, click the trash bin icon next to their name:
 
-![Example](/img/permissions_remove.png)
+![Example](/img/permissions_remove2026.png)
 
-5. To add or edit a user's permissions, select their name from the dropdown list under "Add New Admin/Editor/Reader", select the radio button next to the level of permissions you wish to assign, and click the "Add Permission for User" button:
+5. To add or edit a user's permissions, begin to type their last name in the provided field, then select their name from the dropdown list under "Add New Admin/Editor/Reader". Select the radio button next to the level of permissions you wish to assign, and click the "Add Permission for User" button.
 
-![Example](/img/permissions_add.png)
+![Example](/img/permissions_add2026.png)
 
 :::tip
 

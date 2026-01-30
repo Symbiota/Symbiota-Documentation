@@ -18,6 +18,8 @@ You can download a specialized subset of your data directly from the [Record Sea
 
 For more information about your download options, see [this page](/User_Guide/Downloading/download_data#download-options).
 
+![Record Search Download](/img/recordsearchdownload.png)
+
 ## Exporter Tool
 
 1. Navigate to your Administration Control Panel (My Profile > Occurrence Managment > name of collection).
@@ -26,7 +28,7 @@ For more information about your download options, see [this page](/User_Guide/Do
 4. Use the Processing Status and additional filters to define the dataset you would like to download from your collection. You can also select whether you would like to download a strict Darwin Core Archive (Darwin Core) or an archive containing all Symbiota fields (Symbiota Native); whether you would like to determination history (identifications), multimedia (i.e., links to images), and/or occurrence attributes (if enabled); whether you would like the results in a ZIP file; and the file format and character set ([ISO-8859-1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1) or [UTF-8](https://en.wikipedia.org/wiki/UTF-8)) for your download.
 5. Click the Download Records button.
 
-![Exporter Tool](/img/exportertool.png)
+![Exporter Tool](/img/exportertool2026.png)
 
 #### Downloading Specimens without Georeferences
 

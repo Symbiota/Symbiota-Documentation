@@ -31,7 +31,7 @@ Statistics relating to the number of specimens, images, georeferences, and taxa 
 
 ![Collection Profile Page](/img/collprofile2025.png)
 
-Collection profiles can be accessed by visiting the Collection Search Page (click Search Collections) at the following URL: [BASE URL]/collections/index.php. For example, for the CCH2 portal, the full URL is https://cch2.org/portal/collections/index.php.
+Collection profiles can be accessed by visiting the Collection Search Page (click Search Collections) at the following URL: [BASE URL]/collections/misc/collprofiles.php. For example, for the CCH2 portal, the full URL is https://cch2.org/portal/collections/misc/collprofiles.php.
 
 If you are an Administrator for a collection, you can also access your statistics by clicking My Profile > Occurrence Management > name of collection.
 
@@ -45,4 +45,4 @@ To view statistics regarding the processing statuses in your collection, navigat
 
 This page will also show you how many of your occurrences do not have linked media resources and how many lack skeletal data (i.e., a value in the Scientific Name field).
 
-![Reports Tab in Processing Toolbox](/img/reportstab.png)
+![Reports Tab in Processing Toolbox](/img/reportstab2026.png)
