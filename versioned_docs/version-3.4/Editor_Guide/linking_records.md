@@ -1,8 +1,7 @@
 ---
 title: "Linking Records/Resources"
 date: 2021-12-08
-lastmod: 2025-08-29
-draft: false
+lastmod: 2026-01-30
 sidebar_position: 110
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
@@ -28,7 +27,7 @@ This page describes how to link single associated occurrences, checklists, dupli
 
 To link an occurrence with an external (or internal) resource or record, navigate to that record's occurrence editor page (see [this page](/Editor_Guide/Editing_Searching_Records) for instructions) and click the Linked Resources tab.
 
-![Linked Resources Tab](/img/linkedresourcestab.png)
+![Linked Resources Tab](/img/linkedresourcestab2026.png)
 
 ## Linking Associations (External/Internal Resources or Occurrences)
 
@@ -53,7 +52,7 @@ In the Associated Occurrences box of the Linked Resources tab, you can link an o
   You can use the "Non-occurrence Resource" option to create linkages between your specimen records and digitially available literature. This can be accomplished using the Linked Resources tab or by bulk importing references using the [Extended Data Import Tool](/Collection_Manager_Guide/Importing_Uploading/linked_resources/). The latter option includes [additional fields](/img/linkedresources_literatureimport.png) that are not available on the Linked Resources data entry form.
   
   If you opt to directly enter create a link to a publication using the Linked Resources tab, you can create this associate by using the **Association Type** = "Non-occurrence Resource" + **Relationship** = "isReferencedBy" and including a stable **Resource URL** (permalink or DOI) that points directly to the external resource, as shown below ([example](https://library.big-bee.net/portal/collections/individual/index.php?occid=4003313)). 
-  ![Linked Resources Tab](/img/linkedresources_literaturedirectentry.png)
+  ![Linked Resources Tab](/img/linkedresources_literaturedirectentry2026.png)
 
 :::
 
@@ -79,7 +78,7 @@ You can click the underlined portion of the occurrence search results to view th
 
 :::
 
-![Create New Internal Association Example](/img/createinternalassociation.png)
+![Create New Internal Association Example](/img/createinternalassociation2026.png)
 
 ### Linking to a record in a different portal/database
 
@@ -98,7 +97,7 @@ You can click the underlined portion of the occurrence search results to view th
  If your collection contains a preserved specimen that directly corresponds to an observation in iNaturalist, you can use the "Occurrence - External Link" option to create a link between these records. This can be accomplished using the Linked Resources tab or by bulk importing references using the [Extended Data Import Tool](/Collection_Manager_Guide/Importing_Uploading/linked_resources/). (Note: If the iNaturalist image does not precisely capture a preserved specimen but still contains relevant information, we suggest using the "Non-occurrence Resource Link Option", described above.)
  
  You can create this association by using the **Association Type** = "Occurrence - External Link" + **Relationship** = "derivedFromSameIndividual" + **Basis of Record** = "HumanObservation" and including the direct URL to the iNaturalist record as the **Resource URL**, as shown below.
-  ![Linked Resources Tab](/img/linkedresources_iNaturalist.png)
+  ![Linked Resources Tab](/img/linkedresources_iNaturalist2026.png)
 
   :::
 

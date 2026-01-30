@@ -1,7 +1,7 @@
 ---
 title: "Annotation Label Printing"
 date: 2021-11-22
-draft: false
+lastmod: 2026-01-30
 authors: ["Katie Pearson"]
 keywords: ["labels", "printing", "annotation"]
 ---
@@ -16,7 +16,7 @@ To use this tool, you will need to have first added the annotated specimens to t
 
 To print annotation labels, navigate to the Data Editor Control Panel (My Profile > Occurrence Management > name of collection) and click “Print Annotations Labels.” A table will be displayed that lists all the specimens in the Annotation Print Queue. Check the boxes in the leftmost column next to the specimen records for which you wish to print annotations.
 
-![Annotation Printing](/img/annotationprinting.png)
+![Annotation Printing](/img/annotationprinting2026.png)
 
 To view a specimen record, either click the collector name and number (to view public record display) or click the pencil icon next to the collector name and number (to view occurrence editor for that record).
 

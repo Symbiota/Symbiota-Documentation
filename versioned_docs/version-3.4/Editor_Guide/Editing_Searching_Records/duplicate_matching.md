@@ -1,7 +1,7 @@
 ---
 title: "Duplicate Matching"
 date: 2022-11-30
-lastmod: 2024-09-27
+lastmod: 2026-01-30
 authors: ["Katie Pearson"]
 sidebar_position: 50
 keywords: ["duplicate", "copy", "transfer"]
@@ -32,16 +32,19 @@ There are three possible results of a duplicate search using this tool.
 ##### Possible EXACT Duplicates
 
 ![Possible EXACT Duplicate results](/img/exactdupe.png)
+
 This result occurs when a record with a matching collector last name, collector number, and date is found in a collection other than the one you are currently working in. This may represent a true duplicate specimen.
 
 ##### Possible EXACT Duplicates with NOTICE
 
 ![Possible EXACT Duplicate results within collection](/img/exactdupeincol.png)
+
 This result occurs when a record with a matching collector last name, collector number, and date is found within the collection you are currently working in. This may represent a true duplicate specimen, if you have them in your collection, or it could represent unintentional duplicate data entry (i.e., an error).
 
 ##### Possible Matching Duplicate EVENTS
 
 ![Possible Duplicate EVENT results](/img/dupematchevent.png)
+
 This result occurs when a record with a matching collector last name and date was found, but the exact collector number was not found. In this case, the results presented will include collector numbers slightly above and slightly below the number that you entered. These records may still be useful because they may share, e.g., locality data with the record that you are currently entering/editing.
 
 ### Handling duplicate match results

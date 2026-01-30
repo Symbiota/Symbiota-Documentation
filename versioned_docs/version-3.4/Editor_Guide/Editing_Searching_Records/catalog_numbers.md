@@ -1,6 +1,7 @@
 ---
 title: "Catalog Numbers"
 date: 2022-02-28
+lastmod: 2026-01-30
 sidebar_position: 30
 authors: ["Katie Pearson, Ed Gilbert"]
 keywords:
@@ -29,7 +30,7 @@ Catalog numbers are important to assign to each record because they act as uniqu
 
 Because specimens may be associated with multiple catalog numbers / identifiers, Symbiota portals have a tool that allows multiple values for Other Catalog Number. In the Occurrence Editor, this tool is located to the right of the Catalog Number field, and it includes boxes for "Tag Names" and "Additional Identifier Values".
 
-![Other Catalog Numbers](/img/othercatalognumbertag.png)
+![Other Catalog Numbers](/img/othercatalognumbertag2026.png)
 
 The **Tag Name** field is an _optional_ field that can be used to label the type of identifier being applied to the specimen. Tag Names are generally collection-specific (i.e., there are no recommended values). Common tags may include: Previous Catalog Number, Old Catalog #, Accession Number, NPS #, NPS Accession #, Secondary OccurrenceID, etc. The **Tag Name** field can be left blank if you do not wish to label the type of Other Catalog Number / Identifier.
 
