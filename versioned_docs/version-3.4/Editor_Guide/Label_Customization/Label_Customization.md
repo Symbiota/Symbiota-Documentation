@@ -1,7 +1,7 @@
 ---
 title: "Label Customization and Printing"
 date: 2021-11-22
-draft: false
+lastmod: 2026-01-30
 authors: ["Katie Pearson"]
 keywords: ["labels", "printing"]
 sidebar_position: 100
@@ -31,11 +31,11 @@ For instructions on printing specimen packets, see [this page](/Editor_Guide/Lab
 
 To print specimen labels, navigate to the Data Editor Control Panel (My Profile > Occurrence Management > name of collection) and click “Print Labels/Annotations.” Search for the desired specimens by entering search terms in one or many of the available fields in the “Define Specimen Recordset” box and clicking “Filter Specimen Records.” Select all the specimens for which you want to print labels by checking or unchecking the boxes in the leftmost column of the table. Use the “Select/Deselect all Specimens” box to check or uncheck all the boxes as necessary.
 
-![Print Label Queue](/img/printlabel1.png)
+![Print Label Queue](/img/printlabel1_2026.png)
 
 In the Label Printing box, select the name of the “Label Profile” that you wish to apply to your printed labels. The label profile will specify which fields are printed and the aesthetics of the label. Default (simple) profiles can be found in the “Portal defined profiles” list, and you can select your own saved profile from the “User defined profiles” list. Instructions for defining a label profile are described in the next section. After selecting a profile, you can then enter a desired heading (e.g., “Robert F. Hoover Herbarium (OBI)”, heading mid-section (e.g., state or family), heading suffix (any additional text information), and label footer (e.g., the name of the project for which the specimen was collected) for all labels to be printed. You can also select from a number of other options in the “Label Printing” box including whether you want to print the specimen barcode.
 
-![Print Label Options](/img/printlabel2.png)
+![Print Label Options](/img/printlabel2_2026.png)
 
 Once you have selected your desired options, you can print the labels directly from your browser, export the specimen data to a CSV file (similar to an Excel file, this format can be used with mail merge to produce labels), or export the labels to a Word document (DOCX file) by clicking the appropriate button. Note that currently, Word (DOCX) output only generates the old static label format (the “label profile” settings will not be applied). If you click “Print in Browser”, you can manually edit the label content by clicking the Edit Labels Content button in the top right corner.
 
@@ -43,7 +43,7 @@ Once you have selected your desired options, you can print the labels directly f
 
 To create a new label profile that will apply custom formatting to your printed labels, click the pencil icon to the right of Label Profiles (highlighted below).
 
-![Print Label Profile](/img/printprofile.png)
+![Print Label Profile](/img/printprofile2026.png)
 
 Then click the green plus sign in the User Profiles box. Enter the title of the user profile and any desired header and footer information. Select the desired options from the Options box.
 

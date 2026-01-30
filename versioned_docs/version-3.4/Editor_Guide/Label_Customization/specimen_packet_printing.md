@@ -1,7 +1,7 @@
 ---
 title: "Specimen Packet Printing"
 date: 2021-09-29
-draft: false
+lastmod: 2026-01-30
 authors: ["Katie Pearson", "Laura Rocha Prado"]
 keywords: ["labels", "printing", "packet"]
 ---
@@ -31,7 +31,7 @@ The default packet label looks like this:
 3. Enter search terms into the Define Specimen Recordset form to search for the specimens for which you would like to print packets. Then click the Filter Specimen Records button.
 4. Check the boxes next to the specimens for which you would like to print packets, or click the checkbox at the top of the checkboxes column to select all the records.
 
-![Label Printing List](/img/printpacketlist.png)
+![Label Printing List](/img/printpacketlist2026.png)
 
 5. Scroll down to the Label Printing form at the bottom of the page.
 6. From the Label Profiles dropdown menu, select Generic Lichen Packet.
@@ -54,7 +54,7 @@ The default packet label looks like this:
 1. Complete steps 1-7 as above.
 2. Click the pencil icon next to Label Profiles.
 
-![Print](/img/printprofile.png)
+![Print](/img/printprofile2026.png)
 
 3. Find the profile labeled Generic Lichen Packet.
 4. To customize the packet-printing profile for your own personal use, click the Select Target option under Generic Lichen Packet and select “User Profile”. To customize the 5. packet-printing profile for your entire collection (i.e., other people will also be able to use this profile), select “Collection Profile” from the dropdown menu.

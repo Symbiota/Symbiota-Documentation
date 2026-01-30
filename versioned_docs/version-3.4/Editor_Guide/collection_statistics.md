@@ -1,7 +1,7 @@
 ---
 title: "Collection Statistics"
 date: 2021-11-30
-lastmod: 2025-07-15
+lastmod: 2026-01-30
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
 keywords: ["statistics", "number of specimens", "reports"]
@@ -47,5 +47,4 @@ To view statistics regarding the processing statuses in your collection, navigat
 This page will also show you how many of your occurrences do not have linked media and how many lack skeletal data (i.e., a value in the Scientific Name field).
 
 ![Reports Tab in Processing Toolbox](/img/reportstab2026.png)
-
 <figcaption align = "center">_Administration Control Panel > Processing Toolbox > Reports tab_</figcaption>
