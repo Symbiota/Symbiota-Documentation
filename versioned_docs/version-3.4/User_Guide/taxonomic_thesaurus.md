@@ -1,7 +1,8 @@
 ---
 title: "Taxonomic Thesaurus"
 date: 2021-10-14
-authors: ["Katie Pearson"]
+lastmod: 2026-02-04
+authors: ["Katie Pearson", "Lindsay Walker"]
 draft: false
 sidebar_position: 120
 keywords: ["thesaurus","scientific names","taxonomy"]
@@ -27,6 +28,11 @@ The curation and accuracy of a portal's taxonomic thesaurus depends largely on t
 
 The taxonomic thesaurus can be edited by superadministrators and users with express Taxonomy Editor permissions (see the [User Permissions](user_permissions) page for more information).
 
-### Multiple thesauri
+### Downloading Taxonomic Information
+
+Anyone can download taxonomy from the taxonomic thesaurus using the Taxonomic Tree Viewer or the Taxonomy Exporter. 
+![Taxonomy Download](/img/taxonomictreeviewerdownload.png)
+
+### Multiple Thesauri
 
 Some portals include several backbone thesauri in case of, e.g., conflicting taxonomic concepts or authorities. One thesaurus will be displayed by default, but users can select between thesauri when using the checklist or list-viewing functions.
