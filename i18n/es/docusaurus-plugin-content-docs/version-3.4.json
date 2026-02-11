@@ -1,0 +1,122 @@
+{
+  "version.label": {
+    "message": "Proxima",
+    "description": "The label for version current"
+  },
+  "sidebar.docSidebar.category.User Guide": {
+    "message": "Guía del usuario",
+    "description": "The label for category User Guide in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Collector/Observer Guide": {
+    "message": "Collector/Observer Guide",
+    "description": "The label for category Collector/Observer Guide in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Checklists": {
+    "message": "Checklists",
+    "description": "The label for category Checklists in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Datasets": {
+    "message": "Datasets",
+    "description": "The label for category Datasets in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Downloading": {
+    "message": "Downloading",
+    "description": "The label for category Downloading in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Identification Keys": {
+    "message": "Identification Keys",
+    "description": "The label for category Identification Keys in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Providing Feedback": {
+    "message": "Providing Feedback",
+    "description": "The label for category Providing Feedback in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Editor Guide": {
+    "message": "Editor Guide",
+    "description": "The label for category Editor Guide in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Joining an Existing Portal": {
+    "message": "Joining an Existing Portal",
+    "description": "The label for category Joining an Existing Portal in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Adding Records": {
+    "message": "Adding Records",
+    "description": "The label for category Adding Records in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Crowdsourcing": {
+    "message": "Crowdsourcing",
+    "description": "The label for category Crowdsourcing in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Downloading Data": {
+    "message": "Downloading Data",
+    "description": "The label for category Downloading Data in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Editing & Searching Records": {
+    "message": "Editing & Searching Records",
+    "description": "The label for category Editing & Searching Records in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Georeferencing": {
+    "message": "Georeferencing",
+    "description": "The label for category Georeferencing in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Images & Other Media": {
+    "message": "Images & Other Media",
+    "description": "The label for category Images & Other Media in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Label Customization and Printing": {
+    "message": "Label Customization and Printing",
+    "description": "The label for category Label Customization and Printing in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Traits": {
+    "message": "Traits",
+    "description": "The label for category Traits in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Collection Manager Guide": {
+    "message": "Collection Manager Guide",
+    "description": "The label for category Collection Manager Guide in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Joining a Portal": {
+    "message": "Joining a Portal",
+    "description": "The label for category Joining a Portal in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Comments & Feedback": {
+    "message": "Comments & Feedback",
+    "description": "The label for category Comments & Feedback in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Data Cleaning": {
+    "message": "Data Cleaning",
+    "description": "The label for category Data Cleaning in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Data Publishing": {
+    "message": "Data Publishing",
+    "description": "The label for category Data Publishing in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Editing Occurrences": {
+    "message": "Editing Occurrences",
+    "description": "The label for category Editing Occurrences in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Importing & Uploading Data": {
+    "message": "Importing & Uploading Data",
+    "description": "The label for category Importing & Uploading Data in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Portal Manager Guide": {
+    "message": "Portal Manager Guide",
+    "description": "The label for category Portal Manager Guide in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Current Notes": {
+    "message": "Current Notes",
+    "description": "The label for category Current Notes in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Geographic Thesaurus": {
+    "message": "Geographic Thesaurus",
+    "description": "The label for category Geographic Thesaurus in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Glossary": {
+    "message": "Glossary",
+    "description": "The label for category Glossary in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Taxonomy": {
+    "message": "Taxonomy",
+    "description": "The label for category Taxonomy in sidebar docSidebar"
+  }
+}
