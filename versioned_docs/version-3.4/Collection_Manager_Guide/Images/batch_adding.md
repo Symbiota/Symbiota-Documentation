@@ -1,10 +1,10 @@
 ---
 title: "Batch Adding Images/Media"
 date: 2021-10-06
-modified: 2025-01-31
+modified: 2026-02-05
 sidebar_position: 5
 authors: ["Ed Gilbert","Katie Pearson"]
-editors: ["Katie Pearson"]
+editors: ["Katie Pearson", "Lindsay Walker"]
 keywords: ["images"]
 ---
 
@@ -34,4 +34,4 @@ Externally Hosted media resources can be added to Symbiota records using one of 
 
 There are several workflows used to batch upload/link internally hosted specimen media resources. Batch processing typically consists of two separate steps: (1) Loading media resources onto a web server, and (2) Mapping image URLs to Symbiota occurrence records. Step (2) is possible when media resources are named according to the catalog number or other catalog number associated with the record in the portal.
 
-Storage of a large number of images or other media resources on servers associated with a Symbiota portal may require an image-hosting agreement and/or incur image-hosting costs. Check with the portal administrator for more information about your portal's image hosting allowances and workflows. For ASU-hosted servers, contact the Symbiota Support Hub (help@symbiota.org).
+Storage of a large number of images or other media resources on servers associated with a Symbiota portal may require an image-hosting agreement and/or incur image-hosting costs. Check with the portal administrator for more information about your portal's image hosting allowances and workflows. For SSH-hosted portals, please contact the Symbiota Support Hub (help@symbiota.org).
