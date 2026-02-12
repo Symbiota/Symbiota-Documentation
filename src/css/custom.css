@@ -28,3 +28,17 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+a{
+  text-decoration-line: underline;
+}
+
+/* Remove underline from sidebar links */
+.theme-doc-sidebar-container a,
+.menu__link {
+  text-decoration-line: none;
+}
+
+.table-of-contents a, .table-of-contents-item a {
+  text-decoration-line: none;
+}

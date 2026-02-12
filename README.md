@@ -171,4 +171,4 @@ cp -r src/pages/**.mdx i18n/fr/docusaurus-plugin-content-pages
 
 When a new version is cut, whatever documentation is present in a particular language's `current/` directory will be copied into the new version name's directory for each language.
 
-See more details [here](https://docusaurus.io/i18n/tutorial).
+See more details [here](https://docusaurus.io/docs/3.8.1/i18n/tutorial).
