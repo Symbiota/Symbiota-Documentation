@@ -17,6 +17,6 @@ To contact a collection directly, locate its Collection Profile:
 | :-: |
 | ![Locating contacts step 2](/img/contactsmoreinfo.png)|
 
-| Step 3: Information for the person(s) responsible for the collection will be listed on it's profile.  |
+| Step 3: Information for the person(s) responsible for the collection will be listed on its profile.  |
 | :-: |
 | ![Locating contacts step 3](/img/contactsexample.png) |
