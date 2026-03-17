@@ -14,7 +14,7 @@ Users may gain access to redacted location information by being granted "Rare Sp
 
 :::tip
 **How to contact a collection to request access to redacted data:**
-1) Query the desired data in your portal ([example](https://swbiodiversity.org/seinet/collections/list.php?db=all&includeothercatnum=1&taxa=Graptopetalum+bartramii&usethes=1&taxontype=2&association-type=none&taxontype-association=2&usethes-associations=1&comingFrom=newsearch)). Records with obscured data will display the message in red: "detailed locality information protected". 
+1) Query the desired data in your portal ([example](https://swbiodiversity.org/seinet/collections/list.php?db=all&includeothercatnum=1&taxa=Graptopetalum+bartramii&usethes=1&taxontype=2&association-type=none&taxontype-association=2&usethes-associations=1&comingFrom=newsearch)). Records with obscured data will display this message in red: "detailed locality information protected". 
 2) For collections with this message, locate the collection's publicly listed contact(s). You can do so by **a)** opening a specimen record in the search results and looking for an email address at the bottom of the record (shown below) or **b)** viewing the collection's profile by selecting its logo in the search results.
 3) Write to the listed contact(s). **Clearly describe your requested data** (including relevant taxa and geographic constraints) that apply as well as **how the data will be used** and, if applicable, cited. You can request a data export, or, if you have an account in the portal and require ongoing data access, you can ask them to apply read-only ("[Rare Species Reader](/Collection_Manager_Guide/user_permissions)") permissions to your user account. 
   ![Listed contact on record](/img/redaction_contact2026.png)
