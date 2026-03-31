@@ -1,7 +1,7 @@
 ---
 title: "Exporting Checklist Reports"
 date: 2021-12-15
-lastmod: 2024-12-11
+lastmod: 2026-03-30
 sidebar_position: 25
 authors: ["Katie Pearson"]
 keywords: ["checklist", "report"]
@@ -11,4 +11,10 @@ You can generate a number of useful reports using the Reports tab in the Manage 
 
 You can print a list of species, list of vouchers, list of potential species additions, and other options from this page.
 
-![Reports Tab from Checklist](/img/checklistreports.png)
+![Reports Tab from Checklist](/img/checklistreports2026.PNG)
+
+:::note
+
+The report options pertaining to voucher specimens will only be visible if vouchers are linked to your checklist.
+
+:::
