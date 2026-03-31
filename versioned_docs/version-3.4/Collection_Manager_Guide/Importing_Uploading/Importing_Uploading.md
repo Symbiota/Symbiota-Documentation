@@ -1,7 +1,7 @@
 ---
 title: "Importing & Uploading Data"
 date: 2021-10-07
-lastmod: 2026-01-29
+lastmod: 2026-03-30
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson", "Lindsay Walker"]
 sidebar_position: 150
@@ -40,7 +40,7 @@ There are several options for uploading data into a Symbiota portal:
 
 This process will allow you to initiate your data upload and simultaneously create a saved "Import Profile" for future use.
 
-1. Navigate to your Administration Control Panel (_My Profile > Occurrence Management > name of your collection_).
+1. Navigate to your Administration Control Panel (_click My Profile, then the name of the collection in the Collection Management box_).
 2. In the Adminsration Control Panel, select _Import/Update Specimen Records > Create a new Import Profile_.
 3. Create a title for your new Import Profile in the _Title_ field, e.g. "Import from Your IPT".
 4. Select the desired _Upload Type_ from the dropdown menu (see [Upload Types](#upload-types) section above).

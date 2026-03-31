@@ -1,6 +1,6 @@
 ---
 title: "Coordinate Validator"
-date: 2025-07-16
+date: 2025-03-30
 sidebar_position: 7
 authors: ["Katie Pearson"]
 keywords: ["geography", "geographic thesaurus", "georeferences"]
@@ -28,7 +28,7 @@ It is recommended to use the [Geography Cleaning Tools](/Collection_Manager_Guid
 
 ## How to locate the Coordinate Validator
 
-Navigate to these tools through the **_Administration Control Panel (My Profile > Occurrence Management > name of collection)_**. Click **_Data Cleaning Tools_**, then view the box below the **_Specimen Coordinates_** header.
+Navigate to these tools through the **Administration Control Panel** (_click My Profile, then the name of the collection in the Collection Management box_). Click **Data Cleaning Tools**, then view the box below the **Specimen Coordinates** header.
 
 The Coordinate Validator tool can be used to determine whether the coordinates associated with your records actually fall within the political boundaries of the provided Country, State/Province, and County.
 

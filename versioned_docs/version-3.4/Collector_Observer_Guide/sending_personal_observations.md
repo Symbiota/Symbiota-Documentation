@@ -1,6 +1,7 @@
 ---
 title: "Sending Data from a Personal Observation Profile"
 date: 2022-11-29
+lastmod: 2026-03-30
 weight: 3
 draft: false
 authors: ["Katie Pearson"]
@@ -25,7 +26,7 @@ Use this option if you would like to send a copy of a lot of data to another col
 
 If you are sending data for a great number of specimens, or if the collection to which you are sending the data is not "live-managed" in the portal, you may want to send your data as a CSV file. To do this:
 
-1. Navigate to your collection profile by logging into the Symbiota portal and clicking My Profile > Occurrence Management tab.
+1. Navigate to your collection profile by logging into the Symbiota portal and clicking My Profile, then the name of the collection in the Collection Management box.
 2. Click "Download backup file (CSV extract)" in the top box of this tab.
 3. Remove all the specimens that you do not wish to send from this CSV (e.g., by sorting by date or location in Excel).
 4. Send this CSV along with your specimens or via email to the collections manager of the collection where you are depositing your specimens.

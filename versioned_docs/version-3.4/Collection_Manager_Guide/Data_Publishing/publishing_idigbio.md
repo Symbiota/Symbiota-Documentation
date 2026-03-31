@@ -1,7 +1,7 @@
 ---
 title: "Publishing Data to iDigBio"
 Date: 2021-10-08
-lastmod: 2024-05-08
+lastmod: 2026-03-30
 authors: ["Ed Gilbert","Katie Pearson"]
 editors: ["Katie Pearson"]
 sidebar_position: 15
@@ -15,7 +15,7 @@ This page describes how to publish the data from your collection to the U.S. nat
 :::
 
 1. Contact iDigBio's Biodiversity Informatics Coordinator ([cchapman@floridamuseum.ufl.edu](mailto:cchapman@floridamuseum.ufl.edu)) requesting that your collection gets added to the iDigBio ingestion queue. Include a link to your collection profile page (e.g. [http://swbiodiversity.org/seinet/collections/misc/collprofiles.php?collid=1](http://swbiodiversity.org/seinet/collections/misc/collprofiles.php?collid=1)) so that they have the necessary information for your collection and access to your data.  For more information, see the [iDigBio Data Ingestion Guide](https://www.idigbio.org/wiki/index.php/Data_Ingestion_Guidance).
-2. Log in to your Administrator Control Panel in your Symbiota portal (My Profile > Occurrence Management > name of your collection).
+2. Log in to your Administrator Control Panel in your Symbiota portal (click My Profile, then the name of the collection in the Collection Management box).
 3. Click Edit Metadata and review the information and contacts associated with your collection. In addition to your institution/collection codes and contact information, make sure to review data usage license and GUID (see below). Contact your portal manager if you are unclear about any of the available fields.
   * Data Usage License: This field determines the copyright guidelines that users must follow when using your data. Many portals have predefined options that follow the Creative Commons licenses, though that can vary by portal instance. See the [Creative Commons website](https://creativecommons.org/) for more information about licenses.
   * GUID source: This designates the field that will serve as the persistent globally unique identifier (GUID) for specimen records published from the portal. (More information about the importance of GUIDs can be found [in this article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5851565/). You will see the following options in your portal:

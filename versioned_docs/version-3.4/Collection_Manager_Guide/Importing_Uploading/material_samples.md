@@ -1,7 +1,7 @@
 ---
 title: "Material Samples"
 date: 2025-06-23
-lastmod: 2025-06-23
+lastmod: 2026-03-30
 draft: false
 sidebar_position: 20
 authors: ["Katie Pearson"]
@@ -20,7 +20,7 @@ The Material Sample tab will only be visible if it has been activated for your c
 
 :::
 
-  1. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of your collection).
+  1. Navigate to your Administration Control Panel (_click My Profile, then the name of the collection in the Collection Management box_).
   2. Click Import/Update Specimen Records, then select "Extended Data Import".
   3. Click the "Choose File" button to upload a properly formatted associations file into the uploader (see sections below for formatting requirements).
   4. Select "Material Sample" from the Import Type dropdown menu.

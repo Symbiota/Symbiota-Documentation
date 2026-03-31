@@ -1,7 +1,7 @@
 ---
 title: "Managing Loans"
 date: 2021-11-22
-lastmod: 2026-01-30
+lastmod: 2026-03-30
 sidebar_position: 120
 authors: ["Katie Pearson"]
 keywords: ["loan"]
@@ -15,7 +15,7 @@ This page describes how to manage loans in a Symbiota portal.
 
 :::
 
-Navigate to the loan management tool by accessing the Data Editor Control Panel (My Profile > Occurrence Management > name of collection) and clicking “Loan Management.” You will see the following tabs:
+Navigate to the loan management tool by accessing the Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_) and clicking “Loan Management.” You will see the following tabs:
 
 ![Loan Management Tabs](/img/loantabs2026.png)
 

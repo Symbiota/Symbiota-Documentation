@@ -1,7 +1,7 @@
 ---
 title: "Material Samples"
 date: 2023-09-29
-lastmod: 2026-01-30
+lastmod: 2026-03-30
 draft: false
 authors: ["Lindsay Walker"]
 editors: ["Katie Pearson"]
@@ -45,7 +45,7 @@ One specimen occurrence in a Symbiota portal can be associated with one or more 
 
 **To add a new material sample to an existing catalog record:**
 
-1. Navigate to the Occurrence Editor: _My Profile > Occurrence Records > name of collection > Edit Existing Records_
+1. Navigate to the Occurrence Editor: _click My Profile, then the name of the collection in the Collection Management box_.
 2. [Search](/Editor_Guide/Editing_Searching_Records) for the record that the sample will be associated with. Open the record so that the Occurence Editor form appears.
 3. At the top of the form, select the Material Sample tab.
 4. Select the plus sign icon to begin adding a new material sample.

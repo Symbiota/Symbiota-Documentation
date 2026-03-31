@@ -1,6 +1,7 @@
 ---
 title: "Duplicate Georeference Harvester"
 date: 2025-09-23
+lastmod: 2026-03-30
 draft: false
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
@@ -22,7 +23,7 @@ For this tool to find duplicate georeferences, your specimens must already be li
 
 :::
 
-To navigate to this tool, go to your Administration Control Panel (_My Profile > Occurrence Editor > name of collection_), select Duplicate Clustering, then "Batch copy duplicate georeference data".
+To navigate to this tool, go to your Administration Control Panel (_click My Profile, then the name of the collection in the Collection Management box_), select Duplicate Clustering, then "Batch copy duplicate georeference data".
 
 ## Conducting a search
 

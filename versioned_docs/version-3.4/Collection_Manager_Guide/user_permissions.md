@@ -1,7 +1,7 @@
 ---
 title: "User Permissions"
 date: 2021-11-02
-lastmod: 2026-01-29
+lastmod: 2026-03-30
 authors: ["Katie Pearson", "Lindsay Walker"]
 sidebar_position: 190
 keywords: ["users", "permissions", "access"]
@@ -29,7 +29,7 @@ To assign user permissions, you must be an Administrator of the collection for w
 
 :::
 
-1. Navigate to your Administration Control Panel (_My Profile > Occurrence Management > name of collection_).
+1. Navigate to your Administration Control Panel (_click My Profile, then the name of the collection in the Collection Management box_).
 2. Click _Manage Permissions_.
 3. The resulting page will show a list of all Administrators, Editors, and Rare Species Readers assigned to your collection.
 4. To remove a user's permissions, click the trash bin icon next to their name:

@@ -1,7 +1,7 @@
 ---
 title: "Image/Media URL Upload"
 date: 2023-10-31
-lastmod: 2025-01-31
+lastmod: 2026-03-30
 sidebar_position: 10
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
@@ -15,7 +15,7 @@ This page describes how to associate externally hosted media resources (e.g., im
 :::
 
 ### Adding Media Resources via URLs
-  1. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of your collection).
+  1. Navigate to your Administration Control Panel (_click My Profile, then the name of the collection in the Collection Management box_).
   2. Click Import/Update Specimen Records, then select "Extended Data Import".
   3. Click the "Choose File" button to upload a properly formatted associations file into the uploader (see sections below for formatting requirements).
   4. Select "Media Field Map" from the Import Type dropdown menu.

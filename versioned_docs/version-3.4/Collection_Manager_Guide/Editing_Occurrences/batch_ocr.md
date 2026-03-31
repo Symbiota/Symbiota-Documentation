@@ -1,7 +1,7 @@
 ---
 title: "Batch OCR"
 date: 2021-12-03
-lastmod: 2026-01-29
+lastmod: 2026-03-30
 draft: false
 sidebar_position: 10
 authors: ["Katie Pearson"]
@@ -17,7 +17,7 @@ Optical Character Recognition (OCR) is the use of computer algorithms to detect 
 
 To run OCR on many specimen images at a time
 
-1. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of collection).
+1. Navigate to your Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box).
 2. Click Processing Toolbox.
 3. If OCR is enabled in your portal, click the OCR tab.
 4. From here, you can view how many specimens have a saved OCR output, and you can run OCR on a designated number of specimens using the **Batch OCR Images using the Tesseract OCR Engine** box. Indicate the processing status of the records for which you would like to run OCR in the "processing status" field, and indicate how many of these records you would like to run at one time using the "Number of records to process" field.

@@ -1,7 +1,7 @@
 ---
 title: "Deleting or Transferring Images/Media"
 date: 2021-11-28
-latmod: 2025-01-31
+latmod: 2026-03-30
 authors: ["Katie Pearson"]
 keywords: ["images"]
 ---
@@ -14,7 +14,7 @@ This page describes how to transfer media resources to other records in your col
 
 #### Transferring a Media Resource to Another Record
 
-1. Navigate to the occurrence record that has the media resource you would like to transfer. (e.g., My Profile > Occurrence Management > name of collection > Edit Existing Occurrence Records > use record search form to find specific occurrence).
+1. Navigate to the occurrence record that has the media resource you would like to transfer. (e.g., click My Profile > name of the collection in the Collection Management box > Edit Existing Occurrence Records > use record search form to find specific occurrence).
 2. Open the occurrence record in the Occurrence Editor (see screenshot below).
 3. Click the Media tab.
 

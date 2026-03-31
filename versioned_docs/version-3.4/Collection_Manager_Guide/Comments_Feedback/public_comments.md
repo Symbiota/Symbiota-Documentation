@@ -1,7 +1,7 @@
 ---
 title: "Public Comments"
 date: 2021-11-22
-lastmod: 2024-04-05
+lastmod: 2026-03-30
 draft: false
 sidebar_position: 5
 authors: ["Katie Pearson"]
@@ -15,7 +15,7 @@ This page describes how to view comments on your occurrences. Any Symbiota user 
 
 :::
 
-To view and vet comments posted on records from your collection, navigate to the Administration Control Panel: _My Profile > Occurrence Management > name of collection_ and click “View Posted Comments.” If there is no orange text to the right of this option, you have no comments that have not yet been reviewed.
+To view and vet comments posted on records from your collection, navigate to the Administration Control Panel (_click My Profile, then the name of the collection in the Collection Management box_) and click "View Posted Comments." If there is no orange text to the right of this option, you have no comments that have not yet been reviewed.
 
 ![View Comments](/img/admincontrolpanel_comments.png)
 

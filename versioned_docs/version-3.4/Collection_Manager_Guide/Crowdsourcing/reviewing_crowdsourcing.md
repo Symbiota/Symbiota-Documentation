@@ -1,7 +1,7 @@
 ---
 title: "Reviewing and Approving Crowdsourcing"
 date: 2021-10-11
-lastmod: 2021-10-11
+lastmod: 2025-03-30
 sidebar_position: 15
 draft: false
 authors: ["Katie Pearson"]
@@ -14,7 +14,7 @@ This page describes how to review and approve edits that have been made to recor
 
 :::
 
-1. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of collection).
+1. Navigate to your Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box).
 2. In the Administration Control Panel, click Processing Toolbox.
 3. Click the Crowdsourcing tab.
 

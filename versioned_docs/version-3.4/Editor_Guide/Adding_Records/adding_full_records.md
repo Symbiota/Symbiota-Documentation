@@ -1,6 +1,7 @@
 ---
 title: "Adding Full Records"
 date: 2021-10-22
+lastmod:  2026-03-30
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["add", "create"]
@@ -12,7 +13,7 @@ This page describes where to add a new record by entering the data directly into
 
 :::
 
-Navigate to your Data Editor Control Panel (My Profile > Occurrence Management > name of collection). Select Add New Occurrence Record. Enter the specimen information into the provided fields.
+Navigate to your Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_). Select Add New Occurrence Record. Enter the specimen information into the provided fields.
 
 :::tip
 

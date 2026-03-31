@@ -1,7 +1,7 @@
 ---
 title: "Label Customization and Printing"
 date: 2021-11-22
-lastmod: 2026-01-30
+lastmod: 2026-03-30
 authors: ["Katie Pearson"]
 keywords: ["labels", "printing"]
 sidebar_position: 100
@@ -29,7 +29,7 @@ For instructions on printing specimen packets, see [this page](/Editor_Guide/Lab
 
 ### Printing Specimen Labels
 
-To print specimen labels, navigate to the Data Editor Control Panel (My Profile > Occurrence Management > name of collection) and click “Print Labels/Annotations.” Search for the desired specimens by entering search terms in one or many of the available fields in the “Define Specimen Recordset” box and clicking “Filter Specimen Records.” Select all the specimens for which you want to print labels by checking or unchecking the boxes in the leftmost column of the table. Use the “Select/Deselect all Specimens” box to check or uncheck all the boxes as necessary.
+To print specimen labels, navigate to the Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_) and click “Print Labels/Annotations.” Search for the desired specimens by entering search terms in one or many of the available fields in the “Define Specimen Recordset” box and clicking “Filter Specimen Records.” Select all the specimens for which you want to print labels by checking or unchecking the boxes in the leftmost column of the table. Use the “Select/Deselect all Specimens” box to check or uncheck all the boxes as necessary.
 
 ![Print Label Queue](/img/printlabel1_2026.png)
 

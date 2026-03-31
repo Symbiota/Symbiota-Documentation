@@ -1,7 +1,7 @@
 ---
 title: "Trait Scoring from Images"
 date: 2021-12-09
-lastmod: 2026-01-30
+lastmod: 2026-03-30
 authors: ["Katie Pearson"]
 keywords: ["trait scoring", "attribute scoring", "phenology", "traits"]
 ---
@@ -28,7 +28,7 @@ Navigate to the Occurence Editor for the occurrence you wish to score (see [this
 
 This tool can be used to efficiently score specimens of the same taxon or from the same region.
 
-From the Data Editor Control Panel (My Profile > Occurrence Management > name of collection), click Occurrence Trait Coding Tools, then Trait Coding from Images.
+From the Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_), click Occurrence Trait Coding Tools, then Trait Coding from Images.
 In the Filter box, select the trait that you wish to score, followed by the name of the taxon for which you wish to score (if applicable). Phenological Traits from the Trait dropdown menu. You can also refine your search by using the All Counties & All States dropdown list. This field provides a dropdown menu of all countries and states that are indexed in CCH2. If you select one of these geographic criteria, the tool will only show you specimens from that country/state.
 
 ![Trait Scoring Filters](/img/traitscorefilter2026.png)

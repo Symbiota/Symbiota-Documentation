@@ -1,7 +1,7 @@
 ---
 title: "Uploading Images/Media"
 date: 2021-10-06
-lastmod: 2025-05-12
+lastmod: 2026-03-30
 weight: 10
 draft: false
 authors: ["Ed Gilbert","Ben Brandt","Katie Pearson"]
@@ -27,7 +27,7 @@ There are three catefories of media resources that can be linked to a Symbiota p
 ### Individual specimen media resources
 
 1. Log in to your account in the portal.
-2. Navigate to the Occurrence Editor page of the specimen to which you would like to add an image (My Profile > Occurrence Management > name of collection > Edit Existing Occurrence Records > conduct search for specimen)
+2. Navigate to the Occurrence Editor page of the specimen to which you would like to add an image (click My Profile > name of the collection in the Collection Management box > Edit Existing Occurrence Records > conduct search for specimen)
 3. Click the Media tab.
 
 ![Media Tab](/img/mediatab.jpg)

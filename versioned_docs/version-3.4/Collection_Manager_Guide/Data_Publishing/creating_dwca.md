@@ -1,7 +1,7 @@
 ---
 title: "Creating a Darwin Core Archive"
 date: 2021-10-07
-lastmod: 2025-07-15
+lastmod: 2026-03-30
 authors: ["Katie Pearson"]
 sidebar_position: 5
 keywords: ["data publishing","Darwin Core", "DwC-A","Darwin Core Archive"]
@@ -21,7 +21,7 @@ You can only publish a Darwin Core Archive of occurrences that have unique occur
 
 :::
 
-1. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of your collection).
+1. Navigate to your Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box).
 2. Click Darwin Core Archive Publishing.
 3. Click the Create/Refresh Darwin Core Archive button.
 

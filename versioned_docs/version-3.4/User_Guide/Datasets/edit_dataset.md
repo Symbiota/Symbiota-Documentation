@@ -1,7 +1,7 @@
 ---
 title: "Editing Datasets"
 date: 2022-05-20
-lastmod: 2022-05-20
+lastmod: 2026-03-30
 authors: ["Katie Pearson"]
 draft: false
 sidebar_position: 10
@@ -17,9 +17,8 @@ This page describes how to edit lists of occurrences, called "datasets," in a Sy
 ### Edit an Existing Dataset
 
 1. Click My Profile.
-2. Click Occurrence Management.
-3. In the "Miscellaneous Tools" box, click "Dataset Management".
-4. Click the name of the dataset that you wish to edit.
+2. In the "Miscellaneous Tools" box of the Occurrence Management tab, click "Dataset Management".
+3. Click the name of the dataset that you wish to edit.
 
 In the **General Management** tab, you can:
 _ edit the name, notes, and description of the dataset

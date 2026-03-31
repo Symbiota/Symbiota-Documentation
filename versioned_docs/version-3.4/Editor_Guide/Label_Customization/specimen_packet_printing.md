@@ -1,7 +1,7 @@
 ---
 title: "Specimen Packet Printing"
 date: 2021-09-29
-lastmod: 2026-01-30
+lastmod: 2026-03-30
 authors: ["Katie Pearson", "Laura Rocha Prado"]
 keywords: ["labels", "printing", "packet"]
 ---
@@ -26,7 +26,7 @@ The default packet label looks like this:
 
 ![Default Packet Label](/img/printdefaultpacket.png)
 
-1. To print a packet, navigate to the Data Editor Control Panel (My Profile > Occurrence Management > name of collection).
+1. To print a packet, navigate to the Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_).
 2. Click Print Specimen Labels from the Data Editor Control Panel.
 3. Enter search terms into the Define Specimen Recordset form to search for the specimens for which you would like to print packets. Then click the Filter Specimen Records button.
 4. Check the boxes next to the specimens for which you would like to print packets, or click the checkbox at the top of the checkboxes column to select all the records.
