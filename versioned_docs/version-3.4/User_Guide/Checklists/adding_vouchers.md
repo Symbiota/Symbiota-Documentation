@@ -4,7 +4,6 @@ date: 2021-10-14
 lastmod: 2026-03-30
 authors: ["Katie Pearson", "Neil Cobb", "Ed Gilbert"]
 editors: ["Katie Pearson"]
-lastmod: 2024-12-11
 draft: false
 sidebar_position: 10
 keywords: ["checklist", "inventory", "flora", "voucher"]
