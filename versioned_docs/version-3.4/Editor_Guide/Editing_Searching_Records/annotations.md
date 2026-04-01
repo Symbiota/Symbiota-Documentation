@@ -1,7 +1,7 @@
 ---
 title: "Annotations / Determinations"
 date: 2021-10-26
-lastmod: 2027-09-27
+lastmod: 2026-03-30
 sidebar_position: 10
 authors: ["Katie Pearson"]
 keywords: ["edit", "annotation", "identification", "determination"]
@@ -17,7 +17,7 @@ This page describes how to add annotations individually or in batch.
 
 ### Adding Individual Determinations/Annotations
 
-To annotate an individual record or add previous determinations, navigate to the specimen in the Occurrence Editor (My Profile > Occurrence Records > name of collection > Edit Existing Records) and click the Determination History tab. If no previous annotations exist, you will see a message that says "There are no historic annotations for this specimen" and a box labeled Add a New Determination. If an annotation already exists on the specimen, you will see that annotation. Click the plus sign icon to add a new annotation.
+To annotate an individual record or add previous determinations, navigate to the specimen in the Occurrence Editor (_click My Profile, then the name of the collection in the Collection Management box > Edit Existing Records_) and click the Determination History tab. If no previous annotations exist, you will see a message that says "There are no historic annotations for this specimen" and a box labeled Add a New Determination. If an annotation already exists on the specimen, you will see that annotation. Click the plus sign icon to add a new annotation.
 
 ![Determination History Example](/img/dethistoryexample.png)
 
@@ -41,7 +41,7 @@ If the specimen previously had an identification and you have checked the box ne
 
 ### Batch Adding Annotations/Determinations
 
-You can add many annotations at once using the Add Batch Determinations/Nomenclatural Adjustments tool. Navigate to this tool by accessing the Data Editor Control Panel (My Profile > Occurrence Records > name of collection) and clicking "Add Batch Determinations/Nomenclatural Adjustments." To select the specimens to which determination data will be added ("Define Specimen Recordset"), either enter a list of catalog numbers (separated by commas) in the "Catalog Number:" field or select a taxon to evaluate by entering its name in the "Taxon:" field. Click the Add Record(s) to List button.
+You can add many annotations at once using the Add Batch Determinations/Nomenclatural Adjustments tool. Navigate to this tool by accessing the Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_) and clicking "Add Batch Determinations/Nomenclatural Adjustments." To select the specimens to which determination data will be added ("Define Specimen Recordset"), either enter a list of catalog numbers (separated by commas) in the "Catalog Number:" field or select a taxon to evaluate by entering its name in the "Taxon:" field. Click the Add Record(s) to List button.
 
 ![Batch Annotation Search Form](/img/addbatchannotations2025.png)
 

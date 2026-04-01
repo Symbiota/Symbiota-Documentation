@@ -1,7 +1,7 @@
 ---
 title: "Batch Georeferencing"
 date: 2021-11-16
-lastmod: 2021-11-16
+lastmod: 2026-03-30
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["georeferencing", "batch edits"]
@@ -13,7 +13,7 @@ This page describes the functionality of the Batch Georeferencing tool. Distinct
 
 :::
 
-1. Log in to your account in the portal, click “My Profile,” navigate to the “Occurrence Management” tab, and click the name of the institution for which you will be georeferencing.
+1. Log in to your account in the portal, click My Profile, then the name of the institution for which you will be georeferencing.
 2. In the Data Editor Control Panel, click “Batch Georeference Specimens.”
 3. Enter your desired search terms in the provided Query Form box. You can search by Country, State, County, Municiplaity, Processing Status, and/or Locality Terms. Then click Generate List.
 

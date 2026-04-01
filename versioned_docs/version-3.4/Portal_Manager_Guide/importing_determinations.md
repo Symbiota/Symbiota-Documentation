@@ -1,7 +1,7 @@
 ---
 title: "Importing Determinations"
 date: 2023-10-31
-lastmod: 2025-07-15
+lastmod: 2026-03-30
 authors: ["Lindsay Walker"]
 editors: ["Katie Pearson"]
 sidebar_position: 40
@@ -26,7 +26,7 @@ This page provides instructions for bulk uploading specimen determinations/annot
 
 ### Initiating the Upload
 
-1. Navigate to your Administration Control Panel (_My Profile > Occurrence Management > name of your collection_).
+1. Navigate to your Administration Control Panel (_click My Profile, then the name of the collection in the Collection Management box_).
 2. Within the Administration Control Panel, navigate to _Import/Update Specimen Records > Extended Data Import_.
 3. Select the file containing your determinations to be imported. See below for tips regarding the contents and formatting of this file.
 4. Choose _Import Type_ = "Determinations".

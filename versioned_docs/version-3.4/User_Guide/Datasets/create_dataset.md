@@ -1,7 +1,7 @@
 ---
 title: "Creating Datasets"
 date: 2022-05-20
-lastmod: 2022-07-12
+lastmod: 2026-03-30
 authors: ["Katie Pearson"]
 draft: false
 sidebar_position: 5
@@ -31,9 +31,8 @@ You can access the tools to create a new dataset either (A) through the general 
 ### Through the dataset management page
 
 1. Click My Profile.
-2. Click Occurrence Management.
-3. In the "Miscellaneous Tools" box, click "Dataset Management".
-4. Click "Create a New Dataset" (if you have no existing datasets) or the green plus sign at the top right of the page.
-5. Enter a name, notes, and description (if desired) for your dataset. You can also make the dataset public by checking the "Publicly Visible" box.
-6. Click Create Dataset. This will take you back to the "Occurrence Dataset Management" page.
-7. To add occurrences to a dataset, click the name of the dataset you created, then click the "occurrence search page" link. Or you can start at step 1 in the instructions for creating datasets **Through the general search page** above.
+2. In the "Miscellaneous Tools" box of the Occurrence Management tab, click "Dataset Management".
+3. Click "Create a New Dataset" (if you have no existing datasets) or the green plus sign at the top right of the page.
+4. Enter a name, notes, and description (if desired) for your dataset. You can also make the dataset public by checking the "Publicly Visible" box.
+5. Click Create Dataset. This will take you back to the "Occurrence Dataset Management" page.
+6. To add occurrences to a dataset, click the name of the dataset you created, then click the "occurrence search page" link. Or you can start at step 1 in the instructions for creating datasets **Through the general search page** above.

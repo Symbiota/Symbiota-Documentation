@@ -1,6 +1,6 @@
 ---
 title: "Collection Statistics"
-date: 2021-12-23
+date: 2026-03-30
 authors: ["Katie Pearson"]
 sidebar_position: 20
 keywords: ["statistics", "number of specimens", "reports"]
@@ -33,15 +33,15 @@ Statistics relating to the number of specimens, images, georeferences, and taxa 
 
 Collection profiles can be accessed by visiting the Collection Search Page (click Search Collections) at the following URL: [BASE URL]/collections/misc/collprofiles.php. For example, for the CCH2 portal, the full URL is https://cch2.org/portal/collections/misc/collprofiles.php.
 
-If you are an Administrator for a collection, you can also access your statistics by clicking My Profile > Occurrence Management > name of collection.
+If you are an Administrator for a collection, you can also access your statistics by clicking My Profile, then the name of the collection in the Collection Management box.
 
 ### Refreshing Collection Statistics
 
-Collection statistics are generated on command and are not created "on the fly". The date the statistics were last refreshed is listed in parentheses below the statistics. To refresh your collection statistics, your user account must have "Administrator" permissions. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of collection) and click Update Statistics (bottom link in the Administration Control Panel).
+Collection statistics are generated on command and are not created "on the fly". The date the statistics were last refreshed is listed in parentheses below the statistics. To refresh your collection statistics, your user account must have "Administrator" permissions. Navigate to your Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box) and click Update Statistics (bottom link in the Administration Control Panel).
 
 ### Processing Status Statistics in the Reports Tab
 
-To view statistics regarding the processing statuses in your collection, navigate to your Administration Control Panel (My Profile > Occurrence Management > name of collection), then click Processing Toolbox. Click the Reports tab. A table will be displayed that shows you the number of specimens in each processing status. To view occurrences one by one, click the edit (pencil) icon in the **Count** column. To view occurrences as a list, click the table icon in the **Count** column.
+To view statistics regarding the processing statuses in your collection, navigate to your Administration Control Panel (My Profile, then the name of the collection in the Collection Management box), then click Processing Toolbox. Click the Reports tab. A table will be displayed that shows you the number of specimens in each processing status. To view occurrences one by one, click the edit (pencil) icon in the **Count** column. To view occurrences as a list, click the table icon in the **Count** column.
 
 This page will also show you how many of your occurrences do not have linked media resources and how many lack skeletal data (i.e., a value in the Scientific Name field).
 

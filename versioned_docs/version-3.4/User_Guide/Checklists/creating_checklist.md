@@ -3,7 +3,7 @@ title: "Creating a Checklist"
 date: 2021-10-14
 authors: ["Katie Pearson"]
 editors: ["Katie Pearson"]
-lastmod: 2024-01-26
+lastmod: 2026-03-30
 draft: false
 sidebar_position: 15
 keywords: ["checklist", "inventory", "flora"]
@@ -23,8 +23,9 @@ The "Create a Checklist" permission has been granted for the majority of existin
 
 1. Log in to the Symbiota profile (if you don't already have an account, click New Account to create one).
 2. Click "My Profile"
-3. Under the “Species Checklists” tab, click the add icon. ![Plus Sign Icon](/img/add.png)
-4. Fill out the “Create New Checklist” box with the desired information.
+3. Click the “Species Inventories tab
+4. Click the add icon. ![Plus Sign Icon](/img/add.png)
+5. Fill out the “Create New Checklist” box with the desired information.
    - Most checklists will be a General Checklist. Alternatively, you can another list type from the Checklist Type dropdown menu. A Species Exclusion List is used to curate a subset of taxa that are purposely excluded from another list, and a Rare, threatened, protected species list is used to compile a state-level list of rare, threatened, and protected taxa for which locality data will be redacted for specimens in that state.
    - To indicate that this checklist is a subset within a larger checklist, select the “parent” (larger) checklist from the More Inclusive Reference Checklist dropdown menu.
    - You can define the area included in the checklist by describing it in the Locality and Abstract fields, including Latitude and Longitude coordinates, and/or you can define the boundaries of that area geographically by setting a “footprint polygon”. To define a “footprint polygon”:

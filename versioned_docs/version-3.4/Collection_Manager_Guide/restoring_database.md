@@ -1,7 +1,7 @@
 ---
 title: "Restoring your Database"
 date: 2021-12-15
-lastmod: 2026-01-29
+lastmod: 2026-03-30
 draft: false
 sidebar_position: 170
 authors: ["Katie Pearson"]
@@ -10,7 +10,7 @@ keywords: ["restore","replace","upload"]
 ---
 
 In the case of catastrophic database error (e.g., erroneous batch edit that cannot be easily reversed), you can replace your entire database by uploading a Darwin Core Archive (DwC-A). Note that you need to have recently [downloaded a copy of your database](/Collection_Manager_Guide/Downloading/downloading_copy/) with which you can replace your current database.
-To replace your database, navigate to the Administration Control Panel (My Profile > Occurrence Management > name of collection) and click “Restore Backup File” under the General Maintenance Tasks. You can then click Choose File and select a DwC-A with which to replace your dataset.
+To replace your database, navigate to the Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box) and click “Restore Backup File” under the General Maintenance Tasks. You can then click Choose File and select a DwC-A with which to replace your dataset.
  * If your DwC-A contains an "identifications" file, make sure that the "Restore Determination History" box is checked.
   * If your DwC-A contains a "multimedia" file, make sure that the "Restore Media Links" box is checked. Click Analyze File.
 

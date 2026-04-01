@@ -1,7 +1,7 @@
 ---
 title: "Downloading a Copy of your Data"
 date: 2021-11-29
-lastmod: 2025-07-22
+lastmod: 2026-03-30
 sidebar_position: 5
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
@@ -22,7 +22,7 @@ It is strongly recommended that curators or collection managers regularly downlo
 
 To download a copy of your specimen data from a Symbiota portal:
 
-1. Navigate to the **_Administration Control Panel_** (_My Profile > Occurrence Management > name of collection_) > **_Download Data Backup File_** (under General Maintenance Tasks)
+1. Navigate to the **Administration Control Panel** (_click My Profile, then the name of the collection in the Collection Management box_) > **Download Data Backup File** (under General Maintenance Tasks)
 2. A new window will appear asking you to select the character set (ISO-8859-1 or UTF-8) that will be used in your downloaded dataset. Click the Perform Backup button. The resulting file will be a zipped Darwin Core Archive.
 
 ![Exporter Tool](/img/admincontrolpanel_backup2026.png)

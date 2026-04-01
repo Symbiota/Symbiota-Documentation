@@ -1,7 +1,7 @@
 ---
 title: "Downloading a Subset of Your Data"
 date: 2025-07-22
-lastmod:  2025-07-22
+lastmod: 2026-03-30
 authors: ["Katie Pearson"]
 editors: 
 keywords: ["export","custom download"]
@@ -22,7 +22,7 @@ For more information about your download options, see [this page](/User_Guide/Do
 
 ## Exporter Tool
 
-1. Navigate to your Administration Control Panel (My Profile > Occurrence Managment > name of collection).
+1. Navigate to your Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box).
 2. Click Processing Tools.
 3. Click the Exporter tab.
 4. Use the Processing Status and additional filters to define the dataset you would like to download from your collection. You can also select whether you would like to download a strict Darwin Core Archive (Darwin Core) or an archive containing all Symbiota fields (Symbiota Native); whether you would like to determination history (identifications), multimedia (i.e., links to images), and/or occurrence attributes (if enabled); whether you would like the results in a ZIP file; and the file format and character set ([ISO-8859-1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1) or [UTF-8](https://en.wikipedia.org/wiki/UTF-8)) for your download.

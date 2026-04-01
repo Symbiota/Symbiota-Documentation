@@ -1,7 +1,7 @@
 ---
 title: "GEOLocate CoGe"
 date: 2021-12-02
-lastmod: 2026-01-29
+lastmod: 2026-03-30
 draft: false
 authors: ["Katie Pearson"]
 sidebar_position: 5
@@ -36,7 +36,7 @@ Example instructions for step 5 can be found here ([GEOLocate CoGe Training Cour
 
 #### (step 4 from above workflow)
 
-1. Navigate to your Administration Control Panel (My Profile > Occurrence Editor > name of collection).
+1. Navigate to your Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box).
 2. Click Processing Toolbox.
 3. If CoGe has been enabled for your portal, a tab labeled GeoLocate CoGe will be visible. Click this tab. If CoGe is not enabled, contact your portal manager to request this feature.
 
@@ -73,7 +73,7 @@ You can also use the "Download Records Locally" button to quickly check whether 
 
 ### Reviewing Georeferences Created in GEOLocate CoGe
 
-1. To view georeferences that have been created in CoGe, navigate to your Administration Control Panel (My Profile > Occurrence Editor > name of collection).
+1. To view georeferences that have been created in CoGe, navigate to your Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box).
 2. Click Review/Verify Occurrence Edits.
 3. In the Filter box at the top right, select External from the dropdown menu of the Editing Source field. Then click Submit Filter.
 4. The edits that were applied in CoGe will now be visible in the reviewer table.

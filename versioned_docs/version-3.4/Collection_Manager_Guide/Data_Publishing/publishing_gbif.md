@@ -3,7 +3,7 @@ title: "Publishing Data to GBIF"
 authors: ["Ed Gilbert","Katie Pearson"]
 editors: ["Katie Pearson", "Lindsay Walker"]
 date: 2021-10-07
-lastmod: 2025-07-01
+lastmod: 2026-03-30
 sidebar_position: 10
 keywords: ["aggregator","gbif","data publishing"]
 ---
@@ -28,17 +28,17 @@ Your portal must be set up as a GBIF Publishing Installation to publishing your 
 1. [Use these instructions](/Collection_Manager_Guide/Data_Publishing/requesting_endorsement) to set up an institutional account with GBIF so that there is a direct publishing agreement established between GBIF and the institution. Since the institutional account may be used to list multiple collection datasets associated with that institution (e.g. https://www.gbif.org/publisher/4c0e9f60-c489-11d8-bf60-b8a03c50a862 ), you should coordinate with other collections within your institution, if applicable. Note that the institutional datasets can be published to GBIF using different publishing resources. For instance, the zoological collections could import their data from VertNet IPT (http://ipt.vertnet.org) or their institutional IPT, vascular plant data from [SEINet](https://swbiodiversity.org), and lichens from the [Lichen Portal](https://lichenportal.org).
    * If you are sure your institution is not yet registered, complete the registration form linked above and follow the instructions provided by GBIF. 
    * If your institution is already registered, review the GBIF metadata for your organization and existing datasets and contact GBIF to make any necessary changes. Be sure that none of the existing datasets contain the same data you are trying to publish. If they do, make the appropriate arrangements with GBIF so that the old dataset can be archived BEFORE re-publishing the new dataset.
-2. Log in to your Symbiota portal, go to your _Administrator Control Panel_ (via _My Profile_ > _Occurrence Management tab_ > select your collection's name > select _Edit Metadata_.
+2. Log in to your Symbiota portal, go to your **Administrator Control Panel** (click My Profile, then the name of the collection in the Collection Management box) and select **Edit Metadata**.
    * Verify that your collection's name and description are accurate (both will be visible on the corresponding GBIF dataset page).
    * Select (check) the "Publish to Aggregators" box (for GBIF). If you do not see a GBIF publishing checkbox, contact your Portal Manager and ask them to configure the portal for GBIF publishing.  
    * Select the "Save Edits" button. 
-3. Return to the _Administration Contol Panel_ and navigate to the _Darwin Core Archive Publishing_ link. Click "Create/Refresh Darwin Core Archive" button.
+3. Return to the **Administration Contol Panel** and navigate to the **Darwin Core Archive Publishing** link. Click "Create/Refresh Darwin Core Archive" button.
 4. Enter your institution's GBIF publisher key and select the "Validate Key" button. (The GBIF key should have the following format: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, e.g. "4c0e9f60-c489-11d8-bf60-b8a03c50a872"). If your key validates, more instructions will be displayed along with a "Submit Data" button. Alternatively, you can enter the full URL to your GBIF Publisher Page ([example](https://www.gbif.org/publisher/d16f32bb-204f-4c07-95eb-6673e90225e9)), and the key will be automatically extracted. 
 5. Before you submit data to GBIF for the first time, you will need to contact GBIF's Help Desk (helpdesk@gbif.org). **Look for the recommended draft email message to send to GBIF by following the instructions under the "Validate Key" button.** 
 6. Once GBIF affirms that the portal has permission to submit data to your GBIF Publisher Page, click the "Submit Data" button. A link to your GBIF dataset will be immediately displayed, though it may take an hour or so for your data to be loaded, indexed, and available.
 
 ## To refresh your data after first-time publication
-1. Return to the _Administration Contol Panel_ and navigate to the _Darwin Core Archive Publishing_ link. Click "Create/Refresh Darwin Core Archive" button.
+1. Return to the **Administration Contol Panel** and navigate to the **Darwin Core Archive Publishing** link. Click "Create/Refresh Darwin Core Archive" button.
 
 <ReactPlayer
   playing={false}

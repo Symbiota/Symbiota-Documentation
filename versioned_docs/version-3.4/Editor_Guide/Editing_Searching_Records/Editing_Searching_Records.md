@@ -1,7 +1,7 @@
 ---
 title: "Editing & Searching Records"
 date: 2021-10-26
-lastmod: 2025-07-22
+lastmod: 2026-03-30
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["edit", "change", "record search form", "search"]
@@ -18,7 +18,7 @@ This page provides instructions on how to search for and edit records.
 - For an overview of fields in the occurrence editor form, visit [this page](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
 - For an explanation of the record editor tabs, visit [this page](/Editor_Guide/Editing_Searching_Records/record_editor_tabs).
 
-To edit or search for records, select "Edit Existing Occurrence Records" from the Data Editor Control Panel (accessed via *My Profile > Occurrence Management > name of collection*). On the resulting Record Search Form, you can enter one or multiple search terms to customize your results.
+To edit or search for records, select "Edit Existing Occurrence Records" from the Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_). On the resulting Record Search Form, you can enter one or multiple search terms to customize your results.
 
 | ![Record Search Form](/img/new_recordsearchform.png) |
 | :-----------------------------------------------------: |

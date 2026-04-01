@@ -1,7 +1,7 @@
 ---
 title: "Duplicate Clustering"
 date: 2021-12-13
-lastmod: 2026-01-29
+lastmod: 2026-03-30
 sidebar_position: 107
 authors: ["Katie Pearson"]
 keywords: ["duplicates", "duplicate specimens"]
@@ -25,7 +25,7 @@ Because creating duplicate specimens is not universal among collection types, to
 
 :::
 
-To view or link duplicates, navigate to your Administration Control Panel (My Profile > Occurrence Management > name of collection) and click Duplicate Clustering.
+To view or link duplicates, navigate to your Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box) and click Duplicate Clustering.
 
 - To view existing duplicates, click _Specimen duplicate clusters_
 - To view duplicates with taxonomic identifications that do not match, click _Specimen duplicate clusters with conflicted identifications_. An example output of this tool is shown in the screenshot below.

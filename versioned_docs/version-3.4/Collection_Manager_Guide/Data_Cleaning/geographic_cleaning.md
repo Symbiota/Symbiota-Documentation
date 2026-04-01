@@ -1,6 +1,6 @@
 ---
 title: "Geography Cleaning Tools"
-date: 2021-10-12
+date: 2026-03-30
 sidebar_position: 15
 draft: false
 authors: ["Katie Pearson"]
@@ -17,7 +17,7 @@ The two geographic cleaning tools are the Geographic Distribution viewer and the
 
 ### Geography Distribution Viewer
 
-Navigate to this tool through the **_Administration Control Panel (My Profile > Occurrence Management > name of collection)_**. Click **_Data Cleaning Tools_**, then **_Geographic Distributions_**.
+Navigate to this tool through the **Administration Control Panel** (_click My Profile, then the name of the collection in the Collection Management box_). Click **Data Cleaning Tools**, then **Geographic Distributions**.
 
 The Geography Distribution viewer can be used to examine the countries, states, and counties that exist in your database. Any misspellings, non-standardized entries (e.g., “USA” rather than “United States”), or suspected mistakes (e.g., “United Arab Emirates” rather than “United States”) can be detected using this tool. To view the state/province values for each country, click the name of the country. Then, to view the county values for each state/province, click the name of the state/province.
 
@@ -27,7 +27,7 @@ A user with administrator permissions can correct errors in country, state/provi
 
 ### Geography Cleaning Tool
 
-Navigate to this tool through the **_Administration Control Panel (My Profile > Occurrence Management > name of collection)_**. Click **_Data Cleaning Tools_**, then **_Geography Cleaning Tools_**.
+Navigate to this tool through the **Administration Control Panel** (_click My Profile, then the name of the collection in the Collection Management box_). Click **Data Cleaning Tools**, then **Geography Cleaning Tools**.
 
 The Geography Cleaning Tool will search your database for non-standardized geographical terms (countries, states/provinces, and counties) used in your collection. These will be listed as “questionable.” To view and potentially edit these records, you can click the "[number] Records" link (one example circled below).
 

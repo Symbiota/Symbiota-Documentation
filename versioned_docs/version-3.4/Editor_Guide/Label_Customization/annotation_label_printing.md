@@ -1,7 +1,7 @@
 ---
 title: "Annotation Label Printing"
 date: 2021-11-22
-lastmod: 2026-01-30
+lastmod: 2026-03-30
 authors: ["Katie Pearson"]
 keywords: ["labels", "printing", "annotation"]
 ---
@@ -14,7 +14,7 @@ This page describes how to print annotation labels in a Symbiota portal.
 
 To use this tool, you will need to have first added the annotated specimens to the annotation print queue. This can be done either individually, via the Occurrence Editor, or in batch using the Add Batch Determinations/Nomenclatural Adjustments tool (see [Annotations/Determinations](/Editor_Guide/Editing_Searching_Records/annotations) for instructions).
 
-To print annotation labels, navigate to the Data Editor Control Panel (My Profile > Occurrence Management > name of collection) and click “Print Annotations Labels.” A table will be displayed that lists all the specimens in the Annotation Print Queue. Check the boxes in the leftmost column next to the specimen records for which you wish to print annotations.
+To print annotation labels, navigate to the Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_) and click “Print Annotations Labels.” A table will be displayed that lists all the specimens in the Annotation Print Queue. Check the boxes in the leftmost column next to the specimen records for which you wish to print annotations.
 
 ![Annotation Printing](/img/annotationprinting2026.png)
 

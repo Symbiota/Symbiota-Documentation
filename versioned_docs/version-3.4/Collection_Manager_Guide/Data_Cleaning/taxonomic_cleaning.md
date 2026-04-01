@@ -1,6 +1,6 @@
 ---
 title: "Taxonomic Cleaning Tools"
-date: 2021-10-08
+date: 2026-03-30
 sidebar_position: 20
 draft: false
 authors: ["Katie Pearson"]
@@ -15,7 +15,7 @@ This page describes how to use the two taxonomic cleaning tools in Symbiota port
 
 :::
 
-Navigate to these tools through the **_Administration Control Panel (My Profile > Occurrence Management > name of collection)_**. Click **_Data Cleaning Tools_**, then view the box below the **_Taxonomy_** header.
+Navigate to these tools through the **Administration Control Panel** (_click My Profile, then the name of the collection in the Collection Management box_). Click **Data Cleaning Tools**, then view the box below the **Taxonomy** header.
 
 The taxonomic cleaning tools are great resources for cleaning up misspellings and other taxonomic name entries that do not link to names in the central taxonomic thesaurus. They are meant to aid in locating and fixing taxonomic errors and inconsistencies.
 

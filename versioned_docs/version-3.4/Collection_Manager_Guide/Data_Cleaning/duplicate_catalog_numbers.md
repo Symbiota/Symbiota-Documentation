@@ -1,6 +1,6 @@
 ---
 title: "Duplicate Catalog Numbers"
-date: 2021-10-12
+date: 2025-03-30
 authors: ["Katie Pearson"]
 draft: false
 sidebar_position: 10
@@ -13,7 +13,7 @@ This page describes how to identify and merge (when necessary) specimens with du
 
 :::
 
-This tool can be found in the **_Administration Control Panel (My Profile > Occurrence Management > name of collection)._**
+This tool can be found in the **Administration Control Panel** (_click My Profile, then the name of the collection in the Collection Management box_).
 
 To use the tool, first select whether you would like to list duplicates based on Catalog Numbers or Other Catalog Numbers from the “List Duplicates based on...” box. If duplicates exist, a table of duplicate records will appear on the resulting page.
 

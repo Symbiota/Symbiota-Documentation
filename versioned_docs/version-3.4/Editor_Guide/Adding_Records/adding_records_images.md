@@ -1,7 +1,7 @@
 ---
 title: "Adding Records from Images"
 date: 2021-10-22
-lastmod: 2024-09-20
+lastmod:  2026-03-30
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["add", "create"]
@@ -13,7 +13,7 @@ This page describes how to add a new record by uploading a single image.
 
 :::
 
-Using this tool, you can upload (or enter a URL to) an image that will establish a new occurrence record. Navigate to the Data Editor Control Panel (My Profile > Occurrence Management > name of collection), and select Create New Records Using Image (nested under Add New Occurrence Record). To upload an image, click the Choose File button and select the image you wish to upload. To use a URL, click the Enter URL link on the right side of the form.
+Using this tool, you can upload (or enter a URL to) an image that will establish a new occurrence record. Navigate to the Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_), and select Create New Records Using Image (nested under Add New Occurrence Record). To upload an image, click the Choose File button and select the image you wish to upload. To use a URL, click the Enter URL link on the right side of the form.
 
 ![Add Record from Image Form](/img/addfromimage.png)
 

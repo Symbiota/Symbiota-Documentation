@@ -1,6 +1,7 @@
 ---
 title: "Linking New Images to Old Records"
 date: 2021-10-07
+lastmod: 2026-03-30
 authors: ["Ed Gilbert","Katie Pearson"]
 keywords: ["images"]
 ---
@@ -29,7 +30,7 @@ This protocol describes how to add a barcode number to each of the specimens tha
 
 _(Example instructions for an herbarium collection)_
 1. Acquire a specimen.
-3. Log in to your account and navigate to your Data Editor Control Panel (My Profile > Occurrence Management > name of collection).
+3. Log in to your account and navigate to your Data Editor Control Panel _click My Profile, then the name of the collection in the Collection Management box_).
 4. Click Edit Existing Occurrence Records.
 5. Place a barcode on your specimen.
 6. Look for a stamped number (“accession number”) on the specimen.
@@ -61,7 +62,7 @@ This protocol describes how to update your old accession number with the specime
 :::
 
 _(Example instructions for an herbarium collection)_
-1. Log in to your account and navigate to your Data Editor Control Panel (My Profile > Occurrence Management > name of collection).
+1. Log in to your account and navigate to your Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_).
 2. Click Edit Existing Occurrence Records.
 3. In the Record Search Form, click the Processing Status field and select “Unprocessed” from the dropdown menu.
 4. In the Custom Field 1 field, select Other Catalog Number from the first dropdown menu and IS NULL from the second dropdown menu.
