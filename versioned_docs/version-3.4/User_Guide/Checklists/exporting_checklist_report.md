@@ -11,7 +11,7 @@ You can generate a number of useful reports using the Reports tab in the Manage 
 
 You can print a list of species, list of vouchers, list of potential species additions, and other options from this page.
 
-![Reports Tab from Checklist](/img/checklistreports2026.PNG)
+![Reports Tab from Checklist](/img/checklistreports2026.png)
 
 :::note
 
