@@ -3,7 +3,7 @@ title: "Publishing Data to GBIF"
 authors: ["Ed Gilbert","Katie Pearson"]
 editors: ["Katie Pearson", "Lindsay Walker"]
 date: 2021-10-07
-lastmod: 2026-03-30
+lastmod: 2026-04-02
 sidebar_position: 10
 keywords: ["aggregator","gbif","data publishing"]
 ---
@@ -47,7 +47,12 @@ Your portal must be set up as a GBIF Publishing Installation to publishing your 
 />
 
 ## Special instructions for snapshots
-### Suggested workflows for populating _occurrenceid_:
+
+:::success
+Once a specimen record is published to GBIF for the first time (from a Symbiota portal or otherwise), moving forward, the unique _occurrenceid_ value associated with this record should **always** be retained in the database that contains your canonical specimen data.
+:::
+
+### Options for populating _occurrenceid_ when publishing snapshot data for the first time
 
 #### Option 1: Generate GUIDs outside of Symbiota and then bring them into the portal
 * In your spreadsheet to be imported, include a column/field called "occurrenceid".
@@ -61,9 +66,11 @@ Your portal must be set up as a GBIF Publishing Installation to publishing your 
 * **Important:** Once we populate this field, you will have to remember to download a copy of your data from the portal and add the Symbiota-generated GUIDs to wherever you manage your records outside of Symbiota.
 
 :::warning
-
 Regardless of the method you choose to populate _occurrenceid_, the **most important** thing is to do is make sure that your _occurrenceid_ values (typically GUIDs) are retained with your canonical specimen records wherever you manage them outside of Symbiota (in a spreadsheet, MS Access, FileMaker Pro, etc.). Keeping this in mind, we suggest choosing whichever method will be the most sustainable for your colleciton's internal data management practices. Please contact the SSH's Help Desk if you would like to publish snapshot data from a Symbiota portal and need further guidance.
-
 :::
 
+### Information for snapshots containing previously published specimen records
 
+Before sending data to GBIF that were previous published using a different publication method (e.g., a different Symbiota portal or an IPT), you must import any [_occurrenceid_](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#occurrence-id-override) values that were associated with your previously published records into the Symbiota portal from which you intend to republish the data to GBIF. This is because GBIF uses _occurrenceid_ values (aka "GUIDs"), not _catalog numbers_, uniquely identify individual specimen occurrences. **Existing data in GBIF will not refresh correctly if you skip this step.**
+
+If you're not sure whether your snapshot contains _occurrenceid_ values, you can locate this information by opening individual catalog records and looking at the ["Curation" box](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#curation) near the bottom of the Occurrence Editor form. The _occurrenceid_ box on this form will contain a value (likely similar-looking to this example: `3f597410-ddbe-4007-a8d4-71d7ff894a46`) if they were previously imported. Alternatively, you can [download a copy](/Collection_Manager_Guide/Downloading/downloading_copy) of your snapshot data and look for this information in the occurrences.csv's _occurrenceid_ field.
