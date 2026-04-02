@@ -1,9 +1,9 @@
 ---
 title: "Adding Vouchers to Checklist"
 date: 2021-10-14
+lastmod: 2026-03-30
 authors: ["Katie Pearson", "Neil Cobb", "Ed Gilbert"]
 editors: ["Katie Pearson"]
-lastmod: 2024-12-11
 draft: false
 sidebar_position: 10
 keywords: ["checklist", "inventory", "flora", "voucher"]
@@ -32,7 +32,7 @@ There are two main ways to add voucher specimens to a research checklist. You ca
 
 ![Manage Linked Vouchers](/img/checklistexample.png)
 
-3. If this is the first time you have used this tool, you will be asked to first define the search statement (i.e., search parameters) that will be used to find the specimens that might pertain to your checklist. You can use a variety of fields to define your search, as described below.
+3. If this is the first time you have used this tool, you will immediately see the option to define the search statement (i.e., search parameters) that will be used to find the specimens that might pertain to your checklist. You can use a variety of fields to define your search, as described below.
 
 NOTE: You will be able to change the search statement in the future, so you are not necessarily defining the bounds forever.
 
