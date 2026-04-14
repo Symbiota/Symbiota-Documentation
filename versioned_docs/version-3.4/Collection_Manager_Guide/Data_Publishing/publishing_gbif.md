@@ -3,7 +3,7 @@ title: "Publishing Data to GBIF"
 authors: ["Ed Gilbert","Katie Pearson"]
 editors: ["Katie Pearson", "Lindsay Walker"]
 date: 2021-10-07
-lastmod: 2026-03-30
+lastmod: 2026-04-09
 sidebar_position: 10
 keywords: ["aggregator","gbif","data publishing"]
 ---
@@ -40,12 +40,6 @@ Your portal must be set up as a GBIF Publishing Installation to publishing your 
 ## To refresh your data after first-time publication
 1. Return to the **Administration Contol Panel** and navigate to the **Darwin Core Archive Publishing** link. Click "Create/Refresh Darwin Core Archive" button.
 
-<ReactPlayer
-  playing={false}
-  controls
-  url="https://www.youtube.com/watch?v=aDbw9RF4w08"
-/>
-
 ## Special instructions for snapshots
 ### Suggested workflows for populating _occurrenceid_:
 
@@ -66,4 +60,8 @@ Regardless of the method you choose to populate _occurrenceid_, the **most impor
 
 :::
 
-
+<ReactPlayer
+  playing={false}
+  controls
+  url="https://www.youtube.com/watch?v=aDbw9RF4w08"
+/>
