@@ -1,10 +1,12 @@
 ---
 title: "Coordinate Validator"
-date: 2025-03-30
+date: 2026-04-14
 sidebar_position: 7
 authors: ["Katie Pearson"]
 keywords: ["geography", "geographic thesaurus", "georeferences"]
 ---
+
+import ReactPlayer from "react-player";
 
 :::info
 
@@ -90,3 +92,9 @@ Records with this issue have coordinates that were found in the correct country 
 Once you have fixed records that could not be validated (in the occurrence editor), you must re-run the validator to update your validation statistics.
 
 :::
+
+<ReactPlayer
+  playing={false}
+  controls
+  url="https://youtu.be/ndyFW1mZuXs?si=jt1WLOjs4HWdpOhM&t=1722"
+/>
