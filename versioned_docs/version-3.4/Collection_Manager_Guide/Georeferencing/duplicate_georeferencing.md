@@ -9,6 +9,8 @@ sidebar_position: 3
 keywords: ["georeferencing", "coordinates"]
 ---
 
+import ReactPlayer from "react-player";
+
 :::info
 
 This page explains how to use the Duplicate Georeference Harvester tool, which enables you to copy georeferences (and their metadata) from records of other collections that are linked to records in your collection.
