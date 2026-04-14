@@ -3,7 +3,7 @@ title: "Publishing Data to GBIF"
 authors: ["Ed Gilbert","Katie Pearson"]
 editors: ["Katie Pearson", "Lindsay Walker"]
 date: 2021-10-07
-lastmod: 2026-04-09
+lastmod: 2026-04-14
 sidebar_position: 10
 keywords: ["aggregator","gbif","data publishing"]
 ---
@@ -53,6 +53,15 @@ Your portal must be set up as a GBIF Publishing Installation to publishing your 
 #### Option 2: Use Symbiota-generated GUIDs
 * Every time you want to send data to GBIF, email help@symbiota.org to request that the SSH populate the _occurrenceid_ field for you. 
 * **Important:** Once we populate this field, you will have to remember to download a copy of your data from the portal and add the Symbiota-generated GUIDs to wherever you manage your records outside of Symbiota.
+
+:::tip
+**How do I know if my snapshot already has _occurrenceid_/GUID values in my portal?**
+To determine if your snapshot collection has _occurrenceid_ values in a Symbiota portal, either:
+1) open up an existing record in the portal (navigate to the Administration Control Panel: click _My Profile_, then the name of the collection in the Collection Management box, and then click _Edit Existing Occurrence Records_). Scroll down to the Curation section of the form and look for a value in the _Occurrence ID_ field. If this box is blank, your records do not have _occurrenceid_ values assigned in the portal.
+2) or [download a backup copy]() of your data, uncompress/unzip the ouput ZIP file and open the "occurrences.csv", and then look for values in the _occurrenceid_ field/column in this file.
+
+Please contact the SSH's Help Desk if you have questions about determining whether your collection has _occurrenceid_ values in a portal.
+:::
 
 :::warning
 
