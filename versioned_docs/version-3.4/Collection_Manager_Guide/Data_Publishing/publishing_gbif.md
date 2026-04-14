@@ -41,7 +41,21 @@ Your portal must be set up as a GBIF Publishing Installation to publishing your 
 1. Return to the **Administration Contol Panel** and navigate to the **Darwin Core Archive Publishing** link. Click "Create/Refresh Darwin Core Archive" button.
 
 ## Special instructions for snapshots
+### How do I know if my snapshot already has _occurrenceid_ values?
+
+To determine if your snapshot collection has _occurrenceid_ values in a Symbiota portal, either:
+1) open an existing record in the portal (navigate to the Administration Control Panel: click _My Profile_, then the name of the collection in the Collection Management box, and then click _Edit Existing Occurrence Records_ and open a catalog record). Scroll down to the Curation section of the Occurrence Editor form and look for a value in the _Occurrence ID_ field. If this box is blank, your records do not have _occurrenceid_ values assigned in the portal.
+2) or [download a backup copy](/Collection_Manager_Guide/Downloading/downloading_copy) of your data, uncompress/unzip the ouput ZIP file and open the "occurrences.csv", and then look for values in the _occurrenceid_ field/column in this file.
+
+:::tip
+
+If your collection was previously published to an external aggregator like GBIF, all or some of your records likely have already had _occurrenceid_ values assigned. These values **must** be included with your snapshot data in your portal if you intend to republish these records using Symbiota. 
+
+:::
+
 ### Suggested workflows for populating _occurrenceid_:
+
+If you are confident that your snapshot's records have never been assigned _occurrenceid_ values, you can backfill this information using one of the following methods.
 
 #### Option 1: Generate GUIDs outside of Symbiota and then bring them into the portal
 * In your spreadsheet to be imported, include a column/field called "occurrenceid".
@@ -53,15 +67,6 @@ Your portal must be set up as a GBIF Publishing Installation to publishing your 
 #### Option 2: Use Symbiota-generated GUIDs
 * Every time you want to send data to GBIF, email help@symbiota.org to request that the SSH populate the _occurrenceid_ field for you. 
 * **Important:** Once we populate this field, you will have to remember to download a copy of your data from the portal and add the Symbiota-generated GUIDs to wherever you manage your records outside of Symbiota.
-
-:::tip
-**How do I know if my snapshot already has _occurrenceid_/GUID values in my portal?**
-To determine if your snapshot collection has _occurrenceid_ values in a Symbiota portal, either:
-1) open up an existing record in the portal (navigate to the Administration Control Panel: click _My Profile_, then the name of the collection in the Collection Management box, and then click _Edit Existing Occurrence Records_). Scroll down to the Curation section of the form and look for a value in the _Occurrence ID_ field. If this box is blank, your records do not have _occurrenceid_ values assigned in the portal.
-2) or [download a backup copy]() of your data, uncompress/unzip the ouput ZIP file and open the "occurrences.csv", and then look for values in the _occurrenceid_ field/column in this file.
-
-Please contact the SSH's Help Desk if you have questions about determining whether your collection has _occurrenceid_ values in a portal.
-:::
 
 :::warning
 
