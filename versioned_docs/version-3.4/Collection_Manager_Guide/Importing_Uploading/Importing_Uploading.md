@@ -1,7 +1,7 @@
 ---
 title: "Importing & Uploading Data"
 date: 2021-10-07
-lastmod: 2026-03-30
+lastmod: 2026-04-14
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson", "Lindsay Walker"]
 sidebar_position: 150
@@ -185,4 +185,10 @@ You can delete erroneous records [one-by-one](/Collection_Manager_Guide/deleting
   playing={false}
   controls
   url="https://www.youtube.com/watch?v=zrwHIDtae-c"
+/>
+
+<ReactPlayer
+  playing={false}
+  controls
+  url="https://youtu.be/0i6zudJFtu8?si=kYsfjOHXs8CeA6OZ"
 />
