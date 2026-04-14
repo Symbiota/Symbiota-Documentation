@@ -3,7 +3,7 @@ title: "Publishing Data to GBIF"
 authors: ["Ed Gilbert","Katie Pearson"]
 editors: ["Katie Pearson", "Lindsay Walker"]
 date: 2021-10-07
-lastmod: 2026-04-09
+lastmod: 2026-04-14
 sidebar_position: 10
 keywords: ["aggregator","gbif","data publishing"]
 ---
@@ -41,7 +41,21 @@ Your portal must be set up as a GBIF Publishing Installation to publishing your 
 1. Return to the **Administration Contol Panel** and navigate to the **Darwin Core Archive Publishing** link. Click "Create/Refresh Darwin Core Archive" button.
 
 ## Special instructions for snapshots
+### How do I know if my snapshot already has _occurrenceid_ values?
+
+To determine if your snapshot collection has _occurrenceid_ values in a Symbiota portal, either:
+1) open an existing record in the portal (navigate to the Administration Control Panel: click _My Profile_, then the name of the collection in the Collection Management box, and then click _Edit Existing Occurrence Records_ and open a catalog record). Scroll down to the Curation section of the Occurrence Editor form and look for a value in the _Occurrence ID_ field. If this box is blank, your records do not have _occurrenceid_ values assigned in the portal.
+2) or [download a backup copy](/Collection_Manager_Guide/Downloading/downloading_copy) of your data, uncompress/unzip the ouput ZIP file and open the "occurrences.csv", and then look for values in the _occurrenceid_ field/column in this file.
+
+:::tip
+
+If your collection was previously published to an external aggregator like GBIF, all or some of your records likely have already had _occurrenceid_ values assigned. These values **must** be included with your snapshot data in your portal if you intend to republish these records using Symbiota. 
+
+:::
+
 ### Suggested workflows for populating _occurrenceid_:
+
+If you are confident that your snapshot's records have never been assigned _occurrenceid_ values, you can backfill this information using one of the following methods.
 
 #### Option 1: Generate GUIDs outside of Symbiota and then bring them into the portal
 * In your spreadsheet to be imported, include a column/field called "occurrenceid".
