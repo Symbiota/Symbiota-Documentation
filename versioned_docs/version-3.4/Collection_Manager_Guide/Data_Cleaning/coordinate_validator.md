@@ -6,6 +6,8 @@ authors: ["Katie Pearson"]
 keywords: ["geography", "geographic thesaurus", "georeferences"]
 ---
 
+import ReactPlayer from "react-player";
+
 :::info
 
 This page describes how to use the coordinate validator tool, located under the Data Cleaning toolbox.
