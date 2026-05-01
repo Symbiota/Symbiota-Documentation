@@ -1,13 +1,15 @@
 ---
 title: "Duplicate Georeference Harvester"
 date: 2025-09-23
-lastmod: 2026-03-30
+lastmod: 2026-04-14
 draft: false
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
 sidebar_position: 3
 keywords: ["georeferencing", "coordinates"]
 ---
+
+import ReactPlayer from "react-player";
 
 :::info
 
@@ -91,3 +93,9 @@ The tool will then process the duplicates and return a printout of all the recor
 Changes made to records using this tool will **not** be tracked in either the Edit History tab or in the Review/Verify Edits table. However, when a duplicate georeference is copied between records, metadata will be automatically added to the target record's _Georeference Remarks_ (example: "Copied from duplicate UCSB UCSB_SCIRH00972").
 
 :::
+
+<ReactPlayer
+  playing={false}
+  controls
+  url="https://youtu.be/ndyFW1mZuXs?si=W2iO-ZP-cotKCLnA&t=327"
+/>
