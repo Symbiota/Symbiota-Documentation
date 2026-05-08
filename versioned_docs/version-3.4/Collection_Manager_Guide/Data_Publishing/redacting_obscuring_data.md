@@ -1,7 +1,7 @@
 ---
 title: "Redacting / Obscuring Data"
 Date: 2021-11-01
-lastmod: 2025-08-29
+lastmod: 2026-05-08
 authors: ["Katie Pearson", "Ed Gilbert"]
 editors: ["Lindsay Walker"]
 sidebar_position: 20
@@ -18,7 +18,7 @@ This page explains how data redaction functions in a Symbiota portal.
 
 Collection managers may wish to redact locality data for certain occurrences, for example, of rare or endangered species or for locations on private property. Locality data in Symbiota portals may be redacted in one of three ways: (a) individually (per occurrence), (b) globally (per taxon), or (c) by state.
 
-Redacting locality data in Symbiota portals is currently binary: an occurrence can have its locality redacted (Locality Security = 1, checked) or not (Locality Security = 0, unchecked). When the Locality Security box is checked on the Occurence Editor (or Locality Security is uploaded as 1) for a given occurrence, a user who does not have Rare Species Reader or Editor permissions will not be able to view that occurrence's:
+Redacting locality data in Symbiota portals is currently binary: an occurrence can have its locality redacted (Record Security = 1, checked) or not (Record Security = 0, unchecked). When security settings are enabled on the Occurence Editor (or Record Security is uploaded as 1) for a given occurrence, a user who does not have Rare Species Reader or Editor permissions will not be able to view that occurrence's:
 
 - Locality below the level of county
 - Coordinates (if provided)
@@ -36,7 +36,7 @@ Specimen occurrences with record security applied affects portal users as follow
 
 :::tip
 
-The complete list of fields that are redacted when the "Locality Security applied" setting is selected includes: _recordnumber_, _eventdate_, _verbatimeventdate_, _locality_, _locationid_, _decimallatitude_, _decimallongitude_, _verbatimcoordinates_, _locationremarks_, _georeferenceremarks_, _geodeticdatum_, _minimumelevationinmeters_, _maximumelevationinmeters_, _verbatimelevation_, _habitat_, _associatedtaxa_
+The complete list of fields that are redacted when locality redaction is enabled includes: _recordnumber_, _eventdate_, _verbatimeventdate_, _locality_, _locationid_, _decimallatitude_, _decimallongitude_, _verbatimcoordinates_, _locationremarks_, _georeferenceremarks_, _geodeticdatum_, _minimumelevationinmeters_, _maximumelevationinmeters_, _verbatimelevation_, _habitat_, _associatedtaxa_
 
 :::
 
@@ -64,7 +64,7 @@ To find records in your collection that have data redaction applied, use the Dat
 
 ### Individually redacting locality data for certain occurrences
 
-The locality data can be redacted for individual occurrences by selecting Locality Security applied from the dropdown list under the "Security" field (in the Locality box of the occurrence editor).
+The locality data can be redacted for individual occurrences by using the "Security" dropdown list (in the Locality box of the Occurrence Editor).
 
 ![Occurrence Editor Example](/img/redaction_occurrenceeditor2026.png)
 
