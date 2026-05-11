@@ -1,7 +1,7 @@
 ---
 title: "Redacting / Obscuring Data"
 Date: 2021-11-01
-lastmod: 2025-08-29
+lastmod: 2026-05-08
 authors: ["Katie Pearson", "Ed Gilbert"]
 editors: ["Lindsay Walker"]
 sidebar_position: 20
@@ -18,7 +18,7 @@ This page explains how data redaction functions in a Symbiota portal.
 
 Collection managers may wish to redact locality data for certain occurrences, for example, of rare or endangered species or for locations on private property. Locality data in Symbiota portals may be redacted in one of three ways: (a) individually (per occurrence), (b) globally (per taxon), or (c) by state.
 
-Redacting locality data in Symbiota portals is currently binary: an occurrence can have its locality redacted (Locality Security = 1, checked) or not (Locality Security = 0, unchecked). When the Locality Security box is checked on the Occurence Editor (or Locality Security is uploaded as 1) for a given occurrence, a user who does not have Rare Species Reader or Editor permissions will not be able to view that occurrence's:
+An occurrence can have its locality redacted ("Locality security applied") or not ("Security not applied"). When security settings are enabled on the Occurence Editor (or Record Security is uploaded as 1) for a given occurrence, a user who does not have Rare Species Reader or Editor permissions will not be able to view that occurrence's:
 
 - Locality below the level of county
 - Coordinates (if provided)
@@ -36,7 +36,7 @@ Specimen occurrences with record security applied affects portal users as follow
 
 :::tip
 
-The complete list of fields that are redacted when the "Locality Security applied" setting is selected includes: _recordnumber_, _eventdate_, _verbatimeventdate_, _locality_, _locationid_, _decimallatitude_, _decimallongitude_, _verbatimcoordinates_, _locationremarks_, _georeferenceremarks_, _geodeticdatum_, _minimumelevationinmeters_, _maximumelevationinmeters_, _verbatimelevation_, _habitat_, _associatedtaxa_
+The complete list of fields that are redacted when locality redaction is enabled includes: _recordnumber_, _eventdate_, _verbatimeventdate_, _locality_, _locationid_, _decimallatitude_, _decimallongitude_, _verbatimcoordinates_, _locationremarks_, _georeferenceremarks_, _geodeticdatum_, _minimumelevationinmeters_, _maximumelevationinmeters_, _verbatimelevation_, _habitat_, _associatedtaxa_
 
 :::
 
@@ -64,13 +64,13 @@ To find records in your collection that have data redaction applied, use the Dat
 
 ### Individually redacting locality data for certain occurrences
 
-The locality data can be redacted for individual occurrences by selecting Locality Security applied from the dropdown list under the "Security" field (in the Locality box of the occurrence editor).
+The locality data can be redacted for individual occurrences by using the "Security" dropdown list (in the Locality box of the Occurrence Editor).
 
 ![Occurrence Editor Example](/img/redaction_occurrenceeditor2026.png)
 
 ### Batch redacting locality data for certain occurrences
 
-If you wish to batch redact data, you can download a CSV file of all the specimen records you wish to redact from the [Record Search Form](/Collection_Manager_Guide/Downloading/downloading_subset), then add a column called "LocalitySecurity". Enter "1" in this column for all specimens for which you wish to redact data (conversely, you would enter "0" to keep the data publicly visible, or leave this field blank). Use the [Skeletal File Uploader](/Collection_Manager_Guide/Importing_Uploading/#file-upload-or-skeletal-file-upload) to upload this spreadsheet into the portal, mapping the new column to _localitySecurity_. You may need to ask your portal manager to clear out any existing values in this field before importing via the Skeletal File Uploader.
+If you wish to batch redact data, you can download a CSV file of all the specimen records you wish to redact from the [Record Search Form](/Collection_Manager_Guide/Downloading/downloading_subset), then add a column called "RecordSecurity". Enter "1" in this column for all specimens for which you wish to redact data (conversely, you would enter "0" to keep the data publicly visible, or leave this field blank). Use the [Skeletal File Uploader](/Collection_Manager_Guide/Importing_Uploading/#file-upload-or-skeletal-file-upload) to upload this spreadsheet into the portal, mapping the new column to _localitySecurity_. You may need to ask your portal manager to clear out any existing values in this field before importing via the Skeletal File Uploader.
 
 ### Globally redacting locality data for certain taxa
 
@@ -78,13 +78,13 @@ Locality data and media (e.g., images) can be redacted for all occurrences by a 
 
 ![Taxonomy Editor Example](/img/redaction_taxoneditorexample.png)
 
-**This will hide locality data for all occurrences of that taxon throughout the portal, not just for your collection**. Collections can opt out of this option by individually unchecking the _Security_ box within the Occurrence Editor for individual specimen records or by contacting their portal manager for batch changes.
+**This will hide locality data for all occurrences of that taxon throughout the portal, not just for your collection**. Collections can opt out of this option by individually setting the Security box to "Security not applied" within the Occurrence Editor for individual specimen records or by contacting their portal manager for batch changes.
 
 ### Redacting data by state
 
 Finally, locality data and images can be redacted for occurrences of a given taxon that were collected in a certain state by managing a "Rare, threatened, protected species list". User accounts with Rare Species Administrator permissions can create a species list specifically for managing sensitive species and then assigning editing rights to one of several appropriate users for populating and managing the state list. The addition of a species to the list will automatically protect locality details of all specimens collected within the designated state.
 
-**This will hide locality data for all occurrences of that taxon in the given state throughout the portal, not just for your collection.** Collections can opt out of this option by individually unchecking the _Security_ box within the Occurrence Editor for individual specimen records or by contacting their portal manager for batch changes.
+**This will hide locality data for all occurrences of that taxon in the given state throughout the portal, not just for your collection.** Collections can opt out of this option by individually setting the Security box to "Security not applied" within the Occurrence Editor for individual specimen records or by contacting their portal manager for batch changes.
 
 ### Will my redacted data be visible if published to GBIF?
 
