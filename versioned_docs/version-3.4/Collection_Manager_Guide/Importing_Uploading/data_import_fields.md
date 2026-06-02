@@ -1,7 +1,7 @@
 ---
 title: "Data Import Fields"
 date: 2021-10-22
-lastmod: 2026-01-15
+lastmod: 2026-06-02
 authors: ["Ed Gilbert","Katie Pearson"]
 sidebar_position: 5
 editors: ["Katie Pearson, Lindsay Walker"]
@@ -139,7 +139,7 @@ Definitions for Symbiota's standard fields can be found [here](/Editor_Guide/Edi
 | [_parentLocationID_](https://dwc.tdwg.org/terms/#dwc:parentLocationID) | | **Note:** This field is not yet accessible in the occurrence editor. |
 | [_preparations_](https://dwc.tdwg.org/terms/#dwc:preparations) | Text (100) | |
 | processingStatus | | Processing status for digitization tasks. This field is not publicly accessible. |
-| [**_recordedBy_**](https://dwc.tdwg.org/terms/#dwc:recordedBy) | Text (255) | Primary collector/observer name. All other collectors should be placed in the "associatedCollectors" field. If the primary collector/observer name is parsed into multiple fields, see the collectorFamilyName, collectorInitials, and specify:collector fields. |
+| [**_recordedBy_**](https://dwc.tdwg.org/terms/#dwc:recordedBy) | Text (255) | Primary collector/observer name. All other collectors should be placed in the "associatedCollectors" field. If the primary collector/observer name is parsed into multiple fields, see the collectorFamilyName, collectorInitials, and specify:collector fields. If you enter this value alongside an ORCID (e.g. "Firstname Lastname (ORCID ####-####-####-####)", the value will display with an ORCID link within your portal. |
 | recordEnteredBy | Text (250) | Data entry personnel |
 | [**_recordNumber_**](https://dwc.tdwg.org/terms/#dwc:recordNumber) | Text (45) | Collector number |
 | \*recordNumberPrefix | Text (45)  | Merged into recordNumber |
