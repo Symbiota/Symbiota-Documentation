@@ -1,7 +1,7 @@
 ---
 title: "Importing & Uploading Data"
 date: 2021-10-07
-lastmod: 2026-04-14
+lastmod: 2026-06-01
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson", "Lindsay Walker"]
 sidebar_position: 150
@@ -180,6 +180,12 @@ You can delete erroneous records [one-by-one](/Collection_Manager_Guide/deleting
   - You can include any number of data fields in your CSV file to be uploaded, but some fields are more commonly used than others. The [upload template](#upload-template) contains some of the most commonly used fields by herbarium/plant collections.
 
 ## Related Video Tutorials
+
+<ReactPlayer
+  playing={false}
+  controls
+  url="https://youtu.be/3YaBxZdXjeE?si=-V5Tnq_LSHorhJDJ"
+/>
 
 <ReactPlayer
   playing={false}
