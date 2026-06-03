@@ -1,7 +1,7 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2025-01-20
+lastmod: 2026-06-02
 draft: false
 authors: ["Ed Gilbert", "Katie Pearson", "Lindsay Walker"]
 editors: ["Laura Rocha Prado"]
@@ -65,7 +65,7 @@ See Darwin Core's [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCat
 ### Collector
 
 The name of the person who collected the specimen or made the observation.<br></br>
-**Examples:** `C.G. Pringle` `Goodding, L.N.` `John Wesley Powell`<br></br>
+**Examples:** `C.G. Pringle` `Goodding, L.N.` `John Wesley Powell` `M. Andrew Johnston (ORCID 0000-0002-0166-6985)`<br></br>
 See Darwin Core's [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy)
 
 ### Associated Collectors
