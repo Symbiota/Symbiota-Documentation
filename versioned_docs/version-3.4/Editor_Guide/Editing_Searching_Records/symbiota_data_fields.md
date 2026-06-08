@@ -1,7 +1,7 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2026-06-02
+lastmod: 2026-06-05
 draft: false
 authors: ["Ed Gilbert", "Katie Pearson", "Lindsay Walker"]
 editors: ["Laura Rocha Prado"]
@@ -630,6 +630,13 @@ The earliest (geologically oldest, i.e. "Early Interval") and latest (geological
 For _**Early Interval**_, see also Darwin Core’s [earliestEonOrLowestEonothem](https://dwc.tdwg.org/terms/#dwc:earliestEonOrLowestEonothem), [earliestEraOrLowestErathem](https://dwc.tdwg.org/terms/#dwc:earliestEraOrLowestErathem), [earliestPeriodOrLowestSystem](https://dwc.tdwg.org/terms/#dwc:earliestPeriodOrLowestSystem), [earliestEpochOrLowestSeries](https://dwc.tdwg.org/terms/#dwc:earliestEpochOrLowestSeries), and [earliestAgeOrLowestStage](https://dwc.tdwg.org/terms/#dwc:earliestAgeOrLowestStage).
 
 For _**Late Interval**_, see also Darwin Core’s [latestEonOrHighestEonothem](https://dwc.tdwg.org/terms/#dwc:latestEonOrHighestEonothem), [latestEraOrHighestErathem](https://dwc.tdwg.org/terms/#dwc:latestEraOrHighestErathem), [latestPeriodOrHighestSystem](https://dwc.tdwg.org/terms/#dwc:latestPeriodOrHighestSystem), [latestEpochOrHighestSeries](https://dwc.tdwg.org/terms/#dwc:latestEpochOrHighestSeries), and [latestAgeOrHighestStage](https://dwc.tdwg.org/terms/#dwc:latestAgeOrHighestStage).
+
+  <ButtonLink
+link="/documents/GeologicTimeValues_2026-06-05.csv"
+label="Download Geological Time Vocabulary"
+download={true}
+style={{marginBottom: '2vh'}}
+/>
 
 ### Late Interval
 
