@@ -2,7 +2,7 @@
 title: "Gestion des prêts"
 date: 2021-11-22
 lastmod: 2026-03-30
-sidebar_position: 120
+sidebar_position: 70
 authors: ["Katie Pearson"]
 keywords: ["loan"]
 ---

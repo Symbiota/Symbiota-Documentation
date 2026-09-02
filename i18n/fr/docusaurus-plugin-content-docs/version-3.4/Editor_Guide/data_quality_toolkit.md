@@ -5,7 +5,7 @@ lastmod: 2024-07-19
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["QA", "QC", "quality control", "error checking"]
-sidebar_position: 50
+sidebar_position: 25
 ---
 
 import ReactPlayer from "react-player";

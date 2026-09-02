@@ -2,7 +2,7 @@
 title: "Lier des notices/ressources"
 date: 2021-12-08
 lastmod: 2026-03-03
-sidebar_position: 110
+sidebar_position: 85
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
 keywords:

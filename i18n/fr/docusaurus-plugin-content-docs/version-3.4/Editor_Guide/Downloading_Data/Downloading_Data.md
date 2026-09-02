@@ -5,7 +5,7 @@ lastmod:  2025-07-22
 authors: ["Katie Pearson"]
 editors: 
 keywords: ["download","Darwin Core", "DwC-A", "Darwin Core Archive"]
-sidebar_position: 60
+sidebar_position: 120
 ---
 
 En tant qu'éditeur, vous pouvez utiliser les [outils publics de recherche et de téléchargement](/User_Guide/Downloading/download_data) ou effectuer une [exportation depuis le formulaire de recherche d'enregistrements](/Collection_Manager_Guide/Downloading/downloading_subset).

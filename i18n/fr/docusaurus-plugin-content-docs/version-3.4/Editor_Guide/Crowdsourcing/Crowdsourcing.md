@@ -6,7 +6,7 @@ draft: false
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
 keywords: ["crowdsourcing","volunteer","citizen science","community science"]
-sidebar_position: 40
+sidebar_position: 50
 ---
 
 Symbiota intègre un module de crowdsourcing permettant à tout utilisateur connecté de transcrire des données d'échantillons à partir d'images fournies. Ces échantillons doivent avoir un [Statut de traitement](/Editor_Guide/Editing_Searching_Records/processing_status) « Non traité » **et** être associés à au moins une image.

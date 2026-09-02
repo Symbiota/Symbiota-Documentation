@@ -6,7 +6,7 @@ draft: false
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
 keywords: ["georeferencing"]
-sidebar_position: 80
+sidebar_position: 60
 ---
 
 La **géoréférencement** est le processus consistant à attribuer des coordonnées à des descriptions (généralement textuelles) de lieux d'occurrence (par exemple, l'endroit où un spécimen a été collecté). Des ressources utiles sur le géoréférencement sont disponibles [sur le site web d'iDigBio](https://www.idigbio.org/wiki/index.php/Georeferencing). Symbiota intègre plusieurs outils pour faciliter ce processus :

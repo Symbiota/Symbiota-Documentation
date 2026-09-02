@@ -3,7 +3,7 @@ title: "Caractéristiques"
 date: 2021-12-09
 lastmod: 2025-12-23
 draft: false
-weight: 130
+sidebar_position: 40
 authors: ["Katie Pearson"]
 editors: ["Valerie Warhol"]
 keywords: ["occurrence traits","attributes","phenology","phenological scoring"]
