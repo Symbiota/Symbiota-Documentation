@@ -1,5 +1,5 @@
 ---
-title: "Specimen Packet Printing"
+title: "Impression de lots d'échantillons"
 date: 2021-09-29
 lastmod: 2026-03-30
 authors: ["Katie Pearson", "Laura Rocha Prado"]
@@ -10,74 +10,73 @@ import ReactPlayer from "react-player";
 
 :::info
 
-This guide describes the use of the label printing tool in Symbiota to print lichen and bryophyte packets: full sheets of paper with a 3”x5” label printed on the bottom third of the sheet. For instructions on folding packets, see [this guide](https://core.ac.uk/download/pdf/151510978.pdf).
+Ce guide décrit l'utilisation de l'outil d'impression d'étiquettes de Symbiota pour imprimer des pochettes destinées aux lichens et aux bryophytes : il s'agit de feuilles de papier entières comportant une étiquette de 3 x 5 pouces imprimée sur le tiers inférieur. Pour savoir comment plier ces pochettes, consultez [ce guide](https://core.ac.uk/download/pdf/151510978.pdf).
 
 :::
 
 <ReactPlayer
-  playing={false}
-  controls
-  url="http://www.youtube.com/watch?v=_1_QN4e_N9A"
+playing={false}
+controls
+url="http://www.youtube.com/watch?v=_1_QN4e_N9A"
 />
 
-### Using the Default Packet-Printing Profile
+### Utilisation du profil d'impression de pochettes par défaut
 
-The default packet label looks like this:
+L'étiquette de pochette par défaut se présente comme suit :
 
-![Default Packet Label](/img/printdefaultpacket.png)
+![Étiquette de pochette par défaut](/img/printdefaultpacket.png)
 
-1. To print a packet, navigate to the Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_).
-2. Click Print Specimen Labels from the Data Editor Control Panel.
-3. Enter search terms into the Define Specimen Recordset form to search for the specimens for which you would like to print packets. Then click the Filter Specimen Records button.
-4. Check the boxes next to the specimens for which you would like to print packets, or click the checkbox at the top of the checkboxes column to select all the records.
+1. Pour imprimer une pochette, accédez au panneau de configuration de l'éditeur de données (*cliquez sur « My Profile » [Mon profil], puis sur le nom de la collection dans la zone « Collection Management » [Gestion des collections]*).
+2. Cliquez sur « Print Specimen Labels » (Imprimer les étiquettes de spécimens) depuis le panneau de configuration de l'éditeur de données.
+3. Saisissez des critères de recherche dans le formulaire « Define Specimen Recordset » (Définir le jeu d'enregistrements de spécimens) pour trouver les spécimens pour lesquels vous souhaitez imprimer des pochettes. Cliquez ensuite sur le bouton « Filter Specimen Records » (Filtrer les enregistrements de spécimens).
+4. Cochez les cases correspondant aux spécimens pour lesquels vous souhaitez imprimer des pochettes, ou cliquez sur la case située en haut de la colonne de sélection pour sélectionner tous les enregistrements.
 
-![Label Printing List](/img/printpacketlist2026.png)
+![Liste pour l'impression d'étiquettes](/img/printpacketlist2026.png)
 
-5. Scroll down to the Label Printing form at the bottom of the page.
-6. From the Label Profiles dropdown menu, select Generic Lichen Packet.
-7. From here, you can customize your packet in a limited number of ways:
-8. To change the heading prefix: edit the text in the Heading Prefix field
-9. To change the auto-generated middle section of the heading by selecting a button from the Heading Mid-Section options.
-10. To change the end of the heading: edit the text in the Heading Suffix field
-11. To change the name of your collection that will show up on top of your barcode: edit the text in the Label Footer field
-    - NOTE: There is no actual “Footer” on lichen and bryophyte packets. Instead, the label footer is shown atop the printed barcode. Leave this blank if you would not like any text on top of your barcode OR if you are not including a barcode on your packet
-12. To show the authorship of the species before the infraspecific epithet, if you are printing taxa with infraspecific epithets: check the box next to “Print species authors for infraspecific taxa”
-13. You do NOT need to check the box next to Print Catalog Numbers. The catalog number will be displayed underneath the barcode if “Include barcode of Catalog Number” is checked.
-14. Clicking “Print only Barcode” will print a barcode only with no packet or other data
-15. Note that Other Catalog Numbers are not listed on packets by default. To add this field, create a custom label packet profile as described in the next section and include Other Catalog Numbers in your list of printed fields.
-16. When printing your packet, make sure to print at 100% scale. Use Print Preview and adjust the margins as necessary so that the packet is centered and the correct size. If printing from Google Chrome, click the More Settings option and uncheck the Headers and footers box.
+5. Faites défiler la page jusqu'au formulaire d'impression d'étiquettes situé en bas.
+6. Dans le menu déroulant « Label Profiles » (Profils d'étiquettes), sélectionnez « Generic Lichen Packet » (Sachet de lichen générique).
+7. À partir de là, vous pouvez personnaliser votre sachet de quelques manières limitées :
+8. Pour modifier le préfixe de l'en-tête : modifiez le texte dans le champ « Heading Prefix » (Préfixe de l'en-tête).
+9. Pour modifier la partie centrale de l'en-tête (générée automatiquement) : sélectionnez un bouton parmi les options « Heading Mid-Section » (Partie centrale de l'en-tête).
+10. Pour modifier la fin de l'en-tête : modifiez le texte dans le champ « Heading Suffix » (Suffixe de l'en-tête).
+11. Pour modifier le nom de la collection qui apparaîtra au-dessus du code-barres : modifiez le texte dans le champ « Label Footer » (Pied de page de l'étiquette).
+- REMARQUE : Il n'y a pas de véritable « pied de page » sur les sachets de lichens et de bryophytes. Au lieu de cela, le pied de page de l'étiquette s'affiche au-dessus du code-barres imprimé. Laissez ce champ vide si vous ne souhaitez pas de texte au-dessus du code-barres OU si vous n'incluez pas de code-barres sur votre sachet.
+12. Pour afficher l'auteur de l'espèce avant l'épithète infraspécifique (si vous imprimez des taxons comportant des épithètes infraspécifiques) : cochez la case « Print species authors for infraspecific taxa » (Imprimer les auteurs de l'espèce pour les taxons infraspécifiques).
+13. Il n'est PAS nécessaire de cocher la case « Print Catalog Numbers » (Imprimer les numéros de catalogue). Le numéro de catalogue s'affichera sous le code-barres si l'option « Include barcode of Catalog Number » (Inclure le code-barres du numéro de catalogue) est cochée.
+14. Cliquer sur « Print only Barcode » (Imprimer uniquement le code-barres) permet d'imprimer uniquement le code-barres, sans le sachet ni aucune autre donnée.
+15. Notez que les autres numéros de catalogue (« Other Catalog Numbers ») ne figurent pas par défaut sur les sachets. Pour ajouter ce champ, créez un profil de sachet personnalisé comme décrit dans la section suivante et incluez « Other Catalog Numbers » dans votre liste de champs à imprimer.
+16. Lors de l'impression du sachet, veillez à utiliser une échelle de 100 %. Utilisez l'aperçu avant impression et ajustez les marges si nécessaire pour que le sachet soit centré et aux bonnes dimensions. Si vous imprimez depuis Google Chrome, cliquez sur l'option « Plus de paramètres » (More Settings) et décochez la case « En-têtes et pieds de page » (Headers and footers).
 
-![Print Preview when Printing a Packet](/img/printpreviewpacket.png)
+![Aperçu avant impression d'un sachet](/img/printpreviewpacket.png)
 
-### Customizing Your Own Packet-Printing Profile
+### Personnalisation de votre propre profil d'impression de sachets
 
-1. Complete steps 1-7 as above.
-2. Click the pencil icon next to Label Profiles.
+1. Suivez les étapes 1 à 7 décrites ci-dessus.
+2. Cliquez sur l'icône en forme de crayon à côté de « Label Profiles » (Profils d'étiquettes).
 
 ![Print](/img/printprofile2026.png)
 
-3. Find the profile labeled Generic Lichen Packet.
-4. To customize the packet-printing profile for your own personal use, click the Select Target option under Generic Lichen Packet and select “User Profile”. To customize the 5. packet-printing profile for your entire collection (i.e., other people will also be able to use this profile), select “Collection Profile” from the dropdown menu.
-5. Click the Clone Profile button under Generic Lichen Packet. When the page reloads, you will see a new profile under your collection profiles or user profiles (depending on what you selected in step 5 above).
-6. Click the pencil icon next to the title of the new, cloned label profile to edit the profile. Do NOT edit the Default CSS, Custom CSS, and Custom JS fields, but you can edit the title, prefix, etc. as above.
-   - To remove the barcode from your packet, uncheck the box next to **Display barcode**. If you do this, make sure to delete “Custom Collection Name” from the **Footer text** field.
-7. To edit which fields are listed on your packet and/or the orientation of those fields, scroll down to the JSON field and click “visual interface”.
+3. Recherchez le profil intitulé « Generic Lichen Packet ».
+4. Pour personnaliser le profil d'impression de sachets pour votre usage personnel, cliquez sur l'option « Select Target » sous « Generic Lichen Packet » et choisissez « User Profile ». Pour personnaliser le profil d'impression de sachets pour l'ensemble de votre collection (c'est-à-dire pour permettre à d'autres personnes de l'utiliser), sélectionnez « Collection Profile » dans le menu déroulant.
+5. Cliquez sur le bouton « Clone Profile » sous « Generic Lichen Packet ». Une fois la page rechargée, un nouveau profil apparaîtra dans la section des profils de collection ou des profils utilisateur (selon l'option choisie à l'étape 5 ci-dessus).
+6. Cliquez sur l'icône en forme de crayon à côté du titre du nouveau profil cloné pour le modifier. Ne modifiez PAS les champs « Default CSS », « Custom CSS » et « Custom JS », mais vous pouvez modifier le titre, le préfixe, etc., comme indiqué précédemment. 
+- Pour retirer le code-barres du sachet, décochez la case à côté de **Display barcode** (Afficher le code-barres). Si vous le faites, veillez à supprimer « Custom Collection Name » du champ **Footer text** (Texte de pied de page).
+7. Pour modifier les champs figurant sur le sachet et/ou leur orientation, faites défiler la page jusqu'au champ JSON et cliquez sur « visual interface » (interface visuelle).
 
 ![Print Visual Interface](/img/printvisualinterface.png)
 
-- In the bottom center of the screen, you will see a preview of the label that you are customizing.
-- The left-hand Fields Available column contains a bank of fields that you can draw from and include on your label
-- The grey Label Content Area in the center is where you can place and move the fields that you have selected from the Fields Available column for your label
-- The Field Options on the top right can be used to edit the prefix, suffix, font size, position, and font family of a field after selecting a field in the Label Content Area.
-- The Line Options on the bottom right can be used to select a delimiter between fields on the same line and edit the text alignment and spacing after selecting a line in the Label Content Area.
-- To add a new line, scroll to the bottom of the Label Content Area and click the ADD LINE button. Beware of adding additional lines to the Label Content Area! If you have too much content, it may not fit on the packet label.
+- Au bas de l'écran, au centre, vous verrez un aperçu de l'étiquette que vous êtes en train de personnaliser.
+- La colonne de gauche, « Fields Available » (Champs disponibles), contient une liste de champs que vous pouvez utiliser et inclure sur votre étiquette.
+- La zone grise centrale, « Label Content Area » (Zone de contenu de l'étiquette), est l'endroit où vous pouvez placer et déplacer les champs sélectionnés dans la colonne « Fields Available ».
+- Les options de champ (« Field Options »), situées en haut à droite, permettent de modifier le préfixe, le suffixe, la taille de la police, la position et la famille de police d'un champ, après avoir sélectionné ce dernier dans la zone de contenu de l'étiquette. - Les options de ligne situées en bas à droite permettent de choisir un séparateur entre les champs d'une même ligne, ainsi que de modifier l'alignement du texte et l'espacement, après avoir sélectionné une ligne dans la zone de contenu de l'étiquette.
+- Pour ajouter une nouvelle ligne, faites défiler la zone de contenu de l'étiquette jusqu'en bas et cliquez sur le bouton « Ajouter une ligne ». Attention toutefois à ne pas ajouter trop de lignes : si le contenu est trop volumineux, il risque de ne pas tenir sur l'étiquette du paquet.
 
-![Print Customization](/img/printcustomize.png)
+![Personnalisation de l'impression](/img/printcustomize.png)
 
-8. Customize your label by adding fields (drag and drop fields from the Field Available column into the Label Content Area), removing fields (click the x icon next to the field in the Label Content Area), editing fields (using Field Options), and editing lines (using Line Options) as desired.
-9. Click the SAVE FORMAT & CLOSE button.
-10. Follow steps 1-7 of Using the Default Packet-Printing Profile.
-11. From the Label Profiles field, select your new label printing format from the dropdown list.
-12. Click the Print in Browser button.
-13. If your new label profile does not meet your expectations, return to the label profile editor (steps 7-9 above) and edit the profile as desired.
-14. For small edits that are specific to the specimen data you are working with (e.g., special character issues or spacing issues), you can also edit the label in the print preview. After clicking Print in Browser as above, click the Edit Labels Content button in the top left corner of your screen. From here, you can make small adjustments to the label(s) that you currently intend to print. Note that these changes do not change the label profile that you have created.
+8. Personnalisez votre étiquette en ajoutant des champs (faites glisser les champs de la colonne « Champs disponibles » vers la zone de contenu de l'étiquette), en supprimant des champs (cliquez sur l'icône « x » à côté du champ dans la zone de contenu de l'étiquette), en modifiant les champs (via les options de champ) et en modifiant les lignes (via les options de ligne) selon vos besoins.
+9. Cliquez sur le bouton « Enregistrer le format et fermer ».
+10. Suivez les étapes 1 à 7 de la section « Utilisation du profil d'impression de lots par défaut ».
+11. Dans le champ « Profils d'étiquettes », sélectionnez votre nouveau format d'impression d'étiquettes dans la liste déroulante.
+12. Cliquez sur le bouton « Imprimer dans le navigateur ».
+13. Si le nouveau profil d'étiquette ne répond pas à vos attentes, retournez à l'éditeur de profil d'étiquette (étapes 7 à 9 ci-dessus) et modifiez le profil selon vos besoins.
+14. Pour des modifications mineures spécifiques aux données du spécimen que vous traitez (par exemple, problèmes de caractères spéciaux ou d'espacement), vous pouvez également modifier l'étiquette dans l'aperçu avant impression. Après avoir cliqué sur « Imprimer dans le navigateur » comme indiqué ci-dessus, cliquez sur le bouton « Modifier le contenu des étiquettes » dans le coin supérieur gauche de votre écran. Vous pouvez alors effectuer de légers ajustements sur la ou les étiquettes que vous prévoyez d'imprimer. Notez que ces modifications n'affectent pas le profil d'étiquette que vous avez créé.

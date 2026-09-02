@@ -1,5 +1,5 @@
 ---
-title: "Trait Scoring from Images"
+title: "Évaluation de traits à partir d'images"
 date: 2021-12-09
 lastmod: 2026-03-30
 authors: ["Katie Pearson"]
@@ -8,35 +8,35 @@ keywords: ["trait scoring", "attribute scoring", "phenology", "traits"]
 
 :::info
 
-This page describes how to score traits for an occurrence from an image of that occurrence available in a Symbiota portal
+Cette page explique comment renseigner les caractères (traits) d'une occurrence à partir d'une image de celle-ci disponible sur un portail Symbiota.
 
 :::
 
 :::note
 
-Trait scoring tools are not activated in all portals. Contact your portal manager for more information.
+Les outils de saisie des caractères ne sont pas activés sur tous les portails. Contactez le gestionnaire de votre portail pour plus d'informations.
 
 :::
 
-### Scoring traits for a single specimen
+### Saisie des caractères pour un spécimen unique
 
-Navigate to the Occurence Editor for the occurrence you wish to score (see [this page](/Editor_Guide/Editing_Searching_Records) for help finding specimens) and click on the Traits tab. Any traits available for scoring will be displayed in boxes in this tab. To view additional scoring optiosn for a given trait, click the black triangle at the top right of the box (highlighted below). From here, you can score the traits from any available images. You can also remove trait information by clicking the Delete Coding button.
+Accédez à l'éditeur d'occurrence pour le spécimen que vous souhaitez documenter (consultez [cette page](/Editor_Guide/Editing_Searching_Records) pour savoir comment rechercher des spécimens) et cliquez sur l'onglet **Traits** (Caractères). Les caractères disponibles pour la saisie s'affichent dans des blocs au sein de cet onglet. Pour voir des options de saisie supplémentaires pour un caractère donné, cliquez sur le triangle noir situé en haut à droite du bloc (mis en évidence ci-dessous). Vous pouvez alors renseigner les caractères à partir des images disponibles. Vous pouvez également supprimer les informations saisies en cliquant sur le bouton **Delete Coding** (Supprimer la saisie).
 
-![Traits Tab](/img/traitstab2026.png)
+![Onglet Traits](/img/traitstab2026.png)
 
-### Scoring traits using the Trait Scoring from Images tools
+### Saisie des caractères à l'aide des outils « Trait Scoring from Images » (Saisie depuis les images)
 
-This tool can be used to efficiently score specimens of the same taxon or from the same region.
+Cet outil permet de renseigner efficacement les caractères de spécimens appartenant au même taxon ou provenant de la même région.
 
-From the Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_), click Occurrence Trait Coding Tools, then Trait Coding from Images.
-In the Filter box, select the trait that you wish to score, followed by the name of the taxon for which you wish to score (if applicable). Phenological Traits from the Trait dropdown menu. You can also refine your search by using the All Counties & All States dropdown list. This field provides a dropdown menu of all countries and states that are indexed in CCH2. If you select one of these geographic criteria, the tool will only show you specimens from that country/state.
+Depuis le panneau de configuration de l'éditeur de données (_cliquez sur « My Profile » [Mon profil], puis sur le nom de la collection dans le bloc « Collection Management » [Gestion des collections]_), cliquez sur **Occurrence Trait Coding Tools** (Outils de saisie des caractères d'occurrence), puis sur **Trait Coding from Images** (Saisie des caractères depuis les images).
+Dans le bloc de filtrage (**Filter**), sélectionnez le caractère que vous souhaitez renseigner, puis le nom du taxon concerné (le cas échéant). Vous pouvez par exemple choisir « Phenological Traits » (Caractères phénologiques) dans le menu déroulant des caractères. Vous pouvez également affiner votre recherche à l'aide des listes déroulantes « All Counties & All States » (Tous les comtés et tous les États). Ce champ propose un menu déroulant regroupant tous les pays et États indexés dans CCH2. Si vous sélectionnez l'un de ces critères géographiques, l'outil n'affichera que les spécimens provenant du pays ou de l'État choisi.
 
-![Trait Scoring Filters](/img/traitscorefilter2026.png)
+![Filtres de saisie des caractères](/img/traitscorefilter2026.png)
 
-Click the Load Images button. On the next page, you will see an image of a specimen of the selected taxon on the left, and an Action Panel on the right (see screenshot below). Note that you can edit the contents of the Filter box here as well. Depending on the scoring schema available for the trait you are scoring, you may be able to view more scoring options by clicking the black triangle inside the Action Panel. Select the trait values that you wish to apply to the specimen and click Save and Next.
+Cliquez sur le bouton **Load Images** (Charger les images). Sur la page suivante, vous verrez à gauche l'image d'un spécimen du taxon sélectionné et, à droite, un panneau d'actions (**Action Panel**) (voir la capture d'écran ci-dessous). Notez que vous pouvez également modifier les paramètres du filtre à cet endroit. Selon le barème disponible pour le caractère que vous évaluez, vous pourrez peut-être afficher davantage d'options de notation en cliquant sur le triangle noir situé dans le panneau d'actions. Sélectionnez les valeurs du caractère à appliquer au spécimen, puis cliquez sur « Enregistrer et suivant ».
 
-![Trait Scoring from Images](/img/traitscorefromimage2026.png)
+![Évaluation de caractère à partir d'images](/img/traitscorefromimage2026.png)
 
-To view the record associated with the specimen, click the catalog number that is displayed just above the image. To skip the specimen, click SKIP just to the right of the catalog number.
+Pour consulter la fiche associée au spécimen, cliquez sur le numéro de catalogue affiché juste au-dessus de l'image. Pour passer le spécimen, cliquez sur « SKIP » (Passer), situé juste à droite du numéro de catalogue.
 
-Note that you can also switch between the Medium and High resolution versions of the image using the Med Res. and High Res. radio buttons on the top left of the image.
+Notez que vous pouvez également basculer entre les versions de l'image en résolution moyenne et élevée à l'aide des boutons radio « Med Res. » et « High Res. » situés en haut à gauche de l'image.

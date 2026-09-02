@@ -1,5 +1,5 @@
 ---
-title: "Deleting or Transferring Images/Media"
+title: "Suppression ou transfert d'images/de fichiers multimédias"
 date: 2021-11-28
 latmod: 2026-03-30
 authors: ["Katie Pearson"]
@@ -8,40 +8,40 @@ keywords: ["images"]
 
 :::info
 
-This page describes how to transfer media resources to other records in your collection or how to delete media resources associated with a record.
+Cette page explique comment transférer des ressources multimédias vers d'autres enregistrements de votre collection ou comment supprimer des ressources multimédias associées à un enregistrement.
 
 :::
 
-#### Transferring a Media Resource to Another Record
+#### Transférer une ressource multimédia vers un autre enregistrement
 
-1. Navigate to the occurrence record that has the media resource you would like to transfer. (e.g., click My Profile > name of the collection in the Collection Management box > Edit Existing Occurrence Records > use record search form to find specific occurrence).
-2. Open the occurrence record in the Occurrence Editor (see screenshot below).
-3. Click the Media tab.
+1. Accédez à l'enregistrement d'occurrence contenant la ressource multimédia que vous souhaitez transférer (par ex. : cliquez sur **Mon profil** > nom de la collection dans le bloc **Gestion des collections** > **Modifier les enregistrements d'occurrence existants** > utilisez le formulaire de recherche pour trouver l'occurrence spécifique).
+2. Ouvrez l'enregistrement d'occurrence dans l'éditeur d'occurrence (voir la capture d'écran ci-dessous).
+3. Cliquez sur l'onglet **Multimédia** (Media).
 
-![Media Tab](/img/mediatab.jpg)
+![Onglet Multimédia](/img/mediatab.jpg)
 
-4. Click the pencil icon to the right of the media resource you would like to transfer.
-5. If you would like to transfer the media resource to a brand new record, rather than a record that already exists, scroll down to the box labeled **Link to a New Blank Occurrence Record within Collection** and click the "Link to New Occurrence" button.
-   - The SymbiotaID number associated with the new record you have created with the media resource will be displayed at the top of the page after you click this button. To navigate to that record, click the blue SymbiotaID number.
-6. If you would like to transfer the media resource to a record that already exists, scroll down to the box labeled **Remap to Another Specimen**.
-7. You can either enter the SymbiotaID number for the record (if you have it on hand) or use the Occurrence Linking Aid (where you can search by catalog number, collector, and/or collector number). To do the latter, click "Open Occurrence Linking Aid" to the right of the field.
-8. In the pop-up window, enter the search terms you would like to use to find the occurrence to which you would like to link the media resource. You can include several terms in this search concurrently. Then click the Search Occurrences button to see the search results.
-9. If there are results of your search, they will be listed below the **Voucher Search Pane** as shown below. To select one of the listed occurrences for linking, click Select Occurrence Record. This will close the window and import that record's SymbiotaID number into the **Remap to Another Specimen** panel.
-   - If you don't find the record you are looking for, try using different search terms. If the record does not exist, you can click the Create New Occurrence button to create a brand new occurrence for the media resource.
+4. Cliquez sur l'icône en forme de crayon située à droite de la ressource multimédia que vous souhaitez transférer.
+5. Si vous souhaitez transférer la ressource multimédia vers un tout nouvel enregistrement plutôt que vers un enregistrement existant, faites défiler la page jusqu'au bloc intitulé **Lier à un nouvel enregistrement d'occurrence vierge dans la collection** (Link to a New Blank Occurrence Record within Collection) et cliquez sur le bouton **Lier à une nouvelle occurrence** (Link to New Occurrence). 
+- Le numéro SymbiotaID associé au nouvel enregistrement créé avec la ressource multimédia s'affichera en haut de la page après avoir cliqué sur ce bouton. Pour accéder à cet enregistrement, cliquez sur le numéro SymbiotaID bleu.
+6. Si vous souhaitez transférer la ressource multimédia vers un enregistrement existant, faites défiler la page jusqu'au bloc intitulé **Réassocier à un autre spécimen** (Remap to Another Specimen).
+7. Vous pouvez soit saisir le numéro SymbiotaID de l'enregistrement (si vous l'avez sous la main), soit utiliser l'outil d'aide à la liaison d'occurrences (qui permet d'effectuer une recherche par numéro de catalogue, collecteur et/ou numéro de collecteur). Pour utiliser cette option, cliquez sur **Ouvrir l'outil d'aide à la liaison d'occurrences** (Open Occurrence Linking Aid) à droite du champ.
+8. Dans la fenêtre contextuelle, saisissez les termes de recherche pour trouver l'occurrence à laquelle vous souhaitez lier la ressource multimédia. Vous pouvez inclure plusieurs termes simultanément dans cette recherche. Cliquez ensuite sur le bouton **Rechercher des occurrences** (Search Occurrences) pour afficher les résultats.
+9. Si la recherche donne des résultats, ceux-ci s'afficheront sous le panneau de recherche de spécimens de référence (**Voucher Search Pane**), comme illustré ci-dessous. Pour sélectionner l'une des occurrences listées en vue de la liaison, cliquez sur **Sélectionner l'enregistrement d'occurrence** (Select Occurrence Record). Cela fermera la fenêtre et importera le numéro SymbiotaID de cet enregistrement dans le panneau **Réassocier à un autre spécimen** (Remap to Another Specimen). 
+- Si vous ne trouvez pas l'enregistrement recherché, essayez d'utiliser d'autres termes de recherche. Si l'enregistrement n'existe pas, vous pouvez cliquer sur le bouton « Créer une nouvelle occurrence » (Create New Occurrence) pour créer une occurrence inédite pour la ressource multimédia.
 
-![Occurrence Linking Aid](/img/occlinkingaid.png)
+![Outil d'aide à la liaison d'occurrences](/img/occlinkingaid.png)
 
-10. Back on the Media tab of the Occurrence Editor page, click the Remap Resource button.
+10. De retour sur l'onglet « Multimédia » (Media) de la page d'édition de l'occurrence, cliquez sur le bouton « Réassocier la ressource » (Remap Resource).
 
 :::note
 
-Any data associated with that media resource (e.g., its catalog number) will NOT be transferred along with the media resource. You will need to copy over this information in another way, if applicable.
+Toute donnée associée à cette ressource multimédia (par ex. son numéro de catalogue) ne sera PAS transférée avec la ressource elle-même. Vous devrez copier ces informations par un autre moyen, le cas échéant.
 
 :::
 
-#### Deleting a Media Resource
+#### Suppression d'une ressource multimédia
 
-1. Complete steps 1-4 in the instructions above.
-2. Scroll down to the box labeled **Delete Resource**.
-   - If your media resources are stored on Symbiota Support Hub servers (i.e., you upload them via Globus or directly through the Media tab), check the "Remove resource from server" box. Otherwise, leave this box unchecked.
-   - If your media resources are stored on another server, such as an institutional server, leave the "Remove resource from server" box unchecked.
+1. Suivez les étapes 1 à 4 des instructions ci-dessus.
+2. Faites défiler la page jusqu'à la section intitulée **Supprimer la ressource** (Delete Resource). 
+- Si vos ressources multimédias sont stockées sur les serveurs du Symbiota Support Hub (c.-à-d. si vous les téléversez via Globus ou directement depuis l'onglet « Multimédia »), cochez la case « Supprimer la ressource du serveur » (Remove resource from server). Sinon, laissez cette case décochée. 
+- Si vos ressources multimédias sont stockées sur un autre serveur, comme un serveur institutionnel, laissez la case « Supprimer la ressource du serveur » décochée.

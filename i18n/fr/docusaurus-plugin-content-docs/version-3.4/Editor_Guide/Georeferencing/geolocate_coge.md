@@ -6,8 +6,8 @@ authors: ["Katie Pearson"]
 keywords: ["georeferencing","collaborative georeferencing","GEOLocate"]
 ---
 
-The GEOLocate Collaborative Georeference Tool (CoGe) can be activated and integrated in a Symbiota portal to engage multiple users in a central georeferencing platform outside of the portal. More information about this platform can be found here: [GeoLocate CoGe page](https://coge.geo-locate.org/).
+L'outil de géoréférencement collaboratif GEOLocate (CoGe) peut être activé et intégré à un portail Symbiota afin de permettre à plusieurs utilisateurs de travailler sur une plateforme de géoréférencement centralisée, située en dehors du portail. Vous trouverez plus d'informations sur cette plateforme ici : [page GeoLocate CoGe](https://coge.geo-locate.org/).
 
-A training course for georeferencing using GEOLocate CoGe can be found here: [GEOLocate CoGe Training Course](https://www.capturingcaliforniasflowers.org/georeferencingcourse-coge.html), and a written protocol can be found here: [GEOLocate CoGe Protocol](https://www.capturingcaliforniasflowers.org/uploads/1/6/3/7/16372936/georeferencingincoge.docx).
+Une formation au géoréférencement avec GEOLocate CoGe est disponible ici : [Formation GEOLocate CoGe](https://www.capturingcaliforniasflowers.org/georeferencingcourse-coge.html), et un protocole écrit peut être consulté ici : [Protocole GEOLocate CoGe](https://www.capturingcaliforniasflowers.org/uploads/1/6/3/7/16372936/georeferencingincoge.docx).
 
-For instructions on how to push specimens from your collection to CoGe, visit the [collection manager CoGe page](/Collection_Manager_Guide/Georeferencing/collaborative_georeferencing).
+Pour savoir comment transférer des spécimens de votre collection vers CoGe, veuillez consulter la [page CoGe pour les gestionnaires de collections](/Collection_Manager_Guide/Georeferencing/collaborative_georeferencing).

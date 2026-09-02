@@ -1,5 +1,5 @@
 ---
-title: "Images & Other Media"
+title: "Images et autres médias"
 date: 2021-10-06
 lastmod: 2025-07-15
 draft: false
@@ -8,4 +8,4 @@ keywords: ["images"]
 sidebar_position: 90
 ---
 
-See [this page](/Collection_Manager_Guide/Images) to learn more about how images and other media resources are handled in Symbiota portals.
+Consultez [cette page](/Collection_Manager_Guide/Images) pour en savoir plus sur la gestion des images et autres ressources multimédias dans les portails Symbiota.

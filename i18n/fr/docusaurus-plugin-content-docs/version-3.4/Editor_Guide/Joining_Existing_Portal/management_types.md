@@ -1,5 +1,5 @@
 ---
-title: "Management Types"
+title: "Types de management"
 date: 2021-12-16
 lastmod: 2026-02-24
 draft: false
@@ -8,26 +8,26 @@ editors: ["Katie Pearson", "Lindsay Walker"]
 keywords: ["management", "live", "snapshot"]
 ---
 
-There are two main ways that collections present their data in Symbiota portals: **live** or as a **snapshot**. Each collection's data management method in Symbiota can be found on its respective profile. For example:
+Il existe deux manières principales pour les collections de présenter leurs données sur les portails Symbiota : en mode **direct** (ou « live ») ou sous forme d'**instantané** (ou « snapshot »). La méthode de gestion des données utilisée par chaque collection dans Symbiota est indiquée sur son profil respectif. Par exemple :
 
-![Example Management Type](/img/managementtype-example.png)
+![Exemple de type de gestion](/img/managementtype-example.png)
 
-<figcaption align = "center">_Collection Profile for [RSA-Wood in CCH2](https://www.cch2.org/portal/collections/misc/collprofiles.php?collid=105) showing the management type as "Live Data"._</figcaption>
+<figcaption align = "center">_Profil de la collection [RSA-Wood dans CCH2](https://www.cch2.org/portal/collections/misc/collprofiles.php?collid=105) indiquant que le type de gestion est « Live Data » (données en temps réel)._</figcaption>
 
-A **live** collection is one that manages their data directly in the Symbiota portal. Data entry, data editing, and digitization are conducted via a web browser within Symbiota portal. Live collections can start with as much or as little data as a collection wishes; if the collection already has a spreadsheet, database, or Darwin Core Archive of their collection data, they can [import](/Collection_Manager_Guide/Importing_Uploading/) the data into the Symbiota portal and manage the data in the portal henceforth. A collection can also start the digitization process in the portal without any starting data. Some advantages to live management in a Symbiota portal include:
+Une collection fonctionnant en mode **direct** gère ses données directement dans le portail Symbiota. La saisie, la modification et la numérisation des données s'effectuent via un navigateur web au sein du portail. Ces collections peuvent débuter avec le volume de données de leur choix ; si la collection dispose déjà d'un tableur, d'une base de données ou d'une archive Darwin Core contenant ses données, elle peut [importer](/Collection_Manager_Guide/Importing_Uploading/) ces informations dans le portail Symbiota et les y gérer par la suite. Une collection peut également entamer le processus de numérisation dans le portail sans données initiales. Parmi les avantages de la gestion directe dans un portail Symbiota, on peut citer :
 
-- Management of data through a web browser, enabling multiple users (once granted appropriate permissions) to manage data remotely
-- Access to efficient digitization tools, such as batch georeferencing and duplicate data harvesting
-- Access to data cleaning tools for taxonomy, geography, and more
+- La gestion des données via un navigateur web, permettant à plusieurs utilisateurs (disposant des autorisations appropriées) de gérer les données à distance
+- L'accès à des outils de numérisation efficaces, tels que la géoréférencement par lots et la récupération de données de doublons
+- L'accès à des outils de nettoyage des données (taxonomie, géographie, etc.)
 
-A **snapshot** collection is one that actively manages their specimen data in a different content management system (e.g., Microsoft Access, Specify, FileMaker Pro, EMu, CSpace, etc.) and imports a static copy of their records into a Symbiota portal for discovery by more users and/or publishing to global aggregators. Snapshot collections can import their data into a Symbiota portal via a spreadsheet, Darwin Core Archive, or through an IPT (Integrated Publishing Toolkit) or other web-based system. A collection can set up and save an import profile that will allow future updates of the data as long as the unique identifier from that source (called "dbpk" in a Symbiota portal) remains the same between imports.
+Une collection fonctionnant par **instantané** gère activement les données de ses spécimens dans un système de gestion de contenu distinct (par ex. Microsoft Access, Specify, FileMaker Pro, EMu, CSpace, etc.) et importe une copie statique de ses enregistrements dans un portail Symbiota afin de les rendre accessibles à un plus grand nombre d'utilisateurs et/ou de les publier sur des agrégateurs mondiaux. Ces collections peuvent importer leurs données dans un portail Symbiota via un tableur, une archive Darwin Core, ou encore un système IPT (Integrated Publishing Toolkit) ou tout autre système basé sur le web. Une collection peut configurer et enregistrer un profil d'importation permettant des mises à jour ultérieures des données, à condition que l'identifiant unique provenant de la source (appelé « dbpk » dans un portail Symbiota) reste inchangé d'une importation à l'autre.
 
-**In both cases, collections in Symbiota portals may benefit from:**
+**Dans les deux cas, les collections présentes sur les portails Symbiota peuvent bénéficier de :**
 
-- Participation in a network with special regional and/or taxonomic expertise
-- Assistance with backend queries and daily troubleshooting through the Symbiota Support Hub
-- Quick and easy publication of your data to global aggregators (e.g., GBIF), if desired
+- La participation à un réseau disposant d'une expertise régionale et/ou taxonomique spécifique
+- Une assistance pour les requêtes système (backend) et la résolution de problèmes quotidiens via le centre de support Symbiota (Symbiota Support Hub)
+- La publication rapide et facile de vos données vers des agrégateurs mondiaux (par ex. le GBIF), si vous le souhaitez
 
 :: info
-Some data management tools are deactivated for snapshot collections to prevent accidental data editing and, consequently, conflicts between data in the portal and your primary database-of-record.
+Certains outils de gestion de données sont désactivés pour les collections de type « snapshot » afin d'éviter toute modification accidentelle des données et, par conséquent, tout conflit entre les données du portail et votre base de données de référence principale.
 ::

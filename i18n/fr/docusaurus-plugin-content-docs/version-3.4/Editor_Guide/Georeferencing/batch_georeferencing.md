@@ -1,5 +1,5 @@
 ---
-title: "Batch Georeferencing"
+title: "Géoréférencement par lots"
 date: 2021-11-16
 lastmod: 2026-03-30
 draft: false
@@ -9,55 +9,54 @@ keywords: ["georeferencing", "batch edits"]
 
 :::info
 
-This page describes the functionality of the Batch Georeferencing tool. Distinct protocols for georeferencing vary by institution but can utilize any of the tools described here.
+Cette page décrit les fonctionnalités de l'outil de géoréférencement par lots. Les protocoles spécifiques de géoréférencement varient selon les institutions, mais peuvent faire appel à l'un ou l'autre des outils décrits ici.
 
 :::
 
-1. Log in to your account in the portal, click My Profile, then the name of the institution for which you will be georeferencing.
-2. In the Data Editor Control Panel, click “Batch Georeference Specimens.”
-3. Enter your desired search terms in the provided Query Form box. You can search by Country, State, County, Municiplaity, Processing Status, and/or Locality Terms. Then click Generate List.
+1. Connectez-vous à votre compte sur le portail, cliquez sur « Mon profil », puis sur le nom de l'institution pour laquelle vous allez effectuer le géoréférencement.
+2. Dans le panneau de contrôle de l'éditeur de données, cliquez sur « Batch Georeference Specimens » (Géoréférencer des spécimens par lots).
+3. Saisissez les termes de recherche souhaités dans le formulaire prévu à cet effet. Vous pouvez effectuer une recherche par pays, État, comté, municipalité, statut de traitement et/ou termes liés à la localité. Cliquez ensuite sur « Generate List » (Générer la liste).
 
-![Batch Georeferencing Tool](/img/batchgeoreference.png)
+![Outil de géoréférencement par lots](/img/batchgeoreference.png)
 
-4. Select the entry that you want to work on and click the Geolocate icon ![Batch Georeferencing Tool](/img/geolocate.png) at the top right of the search results. This will open a new GeoLocate window (see next screenshot) displaying a map and, in some cases, possible location(s) for the specimen that GeoLocate inferred from the text.
-   - The green dot is GeoLocate’s best guess for the locality of the specimen. You may also see red dots, which are alternative guesses.
-   - To view the reasons why GeoLocate selected these dots, click the “# possible locations found” tab to the right of the Workbench tab. The words in all caps are those that GeoLocate used to infer a location.
+4. Sélectionnez l'entrée sur laquelle vous souhaitez travailler et cliquez sur l'icône de géolocalisation ![Outil de géoréférencement par lots](/img/geolocate.png) située en haut à droite des résultats de recherche. Cela ouvrira une nouvelle fenêtre GeoLocate (voir la capture d'écran suivante) affichant une carte et, dans certains cas, la ou les localisations possibles du spécimen déduites par GeoLocate à partir du texte. 
+- Le point vert représente la meilleure estimation de GeoLocate concernant la localité du spécimen. Vous pouvez également voir des points rouges, qui correspondent à d'autres estimations possibles. 
+- Pour voir les raisons pour lesquelles GeoLocate a sélectionné ces points, cliquez sur l'onglet « # possible locations found » (nombre de localisations possibles trouvées) situé à droite de l'onglet « Workbench » (Espace de travail). Les mots en majuscules sont ceux que GeoLocate a utilisés pour déduire une localisation.
 
-![GEOLocate Options](/img/georeferenceguesses.jpg)
+![Options GEOLocate](/img/georeferenceguesses.jpg)
 
-5. Click the “Options” button on the bottom left of the GeoLocate window and ensure the “Do Uncertainty” box is checked. Close the Georeferencing options window.
-6. Make sure that all of the boxes (latitude, longitude, uncertainty, and error polygon) near the bottom right of the window are checked.
-7. If there are dots on the map, investigate whether any of them could be a good starting point for your georeferencing by comparing the dots’ locations on the map to the text in the Locality String (see dashed box in screenshot above). It is possible that none of the dots indicate the correct locality. If this is the case, you can ignore the dots or remove them by clicking the “# possible locations found” tab and clicking the circled ‘x’ to the left of each rejected entry (see below).
-   - When deciding whether to use one of the GeoLocate dots, make sure to check that the state and county where the dot has been placed matches the state and county indicated by the record.
+5. Cliquez sur le bouton « Options » en bas à gauche de la fenêtre GeoLocate et assurez-vous que la case « Do Uncertainty » (Calculer l'incertitude) est cochée. Fermez la fenêtre des options de géoréférencement.
+6. Assurez-vous que toutes les cases (latitude, longitude, incertitude et polygone d'erreur) situées près du coin inférieur droit de la fenêtre sont cochées. 7. Si la carte présente des points, vérifiez si l'un d'eux pourrait constituer un bon point de départ pour votre géoréférencement en comparant leur emplacement sur la carte avec le texte de la chaîne de localisation (« Locality String » ; voir l'encadré en pointillés dans la capture d'écran ci-dessus). Il est possible qu'aucun de ces points ne corresponde à la localité exacte. Le cas échéant, vous pouvez ignorer ces points ou les supprimer en cliquant sur l'onglet « # possible locations found » (nombre d'emplacements possibles trouvés), puis sur le « x » entouré situé à gauche de chaque entrée rejetée (voir ci-dessous). 
+- Avant de décider d'utiliser l'un des points GeoLocate, assurez-vous que l'État et le comté où le point est placé correspondent bien à ceux indiqués dans la notice.
 
-![GEOLocate Options](/img/geolocateoptions.png)
+![Options GEOLocate](/img/geolocateoptions.png)
 
-8. Either starting with a GeoLocate dot, if appropriate, or from scratch, use the Locality String to determine an approximate location for the specimen. This will likely require searching other references (e.g., Google maps) for location and feature names.
-   - You can change the base layer (i.e., the type of map shown in the GeoLocate window) by clicking the plus symbol in the upper right corner of the window (see next screenshot).
-   - To measure a distance on the map, click the button next to “Measure” and click on a starting point on the map. You can then move your cursor anywhere on the map and a line will be measured between those two points. The length of the line will be shown in green next to the line. To measure between more than one point, click again to anchor another point. To stop measuring, double click on the ending point of your measurement.
-   - If there is not enough information in the Locality String to assign an approximate point, view the specimen record by returning to the search results page (see screenshot below) and clicking the pencil icon on the top right of the search results box. This will bring up the specimen record, where you can see whether there is more locality information in another data field (e.g., habitat) or on the specimen image (if available).
-     - If you are still not able to assign an approximate point from this information, scroll down to the bottom of the specimen record until you see the Processing Status field. Select “Expert Required” from the dropdown menu of this field. In the “Notes (Occurrence Remarks)” field above and to the left, enter a brief note in brackets, such as “[Not enough data to georeference]”. Click the “Save Edits” button, close the record, and select a new record to georeference.
+8. En partant soit d'un point GeoLocate (si approprié), soit de zéro, utilisez la chaîne de caractères indiquant la localité (« Locality String ») pour déterminer un emplacement approximatif pour le spécimen. Cela nécessitera probablement de consulter d'autres sources (par ex. Google Maps) pour trouver les noms de lieux et de caractéristiques géographiques. 
+- Vous pouvez modifier la couche de base (c.-à-d. le type de carte affiché dans la fenêtre GeoLocate) en cliquant sur le symbole « plus » situé dans le coin supérieur droit de la fenêtre (voir la capture d'écran suivante). 
+- Pour mesurer une distance sur la carte, cliquez sur le bouton situé à côté de « Measure » (Mesurer), puis cliquez sur un point de départ sur la carte. Vous pouvez ensuite déplacer votre curseur n'importe où sur la carte ; une ligne sera alors mesurée entre ces deux points. La longueur de la ligne s'affichera en vert à côté de celle-ci. Pour effectuer une mesure impliquant plus de deux points, cliquez à nouveau pour fixer un point supplémentaire. Pour arrêter la mesure, double-cliquez sur le point final. 
+- Si la chaîne de caractères de la localité ne contient pas suffisamment d'informations pour attribuer un point approximatif, consultez la fiche du spécimen en revenant à la page des résultats de recherche (voir la capture d'écran ci-dessous) et en cliquant sur l'icône en forme de crayon située en haut à droite de la zone des résultats. La fiche du spécimen s'affichera alors ; vous pourrez y vérifier si des informations supplémentaires sur la localité figurent dans un autre champ de données (par ex. l'habitat) ou sur l'image du spécimen (si elle est disponible). 
+- Si vous ne parvenez toujours pas à attribuer un point approximatif à partir de ces informations, faites défiler la fiche du spécimen vers le bas jusqu'au champ « Processing Status » (Statut de traitement). Sélectionnez « Expert Required » (Expert requis) dans le menu déroulant de ce champ. Dans le champ « Notes (Occurrence Remarks) » situé au-dessus et à gauche, saisissez une brève note entre crochets, telle que « [Not enough data to georeference] » (Données insuffisantes pour la géoréférenciation). Cliquez sur le bouton « Save Edits » (Enregistrer les modifications), fermez la fiche et sélectionnez une nouvelle fiche à géoréférencer.
 
-![GEOLocate Options](/img/geolocateoptions2.jpg)
+![Options GEOLocate](/img/geolocateoptions2.jpg)
 
-9. Once you have found an approximate location for the specimen record, click the button next to “Place Marker” and click on the map where you want to place the GeoLocate dot. We recommend using the [Georeferencing Quick Guide](https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/) to determine where to place the point.
+9. Une fois que vous avez trouvé un emplacement approximatif pour la fiche du spécimen, cliquez sur le bouton situé à côté de « Place Marker » (Placer un marqueur), puis cliquez sur la carte à l'endroit où vous souhaitez placer le point GeoLocate. Nous vous recommandons de consulter le [Guide rapide de géoréférencement](https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/) pour déterminer où placer le point.
 
-10. Set the error radius and/or create an error polygon to indicate the uncertainty of the specimen’s locality. We recommend using the [Georeferencing Quick Guide](https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/) to determine how large of an error radius to use for a given point and whether you should use an error polygon.
-    - To edit the size of the error radius, click the green dot on the map and select “Edit Uncertainty” in the pop-up box. Click and drag the grey arrowhead that will appear on the outer rim of the error circle to resize the error radius.
-    - To create an error polygon, click the button next to “Create polygon” and click on the map where you want to begin drawing the polygon. A corner of the polygon will be created time you click on the map. To finish the polygon, double click. Once you have completed the polygon, click the green dot again and select “Resize uncertainty to polygon.”
-      - To redo a polygon, click the “Clear Polygon” button to the right of the “Options” button.
-    - Make sure to note any uncertainty you experienced when setting the error radius. For example, if you were georeferencing a named place that did not have clear boundaries, explain how you determined a suitable error radius by putting a note in the Remarks field on the search results page where you first selected your specimen record.
+10. Définissez le rayon d'erreur et/ou créez un polygone d'erreur pour indiquer l'incertitude liée à la localité du spécimen. Nous vous recommandons de consulter le [Guide rapide de géoréférencement](https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/) pour déterminer la taille du rayon d'erreur à utiliser pour un point donné et savoir s'il convient d'utiliser un polygone d'erreur. 
+- Pour modifier la taille du rayon d'erreur, cliquez sur le point vert affiché sur la carte et sélectionnez « Edit Uncertainty » (Modifier l'incertitude) dans la fenêtre contextuelle. Cliquez sur la flèche grise qui apparaît sur le bord extérieur du cercle d'erreur et faites-la glisser pour redimensionner le rayon. 
+- Pour créer un polygone d'erreur, cliquez sur le bouton situé à côté de « Create polygon » (Créer un polygone), puis cliquez sur la carte à l'endroit où vous souhaitez commencer à le dessiner. Un sommet du polygone est créé à chaque clic sur la carte. Pour terminer le polygone, effectuez un double-clic. Une fois le polygone terminé, cliquez à nouveau sur le point vert et sélectionnez « Resize uncertainty to polygon » (Ajuster l'incertitude au polygone). 
+- Pour recommencer le tracé d'un polygone, cliquez sur le bouton « Clear Polygon » (Effacer le polygone) situé à droite du bouton « Options ». 
+- Veillez à noter toute incertitude rencontrée lors de la définition du rayon d'erreur. Par exemple, si vous géoréférenciez un lieu nommé dont les limites ne sont pas clairement définies, expliquez comment vous avez déterminé un rayon d'erreur approprié en ajoutant une note dans le champ « Remarks » (Remarques) de la page de résultats de recherche où vous avez initialement sélectionné la fiche du spécimen.
 
-![Batch Georeferencing Form](/img/batchgeoreferencemod.png)
+![Formulaire de géoréférencement par lots](/img/batchgeoreferencemod.png)
 
-11. When you are confident in your GeoLocate point and error radius, click the “Save To Your Application” button at the bottom of the GeoLocate window. You will be taken back to the search results page where you first selected your specimen record (see first screenshot).
-    - The coordinates and error will now show up below the search results in the appropriate Latitude, Longitude, and Error fields. If you created an error polygon, its coordinates will be listed in the Footprint WKT field.
-12. Click the “Update Coordinates” button at the bottom of the page.
-13. Select a new record or set of records to georeference from the search results list and repeat.
+11. Une fois que vous êtes satisfait du point de géolocalisation et du rayon d'erreur définis, cliquez sur le bouton « Save To Your Application » (Enregistrer dans votre application) situé au bas de la fenêtre de géolocalisation. Vous serez redirigé vers la page des résultats de recherche où vous aviez initialement sélectionné la fiche du spécimen (voir la première capture d'écran). 
+- Les coordonnées et l'erreur s'afficheront désormais sous les résultats de recherche, dans les champs appropriés (Latitude, Longitude et Error/Erreur). Si vous avez créé un polygone d'erreur, ses coordonnées seront indiquées dans le champ « Footprint WKT ».
+12. Cliquez sur le bouton « Update Coordinates » (Mettre à jour les coordonnées) au bas de la page.
+13. Sélectionnez une nouvelle fiche ou un nouvel ensemble de fiches à géoréférencer dans la liste des résultats de recherche et répétez l'opération.
 
-### Example Batch Georeferencing Protocols
+### Exemples de protocoles de géoréférencement par lots
 
-- [California Phenology Network georeferencing guides](https://www.capturingcaliforniasflowers.org/georeferencing-protocols-and-guides.html)
-- [Florida Museum of Natural History georeferencing workflow overview](https://www.floridamuseum.ufl.edu/mossesinflas/georeferencing/)
-- [Microfungi TCN batch georeferencing instructions](https://www.microfungi.org/files/1014/7915/7996/Georeferencing.pdf)
-- [MSU Herbarium Georeferencing Guide](https://herbarium.appstate.edu/sites/herbarium.appstate.edu/files/missa_how_to_geolocate_in_symbiota_0.pdf)
+- [Guides de géoréférencement du California Phenology Network](https://www.capturingcaliforniasflowers.org/georeferencing-protocols-and-guides.html)
+- [Aperçu du flux de travail de géoréférencement du Florida Museum of Natural History](https://www.floridamuseum.ufl.edu/mossesinflas/georeferencing/)
+- [Instructions de géoréférencement par lots du Microfungi TCN](https://www.microfungi.org/files/1014/7915/7996/Georeferencing.pdf)
+- [Guide de géoréférencement de l'herbier de la MSU](https://herbarium.appstate.edu/sites/herbarium.appstate.edu/files/missa_how_to_geolocate_in_symbiota_0.pdf)
