@@ -1,5 +1,5 @@
 ---
-title: "Adding Vouchers to Checklist"
+title: "Ajout de bons à la liste de contrôle"
 date: 2021-10-14
 lastmod: 2026-03-30
 authors: ["Katie Pearson", "Neil Cobb", "Ed Gilbert"]
@@ -13,74 +13,73 @@ import ReactPlayer from "react-player";
 
 :::info
 
-This page describes how to add voucher specimens (physical evidence of the existence of a taxon in a checklist) to a checklist in a Symbiota portal.
+Cette page explique comment ajouter des spécimens témoins (preuves physiques de l'existence d'un taxon dans une liste de contrôle) à une liste de contrôle sur un portail Symbiota.
 
 :::
 
-There are two main ways to add voucher specimens to a research checklist. You can add specific, individual specimens from your own collection to the checklist through the occurrence editor (the page of the specimen record) or add specimens from any collection through the Manage Linked Voucher tool on the checklist page.
+Il existe deux méthodes principales pour ajouter des spécimens témoins à une liste de contrôle de recherche. Vous pouvez ajouter des spécimens individuels spécifiques issus de votre propre collection via l'éditeur d'occurrences (la page de la fiche du spécimen) ou ajouter des spécimens provenant de n'importe quelle collection grâce à l'outil « Gérer les témoins associés » (Manage Linked Voucher) situé sur la page de la liste de contrôle.
 
-### Adding Specimens from Any Collection (Manage Linked Voucher Tool)
+### Ajout de spécimens provenant de n'importe quelle collection (Outil « Gérer les témoins associés »)
 
 <ReactPlayer
-  playing={false}
-  controls
-  url="http://www.youtube.com/watch?v=NRW2kh6xln0"
+playing={false}
+controls
+url="http://www.youtube.com/watch?v=NRW2kh6xln0"
 />
 
-1. Navigate to the homepage of your checklist.
-2. Click the pencil icon that has a V next to it (the center icon in the top right corner of the page, highlighted below).
+1. Accédez à la page d'accueil de votre liste de contrôle.
+2. Cliquez sur l'icône en forme de crayon accompagnée d'un « V » (l'icône centrale située dans le coin supérieur droit de la page, mise en évidence ci-dessous).
 
-![Manage Linked Vouchers](/img/checklistexample.png)
+![Gérer les témoins associés](/img/checklistexample.png)
 
-3. If this is the first time you have used this tool, you will immediately see the option to define the search statement (i.e., search parameters) that will be used to find the specimens that might pertain to your checklist. You can use a variety of fields to define your search, as described below.
+3. Si vous utilisez cet outil pour la première fois, l'option permettant de définir les critères de recherche (c.-à-d. les paramètres utilisés pour trouver les spécimens susceptibles de correspondre à votre liste de contrôle) s'affichera immédiatement. Vous pouvez utiliser divers champs pour affiner votre recherche, comme décrit ci-dessous.
 
-NOTE: You will be able to change the search statement in the future, so you are not necessarily defining the bounds forever.
+REMARQUE : Vous pourrez modifier ces critères de recherche ultérieurement ; vous ne définissez donc pas nécessairement des limites définitives.
 
-![Checklist Search Statement](/img/checklistsearchstatement.png)
+![Critères de recherche de la liste de contrôle](/img/checklistsearchstatement.png)
 
-- You can enter search terms for a number of fields on the left side of the form.
-- You can use the polygon footprint that you defined when creating the checklist (see 29:1 Creating a checklist, step 3c) to search for specimen records by checking the “Search based on polygon defining checklist research boundaries” box. If you did not define a polygon previously, you can also do so from here by clicking the pencil icon to the right of this option and following the steps outlined in 29:1 Creating a checklist, step 3c.
-- You can define a specific bounding box by entering the latitude and longitude values that delimit the box, or by defining the lat/long values on a map. To do the latter:
-  1.  Click the globe icon to the right of the Lat North field
-  2.  In the pop-up window, pan and zoom to the location where you want to place the bounding box.
-  3.  Click on the approximate center where you want the bounding box to be located.
-  4.  Adjust the location and size of the bounding box as desired by clicking and dragging inside the box (to move the box) or clicking and dragging one of the circles on the sides or corners of the box (to resize the box).
-  5.  To save the bounding box, click Save and Close.
+- Vous pouvez saisir des termes de recherche dans plusieurs champs situés sur la partie gauche du formulaire.
+- Vous pouvez utiliser l'emprise polygonale définie lors de la création de la liste de contrôle (voir section 29:1 Création d'une liste de contrôle, étape 3c) pour rechercher des fiches de spécimens en cochant la case « Rechercher en fonction du polygone définissant les limites de recherche de la liste de contrôle ». Si vous n'avez pas défini de polygone au préalable, vous pouvez le faire depuis cette interface en cliquant sur l'icône en forme de crayon située à droite de cette option et en suivant les étapes décrites dans la section 29:1 Création d'une liste de contrôle, étape 3c.
+- Vous pouvez définir une zone de délimitation (bounding box) spécifique en saisissant les coordonnées de latitude et de longitude qui la délimitent, ou en définissant ces valeurs directement sur une carte. Pour effectuer cette dernière opération :
+1.  Cliquez sur l'icône en forme de globe située à droite du champ « Lat North » (Latitude Nord).
+2.  Dans la fenêtre contextuelle, déplacez la carte et zoomez sur l'emplacement où vous souhaitez placer la zone de délimitation (bounding box). 
+3.  Cliquez sur le point correspondant approximativement au centre de la zone de délimitation souhaitée. 
+4.  Ajustez l'emplacement et la taille de la zone de délimitation selon vos besoins : cliquez et faites glisser le curseur à l'intérieur de la zone pour la déplacer, ou cliquez et faites glisser l'un des cercles situés sur les côtés ou aux coins de la zone pour en modifier les dimensions. 
+5.  Pour enregistrer la zone de délimitation, cliquez sur « Save and Close » (Enregistrer et fermer).
 
-![Bounding Box Assignment](/img/checklistboundingbox.png)
+![Définition de la zone de délimitation](/img/checklistboundingbox.png)
 
-- There are a number of important checkboxes below the Lat/Long fields that you can use to refine your search. For example, you can allow the search to return specimens with the desired search terms OR within certain latitude and longitude coordinates.
-- You can use any combination of the above options to search for voucher specimens.
+- Sous les champs de latitude et de longitude, plusieurs cases à cocher importantes vous permettent d'affiner votre recherche. Par exemple, vous pouvez configurer la recherche pour qu'elle renvoie des spécimens correspondant aux termes de recherche indiqués OU situés dans une plage de coordonnées de latitude et de longitude donnée.
+- Vous pouvez combiner les options ci-dessus de différentes manières pour rechercher des spécimens témoins (vouchers).
 
-4. Once you have entered the desired search terms, click the Save Search Terms button.
-5. There are a number of ways to add voucher specimens from this point.
+4. Une fois les termes de recherche saisis, cliquez sur le bouton « Save Search Terms » (Enregistrer les termes de recherche).
+5. À ce stade, plusieurs méthodes permettent d'ajouter des spécimens témoins.
 
-![Checklist Voucher Tools](/img/checklistvouchertab.png)
+![Outils pour les spécimens témoins](/img/checklistvouchertab.png)
 
-- If you have already defined a taxon list for your checklist, you can add voucher specimens from the New Vouchers tab. From this tab, you can:
-  1.  View taxa that do not currently have voucher specimens in your checklist (select Non-vouchered taxa list from the Display Mode dropdown list).
-  2.  View specimen records that match your search criteria and are one of the taxa defined in your taxon list that is NOT currently vouchered (select Occurrences for non-vouchered taxa from the Display Mode dropdown list).
-      - To add voucher specimens from this list, click the box to the left of the specimen record(s) that you wish to add and click the Add Vouchers button.
-  3.  View specimen records that match your search criteria and are one of the taxa defined in your taxon list, regardless of whether that taxon has been vouchered previously (select New occurrences for all taxa from the Display Mode dropdown list).
-- To add voucher specimens from this list, click the box to the left of the specimen record(s) that you wish to add and click the Add Vouchers button.
-- Regardless of whether you have previously defined a taxon list for your checklist, you can add voucher specimens through the Missing Taxa tab. From this tab, you can:
-  1. View the taxa that are not found in the checklist currently but are represented by one or more specimens that align with your search criteria (select Species List from the Display Mode dropdown list).
-     - You can then view a list of the specimens associated with each taxon by clicking the link icon ![Link Icon](/img/link.png) From there, you can link the desired specimens individually by clicking the add voucher icon ![Add Voucher Icon](/img/voucheradd.png) to the right of the specimen record in the list.
-  2. View the specimens that are not yet added as voucher specimens for your checklist but do align with your search criteria (select Batch Linking from the Display Mode dropdown menu).
-     - To add voucher specimens from this list, click the box to the left of the specimen record(s) that you wish to add and click the Add Vouchers button.
-  3. View specimen records that align with your search criteria, but have scientific names that are not linked to a particular name in the taxonomic thesaurus (select Problem Taxa from the Display Mode dropdown menu).
-     - To add voucher specimens from this list, enter the name of the taxon to which this specimen belongs into the text box to the right of the specimen’s scientific name. Note that the name you enter in this box must already be found in the list of taxa in your checklist. Click the Link Voucher button.
+- Si vous avez déjà défini une liste de taxons pour votre liste de référence (checklist), vous pouvez ajouter des spécimens témoins via l'onglet « Nouveaux témoins » (New Vouchers). Depuis cet onglet, vous pouvez :
+1.  Afficher les taxons qui ne disposent pas actuellement de spécimens témoins dans votre liste de référence (sélectionnez « Liste des taxons sans témoin » / *Non-vouchered taxa list* dans la liste déroulante « Mode d'affichage »). 
+2.  Afficher les notices de spécimens correspondant à vos critères de recherche et appartenant à l'un des taxons définis dans votre liste qui ne dispose pas encore de témoin (sélectionnez « Occurrences pour les taxons sans témoin » / *Occurrences for non-vouchered taxa* dans la liste déroulante « Mode d'affichage »). 
+- Pour ajouter des spécimens témoins à partir de cette liste, cochez la case située à gauche de la ou des notices de spécimens que vous souhaitez ajouter, puis cliquez sur le bouton « Ajouter des témoins » (Add Vouchers). 
+3.  Afficher les notices de spécimens correspondant à vos critères de recherche et appartenant à l'un des taxons définis dans votre liste, que ce taxon ait déjà fait l'objet d'un témoin ou non (sélectionnez « Nouvelles occurrences pour tous les taxons » / *New occurrences for all taxa* dans la liste déroulante « Mode d'affichage »).
+- Pour ajouter des spécimens témoins à partir de cette liste, cochez la case située à gauche de la ou des notices de spécimens que vous souhaitez ajouter, puis cliquez sur le bouton « Ajouter des témoins » (Add Vouchers).
+- Que vous ayez ou non défini au préalable une liste de taxons pour votre liste de référence, vous pouvez ajouter des spécimens témoins via l'onglet « Taxons manquants » (Missing Taxa). Depuis cet onglet, vous pouvez :
+1. Afficher les taxons qui ne figurent pas actuellement dans la liste de référence mais qui sont représentés par un ou plusieurs spécimens correspondant à vos critères de recherche (sélectionnez « Liste des espèces » / *Species List* dans la liste déroulante « Mode d'affichage »). 
+- Vous pouvez ensuite consulter la liste des spécimens associés à chaque taxon en cliquant sur l'icône de lien ![Icône de lien](/img/link.png). À partir de là, vous pouvez associer individuellement les spécimens souhaités en cliquant sur l'icône d'ajout de témoin ![Icône d'ajout de témoin](/img/voucheradd.png) située à droite de la notice du spécimen dans la liste. 
+2. Afficher les spécimens qui n'ont pas encore été ajoutés comme témoins pour votre liste de référence mais qui correspondent à vos critères de recherche (sélectionnez « Association par lot » / *Batch Linking* dans la liste déroulante « Mode d'affichage »). 
+- Pour ajouter des spécimens témoins à partir de cette liste, cochez la case située à gauche de la ou des notices de spécimens que vous souhaitez ajouter, puis cliquez sur le bouton « Ajouter des témoins » (Add Vouchers). 3. Affichez les notices de spécimens correspondant à vos critères de recherche, mais dont les noms scientifiques ne sont pas reliés à un nom spécifique dans le thésaurus taxonomique (sélectionnez « Problem Taxa » dans le menu déroulant « Display Mode »). 
+- Pour ajouter des spécimens témoins (*vouchers*) à partir de cette liste, saisissez le nom du taxon auquel appartient le spécimen dans le champ de texte situé à droite du nom scientifique du spécimen. Notez que le nom saisi doit déjà figurer dans la liste des taxons de votre inventaire (*checklist*). Cliquez sur le bouton « Link Voucher ».
 
-### Adding Individual Specimens from Your Own Collection
+### Ajout de spécimens individuels issus de votre propre collection
 
 :::note
 
-You must be an editor of a collection to assign specimens in this way.
+Vous devez disposer des droits d'édition sur une collection pour pouvoir y associer des spécimens de cette manière.
 
 :::
 
-1. Look up a specific specimen in your own collection (e.g., by clicking Edit Existing Occurrence Records in your Data Editor Control Panel and searching by a specific catalog number or by using other search terms).
-2. On the resulting page, click the Linked Resources tab.
-3. In the Checklist Voucher Linkages box (see below), select the desired Checklist from the dropdown menu and click Link to Checklist as Voucher. A new window will likely pop up as a result, but you can ignore this window and close the editor. The specimen has been successfully linked as a voucher to the desired checklist.
+1. Recherchez un spécimen spécifique dans votre propre collection (par exemple, en cliquant sur « Edit Existing Occurrence Records » dans le panneau de contrôle de l'éditeur de données, puis en effectuant une recherche par numéro de catalogue ou à l'aide d'autres critères).
+2. Sur la page qui s'affiche, cliquez sur l'onglet « Linked Resources ».
+3. Dans la zone « Checklist Voucher Linkages » (voir ci-dessous), sélectionnez l'inventaire souhaité dans le menu déroulant et cliquez sur « Link to Checklist as Voucher ». Une nouvelle fenêtre risque de s'ouvrir ; vous pouvez l'ignorer et fermer l'éditeur. Le spécimen a bien été associé en tant que témoin (*voucher*) à l'inventaire choisi.
 
 ![Checklist Voucher Linkages](/img/checklistvoucherlinkage.png)

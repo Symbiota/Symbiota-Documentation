@@ -1,5 +1,5 @@
 ---
-title: "Downloading"
+title: "Téléchargement"
 date: 2025-07-25
 authors: ["Katie Pearson"]
 draft: false

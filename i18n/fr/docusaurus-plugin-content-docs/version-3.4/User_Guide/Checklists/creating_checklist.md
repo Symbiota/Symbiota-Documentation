@@ -1,5 +1,5 @@
 ---
-title: "Creating a Checklist"
+title: "Création d'une liste de contrôle"
 date: 2021-10-14
 authors: ["Katie Pearson"]
 editors: ["Katie Pearson"]
@@ -11,29 +11,28 @@ keywords: ["checklist", "inventory", "flora"]
 
 :::info
 
-This page describes how to create a checklist or biotic inventory in a Symbiota portal.
+Cette page explique comment créer une liste d'inventaire ou un inventaire biotique dans un portail Symbiota.
 
 :::
 
 :::note
 
-The "Create a Checklist" permission has been granted for the majority of existing users (accounts created before June 2022). If you do not have "Create a Checklist enabled", and need it, ask your portal admin (super admin) or the Support Hub to add these user permissions to your account. All new users will need to request permission to create checklists/datasets moving forward.
+L'autorisation « Créer une liste d'inventaire » a été attribuée à la majorité des utilisateurs existants (comptes créés avant juin 2022). Si cette autorisation n'est pas activée pour vous et que vous en avez besoin, demandez à l'administrateur de votre portail (super-administrateur) ou au service d'assistance de l'ajouter à votre compte. À l'avenir, tous les nouveaux utilisateurs devront demander l'autorisation de créer des listes d'inventaire ou des jeux de données.
 
 :::
 
-1. Log in to the Symbiota profile (if you don't already have an account, click New Account to create one).
-2. Click "My Profile"
-3. Click the “Species Inventories tab
-4. Click the add icon. ![Plus Sign Icon](/img/add.png)
-5. Fill out the “Create New Checklist” box with the desired information.
-   - Most checklists will be a General Checklist. Alternatively, you can another list type from the Checklist Type dropdown menu. A Species Exclusion List is used to curate a subset of taxa that are purposely excluded from another list, and a Rare, threatened, protected species list is used to compile a state-level list of rare, threatened, and protected taxa for which locality data will be redacted for specimens in that state.
-   - To indicate that this checklist is a subset within a larger checklist, select the “parent” (larger) checklist from the More Inclusive Reference Checklist dropdown menu.
-   - You can define the area included in the checklist by describing it in the Locality and Abstract fields, including Latitude and Longitude coordinates, and/or you can define the boundaries of that area geographically by setting a “footprint polygon”. To define a “footprint polygon”:
-     1. Click the globe icon ![Globe Icon](/img/world.png) inside the Polygon Footprint box. A Google map will appear a new window.
-     2. Drag the map until it shows the region covered by your checklist, then zoom in until you can see the boundaries of the area.
-     3. Click the polygon icon in the top center of the window ![Polygon Icon](/img/polygon.png) then click around the boundaries of your area.
-     4. When you get back to the point where you started, double click the starting point. This will lock the coordinates into the text box at the bottom of the window. Your defined area will shaded in.
-     5. If you are dissatisfied with your polygon, you can delete or redraw it by clicking the appropriate button on the bottom right. When you are satisifed with your polygon, click the Save Polygon button.
-   - You can decide whether you want to keep this checklist private, or if you want it to be available to the public by selecting Private or Public from the Access dropdown menu.
+1. Connectez-vous à votre profil Symbiota (si vous n'avez pas encore de compte, cliquez sur « Nouveau compte » pour en créer un). 2. Cliquez sur « Mon profil » (My Profile).
+3. Cliquez sur l'onglet « Inventaires d'espèces » (Species Inventories).
+4. Cliquez sur l'icône d'ajout. ![Icône Plus](/img/add.png)
+5. Remplissez la zone « Créer une nouvelle liste » (Create New Checklist) avec les informations souhaitées.
+- La plupart des listes seront des « Listes générales » (General Checklist). Vous pouvez également choisir un autre type de liste dans le menu déroulant « Type de liste » (Checklist Type). Une « Liste d'exclusion d'espèces » (Species Exclusion List) sert à gérer un sous-ensemble de taxons délibérément exclus d'une autre liste, tandis qu'une « Liste d'espèces rares, menacées ou protégées » (Rare, threatened, protected species list) permet de compiler, à l'échelle d'un État, une liste de taxons rares, menacés ou protégés dont les données de localisation seront masquées pour les spécimens provenant de cet État.
+- Pour indiquer que cette liste constitue un sous-ensemble d'une liste plus vaste, sélectionnez la liste « parente » (la plus large) dans le menu déroulant « Liste de référence plus large » (More Inclusive Reference Checklist).
+- Vous pouvez définir la zone couverte par la liste en la décrivant dans les champs « Localité » (Locality) et « Résumé » (Abstract), en incluant les coordonnées de latitude et de longitude, et/ou en définissant géographiquement les limites de la zone à l'aide d'un « polygone d'emprise » (footprint polygon). Pour définir un « polygone d'emprise » :
+1. Cliquez sur l'icône du globe ![Icône Globe](/img/world.png) dans la zone « Polygone d'emprise » (Polygon Footprint). Une carte Google s'ouvrira dans une nouvelle fenêtre. 
+2. Déplacez la carte jusqu'à afficher la région couverte par votre liste, puis zoomez pour voir les limites de la zone. 
+3. Cliquez sur l'icône de polygone située en haut au centre de la fenêtre ![Icône Polygone](/img/polygon.png), puis cliquez le long des limites de votre zone. 
+4. Lorsque vous revenez au point de départ, double-cliquez sur ce point. Cela fixera les coordonnées dans la zone de texte située au bas de la fenêtre. La zone définie apparaîtra en surbrillance.
+5. Si le polygone ne vous convient pas, vous pouvez le supprimer ou le redessiner en cliquant sur le bouton approprié en bas à droite. Une fois satisfait du polygone, cliquez sur le bouton « Enregistrer le polygone » (Save Polygon). 
+- Vous pouvez choisir de garder cette liste privée ou de la rendre publique en sélectionnant « Privé » (Private) ou « Public » dans le menu déroulant « Accès » (Access).
 
-To add taxa (species) to your list, see the section [Add Taxa to Checklist](adding_taxa).
+Pour ajouter des taxons (espèces) à votre liste, consultez la section [Ajouter des taxons à Liste de contrôle](adding_taxa).

@@ -1,5 +1,5 @@
 ---
-title: "Taxonomic Thesaurus"
+title: "Thésaurus taxonomique"
 date: 2021-10-14
 lastmod: 2026-02-04
 authors: ["Katie Pearson", "Lindsay Walker"]
@@ -10,29 +10,29 @@ keywords: ["thesaurus","scientific names","taxonomy"]
 
 :::info
 
-This page describes the use of backbone taxonomic thesauri in Symbiota portals.
+Cette page décrit l'utilisation des thésaurus taxonomiques de référence (ou « backbone ») dans les portails Symbiota.
 
 :::
 
-While providing foundational data to the science of taxonomy, Symbiota portals are not necessarily designed to be taxonomic resources. Other resources will likely be more up-to-date and carefully curated than Symbiota portals, which are designed for data discovery and curation rather than taxonomic precision.
+Bien qu'ils fournissent des données fondamentales pour la taxonomie, les portails Symbiota ne sont pas nécessairement conçus pour servir de ressources taxonomiques de référence. D'autres ressources seront probablement plus à jour et feront l'objet d'une curation plus rigoureuse que les portails Symbiota, lesquels sont conçus davantage pour la découverte et la curation de données que pour la précision taxonomique absolue.
 
-Symbiota portals are built with a taxonomic backbone so that:
-1. Users can perform searches for occurrences of a taxon, and occurrences of that taxon's synonyms will be included in the search results.
-2. Taxa can be linked hierarchically so that searches for higher taxa (e.g., families) result in lists including lower taxa (e.g., species) 
-3. Data entry personnel can select taxonomic names from a pick-list rather than typing entire Latin names.
-4. Family names and taxonomic authorships can be auto-populated for occurrences with provided taxonomic names.
+Les portails Symbiota sont structurés autour d'une ossature taxonomique permettant :
+1. Aux utilisateurs d'effectuer des recherches sur les occurrences d'un taxon, tout en incluant dans les résultats les occurrences des synonymes de ce taxon.
+2. D'établir des liens hiérarchiques entre les taxons, de sorte qu'une recherche sur des taxons de rang supérieur (ex. : familles) génère des listes incluant des taxons de rang inférieur (ex. : espèces).
+3. Au personnel chargé de la saisie des données de sélectionner des noms taxonomiques dans une liste déroulante plutôt que de saisir intégralement les noms latins.
+4. De renseigner automatiquement les noms de famille et les auteurs taxonomiques pour les occurrences dont le nom taxonomique est déjà fourni.
 
-### Curation of Taxonomic Information
+### Curation des informations taxonomiques
 
-The curation and accuracy of a portal's taxonomic thesaurus depends largely on the community managing and using the portal. Some portal communities actively curate their taxonomic thesaurus, while others use it largely as a curational tool and update it sparingly. Users interested in helping to curate the taxonomic thesaurus of a portal should contact the portal manager or [help@symbiota.org](mailto:help@symbiota.org).
+La curation et la précision du thésaurus taxonomique d'un portail dépendent largement de la communauté qui le gère et l'utilise. Certaines communautés assurent une curation active de leur thésaurus taxonomique, tandis que d'autres l'utilisent principalement comme outil de gestion des données et ne le mettent à jour que ponctuellement. Les utilisateurs souhaitant contribuer à la curation du thésaurus taxonomique d'un portail sont invités à contacter le gestionnaire du portail ou à écrire à [help@symbiota.org](mailto:help@symbiota.org).
 
-The taxonomic thesaurus can be edited by superadministrators and users with express Taxonomy Editor permissions (see the [User Permissions](user_permissions) page for more information).
+Le thésaurus taxonomique peut être modifié par les super-administrateurs et par les utilisateurs disposant des autorisations spécifiques d'éditeur de taxonomie (voir la page [Autorisations des utilisateurs](user_permissions) pour plus d'informations).
 
-### Downloading Taxonomic Information
+### Téléchargement des informations taxonomiques
 
-Anyone can download taxonomy from the taxonomic thesaurus using the Taxonomic Tree Viewer or the Taxonomy Exporter. 
-![Taxonomy Download](/img/taxonomictreeviewerdownload.png)
+Toute personne peut télécharger les données taxonomiques du thésaurus via l'outil de visualisation de l'arborescence taxonomique (*Taxonomic Tree Viewer*) ou l'outil d'exportation de la taxonomie (*Taxonomy Exporter*).
+![Téléchargement de la taxonomie](/img/taxonomictreeviewerdownload.png)
 
-### Multiple Thesauri
+### Thésaurus multiples
 
-Some portals include several backbone thesauri in case of, e.g., conflicting taxonomic concepts or authorities. One thesaurus will be displayed by default, but users can select between thesauri when using the checklist or list-viewing functions.
+Certains portails intègrent plusieurs thésaurus de référence, notamment pour gérer des divergences entre concepts taxonomiques ou autorités. Un thésaurus est affiché par défaut, mais les utilisateurs peuvent choisir entre les différents thésaurus disponibles lorsqu'ils utilisent les fonctions de liste de contrôle (*checklist*) ou d'affichage de listes.

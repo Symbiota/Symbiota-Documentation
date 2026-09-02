@@ -1,5 +1,5 @@
 ---
-title: "Downloading Data"
+title: "Téléchargement des données"
 date: 2021-11-12
 lastmod: 2025-12-23
 sidebar_position: 10
@@ -9,54 +9,54 @@ keywords: ["download"]
 
 :::info
 
-This page describes where and how you can download data from a Symbiota portal from the user interface and provides details on available download options.
+Cette page explique où et comment télécharger des données depuis un portail Symbiota via l'interface utilisateur et détaille les options de téléchargement disponibles.
 
 :::
 
-## How to Download
+## Comment télécharger
 
-Downloading data from Symbiota portals can easily be done from a public search.
+Le téléchargement de données depuis les portails Symbiota s'effectue facilement à partir d'une recherche publique.
 
 :::note
 
-Most portals require you to be logged in to download data. If you don't already have an account, click the "Sign In" button and follow the link to "Create an Account". If you don't remember if you have an account or lost your login information, contact help@symbiota.org for assistance.
+La plupart des portails exigent que vous soyez connecté pour télécharger des données. Si vous n'avez pas encore de compte, cliquez sur le bouton « Se connecter » (Sign In) et suivez le lien « Créer un compte » (Create an Account). Si vous ne savez pas si vous possédez un compte ou si vous avez perdu vos identifiants, contactez help@symbiota.org pour obtenir de l'aide.
 
 :::
 
-After [conducting a search](/User_Guide/searching_records), click the download icon button ![Download Icon](/img/dl2.png)
+Après avoir [effectué une recherche](/User_Guide/searching_records), cliquez sur l'icône de téléchargement ![Icône de téléchargement](/img/dl2.png)
 
-This is usually displayed at the top right corner of the page, as shown below:
+Elle se trouve généralement dans le coin supérieur droit de la page, comme illustré ci-dessous :
 
-![Search Results Example](/img/search3.png)
+![Exemple de résultats de recherche](/img/search3.png)
 
-## Download Options
+## Options de téléchargement
 
-Once you click the download button, a pop-up window will appear to provide your download options.
+Une fois que vous avez cliqué sur le bouton de téléchargement, une fenêtre contextuelle (pop-up) s'affiche pour vous proposer les options de téléchargement.
 
 :::tip
 
-Make sure your pop-up blocker is disabled for this site to prevent issues with downloads.
+Assurez-vous que votre bloqueur de fenêtres contextuelles est désactivé pour ce site afin d'éviter tout problème lors du téléchargement.
 
 :::
 
-You may see the following options (depending on what is available in your portal):
+Vous pourriez voir les options suivantes (selon les fonctionnalités disponibles sur votre portail) :
 
-![Download Pop-up](/img/downloadpopupwindow2025.png)
+![Fenêtre contextuelle de téléchargement](/img/downloadpopupwindow2025.png)
 
-**Structure** - here you can select whether you want to download the data in the Symbiota format or in strict Darwin Core. Symbiota Native format includes several non-Darwin Core fields, such as substrate, associated collectors, and verbatim description. A complete list of Symbiota fields can be found on [this page](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields). [Darwin Core](https://dwc.tdwg.org/terms/) is a more standardized, interoperable format that you may be better able to merge with downloads from other data sources.
+**Structure** - ici, vous pouvez choisir de télécharger les données au format Symbiota ou au format Darwin Core strict. Le format natif Symbiota inclut plusieurs champs autres que ceux du Darwin Core, tels que le substrat, les collecteurs associés et la description textuelle originale (*verbatim description*). Une liste complète des champs Symbiota est disponible sur [cette page](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields). Le [Darwin Core](https://dwc.tdwg.org/terms/) est un format plus standardisé et interopérable, que vous pourrez plus facilement combiner avec des données provenant d'autres sources.
 
-**Taxonomic Resolution** - here you can select whether you would like to include the optional fields "[acceptedNameUsage](https://dwc.tdwg.org/terms/#dwc:acceptedNameUsage)," "acceptedNameUsageAuthorship," and "[acceptedNameUsageID](https://dwc.tdwg.org/terms/#dwc:acceptedNameUsageID)". These fields will include information about the "accepted" scientific name of the specimen according to the portal's taxonomic thesaurus. The name provided on the record will still be reflected in the "scientificName" field of the downloaded *occurrences* file. Note that the accuracy of the accepted name depends on how well-curated the portal's taxonomic thesaurus is. See [this article](/User_Guide/taxonomic_thesaurus) for more information about the taxonomic thesaurus.
+**Résolution taxonomique** - ici, vous pouvez choisir d'inclure les champs optionnels « [acceptedNameUsage](https://dwc.tdwg.org/terms/#dwc:acceptedNameUsage) », « acceptedNameUsageAuthorship » et « [acceptedNameUsageID](https://dwc.tdwg.org/terms/#dwc:acceptedNameUsageID) ». Ces champs fourniront des informations sur le nom scientifique « accepté » du spécimen, selon le référentiel taxonomique du portail. Le nom figurant dans la fiche originale sera toujours présent dans le champ « scientificName » du fichier d'occurrences téléchargé. Notez que la précision du nom accepté dépend de la qualité de la maintenance du référentiel taxonomique du portail. Consultez [cet article](/User_Guide/taxonomic_thesaurus) pour plus d'informations sur le référentiel taxonomique.
 
-**Data Extensions** - here you can select which [Darwin Core extensions](https://rs.gbif.org/extensions.html) you would like to include in your download as described below. Extensions include data that may have a one-to-many relationship with records in the primary occurrences, i.e., there may be several rows in the extension files that correspond to a single row in the *occurrences* file.
-    * **Determination History** (file name: *identifications*) - this file will include the history of taxonomic identifications of records in the main *occurrences* file. See the [Darwin Core Identification History Extension](https://rs.gbif.org/extension/identification_history_2024-02-19.xml) for information about fields available in this file.
-    * **Media Records** (file name: *multimedia*) - this file will include links to any media records associated with records in the main *occurrences* file. **Note: this option will *not* download the actual media files associated with the records.** See [this article about Downloading Images](/User_Guide/Downloading/download_images) for more information. See the [Simple Multimedia Extension](https://rs.gbif.org/extension/gbif/1.0/multimedia.xml) for information about fields available in this file.
-    * **Occurrence Trait Attributes** (file name: *measurementOrFact*) - this file will include [trait data](/User_Guide/traits) associated with records in the main *occurrences* file. Hierarchical traits will often include multiple rows. For example, a record with "flowers present" will inherit the trait "reproductive", and thus this record will include at least two rows of trait data for the single occurrence record. See the [Extended Measurement Or Facts Extension](https://rs.gbif.org/extension/obis/extended_measurement_or_fact_2023-08-28.xml) for information about fields available in this file.
-    * **Material Samples** (file name: *materialSample*) - this file will include material sample data associated with records in the main *occurrences* file. See the [GGBN Material Sample Extension](https://rs.gbif.org/extension/ggbn/materialsample.xml) for information about fields available in this file.
-    * **Alternative Identifiers** (file name: *identifiers*) - this file will include alternative identifiers (e.g., other catalog numbers) associated with records in the main *occurrences* file. These originate from the [Additional Identifier table](/Editor_Guide/Editing_Searching_Records/catalog_numbers#tag-name--additional-identifier-values--other-catalog-numbers) in the occurrence editor. See the [Alternative Identifiers Extension](https://rs.gbif.org/extension/gbif/1.0/identifier.xml) for information about fields available in this file.
-    * **Resource Relationships** (file name: *resourceRelationship*) - this file will include associations and linked resources associated with records in the main *occurrences* file. These originate from the "[Linked Resources](/Editor_Guide/linking_records)" tab in the occurrence editor and may have been added individually or in batch. See the [Darwin Core Resource Relationship Class](https://dwc.tdwg.org/terms/#resourcerelationship) for more information about fields available in this file.
+**Extensions de données** - ici, vous pouvez sélectionner les [extensions Darwin Core](https://rs.gbif.org/extensions.html) que vous souhaitez inclure dans votre téléchargement, comme décrit ci-dessous. Les extensions contiennent des données pouvant entretenir une relation de type « un-à-plusieurs » avec les enregistrements du fichier principal d'occurrences ; autrement dit, plusieurs lignes dans les fichiers d'extension peuvent correspondre à une seule ligne du fichier d'occurrences.
+    * **Historique des déterminations** (nom du fichier : *identifications*) – ce fichier contiendra l'historique des identifications taxonomiques des enregistrements figurant dans le fichier principal des *occurrences*. Consultez l'extension [Historique d'identification Darwin Core](https://rs.gbif.org/extension/identification_history_2024-02-19.xml) pour plus d'informations sur les champs disponibles dans ce fichier. 
+    * **Enregistrements multimédias** (nom du fichier : *multimedia*) – ce fichier contiendra des liens vers tous les enregistrements multimédias associés aux données du fichier principal des *occurrences*. **Remarque : cette option ne téléchargera pas les fichiers multimédias eux-mêmes.** Consultez [cet article sur le téléchargement d'images](/User_Guide/Downloading/download_images) pour plus d'informations. Consultez l'extension [Simple Multimedia](https://rs.gbif.org/extension/gbif/1.0/multimedia.xml) pour plus d'informations sur les champs disponibles dans ce fichier. 
+    * **Attributs de traits des occurrences** (nom du fichier : *measurementOrFact*) – ce fichier contiendra les [données sur les traits](/User_Guide/traits) associées aux enregistrements du fichier principal des *occurrences*. Les traits hiérarchiques occuperont souvent plusieurs lignes. Par exemple, un enregistrement indiquant « fleurs présentes » héritera du trait « reproducteur » ; il comportera donc au moins deux lignes de données de traits pour cette occurrence unique. Consultez l'extension [Mesures ou faits détaillés](https://rs.gbif.org/extension/obis/extended_measurement_or_fact_2023-08-28.xml) pour plus d'informations sur les champs disponibles dans ce fichier. 
+    * **Échantillons de matériel** (nom du fichier : *materialSample*) – ce fichier contiendra les données relatives aux échantillons de matériel associées aux enregistrements du fichier principal des *occurrences*. Consultez l'extension [Échantillon de matériel GGBN](https://rs.gbif.org/extension/ggbn/materialsample.xml) pour plus d'informations sur les champs disponibles dans ce fichier. 
+    * **Identifiants alternatifs** (nom du fichier : *identifiers*) – ce fichier contiendra des identifiants alternatifs (par ex. d'autres numéros de catalogue) associés aux enregistrements du fichier principal des *occurrences*. Ces données proviennent du [tableau des identifiants supplémentaires](/Editor_Guide/Editing_Searching_Records/catalog_numbers#tag-name--additional-identifier-values--other-catalog-numbers) dans l'éditeur d'occurrences. Consultez l'extension [Identifiants alternatifs](https://rs.gbif.org/extension/gbif/1.0/identifier.xml) pour plus d'informations sur les champs disponibles dans ce fichier. 
+    * **Relations entre ressources** (nom du fichier : *resourceRelationship*) – ce fichier inclut les associations et les ressources liées aux enregistrements du fichier principal *occurrences*. Ces données proviennent de l'onglet « [Ressources liées](/Editor_Guide/linking_records) » de l'éditeur d'occurrences et peuvent avoir été ajoutées individuellement ou par lots. Consultez la classe [Relation de ressource Darwin Core](https://dwc.tdwg.org/terms/#resourcerelationship) pour plus d'informations sur les champs disponibles dans ce fichier.
 
-**File Format** - here you can select whether you could like the files in your download to be comma-delimited (CSV) or tab-delimited (TSV)
+**Format de fichier** – ici, vous pouvez choisir si vous souhaitez que les fichiers téléchargés soient délimités par des virgules (CSV) ou par des tabulations (TSV).
 
-**Character Set** - here you can select whether you could like the files in your download to follow ISO-8859-1 (western) encoding or UTF-8 (unicode) encoding. UTF-8 is recommended for best interoperability with most systems and non-English languages.
+**Jeu de caractères** – ici, vous pouvez choisir si vous souhaitez que les fichiers téléchargés utilisent l'encodage ISO-8859-1 (occidental) ou UTF-8 (Unicode). L'encodage UTF-8 est recommandé pour garantir une meilleure interopérabilité avec la plupart des systèmes et des langues autres que l'anglais.
 
-**Compression** - check this box if you would like your downloaded file to be compressed into a ZIP file. This will decrease the size of the file and therefore lead to quicker downloads. To view the files, simply extract them (search a browser for "How to Extract a Zip File").
+**Compression** – cochez cette case si vous souhaitez que le fichier téléchargé soit compressé au format ZIP. Cela réduira la taille du fichier et accélérera ainsi le téléchargement. Pour consulter les fichiers, il suffit de les extraire (recherchez « Comment extraire un fichier Zip » dans un moteur de recherche).

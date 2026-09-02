@@ -1,5 +1,5 @@
 ---
-title: "Accessibility Options"
+title: "Options d'accessibilité"
 date: 2024-02-28
 lastmod: 2024-04-16
 authors: ["Katie Pearson"]
@@ -8,21 +8,21 @@ sidebar_position: 10
 keywords: ["508", "disability", "screen reader"]
 ---
 
-Users who create accounts in the portal can adjust **Accessibility Preferences**, which are designed to improve accessibility to the site for people with disabilities. More information about accessibility as defined by [U.S. Section 508 can be found here](https://www.section508.gov/).
+Les utilisateurs qui créent un compte sur le portail peuvent configurer des **préférences d'accessibilité** conçues pour faciliter l'accès au site aux personnes en situation de handicap. Vous trouverez plus d'informations sur l'accessibilité telle que définie par la norme américaine « Section 508 » [ici](https://www.section508.gov/).
 
-Currently, users can select to the Vertical Form Layout option. This option makes content and forms easier to navigate using a screen reader and expands layouts, which can improve accessibility for users with differing experience, knowledge, language skills, or concentration levels.
+Actuellement, les utilisateurs peuvent choisir l'option de mise en page verticale des formulaires. Cette option facilite la navigation dans le contenu et les formulaires à l'aide d'un lecteur d'écran et étend la mise en page, ce qui peut améliorer l'accessibilité pour les utilisateurs ayant des niveaux d'expérience, de connaissances, de compétences linguistiques ou de concentration variés.
 
-#### Turning on Accessibility Options temporarily
+#### Activer temporairement les options d'accessibilité
 
-Your portal may have an Accessibility Options link in the footer. Click this, if so. If not, proceed to the next section.
+Votre portail peut comporter un lien « Options d'accessibilité » dans le pied de page. Si c'est le cas, cliquez dessus. Sinon, passez à la section suivante.
 
-#### Turn on Accessibility Options for your user profile
+#### Activer les options d'accessibilité pour votre profil utilisateur
 
-You can make certain Accessibility Options the default for whenever you log in to the portal by following these steps:
+Vous pouvez définir certaines options d'accessibilité comme paramètres par défaut pour toutes vos connexions au portail en suivant ces étapes :
 
-1. Log in to your portal and navigate to your profile by clicking My Profile.
-2. Click the User Profile tab.
-3. Click Edit Profile.
-4. Check the box next to "Check to indicate a preference for vertical form layout".
+1. Connectez-vous au portail et accédez à votre profil en cliquant sur « Mon profil ».
+2. Cliquez sur l'onglet « Profil utilisateur ».
+3. Cliquez sur « Modifier le profil ».
+4. Cochez la case « Sélectionner pour indiquer une préférence pour la mise en page verticale des formulaires ».
 
-<!-- ![How to turn on Accessibility Options](/img/accessibilityoptionprofile.png) -->
+<!-- ![Comment activer les options d'accessibilité](/img/accessibilityoptionprofile.png) -->

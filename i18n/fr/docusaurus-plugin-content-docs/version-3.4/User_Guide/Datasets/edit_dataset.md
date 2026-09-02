@@ -1,5 +1,5 @@
 ---
-title: "Editing Datasets"
+title: "Modification des jeux de données"
 date: 2022-05-20
 lastmod: 2026-03-30
 authors: ["Katie Pearson"]
@@ -10,31 +10,31 @@ keywords: ["dataset", "inventory"]
 
 :::info
 
-This page describes how to edit lists of occurrences, called "datasets," in a Symbiota portal.
+Cette page explique comment modifier des listes d'occurrences, appelées « jeux de données » (ou *datasets*), sur un portail Symbiota.
 
 :::
 
-### Edit an Existing Dataset
+### Modifier un jeu de données existant
 
-1. Click My Profile.
-2. In the "Miscellaneous Tools" box of the Occurrence Management tab, click "Dataset Management".
-3. Click the name of the dataset that you wish to edit.
+1. Cliquez sur « Mon profil ».
+2. Dans le bloc « Outils divers » de l'onglet « Gestion des occurrences », cliquez sur « Gestion des jeux de données ».
+3. Cliquez sur le nom du jeu de données que vous souhaitez modifier.
 
-In the **General Management** tab, you can:
-_ edit the name, notes, and description of the dataset
-_ make the dataset private or publicly available \* delete the dataset (bottom of the page)
+Dans l'onglet **Gestion générale**, vous pouvez :
+_ modifier le nom, les notes et la description du jeu de données
+_ rendre le jeu de données privé ou public \* supprimer le jeu de données (en bas de page)
 
-In the **User Access** tab, you can: \* provide other users access to view (read), add/delete occurrences (read/write), or fully manage (full access) the dataset
+Dans l'onglet **Accès utilisateur**, vous pouvez : \* accorder à d'autres utilisateurs le droit de consulter (lecture), d'ajouter/supprimer des occurrences (lecture/écriture) ou de gérer entièrement (accès complet) le jeu de données
 
-In the **Occurrence List** tab, you can: \* add occurrences to a dataset. Click the name of the dataset you created, navigate to the Occurrences tab and click the "occurrence search page" link. Or you can start from the general search page for the Symbiota portal.
+Dans l'onglet **Liste des occurrences**, vous pouvez : \* ajouter des occurrences à un jeu de données. Cliquez sur le nom du jeu de données que vous avez créé, accédez à l'onglet « Occurrences » et cliquez sur le lien « page de recherche d'occurrences ». Vous pouvez également partir de la page de recherche générale du portail Symbiota.
 
-### Add Records to an Existing Dataset
+### Ajouter des enregistrements à un jeu de données existant
 
-1. Conduct a search from the main search page of the Symbiota portal. This is usually accessed by clicking "Search" or "Search Collections" on the home page of the portal. For more information about searching in a Symbiota portal, visit [this page](/User_Guide/searching_records). **When you conduct the search, click the "List Display" button".**
-2. From the List Display, click the button with the dataset icon.
-   ![dataset button](/img/datasetbutton.png "dataset button")
-3. This will open the Dataset Management box. Select the dataset to which you would like to add the specimens from the "Dataset target" dropdown menu.
-4. From here, you can select the specimens you would like to include in your dataset from your query by checking the boxes outlined by dotted lines for each specimen.
-   _ To only add a few specimens from the page, check the boxes next to the desired specimens, then click the "Add Selected Records to Dataset" button.
-   _ To add all the specimens on the page, check the box next to "Select all records on page", then click the "Add Selected Records to Dataset" button. \* To add **all** specimens resulted from your query, click the "Add Complete Query to Dataset" button.
-   ![dataset management box](/img/datasetmanagement.png "dataset management box")
+1. Effectuez une recherche depuis la page de recherche principale du portail Symbiota. On y accède généralement en cliquant sur « Rechercher » ou « Rechercher dans les collections » sur la page d'accueil du portail. Pour plus d'informations sur la recherche dans un portail Symbiota, consultez [cette page](/User_Guide/searching_records). **Une fois la recherche effectuée, cliquez sur le bouton « Affichage en liste ».**
+2. Dans l'affichage en liste, cliquez sur le bouton portant l'icône de jeu de données.
+![bouton de jeu de données](/img/datasetbutton.png "bouton de jeu de données")
+3. Cela ouvrira la fenêtre de gestion des jeux de données. Sélectionnez le jeu de données auquel vous souhaitez ajouter les spécimens dans le menu déroulant « Jeu de données cible ».
+4. À partir de là, vous pouvez sélectionner les spécimens issus de votre requête que vous souhaitez inclure dans votre jeu de données en cochant les cases délimitées par des pointillés pour chaque spécimen.
+_ Pour n'ajouter que quelques spécimens de la page, cochez les cases correspondant aux spécimens souhaités, puis cliquez sur le bouton « Ajouter les enregistrements sélectionnés au jeu de données ».
+_ Pour ajouter tous les spécimens de la page, cochez la case « Sélectionner tous les enregistrements de la page », puis cliquez sur le bouton « Ajouter les enregistrements sélectionnés au jeu de données ». * Pour ajouter **tous** les spécimens issus de votre requête, cliquez sur le bouton « Ajouter la requête complète au jeu de données ».
+![fenêtre de gestion des jeux de données](/img/datasetmanagement.png "fenêtre de gestion des jeux de données")

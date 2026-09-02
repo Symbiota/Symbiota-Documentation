@@ -1,5 +1,5 @@
 ---
-title: "Changing your Password or Login Info"
+title: "Modifier votre mot de passe ou vos informations de connexion"
 date: 2021-11-12
 authors: ["Katie Pearson"]
 draft: false
@@ -7,19 +7,19 @@ sidebar_position: 30
 keywords: ["password", "profile"]
 ---
 
-To change your password, username, or any other personal information in a Symbiota portal:
+Pour modifier votre mot de passe, votre nom d'utilisateur ou toute autre information personnelle sur un portail Symbiota :
 
-1. Log in to the portal.
-2. Navigate to My Profile.
-3. Click the User Profile tab.
-4. From here, use the bold black links to:
-   - **Edit Profile**: change first name, last name, email address, ORCID, title, institution, or address
-   - **Change Password**: enter your current password, followed by your new password twice
-   - **Change Login**: enter a new username, followed by your current password to confirm
-   - **Manage Access**: here you can clear your access tokens, which are like "pathways" to editing data on your behalf in the portal. If the number seems high, you can clear the access tokens. This will require you to enter your username and password anew upon logging in from any computer or device.
+1. Connectez-vous au portail.
+2. Accédez à la section « Mon profil » (My Profile).
+3. Cliquez sur l'onglet « Profil utilisateur » (User Profile).
+4. À partir de là, utilisez les liens en caractères gras pour :
+- **Modifier le profil** : changer votre prénom, nom de famille, adresse e-mail, identifiant ORCID, titre, institution ou adresse.
+- **Changer le mot de passe** : saisir votre mot de passe actuel, puis votre nouveau mot de passe à deux reprises.
+- **Changer l'identifiant** : saisir un nouveau nom d'utilisateur, suivi de votre mot de passe actuel pour confirmer.
+- **Gérer les accès** : ici, vous pouvez supprimer vos jetons d'accès ; il s'agit de sortes de « passerelles » permettant de modifier des données en votre nom sur le portail. Si le nombre de jetons semble élevé, vous pouvez les supprimer. Cela nécessitera de saisir à nouveau votre nom d'utilisateur et votre mot de passe lors de votre prochaine connexion depuis n'importe quel ordinateur ou appareil.
 
-![User Profile page](/img/UserProfile.png)
+![Page Profil utilisateur](/img/UserProfile.png)
 
-### Resetting your Password
+### Réinitialisation du mot de passe
 
-If you no longer have access to your user account, reset your password by clicking Log In, then the Reset Password link. You will be sent an email with a new password that you can use to log in. This email is often filtered by institutional email addresses. Please check your spam folder, then email [help@symbiota.org](mailto:help@symbiota.org) if you still don't see it.
+Si vous n'avez plus accès à votre compte utilisateur, réinitialisez votre mot de passe en cliquant sur « Connexion » (Log In), puis sur le lien « Réinitialiser le mot de passe » (Reset Password). Vous recevrez un e-mail contenant un nouveau mot de passe que vous pourrez utiliser pour vous connecter. Ces e-mails sont souvent filtrés par les systèmes de messagerie institutionnels. Veuillez vérifier votre dossier de courrier indésirable (spam), puis écrire à [help@symbiota.org](mailto:help@symbiota.org) si vous ne le recevez pas.

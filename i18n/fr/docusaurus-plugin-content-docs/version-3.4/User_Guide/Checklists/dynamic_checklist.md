@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Checklists"
+title: "Listes de contrôle dynamiques"
 date: 2021-10-11
 authors: ["Katie Pearson"]
 draft: false
@@ -7,6 +7,6 @@ sidebar_position: 20
 keywords: ["checklists","dynamic"]
 ---
 
-This page will describe how to create and use dynamic checklists.
+Cette page explique comment créer et utiliser des listes de contrôle dynamiques.
 
-Want this page faster? [Contribute](/Contributing/)!
+Vous voulez voir cette page plus vite ? [Contribuez](/Contributing/) !

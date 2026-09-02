@@ -1,5 +1,5 @@
 ---
-title: "User Permissions"
+title: "Autorisations des utilisateurs"
 date: 2022-07-12
 lastmod: 2023-10-27
 authors: ["Katie Pearson", "Lindsay Walker"]
@@ -9,36 +9,34 @@ keywords: ["users","permissions","access"]
 
 :::info
 
-This page describes the possible levels of user permissions that can be granted for a given Symbiota portal.
+Cette page décrit les différents niveaux d'autorisations utilisateur pouvant être accordés pour un portail Symbiota donné.
 
 :::
 
-Once a user has created an account in a Symbiota portal, they can be granted permissions for one or many collections in that portal. Permissions can be granted by administrators of individual collections or by the portal manager or other superadministrator. Portals have different policies for granting permissions to users, so it is best to contact the portal manager or individual collections for which you would like user permissions.
+Une fois qu'un utilisateur a créé un compte sur un portail Symbiota, des autorisations peuvent lui être accordées pour une ou plusieurs collections de ce portail. Ces autorisations peuvent être attribuées par les administrateurs de collections individuelles, par le gestionnaire du portail ou par un autre super-administrateur. Les politiques d'attribution des droits varient d'un portail à l'autre ; il est donc recommandé de contacter le gestionnaire du portail ou les responsables des collections pour lesquelles vous souhaitez obtenir des droits d'accès.
 
-### Types of User Permissions
+### Types d'autorisations utilisateur
 
-#### Permissions that can be assigned by a collection manager or other administrator
+#### Autorisations pouvant être attribuées par un gestionnaire de collection ou un autre administrateur
 
-* **Administrator**: (generally a curator or manager of a collection) can use all tools in the Administration Control Panel. For example, this user can edit the contact information and description for your collection, view edits made to your records, batch upload data, and use data cleaning tools. Administrators can also delete records.
+* **Administrateur** : (généralement un conservateur ou un gestionnaire de collection) peut utiliser tous les outils du panneau de contrôle d'administration. Par exemple, cet utilisateur peut modifier les coordonnées et la description de la collection, consulter les modifications apportées aux enregistrements, importer des données par lots et utiliser des outils de nettoyage des données. Les administrateurs peuvent également supprimer des enregistrements.
 
-* **Editor**: (generally a collector, technician, digitizer, or volunteer) can use all tools in the Data Editor Control Panel, including adding and editing records, printing labels, batch annotating specimens, batch georeferencing specimens, and managing loans. Editors cannot delete records.
+* **Éditeur** : (généralement un collecteur, un technicien, un opérateur de numérisation ou un bénévole) peut utiliser tous les outils du panneau de contrôle d'édition des données, notamment l'ajout et la modification d'enregistrements, l'impression d'étiquettes, l'annotation et la géoréférencement de spécimens par lots, ainsi que la gestion des prêts. Les éditeurs ne peuvent pas supprimer d'enregistrements.
 
-* **Rare Species Reader**: can view locality data for all specimens in a collection, even if the locality information is redacted from the general public (see [Redacting / Obscuring Data](/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data)).
+* **Lecteur de données sur les espèces rares** : peut consulter les données de localisation de tous les spécimens d'une collection, même si ces informations sont masquées pour le grand public (voir [Masquage/Dissimulation de données](/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data)).
 
-* **Personal Observation/Specimen Profile Manager**: can add, edit, and manage data belonging to them in the "personal observations profile" (variously labeled the "specimens being processed" or "general research observations" profile, depending on the portal). The personal observations profile is a single collection in the portal that contains pooled data from all personal observation profile managers; however, a single user can only edit data that they have personally added to this collection through their user profile.
+* **Gestionnaire de profil d'observations personnelles/spécimens** : peut ajouter, modifier et gérer les données qui lui appartiennent dans le « profil d'observations personnelles » (appelé selon le portail « spécimens en cours de traitement » ou « observations de recherche générale »). Le profil d'observations personnelles constitue une collection unique au sein du portail regroupant les données de tous les gestionnaires de profils d'observations personnelles ; toutefois, un utilisateur ne peut modifier que les données qu'il a personnellement ajoutées à cette collection via son profil utilisateur.
 
-* **Create a Checklist**: can create new checklists and datasets. See [Creating a Checklist](/User_Guide/Checklists/creating_checklist).
+* **Création de liste de contrôle** : peut créer de nouvelles listes de contrôle et de nouveaux jeux de données. Voir [Création d'une liste de contrôle](/User_Guide/Checklists/creating_checklist). #### Types d'autorisations pouvant être attribués uniquement par un super-administrateur
 
-#### Permission types that can only be assigned by a superadministrator
+* **Lecteur d'espèces rares (global)** : peut consulter les données de localisation de tous les spécimens d'un portail (si ces données sont fournies). Voir [Masquage / Dissimulation de données](/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data).
 
-* **Global Rare Species Reader**: can view locality data for all specimens in a portal (if provided). See [Redacting / Obscuring Data](/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data).
+* **Éditeur de glossaire** : peut ajouter des descriptions, des images ou d'autres informations au glossaire du portail (si cette fonction est activée).
 
-* **Glossary Editor**: can add descriptions, images, or other information to the portal glossary (if enabled)
+* **Administrateur des clés d'identification** : peut ajouter, supprimer et modifier les états de caractères utilisés dans les clés d'identification (si cette fonction est activée).
 
-* **Identification Keys Administrator**: can add, delete, and edit characters states used in the identification keys (if enabled)
+* **Éditeur de clés d'identification** : peut modifier les états de caractères utilisés dans les clés d'identification (si cette fonction est activée).
 
-* **Identification Keys Editor**: can edit character states used in the identification keys (if enabled)
+* **Éditeur de taxonomie** : peut modifier le thésaurus taxonomique, notamment en ajoutant ou en supprimant des taxons, en modifiant le statut d'acceptation d'un taxon et en ajoutant des synonymes ou des taxons subordonnés.
 
-* **Taxonomy Editor**: can edit the taxonomic thesaurus, including adding and deleting taxa, editing the acceptance of a taxon, and adding synonym or children taxa
-
-* **Taxon Profile Editor**: can add information to taxon profile pages, such as images and descriptions
+* **Éditeur de fiches taxonomiques** : peut ajouter des informations aux pages de présentation des taxons, telles que des images et des descriptions.

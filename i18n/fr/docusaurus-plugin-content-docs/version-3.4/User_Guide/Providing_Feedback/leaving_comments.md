@@ -1,5 +1,5 @@
 ---
-title: "Leaving Comments"
+title: "Laisser des commentaires"
 date: 2022-01-21
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
@@ -9,18 +9,18 @@ sidebar_position: 10
 keywords: ["comment", "correction", "contact"]
 ---
 
-If you notice an issue or would like to ask a question about a particular occurrence in a Symbiota portal, you can leave a comment on that occurrence that will then be automatically emailed to the collection manager and, in some cases, the portal manager.
+Si vous remarquez un problème ou souhaitez poser une question concernant une occurrence spécifique dans un portail Symbiota, vous pouvez laisser un commentaire sur cette occurrence ; celui-ci sera alors automatiquement envoyé par e-mail au responsable de la collection et, dans certains cas, au gestionnaire du portail.
 
-First, make sure you are logged in to your account. Any user can create an account by clicking New Account in the site menu.
+Tout d'abord, assurez-vous d'être connecté à votre compte. Tout utilisateur peut créer un compte en cliquant sur « Nouveau compte » (New Account) dans le menu du site.
 
-Next, open the public display page of the record. To do so from the results of a search in "list display", click **Full Record Details** below the occurrence. To do so from the results of a search in "table display", click on the SymbiotaID number (far left column) of the occurrence. To do so from a map search, hover over the point, then click See Details.
+Ensuite, ouvrez la page d'affichage public de la fiche. Pour ce faire à partir des résultats d'une recherche en mode « liste », cliquez sur **Détails complets de la fiche** (Full Record Details) sous l'occurrence. Pour ce faire à partir des résultats d'une recherche en mode « tableau », cliquez sur le numéro SymbiotaID (colonne la plus à gauche) de l'occurrence. Pour ce faire à partir d'une recherche sur carte, survolez le point, puis cliquez sur « Voir les détails » (See Details).
 
-From the public display page of the record, click the Comments tab, enter your comment, and click Submit Comment.
+Depuis la page d'affichage public de la fiche, cliquez sur l'onglet « Commentaires » (Comments), saisissez votre commentaire et cliquez sur « Envoyer le commentaire » (Submit Comment).
 
 :::warning
 
-Symbiota does not automatically associate your contact information with your comments on specimen records. If you would like to be contacted in response to your comment, please include your name and contact information to assist the collections administrator with reaching out.
+Symbiota n'associe pas automatiquement vos coordonnées aux commentaires que vous laissez sur les fiches de spécimens. Si vous souhaitez être contacté en réponse à votre commentaire, veuillez indiquer votre nom et vos coordonnées afin de faciliter la prise de contact par le responsable de la collection.
 
 :::
 
-![Comment Tab on the Public Display](/img/comment.png)
+![Onglet Commentaires sur l'affichage public](/img/comment.png)

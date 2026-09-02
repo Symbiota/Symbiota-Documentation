@@ -1,5 +1,5 @@
 ---
-title: "Games in Checklists"
+title: "Jeux dans les listes de contrôle"
 date: 2022-04-08
 lastmod: 2024-12-11
 authors: ["Lindsay Walker"]
@@ -11,69 +11,69 @@ keywords: ["checklist", "inventory", "flora", "games"]
 
 :::info
 
-**This page describes how to use the games features of checklists for educational purposes.** No user permissions or portal login is required to play games created from preexisting, publicly visible checklists. Learn how to create checklists [here](creating_checklist). Games created from checklists can be used as study aids.
+**Cette page explique comment utiliser les fonctionnalités de jeu basées sur les listes d'inventaire (checklists) à des fins éducatives.** Aucune autorisation utilisateur ni connexion au portail n'est requise pour jouer aux jeux créés à partir de listes existantes et publiques. Apprenez à créer des listes d'inventaire [ici](creating_checklist). Les jeux créés à partir de ces listes peuvent servir d'outils d'étude.
 
 :::
 
-1. Log into your Symbiota profile and navigate to your portal's list of existing checklists. Look for a "Projects" or "Checklists" tab at the top of your portal interface.
+1. Connectez-vous à votre profil Symbiota et accédez à la liste des inventaires existants sur votre portail. Recherchez un onglet « Projets » ou « Listes d'inventaire » (Checklists) en haut de l'interface du portail.
 
-2. Select the checklist containing content that you wish to play with. On the checklist page, click the "Games" link at the top of the Options box.
-   ![Games Navigation from Checklist](/img/games_navigation.png)
+2. Sélectionnez la liste contenant le contenu avec lequel vous souhaitez jouer. Sur la page de la liste, cliquez sur le lien « Jeux » (Games) situé en haut de la zone des options. 
+![Navigation vers les jeux depuis la liste](/img/games_navigation.png)
 
-## Name Game
+## Jeu des noms (Name Game)
 
-### Summary
+### Résumé
 
-"Name Game" is a memory recall game that prompts users to guess (and spell) a genus and species included in a checklist.
+Le « Jeu des noms » est un jeu de mémorisation qui invite les utilisateurs à deviner (et à orthographier) un genre et une espèce figurant dans une liste d'inventaire.
 
-![Games Navigation from Checklist](/img/games_namegame.png)
+![Navigation vers les jeux depuis la liste](/img/games_namegame.png)
 
-### How to play
+### Comment jouer
 
-- Begin by guessing a letter that you believe might occur in the genus or species epithet. Every time you incorrectly guess a letter, your remaining number of chances (3-12) will decrease. The :rose: :sunflower: :apple: icons simply visualize your progress and remaining number of changes (i.e., the rose withers, the apple is consumed, and the flower petals are removed with diminishing chances).
-- **Hints**: Selecting a hint will cost you one chance, and they cannot be used on your last guess. On the keypad, select the _?_ (wildcard) button to fill in one letter for you; the _Show Family_ button will display the species' family.
-- If you correctly guess the genus and species before your chances run out (0), your number of games won will increase. If you do not correctly guess the species, select _Reveal the Answer_ to display the answer. In either case, a link will then appear to the taxon record for further study.
-- _New Game_ will prompt the next question. Your number of games played, won, and success rate will be tracked as you continue playing and initiate new games.
+- Commencez par deviner une lettre qui, selon vous, pourrait figurer dans le nom du genre ou l'épithète spécifique. À chaque erreur, votre nombre de chances restantes (entre 3 et 12) diminue. Les icônes :rose: :sunflower: :apple: illustrent simplement votre progression et le nombre de chances qu'il vous reste (par exemple, la rose fane, la pomme est mangée et les pétales de la fleur tombent à mesure que vos chances diminuent).
+- **Indices** : Demander un indice vous coûte une chance ; les indices ne peuvent pas être utilisés pour votre dernière tentative. Sur le clavier virtuel, sélectionnez le bouton _?_ (caractère joker) pour faire apparaître une lettre ; le bouton _Afficher la famille_ (Show Family) indique la famille botanique de l'espèce.
+- Si vous devinez correctement le genre et l'espèce avant d'épuiser vos chances (atteindre 0), votre nombre de parties gagnées augmente. Si vous ne trouvez pas la bonne réponse, sélectionnez _Révéler la réponse_ (Reveal the Answer) pour l'afficher. Dans les deux cas, un lien vers la fiche du taxon s'affiche pour vous permettre d'approfondir vos connaissances.
+- Le bouton _Nouvelle partie_ (New Game) lance la question suivante. Vos statistiques (nombre de parties jouées, nombre de victoires et taux de réussite) sont suivies au fil de vos parties.
 
 :::tip
 
-- Your selected difficulty level affects how many chances you get: 3 (hardest), 6, or 12 (easiest).
-- Spaces are already displayed for you. You do not have to guess them.
-- You cannot change the difficulty level mid-game.
+- Le niveau de difficulté choisi détermine le nombre d'essais dont vous disposez : 3 (le plus difficile), 6 ou 12 (le plus facile).
+- Les espaces sont déjà indiqués ; vous n'avez pas à les deviner.
+- Vous ne pouvez pas modifier le niveau de difficulté en cours de partie.
 
 :::
 
-## Flash Card Quiz
+## Quiz sur cartes-images
 
-### Summary
+### Résumé
 
-"Flash Card Quiz" prompts users to identify species from a checklist using images.
+Le « Quiz sur cartes-images » invite les utilisateurs à identifier des espèces à partir d'une liste de contrôle en s'appuyant sur des images.
 
-![Games Navigation from Checklist](/img/games_flashcardquiz.png)
+![Navigation vers les jeux depuis la liste de contrôle](/img/games_flashcardquiz.png)
 
-### How to play
+### Comment jouer
 
-- Choose the species displayed in the image from the _Name of Organism_ dropdown menu. Up to 5 images of the mystery species will be recalled. You can limit the images to a certain family by additionally using the _Filter Quiz by Taxonomic Group_ dropdown menu.
-- If you identify the species correctly, a message will alert you to this success, and one point will tally below the image. Additionally, if you identify the species correctly on your first guess, that success will also be tracked below the image.
-- If you cannot identify a specimen, select _Tell Me What It Is!_ and the taxon record will display for further study.
-- Selecting _Display Common Names_ will add common names to the species list that displays in the _Name of Above Organism_ dropdown menu.
-- _Reset Game_ will reset your score to zero.
+- Sélectionnez l'espèce correspondant à l'image affichée dans le menu déroulant *Nom de l'organisme*. Jusqu'à 5 images de l'espèce mystère peuvent être présentées. Vous pouvez restreindre les images à une famille spécifique en utilisant également le menu déroulant *Filtrer le quiz par groupe taxonomique*.
+- Si vous identifiez correctement l'espèce, un message vous informe de votre réussite et un point est comptabilisé sous l'image. De plus, si vous trouvez la bonne réponse dès le premier essai, cette réussite est également indiquée sous l'image.
+- Si vous ne parvenez pas à identifier un spécimen, sélectionnez *Indiquez-moi de quoi il s'agit !* pour afficher la fiche taxonomique correspondante et approfondir vos connaissances.
+- L'option *Afficher les noms communs* ajoute les noms vernaculaires à la liste des espèces apparaissant dans le menu déroulant *Nom de l'organisme ci-dessus*.
+- L'option *Réinitialiser le jeu* remet votre score à zéro.
 
 :::tip
 
-- If the images are not displaying, try using a different browser.
-- The quiz will bring up the first image associated with the taxon record, up to a maximum of five images. The sort order of these images can be edited on the taxon record to display in a different order (see "Game administration" below).
+- Si les images ne s'affichent pas, essayez d'utiliser un autre navigateur.
+- Le quiz affiche la première image associée à la fiche taxonomique, jusqu'à un maximum de cinq images. L'ordre d'affichage de ces images peut être modifié sur la fiche taxonomique (voir « Administration du jeu » ci-dessous).
 
 :::
 
-## Game administration
+## Administration des jeux
 
-### Checklists
+### Listes de référence
 
-The species displayed in each game are dependent on the contents of the selected checklist. Editing a checklist requires a portal login and possibly additional permissions depending on who created (owns) the list. You can [add/remove taxa](adding_taxa) that display in games by editing checklists, if your account has permission to do so.
+Les espèces affichées dans chaque jeu dépendent du contenu de la liste de référence sélectionnée. La modification d'une liste nécessite une connexion au portail et, éventuellement, des autorisations supplémentaires selon la personne qui a créé (ou possède) la liste. Vous pouvez [ajouter ou supprimer des taxons](adding_taxa) affichés dans les jeux en modifiant les listes de référence, si votre compte dispose des autorisations nécessaires.
 
 ### Images
 
-If your account has [Taxon Profile Editor permissions](../user_permissions), you can edit which images display in the flash card quiz by changing the sort order of images in the Taxon Profile Editor, such that the images with a value of "1" will appear first, "2" second, and so on. The default sort value is "50". However, **be aware** that image sorting changes made in the Taxon Profile Editor will affect how the images display across the entire portal--not just within your game.
+Si votre compte dispose des [autorisations d'édition de fiches taxon](../user_permissions), vous pouvez modifier les images affichées dans le quiz de type « flashcards » en changeant l'ordre de tri des images dans l'éditeur de fiches taxon : les images ayant la valeur « 1 » apparaîtront en premier, celles ayant la valeur « 2 » en deuxième, et ainsi de suite. La valeur de tri par défaut est « 50 ». Toutefois, **veuillez noter** que les modifications de tri effectuées dans l'éditeur de fiches taxon affecteront l'affichage des images sur l'ensemble du portail, et pas seulement dans votre jeu.
 
-![Sort Images in the Taxon Profile Editor](/img/games_imagesort.png)
+![Tri des images dans l'éditeur de fiches taxon](/img/games_imagesort.png)

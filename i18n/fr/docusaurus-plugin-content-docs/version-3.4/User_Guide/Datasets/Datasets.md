@@ -1,5 +1,5 @@
 ---
-title: "Datasets"
+title: "Jeux de données"
 date: 2022-05-20
 lastmod: 2022-05-20
 authors: ["Katie Pearson"]
@@ -12,13 +12,13 @@ import ReactPlayer from "react-player";
 
 :::info
 
-This page describes how to create lists of occurrences, called "datasets", in a Symbiota portal.
+Cette page explique comment créer des listes d'occurrences, appelées « jeux de données » (ou *datasets*), dans un portail Symbiota.
 
 :::
 
-A **dataset** is a list of occurrences created and/or curated by a user. Datasets may be used to keep track of specimens associated with certain inventory, research, data curation, or interest projects. For example, a researcher might save a datset consisting of all the occurrence records they used in a particular analysis, a collector might save a dataset consisting of all specimens from a particular collecting trip, or a collection manager might save a dataset of all the specimens that they need to physically inspect for curation purposes. Some examples in practice can be found [here](https://biorepo.neonscience.org/portal/collections/datasets/public.php?datasetid=163) and [here](https://biorepo.neonscience.org/portal/collections/datasets/public.php?datasetid=156).
+Un **jeu de données** est une liste d'occurrences créée et/ou gérée par un utilisateur. Ces jeux de données permettent de suivre des spécimens associés à des projets spécifiques d'inventaire, de recherche, de gestion des collections ou d'intérêt particulier. Par exemple, un chercheur peut enregistrer un jeu de données regroupant toutes les fiches d'occurrence utilisées pour une analyse donnée ; un collecteur peut sauvegarder l'ensemble des spécimens issus d'une mission de terrain précise ; ou encore, un gestionnaire de collection peut constituer un jeu de données contenant tous les spécimens nécessitant une inspection physique à des fins de gestion ou de maintenance de la collection. Des exemples concrets sont disponibles [ici](https://biorepo.neonscience.org/portal/collections/datasets/public.php?datasetid=163) et [ici](https://biorepo.neonscience.org/portal/collections/datasets/public.php?datasetid=156).
 
-Datasets can be private or publicly available.
+Les jeux de données peuvent être privés ou accessibles au public.
 
 <ReactPlayer
   playing={false}

@@ -1,5 +1,5 @@
 ---
-title: "Contacting a Collection"
+title: "Contacter un service de recouvrement"
 date: 2026-03-18
 authors: ["Katie Pearson, Lindsay Walker"]
 draft: false
@@ -7,16 +7,16 @@ sidebar_position: 5
 keywords: ["contact"]
 ---
 
-To contact a collection directly, locate its Collection Profile:
+Pour contacter directement une collection, accédez à son profil :
 
-| Step 1: Select "Search" or "Search Collections" from your portal's main menu. |
+| Étape 1 : Sélectionnez « Rechercher » ou « Rechercher des collections » dans le menu principal de votre portail. |
 | :-: |
-| ![Locating contacts step 1](/img/contactssearch.png)|
+| ![Étape 1 : Localiser les contacts](/img/contactssearch.png)|
 
-| Step 2: Scroll down to the "Collections" section of the search form (click the section header, if not already expanded) and select "More Info" next to the collection of choice. |
+| Étape 2 : Faites défiler la page jusqu'à la section « Collections » du formulaire de recherche (cliquez sur l'en-tête de la section si elle n'est pas déjà développée) et sélectionnez « Plus d'infos » à côté de la collection souhaitée. |
 | :-: |
-| ![Locating contacts step 2](/img/contactsmoreinfo.png)|
+| ![Étape 2 : Localiser les contacts](/img/contactsmoreinfo.png)|
 
-| Step 3: Contact the person(s) responsible for the collection as listed on the collection's profile.  |
+| Étape 3 : Contactez la ou les personnes responsables de la collection, telles qu'indiquées sur le profil de celle-ci. |
 | :-: |
-| ![Locating contacts step 3](/img/contactsexample.png) |
+| ![Étape 3 : Localiser les contacts](/img/contactsexample.png) |

@@ -1,5 +1,5 @@
 ---
-title: "Traits"
+title: "Caractéristiques"
 date: 2025-05-14
 lastmod: 2025-05-14
 authors: ["Katie Pearson"]
@@ -9,22 +9,22 @@ keywords: ["measurement or fact"]
 
 :::info
 
-This page defines "traits" in Symbiota portals and describes how they can be searched.
+Cette page définit les « traits » dans les portails Symbiota et décrit comment effectuer des recherches à leur sujet.
 
 :::
 
 :::note
 
-Traits are not activated in all portals. At present, traits can only be set up on the back end, and not all portals include traits.
+Les traits ne sont pas activés sur tous les portails. Actuellement, la configuration des traits s'effectue uniquement en arrière-plan (côté administration), et tous les portails ne les intègrent pas.
 
 :::
 
-In Symbiota portals, **traits** are defined as measurements or characteristics of specific records. This may include, for example, the phenology (e.g., life history stage) of the specimen, height, or mass. Symbiota portals currently only support categorical traits, not numerical traits (i.e., precise measurements, such as "40 g").
+Dans les portails Symbiota, les **traits** sont définis comme des mesures ou des caractéristiques propres à des enregistrements spécifiques. Il peut s'agir, par exemple, de la phénologie (ex. : stade de développement) du spécimen, de sa hauteur ou de sa masse. À l'heure actuelle, les portails Symbiota ne prennent en charge que les traits catégoriels, et non les traits numériques (c.-à-d. des mesures précises, comme « 40 g »).
 
-Records with certain traits can be searched in the [public search form](/User_Guide/searching_records) under the "Traits"  box.
+Il est possible de rechercher des enregistrements présentant certains traits via le [formulaire de recherche publique](/User_Guide/searching_records), dans la section « Traits ».
 
 :::warning
 
-Trait data must exist before it can be searched! Not all portals include trait data, and not all records within a portal have values for all (or even any) traits. A lack of trait data should not be interpreted as a lack of trait measurements or the existence of those traits.
+Les données relatives aux traits doivent exister pour pouvoir faire l'objet d'une recherche ! Tous les portails ne contiennent pas de données sur les traits, et tous les enregistrements d'un portail ne comportent pas nécessairement de valeurs pour l'ensemble (ou même une partie) des traits. L'absence de données sur les traits ne doit pas être interprétée comme une absence de mesures ou une absence d'existence de ces traits.
 
 :::

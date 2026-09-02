@@ -1,5 +1,5 @@
 ---
-title: "Creating Datasets"
+title: "Création de jeux de données"
 date: 2022-05-20
 lastmod: 2026-03-30
 authors: ["Katie Pearson"]
@@ -10,29 +10,29 @@ keywords: ["dataset", "inventory"]
 
 :::info
 
-To create a checklist, you now need to obtain permissions from a portal administrator or the Symbiota Support Hub. For assistance, [email the Hub](mailto:help@symbiota.org).
+Pour créer une liste d'espèces (checklist), vous devez désormais obtenir des autorisations auprès d'un administrateur du portail ou du centre d'assistance Symbiota (Symbiota Support Hub). Pour obtenir de l'aide, [envoyez un e-mail au centre d'assistance](mailto:help@symbiota.org).
 
 :::
 
-You can access the tools to create a new dataset either (A) through the general search page or (B) through your Occurrence Management Page.
+Vous pouvez accéder aux outils de création d'un nouveau jeu de données soit (A) via la page de recherche générale, soit (B) via votre page de gestion des occurrences.
 
-### Through the general search page
+### Via la page de recherche générale
 
-1. Conduct a search from the main search page of the Symbiota portal. This is usually accessed by clicking "Search" or "Search Collections" on the home page of the portal. For more information about searching in a Symbiota portal, visit [this page](/User_Guide/searching_records). **When you conduct the search, click the "List Display" button".**
-2. From the List Display, click the button with the dataset icon.
-   ![dataset button](/img/datasetbutton.png "dataset button")
-3. This will open the Dataset Management box. Select the dataset to which you would like to add the specimens from the "Dataset target" dropdown menu, or select "Create New Dataset" to start building a new dataset.
-4. From here, you can select the specimens you would like to include in your dataset from your query by checking the boxes outlined by dotted lines for each specimen.
-   _ To only add a few specimens from the page, check the boxes next to the desired specimens, then click the "Add Selected Records to Dataset" button.
-   _ To add all the specimens on the page, check the box next to "Select all records on page", then click the "Add Selected Records to Dataset" button. \* To add **all** specimens resulted from your query, click the "Add Complete Query to Dataset" button.
-   ![dataset management box](/img/datasetmanagement.png "dataset management box")
-5. Once you have added occurrences to the dataset, you will be taken to the Dataset Manager page. Click the General Management Tab to can edit or add a name, internal notes, or a description to the dataset, or to make the dataset public (check the "Publicly Visible" box).
+1. Effectuez une recherche depuis la page de recherche principale du portail Symbiota. On y accède généralement en cliquant sur « Search » (Rechercher) ou « Search Collections » (Rechercher dans les collections) sur la page d'accueil du portail. Pour plus d'informations sur la recherche dans un portail Symbiota, consultez [cette page](/User_Guide/searching_records). **Une fois la recherche effectuée, cliquez sur le bouton « Affichage en liste » (List Display).**
+2. Dans l'affichage en liste, cliquez sur le bouton portant l'icône de jeu de données (dataset).
+![bouton jeu de données](/img/datasetbutton.png "bouton jeu de données")
+3. Cela ouvrira la fenêtre de gestion des jeux de données. Sélectionnez le jeu de données auquel vous souhaitez ajouter les spécimens dans le menu déroulant « Dataset target » (Jeu de données cible), ou choisissez « Create New Dataset » (Créer un nouveau jeu de données) pour en commencer un nouveau.
+4. À partir de là, vous pouvez sélectionner les spécimens issus de votre recherche que vous souhaitez inclure dans votre jeu de données en cochant les cases délimitées par des pointillés pour chaque spécimen.
+_ Pour n'ajouter que quelques spécimens présents sur la page, cochez les cases correspondant aux spécimens souhaités, puis cliquez sur le bouton « Add Selected Records to Dataset » (Ajouter les enregistrements sélectionnés au jeu de données).
+_ Pour ajouter tous les spécimens de la page, cochez la case « Select all records on page » (Sélectionner tous les enregistrements de la page), puis cliquez sur le bouton « Add Selected Records to Dataset ». \* Pour ajouter **tous** les spécimens résultant de votre recherche, cliquez sur le bouton « Add Complete Query to Dataset » (Ajouter la recherche complète au jeu de données).
+![fenêtre de gestion des jeux de données](/img/datasetmanagement.png "fenêtre de gestion des jeux de données")
+5. Une fois les occurrences ajoutées au jeu de données, vous serez redirigé vers la page de gestion des jeux de données. Cliquez sur l'onglet « General Management » (Gestion générale) pour modifier ou ajouter un nom, des notes internes ou une description au jeu de données, ou pour le rendre public (cochez la case « Publicly Visible » / Visible publiquement).
 
-### Through the dataset management page
+### Via la page de gestion des jeux de données
 
-1. Click My Profile.
-2. In the "Miscellaneous Tools" box of the Occurrence Management tab, click "Dataset Management".
-3. Click "Create a New Dataset" (if you have no existing datasets) or the green plus sign at the top right of the page.
-4. Enter a name, notes, and description (if desired) for your dataset. You can also make the dataset public by checking the "Publicly Visible" box.
-5. Click Create Dataset. This will take you back to the "Occurrence Dataset Management" page.
-6. To add occurrences to a dataset, click the name of the dataset you created, then click the "occurrence search page" link. Or you can start at step 1 in the instructions for creating datasets **Through the general search page** above.
+1. Cliquez sur « My Profile » (Mon profil).
+2. Dans la section « Miscellaneous Tools » (Outils divers) de l'onglet « Occurrence Management » (Gestion des occurrences), cliquez sur « Dataset Management » (Gestion des jeux de données).
+3. Cliquez sur « Create a New Dataset » (Créer un nouveau jeu de données) (si vous n'en avez pas encore) ou sur le signe « plus » vert en haut à droite de la page.
+4. Saisissez un nom, des notes et une description (si vous le souhaitez) pour votre jeu de données. Vous pouvez également rendre le jeu de données public en cochant la case « Publicly Visible ».
+5. Cliquez sur « Create Dataset » (Créer le jeu de données). Vous serez redirigé vers la page « Occurrence Dataset Management » (Gestion des jeux de données d'occurrences).
+6. Pour ajouter des occurrences à un jeu de données, cliquez sur le nom du jeu de données que vous avez créé, puis sur le lien « occurrence search page » (page de recherche d'occurrences). Vous pouvez également commencer à l'étape 1 des instructions de création de jeux de données **via la page de recherche générale**. au-dessus de.

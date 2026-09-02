@@ -1,5 +1,5 @@
 ---
-title: "(Admin) Adding/Editing ID Key Characters & States"
+title: "(Admin) Ajout/Modification des caractères et états de la clé d'identification"
 date: 2022-10-31
 lastmod: 2025-07-15
 draft: false
@@ -10,68 +10,66 @@ keywords: ["checklist","keys","identification","character","state","ID"]
 
 :::info
 
-This page describes how to add or edit the characters and states that are available in Identification Keys. To edit which character states are applied to a given taxon, visit the [Editing ID Key States for Taxa](edit) page.
+Cette page explique comment ajouter ou modifier les caractères et les états disponibles dans les clés d'identification. Pour modifier les états de caractères appliqués à un taxon donné, consultez la page [Modification des états de clés d'identification pour les taxons](edit).
 
 :::
 
 :::note
 
-A user must have **Identification Keys Administrator** access to edit character and state values in a portal, since these edits affect the entire portal, not just a single checklist.
+Un utilisateur doit disposer des droits d'**Administrateur des clés d'identification** pour modifier les valeurs des caractères et des états au sein d'un portail, car ces modifications affectent l'ensemble du portail et non une seule liste d'espèces.
 
 :::
 
-### Structure of Identification Keys
+### Structure des clés d'identification
 
-Identification keys are built from a list of **characters** that each have multiple **states**.
+Les clés d'identification sont élaborées à partir d'une liste de **caractères** possédant chacun plusieurs **états**.
 
-**Characters** are categories of traits that are shared across all members of a taxon (e.g., "average wing length" or "leaf phyllotaxy").
+Les **caractères** sont des catégories de traits communs à tous les membres d'un taxon (par exemple, « longueur moyenne de l'aile » ou « phyllotaxie des feuilles »).
 
-A **state** is the specific trait that is shared within the taxon (e.g., "3-15 mm" or "opposite", for each of the characters above). At this time, states can only be categorical (i.e., you cannot enter a number value).
+Un **état** correspond au trait spécifique partagé au sein du taxon (par exemple, « 3-15 mm » ou « opposées », pour chacun des caractères mentionnés ci-dessus). Actuellement, les états ne peuvent être que de nature catégorielle (c'est-à-dire qu'il n'est pas possible de saisir une valeur numérique).
 
-![Character and Character States Example](/img/charactervsstate.jpg)
+![Exemple de caractère et d'états de caractère](/img/charactervsstate.jpg)
 
-Setting up identification keys in a portal requires the administrator to import or add character and state values. Then, an identification keys editor can assign certain state values to certain taxa (see ID Keys Editor Instructions [here](edit)).
+La configuration de clés d'identification dans un portail nécessite que l'administrateur importe ou ajoute des valeurs de caractères et d'états. Ensuite, un éditeur de clés d'identification peut attribuer certaines valeurs d'état à des taxons spécifiques (voir les instructions pour l'éditeur de clés d'identification [ici](edit)).
 
-### Adding/Editing Characters
+### Ajout/Modification de caractères
 
 :::warning
 
-Changes made to characters and character states affect all identification keys and checklists across the portal. Please coordinate changes with other ID Key Administrators, when possible.
+Les modifications apportées aux caractères et aux états de caractères affectent toutes les clés d'identification et toutes les listes d'espèces du portail. Veuillez coordonner ces changements avec les autres administrateurs de clés d'identification, dans la mesure du possible.
 
 :::
 
-Navigate to the Character Management page by visiting the page's sitemap ("portal domain"/sitemap.php) or going directly to the page ("portal domain"/ident/admin/index.php).
+Accédez à la page de gestion des caractères via le plan du site (« domaine du portail »/sitemap.php) ou en allant directement à l'adresse de la page (« domaine du portail »/ident/admin/index.php).
 
-Characters may be grouped together, for example, by anatomy or other similarities, as shown in the example from SEINet below.
+Les caractères peuvent être regroupés, par exemple selon des critères anatomiques ou d'autres similitudes, comme le montre l'exemple de SEINet ci-dessous.
 
-![Identification Keys Example](/img/characters.jpg)
+![Exemple de clés d'identification](/img/characters.jpg)
 
-Clicking on the name of a grouping will collapse or expand the characters underneath that grouping.
+Cliquer sur le nom d'un groupe permet de réduire ou de développer la liste des caractères qu'il contient.
 
-To add a new character, click the green plus sign at the top right corner of the page. You will be prompted to add some information that will later be found in the **Details** tab of the character editor (see below).
+Pour ajouter un nouveau caractère, cliquez sur le signe « plus » vert situé dans le coin supérieur droit de la page. Vous serez invité à saisir des informations qui apparaîtront ultérieurement dans l'onglet **Détails** de l'éditeur de caractères (voir ci-dessous).
 
-To edit a character, click on the name of the character.
+Pour modifier un caractère, cliquez sur son nom.
 
-On the first **Details** tab, you can change the name of the character, change the type of character (if available), change the grouping (that showed on the previous page), add a URL to any resources that can help a user understand the character, link the character to the glossary, add notes, or change the sort order of the character (i.e., where it shows up relative to other characters in the identification key).
+Dans le premier onglet, **Détails**, vous pouvez modifier le nom du caractère, changer son type (si cette option est disponible), modifier son groupe (tel qu'il apparaissait sur la page précédente), ajouter une URL vers des ressources aidant l'utilisateur à comprendre le caractère, associer le caractère au glossaire, ajouter des notes ou modifier l'ordre de tri du caractère (c'est-à-dire sa position par rapport aux autres caractères dans la clé d'identification).
 
-You can also decide whether to show or hide characters by selecting "Hidden" from the Difficulty dropdown menu.
+Vous pouvez également choisir d'afficher ou de masquer le caractère en sélectionnant « Masqué » dans le menu déroulant « Difficulté ».
 
-![Details Page of the Character Editor](/img/editcharacter1.jpg)
+![Page Détails de l'éditeur de caractères](/img/editcharacter1.jpg)
 
-In the **Character States** tab, you can add or edit the states that belong to the character. Remember that character states are the options that the user can choose from when trying to identify a sample. The character states are what the ID Key Editor will choose between when assigning a state to a certain taxon. See below for instructions on editing character states.
+Dans l'onglet **États du caractère**, vous pouvez ajouter ou modifier les états associés au caractère. Rappelez-vous que les états d'un caractère correspondent aux options parmi lesquelles l'utilisateur peut choisir lorsqu'il tente d'identifier un échantillon. Ce sont ces états que l'éditeur de clé d'identification utilisera pour attribuer un état à un taxon donné. Consultez les instructions ci-dessous pour savoir comment modifier les états d'un caractère.
 
-![Character States Page of the Character Editor](/img/editcharacter2.jpg)
+![Page États du caractère de l'éditeur de caractères](/img/editcharacter2.jpg)
 
-In the **Taxonomic Linkages** tab, you can apply the character to the highest phylogenetic/taxonomic node to which a character belongs. For example, if a character applies to all plants, you would apply the character to the entire kingdom Plantae. Taxonomic branches can also be excluded. For example, if a character was relevant to all families in an order except one, you could set the "Relevance to taxon" = "Relevant" for the order, then add the excluded family with "Relevance to taxon" = "Exclude".
+Dans l'onglet **Liens taxonomiques**, vous pouvez appliquer le caractère au nœud phylogénétique ou taxonomique le plus élevé auquel il se rapporte. Par exemple, si un caractère s'applique à toutes les plantes, vous l'attribuerez à l'ensemble du règne *Plantae*. Il est également possible d'exclure certaines branches taxonomiques. Par exemple, si un caractère concernait toutes les familles d'un ordre sauf une, vous pourriez définir la « Pertinence pour le taxon » sur « Pertinent » pour l'ordre, puis ajouter la famille exclue en réglant la « Pertinence pour le taxon » sur « Exclure ».
 
-![Taxonomic Linkages Page of the Character Editor](/img/editcharacter3.jpg)
+![Page Liens taxonomiques de l'éditeur de caractères](/img/editcharacter3.jpg)
 
-The final "Admin" tab allows you to delete the character. All character states must be removed from the character before it can be deleted.
+Le dernier onglet, **Admin**, vous permet de supprimer le caractère. Tous les états associés au caractère doivent être supprimés avant que le caractère lui-même puisse être supprimé. ## Ajout/Modification d'états de caractère
 
-## Adding/Editing Character States
+Depuis la page de gestion des caractères, cliquez sur le nom du caractère associé à l'état que vous souhaitez modifier. Accédez à l'onglet **États de caractère**. Pour modifier un état de caractère existant, cliquez sur le nom de cet état. Dans la section **Détails de l'état de caractère**, vous pouvez modifier le nom de l'état, la description, le terme du glossaire associé, les notes ainsi que l'ordre de tri du caractère. Faites défiler la page jusqu'à la section **Illustration** pour ajouter une illustration de l'état de caractère. Faites défiler jusqu'à la section **Supprimer l'état de caractère** pour envisager la suppression de l'état. Tous les enregistrements multimédias, les langues et les descriptions associés à l'état de caractère doivent être dissociés avant que celui-ci puisse être supprimé.
 
-From the Character Management page, click on the name of the character that belongs to the state you wish to edit. Navigate to the **Character States** tab. To edit an existing character state, click on the name of the character state. In the **Character State Details** box, you can edit the state name, the description, the related glossary term, the notes, and the sort sequence of the character. Scroll down to the **Illustration** box to add an illustration of the character state. Scroll down to the **Delete Character State** box to evaluate the state for deletion. All media records, languages, and descriptions to the character state must be unlinked before a state can be deleted.
+Pour ajouter un nouvel état de caractère, cliquez sur le signe « plus » vert situé en haut à droite de la page (entouré ci-dessous).
 
-To add a new character state, click the green plus sign at the top right side of the page (circled below).
-
-![Character State Editor Page](/img/editcharacterstate.jpg)
+![Page d'édition de l'état de caractère](/img/editcharacterstate.jpg)

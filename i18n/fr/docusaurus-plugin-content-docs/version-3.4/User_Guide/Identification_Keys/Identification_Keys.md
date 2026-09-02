@@ -1,5 +1,5 @@
 ---
-title: "Identification Keys"
+title: "Clés d'identification"
 date: 2022-10-31
 lastmod: 2022-10-31
 draft: false
@@ -12,37 +12,37 @@ import ReactPlayer from "react-player";
 
 :::info
 
-This page describes how to navigate identification keys built in to checklists in Symbiota portals. View our documentation about [checklists](../Checklists), [editing characters and character states](admin), and [editing character states applied to taxa](edit).
+Cette page explique comment utiliser les clés d'identification intégrées aux listes d'espèces (checklists) des portails Symbiota. Consultez notre documentation sur les [listes d'espèces](../Checklists), la [gestion des caractères et de leurs états](admin) et l'**attribution d'états de caractères aux taxons** [ici](edit).
 
 :::
 
-### Structure of Identification Keys
+### Structure des clés d'identification
 
-Identification keys are built from a list of **characters** that each have multiple **states**.
+Les clés d'identification sont élaborées à partir d'une liste de **caractères** possédant chacun plusieurs **états**.
 
-**Characters** are categories of traits that are shared across all members of a taxon (e.g., "average wing length" or "leaf phyllotaxy").
+Les **caractères** sont des catégories de traits communs à tous les membres d'un taxon (par exemple, « longueur moyenne de l'aile » ou « phyllotaxie »).
 
-A **state** is the specific trait that is shared within the taxon (e.g., "3-15 mm" or "opposite", for each of the characters above). At this time, states can only be categorical (i.e., you cannot enter a number value).
+Un **état** correspond au trait spécifique observé au sein du taxon (par exemple, « 3-15 mm » ou « opposée », pour les caractères cités ci-dessus). Actuellement, les états ne peuvent être que de nature qualitative ou catégorielle (c'est-à-dire qu'il n'est pas possible de saisir une valeur numérique).
 
-![Character and Character States Example](/img/charactervsstate.jpg)
+![Exemple de caractère et d'états de caractère](/img/charactervsstate.jpg)
 
-Setting up identification keys in a portal requires the administrator to import or add character and state values (see ID Keys Administrator instructions [here](admin). Then, an identification keys editor can assign certain state values to certain taxa (see ID Keys Editor Instructions [here](edit)).
+La mise en place de clés d'identification sur un portail nécessite que l'administrateur importe ou ajoute les valeurs des caractères et de leurs états (voir les instructions pour les administrateurs [ici](admin)). Ensuite, un éditeur de clés d'identification peut attribuer certaines valeurs d'état à des taxons spécifiques (voir les instructions pour les éditeurs [ici](edit)).
 
-### Using Identification Keys
+### Utilisation des clés d'identification
 
 :::note
 
-*Identification keys are not turned on and/or configured in all portals and require extensive configuring in order to be used across many taxa. To access this feature, contact your portal administrator.
+*Les clés d'identification ne sont pas activées ni configurées sur tous les portails ; leur utilisation pour un grand nombre de taxons nécessite une configuration approfondie. Pour accéder à cette fonctionnalité, veuillez contacter l'administrateur de votre portail.
 
 :::
 
-Identification keys can be used within checklists to identify a taxon within the list that possesses certain character states. A user can click the character states that match those of their sample/individual of interest, and the taxon/taxa with the same character state(s) will be displayed on the checklist.
+Les clés d'identification peuvent être utilisées au sein des listes d'espèces pour identifier un taxon possédant des états de caractères spécifiques. L'utilisateur peut sélectionner les états correspondant à ceux de son échantillon ou spécimen ; les taxons présentant ces mêmes états s'afficheront alors dans la liste.
 
-![Identification Keys Example](/img/idkeys1_v2.jpg)
+![Exemple de clé d'identification](/img/idkeys1_v2.jpg)
 
-Note that the taxa you will see on the left will **only** include those that were in the original checklist.
+Notez que les taxons affichés à gauche incluront **uniquement** ceux présents dans la liste d'espèces initiale.
 
-### Related Resources
+### Ressources associées
 
 <ReactPlayer
   playing={false}

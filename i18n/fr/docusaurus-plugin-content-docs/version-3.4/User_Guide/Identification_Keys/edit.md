@@ -1,5 +1,5 @@
 ---
-title: "(Editor) Editing ID Key States for Taxa"
+title: "(Éditeur) Modification des états clés d'identification pour les taxons"
 date: 2022-10-31
 lastmod: 2024-12-11
 draft: false
@@ -10,45 +10,45 @@ keywords: ["checklist","keys","identification","character","state","ID"]
 
 :::info
 
-This page describes how to edit the charater states that are applied to given taxa for identification keys.
+Cette page explique comment modifier les états de caractères appliqués à des taxons donnés dans le cadre des clés d'identification.
 
 :::
 
 :::note
 
-A user must have **Identification Keys Editor** access to edit character and state values in a portal, since these edits affect the entire portal, not just a single checklist.
+L'utilisateur doit disposer des droits d'accès **Éditeur de clés d'identification** pour modifier les valeurs des caractères et de leurs états au sein d'un portail, car ces modifications affectent l'ensemble du portail et non une simple liste d'espèces.
 
 :::
 
-### Structure of Identification Keys
+### Structure des clés d'identification
 
-Identification keys are built from a list of **characters** that each have multiple **states**.
+Les clés d'identification sont élaborées à partir d'une liste de **caractères** possédant chacun plusieurs **états**.
 
-**Characters** are categories of traits that are shared across all members of a taxon (e.g., "average wing length" or "leaf phyllotaxy").
+Les **caractères** correspondent à des catégories de traits communs à tous les membres d'un taxon (par exemple, « longueur moyenne de l'aile » ou « phyllotaxie »).
 
-A **state** is the specific trait that is shared within the taxon (e.g., "3-15 mm" or "opposite", for each of the characters above). At this time, states can only be categorical (i.e., you cannot enter a number value).
+Un **état** représente le trait spécifique observé au sein du taxon (par exemple, « 3-15 mm » ou « opposée », pour chacun des caractères cités précédemment). Actuellement, les états ne peuvent être que de nature qualitative ou catégorielle (c'est-à-dire qu'il n'est pas possible de saisir une valeur numérique).
 
-![Character and Character States Example](/img/charactervsstate.jpg)
+![Exemple de caractère et d'états de caractère](/img/charactervsstate.jpg)
 
-Setting up identification keys in a portal requires the administrator to import or add character and state values (see ID Keys Administrator instructions [here](admin). Then, an identification keys editor can assign certain state values to certain taxa.
+La configuration de clés d'identification dans un portail nécessite que l'administrateur importe ou ajoute des caractères et des valeurs d'état (voir les instructions pour les administrateurs de clés d'identification [ici](admin)). Ensuite, un éditeur de clés d'identification peut attribuer certaines valeurs d'état à certains taxons.
 
-### Editing Character States Assigned to Taxa
-The character states applied to taxa can be edited from the checklist editor. If you would like to edit the character states for taxa, but don't have a specific checklist in which to do so, you can [create a temporary checklist](../Checklists/creating_checklist) in which to do this and then delete the checklist once you are done.
+### Modification des états de caractère attribués aux taxons
+Les états de caractère appliqués aux taxons peuvent être modifiés depuis l'éditeur de liste de taxons. Si vous souhaitez modifier les états de caractère pour des taxons mais ne disposez pas d'une liste spécifique pour le faire, vous pouvez [créer une liste temporaire](../Checklists/creating_checklist) à cette fin, puis la supprimer une fois l'opération terminée.
 
-Ensure that you are logged in, then navigate to the checklist containing the taxa you would like to edit. Click the small pencil icon with "Edit Character Matrix" next to it in the top right corner of the page.
+Assurez-vous d'être connecté, puis accédez à la liste contenant les taxons que vous souhaitez modifier. Cliquez sur la petite icône en forme de crayon accompagnée de la mention « Edit Character Matrix » (Modifier la matrice de caractères), située dans le coin supérieur droit de la page.
 
-![Character Matrix Editor link](/img/editcharactermatrix.jpg)
+![Lien vers l'éditeur de matrice de caractères](/img/editcharactermatrix.jpg)
 
-Click the name of the character for which you would like to edit the character states per taxon. On the resulting page, you will see the character state matrix. The name of the character is shown in the top left corner of the matrix, and the possible character states are listed as columns across the top row.
+Cliquez sur le nom du caractère pour lequel vous souhaitez modifier les états par taxon. La page qui s'affiche présente la matrice des états de caractère. Le nom du caractère figure dans le coin supérieur gauche de la matrice, et les états de caractère possibles sont listés en colonnes sur la ligne supérieure.
 
-![Character Matrix Editor](/img/charactermatrix.jpg)
+![Éditeur de matrice de caractères](/img/charactermatrix.jpg)
 
-To assign a character state to a taxon, check the box in the taxon row and corresponding character state column. Character states assigned to a parent taxon (e.g., a family or genus) will be automatically applied to all of that taxon's children taxa. You can, however, uncheck individual taxa if desired. You can also select multiple character states for a single taxon if both apply to that taxon.
+Pour attribuer un état de caractère à un taxon, cochez la case située à l'intersection de la ligne du taxon et de la colonne de l'état de caractère correspondant. Les états de caractère attribués à un taxon parent (par exemple, une famille ou un genre) seront automatiquement appliqués à tous les taxons enfants de ce taxon. Vous pouvez toutefois décocher des taxons individuels si vous le souhaitez. Il est également possible de sélectionner plusieurs états de caractère pour un même taxon si ceux-ci s'appliquent tous deux à ce taxon.
 
-Alternatively, to edit all of the character states relating to a single taxon (rather than all of the taxa related to one character), click the pencil icon to the right of any taxonomic name.
+Par ailleurs, pour modifier tous les états de caractère relatifs à un seul taxon (plutôt que tous les taxons liés à un seul caractère), cliquez sur l'icône en forme de crayon située à droite du nom du taxon.
 
-![Character States for a Single Taxon](/img/pertaxoncharacters.jpg)
+![États de caractère pour un taxon unique](/img/pertaxoncharacters.jpg)
 
-Here, you can check "Add" boxes to apply that character state to a taxon, or you can check "Remove" boxes to remove that character state from that taxon. Character states that are already applied to that taxon are shown in bold. Click any "Submit Changes" button to apply the character state changes to the taxon.
+Ici, vous pouvez cocher les cases « Add » (Ajouter) pour appliquer cet état de caractère à un taxon, ou cocher les cases « Remove » (Supprimer) pour retirer cet état de caractère de ce taxon. Les états de caractère déjà appliqués à ce taxon sont... ...indiqués en gras. Cliquez sur l'un des boutons « Soumettre les modifications » pour appliquer au taxon les changements d'état des caractères.
 
-To view the character matrix associated with the parent taxon of the taxon you are currently viewing, click the "parent" link to the right of any character.
+Pour afficher la matrice des caractères associée au taxon parent du taxon que vous consultez actuellement, cliquez sur le lien « parent » situé à droite de n'importe quel caractère.

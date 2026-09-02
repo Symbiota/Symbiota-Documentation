@@ -1,5 +1,5 @@
 ---
-title: "Searching for Records"
+title: "Recherche d'enregistrements"
 date: 2021-10-11
 lastmod: 2026-01-15
 authors: ["Katie Pearson, Lindsay Walker"]
@@ -7,133 +7,129 @@ sidebar_position: 110
 keywords: ["search", "specimens", "observations"]
 ---
 
-Symbiota portals serve data from specimens and observations according to regional and taxonomic themes. To search and view these data, you can use one of the tools described below.
+Les portails Symbiota diffusent des données relatives à des spécimens et à des observations, organisées selon des thématiques régionales et taxonomiques. Pour rechercher et consulter ces données, vous pouvez utiliser l'un des outils décrits ci-dessous.
 
-## Basic Search
+## Recherche simple
 
-1. From the home page of the portal, click Search Collections from the top or side menu.
+1. Depuis la page d'accueil du portail, cliquez sur « Rechercher dans les collections » (Search Collections) dans le menu supérieur ou latéral.
 
-2. On the next page, you can enter search criteria to find records of interest. Click the Expand All Sections button if you would like to see all of the possible criteria you can search on.
+2. Sur la page suivante, vous pouvez saisir des critères de recherche pour trouver les enregistrements qui vous intéressent. Cliquez sur le bouton « Développer toutes les sections » (Expand All Sections) si vous souhaitez afficher tous les critères de recherche disponibles.
 
-3. Once you have selected your desired search criteria, indicate whether you would like to see the results in a List (100 per page) or Table (1000 per page) format using the radio button above the Search button.
-4. Click the Search button on the far right to conduct your search.
+3. Une fois vos critères sélectionnés, indiquez si vous souhaitez afficher les résultats sous forme de liste (100 par page) ou de tableau (1000 par page) à l'aide du bouton radio situé au-dessus du bouton « Rechercher » (Search).
+4. Cliquez sur le bouton « Rechercher » (Search) situé tout à droite pour lancer la recherche.
 
 
-| ![Symbiota search interface](/img/newsamplesearch2025.png)  |
+| ![Interface de recherche Symbiota](/img/newsamplesearch2025.png)  |
 | :-------------------------------------: |
-| Publicly accessible search form visible on Symbiota portals. Additional criteria may be present in your portal, depending on how it is configured (see Geological Context and Taxon Character Criteria below). |
+| Formulaire de recherche accessible au public sur les portails Symbiota. Des critères supplémentaires peuvent être présents selon la configuration de votre portail (voir les sections « Contexte géologique » et « Critères de caractères taxonomiques » ci-dessous). |
 
-### Search Criteria
-- The criteria you can use will vary depending on the portal, but generally include the following categories: 1) Taxonomic Criteria, 2) Locality Criteria, 3) Latitude and Longitude, 4) Collecting Event Criteria, 5) Specimen/Observation Properties, 6) Trait Criteria (if enabled), 7) Associations (if they exist in your portal), 8) Geological Context (if enabled), and 8) Taxon Character Criteria (if enabled).
-- Any number of criteria can be entered and search at the same time. The criteria you are searching by will show up as "chips" on the right side of the screen under "Criteria." Click the X on any of these chips to remove them from your search criteria.
-- You can search for multiple values in a single field by separating the values by commas. For example, if you want to search by both Kern and Inyo counties, you should enter "Kern,Inyo" in the county field.
+### Critères de recherche
+- Les critères disponibles varient selon le portail, mais incluent généralement les catégories suivantes : 1) Critères taxonomiques, 2) Critères de localisation, 3) Latitude et longitude, 4) Critères liés à l'événement de collecte, 5) Propriétés du spécimen/de l'observation, 6) Critères de traits (si activés), 7) Associations (si présentes sur votre portail), 8) Contexte géologique (si activé) et 8) Critères de caractères taxonomiques (si activés).
+- Vous pouvez saisir et utiliser simultanément autant de critères que vous le souhaitez. Les critères sélectionnés apparaîtront sous forme d'étiquettes (« chips ») sur le côté droit de l'écran, dans la section « Critères » (Criteria). Cliquez sur le « X » de l'une de ces étiquettes pour la retirer de vos critères de recherche.
+- Vous pouvez rechercher plusieurs valeurs dans un même champ en les séparant par des virgules. Par exemple, si vous souhaitez effectuer une recherche pour les comtés de Kern et d'Inyo, saisissez « Kern,Inyo » dans le champ correspondant au comté. :::tip
 
-:::tip
-
-To return to the Search Criteria page and refine your search, click the "back" button in your browser.
+Pour revenir à la page des critères de recherche et affiner votre recherche, cliquez sur le bouton « Retour » de votre navigateur.
 
 :::
 
-#### Taxonomic Criteria
-Here you can search by the scientific or common name(s) of your specimens of interest. Once you start typing a name, a dropdown list (drawing from the portal's [taxonomic thesaurus](/User_Guide/taxonomic_thesaurus) will show up from which you can select the taxon of interest. You can alternatively enter a value not in the dropdown list. To search by common name, select "Common Name" from the **Taxon Type** dropdown list. Not all Symbiota portals have well-populated lists of common names. In these cases, searching by common name may be limited.
+#### Critères taxonomiques
+Vous pouvez effectuer une recherche ici à l'aide du nom scientifique ou du ou des noms communs des spécimens qui vous intéressent. Dès que vous commencez à saisir un nom, une liste déroulante (basée sur le [thésaurus taxonomique](/User_Guide/taxonomic_thesaurus) du portail) s'affiche ; vous pouvez y sélectionner le taxon souhaité. Vous pouvez également saisir une valeur qui ne figure pas dans la liste déroulante. Pour effectuer une recherche par nom vernaculaire, sélectionnez « Common Name » (Nom vernaculaire) dans la liste déroulante **Taxon Type** (Type de taxon). Tous les portails Symbiota ne disposent pas de listes exhaustives de noms vernaculaires. Dans ce cas, la recherche par nom vernaculaire peut être limitée.
 
-#### Locality Criteria
-In this module you can search by country, state/province, county, locality, and elevation values. Once you start typing a name, a dropdown list (drawing from the portal's [geographic thesaurus](/Portal_Manager_Guide/Geographic_Thesaurus/)) will show up from which you can select the geographic unit of interest, if desired. You can alternatively enter a value not in the dropdown list. Searches using these criteria are text-based searches which attempt to match the value you enter into the search fields to the values in the corresponding fields of records. **Note that the taxonomic thesaurus does not allow automatic searching across geographic synonyms at this time.** This means that searching for records collected in "NV" will not return all the results for records collected in "Nevada", etc.
+#### Critères de localité
+Ce module permet d'effectuer des recherches par pays, État/province, comté, localité et altitude. Dès que vous commencez à saisir un nom, une liste déroulante (basée sur le [thésaurus géographique](/Portal_Manager_Guide/Geographic_Thesaurus/) du portail) s'affiche ; vous pouvez y sélectionner l'unité géographique souhaitée, le cas échéant. Vous pouvez également saisir une valeur qui ne figure pas dans la liste déroulante. Les recherches basées sur ces critères sont des recherches textuelles visant à faire correspondre la valeur saisie dans les champs de recherche aux valeurs présentes dans les champs correspondants des enregistrements. **Veuillez noter que le thésaurus taxonomique ne permet pas actuellement d'effectuer automatiquement des recherches incluant les synonymes géographiques.** Cela signifie qu'une recherche sur les enregistrements collectés dans le « NV » ne renverra pas tous les résultats correspondant aux enregistrements collectés dans le « Nevada », etc.
 
-In some portals, this section will also include the ability to search by pre-loaded polygons. These are spatial [polygons](https://support.esri.com/en-us/gis-dictionary/polygon) that are of particular importance to the portal community, such as park boundaries, seed transfer zones, or other places of interest. If you select a polygon from this list, your search will only return records that have coordinates that fall within that polygon. Contact your portal administrator for more information about polygons available in your portal.
+Sur certains portails, cette section offre également la possibilité d'effectuer des recherches à l'aide de polygones préchargés. Il s'agit de [polygones](https://support.esri.com/en-us/gis-dictionary/polygon) spatiaux revêtant une importance particulière pour la communauté du portail, tels que les limites de parcs, les zones de transfert de semences ou d'autres lieux d'intérêt. Si vous sélectionnez un polygone dans cette liste, votre recherche ne renverra que les enregistrements dont les coordonnées se situent à l'intérieur de ce polygone. Contactez l'administrateur de votre portail pour plus d'informations sur les polygones disponibles.
 
-#### Latitude and Longitude
-To define a latitude/longitude bounding box, polygon, or point with radius in which to search, enter the values in the provided fields or click the appropriate button at the top of the Latitude & Longitude search criteria to create the box, shape, or point radius in the mapping interface.
+#### Latitude et longitude
+Pour définir une zone de recherche (délimitée par une boîte englobante, un polygone ou un point avec rayon) basée sur la latitude et la longitude, saisissez les valeurs dans les champs prévus à cet effet ou cliquez sur le bouton approprié situé en haut de la section des critères de recherche « Latitude & Longitude » afin de créer la boîte, la forme ou le point avec rayon sur l'interface cartographique.
 
-#### Collecting Event Criteria
-Use this module to search for records based on collector, collector number (common for plant specimens), and date of collection/observation.
+#### Critères relatifs à l'événement de collecte
+Utilisez ce module pour rechercher des enregistrements en fonction du collecteur, du numéro de collecteur (courant pour les spécimens végétaux) et la date de collecte ou d'observation.
 
-#### Specimen/Observation Properties
-Here you can search by catalog number or limit your search criteria to only include records that are types (i.e., have a value in the TypeStatus field), records that have media, records that have genetic data, records that are georeferenced, or records that have material samples (if enabled in your portal). You can also opt to include cultivated or captive records in this criterion category.
+#### Propriétés du spécimen/de l'observation
+Ici, vous pouvez effectuer une recherche par numéro de catalogue ou limiter vos critères aux enregistrements correspondant à des types (c.-à-d. ceux possédant une valeur dans le champ *TypeStatus*), aux enregistrements comportant des médias, des données génétiques, des coordonnées géographiques ou des échantillons de matériel (si cette option est activée sur votre portail). Vous pouvez également choisir d'inclure dans cette catégorie de critères les enregistrements concernant des spécimens cultivés ou en captivité.
 
-#### Trait Criteria
-For more information about traits, [visit this page](/User_Guide/traits). Here you can limit your search to include only records with certain values of trait criteria. "Traits" in Symbiota portals are defined as characteristics of specific specimens, such as measurements or facts about that specimen (e.g., phenology, color, etc.). Note that the search will only be able to provide you with records that have been scored for those particular traits, and the absence of a certain trait value applied to a specimen does not necessarily indicate that a trait value does not apply to a record. Furthermore, this search module is an "OR" search. Selecting multiple trait values will return all records with **at least one** of those traits.
+#### Critères de traits
+Pour plus d'informations sur les traits, [consultez cette page](/User_Guide/traits). Vous pouvez limiter votre recherche aux enregistrements présentant certaines valeurs pour des critères de traits. Dans les portails Symbiota, les « traits » désignent des caractéristiques propres à des spécimens donnés, telles que des mesures ou des informations spécifiques (ex. : phénologie, couleur, etc.). Notez que la recherche ne renverra que les enregistrements pour lesquels ces traits spécifiques ont été renseignés ; l'absence d'une valeur de trait pour un spécimen ne signifie pas nécessairement que ce trait ne s'applique pas à l'enregistrement. Par ailleurs, ce module fonctionne selon une logique « OU » : la sélection de plusieurs valeurs de traits renverra tous les enregistrements possédant **au moins l'un** de ces traits.
 
 #### Associations
-For detailed instructions on how to use associations searches, [visit this page](/User_Guide/associations). This module is used to search for documented associations between records and other things, such as other specimens/observations, literature, or other "extended specimen" information. This search will result in records that have a formally linked association of a record with the taxon you enter into the Associations module.  The absence of a certain association in the portal does not necessarily indicate that this association does not exist in, e.g., the "associatedTaxon" field.
+Pour des instructions détaillées sur l'utilisation de la recherche par associations, [consultez cette page](/User_Guide/associations). Ce module permet de rechercher des associations documentées entre des enregistrements et d'autres éléments, tels que d'autres spécimens ou observations, des références bibliographiques ou d'autres informations relatives au concept de « spécimen étendu » (*extended specimen*). La recherche renverra les enregistrements présentant un lien formel avec le taxon saisi dans le module Associations. L'absence d'une association spécifique dans le portail ne signifie pas nécessairement que cette association n'existe pas, par exemple dans le champ *associatedTaxon*.
 
-#### Geological Context
-This section of the search form will be available if an entire portal is configured for managing and sharing fossil specimen data. It enables users to search for occurrence records associated with lithostratigraphic (_Group_, _Formation_, _Member_, _Bed_) and chronostratigraphic (_Early Interval_, _Late Interval_) information.
+#### Contexte géologique
+Cette section du formulaire de recherche est disponible si un portail complet est configuré pour la gestion et le partage de données sur des spécimens de fossiles. Elle permet aux utilisateurs de rechercher des enregistrements d'occurrences associés à des informations lithostratigraphiques (*Groupe*, *Formation*, *Membre*, *Couche*) et chronostratigraphiques (*Intervalle de début*, *Intervalle de fin*).
 
-Here are some tips for using this section of the search form:
-- Correctly querying _Early Interval_ and _Late Interval_ requires a user to specify values in both fields, even if the values are the same. For example, _Early Interval_="Jurassic" and _Late Interval_="Cretaceous" **or** _Early Interval_="Jurassic" and _Late Interval_="Jurassic" are both correct queries, whereas leaving either field blank/null will return an error.
-- Search results based on _Early Interval_ and _Late Interval_ will be **inclusive** of all records associated with the specified time intervals. For example, searching on _Early Interval_="Cretaceous" and _Late Interval_="Cretaceous" will return all records with a _Late Interval_ **or** _Early Interval_ value that overlaps with the Cretaceous period in geologic time, e.g., all records cataloged as "Cretaceous" to "Cretaceous", in addition to records cataloged as "Jurassic" to "Cretaceous", "Campanian" to "Maastrichtian", "Late Cretaceous" to "Paleocene"—among many other possible combinations.
-- Unless indicated differently on a given Symbiota portal, the default values for _Early Interval_ and _Late Interval_ are based on the [International Commission on Stratigraphy's Chronostratigraphic Chart](https://stratigraphy.org/chart).
-- The same constraints apply to searches conducted using the [Map Search](#map-search) interface.
+Voici quelques conseils pour utiliser cette section du formulaire de recherche :
+- Pour interroger correctement les champs *Intervalle de début* et *Intervalle de fin*, l'utilisateur doit spécifier des valeurs dans les deux champs, même si ces valeurs sont identiques. Par exemple, les requêtes *Intervalle de début* = « Jurassique » et *Intervalle de fin* = « Crétacé » **ou** *Intervalle de début* = « Jurassique » et *Intervalle de fin* = « Jurassique » sont toutes deux valides, alors que laisser l'un des champs vide ou nul entraînera une erreur.
+- Les résultats de recherche basés sur l' *Intervalle de début* et l' *Intervalle de fin* incluront tous les enregistrements associés aux intervalles de temps spécifiés. Par exemple, une recherche avec *Intervalle de début* = « Crétacé » et *Intervalle de fin* = « Crétacé » renverra tous les enregistrements dont la valeur *Intervalle de fin* **ou** *Intervalle de début* chevauche la période du Crétacé (échelle des temps géologiques) ; cela inclut les enregistrements catalogués de « Crétacé » à « Crétacé », mais aussi ceux catalogués de « Jurassique » à « Crétacé », de « Campanien » à « Maastrichtien », de « Crétacé supérieur » à « Paléocène », parmi de nombreuses autres combinaisons possibles.
+- Sauf indication contraire sur un portail Symbiota donné, les valeurs par défaut pour *Intervalle de début* et *Intervalle de fin* sont basées sur l' [Échelle chronostratigraphique internationale de la Commission internationale de stratigraphie](https://stratigraphy.org/chart).
+- Les mêmes contraintes s'appliquent aux recherches effectuées via l'interface de [Recherche sur carte](#map-search).
 
 
-#### Taxon Character Criteria
-Here you can search for records that belong to taxa with certain characteristics. "Characters" in Symbiota portals are defined as taxon-level characteristics, for example, "plant habit" for a species or "presence of elytra" for certain insect species. Note that the search will only be able to provide you with records belonging to taxa that have been scored for those particular characters, and the absence of a certain character value applied to a taxon does not necessarily indicate that a character value does not apply to that taxon. This module is an "AND" search. Selecting multiple character values will return all records with all of those character states. For more information about characters and character states, see the pages referring to [Identification Keys](/User_Guide/Identification_Keys/).
+#### Critères de caractères taxonomiques
+Cette section permet de rechercher des enregistrements appartenant à des taxons présentant certaines caractéristiques. Dans les portails Symbiota, les « caractères » sont définis comme des caractéristiques propres au taxon ; il peut s'agir, par exemple, du « port de la plante » pour une espèce ou de la « présence d'élytres » pour certaines espèces d'insectes. Veuillez noter que la recherche ne renverra que les enregistrements correspondant à des taxons pour lesquels ces caractères spécifiques ont été renseignés ; l'absence d'une valeur de caractère donnée pour un taxon ne signifie pas nécessairement que cette valeur ne s'y applique pas. Ce module effectue une recherche de type « ET » (intersection) : la sélection de plusieurs valeurs de caractère affichera uniquement les enregistrements présentant l'ensemble de ces états de caractère. Pour plus d'informations sur les caractères et les états de caractère, consultez les pages relatives aux [clés d'identification](/User_Guide/Identification_Keys/).
 
 :::tip
 
-To view the results in a table or to sort the search results, click the Table Display button. ![Table Display Button](/img/table.png) In the Search Results box at the top of the page, select the field you would like to sort by, a second field you would like to sort by (if applicable), then whether you would like to sort results in ascending or descending order. Then click Sort. To switch back to list view, click the List Display button. ![List Display Button](/img/list.png)
+Pour afficher les résultats sous forme de tableau ou pour les trier, cliquez sur le bouton d'affichage en tableau. ![Bouton d'affichage en tableau](/img/table.png) Dans la zone « Résultats de la recherche » située en haut de la page, sélectionnez le champ principal de tri, un champ de tri secondaire (le cas échéant), puis choisissez l'ordre de tri (croissant ou décroissant). Cliquez ensuite sur « Trier ». Pour revenir à l'affichage en liste, cliquez sur le bouton d'affichage en liste. ![Bouton d'affichage en liste](/img/list.png)
 
 :::
 
-## Map Search
-| ![Map Search Display](/img/search5.png)  |
+## Recherche sur carte
+| ![Affichage de la recherche sur carte](/img/search5.png) |
 | :-------------------------------------: |
-| Publicly accessible Map Search interface visible on Symbiota portals |
+| Interface de recherche sur carte accessible au public sur les portails Symbiota |
 
-Depending on the portal, the Map Search function may be under the Search Collections menu item, or listed as a separate menu item on the homepage.
+Selon le portail, la fonction de recherche sur carte peut se trouver sous l'option de menu « Rechercher dans les collections » ou apparaître comme une option de menu distincte sur la page d'accueil.
 
-Click the Open Search Panel button in the top left corner. Once open, you can enter the same types of criteria into this search panel as were available in the regular search (described above). Then click the Search button.
+Cliquez sur le bouton « Ouvrir le panneau de recherche » dans le coin supérieur gauche. Une fois le panneau ouvert, vous pouvez y saisir les mêmes types de critères que ceux disponibles dans la recherche standard (décrite ci-dessus). Cliquez ensuite sur le bouton « Rechercher ».
 
-To select specific collections from which you would like to search, select the Collections tab in the search panel, then check or uncheck boxes next to collections as desired.
+Pour sélectionner des collections spécifiques dans lesquelles effectuer votre recherche, choisissez l'onglet « Collections » du panneau de recherche, puis cochez ou décochez les cases correspondant aux collections souhaitées.
 
-Further customizations can be made in the Map Options tab of the search panel including grid size and min. cluster size. These will affect how many specimens will be clustered together on the map. You can also turn off clustering in this tab.
+D'autres personnalisations sont possibles dans l'onglet « Options de carte » du panneau de recherche, notamment la taille de la grille et la taille minimale des regroupements (clusters). Ces paramètres influencent le nombre de spécimens regroupés sur la carte. Vous pouvez également désactiver le regroupement dans cet onglet.
 
-Portals configured for managing and sharing fossil specimen data may display additional fields within the Map Search Criteria panel (_Group_, _Formation_, _Member_, _Bed_, _Early Interval_, _Late Interval_). The instructions that apply to the [Geological Context section](#geological-context) of the main public search form also apply to the Geological Context fields on the Map Search interface.
+Les portails configurés pour la gestion et le partage de données sur des spécimens fossiles peuvent afficher des champs supplémentaires dans le panneau des critères de recherche sur carte (_Groupe_, _Formation_, _Membre_, _Couche_, _Intervalle (début)_, _Intervalle (fin)_). Les instructions relatives à la section [Contexte géologique](#geological-context) du formulaire de recherche publique principal s'appliquent également aux champs de contexte géologique de l'interface de recherche sur carte.
 
-Once you have conducted a search, you can view a list of specimens by clicking the Open Search Panel button and viewing the Records and Taxa menu item. You can also download the specimen records, download a KML file of the specimen records, or generate a shareable link to these search results by clicking on the respective buttons on this page.
+Une fois la recherche effectuée, vous pouvez consulter la liste des spécimens en cliquant sur le bouton « Ouvrir le panneau de recherche » et en accédant à l'option de menu « Enregistrements et taxons ». Vous pouvez également télécharger les fiches des spécimens, télécharger un fichier KML de ces données ou générer un lien partageable vers les résultats de la recherche en cliquant sur les boutons correspondants sur cette page.
 
 :::tip
 
-When using the Map Search, hover over the layer icon (☰) in the upper right-hand corner of the map window to turn additional map layers on/off.
-![Map Search Display](/img/search_layers.png)
+Lors de l'utilisation de la recherche sur carte, survolez l'icône des couches (☰) dans le coin supérieur droit de la carte pour activer ou désactiver des couches cartographiques supplémentaires.
+![Affichage de la recherche sur carte](/img/search_layers.png)
 
 :::
 
-## Cross-Portal Search
+## Recherche inter-portails
 
 :::note
 
-This feature is not available in all portals.
+Cette fonctionnalité n'est pas disponible sur tous les portails.
 
 :::
 
-Some portals include the ability to search not only in the portal database, but also in the database of another, connected Symbiota portal. This option is only available in the Map Search interface.
+Certains portails offrent la possibilité d'effectuer des recherches non seulement dans leur propre base de données, mais aussi dans celle d'un autre portail Symbiota connecté. Cette option est disponible uniquement dans l'interface de recherche sur carte. Pour utiliser cette fonctionnalité, accédez à la fonction de recherche cartographique (« Map Search ») de votre portail et cochez la case « Enable Cross Portal Search » (Activer la recherche inter-portails). Une liste déroulante des portails disponibles pour la recherche ainsi qu'un nouveau champ « Taxa » (Taxons) apparaîtront alors. Sélectionnez le portail souhaité (il n'y en aura probablement qu'un seul) et saisissez le nom du ou des taxons que vous souhaitez rechercher dans l'autre portail. Le champ « Taxa » situé tout en haut du formulaire s'appuie sur le référentiel taxonomique de votre portail actuel, tandis que le champ « Taxa » situé sous l'option de recherche inter-portails utilise le référentiel taxonomique de l'autre portail (celui sélectionné dans la liste déroulante).
 
-To use this feature, navigate to the Map Search in your portal and check the box next to "Enable Cross Portal Search". You will then see a dropdown list of the available portals to search and new "Taxa" field. Select the desired portal (there will likely only be one) and enter the name of the taxon or taxa that you would like to search in the other portal. The "Taxa" field at the very top of the form will reference your current portal's taxonomic thesaurus, while the "Taxa" field under the Cross Portal Search option will reference the taxonomic thesaurus of the other portal (the one selected in the dropdown list).
+![Case à cocher de recherche inter-portails](/img/crossportalsearch.png)
 
-![Cross-Portal Search Checkbox](/img/crossportalsearch.png)
+La carte générée affichera les résultats provenant des deux portails interrogés. Par défaut, les points sont colorés en fonction du taxon. Pour colorer les points selon le portail, cliquez sur l'onglet « Portal List » (Liste des portails), puis sur le bouton « Auto Color » (Coloration automatique).
 
-The resulting map will include results from both portals you have searched. The dots will be colored by taxon by default. To color the dots by portal, click the Portal List tab and click the Auto Color button.
+L'onglet « Records » (Enregistrements) listera toutes les données du portail que vous consultez actuellement, tandis que l'onglet « External Records » (Enregistrements externes) listera toutes les données provenant du portail externe également interrogé.
 
-The "Records" tab will list all the records from the portal you are in, and the "External Records" tab will list all the records from the outside portal that you are also searching.
-
-## Quick Search
+## Recherche rapide
 
 :::note
 
-Using Quick Search forms, you can search for multiple taxa (_scientificName_ values) or, where applicable, _Catalog Number_ values by listing your search criteria in a semi-colon delimited list, e.g. "Rosa abietorum;Rosa alba" or "100;1000".
+Grâce aux formulaires de recherche rapide, vous pouvez rechercher plusieurs taxons (valeurs _scientificName_) ou, le cas échéant, des numéros de catalogue (valeurs _Catalog Number_) en saisissant vos critères sous forme de liste séparée par des points-virgules (par ex. « Rosa abietorum;Rosa alba » ou « 100;1000 »).
 
 :::
 
-### By portal
+### Par portail
 
-Some Symbiota portals feature a portal-wide taxon quick search form on their homepage. Use this form to search for all specimen records in the portal that are linked to the portal's central taxonomic thesaurus by typing directly into the form and then selecting the "Search" button. If you begin typing a scientific name in this box and a dropdown list does not appear (shown below), then the taxon you are searching for does not exist in the portal's taxonomic thesaurus.
-![Homepage Quick Search](/img/quicksearch_homepage.png)
-![Homepage Quick Search](/img/quicksearch_dropdown.png)
+Certains portails Symbiota proposent, sur leur page d'accueil, un formulaire de recherche rapide de taxons couvrant l'ensemble du portail. Utilisez ce formulaire pour rechercher tous les enregistrements de spécimens du portail liés au référentiel taxonomique central ; pour ce faire, saisissez votre recherche directement dans le champ prévu à cet effet et cliquez sur le bouton « Search » (Rechercher). Si vous commencez à saisir un nom scientifique dans ce champ sans qu'une liste déroulante n'apparaisse (voir ci-dessous), cela signifie que le taxon recherché n'existe pas dans le référentiel taxonomique du portail.
+![Recherche rapide sur la page d'accueil](/img/quicksearch_homepage.png)
+![Recherche rapide sur la page d'accueil](/img/quicksearch_dropdown.png)
 
-### By collection
+### Par collection
 
-Similar to the portal-wide quick search forms described above, some Symbiota portals feature quick search forms on Collection Profiles to facilitate searching for records limited to individual datasets. Currently, these forms can be used to search within a given Collection Profile by _Catalog Number_ or _Scientific Name_ (Taxon).
+Tout comme les formulaires de recherche rapide à l'échelle du portail décrits ci-dessus, certains portails Symbiota intègrent des formulaires de recherche rapide dans les profils de collection afin de faciliter la recherche d'enregistrements au sein de jeux de données spécifiques. Actuellement, ces formulaires permettent d'effectuer des recherches dans un profil de collection donné en utilisant le numéro de catalogue (_Catalog Number_) ou le nom scientifique (_Scientific Name_ / Taxon).
 
-![Homepage Quick Search](/img/quicksearch_collprofile.png)
+![Recherche rapide sur la page d'accueil](/img/quicksearch_collprofile.png)

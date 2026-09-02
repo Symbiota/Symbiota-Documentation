@@ -1,5 +1,5 @@
 ---
-title: "Providing Feedback"
+title: "Faire un retour"
 date: 2024-04-03
 lastmod: 2024-04-03
 sidebar_position: 90
@@ -9,9 +9,9 @@ editors: ["Katie Pearson"]
 keywords: ["crowdsourcing","annotations", "comments", "public feedback"]
 ---
 
-Providing feedback on specimen records can improve the quality of data available in a given Symbiota portal.
+Fournir des retours sur les fiches de spécimens peut améliorer la qualité des données disponibles sur un portail Symbiota donné.
 
-There are three main ways to provide feedback:
-1. [Comment on a Record](leaving_comments)
-2. [Contact a Collection Curator](contacting_collection)
-3. [Edit a Record](suggesting_edits) (only available for some collections)
+Il existe trois moyens principaux de transmettre des retours :
+1. [Commenter une fiche](leaving_comments)
+2. [Contacter le conservateur de la collection](contacting_collection)
+3. [Modifier une fiche](suggesting_edits) (disponible uniquement pour certaines collections)

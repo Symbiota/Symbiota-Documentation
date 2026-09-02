@@ -1,5 +1,5 @@
 ---
-title: "Darwin Core Archives"
+title: "Archives Darwin Core"
 date: 2025-01-30
 lastmod: 2025-12-23
 draft: false
@@ -10,30 +10,30 @@ keywords: ["Download", "Darwin Core", "DwC-A", "Archive", "Extensions"]
 
 :::info
 
-This page describes how Darwin Core Archives represent data from Symbiota portals.
+Cette page décrit la manière dont les archives Darwin Core représentent les données provenant des portails Symbiota.
 
 :::
 
-A [Darwin Core Archive](https://ipt.gbif.org/manual/en/ipt/latest/dwca-guide) is a package of biodiversity data that aligns with the Darwin Core international data standard. The Symbiota data schema was designed to largely align with this schema for data imports and exports.
+Une [archive Darwin Core](https://ipt.gbif.org/manual/en/ipt/latest/dwca-guide) est un ensemble de données sur la biodiversité conforme à la norme internationale Darwin Core. Le schéma de données de Symbiota a été conçu pour s'aligner largement sur cette norme pour les opérations d'importation et d'exportation de données.
 
-A Darwin Core Archive (DwC-A) downloaded from a Symbiota portal consists of a core [**occurrences**](https://rs.gbif.org/core/dwc_occurrence_2024-02-23.xml) file, containing the core biodiversity data relating to records of a taxon at a place and time (an "occurrence"), a metafile (meta.xml) that describes the structure of the Darwin Core Archive, a metadata file (eml.xml) describing the dataset, and multiple "extension" files with additional data regarding the occurrences. The "id" column in the occurrences file is the central link between the _occurrences_ file and its extensions.
+Une archive Darwin Core (DwC-A) téléchargée depuis un portail Symbiota se compose d'un fichier principal d'**occurrences** ([*occurrences*](https://rs.gbif.org/core/dwc_occurrence_2024-02-23.xml)) — contenant les données fondamentales sur la biodiversité relatives aux signalements d'un taxon à un endroit et à un moment donnés (une « occurrence ») — d'un fichier de description de structure (*meta.xml*), d'un fichier de métadonnées (*eml.xml*) décrivant le jeu de données, ainsi que de plusieurs fichiers d'« extension » contenant des informations supplémentaires sur les occurrences. La colonne « id » du fichier des occurrences constitue le lien central entre ce fichier et ses extensions.
 
-![Darwin Core Star Schema](/img/dwca.jpg)
+![Schéma en étoile Darwin Core](/img/dwca.jpg)
 
-The following extensions are currently supported by Symbiota downloads:
+Les extensions suivantes sont actuellement prises en charge lors des téléchargements depuis Symbiota :
 
-* [**identifications**](https://rs.gbif.org/extension/identification_history_2024-02-19.xml): contains data regarding one or many taxonomic identifications of an occurrence. This file contains the history of taxonomic identification or annotation  of the specimen. For example, if the occurrences file contains one record that was identified three times, the _identifications_ file will contain three rows, one for each taxonomic identification. In Symbiota portals, every identification must have a scientific name, a "dateIdentified", and an "identifiedBy" value.
+* [**identifications**](https://rs.gbif.org/extension/identification_history_2024-02-19.xml) : contient des données relatives à une ou plusieurs identifications taxonomiques d'une occurrence. Ce fichier consigne l'historique de l'identification taxonomique ou de l'annotation du spécimen. Par exemple, si le fichier des occurrences contient un enregistrement ayant fait l'objet de trois identifications, le fichier *identifications* comportera trois lignes, une pour chaque identification taxonomique. Dans les portails Symbiota, chaque identification doit comporter un nom scientifique ainsi que des valeurs pour « dateIdentified » (date de l'identification) et « identifiedBy » (auteur de l'identification).
 
-* [**multimedia**](https://rs.gbif.org/extension/ac/audiovisual_2024_11_07.xml): contains data about any media resources (e.g., images, sound recordings) linked to the occurrence. For example, if the occurrences file contains one record with one image and one audio file, the _multimedia_ extension will contain two rows, one for each media resources.
+* [**multimedia**](https://rs.gbif.org/extension/ac/audiovisual_2024_11_07.xml) : contient des données sur les ressources multimédias (par ex. images, enregistrements sonores) associées à l'occurrence. Par exemple, si le fichier des occurrences contient un enregistrement associé à une image et à un fichier audio, l'extension _multimedia_ comportera deux lignes, une pour chaque ressource multimédia.
 
 :::tip
 
-**A DwC-A download does not contain the actual image files** linked to the occurrence data. The multimedia file consists of _links to_ where those images can be viewed/downloaded. For guidance on downloading images, [see this article](/User_Guide/Downloading/download_images).
+**Un téléchargement DwC-A ne contient pas les fichiers d'image eux-mêmes** liés aux données d'occurrence. Le fichier multimédia se compose de _liens_ indiquant où ces images peuvent être visualisées ou téléchargées. Pour savoir comment télécharger des images, [consultez cet article](/User_Guide/Downloading/download_images).
 
 :::
 
-* [**measurementOrFact**](https://rs.gbif.org/extension/obis/extended_measurement_or_fact_2023-08-28.xml): contains data about any measurements or traits regarding the occurrence. This file is where data from the [Traits Module](/Editor_Guide/Traits/) are stored. This file consists of one line for every measurement value applied to an occurrence. In cases of hierarchical traits, multiple measurements may correspond to a single "trait". For example, if the trait "Flowers Present" is nested under "Reproductive", a single occurrence may have multiple rows in the measurementOrFact extension, one corresponding to "Flowers Present" and one corresponding to "Reproductive." Symbiota portals export the "Extended Measurement or Fact Extension" do support unique identifiers applied to trait values, such as links to relevant ontologies or scoring protocols.
+* [**measurementOrFact**](https://rs.gbif.org/extension/obis/extended_measurement_or_fact_2023-08-28.xml) : contient des données relatives aux mesures ou aux traits concernant l'occurrence. C'est dans ce fichier que sont stockées les données issues du [module Traits](/Editor_Guide/Traits/). Ce fichier comporte une ligne pour chaque valeur de mesure appliquée à une occurrence. Dans le cas de traits hiérarchiques, plusieurs mesures peuvent correspondre à un seul « trait ». Par exemple, si le trait « Présence de fleurs » est imbriqué sous « Stade reproductif », une même occurrence peut donner lieu à plusieurs lignes dans l'extension measurementOrFact : l'une correspondant à « Présence de fleurs » et l'autre à « Stade reproductif ». Les portails Symbiota qui exportent l'extension « Mesure ou fait détaillé » prennent en charge les identifiants uniques appliqués aux valeurs de traits, tels que des liens vers des ontologies ou des protocoles de notation pertinents.
 
-* [**materialSample**](https://rs.gbif.org/extension/ggbn/materialsample.xml): contains data about [material samples](/Editor_Guide/Editing_Searching_Records/material_samples/) related to occurrences. As with all extensions, there is often a one-to-many relationship between occurrences and material samples, with one occurrence related to many material samples.
+* [**materialSample**](https://rs.gbif.org/extension/ggbn/materialsample.xml) : contient des données sur les [échantillons de matériel](/Editor_Guide/Editing_Searching_Records/material_samples/) liés aux occurrences. Comme pour toutes les extensions, il existe souvent une relation de type « un-à-plusieurs » entre les occurrences et les échantillons de matériel, une occurrence étant liée à plusieurs échantillons.
 
-* [**identifiers**](https://rs.gbif.org/extension/gbif/1.0/identifier.xml): contains any alternative identifier values belonging to the occurrences, as stored in the "Tag Name / Alternative Identifier Values" table ([see this article](/Editor_Guide/Editing_Searching_Records/catalog_numbers)). Other catalog numbers, accession numbers, or anything else recorded in the 'Additional Identifier' fields is exported into this extension.
+* [**identifiers**](https://rs.gbif.org/extension/gbif/1.0/identifier.xml) : contient toutes les valeurs d'identifiants alternatifs associés aux occurrences, telles qu'elles sont stockées dans le tableau « Nom de balise / Valeurs d'identifiant alternatif ​​» ([voir cet article](/Editor_Guide/Editing_Searching_Records/catalog_numbers)). Les autres numéros de catalogue, numéros d'acquisition ou toute autre information enregistrée dans les champs « Identifiant supplémentaire » sont exportés dans cette extension.
