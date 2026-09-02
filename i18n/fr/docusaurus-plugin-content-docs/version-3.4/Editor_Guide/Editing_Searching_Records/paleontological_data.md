@@ -1,5 +1,5 @@
 ---
-title: "Fossil Specimen Data"
+title: "Données sur le spécimen fossile"
 date: 2025-07-22
 lastmod: 2025-10-13
 authors: ["Lindsay Walker"]
@@ -10,83 +10,81 @@ keywords: ["paleontology", "paleo", "fossil", “geological context”]
 
 :::info
 
-This page describes how to add and edit data associated with fossil specimen occurrences. The features described on this page will only be visible if features related to paleontological collections have been configured in your portal.
+Cette page explique comment ajouter et modifier des données associées aux occurrences de spécimens fossiles. Les fonctionnalités décrites ici ne seront visibles que si les options relatives aux collections paléontologiques ont été configurées sur votre portail.
 
 :::
 
 :::info
 
-⚠️ **Fossil specimens have distinct data requirements from recent biological ("[neontological](https://www.merriam-webster.com/dictionary/neontology)") collections.** For discipline-specific advice regarding the digitization and general management of paleontological collections data, please refer to the [Paleo Data Knowledge Hub](https://paleo-data.github.io).
+⚠️ **Les spécimens fossiles nécessitent des données différentes de celles des collections biologiques récentes (ou « [néontologiques](https://www.merriam-webster.com/dictionary/neontology) »).** Pour obtenir des conseils spécifiques à la discipline concernant la numérisation et la gestion générale des données de collections paléontologiques, veuillez consulter le [Paleo Data Knowledge Hub](https://paleo-data.github.io).
 
 :::
 
-## Orientation
+## Présentation
 
-![Paleo Module](/img/occeditor_paleo2025.png)
-Information specific to fossil specimens, such as geological age and rock units, can be recorded in the "Paleontology" section of the Occurrence Editor form, which is informally referred to as the "Paleo Module". Before entering data associated with fossil specimens, Data Editors should review the [associated data field definitions](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#paleontology). Additional guidance on direct data entry specific to fossil specimens (for this module, as well as the entirety of the Occurrence Editor) is maintained in the [Paleo Data Knowledge Hub](https://paleo-data.github.io/how-to-guides/manage-data-about-specimens-using-symbiota).
+![Module Paléo](/img/occeditor_paleo2025.png)
+Les informations spécifiques aux spécimens fossiles, telles que l'âge géologique et les unités lithostratigraphiques, peuvent être saisies dans la section « Paléontologie » du formulaire de l'Éditeur d'occurrences (souvent appelé familièrement « module Paléo »). Avant de saisir des données relatives aux spécimens fossiles, les éditeurs de données sont invités à consulter les [définitions des champs de données associés](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#paleontology). Des instructions supplémentaires sur la saisie directe de données spécifiques aux fossiles (pour ce module comme pour l'ensemble de l'Éditeur d'occurrences) sont disponibles sur le [Paleo Data Knowledge Hub](https://paleo-data.github.io/how-to-guides/manage-data-about-specimens-using-symbiota).
 
-## Entering chronostratigraphic data
-Data related to geological time (e.g., chronostratigraphic/chronometric data) can be captured using several fields, including: _[Early Interval](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval)_, _[Late Interval](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval)_, _[Absolute Age](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#absolute-age)_, and _[Local Stage](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#local-stage)_.
+## Saisie de données chronostratigraphiques
+Les données relatives au temps géologique (par ex. données chronostratigraphiques ou chronométriques) peuvent être saisies dans plusieurs champs, notamment : _[Early Interval](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval)_ (Intervalle de début), _[Late Interval](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval)_ (Intervalle de fin), _[Absolute Age](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#absolute-age)_ (Âge absolu) et _[Local Stage](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#local-stage)_ (Étage local).
 
-![Public Record View](/img/occeditor_paleogeotime2025.png)
+![Vue des données publiques](/img/occeditor_paleogeotime2025.png)
 
-In order to promote data interoperability, _Early Interval_ and _Late Interval_ rely on a controlled vocabulary standardized within a given Symbiota portal. Unless your Portal Manager has indicated differently, the default values for this table are based on the [International Commission on Stratigraphy's (ICS) Chronostratigraphic Chart](https://stratigraphy.org/chart).
+Afin de favoriser l'interopérabilité des données, les champs *Early Interval* (intervalle de début) et *Late Interval* (intervalle de fin) reposent sur un vocabulaire contrôlé et normalisé au sein d'un portail Symbiota donné. Sauf indication contraire de la part de l'administrateur de votre portail, les valeurs par défaut pour ce tableau sont basées sur l'**Échelle chronostratigraphique internationale** de la Commission internationale de stratigraphie (ICS) ([stratigraphy.org/chart](https://stratigraphy.org/chart)).
 
-There are several important things to know before entering data associated with the geological time:
-- Every _Early Interval_ value entered should have a corresponding _Late Interval_ value, even if the values are the same.
-- Values entered into _Early Interval_ and _Late Interval_ should be logical, i.e. the _Early Interval_ value should be either the same as or geologically older than the _Late Interval value_.
-- Once entered correctly, a table will appear to display the higher-ranking values that have been backfilled by your portal (e.g., eon, era, etc.). If a value that does not comply with the portal’s underlying geological time vocabulary, the table will not display and an error message may appear.
-Again, refer to the [ICS time scale](https://stratigraphy.org/chart) when entering these values unless directed differently by your Portal Manager. Note that `Late` is preferred over `Upper` and `Early` is preferred over `Lower` (e.g., `Late Cretaceous` is the preferred value over `Upper Cretaceous`). 
+Voici quelques points importants à connaître avant de saisir des données relatives au temps géologique :
+- Chaque valeur saisie dans *Early Interval* doit avoir une valeur correspondante dans *Late Interval*, même si les deux valeurs sont identiques.
+- Les valeurs saisies dans *Early Interval* et *Late Interval* doivent être logiques ; autrement dit, la valeur *Early Interval* doit être identique à la valeur *Late Interval* ou géologiquement plus ancienne qu'elle.
+- Une fois la saisie effectuée correctement, un tableau s'affichera pour présenter les valeurs de rang supérieur automatiquement renseignées par le portail (par ex. : éon, ère, etc.). Si une valeur saisie n'est pas conforme au vocabulaire des temps géologiques utilisé par le portail, le tableau ne s'affichera pas et un message d'erreur pourrait apparaître.
+Encore une fois, veuillez vous référer à l'échelle des temps géologiques de l'ICS ([stratigraphy.org/chart](https://stratigraphy.org/chart)) lors de la saisie de ces valeurs, sauf instruction contraire de l'administrateur de votre portail. Notez que les termes « Late » (récent/supérieur) et « Early » (ancien/inférieur) sont privilégiés par rapport à « Upper » et « Lower » (par ex. : « Late Cretaceous » est préférable à « Upper Cretaceous »).
 
-For example:
-| _Early Interval_ | _Late Interval_ | note |
+Exemple :
+| *Early Interval* | *Late Interval* | Remarque |
 | - | - | - |
-| `Eocene` | `Oligocene` | ✅ correct data entry |
-| `Eocene` | `Eocene` | ✅ correct data entry |
-| `Oligocene` | `Eocene` | ❌ illogical order |
-| `Eocene` | (null/blank) | ❌ null values not allowed |
-| (null/blank) | `Oligocene` | ❌ null values not allowed |
+| `Eocene` | `Oligocene` | ✅ Saisie correcte |
+| `Eocene` | `Eocene` | ✅ Saisie correcte |
+| `Oligocene` | `Eocene` | ❌ Ordre illogique |
+| `Eocene` | (vide/null) | ❌ Valeurs nulles non autorisées |
+| (vide/null) | `Oligocene` | ❌ Valeurs nulles non autorisées |
 
 :::tip
 
-A warning will appear if the values for _Early Interval_ and _Later Interval_ are entered incorrectly.
+Un avertissement s'affichera si les valeurs saisies pour *Early Interval* et *Late Interval* sont incorrectes.
 
 :::
 
-### What if I have a geological time-related value that doesn’t appear in the list?
-Many fossil specimens are accompanied by labels, field notes, and other primary data sources containing values will not appear in the controlled vocabularies specified for _Early Interval_ and _Late Interval_. For example, this includes values that are regionally restricted (e.g. `Wolfcampian`), no longer accepted (e.g. `Tertiary`, `Late Permian`), informally used (e.g. `Precambrian`), and/or indicate uncertainty (e.g., `Cretaceous?`), among other possible scenarios. This information is important and should be recorded; however, it should **not** be captured using Symbiota’s _Early_- and _Late Interval_ fields, as described above. **Refer to the instructions below for guidance on how to deal with values that do not appear in the _Early_- or _Late Interval_ lists.**
+### Que faire si je dispose d'une valeur liée au temps géologique qui ne figure pas dans la liste ?
+De nombreux spécimens de fossiles sont accompagnés d'étiquettes, de notes de terrain et d'autres sources de données primaires contenant des valeurs qui n'apparaissent pas dans les vocabulaires contrôlés définis pour les champs *Early Interval* (Intervalle de début) et *Late Interval* (Intervalle de fin). Il peut s'agir, par exemple, de valeurs à portée régionale (ex. : `Wolfcampian`), de termes obsolètes (ex. : `Tertiary`, `Late Permian`), d'usages informels (ex. : `Precambrian`) ou de mentions indiquant une incertitude (ex. : `Cretaceous?`), entre autres cas de figure. Ces informations sont importantes et doivent être consignées ; toutefois, elles ne doivent **pas** être saisies dans les champs *Early Interval* et *Late Interval* de Symbiota, comme expliqué précédemment. **Veuillez consulter les instructions ci-dessous pour savoir comment traiter les valeurs qui ne figurent pas dans les listes *Early Interval* ou *Late Interval*.**
 
-#### Regionally accepted values
-Values from regionally accepted time scales (such as those in [these lists](https://paleobiodb.org/classic/displayTimescale?type=list)) should be recorded using _[Local Stage](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#local-stage)_. In addition to using _Local Stage_ to record regionally accepted terms, indicating time-equivalent values using _Early Interval_ and _Late Interval_ will make your records more broadly discoverable (within and beyond Symbiota).
+#### Valeurs acceptées au niveau régional
+Les valeurs issues d'échelles de temps acceptées régionalement (comme celles figurant dans [ces listes](https://paleobiodb.org/classic/displayTimescale?type=list)) doivent être saisies dans le champ *[Local Stage](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#local-stage)* (Étage local). Outre l'utilisation de *Local Stage* pour enregistrer ces termes régionaux, indiquer les valeurs chronologiquement équivalentes dans les champs *Early Interval* et *Late Interval* permettra une meilleure visibilité de vos enregistrements (au sein de Symbiota comme à l'extérieur).
 
-For example:
-| _Early Interval_ | _Late Interval_ | **_Local Stage_** |  explanation |
+Exemples :
+| *Early Interval* | *Late Interval* | **_Local Stage_** | Explication |
 | - | - | - | - |
-| `Asselian` | `Asselian` | `Nealian` | `Nealian` is specific to the Permian of North America |
-| `Tremadocian` | `Tremadocian` | `Tremadoc` | `Tremadoc` is specific to the Ordovician of Great Britain |
-| `Ypresian` | `Lutetian` | `Wasatchian-Bridgerian` | `Watsatchian` and `Bridgerian` are land mammal ages specific to North America |
+| `Asselian` | `Asselian` | `Nealian` | `Nealian` est spécifique au Permien d'Amérique du Nord |
+| `Tremadocian` | `Tremadocian` | `Tremadoc` | `Tremadoc` est spécifique à l'Ordovicien de Grande-Bretagne |
+| `Ypresian` | `Lutetian` | `Wasatchian-Bridgerian` | `Wasatchian` et `Bridgerian` sont des âges basés sur les mammifères terrestres, spécifiques à l'Amérique du Nord | #### Incertitude, valeurs non normalisées et cas similaires
+En l'absence de terme normalisé approprié pour consigner ces données, les valeurs textuelles brutes (telles qu'elles apparaissent à la source) indiquant une incertitude ou une terminologie obsolète doivent être saisies dans le champ _Stratigraphic Remarks_ sous la forme d'un couple clé-valeur (illustré ci-dessous) afin de permettre un traitement informatique ultérieur.
 
-#### Uncertainty, unaccepted values, and similar scenarios
-In the absence of an appropriate, standard-based term to record these data, verbatim values that record uncertainty and antiquated information should be captured in _Stratigraphic Remarks_ as a key:value pair (demonstrated below) to enable future parsing.
-
-For example:
+Par exemple :
 | _Early Interval_ | _Late Interval_ | **_Stratigraphic Remarks_** |
 | - | - | - |
 | `Late Miocene` | `Late Miocene` | `[VERBATIM CHRONOSTRATIGRAPHY: Upper Mio?]` |
 | `Permian` | `Permian` | `[VERBATIM CHRONOSTRATIGRAPHY: Late Permian?]` |
 | `Paleogene` | `Neogene` | `[VERBATIM CHRONOSTRATIGRAPHY: Tertiary]` |
 
-## Querying fossil specimen data
-When a portal is configured for managing and sharing fossil specimen data, geological context data associated with fossil collections can be queried by:
-1) Using your portal's public search form and Map Search interface ([instructions](/User_Guide/searching_records#geological-context))
-2) Using the Data Editor search form ([instructions](/Editor_Guide/Editing_Searching_Records/))
+## Interroger les données sur les spécimens de fossiles
+Lorsqu'un portail est configuré pour la gestion et le partage de données sur des spécimens de fossiles, il est possible d'interroger les données de contexte géologique associées aux collections de fossiles :
+1) En utilisant le formulaire de recherche publique et l'interface de recherche cartographique de votre portail ([instructions](/User_Guide/searching_records#geological-context))
+2) En utilisant le formulaire de recherche de l'éditeur de données ([instructions](/Editor_Guide/Editing_Searching_Records/))
 
 :::tip
 
-The main difference between using the publicly visible search forms versus the Data Editor search form to retrieve fossil specimen records is how they retrieve data associated with geological time (i.e., _Early Interval_, _Late Interval_). Specifically, the public search forms will produce **time-inclusive** search results, whereas the Data Editor search form will produce **literal** search results.
+La principale différence entre l'utilisation des formulaires de recherche publics et celle du formulaire de recherche de l'éditeur de données pour récupérer des notices de spécimens fossiles réside dans la manière dont ils traitent les données liées au temps géologique (c.-à-d. *Early Interval* et *Late Interval*). Plus précisément, les formulaires de recherche publics produisent des résultats **incluant les subdivisions temporelles**, tandis que le formulaire de recherche de l'éditeur de données produit des résultats **littéraux** (correspondance exacte).
 
-For example:
-- If you want to find all records where "Paleocene" was the literal/actual value entered for _Early Interval_ or _Late Interval_, use the Data Editor search form.
-- If you want to find all records associated with the Paleocene epoch, use the public search form, which will return not only records where _Early Interval_ (or _Late Interval_) was entered as as "Paleocene", but also records entered as "Danian" or any other geological time intervals [contained within the Paleocene](https://stratigraphy.org/chart/?target=ischart:Paleocene).
+Par exemple :
+- Si vous souhaitez trouver toutes les notices où « Paléocène » est la valeur littérale/réelle saisie pour *Early Interval* ou *Late Interval*, utilisez le formulaire de recherche de l'éditeur de données.
+- Si vous souhaitez trouver toutes les notices associées à l'époque du Paléocène, utilisez le formulaire de recherche publique ; celui-ci renverra non seulement les notices où « Paléocène » a été saisi pour *Early Interval* (ou *Late Interval*), mais aussi celles saisies comme « Danien » ou tout autre intervalle de temps géologique [inclus dans le Paléocène](https://stratigraphy.org/chart/?target=ischart:Paleocene).
 
 :::

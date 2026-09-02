@@ -1,5 +1,5 @@
 ---
-title: "Adding Records from Images"
+title: "Ajout d'enregistrements à partir d'images"
 date: 2021-10-22
 lastmod:  2026-03-30
 draft: false
@@ -9,12 +9,12 @@ keywords: ["add", "create"]
 
 :::info
 
-This page describes how to add a new record by uploading a single image.
+Cette page explique comment ajouter une nouvelle fiche en téléversant une image unique.
 
 :::
 
-Using this tool, you can upload (or enter a URL to) an image that will establish a new occurrence record. Navigate to the Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_), and select Create New Records Using Image (nested under Add New Occurrence Record). To upload an image, click the Choose File button and select the image you wish to upload. To use a URL, click the Enter URL link on the right side of the form.
+Grâce à cet outil, vous pouvez téléverser une image (ou saisir une URL pointant vers celle-ci) afin de créer une nouvelle fiche d'occurrence. Accédez au panneau de contrôle de l'éditeur de données (_cliquez sur « Mon profil », puis sur le nom de la collection dans le bloc « Gestion des collections »_) et sélectionnez « Créer de nouvelles fiches à partir d'une image » (sous la rubrique « Ajouter une nouvelle fiche d'occurrence »). Pour téléverser une image, cliquez sur le bouton « Choisir un fichier » et sélectionnez l'image souhaitée. Pour utiliser une URL, cliquez sur le lien « Saisir une URL » situé à droite du formulaire.
 
-![Add Record from Image Form](/img/addfromimage.png)
+![Formulaire d'ajout de fiche à partir d'une image](/img/addfromimage.png)
 
-Before upload, you can also define the processing status of the new record and enter any skeletal data for the record, including Catalog Number, Scientific Name, Country, State/Province, and County. Checking the box next to OCR Text using Tesseract OCR engine (if applicable) will run optical character recognition on the image that will attempt to parse text from the image that can potentially be used to fill out the remaining fields in the future.
+Avant le téléversement, vous pouvez également définir le statut de traitement de la nouvelle fiche et saisir des informations de base, telles que le numéro de catalogue, le nom scientifique, le pays, l'État ou la province, ainsi que le comté. En cochant la case « Texte OCR via le moteur Tesseract » (le cas échéant), vous lancez une reconnaissance optique de caractères (OCR) sur l'image ; le système tentera d'en extraire du texte susceptible d'être utilisé ultérieurement pour remplir les champs restants.

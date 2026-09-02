@@ -1,5 +1,5 @@
 ---
-title: "Downloading a Subset of Your Data"
+title: "Téléchargement d'un sous-ensemble de vos données"
 date: 2025-07-22
 lastmod:  2026-01-30
 authors: ["Katie Pearson"]
@@ -7,8 +7,8 @@ editors:
 keywords: ["export","custom download"]
 ---
 
-You can download a specialized subset of your data directly from the [Record Search Form](/Editor_Guide/Editing_Searching_Records/). Conduct your search, then click the button with the download icon (![Download Icon](/img/dl.png)) to download the search results.
+Vous pouvez télécharger un sous-ensemble spécifique de vos données directement depuis le [formulaire de recherche d'enregistrements](/Editor_Guide/Editing_Searching_Records/). Effectuez votre recherche, puis cliquez sur le bouton portant l'icône de téléchargement (![Icône de téléchargement](/img/dl.png)) pour télécharger les résultats.
 
-For more information about your download options, see [this page](/User_Guide/Downloading/download_data#download-options).
+Pour plus d'informations sur les options de téléchargement, consultez [cette page](/User_Guide/Downloading/download_data#download-options).
 
-![Record Search Download](/img/recordsearchdownload.png)
+![Téléchargement de la recherche d'enregistrements](/img/recordsearchdownload.png)

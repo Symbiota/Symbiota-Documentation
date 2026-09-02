@@ -1,5 +1,5 @@
 ---
-title: "OCR"
+title: "ROC"
 date: 2021-12-03
 lastmod: 2026-01-30
 draft: false
@@ -10,22 +10,22 @@ weight: 40
 
 :::info
 
-This page describes the use of Optical Character Recognition (OCR) to parse text from images using automation.
+Cette page décrit l'utilisation de la reconnaissance optique de caractères (OCR) pour extraire du texte à partir d'images de manière automatisée.
 
 :::
 
-Optical Character Recognition (OCR) is the use of computer algorithms to detect text information from images. If OCR tools are activated in your Symbiota portal, you can use OCR to attempt to parse textual information from pictures of, e.g., specimen labels and enter data into the appropriate fields from there. Instructions for using OCR in the Occurrence Editor are provided below. For batch OCR workflows, see the [OCR page in the Collection Manager Guide](/Collection_Manager_Guide/Editing_Occurrences/batch_ocr).
+La reconnaissance optique de caractères (OCR) consiste à utiliser des algorithmes informatiques pour détecter des informations textuelles dans des images. Si les outils OCR sont activés sur votre portail Symbiota, vous pouvez les utiliser pour tenter d'extraire des informations textuelles à partir de photos (par exemple, des étiquettes de spécimens) et saisir directement les données dans les champs appropriés. Les instructions pour utiliser l'OCR dans l'éditeur d'occurrences sont fournies ci-dessous. Pour les procédures OCR par lots, consultez la [page OCR du Guide du gestionnaire de collection](/Collection_Manager_Guide/Editing_Occurrences/batch_ocr).
 
-### Using OCR in the Occurrence Editor
+### Utilisation de l'OCR dans l'éditeur d'occurrences
 
-1. Navigate to the occurrence editor of the specimen you would like to transcribe/OCR. See [this page for help](/Editor_Guide/Editing_Searching_Records/ocr) with this step.
-2. On the right side of the page, under the image, you will find a yellow Options box. Select whether you would like to OCR the whole image and/or whether you would like the portal to analyze the OCR results.
+1. Accédez à l'éditeur d'occurrences du spécimen que vous souhaitez transcrire ou traiter par OCR. Consultez [cette page pour obtenir de l'aide](/Editor_Guide/Editing_Searching_Records/ocr) sur cette étape.
+2. Sur le côté droit de la page, sous l'image, vous trouverez un encadré jaune intitulé « Options ». Indiquez si vous souhaitez appliquer l'OCR à l'image entière et/ou si vous voulez que le portail analyse les résultats de l'OCR.
 
-- If you do not check "OCR Whole Image" the OCR will **only** run on whatever is visible in the viewing panel. Thus, if you would like to OCR only the label of the image, you can zoom in so that only the label is visible.
+- Si vous ne cochez pas l'option « OCR Whole Image » (OCR de l'image entière), l'OCR s'appliquera **uniquement** à la partie visible dans la zone d'affichage. Ainsi, si vous souhaitez effectuer l'OCR uniquement sur l'étiquette de l'image, vous pouvez zoomer pour que seule l'étiquette soit visible.
 
-![OCR in Occurrence Editor](/img/occeditorwithocrbox2026.png)
+![OCR dans l'éditeur d'occurrences](/img/occeditorwithocrbox2026.png)
 
-3. Click the OCR Image button.
-4. After OCR has run, a box will appear below the Options box with the parsed text. From here, you can save the OCR by clicking the Save OCR button and/or you can copy and paste text from the box into the fields in the Occurrence Editor.
+3. Cliquez sur le bouton « OCR Image ».
+4. Une fois l'OCR terminé, un encadré contenant le texte extrait apparaîtra sous la zone « Options ». À partir de là, vous pouvez enregistrer le résultat de l'OCR en cliquant sur le bouton « Save OCR » et/ou copier-coller le texte de l'encadré dans les champs de l'éditeur d'occurrences.
 
-![OCR Results](/img/occeditorwithocr2026.png)
+![Résultats de l'OCR](/img/occeditorwithocr2026.png)

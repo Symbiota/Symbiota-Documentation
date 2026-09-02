@@ -1,5 +1,5 @@
 ---
-title: "Downloading Data"
+title: "Téléchargement des données"
 date: 2021-10-22
 lastmod:  2025-07-22
 authors: ["Katie Pearson"]
@@ -8,6 +8,6 @@ keywords: ["download","Darwin Core", "DwC-A", "Darwin Core Archive"]
 sidebar_position: 60
 ---
 
-As an editor, you can use the [public search and download tools](/User_Guide/Downloading/download_data) or [export from the Record Search Form](/Collection_Manager_Guide/Downloading/downloading_subset).
+En tant qu'éditeur, vous pouvez utiliser les [outils publics de recherche et de téléchargement](/User_Guide/Downloading/download_data) ou effectuer une [exportation depuis le formulaire de recherche d'enregistrements](/Collection_Manager_Guide/Downloading/downloading_subset).
 
-Alternatively, you can download the entire Darwin Core Archive of your data (through the public search or [these instructions](/Editor_Guide/Downloading_Data/downloading_darwin_core_archive)) and conduct a search in the occurrences.csv file using a spreadsheet editor.
+Vous pouvez également télécharger l'intégralité de l'archive Darwin Core de vos données (via la recherche publique ou en suivant [ces instructions](/Editor_Guide/Downloading_Data/downloading_darwin_core_archive)) et effectuer une recherche dans le fichier `occurrences.csv` à l'aide d'un tableur.

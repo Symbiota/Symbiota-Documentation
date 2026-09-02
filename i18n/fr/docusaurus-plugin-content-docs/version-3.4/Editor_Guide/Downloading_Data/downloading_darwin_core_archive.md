@@ -1,5 +1,5 @@
 ---
-title: "Downloading a Full Darwin Core Archive"
+title: "Téléchargement d'une archive Darwin Core complète"
 date: 2021-10-07
 lastmod:  2026-03-30
 authors: ["Katie Pearson"]
@@ -9,21 +9,21 @@ keywords: ["data publishing","Darwin Core", "DwC-A", "Darwin Core Archive"]
 
 :::info
 
-This page describes how you can download Darwin Core Archive files (DwC-A; standard format for data publishing and sharing) from a Symbiota portal.
+Cette page explique comment télécharger des fichiers Darwin Core Archive (DwC-A ; format standard pour la publication et le partage de données) depuis un portail Symbiota.
 
 :::
 
-**If you are an administrator of a collection**, you can download a Darwin Core Archive of your collection in one of two ways:
-* Navigate to your Administration Contol Panel (_click My Profile, then the name of the collection in the Collection Management box_) and click Darwin Core Archive Publishing. If you have already created a DwC-A, click the link next to "DwC-Archive File:". If you have not yet created a DwC-A, [create one](/Collection_Manager_Guide/Data_Publishing/creating_dwca).
-* Navigate to your Administration Contol Panel (_click My Profile, then the name of the collection in the Collection Management box_) and click Download Data Backup file. The backup file will be in the format of a Darwin Core Archive, but all specimens will be included in the file, even if they don't have unique GUIDs.
+**Si vous êtes administrateur d'une collection**, vous pouvez télécharger une archive Darwin Core de votre collection de deux manières :
+* Accédez à votre panneau de contrôle d'administration (*cliquez sur « Mon profil », puis sur le nom de la collection dans le bloc « Gestion des collections »*) et cliquez sur « Publication d'archive Darwin Core » (Darwin Core Archive Publishing). Si vous avez déjà créé une archive DwC-A, cliquez sur le lien situé à côté de « DwC-Archive File : ». Si vous n'avez pas encore créé d'archive DwC-A, [créez-en une](/Collection_Manager_Guide/Data_Publishing/creating_dwca).
+* Accédez à votre panneau de contrôle d'administration (*cliquez sur « Mon profil », puis sur le nom de la collection dans le bloc « Gestion des collections »*) et cliquez sur « Télécharger le fichier de sauvegarde des données » (Download Data Backup file). Le fichier de sauvegarde sera au format Darwin Core Archive, mais tous les spécimens y seront inclus, même s'ils ne possèdent pas d'identifiant unique (GUID).
 
-**If you are not an administrator of a collection, or you would like to download a DwC-A of another collection**:
-1. Navigate to the Sitemap of the portal (generally an option on the menu).
-2. Under "Collections", click Darwin Core Archives (DwC-A).
-3. Find the collection for which you would like to download a DwC-A and click the link in the DwC-A column. The size of the file will be displayed in parentheses.
+**Si vous n'êtes pas administrateur d'une collection, ou si vous souhaitez télécharger l'archive DwC-A d'une autre collection** :
+1. Accédez au plan du site (généralement une option du menu).
+2. Sous la rubrique « Collections », cliquez sur « Archives Darwin Core (DwC-A) ».
+3. Recherchez la collection pour laquelle vous souhaitez télécharger une archive DwC-A et cliquez sur le lien dans la colonne « DwC-A ». La taille du fichier s'affichera entre parenthèses.
 
 :::tip
 
-For more information about your download options, see [this page](/User_Guide/Downloading/download_data#download-options).
+Pour plus d'informations sur les options de téléchargement, consultez [cette page](/User_Guide/Downloading/download_data#download-options).
 
 :::

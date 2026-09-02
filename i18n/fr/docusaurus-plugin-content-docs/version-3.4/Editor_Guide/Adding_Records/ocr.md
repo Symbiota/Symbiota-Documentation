@@ -1,5 +1,5 @@
 ---
-title: "OCR"
+title: "ROC"
 date: 2021-12-03
 lastmod: 2021-11-30
 draft: false
@@ -10,18 +10,20 @@ keywords:
 sidebar_position: 17
 ---
 
-El Reconocimiento Óptico de Caracteres (OCR) es el uso de algoritmos de computadora para detectar información de texto a partir de imágenes. Si las herramientas OCR están activadas en su portal Symbiota, puede utilizar OCR para intentar analizar información textual a partir de imágenes de (por ejemplo) etiquetas de especímenes, para introducir datos en los campos apropiados. Instrucciones para usar OCR en el Editor de Ocurrencias son presentados abajo. Para protocolos de trabajo con ORC por lote, ver [página OCR en la Guía para Encargados de Colecciones](/Collection_Manager_Guide/batch_ocr).
+La reconnaissance optique de caractères (OCR) utilise des algorithmes informatiques pour extraire des informations textuelles d'images. Si les outils OCR sont activés dans votre portail Symbiota, vous pouvez les utiliser pour analyser les informations textuelles d'images (par exemple, d'étiquettes d'échantillons) afin de saisir les données dans les champs appropriés. Les instructions d'utilisation de l'OCR dans l'éditeur d'occurrences sont présentées ci-dessous. Pour les protocoles d'OCR par lots, consultez la page OCR du Guide du gestionnaire de collections.
 
-### Usando OCR en el Editor de Ocurrencias
+### Utilisation de l'OCR dans l'éditeur d'occurrences
 
-1. Navegue al editor de ocurrencias del espécimen que le gustaría transcribir/OCR. Ver [esta página para más ayuda](/Editor_Guide/Editing_Searching_Records) con este paso.
-2. En el lado derecho de la página, bajo imagen, verá un ventana amarilla de Opciones. Seleccione si le gustaría realizar OCR la imagen completa y/o si prefiere que el portal analice los resultados OCR.
+1. Accédez à l'éditeur d'occurrences de l'échantillon que vous souhaitez transcrire/OCR. Consultez cette page pour obtenir de l'aide concernant cette étape.
 
-- Si no marca "OCR Imagen Completa" el OCR **únicamente** analizará lo que esté fisible en el panel. Entonces, si quisiera analizar únicamente la etiqueta con OCR, puede hacer zoom en la imagen para que solo la etiqueta sea visible, luego haga click en OCR Imágen.
+2. Sur la droite de la page, sous l'image, vous verrez une fenêtre d'options jaune. Choisissez si vous souhaitez effectuer l'OCR sur l'image entière et/ou si vous préférez que le portail analyse les résultats de l'OCR.
 
-![OCR en el Editor de Ocurrencias](/img/occeditorwithocrbox.png)
+- Si vous ne sélectionnez pas « OCR de l'image entière », l'OCR analysera **uniquement** ce qui est visible dans le panneau. Par conséquent, si vous souhaitez uniquement analyser l'étiquette avec la reconnaissance optique de caractères (OCR), vous pouvez zoomer sur l'image afin que seule l'étiquette soit visible, puis cliquer sur « OCR Image ».
 
-3. Haga click en el botón OCR Imagen.
-4. Después de haber corrido el OCR, una ventana aparecerá abajo de la ventana de Opciones, con el texto analizado. A partir de aquí, puede guardar el OCR haciendo click en el botón Guardar OCR y/o puede copiar y pegar el texto de la caja en los campos del Editor de Ocurrencias.
+![OCR dans l'éditeur d'occurrences](/img/occeditorwithocrbox.png)
 
-![Resultados OCR](/img/occeditorwithocr.png)
+3. Cliquez sur le bouton « OCR Image ».
+
+4. Une fois l'OCR effectuée, une fenêtre s'affiche sous la fenêtre « Options », présentant le texte analysé. Vous pouvez alors enregistrer l'OCR en cliquant sur le bouton « Enregistrer l'OCR » et/ou copier-coller le texte depuis la zone de texte dans les champs de l'éditeur d'occurrences.
+
+![Résultats de l'OCR](/img/occeditorwithocr.png)

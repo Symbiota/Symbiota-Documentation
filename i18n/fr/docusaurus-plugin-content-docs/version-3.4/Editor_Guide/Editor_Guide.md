@@ -1,15 +1,15 @@
 ---
-title: "Editor Guide"
+title: "Guide de l'éditeur"
 date: 2021-10-06
 lastmod: 2021-10-06
 sidebar_position: 30
 authors: ["Katie Pearson","Laura Rocha Prado"]
 ---
 
-#### Welcome to the Editor Guide!
+#### Bienvenue dans le guide de l'éditeur !
 
-This guide contains instructions for users with **Editor** permissions for a collection in a Symbiota site.
+Ce guide contient des instructions destinées aux utilisateurs disposant d'autorisations de type **Éditeur** pour une collection sur un site Symbiota.
 
-Users with Administrator permissions automatically inherit Editor permissions as well, but not vice versa, so much of this content pertains to Administrators as well.
+Les utilisateurs disposant d'autorisations d'Administrateur héritent automatiquement de celles d'Éditeur (mais l'inverse n'est pas vrai) ; par conséquent, une grande partie de ce contenu s'applique également aux administrateurs.
 
-Not sure what level of permissions you are working with? See the [User Permissions](/User_Guide/user_permissions) page.
+Vous ne savez pas quel est votre niveau d'autorisation ? Consultez la page [Autorisations des utilisateurs](/User_Guide/user_permissions).

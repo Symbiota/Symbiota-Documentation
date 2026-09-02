@@ -1,5 +1,5 @@
 ---
-title: "Catalog Numbers"
+title: "Numéros de catalogue"
 date: 2022-02-28
 lastmod: 2026-01-30
 sidebar_position: 30
@@ -18,46 +18,44 @@ keywords:
 
 :::info
 
-This page describes the usage of Catalog Numbers and Other Catalog Numbers in Symbiota portals.
+Cette page décrit l'utilisation des champs « Catalog Number » (Numéro de catalogue) et « Other Catalog Numbers » (Autres numéros de catalogue) dans les portails Symbiota.
 
 :::
 
-### Catalog Numbers
+### Numéros de catalogue (Catalog Numbers)
 
-Catalog numbers are important to assign to each record because they act as unique identifiers for each record. This field should be used to store the barcode or the accession number (herbaria only). This field should be unique for each collection, for example, by including the collection acronym (e.g., ASU00012345, WIS-L-001456). Use of leading zeros is recommended to enable correct sorting in the Symbiota interface.
+Il est important d'attribuer un numéro de catalogue à chaque enregistrement, car il sert d'identifiant unique. Ce champ doit être utilisé pour enregistrer le code-barres ou le numéro d'acquisition (pour les herbiers uniquement). Ce numéro doit être unique au sein de chaque collection ; pour ce faire, on peut par exemple inclure l'acronyme de la collection (ex. : ASU00012345, WIS-L-001456). L'utilisation de zéros non significatifs (zéros de remplissage) est recommandée pour permettre un tri correct dans l'interface Symbiota.
 
-### Tag Name / Additional Identifier Values (= Other Catalog Numbers)
+### Nom de l'étiquette / Valeur de l'identifiant supplémentaire (= Autres numéros de catalogue)
 
-Because specimens may be associated with multiple catalog numbers / identifiers, Symbiota portals have a tool that allows multiple values for Other Catalog Number. In the Occurrence Editor, this tool is located to the right of the Catalog Number field, and it includes boxes for "Tag Names" and "Additional Identifier Values".
+Comme les spécimens peuvent être associés à plusieurs numéros de catalogue ou identifiants, les portails Symbiota disposent d'un outil permettant de saisir plusieurs valeurs pour le champ « Other Catalog Number » (Autre numéro de catalogue). Dans l'éditeur d'occurrence (Occurrence Editor), cet outil se trouve à droite du champ « Catalog Number » et comprend des cases pour le « Tag Name » (Nom de l'étiquette) et la « Additional Identifier Value » (Valeur de l'identifiant supplémentaire).
 
-![Other Catalog Numbers](/img/othercatalognumbertag2026.png)
+![Autres numéros de catalogue](/img/othercatalognumbertag2026.png)
 
-The **Tag Name** field is an _optional_ field that can be used to label the type of identifier being applied to the specimen. Tag Names are generally collection-specific (i.e., there are no recommended values). Common tags may include: Previous Catalog Number, Old Catalog #, Accession Number, NPS #, NPS Accession #, Secondary OccurrenceID, etc. The **Tag Name** field can be left blank if you do not wish to label the type of Other Catalog Number / Identifier.
+Le champ **Tag Name** (Nom de l'étiquette) est un champ _facultatif_ permettant d'indiquer le type d'identifiant attribué au spécimen. Les noms d'étiquettes sont généralement propres à chaque collection (il n'existe pas de valeurs recommandées). Parmi les étiquettes courantes, on peut citer : Previous Catalog Number (Ancien numéro de catalogue), Old Catalog #, Accession Number (Numéro d'acquisition), NPS #, NPS Accession #, Secondary OccurrenceID, etc. Vous pouvez laisser le champ **Tag Name** vide si vous ne souhaitez pas préciser le type d'identifiant ou d'autre numéro de catalogue.
 
-The **Additional Identifier Value** field is where you can enter the alphanumeric value of the Other Catalog Number / Additional Identifier. For example, if you have an old accession number of 45678, you can enter "Accession #" in the **Tag Name** field, and 45678 into the **Additional Identifier Value** field. Alternatively, you can leave **Tag Name** blank and only enter a value into the **Additional Identifier Value** field.
+Le champ **Additional Identifier Value** (Valeur de l'identifiant supplémentaire) permet de saisir la valeur alphanumérique de l'autre numéro de catalogue ou de l'identifiant supplémentaire. Par exemple, si vous disposez d'un ancien numéro d'acquisition « 45678 », vous pouvez saisir « Accession # » dans le champ **Tag Name** et « 45678 » dans le champ **Additional Identifier Value**. Vous pouvez également laisser le champ **Tag Name** vide et saisir uniquement une valeur dans le champ **Additional Identifier Value**.
 
 :::note
 
-These tools were released in March 2022 and are under active development. For this reason, some functionalities are still coming online. In particular, searching based on Other Catalog Numbers may produce incomplete results until all values of Other Catalog Number are transferred into the new Tag Name + Additional Identifier Value system.
+Ces outils ont été lancés en mars 2022 et sont en cours de développement actif. Par conséquent, certaines fonctionnalités sont encore en phase de déploiement. En particulier, une recherche fondée sur les « autres numéros de catalogue » peut donner des résultats incomplets tant que toutes les valeurs de ce champ n'auront pas été transférées vers le nouveau système combinant « nom de balise » et « valeur d'identifiant supplémentaire ».
 
 :::
 
-#### How do I search for Other Catalog Numbers?
+#### Comment rechercher des « Autres numéros de catalogue » ?
 
-Values entered in the **Tag Name** + **Additional Identifier Value** system are displayed in the **Other Catalog Number** field in the table display of a regular search. Because the **Tag Name** and **Additional Identifier Value** fields are separated, you can search for values of Other Catalog Number without having to include the tag name of the identifier. For example, if you search for Other Catalog Number "12345", the results would include things like "Accession #: 12345" and "NPS #: 12345". _The search will be conducted based off of the number/value rather than the tag name_.
+Les valeurs saisies dans le système **Nom de l'étiquette** (Tag Name) + **Valeur de l'identifiant supplémentaire** (Additional Identifier Value) s'affichent dans le champ **Autre numéro de catalogue** (Other Catalog Number) lors de l'affichage sous forme de tableau d'une recherche standard. Comme les champs **Nom de l'étiquette** et **Valeur de l'identifiant supplémentaire** sont distincts, vous pouvez rechercher des valeurs d'« Autre numéro de catalogue » sans avoir à inclure le nom de l'étiquette de l'identifiant. Par exemple, si vous recherchez l'« Autre numéro de catalogue » « 12345 », les résultats incluront des éléments tels que « Accession #: 12345 » et « NPS #: 12345 ». _La recherche s'effectuera sur la base du numéro ou de la valeur, plutôt que sur le nom de l'étiquette_.
 
-#### What is the difference between the **Other Catalog Number** field and the **Tag Name** + **Additional Identifier Value** system?
+#### Quelle est la différence entre le champ **Autre numéro de catalogue** et le système **Nom de l'étiquette** + **Valeur de l'identifiant supplémentaire** ?
 
-On the technical side, the Other Catalog Number field was a single text field, and the new Tag Name + Additional Identifier Value is a new table in the Symbiota schema (i.e., database structure). However, to a user, the function of these two systems are essentially the same. The **Tag Name** + **Additional Identifier Value** system was created to facilitate smarter searching for values of Other Catalog Number. Values entered in the **Tag Name** + **Additional Identifier Value** system are displayed in the **Other Catalog Number** field in the table display of a regular search. The Tag Name (if it exists) is listed first, followed by a colon, then the Additional Identifier Value (e.g., "NPS Accession #: 98765). If there are multiple identifiers, they are concatenated into the Other Catalog Number field and separated by semicolons (e.g., "NPS Accession #: 98765; Voucher Number: 12345).
+Sur le plan technique, le champ « Autre numéro de catalogue » était un champ de texte unique, tandis que le nouveau système « Nom de l'étiquette + Valeur de l'identifiant supplémentaire » correspond à une nouvelle table dans le schéma Symbiota (c'est-à-dire la structure de la base de données). Toutefois, pour l'utilisateur, la fonction de ces deux systèmes est essentiellement la même. Le système **Nom de l'étiquette** + **Valeur de l'identifiant supplémentaire** a été créé pour permettre une recherche plus intelligente des valeurs d'« Autre numéro de catalogue ». Les valeurs saisies dans ce système s'affichent dans le champ **Autre numéro de catalogue** lors de l'affichage sous forme de tableau d'une recherche standard. Le nom de l'étiquette (s'il existe) apparaît en premier, suivi d'un deux-points, puis de la valeur de l'identifiant supplémentaire (par ex. : « NPS Accession #: 98765 »). En présence de plusieurs identifiants, ceux-ci sont concaténés dans le champ « Autre numéro de catalogue » et séparés par des points-virgules (par ex. : « NPS Accession #: 98765 ; Voucher Number: 12345 »). #### Comment les **noms d'étiquette** (Tag Names) et les **valeurs d'identifiant supplémentaire** s'affichent-ils lors d'une recherche ?
 
-#### How are **Tag Names** and **Additional Identifier Values displayed** in a search?"
+Les valeurs saisies dans le système **Nom d'étiquette** + **Valeur d'identifiant supplémentaire** apparaissent dans le champ **Autre numéro de catalogue** (Other Catalog Number) lors de l'affichage des résultats d'une recherche standard sous forme de tableau. Le nom d'étiquette (s'il existe) est indiqué en premier, suivi d'un deux-points, puis de la valeur d'identifiant supplémentaire (par ex. « NPS Accession #: 98765 »). En présence de plusieurs identifiants, ceux-ci sont regroupés dans le champ « Autre numéro de catalogue » et séparés par des points-virgules (par ex. « NPS Accession #: 98765; Voucher Number: 12345 »).
 
-Values entered in the **Tag Name** + **Additional Identifier Value** system are displayed in the **Other Catalog Number** field in the table display of a regular search. The Tag Name (if it exists) is listed first, followed by a colon, then the Additional Identifier Value (e.g., "NPS Accession #: 98765). If there are multiple identifiers, they are concatenated into the Other Catalog Number field and separated by semicolons (e.g., "NPS Accession #: 98765; Voucher Number: 12345).
+#### Comment les **noms d'étiquette** et les **valeurs d'identifiant supplémentaire** s'affichent-ils lors du téléchargement des données ?
 
-#### How are **Tag Names** and **Additional Identifier Values displayed** in a data download?"
+Tout comme lors d'une recherche portant sur le champ « Autre numéro de catalogue », les valeurs saisies dans le système **Nom d'étiquette** + **Valeur d'identifiant supplémentaire** apparaissent dans le champ **Autre numéro de catalogue**. Le nom d'étiquette (s'il existe) est indiqué en premier, suivi d'un deux-points, puis de la valeur d'identifiant supplémentaire (par ex. « NPS Accession #: 98765 »). En présence de plusieurs identifiants, ceux-ci sont regroupés dans le champ « Autre numéro de catalogue » et séparés par des points-virgules (par ex. « NPS Accession #: 98765; Voucher Number: 12345 »). C'est également ainsi que les données sont présentées dans une archive Darwin Core.
 
-Just like when you conduct a search on the Other Catalog Numbers field, values entered in the **Tag Name** + **Additional Identifier Value** system are displayed in the **Other Catalog Number** field. The Tag Name (if it exists) is listed first, followed by a colon, then the Additional Identifier Value (e.g., "NPS Accession #: 98765). If there are multiple identifiers, they are concatenated into the Other Catalog Numbers field and separated by semicolons (e.g., "NPS Accession #: 98765; Voucher Number: 12345). This is also how the data are presented in a Darwin Core Archive.
+### Doublons de numéros de catalogue et d'autres numéros de catalogue
 
-### Duplicate Catalog and Other Catalog Numbers
-
-Collection administrators can identify and resolve duplicate catalog numbers or other catalog numbers using the [Data Cleaning Tools](/Collection_Manager_Guide/Data_Cleaning/compare_duplicate_ids).
+Les administrateurs de collection peuvent identifier et résoudre les doublons de numéros de catalogue ou d'autres numéros de catalogue à l'aide des [outils de nettoyage des données](/Collection_Manager_Guide/Data_Cleaning/compare_duplicate_ids).

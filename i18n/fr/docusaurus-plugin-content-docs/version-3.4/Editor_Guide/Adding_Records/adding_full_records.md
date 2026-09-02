@@ -1,5 +1,5 @@
 ---
-title: "Adding Full Records"
+title: "Ajout d'enregistrements complets"
 date: 2021-10-22
 lastmod:  2026-03-30
 draft: false
@@ -9,18 +9,18 @@ keywords: ["add", "create"]
 
 :::info
 
-This page describes where to add a new record by entering the data directly into the portal. For information about batch uploading label information, see [this page](/Collection_Manager_Guide/Importing_Uploading).
+Cette page explique comment ajouter un nouvel enregistrement en saisissant les données directement dans le portail. Pour plus d'informations sur le chargement par lots des données d'étiquette, consultez [cette page](/Collection_Manager_Guide/Importing_Uploading).
 
 :::
 
-Navigate to your Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_). Select Add New Occurrence Record. Enter the specimen information into the provided fields.
+Accédez au panneau de contrôle de l'éditeur de données (_cliquez sur « Mon profil » , puis sur le nom de la collection dans le bloc « Gestion des collections »_). Sélectionnez « Ajouter un nouvel enregistrement d'occurrence » . Saisissez les informations relatives au spécimen dans les champs prévus à cet effet.
 
 :::tip
 
-To learn more about the data fields available in Symbiota, visit [this page](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
+Pour en savoir plus sur les champs de données disponibles dans Symbiota, consultez [cette page](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
 
 :::
 
-Before you click **Add record** to create the new record, you can select one of three options for the next action you will perform, shown below. "Go to New Record and Carryover Locality Information" is useful for entering data from a single collection event that will share locality information. "Remain on Editing Page" should be used when the user wishes to double-check the record or add supplementary information such as media resources (e.g., images) or annotations.
+Avant de cliquer sur **Ajouter l'enregistrement** pour créer la nouvelle fiche, vous pouvez choisir l'une des trois options suivantes pour l'action à venir : « Aller au nouvel enregistrement et reporter les informations de localité » est utile pour saisir des données issues d'une même opération de collecte partageant les mêmes informations de localité. L'option « Rester sur la page d'édition » doit être utilisée lorsque l'utilisateur souhaite vérifier l'enregistrement ou ajouter des informations complémentaires, telles que des ressources multimédias (par ex. des images) ou des annotations.
 
-![Options for Adding Records](/img/newrecordoptions2026.png)
+![Options pour l'ajout d'enregistrements](/img/newrecordoptions2026.png)

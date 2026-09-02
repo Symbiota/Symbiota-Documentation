@@ -1,5 +1,5 @@
 ---
-title: "Adding Skeletal Records"
+title: "Ajout d'enregistrements squelettiques"
 date: 2021-10-22
 lastmod:  2026-03-30
 draft: false
@@ -11,51 +11,51 @@ import ReactPlayer from "react-player";
 
 :::info
 
-This page describes how to use the Skeletal Data Entry tool to quickly add skeletal data to the portal, especially during the process of imaging. It can also be used to create a quick inventory of a collection.
+Cette page explique comment utiliser l'outil de saisie de données minimales (« Skeletal Data Entry ») pour ajouter rapidement des informations de base au portail, notamment lors de la phase d'imagerie. Il peut également servir à réaliser un inventaire rapide d'une collection.
 
 :::
 
-A video overview of using this tool is shown below:
+Une vidéo de présentation de l'outil est disponible ci-dessous :
 
 <ReactPlayer
-  playing={false}
-  controls
-  url="http://www.youtube.com/watch?v=NKSWbL8twzk"
+playing={false}
+controls
+url="http://www.youtube.com/watch?v=NKSWbL8twzk"
 />
 
-This tool can be used to collect basic collection information, for example, during the imaging process. The imaging team can enter the basic collection information shared by the batch of specimens being processed, and each time they scan a barcode into the catalog number field, a record is added to the system with these skeletal data. Complete data can be entered by clicking on the catalog number, but a recommended workflow would be to process the full label data directly from the image of the specimen label at a later stage.
+Cet outil permet de recueillir des informations de base sur la collection, par exemple lors du processus d'imagerie. L'équipe chargée de l'imagerie peut saisir les informations communes au lot de spécimens traité ; ainsi, à chaque lecture d'un code-barres dans le champ « Numéro de catalogue », une fiche contenant ces données minimales est ajoutée au système. Il est possible de saisir l'intégralité des données en cliquant sur le numéro de catalogue, mais la procédure recommandée consiste à traiter les informations complètes de l'étiquette ultérieurement, directement à partir de l'image de celle-ci.
 
-1. To add a skeletal record, navigate to the Add Skeletal Records tool via the Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_). You will see a page like that below.
+1. Pour ajouter une fiche de données minimales, accédez à l'outil « Add Skeletal Records » (Ajouter des fiches minimales) via le panneau de contrôle de l'éditeur de données (_cliquez sur « Mon profil », puis sur le nom de la collection dans la section « Gestion des collections »_). Une page semblable à celle ci-dessous s'affichera.
 
 ![Skeletal Uploader](/img/addskeletal.jpg)
 
-2. To control which fields are shown on the skeletal record entry form, click the Display Option symbol (a small, grey table) located above the Scientific Name field (circled above).
-3. In the dropdown menu of options, check or uncheck the boxes next to the desired fields to be shown. The following fields are commonly recommended for skeletal data entry: Scientific Name, Family, State/Province, and County/Parish.
-4. Select the preferred action that the data entry module will use when a record already exists for a scanned catalog (barcode) number.
+2. Pour choisir les champs à afficher sur le formulaire de saisie, cliquez sur l'icône des options d'affichage (un petit tableau gris) située au-dessus du champ « Scientific Name » (Nom scientifique), entouré dans l'image ci-dessus.
+3. Dans le menu déroulant, cochez ou décochez les cases correspondant aux champs que vous souhaitez afficher. Les champs suivants sont généralement recommandés pour la saisie de données minimales : Nom scientifique, Famille, État/Province et Comté/Paroisse.
+4. Sélectionnez l'action que le module de saisie devra effectuer lorsqu'une fiche existe déjà pour un numéro de catalogue (code-barres) scanné.
 
 :::note
 
-Even if you choose the "Append values to existing records" option, skeletal data will not copy over existing field values.
+Même si vous choisissez l'option « Append values ​​to existing records » (Ajouter des valeurs aux fiches existantes), les données minimales ne remplaceront pas les valeurs déjà présentes dans les champs.
 
 :::
 
-5. If using the fields recommended above, enter the scientific name by beginning to type the name from the specimen label, then selecting the appropriate name from the dropdown list.
-6. If desired and/or possible (given the data provided on the specimen sheet), enter the State/Province and the County/Parish of the specimen if the specimen was collected in the U.S. or Canada. The authorship and family of the name of the taxon will automatically populate if the taxon is in the portal’s taxon table.
-7. Enter the barcode number into the Catalog Number field by clicking inside the Catalog Number field and scanning the barcode of the specimen.
-8. Once all fields are filled, click Add Record.
+5. Si vous utilisez les champs recommandés ci-dessus, saisissez le nom scientifique en commençant par taper le nom figurant sur l'étiquette du spécimen, puis sélectionnez le nom approprié dans la liste déroulante.
+6. Si vous le souhaitez et/ou si cela est possible (selon les informations figurant sur la fiche du spécimen), saisissez l'État/la province et le comté/la paroisse correspondant au lieu de collecte, si le spécimen provient des États-Unis ou du Canada. L'auteur et la famille associés au nom du taxon s'afficheront automatiquement si ce dernier figure dans la table des taxons du portail.
+7. Saisissez le numéro du code-barres dans le champ « Numéro de catalogue » : cliquez dans ce champ, puis scannez le code-barres du spécimen.
+8. Une fois tous les champs remplis, cliquez sur « Ajouter l'enregistrement » .
 
 :::warning
 
-After Add Record is clicked, the data in the Skeletal Data box fields will NOT be cleared. Only the Catalog Number field will be cleared. This is designed to facilitate rapid skeletal data entry for folders of similar specimens (i.e., specimens of the same species). Close attention should be paid to these fields when transitioning between species or specimen localities. It is easy to forget to change the data in these fields.
+Après avoir cliqué sur « Add Record », les données saisies dans les champs de la section « Données de base » ne seront PAS effacées ; seul le champ « Catalog Number » sera vidé. Ce fonctionnement vise à faciliter la saisie rapide de données de base pour des lots de spécimens similaires (par exemple, des spécimens appartenant à la même espèce). Il convient d'être particulièrement vigilant lors du passage d'une espèce ou d'un lieu de collecte à un autre, car il est facile d'oublier de modifier les informations contenues dans ces champs.
 
 :::
 
-![Skeletal Records Added](/img/skeletaladded.png)
+![Enregistrements sommaires ajoutés](/img/skeletaladded.png)
 
 :::tip
 
-In the event that a user needs to edit a previously entered skeletal record, you can click the catalog number of the record as it is listed in the Records box below the Skeletal Data box. Note that this list will disappear if the page is refreshed. You can also add an image or other media resource to the record from this page by clicking the icon to the right of the listed catalog number.
+Si un utilisateur doit modifier un enregistrement sommaire (*skeletal record*) précédemment saisi, il peut cliquer sur le numéro de catalogue de l'enregistrement tel qu'il apparaît dans la liste située sous la zone « Skeletal Data » (Données sommaires). Veuillez noter que cette liste disparaît si la page est actualisée. Depuis cette page, vous pouvez également ajouter une image ou une autre ressource multimédia à l'enregistrement en cliquant sur l'icône située à droite du numéro de catalogue.
 
 :::
 
-Further clarification about the Skeletal Data Entry tool can be found here: [SERNEC Skeletal Data Entry Guide](https://herbarium.appstate.edu/sites/herbarium.appstate.edu/files/sernec-tcn.skeletaldataentryv3.pdf)
+Vous trouverez des précisions supplémentaires sur l'outil de saisie des données sommaires ici : [Guide de saisie des données sommaires SERNEC](https://herbarium.appstate.edu/sites/herbarium.appstate.edu/files/sernec-tcn.skeletaldataentryv3.pdf)

@@ -1,5 +1,5 @@
 ---
-title: "Duplicate Matching"
+title: "Correspondance des doublons"
 date: 2022-11-30
 lastmod: 2026-01-30
 authors: ["Katie Pearson"]
@@ -9,66 +9,66 @@ keywords: ["duplicate", "copy", "transfer"]
 
 :::info
 
-This page describes how to use the Duplicate Matching tool in the occurrence editor to accelerate data entry.
+Cette page explique comment utiliser l'outil de recherche de doublons dans l'éditeur d'occurrences pour accélérer la saisie des données.
 
 :::
 
-The Duplicate Matching tool allows the user to search the entire database (i.e., all collections in the Symbiota portal) for records that share the same collector name, collector number, and date and link them to the record they are entering/editing.
+L'outil de recherche de doublons permet à l'utilisateur d'interroger l'ensemble de la base de données (c'est-à-dire toutes les collections du portail Symbiota) pour trouver des enregistrements partageant le même nom de collecteur, le même numéro de récolte et la même date, puis de les associer à l'enregistrement en cours de saisie ou de modification.
 
-### Searching for duplicates
+### Recherche de doublons
 
-1. [Search for and open a record](/Editor_Guide/Editing_Searching_Records) that you wish to edit, or [add a new record](/Editor_Guide/Adding_Records/adding_full_records).
-2. Enter the name of the collector/observer into the Collector/Observer field, the collector's unique collector number (if applicable) into the Number field, and the date of collection into the Date field (in YYYY-MM-DD format).
-3. Click the "Duplicates" button.
+1. [Recherchez et ouvrez un enregistrement](/Editor_Guide/Editing_Searching_Records) que vous souhaitez modifier, ou [ajoutez un nouvel enregistrement](/Editor_Guide/Adding_Records/adding_full_records).
+2. Saisissez le nom du collecteur/observateur dans le champ « Collector/Observer », le numéro de récolte unique du collecteur (le cas échéant) dans le champ « Number » et la date de récolte dans le champ « Date » (au format AAAA-MM-JJ).
+3. Cliquez sur le bouton « Duplicates ».
 
 :::tip
 
-You can turn an automatic duplicate search on or off using the "Auto search" checkbox. This will conduct a search for duplicates automatically after you enter the collector name, number, and date.
+Vous pouvez activer ou désactiver la recherche automatique de doublons à l'aide de la case à cocher « Auto search ». Une recherche de doublons sera alors effectuée automatiquement après la saisie du nom du collecteur, du numéro et de la date.
 
 :::
 
-There are three possible results of a duplicate search using this tool.
+Trois résultats sont possibles lors d'une recherche de doublons avec cet outil.
 
-##### Possible EXACT Duplicates
+##### Doublons EXACTS possibles
 
-![Possible EXACT Duplicate results](/img/exactdupe.png)
+![Résultats de doublons EXACTS possibles](/img/exactdupe.png)
 
-This result occurs when a record with a matching collector last name, collector number, and date is found in a collection other than the one you are currently working in. This may represent a true duplicate specimen.
+Ce résultat apparaît lorsqu'un enregistrement correspondant au nom de famille du collecteur, au numéro de récolte et à la date est trouvé dans une collection autre que celle sur laquelle vous travaillez actuellement. Il peut s'agir d'un véritable spécimen en double.
 
-##### Possible EXACT Duplicates with NOTICE
+##### Doublons EXACTS possibles avec AVERTISSEMENT
 
-![Possible EXACT Duplicate results within collection](/img/exactdupeincol.png)
+![Résultats de doublons EXACTS possibles au sein de la collection](/img/exactdupeincol.png)
 
-This result occurs when a record with a matching collector last name, collector number, and date is found within the collection you are currently working in. This may represent a true duplicate specimen, if you have them in your collection, or it could represent unintentional duplicate data entry (i.e., an error).
+Ce résultat apparaît lorsqu'un enregistrement correspondant au nom de famille du collecteur, au numéro de récolte et à la date est trouvé au sein de la collection sur laquelle vous travaillez actuellement. Il peut s'agir d'un véritable spécimen en double (si vous en possédez dans votre collection) ou d'une saisie en double involontaire (c'est-à-dire une erreur).
 
-##### Possible Matching Duplicate EVENTS
+##### ÉVÉNEMENTS de récolte correspondants possibles (doublons potentiels)
 
-![Possible Duplicate EVENT results](/img/dupematchevent.png)
+![Résultats d'ÉVÉNEMENTS de récolte correspondants possibles](/img/dupematchevent.png)
 
-This result occurs when a record with a matching collector last name and date was found, but the exact collector number was not found. In this case, the results presented will include collector numbers slightly above and slightly below the number that you entered. These records may still be useful because they may share, e.g., locality data with the record that you are currently entering/editing.
+Ce résultat apparaît lorsqu'un enregistrement correspondant au nom de famille du collecteur et à la date a été trouvé, mais que le numéro de récolte exact n'a pas été trouvé. Dans ce cas, les résultats présentés incluront des numéros de collecteur légèrement supérieurs et légèrement inférieurs à celui que vous avez saisi. Ces enregistrements peuvent tout de même s'avérer utiles, car ils pourraient partager, par exemple, des données de localité avec l'enregistrement que vous êtes en train de saisir ou de modifier.
 
-### Handling duplicate match results
+### Gestion des résultats de recherche de doublons
 
-You will have several options for using the results of the duplicate matching search. These will be listed at the bottom of the duplicate result that has been identified (see example below). You may:
+Vous disposerez de plusieurs options pour utiliser les résultats de la recherche de doublons. Celles-ci seront affichées au bas du résultat identifié comme doublon (voir l'exemple ci-dessous). Vous pouvez :
 
-#### Transfer All Fields
+#### Transférer tous les champs
 
-Transfer the data from all the fields in the identified duplicate specimen or event into the data entry page that you are currently working on. This will replace any data that you have already entered (e.g., if you entered "Luis Gonzalez" in the collector/observer name, and the duplicate had was "Gonzalez, Luis" in this field, "Gonzalez, Luis" would overwrite your previous entry). Clicking this option will transfer the data and close the duplicate matching window.
+Transférer les données de tous les champs du spécimen ou de l'événement identifié comme doublon vers la page de saisie sur laquelle vous travaillez actuellement. Cela remplacera toutes les données que vous avez déjà saisies (par exemple, si vous avez saisi « Luis Gonzalez » dans le champ du nom du collecteur/observateur et que le doublon indiquait « Gonzalez, Luis » pour ce champ, « Gonzalez, Luis » écrasera votre saisie précédente). Cliquer sur cette option transférera les données et fermera la fenêtre de recherche de doublons.
 
-#### Transfer to Empty Fields Only
+#### Transférer uniquement vers les champs vides
 
-Transfer the data from all fields in the identified duplicate specimen or event into the data entry page that you are currently working on, **_unless that field already has data in it_**. Only empty fields will be populated. Your previous entries will remain the same. Clicking this option will transfer the data and close the duplicate matching window.
+Transférer les données de tous les champs du spécimen ou de l'événement identifié comme doublon vers la page de saisie sur laquelle vous travaillez actuellement, **_sauf si le champ contient déjà des données_**. Seuls les champs vides seront remplis. Vos saisies précédentes resteront inchangées. Cliquer sur cette option transférera les données et fermera la fenêtre de recherche de doublons.
 
-#### Link as Duplicate
+#### Lier en tant que doublon
 
-Checking this box and then clicking one of the additional options will create a duplicate linkage between the record you are editing and the duplicate record. For more information about duplicate linkages, visit the [Duplicate Clustering](/Collection_Manager_Guide/duplicate_clustering) documentation.
+Cocher cette case puis cliquer sur l'une des options supplémentaires créera un lien de doublon entre l'enregistrement que vous modifiez et l'enregistrement identifié comme doublon. Pour plus d'informations sur les liens de doublons, consultez la documentation sur le [Regroupement de doublons (Duplicate Clustering)](/Collection_Manager_Guide/duplicate_clustering).
 
-#### Go to Record
+#### Aller à l'enregistrement
 
-This option is only available if the identified duplicate belongs to the same collection that you are currently editing. Clicking this option will take you to the occurrence editor page for the duplicate record so you can view it (e.g., if you want to verify the data or view the image). Once you have looked at the image, if you want to transfer any of the data into the record you are working on, you will need to click the "Duplicates" button on the record that you were editing again.
+Cette option n'est disponible que si le doublon identifié appartient à la même collection que celle que vous modifiez actuellement. Cliquer sur cette option vous dirigera vers la page d'édition de l'enregistrement doublon afin que vous puissiez le consulter (par exemple, pour vérifier les données ou voir l'image). Une fois l'image consultée, si vous souhaitez transférer des données vers l'enregistrement sur lequel vous travaillez, vous devrez cliquer à nouveau sur le bouton « Doublons » de l'enregistrement que vous modifiez.
 
-#### Merge Records
+#### Fusionner les enregistrements
 
-This option is only available if the identified duplicate belongs to the same collection that you are currently editing. If you click this option, the two records will be merged together. **The record in the pop-up window will be prioritized over data in your occurrence editor.** For example, if the record listed in the pop-up window has "USA" in the country field, and the record in the occurrence editor has "United States" in the country field, the merged record will have "USA" in the country field. Fields that are empty in one of the two records will be filled in with the data from the record that has data in that field. All media resources (e.g., images) and linked resources will be included in the merged record. All unique determinations will be included in the merged record with the exception of any "current determination" belonging to the record in the occurrence editor, which will be discarded. As a result, you will have one current determination (belonging to the record in the pop-up window) and all other previous determinations associated with the record. For this reason, it is a good idea to check the Determinations tab of the merged record before moving on.
+Cette option n'est disponible que si le doublon identifié appartient à la même collection que celle que vous modifiez actuellement. Si vous cliquez sur cette option, les deux enregistrements seront fusionnés. **L'enregistrement figurant dans la fenêtre contextuelle sera prioritaire sur les données de votre éditeur d'occurrence.** Par exemple, si l'enregistrement de la fenêtre contextuelle indique « USA » dans le champ « Pays » et que celui de l'éditeur d'occurrence indique « United States », l'enregistrement fusionné affichera « USA » dans ce champ. Les champs vides dans l'un des deux enregistrements seront complétés par les données provenant de l'enregistrement qui contient une information pour ce champ. Toutes les ressources multimédias (par ex. images) et les ressources liées seront incluses dans l'enregistrement fusionné. Toutes les déterminations uniques seront conservées, à l'exception de la « détermination actuelle » associée à l'enregistrement de l'éditeur d'occurrence, qui sera supprimée. Ainsi, vous disposerez d'une détermination actuelle (celle de l'enregistrement de la fenêtre contextuelle) ainsi que de toutes les déterminations antérieures associées à l'enregistrement. Il est donc recommandé de vérifier l'onglet « Déterminations » de l'enregistrement fusionné avant de poursuivre.
 
-![Possible EXACT Duplicate results within collection](/img/exactdupeincolfull.png)
+![Résultats possibles de doublons EXACTS au sein de la collection](/img/exactdupeincolfull.png)

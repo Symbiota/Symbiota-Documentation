@@ -1,5 +1,5 @@
 ---
-title: "Editing & Searching Records"
+title: "Modification et recherche d'enregistrements"
 date: 2021-10-26
 lastmod: 2026-03-30
 draft: false
@@ -10,56 +10,56 @@ sidebar_position: 70
 
 :::info
 
-This page provides instructions on how to search for and edit records.
+Cette page explique comment rechercher et modifier des enregistrements.
 
 :::
 
-- To batch edit records (only available to collection administrators), visit [this page](/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
-- For an overview of fields in the occurrence editor form, visit [this page](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
-- For an explanation of the record editor tabs, visit [this page](/Editor_Guide/Editing_Searching_Records/record_editor_tabs).
+- Pour modifier des enregistrements par lots (fonctionnalité réservée aux administrateurs de collection), consultez [cette page](/Collection_Manager_Guide/Editing_Occurrences/batch_editing).
+- Pour une présentation des champs du formulaire d'édition des occurrences, consultez [cette page](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
+- Pour une explication des onglets de l'éditeur d'enregistrements, consultez [cette page](/Editor_Guide/Editing_Searching_Records/record_editor_tabs).
 
-To edit or search for records, select "Edit Existing Occurrence Records" from the Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_). On the resulting Record Search Form, you can enter one or multiple search terms to customize your results.
+Pour modifier ou rechercher des enregistrements, sélectionnez « Edit Existing Occurrence Records » (Modifier les enregistrements d'occurrence existants) dans le panneau de contrôle de l'éditeur de données (_cliquez sur « My Profile », puis sur le nom de la collection dans l'encadré « Collection Management »_). Dans le formulaire de recherche qui s'affiche, vous pouvez saisir un ou plusieurs termes pour affiner vos résultats.
 
-| ![Record Search Form](/img/new_recordsearchform.png) |
+| ![Formulaire de recherche d'enregistrement](/img/new_recordsearchform.png) |
 | :-----------------------------------------------------: |
-|**Screenshot of a Record Search Form.** Note that your Record Search Form may not include the Occurrence Trait Filter, if [traits](/Editor_Guide/Traits/) have not been set up in your portal. The [Batch Update Tool](/Collection_Manager_Guide/Editing_Occurrences/batch_editing) button will only show up above this form if you are a collection administrator.|
+|**Capture d'écran d'un formulaire de recherche d'enregistrement.** Notez que votre formulaire peut ne pas inclure le filtre « Occurrence Trait » (caractéristiques de l'occurrence) si aucune caractéristique ([traits](/Editor_Guide/Traits/)) n'a été configurée sur votre portail. Le bouton de l'outil de mise à jour par lots ([Batch Update Tool](/Collection_Manager_Guide/Editing_Occurrences/batch_editing)) ne s'affichera au-dessus du formulaire que si vous êtes administrateur de la collection.|
 
-To search according to fields not explicitly stated in the Record Search Form, select the field from the dropdown menu after Custom Field 1. You can include up to 8 Custom fields in your search. The second dropdown lists after the Custom Field names will allow you to conduct more specific searches, such as for ranges or fields that are null. The options include:
+Pour effectuer une recherche basée sur des champs ne figurant pas explicitement dans le formulaire, sélectionnez le champ souhaité dans le menu déroulant situé après « Custom Field 1 » (Champ personnalisé 1). Vous pouvez inclure jusqu'à 8 champs personnalisés dans votre recherche. Les menus déroulants situés à côté des noms de champs personnalisés vous permettront d'effectuer des recherches plus précises, par exemple en ciblant des plages de valeurs ou des champs vides (null). Les options incluent :
 
-- EQUALS: the field contains **only** the provided text
-- NOT EQUALS: the field does not match the provided text exactly (does not only contain the provided text)
-- STARTS WITH: the field starts with the provided text
-- CONTAINS: the field contains the provided text anywhere in the field
-- DOESN'T CONTAIN: the field does not contain the provided text anywhere in the field
-- GREATER THAN: (for numeric values or fields that contain numbers) the field contains a numeric value that is greater than the provided value
-- LESS THAN: (for numeric values or fields that contain numbers) the field contains a numeric value that is less than the provided value
-- IS NULL: the entire field contains a "NULL" (no) value
-- IS NOT NULL: the field contains any value but is not empty (NULL)
+- ÉGAL À : le champ contient **uniquement** le texte fourni
+- DIFFÉRENT DE : le champ ne correspond pas exactement au texte fourni (ne contient pas uniquement le texte fourni)
+- COMMENCE PAR : le champ commence par le texte fourni
+- CONTIENT : le champ contient le texte fourni (à n'importe quel endroit du champ)
+- NE CONTIENT PAS : le champ ne contient pas le texte fourni (à aucun endroit du champ)
+- SUPÉRIEUR À : (pour les valeurs numériques ou les champs contenant des nombres) le champ contient une valeur numérique supérieure à la valeur fournie
+- INFÉRIEUR À : (pour les valeurs numériques ou les champs contenant des nombres) le champ contient une valeur numérique inférieure à la valeur fournie
+- EST NULL : le champ entier contient une valeur « NULL » (absence de valeur)
+- N'EST PAS NULL : le champ contient une valeur quelconque et n'est pas vide (NULL)
 
-To conduct a search, click either the Display Editor button (to view one record at a time) or Display Table button (to view the first 1000 records at a time).
+Pour effectuer une recherche, cliquez soit sur le bouton « Afficher l'éditeur » (pour voir un enregistrement à la fois), soit sur le bouton « Afficher le tableau » (pour voir les 1000 premiers enregistrements à la fois).
 
-:::tip
+:::astuce
 
-When searching for the characters "\_" or "%" in your record fields, you must precede this character with the backwards slash "escape" character (\\). E.g., when searching for the value "\_1", you should enter "\\\_1".
+Lorsque vous recherchez les caractères « \_ » ou « % » dans les champs de vos enregistrements, vous devez faire précéder ce caractère de la barre oblique inverse servant de caractère d'échappement (\\). Par exemple, pour rechercher la valeur « \_1 », vous devez saisir « \\\ \_1 ».
 
 :::
 
-* To search by specimens entered by you (the current user), click the CU button.
+* Pour rechercher des spécimens que vous avez saisis (en tant qu'utilisateur actuel), cliquez sur le bouton « CU ».
 
-* To sort your search results, select a field from the "Sort By" dropdown menu, then select whether you wish to sort in ascending (Z-A, or smallest to greatest) or descending (A-Z, or greatest to smallest) order.
+* Pour trier les résultats de votre recherche, sélectionnez un champ dans le menu déroulant « Trier par », puis choisissez si vous souhaitez effectuer un tri par ordre croissant (Z-A, ou du plus petit au plus grand) ou décroissant (A-Z, ou du plus grand au plus petit).
 
-* To view a specific record from the Table Display, click the Symbiota ID number or the Open in New Window icon in the leftmost SymbiotaID column.
+* Pour afficher un enregistrement spécifique depuis l'affichage en tableau, cliquez sur le numéro d'identifiant Symbiota ou sur l'icône « Ouvrir dans une nouvelle fenêtre » située dans la colonne « SymbiotaID » (la plus à gauche).
 
-* To search for records with specific traits or trait attributes, click the name of the trait OR attribute from the appropriate list. To select multiple traits/attributes, hold the Control (or Command, for Mac users) button and click multiple items from the list.
+* Pour rechercher des enregistrements présentant des traits ou des attributs de traits spécifiques, cliquez sur le nom du trait OU de l'attribut dans la liste correspondante. Pour sélectionner plusieurs traits ou attributs, maintenez la touche Contrôle (ou Commande, pour les utilisateurs Mac) enfoncée tout en cliquant sur plusieurs éléments de la liste.
 
-* To download the results of your search, click the button with the download icon (![Download Button Icon](/img/dl.png)) at the top of the form.
+* Pour télécharger les résultats de votre recherche, cliquez sur le bouton portant l'icône de téléchargement (![Icône du bouton de téléchargement](/img/dl.png)) situé en haut du formulaire.
 
-* To copy a link to your search for future reference (or to share with other editors of your collection), click the button with the link icon ( ![Link Button Icon](/img/link.png) ) in the top right corner of the form.
+* Pour copier un lien vers votre recherche afin de pouvoir la consulter ultérieurement (ou pour la partager avec d'autres éditeurs de votre collection), cliquez sur le bouton portant l'icône de lien ( ![Icône du bouton de lien](/img/link.png) ) situé dans le coin supérieur droit du formulaire.
 
-* To re-open the record search form after you have conducted a search, click the Toggle Record Search Form button.
+* Pour rouvrir le formulaire de recherche d'enregistrements après avoir effectué une recherche, cliquez sur le bouton « Basculer vers le formulaire de recherche d'enregistrements ».
 
-![Return to Record Search Form](/img/returntorecordsearchform_v3.png)
+![Retour au formulaire de recherche d'enregistrements](/img/returntorecordsearchform_v3.png)
 
-* The dropdown fields at the beginning and end of each Custom Field allow you to conduct even more specified searches. They contain one or many parentheses, which allow you to enclose subsets of your search query. For example, the query shown below would result in records that EITHER have a Country of Canada OR have BOTH a state/province of Alberta AND do not have a collector name containing "DuPont". The parentheses join Custom Field 2 and Custom Field 3 together so that both must be fulfilled together.
+* Les champs déroulants situés au début et à la fin de chaque champ personnalisé vous permettent d'effectuer des recherches encore plus précises. Ils contiennent une ou plusieurs parenthèses, vous permettant ainsi d'isoler des sous-ensembles de votre requête de recherche. Par exemple, la requête ci-dessous renverrait des enregistrements qui, soit ont le Canada comme pays, soit ont à la fois l'Alberta comme État/province ET un nom de collecteur ne contenant pas « DuPont ». Les parenthèses regroupent le « Champ personnalisé 2 » et le « Champ personnalisé 3 » de sorte que les deux conditions doivent être remplies simultanément.
 
-![Example Advanced Search](/img/advancedsearchexample.png)
+![Exemple de recherche avancée](/img/advancedsearchexample.png)

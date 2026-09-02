@@ -1,5 +1,5 @@
 ---
-title: "Collection Statistics"
+title: "Statistiques de la collection"
 date: 2021-11-30
 lastmod: 2026-03-30
 authors: ["Katie Pearson"]
@@ -9,42 +9,42 @@ sidebar_position: 30
 ---
 
 :::note
-This page describes how you can find information about how many occurrences and media resources (e.g., images) you have in your collection.
+Cette page explique comment trouver des informations sur le nombre d'occurrences et de ressources multimédias (par ex. des images) présentes dans votre collection.
 :::
 
-### Viewing Collection Statistics
+### Consulter les statistiques de la collection
 
 :::tip
-Collection statistics are generated on command and are not created "on the fly". A collection administrator should periodically refresh collection statistics. Collection statistics are also automatically refreshed when a new [Darwin Core Archive is published/created](/Collection_Manager_Guide/Data_Publishing/creating_dwca).
+Les statistiques de la collection sont générées à la demande et ne sont pas créées « à la volée ». Un administrateur de collection doit les actualiser périodiquement. Elles sont également mises à jour automatiquement lorsqu'une nouvelle [archive Darwin Core est publiée ou créée](/Collection_Manager_Guide/Data_Publishing/creating_dwca).
 :::
 
-Statistics relating to the number of specimens, media resources, georeferences, and taxa within a collection can be found on that collection's Collection Profile page. An example collection profile is shown in the screenshot below and can be found [here](https://cch2.org/portal/collections/misc/collprofiles.php?collid=12). The collection statistics are found at the bottom of the page and include:
+Les statistiques relatives au nombre de spécimens, de ressources multimédias, de géoréférencements et de taxons au sein d'une collection sont disponibles sur la page « Profil de la collection » correspondante. Un exemple de profil de collection figure dans la capture d'écran ci-dessous et peut être consulté [ici](https://cch2.org/portal/collections/misc/collprofiles.php?collid=12). Les statistiques de la collection se trouvent en bas de page et incluent :
 
-- Number of total records
-- Number of records that are georeferenced
-- Number of records that have associated media
-- Total number of media resources in the collection
-- Number of specimens that are identified at least to the level of species
-- Number of families, genera, species, and total taxa that represented in the collection (NOTE: these numbers are calculated using only taxonomic names that have been indexed to the taxonomic thesaurus)
+- Nombre total d'enregistrements
+- Nombre d'enregistrements géoréférencés
+- Nombre d'enregistrements associés à des ressources multimédias
+- Nombre total de ressources multimédias dans la collection
+- Nombre de spécimens identifiés au moins au niveau de l'espèce
+- Nombre de familles, de genres, d'espèces et nombre total de taxons représentés dans la collection (REMARQUE : ces chiffres sont calculés uniquement à partir des noms taxonomiques indexés dans le thésaurus taxonomique)
 
-![Collection Profile Page](/img/collstatistics2026.png)
-<figcaption align = "center">_Collection Profile for [Pacific Union College Herbarium in CCH2](https://cch2.org/portal/collections/misc/collprofiles.php?collid=4)._</figcaption>
+![Page de profil de la collection](/img/collstatistics2026.png)
+<figcaption align = "center">_Profil de la collection pour le [Pacific Union College Herbarium dans CCH2](https://cch2.org/portal/collections/misc/collprofiles.php?collid=4)._</figcaption>
 
 :::tip
-Collection profiles can be accessed by visiting the Collection Search Page in a given portal (click "Search Collections") at the following URL: `[BASE URL]/collections/index.php`. For example, for the CCH2 portal, the full URL is https://cch2.org/portal/collections/index.php.
+Vous pouvez accéder aux profils des collections en consultant la page de recherche de collections d'un portail donné (cliquez sur « Search Collections ») à l'adresse suivante : `[URL DE BASE]/collections/index.php`. Par exemple, pour le portail CCH2, l'URL complète est https://cch2.org/portal/collections/index.php.
 :::
 
-If you are an editor or administrator for a collection, you can also access your statistics by clicking _My Profile > name of collection_.
+Si vous êtes éditeur ou administrateur d'une collection, vous pouvez également accéder à vos statistiques en cliquant sur _My Profile > nom de la collection_.
 
-### Refreshing Collection Statistics
+### Actualisation des statistiques de la collection
 
-Collection statistics are generated on command and are not created "on the fly". To refresh your collection statistics, navigate to your Administration Control Panel (_click My Profile, then the name of the collection in the Collection Management box_) and click Update Statistics (bottom link in the Administration Control Panel).
+Les statistiques de la collection sont générées à la demande et ne sont pas créées « à la volée ». Pour actualiser les statistiques de votre collection, accédez à votre panneau de contrôle d'administration (_cliquez sur « Mon profil », puis sur le nom de la collection dans le bloc « Gestion de la collection »_) et cliquez sur « Mettre à jour les statistiques » (lien situé en bas du panneau de contrôle d'administration).
 
-### Processing Status Statistics in the Reports Tab
+### Statistiques sur les statuts de traitement dans l'onglet « Rapports »
 
-To view statistics regarding the processing statuses in your collection, navigate to your Administration Control Panel (_click My Profile, then the name of the collection in the Collection Management box_), then click "Processing Toolbox" and then the "Reports" tab. A table will be displayed that shows you the number of specimens in each processing status. To view occurrences one by one, click the edit (pencil) icon in the **Count** column. To view occurrences as a list, click the table icon in the **Count** column.
+Pour consulter les statistiques relatives aux statuts de traitement au sein de votre collection, accédez à votre panneau de contrôle d'administration (_cliquez sur « Mon profil », puis sur le nom de la collection dans le bloc « Gestion de la collection »_), cliquez sur « Boîte à outils de traitement », puis sur l'onglet « Rapports ». Un tableau s'affichera, indiquant le nombre de spécimens pour chaque statut de traitement. Pour voir les occurrences une par une, cliquez sur l'icône de modification (crayon) dans la colonne **Nombre** (Count). Pour afficher les occurrences sous forme de liste, cliquez sur l'icône de tableau dans la colonne **Nombre** (Count).
 
-This page will also show you how many of your occurrences do not have linked media and how many lack skeletal data (i.e., a value in the Scientific Name field).
+Cette page indique également combien de vos occurrences ne sont pas associées à des médias et combien sont dépourvues de données minimales requises (c.-à-d. une valeur dans le champ « Nom scientifique »).
 
-![Reports Tab in Processing Toolbox](/img/reportstab2026.png)
-<figcaption align = "center">_Administration Control Panel > Processing Toolbox > Reports tab_</figcaption>
+![Onglet Rapports dans la boîte à outils de traitement](/img/reportstab2026.png)
+<figcaption align = "center">_Panneau de contrôle d'administration > Boîte à outils de traitement > Onglet Rapports_</figcaption>

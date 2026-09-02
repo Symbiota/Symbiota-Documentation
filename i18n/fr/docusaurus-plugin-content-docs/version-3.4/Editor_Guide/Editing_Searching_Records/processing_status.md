@@ -1,5 +1,5 @@
 ---
-title: "Processing Status"
+title: "État du traitement"
 date: 2024-06-10
 lastmod: 2024-09-27
 draft: false
@@ -9,55 +9,55 @@ keywords: ["crowdsourcing", "transcription", "editing"]
 
 :::info
 
-This page explains the _Processing Status_ field and how it is handled in Symbiota portals.
+Cette page explique le champ *Processing Status* (Statut de traitement) et la manière dont il est géré dans les portails Symbiota.
 
 :::
 
-_Processing Status_ is a Symbiota-specific field that can be used to track the digitization status (or any other workflow status) of records. It is not publicly visible nor is it included in Darwin Core Archive exports. The default values available for this field are:
+Le champ *Processing Status* est spécifique à Symbiota ; il permet de suivre l'état de numérisation (ou toute autre étape du flux de travail) des enregistrements. Il n'est ni visible publiquement ni inclus dans les exportations au format Darwin Core Archive. Les valeurs par défaut disponibles pour ce champ sont :
 
-- Unprocessed
-- Unprocessed/NLP
-- Stage 1
-- Stage 2
-- Stage 3
-- Pending Review-nfn
-- Pending Review
-- Expert Required
-- Reviewed
-- Closed
+- Unprocessed (Non traité)
+- Unprocessed/NLP (Non traité/NLP)
+- Stage 1 (Étape 1)
+- Stage 2 (Étape 2)
+- Stage 3 (Étape 3)
+- Pending Review-nfn (En attente de révision - nfn)
+- Pending Review (En attente de révision)
+- Expert Required (Expert requis)
+- Reviewed (Révisé)
+- Closed (Clôturé)
 
-There are no standard definitions for these status values. Collaborative digitization projects will often define processing status values in a way that helps them manage their workflows and reporting (e.g., see Appendix 2 in [this document](https://www.capturingcaliforniasflowers.org/uploads/1/6/3/7/16372936/6_labeltranscriptionguide_jan2020.docx) from the California Phenology Network).
+Il n'existe pas de définitions normalisées pour ces valeurs de statut. Les projets de numérisation collaboratifs définissent souvent ces statuts de manière à faciliter la gestion de leurs flux de travail et de leurs rapports (voir, par exemple, l'annexe 2 de [ce document](https://www.capturingcaliforniasflowers.org/uploads/1/6/3/7/16372936/6_labeltranscriptionguide_jan2020.docx) du California Phenology Network).
 
-Processing Status integrates with the following tools in Symbiota portals:
+Le champ *Processing Status* interagit avec les outils suivants dans les portails Symbiota :
 
-- [Crowdsourcing module](/Editor_Guide/Crowdsourcing): when _Processing Status_="Unprocessed" **and** a record has at least one associated image, it is available to be added to the [Crowdsourcing queue](/Collection_Manager_Guide/Crowdsourcing/adding_crowdsourcing).
-- [Reports](/Collection_Manager_Guide/collection_statistics): the numbers of records per processing status can be quickly viewed by a collection administrator through the Reports tab of the Processing Toolbox.
+- [Module de crowdsourcing](/Editor_Guide/Crowdsourcing) : lorsque le statut est « Unprocessed » (Non traité) **et** qu'un enregistrement possède au moins une image associée, il peut être ajouté à la [file d'attente de crowdsourcing](/Collection_Manager_Guide/Crowdsourcing/adding_crowdsourcing).
+- [Rapports](/Collection_Manager_Guide/collection_statistics) : un administrateur de collection peut consulter rapidement le nombre d'enregistrements par statut de traitement via l'onglet « Reports » (Rapports) de la boîte à outils de traitement (*Processing Toolbox*).
 
-The Processing Status can also be batch edited and searched using Data Editor Search Form (_Data Editor Control Panel > Edit Existing Occurrence Records_):
+Il est également possible de modifier en masse le statut de traitement et d'effectuer des recherches à ce sujet via le formulaire de recherche de l'éditeur de données (*Data Editor Control Panel* > *Edit Existing Occurrence Records*) :
 
-![Occurrence Editor Tabs](/img/processingstatusquery.png)
+![Onglets de l'éditeur d'occurrences](/img/processingstatusquery.png)
 
-### Editing Processing Status
+### Modification du statut de traitement
 
-_Processing Status_ and _Status Auto-Set_ are located under the Curation section of the Occurrence Editor form:
-![Occurrence Editor Tabs](/img/processingstatus.png)
+Les options _Statut de traitement_ (Processing Status) et _Définition automatique du statut_ (Status Auto-Set) se trouvent dans la section « Curatelle » (Curation) du formulaire de l'éditeur d'occurrences :
+![Onglets de l'éditeur d'occurrences](/img/processingstatus.png)
 
-#### Manually
+#### Manuellement
 
-_Processing Status_ can be manually updated from within the Curation box on the Occurrence Editor. This method is most useful when making on-off edits to records that do not require extensive workflow tracking.
+Le _Statut de traitement_ peut être mis à jour manuellement depuis le bloc « Curatelle » de l'éditeur d'occurrences. Cette méthode est particulièrement utile pour des modifications ponctuelles d'enregistrements ne nécessitant pas un suivi de flux de travail complexe.
 
-#### Automatically
+#### Automatiquement
 
-The _Status Auto-Set_ menu is used for making changes to _Processing Status_ when multiple records are to be edited. If a user needs to edit numerous records, but they do not want to remember to manually update the _Processing Status_ as they work, _Status Auto-Set_ can be used to automatically update this field, for example, during image transcription. Once _Status Auto-Set_ is set, any records a user subsequently edits will receive that new _Processing Status_ value.
+Le menu _Définition automatique du statut_ permet de modifier le _Statut de traitement_ lorsque plusieurs enregistrements doivent être traités. Si un utilisateur doit modifier de nombreux enregistrements sans avoir à penser à mettre à jour manuellement le _Statut de traitement_ à chaque étape, la _Définition automatique du statut_ peut être utilisée pour mettre à jour ce champ automatiquement, par exemple lors de la transcription d'images. Une fois cette option configurée, tous les enregistrements modifiés par la suite par l'utilisateur se verront attribuer cette nouvelle valeur de _Statut de traitement_.
 
 :::warning
 
-Do not use the **Status Auto-Set** field if you want to change the processing status for a single record! Make sure you are using the Processing Status field inside the Curation box.
+N'utilisez pas le champ **Définition automatique du statut** si vous souhaitez modifier le statut de traitement d'un seul enregistrement ! Assurez-vous d'utiliser le champ _Statut de traitement_ situé dans le bloc « Curatelle ».
 
 :::
 
 :::note
 
-_Status Auto-Set_ is user-specific and relies on browser cookies to function.
+La _Définition automatique du statut_ est propre à chaque utilisateur et repose sur les cookies du navigateur pour fonctionner.
 
 :::

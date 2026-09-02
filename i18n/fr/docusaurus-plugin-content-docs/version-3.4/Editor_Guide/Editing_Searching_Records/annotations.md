@@ -1,5 +1,5 @@
 ---
-title: "Annotations / Determinations"
+title: "Annotations / Déterminations"
 date: 2021-10-26
 lastmod: 2026-03-30
 sidebar_position: 10
@@ -9,57 +9,54 @@ keywords: ["edit", "annotation", "identification", "determination"]
 
 :::info
 
-This page describes how to add annotations individually or in batch.
+Cette page explique comment ajouter des annotations, soit individuellement, soit par lot.
 
 :::
 
-**Annotations** (also called **Determinations**) in Symbiota portals are taxonomic identifications provided for an occurrence.
+Les **annotations** (également appelées **déterminations**) dans les portails Symbiota sont des identifications taxonomiques fournies pour une occurrence.
 
-### Adding Individual Determinations/Annotations
+### Ajout de déterminations/annotations individuelles
 
-To annotate an individual record or add previous determinations, navigate to the specimen in the Occurrence Editor (_click My Profile, then the name of the collection in the Collection Management box > Edit Existing Records_) and click the Determination History tab. If no previous annotations exist, you will see a message that says "There are no historic annotations for this specimen" and a box labeled Add a New Determination. If an annotation already exists on the specimen, you will see that annotation. Click the plus sign icon to add a new annotation.
+Pour annoter une fiche individuelle ou ajouter des déterminations antérieures, accédez au spécimen dans l'éditeur d'occurrences (_cliquez sur « Mon profil », puis sur le nom de la collection dans le bloc « Gestion des collections » > « Modifier les fiches existantes »_) et cliquez sur l'onglet « Historique des déterminations ». Si aucune annotation antérieure n'existe, un message indiquant « Il n'y a pas d'historique d'annotations pour ce spécimen » s'affichera, accompagné d'un bloc intitulé « Ajouter une nouvelle détermination ». Si une annotation existe déjà pour le spécimen, elle sera visible. Cliquez sur l'icône « plus » pour ajouter une nouvelle annotation.
 
-![Determination History Example](/img/dethistoryexample.png)
+![Exemple d'historique des déterminations](/img/dethistoryexample.png)
 
-In the Add a New Determination Box, enter, at minimum, the scientific name, determiner (person who identified the specimen, if known. Enter "unknown" if not known), and the date (or "n.d." if not known). You can also add an [identification qualifier](https://dwc.tdwg.org/terms/#dwc:identificationQualifier) (e.g., "cf." or "aff."), a reference, and notes, and you can select a confidence of determination, if desired. By default, if the date of determination is newer than that previous date of determination, the _Make this the current determination_ box will be checked once you move your cursor out of the Date box. If you want this determination to be the most up-to-date identification for the specimen, keep this box checked (or check it, if it was not auto-checked).
+Dans le bloc « Ajouter une nouvelle détermination », saisissez au minimum le nom scientifique, le déterminateur (la personne ayant identifié le spécimen, si elle est connue ; saisissez « inconnu » dans le cas contraire) et la date (ou « n.d. » si elle est inconnue). Vous pouvez également ajouter un [qualificatif d'identification](https://dwc.tdwg.org/terms/#dwc:identificationQualifier) ​​(par ex. « cf. » ou « aff. »), une référence et des notes, ainsi que sélectionner un niveau de confiance pour la détermination, si vous le souhaitez. Par défaut, si la date de détermination est plus récente que la précédente, la case « Définir comme détermination actuelle » sera cochée automatiquement une fois que vous aurez déplacé le curseur hors du champ de la date. Si vous souhaitez que cette détermination soit l'identification la plus récente pour le spécimen, laissez cette case cochée (ou cochez-la si elle ne l'a pas été automatiquement).
 
 :::tip
 
-After you add a date, make sure you hit "Tab" on your keyboard or click on the next field. This will trigger the _Make this the current determination_ to be checked, if need be.
+Après avoir saisi une date, veillez à appuyer sur la touche « Tabulation » de votre clavier ou à cliquer sur le champ suivant. Cela déclenchera le cochage de la case « Définir comme détermination actuelle », le cas échéant.
 
 :::
 
-If you wish to print this annotation label now or in the future, also check the _Add to Annotation Print Queue_ box. Click Submit Determination.
-
-![Add New Determination Form](/img/addnewdetermination2025.png)
+Si vous souhaitez imprimer cette étiquette d'annotation maintenant ou ultérieurement, cochez également la case « Ajouter à la file d'attente d'impression des annotations ». Cliquez sur « Soumettre la détermination ». ![Formulaire d'ajout d'une nouvelle détermination](/img/addnewdetermination2025.png)
 
 :::note
 
-If the specimen previously had an identification and you have checked the box next to "Make this the current determination," a historic annotation will be added to the record automatically as shown in the next screenshot. For this reason, you do not need to manually add a historic determination before you add a new determination.
+Si le spécimen disposait déjà d'une identification et que vous avez coché la case « Définir comme détermination actuelle », une annotation historique sera automatiquement ajoutée à la fiche, comme le montre la capture d'écran suivante. Par conséquent, il n'est pas nécessaire d'ajouter manuellement une détermination historique avant d'en ajouter une nouvelle.
 
 :::
 
-### Batch Adding Annotations/Determinations
+### Ajout en lot d'annotations/déterminations
 
-You can add many annotations at once using the Add Batch Determinations/Nomenclatural Adjustments tool. Navigate to this tool by accessing the Data Editor Control Panel (_click My Profile, then the name of the collection in the Collection Management box_) and clicking "Add Batch Determinations/Nomenclatural Adjustments." To select the specimens to which determination data will be added ("Define Specimen Recordset"), either enter a list of catalog numbers (separated by commas) in the "Catalog Number:" field or select a taxon to evaluate by entering its name in the "Taxon:" field. Click the Add Record(s) to List button.
+Vous pouvez ajouter plusieurs annotations simultanément à l'aide de l'outil « Ajouter des déterminations/ajustements nomenclaturaux en lot » (Add Batch Determinations/Nomenclatural Adjustments). Accédez à cet outil via le panneau de configuration de l'éditeur de données (_cliquez sur « Mon profil » [My Profile], puis sur le nom de la collection dans la zone « Gestion des collections » [Collection Management]_), puis cliquez sur « Ajouter des déterminations/ajustements nomenclaturaux en lot ». Pour sélectionner les spécimens auxquels les données de détermination seront ajoutées (section « Définir l'ensemble de spécimens » ou *Define Specimen Recordset*), saisissez soit une liste de numéros de catalogue (séparés par des virgules) dans le champ « Numéro de catalogue » (*Catalog Number*), soit un taxon à évaluer en saisissant son nom dans le champ « Taxon ». Cliquez sur le bouton « Ajouter le(s) enregistrement(s) à la liste » (*Add Record(s) to List*).
 
-![Batch Annotation Search Form](/img/addbatchannotations2025.png)
+![Formulaire de recherche pour l'annotation en lot](/img/addbatchannotations2025.png)
 
-A table of specimens of the indicated taxon will appear below the "Define Specimen Recordset" box (see screenshot below). You can then select all the specimens that you wish to annotate by checking or unchecking the boxes in the leftmost column of the table. Use the "Select/Deselect all Specimens" box to uncheck or check all the boxes if you would prefer to select specimens one by one.
+Un tableau des spécimens correspondant au taxon indiqué apparaîtra sous la zone « Définir l'ensemble de spécimens » (voir la capture d'écran ci-dessous). Vous pouvez ensuite sélectionner tous les spécimens que vous souhaitez annoter en cochant ou décochant les cases situées dans la colonne la plus à gauche du tableau. Utilisez la case « Sélectionner/Désélectionner tous les spécimens » (*Select/Deselect all Specimens*) pour décocher ou cocher toutes les cases si vous préférez sélectionner les spécimens un par un.
 
-![Batch Annotation Entry Form](/img/batchannotationform2025.png)
+![Formulaire de saisie pour l'annotation en lot](/img/batchannotationform2025.png)
 
-Add information about the name change in the "New Determination Details" box.
+Ajoutez des informations concernant le changement de nom dans la zone « Détails de la nouvelle détermination » (*New Determination Details*).
 
-- Indicate whether the change is due to a new identification ("Identification Adjustment/Verification") or a nomenclatural change ("Nomenclatural Adjustment").
-- (Optional) Add an identification qualifier (e.g., "aff." or "cf."). See Darwin Core's [identificationQualifier](https://dwc.tdwg.org/terms/#dwc:identificationQualifier)
-- Enter the new scientific name in the "Scientific Name" field. The "Author" field will automatically populate if the taxon is already in the taxon table. If the taxon is not in the taxon table, you will have to manually enter the author of the scientific name.
-- Add the name of the determiner (person who identified the record) in the "Determiner" field (see Darwin Core's [identifiedBy](https://dwc.tdwg.org/terms/#dwc:identifiedBy))
-- Enter the full date of determination in the "Date" field (see Darwin Core's [dateIdentified](https://dwc.tdwg.org/terms/#dwc:dateIdentified)). It is recommended to use the format YYYY-MM-DD if possible. If only a year is provided, enter the year. If only a year and month are provided, enter it in YYYY-MM format.
-- (Optional) Indicate the confidence in the determination (Low, Medium, or High) in the "Confidence of Determination" field. This field is for internal curatorial use and is not included in a Darwin Core Archive export.
-- (Optional) List your determination references in the "Reference" field. (See Darwin Core's [identificationReferences](https://dwc.tdwg.org/terms/#dwc:identificationReferences))
-- (Optional) Include any other notes in the "Notes" field. (See Darwin Core's [identificationRemarks](https://dwc.tdwg.org/terms/#dwc:identificationRemarks))
+- Indiquez si le changement est dû à une nouvelle identification (« Ajustement/Vérification de l'identification » ou *Identification Adjustment/Verification*) ou à un changement nomenclatural (« Ajustement nomenclatural » ou *Nomenclatural Adjustment*).
+- (Facultatif) Ajoutez un qualificatif d'identification (par ex. « aff. » ou « cf. »). Voir le terme [identificationQualifier](https://dwc.tdwg.org/terms/#dwc:identificationQualifier) ​​du standard Darwin Core.
+- Saisissez le nouveau nom scientifique dans le champ « Nom scientifique » (*Scientific Name*). Le champ « Auteur » (*Author*) se remplira automatiquement si le taxon figure déjà dans la table des taxons. Si le taxon ne s'y trouve pas, vous devrez saisir manuellement l'auteur du nom scientifique. - Ajoutez le nom du déterminateur (la personne ayant identifié l'enregistrement) dans le champ « Déterminateur » (voir le terme Darwin Core [identifiedBy](https://dwc.tdwg.org/terms/#dwc:identifiedBy)).
+- Saisissez la date complète de la détermination dans le champ « Date » (voir le terme Darwin Core [dateIdentified](https://dwc.tdwg.org/terms/#dwc:dateIdentified)). Il est recommandé d'utiliser le format AAAA-MM-JJ si possible. Si seule l'année est connue, saisissez-la. Si l'année et le mois sont connus, saisissez-les au format AAAA-MM.
+- (Facultatif) Indiquez le niveau de confiance de la détermination (Faible, Moyen ou Élevé) dans le champ « Confiance de la détermination ». Ce champ est destiné à un usage interne de conservation et n'est pas inclus dans les exportations d'archives Darwin Core.
+- (Facultatif) Indiquez les références utilisées pour la détermination dans le champ « Référence ». (Voir le terme Darwin Core [identificationReferences](https://dwc.tdwg.org/terms/#dwc:identificationReferences))
+- (Facultatif) Ajoutez toute autre remarque dans le champ « Notes ». (Voir le terme Darwin Core [identificationRemarks](https://dwc.tdwg.org/terms/#dwc:identificationRemarks))
 
-If you check the _Make this the current determination_ box, the scientific name will be updated for the selected records. Otherwise, the determination will be added to the specimens' records, but the most current ID name will not be changed.
+Si vous cochez la case « Définir comme détermination actuelle », le nom scientifique sera mis à jour pour les enregistrements sélectionnés. Dans le cas contraire, la détermination sera ajoutée aux fiches des spécimens, mais le nom d'identification courant restera inchangé.
 
-If you wish to print the annotation labels in the future, check the _Add to Annotation Print Queue_ box.
+Si vous souhaitez imprimer ultérieurement des étiquettes d'annotation, cochez la case « Ajouter à la file d'attente d'impression des annotations ».
