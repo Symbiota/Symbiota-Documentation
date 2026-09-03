@@ -4,7 +4,7 @@ date: 2021-10-08
 lastmod: 2026-03-17
 authors: ["Ed Gilbert","Katie Pearson", "Lindsay Walker"]
 draft: false
-sidebar_position: 100
+sidebar_position: 60
 keywords: ["rare species","redacted data","protected data","protected species"]
 ---
 

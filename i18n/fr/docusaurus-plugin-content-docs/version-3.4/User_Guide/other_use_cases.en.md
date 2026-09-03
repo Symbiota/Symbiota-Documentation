@@ -5,7 +5,7 @@ authors: ["Lindsay Walker"]
 editors: ["Katie Pearson"]
 lastmod: 2024-11-25
 draft: false
-sidebar_position: 80
+sidebar_position: 30
 keywords: ["research", "teaching", "use case"]
 ---
 

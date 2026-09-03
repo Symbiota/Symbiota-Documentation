@@ -4,7 +4,7 @@ date: 2021-10-14
 lastmod: 2024-04-10
 authors: ["Katie Pearson", "Lindsay Walker"]
 draft: false
-sidebar_position: 40
+sidebar_position: 90
 keywords: ["checklist", "inventory", "flora"]
 ---
 

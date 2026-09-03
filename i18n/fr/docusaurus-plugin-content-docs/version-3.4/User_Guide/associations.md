@@ -4,7 +4,7 @@ date: 2025-05-14
 lastmod: 2025-05-14
 authors: ["Katie Pearson"]
 draft: false
-sidebar_position: 20
+sidebar_position: 10
 keywords: ["linked resources", "extended specimen", "host", "relationship"]
 ---
 

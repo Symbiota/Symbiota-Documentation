@@ -3,7 +3,7 @@ title: "Modifier votre mot de passe ou vos informations de connexion"
 date: 2021-11-12
 authors: ["Katie Pearson"]
 draft: false
-sidebar_position: 30
+sidebar_position: 100
 keywords: ["password", "profile"]
 ---
 

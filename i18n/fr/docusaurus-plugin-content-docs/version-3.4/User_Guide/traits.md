@@ -3,7 +3,7 @@ title: "Caractéristiques"
 date: 2025-05-14
 lastmod: 2025-05-14
 authors: ["Katie Pearson"]
-sidebar_position: 130
+sidebar_position: 40
 keywords: ["measurement or fact"]
 ---
 

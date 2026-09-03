@@ -3,7 +3,7 @@ title: "Recherche d'enregistrements"
 date: 2021-10-11
 lastmod: 2026-01-15
 authors: ["Katie Pearson, Lindsay Walker"]
-sidebar_position: 110
+sidebar_position: 120
 keywords: ["search", "specimens", "observations"]
 ---
 

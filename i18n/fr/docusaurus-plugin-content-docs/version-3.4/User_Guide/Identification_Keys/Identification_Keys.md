@@ -3,7 +3,7 @@ title: "Clés d'identification"
 date: 2022-10-31
 lastmod: 2022-10-31
 draft: false
-sidebar_position: 70
+sidebar_position: 50
 authors: ["Katie Pearson"]
 keywords: ["checklist","keys","identification","character","state","ID"]
 ---
