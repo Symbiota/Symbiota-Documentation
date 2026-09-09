@@ -482,7 +482,6 @@ This field does not map the Darwin Core and is excluded from Darwin Core Archive
 
 The number of duplicate botanical specimens created. This will dictate the number of labels printed for specimen.<br></br>
 **Examples:** `10` `2`<br></br>
-See Darwin Core's [duplicatequantity](https://dwc.tdwg.org/terms/#dwc:duplicatequantity)
 
 ### Institution Code (override)
 
