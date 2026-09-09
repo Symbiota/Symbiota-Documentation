@@ -1,5 +1,5 @@
 ---
-title: "Public Edits"
+title: "Modifications publiques"
 date: 2024-04-03
 lastmod: 2024-04-03
 sidebar_position: 10
@@ -8,30 +8,30 @@ authors: ["Lindsay Walker"]
 keywords: ["crowdsourcing", "annotations", "comments", "public feedback"]
 ---
 
-:::info
+::info
 
-This page describes how any Symbiota user can suggest modifications to an occurrence record. This can be a useful feature for community members to remediate data quality issues.
+Cette page explique comment tout utilisateur de Symbiota peut suggérer des modifications à une fiche d'occurrence. Cette fonctionnalité permet aux membres de la communauté de contribuer à corriger les problèmes de qualité des données.
 
 :::
 
-### Enable Public Edits
+### Activer les modifications publiques
 
-The option to enabled public edits is managed on a **per-collection basis** and is activated through the [Collection Metadata Editor](/Collection_Manager_Guide/editing_collection_metadata#collections-metadata). Turn this on by navigating to the _Administration Control Panel > Edit Metadata_ and check the box for _Allow Public Edits_.
+L'option permettant d'activer les modifications publiques est gérée **par collection** via l'outil [Éditeur de métadonnées de la collection](/Collection_Manager_Guide/editing_collection_metadata#collections-metadata). Pour l'activer, accédez au _Panneau de contrôle d'administration > Modifier les métadonnées_ et cochez la case _Autoriser les modifications publiques_ (Allow Public Edits).
 
-Once activated, any portal user who is logged in can suggest changes to your occurrence records using a paired-down version of the Occurrence Editor form. Public users cannot suggest edits to _Catalog Number_ or _Scientific Name_ values.
+Une fois cette option activée, tout utilisateur connecté au portail peut suggérer des modifications aux fiches d'occurrence en utilisant une version simplifiée du formulaire d'édition des occurrences. Les utilisateurs du public ne peuvent pas suggérer de modifications pour les champs _Numéro de catalogue_ (Catalog Number) ou _Nom scientifique_ (Scientific Name).
 
-|                                                                                                ![Public Feedback Example](/img/publicfeedback.png)                                                                                                |
+| ![Exemple de retour public](/img/publicfeedback.png)                                                                                                |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Once Public Edits are enabled via the [Collection Metadata Editor](/Collection_Manager_Guide/editing_collection_metadata#collections-metadata), any user who is logged into the portal can suggest changes to individual occurrence records. |
+| Une fois les modifications publiques activées via l'[Éditeur de métadonnées de la collection](/Collection_Manager_Guide/editing_collection_metadata#collections-metadata), tout utilisateur connecté au portail peut suggérer des modifications sur des fiches d'occurrence individuelles. |
 
-### Review Public Edits
+### Examiner les modifications du public
 
-To review suggested changes made by public users:
+Pour examiner les modifications suggérées par les utilisateurs du public :
 
-1. Navigate to the _Administration Control Panel > Review/Verify Occurrence Edits_.
-2. In the Filter panel, set _Applied Status_ = "Not Applied" and select _Submit Filter_ to filter out pending public edits to your occurence records.
-3. Proceed to use the [Specimen Edit Reviewer](/Collection_Manager_Guide/Crowdsourcing/reviewing_crowdsourcing) to accept and reject suggested changes to your records.
+1. Accédez à _Panneau de contrôle d'administration > Examiner/Vérifier les modifications d'occurrence_.
+2. Dans le panneau de filtrage, réglez _Statut d'application_ sur « Non appliqué » et cliquez sur _Soumettre le filtre_ pour isoler les modifications publiques en attente concernant vos enregistrements d'occurrence.
+3. Utilisez l'outil d'examen des modifications de spécimens ([Specimen Edit Reviewer](/Collection_Manager_Guide/Crowdsourcing/reviewing_crowdsourcing)) pour accepter ou rejeter les modifications suggérées pour vos enregistrements.
 
-### What do public portal users see?
+### Que voient les utilisateurs du portail public ?
 
-Refer to the [User Guide](/User_Guide/Providing_Feedback/suggesting_edits) for more information.
+Consultez le [Guide de l'utilisateur](/User_Guide/Providing_Feedback/suggesting_edits) pour plus d'informations.

@@ -1,13 +1,13 @@
 ---
-title: 'Collection Manager Guide'
+title: 'Guide du responsable de collection'
 date: 2025-04-29
 sidebar_position: 40
 ---
 
-#### Welcome to the Collection Manager Guide!
+#### Bienvenue dans le guide du gestionnaire de collection !
 
-This guide describes how to use tools and functions that a user with administrator permissions can access.
+Ce guide explique comment utiliser les outils et les fonctionnalités accessibles aux utilisateurs disposant de droits d'administrateur.
 
-Administrators automatically gain Editor permissions as well, so much of the content in the [Editor Guide](/Editor_Guide) will also be useful for Collection Managers / Administrators.
+Les administrateurs bénéficiant automatiquement des droits d'éditeur, une grande partie du contenu du [Guide de l'éditeur](/Editor_Guide) sera également utile aux gestionnaires de collection et aux administrateurs.
 
-For information about becoming an administrator, see our [User Permissions](/User_Guide/user_permissions/) page.
+Pour savoir comment devenir administrateur, consultez notre page [Droits des utilisateurs](/User_Guide/user_permissions/).

@@ -1,26 +1,26 @@
 ---
-title: "Data Cleaning"
+title: "Nettoyage des données"
 date: 2021-10-08
 lastmod: 2024-06-03
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
 draft: false
 sidebar_position: 60
-keywords: ["data cleaning","taxonomy","geography","duplicates"]
+keywords: ["nettoyage des données","taxonomie","géographie","doublons"]
 ---
 
 import ReactPlayer from "react-player";
 
-Symbiota has a number of useful built-in tools for data cleaning processes. Each of the tools described in this section can be accessed through the Administration Control Panel under Data Cleaning Tools.
+Symbiota intègre plusieurs outils utiles pour les processus de nettoyage des données. Chacun des outils décrits dans cette section est accessible depuis le panneau de contrôle d'administration, sous la rubrique « Outils de nettoyage des données » (Data Cleaning Tools).
 
-- [Compare Duplicate IDs Across Collections](/Collection_Manager_Guide/Data_Cleaning/compare_duplicate_ids)
-- [Duplicate Catalog Numbers](/Collection_Manager_Guide/Data_Cleaning/duplicate_catalog_numbers)
-- [Geographic Cleaning Tools](/Collection_Manager_Guide/Data_Cleaning/geographic_cleaning)
-- [Coordinate Validation Tools](/Collection_Manager_Guide/Data_Cleaning/coordinate_validator)
-- [Taxonomic Cleaning Tools](/Collection_Manager_Guide/Data_Cleaning/taxonomic_cleaning)
-- [Data Quality Toolkit](/Editor_Guide/data_quality_toolkit) (designed for Collection Administrators and Editors)
+- [Comparer les identifiants en double entre les collections](/Collection_Manager_Guide/Data_Cleaning/compare_duplicate_ids)
+- [Numéros de catalogue en double](/Collection_Manager_Guide/Data_Cleaning/duplicate_catalog_numbers)
+- [Outils de nettoyage géographique](/Collection_Manager_Guide/Data_Cleaning/geographic_cleaning)
+- [Outils de validation des coordonnées](/Collection_Manager_Guide/Data_Cleaning/coordinate_validator)
+- [Outils de nettoyage taxonomique](/Collection_Manager_Guide/Data_Cleaning/taxonomic_cleaning)
+- [Boîte à outils pour la qualité des données](/Editor_Guide/data_quality_toolkit) (conçue pour les administrateurs de collection et les éditeurs)
 
-A webinar about data cleaning can be found here:
+Un webinaire sur le nettoyage des données est disponible ici :
 
 <ReactPlayer
   playing={false}

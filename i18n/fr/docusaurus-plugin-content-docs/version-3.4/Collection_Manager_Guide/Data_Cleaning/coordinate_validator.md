@@ -1,95 +1,95 @@
 ---
-title: "Coordinate Validator"
+title: "Validateur de coordonnées"
 date: 2026-04-14
 sidebar_position: 7
 authors: ["Katie Pearson"]
-keywords: ["geography", "geographic thesaurus", "georeferences"]
+keywords: ["géographie", "thésaurus géographique", "géoréférences"]
 ---
 
 import ReactPlayer from "react-player";
 
 :::info
 
-This page describes how to use the coordinate validator tool, located under the Data Cleaning toolbox.
+Cette page explique comment utiliser l'outil de validation des coordonnées, situé dans la boîte à outils de nettoyage des données.
 
 :::
 
-## Things to know before using this tool
+## À savoir avant d'utiliser cet outil
 
 :::note
 
-This tool will only work as expected if your portal's geographic thesaurus includes geographic polygons, which can be added automatically by a superadministrator using the [Geographic Harvester](/Portal_Manager_Guide/Geographic_Thesaurus/geographic_harvester). Contact your Portal Manager if the tool does not seem to be functioning.
+Cet outil ne fonctionnera comme prévu que si le thésaurus géographique de votre portail inclut des polygones géographiques ; ceux-ci peuvent être ajoutés automatiquement par un super-administrateur à l'aide de l'outil [Geographic Harvester](/Portal_Manager_Guide/Geographic_Thesaurus/geographic_harvester). Contactez le gestionnaire de votre portail si l'outil ne semble pas fonctionner.
 
 :::
 
 :::tip
 
-It is recommended to use the [Geography Cleaning Tools](/Collection_Manager_Guide/Data_Cleaning/geographic_cleaning) before validating coordinates. This will ensure that your political units match those in the geographic thesaurus.
+Il est recommandé d'utiliser les [outils de nettoyage géographique](/Collection_Manager_Guide/Data_Cleaning/geographic_cleaning) avant de valider les coordonnées. Cela garantira que vos unités administratives correspondent à celles du thésaurus géographique.
 
 :::
 
-## How to locate the Coordinate Validator
+## Accéder à l'outil de validation des coordonnées
 
-Navigate to these tools through the **Administration Control Panel** (_click My Profile, then the name of the collection in the Collection Management box_). Click **Data Cleaning Tools**, then view the box below the **Specimen Coordinates** header.
+Accédez à ces outils via le **Panneau de contrôle d'administration** (*cliquez sur « Mon profil », puis sur le nom de la collection dans le bloc « Gestion des collections »*). Cliquez sur **Outils de nettoyage des données**, puis consultez le bloc situé sous l'en-tête **Coordonnées des spécimens**.
 
-The Coordinate Validator tool can be used to determine whether the coordinates associated with your records actually fall within the political boundaries of the provided Country, State/Province, and County.
+L'outil de validation des coordonnées permet de vérifier si les coordonnées associées à vos enregistrements se situent bien à l'intérieur des limites administratives (pays, État/province et comté) indiquées.
 
-The Statistics and Action Panel provides information about how many of your specimens are georeferenced, as well as how many records with or without coordinates have data in the "verbatim coordinates" field. Non-georeferenced records with values in the "verbatim coordinates" field are a good place to start when you begin georeferencing, as they may have coordinates that can simply be converted into decimal latitude/longitude values.
+Le panneau de statistiques et d'actions fournit des informations sur le nombre de spécimens géoréférencés, ainsi que sur le nombre d'enregistrements (avec ou sans coordonnées) contenant des données dans le champ « coordonnées verbatim » (telles qu'elles apparaissent sur l'étiquette). Les enregistrements non géoréférencés comportant des valeurs dans le champ « coordonnées verbatim » constituent un bon point de départ pour le géoréférencement, car ils peuvent contenir des coordonnées facilement convertibles en valeurs décimales de latitude et de longitude.
 
-![Coordinates Statistics Panel](/img/coordinatevalidatoractionpanel.png)
+![Panneau de statistiques des coordonnées](/img/coordinatevalidatoractionpanel.png)
 
-## How to run the Coordinate Validator
+## Utiliser l'outil de validation des coordonnées
 
-To use the Coordinate Validator Tool, click the **Verify coordinates against political boundaries** link.
+Pour utiliser l'outil de validation des coordonnées, cliquez sur le lien **Vérifier les coordonnées par rapport aux limites administratives**.
 
-If your collection has coordinates, you will see one of two things on the next page:
-- If you have never validated your coordinates, you will see a table of "Unverified records listed by county." Click the table icon to view specimens belonging to the listed country values.
-- If you have previously validated your coordinates, you will see a "Ranking Statistics" table consisting of all the potentially problematic records from the previous validation attempt.
+Si votre collection contient des coordonnées, l'une des deux situations suivantes se présentera sur la page suivante :
+- Si vous n'avez jamais validé vos coordonnées, vous verrez un tableau intitulé « Enregistrements non vérifiés par comté ». Cliquez sur l'icône du tableau pour afficher les spécimens correspondant aux valeurs de comté indiquées.
+- Si vous avez déjà validé vos coordonnées, vous verrez un tableau de « Statistiques de classement » regroupant tous les enregistrements potentiellement problématiques identifiés lors de la précédente tentative de validation.
 
-To validate (or re-validate) your coordinates, check the boxes next to your preferred options. You can have the tool populate values for country, state/province, and/or county based on the coordinates for records that do not currently have values in those fields. Click the "(Re-)Validate All Coordinates" button to run the tool.
+Pour valider (ou revalider) vos coordonnées, cochez les cases correspondant aux options de votre choix. Vous pouvez demander à l'outil de renseigner les champs « pays », « État/province » et/ou « comté » en se basant sur les coordonnées des enregistrements qui ne possèdent pas encore de valeurs pour ces champs. Cliquez sur le bouton **(Re)valider toutes les coordonnées** pour lancer l'outil.
 
-![Ranking Statistics Table](/img/coordinatevalidator.png)
+![Tableau des statistiques de classement](/img/coordinatevalidator.png)
 
 :::warning
 
-This tool may take several minutes to run! Do not navigate away from this window while the tool is running.
+L'exécution de cet outil peut prendre plusieurs minutes ! Ne quittez pas cette fenêtre pendant que l'outil est en cours d'exécution.
 
 :::
 
-The resulting Ranking Statistics table will show totals of potentially problematic records based on the types of issues discovered, described below. To view records with the named potential issues, click the number in the Questionable Records column.
+Le tableau des statistiques de classement qui en résulte affichera les totaux des enregistrements potentiellement problématiques, classés selon les types de problèmes détectés (décrits ci-dessous). Pour consulter les enregistrements présentant ces problèmes potentiels, cliquez sur le nombre indiqué dans la colonne « Enregistrements douteux ».
 
-### Explanation of potential issues discovered
+### Explication des problèmes potentiels détectés
 
-#### Failed to validate coordinate based on geographic thesaurus
+#### Échec de la validation des coordonnées par rapport au thésaurus géographique
 
-Records with this issue may:
-- Have coordinates that didn't match within any county or state boundaries
-- Have country/state/county values that do not match values in the geographic thesaurus
-- Have country/state/county values that do not have a corresponding polygon in the geographic thesaurus.
+Les enregistrements présentant ce problème peuvent :
+- Avoir des coordonnées qui ne correspondent à aucune limite de comté ou d'État ;
+- Avoir des valeurs de pays, d'État ou de comté qui ne correspondent pas aux valeurs du thésaurus géographique ;
+- Avoir des valeurs de pays, d'État ou de comté pour lesquelles il n'existe aucun polygone correspondant dans le thésaurus géographique.
 
-Because polygons in the thesaurus are sometimes imprecise, you are likely to always have records in this category.
+Comme les polygones du thésaurus manquent parfois de précision, il est probable que vous ayez toujours des enregistrements dans cette catégorie.
 
 :::warning
 
-The tool can only fully validate coordinates for countries that have state and county polygons in the taxonomic thesaurus. Contact your portal administrator for help with countries that do not yet have sub-country polygons.
+L'outil ne peut valider entièrement les coordonnées que pour les pays disposant de polygones d'États et de comtés dans le thésaurus géographique. Contactez l'administrateur de votre portail pour obtenir de l'aide concernant les pays ne disposant pas encore de polygones infranationaux.
 
 :::
 
-#### Failed to validate coordinate despite known search polygon
+#### Échec de la validation des coordonnées malgré un polygone de recherche connu
 
-Records with this issue were unable to validate despite the country/state/county values matching values with polygons in the geographic thesaurus. This is usually due to imprecisions in the polygons in the geographic thesaurus. For example, coastlines may not perfectly match the polygons. It is a good idea to check these records for obvious issues, then ignore the remaining flagged records.
+La validation a échoué pour les enregistrements présentant ce problème, bien que les valeurs de pays, d'État/province et de comté correspondent à celles associées aux polygones du référentiel géographique. Cela est généralement dû à des imprécisions dans les polygones du référentiel géographique ; par exemple, le tracé des côtes peut ne pas correspondre parfaitement aux polygones. Il est recommandé d'examiner ces enregistrements pour détecter d'éventuelles erreurs manifestes, puis d'ignorer les enregistrements signalés restants.
 
-#### State/Province does not match coordinates
+#### L'État/la province ne correspond pas aux coordonnées
 
-Records with this issue have coordinates that were found in the correct country, but the location of the coordinates does not match the given state/province value. Check these records for misplaced coordinates or mis-typed state/province values.
+Pour les enregistrements présentant ce problème, les coordonnées se situent bien dans le pays indiqué, mais leur emplacement ne correspond pas à la valeur d'État ou de province renseignée. Vérifiez ces enregistrements pour déceler des coordonnées mal placées ou des erreurs de saisie concernant l'État ou la province.
 
-#### County does not match coordinates
+#### Le comté ne correspond pas aux coordonnées
 
-Records with this issue have coordinates that were found in the correct country and state/province, but the location of the coordinates does not match the given county value. Check these records for misplaced coordinates or mis-typed county values.
+Pour les enregistrements présentant ce problème, les coordonnées se situent bien dans le pays et l'État/province indiqués, mais leur emplacement ne correspond pas à la valeur de comté renseignée. Vérifiez ces enregistrements pour déceler des coordonnées mal placées ou des erreurs de saisie concernant le comté.
 
 :::tip
 
-Once you have fixed records that could not be validated (in the occurrence editor), you must re-run the validator to update your validation statistics.
+Une fois que vous avez corrigé les enregistrements n'ayant pas pu être validés (dans l'éditeur d'occurrences), vous devez relancer l'outil de validation pour mettre à jour vos statistiques de validation.
 
 :::
 

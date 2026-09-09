@@ -1,5 +1,5 @@
 ---
-title: "Deleting Records"
+title: "Suppression d'enregistrements"
 date: 2021-12-08
 lastmod: 2025-07-15
 draft: false
@@ -11,24 +11,24 @@ keywords: ["delete", "remove"]
 
 :::info
 
-This page describes how to delete records from your collection.
+Cette page explique comment supprimer des enregistrements de votre collection.
 
 :::
 
 :::note
 
-Only the portal manager(s) or someone with backend access can delete more than one specimen record at a time. This is designed to protect data integrity, such as GUIDs and links to other tables in the database.
+Seul(s) le(s) gestionnaire(s) du portail ou une personne disposant d'un accès au système d'arrière-plan (backend) peut/peuvent supprimer plusieurs enregistrements de spécimens à la fois. Cette mesure vise à préserver l'intégrité des données, notamment les GUID et les liens vers d'autres tables de la base de données.
 
 :::
 
-Deleting a specimen record is only appropriate when that specimen no longer exists or the record was added erroneously (e.g., it was an exact duplicate of an existing record). You should not delete a record for the purpose of updating it or adding a new version of the record.
+La suppression d'un enregistrement de spécimen ne doit être effectuée que si le spécimen n'existe plus ou si l'enregistrement a été ajouté par erreur (par exemple, s'il s'agissait d'un doublon exact d'un enregistrement existant). Vous ne devez pas supprimer un enregistrement dans le but de le mettre à jour ou d'en ajouter une nouvelle version.
 
-To delete a record:
+Pour supprimer un enregistrement :
 
-1. Navigate to the specimen record that you would like to delete and open the Occurrence Editor form for that record. (See [this page](/Editor_Guide/Editing_Searching_Records) for help navigating to specific records.)
-2. Open the Admin tab.
-3. Select the "Evaluate record for deletion" button to determine whether the record can be safely deleted. If a media resource (e.g., image) is associated with the record, you will need to disassociate the resource from the specimen record before it can be deleted (see the [deleting/remapping images page](/Editor_Guide/Images_Media/deleting_transfering_images)). Likewise, a warning will appear if the specimen record is linked to a checklist, which must be resolved before the specimen record can be deleted. If there are no warnings at this point, click the "Delete Occurrence" button to remove the record from your dataset.
+1. Accédez à l'enregistrement du spécimen que vous souhaitez supprimer et ouvrez le formulaire d'édition d'occurrence (Occurrence Editor) correspondant. (Consultez [cette page](/Editor_Guide/Editing_Searching_Records) pour savoir comment accéder à des enregistrements spécifiques.)
+2. Ouvrez l'onglet « Admin ».
+3. Cliquez sur le bouton « Evaluate record for deletion » (Évaluer l'enregistrement pour suppression) afin de déterminer si l'enregistrement peut être supprimé sans risque. Si une ressource multimédia (par exemple, une image) est associée à l'enregistrement, vous devrez dissocier cette ressource de l'enregistrement du spécimen avant de pouvoir le supprimer (consultez la page sur la [suppression/le transfert d'images](/Editor_Guide/Images_Media/deleting_transfering_images)). De même, un avertissement s'affichera si l'enregistrement du spécimen est lié à une liste de contrôle (checklist) ; ce problème devra être résolu avant que l'enregistrement du spécimen puisse être supprimé. Si aucun avertissement n'apparaît à ce stade, cliquez sur le bouton « Delete Occurrence » (Supprimer l'occurrence) pour retirer l'enregistrement de votre jeu de données.
 
-![Admin tab of the Occurrence Editor](/img/admintab_delete2026.png)
+![Onglet Admin de l'éditeur d'occurrence](/img/admintab_delete2026.png)
 
-To batch delete records, contact your portal manager.
+Pour supprimer des enregistrements par lots, veuillez contacter le gestionnaire de votre portail.

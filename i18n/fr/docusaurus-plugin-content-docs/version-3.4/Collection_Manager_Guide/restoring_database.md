@@ -1,5 +1,5 @@
 ---
-title: "Restoring your Database"
+title: "Restauration de votre base de données"
 date: 2021-12-15
 lastmod: 2026-03-30
 draft: false
@@ -9,11 +9,11 @@ editors: ["Lindsay Walker"]
 keywords: ["restore","replace","upload"]
 ---
 
-In the case of catastrophic database error (e.g., erroneous batch edit that cannot be easily reversed), you can replace your entire database by uploading a Darwin Core Archive (DwC-A). Note that you need to have recently [downloaded a copy of your database](/Collection_Manager_Guide/Downloading/downloading_copy/) with which you can replace your current database.
-To replace your database, navigate to the Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box) and click “Restore Backup File” under the General Maintenance Tasks. You can then click Choose File and select a DwC-A with which to replace your dataset.
- * If your DwC-A contains an "identifications" file, make sure that the "Restore Determination History" box is checked.
-  * If your DwC-A contains a "multimedia" file, make sure that the "Restore Media Links" box is checked. Click Analyze File.
+En cas d'erreur critique dans la base de données (par exemple, une modification par lots erronée impossible à annuler facilement), vous pouvez remplacer l'intégralité de votre base de données en téléversant une archive Darwin Core (DwC-A). Notez que vous devez avoir préalablement [téléchargé une copie de votre base de données](/Collection_Manager_Guide/Downloading/downloading_copy/) pour pouvoir remplacer la version actuelle.
+Pour remplacer votre base de données, accédez au panneau de contrôle d'administration (cliquez sur « My Profile », puis sur le nom de la collection dans le bloc « Collection Management ») et cliquez sur « Restore Backup File » (Restaurer un fichier de sauvegarde) dans la section « General Maintenance Tasks » (Tâches de maintenance générale). Cliquez ensuite sur « Choose File » (Choisir un fichier) et sélectionnez le fichier DwC-A devant servir à remplacer votre jeu de données. 
+* Si votre DwC-A contient un fichier « identifications », assurez-vous que la case « Restore Determination History » (Restaurer l'historique des déterminations) est cochée. 
+* Si votre DwC-A contient un fichier « multimedia », assurez-vous que la case « Restore Media Links » (Restaurer les liens multimédias) est cochée. Cliquez sur « Analyze File » (Analyser le fichier).
 
-The file will take some time to load and process. Once this is done, a report called “Final transfer” will be displayed at the bottom of the screen. This report will show you how many records will be updated, how many records are new, how many identifications/determinations will be added, and how many records have media links (e.g., images). **_Ensure that these numbers are as expected._** You can preview these records by clicking the table icon to the immediate right of the desired dataset (circled on next screenshot), or you can download these records as a CSV by clicking the two boxes icon to the far right of the desired dataset (in a square on next screenshot). Once you are satisfied that the records will be properly uploaded, click the "Transfer Records to Central Specimen Table" button. **Note that this change is _permanent_ and cannot be undone!**
+Le chargement et le traitement du fichier prendront un certain temps. Une fois l'opération terminée, un rapport intitulé « Final transfer » (Transfert final) s'affichera en bas de l'écran. Ce rapport indiquera le nombre d'enregistrements mis à jour, le nombre de nouveaux enregistrements, le nombre d'identifications/déterminations ajoutées et le nombre d'enregistrements comportant des liens multimédias (par exemple, des images). **_Vérifiez que ces chiffres correspondent à vos attentes._** Vous pouvez prévisualiser ces enregistrements en cliquant sur l'icône en forme de tableau située juste à droite du jeu de données concerné (entourée sur la capture d'écran suivante), ou les télécharger au format CSV en cliquant sur l'icône représentant deux carrés située tout à droite du jeu de données (encadrée sur la capture d'écran suivante). Une fois que vous avez vérifié que les enregistrements seront correctement téléversés, cliquez sur le bouton « Transfer Records to Central Specimen Table » (Transférer les enregistrements vers la table centrale des spécimens). **Notez que cette modification est _irréversible_ !**
 
-![Final Transfer Screen](/img/restoredatafinaltransfer2026.png)
+![Écran de transfert final](/img/restoredatafinaltransfer2026.png)

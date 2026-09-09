@@ -1,5 +1,5 @@
 ---
-title: "Comments & Feedback"
+title: "Commentaires et retours"
 date: 2024-04-03
 lastmod: 2024-04-20
 sidebar_position: 30
@@ -12,11 +12,11 @@ import ReactPlayer from "react-player";
 
 :::info
 
-Sourcing public feedback on your specimen occurrences is one way to improve the "cleanliness", or quality, of your data. Symbiota offers several tools to help you gather this information from anyone with a portal user account.
+Recueillir les avis du public sur les occurrences de vos spécimens est un moyen d'améliorer la « propreté », ou la qualité, de vos données. Symbiota propose plusieurs outils pour vous aider à obtenir ces informations auprès de toute personne disposant d'un compte utilisateur sur le portail.
 :::
 
-- [Commenting](/Collection_Manager_Guide/Comments_Feedback/public_comments/)
-- [Public Edits](/Collection_Manager_Guide/Comments_Feedback/public_edits/)
+- [Commentaires](/Collection_Manager_Guide/Comments_Feedback/public_comments/)
+- [Modifications par le public](/Collection_Manager_Guide/Comments_Feedback/public_edits/)
  
 ### Related Resources
   <ReactPlayer

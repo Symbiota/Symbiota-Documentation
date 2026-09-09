@@ -1,30 +1,30 @@
 ---
-title: "Duplicate Catalog Numbers"
+title: "Numéros de catalogue en double"
 date: 2025-03-30
 authors: ["Katie Pearson"]
 draft: false
 sidebar_position: 10
-keywords: ["data cleaning", "duplicates"]
+keywords: ["nettoyage des données", "doublons"]
 ---
 
 :::info
 
-This page describes how to identify and merge (when necessary) specimens with duplicate catalog numbers or other catalog numbers.
+Cette page explique comment identifier et fusionner (si nécessaire) des spécimens partageant les mêmes numéros de catalogue ou d'autres numéros de catalogue.
 
 :::
 
-This tool can be found in the **Administration Control Panel** (_click My Profile, then the name of the collection in the Collection Management box_).
+Cet outil est accessible depuis le **Panneau de contrôle d'administration** (_cliquez sur « Mon profil », puis sur le nom de la collection dans le bloc « Gestion des collections »_).
 
-To use the tool, first select whether you would like to list duplicates based on Catalog Numbers or Other Catalog Numbers from the “List Duplicates based on...” box. If duplicates exist, a table of duplicate records will appear on the resulting page.
+Pour utiliser l'outil, commencez par choisir si vous souhaitez lister les doublons en fonction des « Numéros de catalogue » ou des « Autres numéros de catalogue » via le menu déroulant correspondant. Si des doublons existent, un tableau répertoriant ces enregistrements apparaîtra sur la page suivante.
 
-![Duplicate Cleaning Tool](/img/dupecatnums2026.png)
+![Outil de nettoyage des doublons](/img/dupecatnums2026.png)
 
-From here, you can evaluate whether the duplicate records should be edited, merged, or ignored. To view and/or edit a record, click the number in the ID column next to the record you wish to view. This will open that specimen’s Record Editor page.
+À partir de là, vous pouvez déterminer si les enregistrements en double doivent être modifiés, fusionnés ou ignorés. Pour consulter ou modifier un enregistrement, cliquez sur le numéro figurant dans la colonne « ID » en regard de l'enregistrement souhaité. Cela ouvrira la page d'édition de ce spécimen.
 
-If you decide that the two records should be merged, check the boxes next to both duplicates, then select the radio button that corresponds to the record you wish to make the primary record. If both records have a value in a given field, Symbiota will keep the value that belongs to this primary record and discard the other value. When you are satisfied that the correct information will be retained, click the Merge Duplicate Records button.
+Si vous décidez de fusionner deux enregistrements, cochez les cases situées à côté de chaque doublon, puis sélectionnez le bouton radio correspondant à l'enregistrement que vous souhaitez conserver comme enregistrement principal. Si les deux enregistrements contiennent une valeur pour un champ donné, Symbiota conservera la valeur associée à l'enregistrement principal et rejettera l'autre. Une fois que vous avez vérifié que les informations correctes seront conservées, cliquez sur le bouton « Fusionner les enregistrements en double ».
 
 :::tip
 
-If there are many duplicate records to evaluate, you can click the checkbox at the top of the checkbox column. This will check all of the boxes in the entire table. You can also select the radio button column header, which will allow Symbiota to auto-select a record to retain for each pair. You will want to vet this list to ensure that the correct record is selected for retention.
+Si vous devez examiner un grand nombre de doublons, vous pouvez cliquer sur la case à cocher située en haut de la colonne correspondante ; cela sélectionnera toutes les cases du tableau. Vous pouvez également cliquer sur l'en-tête de la colonne des boutons radio, ce qui permettra à Symbiota de sélectionner automatiquement l'enregistrement à conserver pour chaque paire. Il est toutefois recommandé de vérifier cette liste pour s'assurer que le bon enregistrement a été sélectionné.
 
 :::

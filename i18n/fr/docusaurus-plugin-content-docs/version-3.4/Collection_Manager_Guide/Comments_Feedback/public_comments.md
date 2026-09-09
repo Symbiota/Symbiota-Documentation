@@ -1,5 +1,5 @@
 ---
-title: "Public Comments"
+title: "Commentaires du public"
 date: 2021-11-22
 lastmod: 2026-03-30
 draft: false
@@ -11,27 +11,27 @@ keywords: ["comments"]
 
 :::info
 
-This page describes how to view comments on your occurrences. Any Symbiota user can create a comment on an occurrence record. This can be a useful feature for community members to ask questions or flag data quality issues.
+Cette page explique comment consulter les commentaires relatifs à vos occurrences. Tout utilisateur de Symbiota peut ajouter un commentaire à une fiche d'occurrence. Cette fonctionnalité permet aux membres de la communauté de poser des questions ou de signaler des problèmes de qualité des données.
 
 :::
 
-To view and vet comments posted on records from your collection, navigate to the Administration Control Panel (_click My Profile, then the name of the collection in the Collection Management box_) and click "View Posted Comments." If there is no orange text to the right of this option, you have no comments that have not yet been reviewed.
+Pour consulter et valider les commentaires publiés sur les fiches de votre collection, accédez au panneau de contrôle d'administration (_cliquez sur « Mon profil », puis sur le nom de la collection dans le bloc « Gestion des collections »_) et cliquez sur « Voir les commentaires publiés ». Si aucun texte orange n'apparaît à droite de cette option, cela signifie qu'il n'y a aucun commentaire en attente de vérification.
 
-![View Comments](/img/admincontrolpanel_comments.png)
+![Voir les commentaires](/img/admincontrolpanel_comments.png)
 
-![View Comments](/img/examplecomments2026.png)
+![Voir les commentaires](/img/examplecomments2026.png)
 
-On the Comments Listing page, you can:
+Sur la page de liste des commentaires, vous pouvez :
 
-- hide comments from the public (in cases of sensitive or personal data)
-- mark comments as reviewed (i.e., you have resolved the issue described by the comment)
-- delete comments (in cases of spam or inappropriate content)
-- view specimen records associated comments by selecting the URLs above comment details (catalog number, collector, collector number, and date)
+- masquer des commentaires au public (en cas de données sensibles ou personnelles)
+- marquer des commentaires comme vérifiés (c.-à-d. que vous avez résolu le problème signalé)
+- supprimer des commentaires (en cas de spam ou de contenu inapproprié)
+- consulter les fiches de spécimens associées aux commentaires en cliquant sur les liens situés au-dessus des détails du commentaire (numéro de catalogue, collecteur, numéro de récolte et date)
 
-In the event that you have many comments to work through, you use the _Filter Options_ box (top right) to view only comments that were posted by a certain user, have a certain status (public/non-public/reviewed), or were posted within a certain date range.
+Si vous avez un grand nombre de commentaires à traiter, vous pouvez utiliser le bloc « Options de filtrage » (en haut à droite) pour n'afficher que les commentaires publiés par un utilisateur spécifique, ceux ayant un statut particulier (public/non public/vérifié) ou ceux publiés dans une plage de dates donnée.
 
 :::note
 
-⚠️ Spam comments are so far rare, but one should regularly review posted comments to ensure no inappropriate content has been posted to your collection. **If you find any inappropriate comments**, please contact the portal manager immediately so they can remove this user from the portal.
+⚠️ Les commentaires de type spam sont pour l'instant rares, mais il est conseillé de vérifier régulièrement les commentaires publiés pour s'assurer qu'aucun contenu inapproprié n'a été ajouté à votre collection. **Si vous trouvez des commentaires inappropriés**, veuillez contacter immédiatement le gestionnaire du portail afin qu'il puisse exclure l'utilisateur concerné.
 
 :::
