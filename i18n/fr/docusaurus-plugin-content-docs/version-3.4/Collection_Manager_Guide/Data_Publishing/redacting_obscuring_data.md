@@ -1,116 +1,116 @@
 ---
-title: "Redacting / Obscuring Data"
+title: "Masquage / Occultation de données"
 Date: 2021-11-01
 lastmod: 2026-05-08
 authors: ["Katie Pearson", "Ed Gilbert"]
 editors: ["Lindsay Walker"]
 sidebar_position: 20
-keywords: ["rare species", "data protection", "redaction"]
+keywords: ["espèces rares", "protection des données", "occultation"]
 ---
 
 import ReactPlayer from "react-player";
 
 :::info
 
-This page explains how data redaction functions in a Symbiota portal.
+Cette page explique le fonctionnement du masquage des données (redaction) dans un portail Symbiota.
 
 :::
 
-Collection managers may wish to redact locality data for certain occurrences, for example, of rare or endangered species or for locations on private property. Locality data in Symbiota portals may be redacted in one of three ways: (a) individually (per occurrence), (b) globally (per taxon), or (c) by state.
+Les gestionnaires de collections peuvent souhaiter masquer les données de localisation pour certaines occurrences, par exemple celles concernant des espèces rares ou menacées, ou des sites situés sur des propriétés privées. Dans les portails Symbiota, les données de localisation peuvent être masquées de trois manières : (a) individuellement (par occurrence), (b) globalement (par taxon) ou (c) par État/province.
 
-An occurrence can have its locality redacted ("Locality security applied") or not ("Security not applied"). When security settings are enabled on the Occurence Editor (or Record Security is uploaded as 1) for a given occurrence, a user who does not have Rare Species Reader or Editor permissions will not be able to view that occurrence's:
+Une occurrence peut faire l'objet d'un masquage de localisation (« Sécurité de localisation appliquée ») ou non (« Sécurité non appliquée »). Lorsque les paramètres de sécurité sont activés dans l'éditeur d'occurrences (ou que la valeur « 1 » est attribuée au champ de sécurité de l'enregistrement) pour une occurrence donnée, un utilisateur ne disposant pas des droits de lecture ou d'édition pour les espèces rares ne pourra pas voir les éléments suivants pour cette occurrence :
 
-- Locality below the level of county
-- Coordinates (if provided)
-- Image
+- La localisation à un niveau plus précis que le comté (ou l'équivalent administratif)
+- Les coordonnées (si elles sont fournies)
+- L'image
 
-## How redacting data affects various users
+## Impact du masquage des données sur les différents utilisateurs
 
-Specimen occurrences with record security applied affects portal users as follows:
+L'application de mesures de sécurité aux occurrences de spécimens affecte les utilisateurs du portail comme suit :
 
-- **Administrators, Editors**: all locality details are visible and can be edited on a per-collection basis
-- **Rare Species Readers**: locality details are visible and can be downloaded, _but not edited_, on a per-collection basis
-- **All other users**: no locality details are visible below county, if provided. On a record's public view, any locality-related fields that contain obscured data will be listed in _Information Withheld_.
+- **Administrateurs, Éditeurs** : tous les détails de localisation sont visibles et modifiables, au niveau de la collection.
+- **Lecteurs d'espèces rares** : les détails de localisation sont visibles et téléchargeables, _mais non modifiables_, au niveau de la collection.
+- **Tous les autres utilisateurs** : aucun détail de localisation n'est visible en dessous du niveau du comté (si cette information est fournie). Dans la vue publique de l'enregistrement, les champs liés à la localisation contenant des données masquées seront regroupés sous la mention _Information Withheld_ (Information non divulguée).
 
-![Occurrence Editor Example](/img/redaction_informationwithheld2026.png)
+![Exemple de l'éditeur d'occurrences](/img/redaction_informationwithheld2026.png)
 
 :::tip
 
-The complete list of fields that are redacted when locality redaction is enabled includes: _recordnumber_, _eventdate_, _verbatimeventdate_, _locality_, _locationid_, _decimallatitude_, _decimallongitude_, _verbatimcoordinates_, _locationremarks_, _georeferenceremarks_, _geodeticdatum_, _minimumelevationinmeters_, _maximumelevationinmeters_, _verbatimelevation_, _habitat_, _associatedtaxa_
+La liste complète des champs masqués lorsque la fonction de masquage de localisation est activée comprend : _recordnumber_, _eventdate_, _verbatimeventdate_, _locality_, _locationid_, _decimallatitude_, _decimallongitude_, _verbatimcoordinates_, _locationremarks_, _georeferenceremarks_, _geodeticdatum_, _minimumelevationinmeters_, _maximumelevationinmeters_, _verbatimelevation_, _habitat_, _associatedtaxa_
 
 :::
 
 :::tip
 
-Users with Administrator permissions can grant or remove access to their collections data through the Administation Control Panel. [Learn how here](/Collection_Manager_Guide/user_permissions).
+Les utilisateurs disposant de droits d'administrateur peuvent accorder ou révoquer l'accès aux données de leurs collections via le panneau de contrôle d'administration. [Découvrez comment procéder ici](/Collection_Manager_Guide/user_permissions).
 
 :::
 
-## Which taxa are protected in my portal?
+## Quels taxons sont protégés dans mon portail ?
 
-The master list of Protected Species in a given portal can be viewed by all portal users, including those who are not logged into the portal.
+La liste de référence des espèces protégées d'un portail donné peut être consultée par tous les utilisateurs, y compris ceux qui ne sont pas connectés au portail.
 
-|                                                                          ![Protected Species](/img/redaction_protectedspecies2026.png)                                                                          |
+| ![Espèces protégées](/img/redaction_protectedspecies2026.png)                                                                          |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| To view all protected taxa in a portal, navigate to _Sitemap > Collections > Protected Species_. This example comes [from SEINet](https://swbiodiversity.org/seinet/collections/misc/protectedspecies.php). |
+| Pour afficher tous les taxons protégés d'un portail, accédez à _Plan du site > Collections > Espèces protégées_. Cet exemple provient [de SEINet](https://swbiodiversity.org/seinet/collections/misc/protectedspecies.php). |
 
 :::tip
 
-To find records in your collection that have data redaction applied, use the Data Editor Search form to construct a query where "_Record Security_ + EQUALS + 1".
+Pour trouver les enregistrements de votre collection faisant l'objet d'une masquage de données, utilisez le formulaire de recherche de l'éditeur de données pour créer une requête où « _Record Security_ + ÉGAL À + 1 ».
 
 :::
 
-## How to redact data
+## Comment masquer des données
 
-### Individually redacting locality data for certain occurrences
+### Masquage individuel des données de localité pour certaines occurrences
 
-The locality data can be redacted for individual occurrences by using the "Security" dropdown list (in the Locality box of the Occurrence Editor).
+Les données de localité peuvent être masquées pour des occurrences individuelles en utilisant la liste déroulante « Security » (dans la section « Locality » de l'éditeur d'occurrence).
 
-![Occurrence Editor Example](/img/redaction_occurrenceeditor2026.png)
+![Exemple d'éditeur d'occurrence](/img/redaction_occurrenceeditor2026.png)
 
-### Batch redacting locality data for certain occurrences
+### Masquage en lot des données de localité pour certaines occurrences
 
-If you wish to batch redact data, you can download a CSV file of all the specimen records you wish to redact from the [Record Search Form](/Collection_Manager_Guide/Downloading/downloading_subset), then add a column called "RecordSecurity". Enter "1" in this column for all specimens for which you wish to redact data (conversely, you would enter "0" to keep the data publicly visible, or leave this field blank). Use the [Skeletal File Uploader](/Collection_Manager_Guide/Importing_Uploading/#file-upload-or-skeletal-file-upload) to upload this spreadsheet into the portal, mapping the new column to _localitySecurity_. You may need to ask your portal manager to clear out any existing values in this field before importing via the Skeletal File Uploader.
+Si vous souhaitez masquer des données en lot, vous pouvez télécharger un fichier CSV contenant toutes les notices de spécimens concernées depuis le [formulaire de recherche de notices](/Collection_Manager_Guide/Downloading/downloading_subset), puis ajouter une colonne nommée « RecordSecurity ». Saisissez « 1 » dans cette colonne pour tous les spécimens dont vous souhaitez masquer les données (inversement, saisissez « 0 » pour rendre les données publiques ou laissez le champ vide). Utilisez l'outil [Skeletal File Uploader](/Collection_Manager_Guide/Importing_Uploading/#file-upload-or-skeletal-file-upload) pour importer ce tableau dans le portail, en associant la nouvelle colonne au champ _localitySecurity_. Il peut être nécessaire de demander au gestionnaire du portail de supprimer les valeurs existantes dans ce champ avant de procéder à l'importation via le Skeletal File Uploader.
 
-### Globally redacting locality data for certain taxa
+### Masquage global des données de localité pour certains taxons
 
-Locality data and media (e.g., images) can be redacted for all occurrences by a specific taxon by someone with Super Administrator or Taxon Editor user permissions. To do this, find the species in the Taxonomic Tree Viewer or Taxonomy Explorer and open the editor (either by clicking on the taxon name or clicking the pencil next to the name). Change _Locality Security_ from "show all locality data" to "hide locality data".
+Les données de localité et les médias (par ex. images) peuvent être masqués pour toutes les occurrences d'un taxon spécifique par un utilisateur disposant des droits « Super Administrator » ou « Taxon Editor ». Pour ce faire, recherchez l'espèce dans le visualiseur d'arbre taxonomique (Taxonomic Tree Viewer) ou l'explorateur de taxonomie (Taxonomy Explorer) et ouvrez l'éditeur (en cliquant sur le nom du taxon ou sur l'icône en forme de crayon à côté du nom). Modifiez le paramètre _Locality Security_ en passant de « show all locality data » (afficher toutes les données de localité) à « hide locality data » (masquer les données de localité).
 
-![Taxonomy Editor Example](/img/redaction_taxoneditorexample.png)
+![Exemple d'éditeur de taxonomie](/img/redaction_taxoneditorexample.png)
 
-**This will hide locality data for all occurrences of that taxon throughout the portal, not just for your collection**. Collections can opt out of this option by individually setting the Security box to "Security not applied" within the Occurrence Editor for individual specimen records or by contacting their portal manager for batch changes.
+**Cette action masquera les données de localité pour toutes les occurrences de ce taxon dans l'ensemble du portail, et pas seulement pour votre collection.** Les collections peuvent choisir de ne pas appliquer cette option en réglant individuellement le champ « Security » sur « Security not applied » dans l'éditeur d'occurrence pour chaque spécimen, ou en contactant le gestionnaire du portail pour effectuer des modifications en lot.
 
-### Redacting data by state
+### Masquage des données par État
 
-Finally, locality data and images can be redacted for occurrences of a given taxon that were collected in a certain state by managing a "Rare, threatened, protected species list". User accounts with Rare Species Administrator permissions can create a species list specifically for managing sensitive species and then assigning editing rights to one of several appropriate users for populating and managing the state list. The addition of a species to the list will automatically protect locality details of all specimens collected within the designated state.
+Enfin, il est possible de masquer les données de localisation et les images relatives aux occurrences d'un taxon donné collecté dans un État spécifique, en gérant une « liste des espèces rares, menacées ou protégées ». Les utilisateurs disposant des droits d'administrateur pour les espèces rares peuvent créer une liste dédiée à la gestion des espèces sensibles, puis attribuer des droits de modification à un ou plusieurs utilisateurs appropriés chargés d'alimenter et de gérer cette liste pour l'État concerné. L'ajout d'une espèce à la liste entraînera automatiquement la protection des détails de localisation pour tous les spécimens collectés dans l'État désigné.
 
-**This will hide locality data for all occurrences of that taxon in the given state throughout the portal, not just for your collection.** Collections can opt out of this option by individually setting the Security box to "Security not applied" within the Occurrence Editor for individual specimen records or by contacting their portal manager for batch changes.
+**Cette mesure masquera les données de localisation pour toutes les occurrences de ce taxon dans l'État concerné sur l'ensemble du portail, et pas seulement pour votre collection.** Les collections peuvent choisir de ne pas appliquer cette option en réglant individuellement le champ « Sécurité » sur « Sécurité non appliquée » dans l'éditeur d'occurrences pour chaque spécimen, ou en contactant le gestionnaire du portail pour effectuer des modifications par lots.
 
-### Will my redacted data be visible if published to GBIF?
+### Mes données masquées seront-elles visibles si elles sont publiées sur le GBIF ?
 
-By default, no. Keep the box, "Redact Sensitive Localities", in the Darwin Core Archive Publisher **checked** so that redacted data will remain obscured when a Darwin Core Archive file is sent to GBIF. To locate the Darwin Core Archive Publisher, navigate to _Administration Control Panel > Darwin Core Archive Publishing_. Scroll down to the "Create/Refresh Darwin Core Archive" box.
+Par défaut, non. Veillez à laisser la case « Masquer les localisations sensibles » (Redact Sensitive Localities) cochée dans l'outil de publication d'archives Darwin Core (Darwin Core Archive Publisher) afin que les données masquées restent dissimulées lors de l'envoi du fichier d'archive Darwin Core au GBIF. Pour accéder à cet outil, allez dans _Panneau de contrôle d'administration > Publication d'archives Darwin Core_ (Administration Control Panel > Darwin Core Archive Publishing). Faites défiler la page jusqu'à la section « Créer/Actualiser l'archive Darwin Core » (Create/Refresh Darwin Core Archive).
 
-Keep in mind that the _Security_ field must contain a value of "1" for your data to be successfully redacted within the portal, as well as during data publishing; this applies to both live-managed and snapshot collections. If _Security_ is blank, your data will remain visible and can be published.
+N'oubliez pas que le champ _Sécurité_ (Security) doit contenir la valeur « 1 » pour que vos données soient correctement masquées au sein du portail ainsi que lors de leur publication ; cela s'applique aussi bien aux collections gérées en temps réel qu'à celles gérées par instantanés (snapshots). Si le champ _Sécurité_ est vide, vos données resteront visibles et pourront être publiées.
 
-#### Instructions for creating state-based redacted species lists
+#### Instructions pour créer des listes d'espèces masquées à l'échelle d'un État
 
-1. **Create a new empty rare species checklist.**
-   - Click “My Profile”, select the Species Checklists tab, and click the green plus sign.
-   - Change the Checklist Type to “Rare, threatened, protected species list”. If you don’t see the Checklist Type field located below the author field, then you do not have the necessary Rare Species Administrator permissions to create this type of checklist. In this case, you can continue creating the checklist (as normal) and ask a portal manager to change the checklist type at a later date.
-   - Enter the state name in the locality field. Do not abbreviate or add any other text other than the state name.
-   - The checklist can be private or public and made available to the general public.
-2. **Add one to several checklist editors to the checklist.**
-   - From the new checklists, click on the checklist administration editing pencil located towards the user right of the page
-   - Checklist editors do not need Rare Species Administrator or any other special editing rights to manage the list
-3. Checklist editors add species needing protection using the normal checklist editing tools.
+1. **Créez une nouvelle liste de contrôle vide pour les espèces rares.**
+- Cliquez sur « Mon profil », sélectionnez l'onglet « Listes de contrôle des espèces » et cliquez sur le signe « plus » vert. 
+- Modifiez le type de liste de contrôle pour choisir « Liste d'espèces rares, menacées ou protégées ». Si vous ne voyez pas le champ « Type de liste de contrôle » situé sous le champ « Auteur », c'est que vous ne disposez pas des autorisations d'administrateur « Espèces rares » nécessaires pour créer ce type de liste. Dans ce cas, vous pouvez poursuivre la création de la liste (comme d'habitude) et demander ultérieurement à un gestionnaire du portail d'en modifier le type. 
+- Saisissez le nom de l'État dans le champ « Localité ». N'utilisez pas d'abréviation et n'ajoutez aucun autre texte que le nom de l'État. 
+- La liste de contrôle peut être privée ou publique et mise à la disposition du grand public.
+2. **Ajoutez un ou plusieurs éditeurs à la liste de contrôle.**
+- Depuis la nouvelle liste de contrôle, cliquez sur l'icône de modification (crayon) située vers la droite de la page.
+- Les éditeurs de la liste n'ont pas besoin du statut d'administrateur « Espèces rares » ni d'aucun autre droit de modification particulier pour gérer la liste.
+3. Les éditeurs ajoutent les espèces nécessitant une protection à l'aide des outils habituels de modification des listes de contrôle. 
 
-   - See [checklist tutorials](/User_Guide/Checklists/) for help creating and managing checklists.
+- Consultez les [tutoriels sur les listes de contrôle](/User_Guide/Checklists/) pour obtenir de l'aide sur la création et la gestion de ces listes. 
 
-   ![Checklist Example](/img/checklist_protected2026.png)
+![Exemple de liste de contrôle](/img/checklist_protected2026.png)
 
-## How users can request access to redacted data
+## Comment les utilisateurs peuvent demander l'accès aux données masquées
 
-Individuals who require access to redacted data for legitimate reasons are encouraged to [directly reach out](/User_Guide/Providing_Feedback/contacting_collection) to the contact(s) listed on collections profiles to acquire data access. However, if the request is complex and requires contacting numerous collections, individuals can contact the Symbiota Support Hub for assistance in reaching out to the relevant collections. Please keep your [collection's contact information](/Collection_Manager_Guide/editing_collection_metadata#collection-contacts) up to date so that portal users and the Support Hub can contact you about these requests. It is also recommended that you add hub@symbiota.org to your own contacts so these messages are not blocked by an institutional firewall or routed to spam.
+Les personnes ayant besoin d'accéder à des données masquées pour des motifs légitimes sont encouragées à [contacter directement](/User_Guide/Providing_Feedback/contacting_collection) les personnes indiquées sur les profils des collections pour obtenir cet accès. Toutefois, si la demande est complexe et nécessite de contacter de nombreuses collections, ces personnes peuvent s'adresser au centre d'assistance Symbiota (Symbiota Support Hub) pour obtenir de l'aide afin de contacter les collections concernées. Veuillez tenir à jour les [coordonnées de votre collection](/Collection_Manager_Guide/editing_collection_metadata#collection-contacts) afin que les utilisateurs du portail et le centre d'assistance puissent vous contacter au sujet de ces demandes. Il est également recommandé d'ajouter l'adresse hub@symbiota.org à vos contacts pour éviter que ces messages ne soient bloqués par un pare-feu institutionnel ou dirigés vers les courriers indésirables (spam).
 
 ## Related Resources
 

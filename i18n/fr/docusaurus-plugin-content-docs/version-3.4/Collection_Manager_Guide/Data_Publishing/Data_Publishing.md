@@ -1,26 +1,26 @@
 ---
-title: "Data Publishing"
+title: "Publication de données"
 date: 2023-10-27
 draft: false
 sidebar_position: 70
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
 lastmod: 2024-10-08
-keywords: ["data publishing", "data landscape", "data ecosystem"]
+keywords: ["publication de données", "paysage des données", "écosystème de données"]
 ---
 
 import ReactPlayer from "react-player";
  
-### Table of Contents
-- [Creating a Darwin Core Archive (DwC-A)](creating_dwca)
-- [Requesting Endorsement as a Data Publisher](requesting_endorsement)
-- [Publishing Data to GBIF](publishing_gbif)
-- [Publishing Data to iDigBio](publishing_idigbio)
-- [Redacting/Obscuring Data](redacting_obscuring_data)
+### Sommaire
+- [Création d'une archive Darwin Core (DwC-A)](creating_dwca)
+- [Demande d'approbation en tant qu'éditeur de données](requesting_endorsement)
+- [Publication de données sur le GBIF](publishing_gbif)
+- [Publication de données sur iDigBio](publishing_idigbio)
+- [Masquage ou occultation de données](redacting_obscuring_data)
 
 :::tip
 
-If you are new to data publishing and the broader biodiversity data landscape, we recommend watching the following video or reviewing [(these slides)](https://symbiota.org/wp-content/uploads/2024_SSG_-BiodiversityEcosystem.pdf) to orient yourself to how and where Symbiota fits within this ecosystem of resources.
+Si vous débutez dans la publication de données et que vous ne connaissez pas bien le paysage global des données sur la biodiversité, nous vous recommandons de regarder la vidéo suivante ou de consulter [(ces diapositives)](https://symbiota.org/wp-content/uploads/2024_SSG_-BiodiversityEcosystem.pdf) pour comprendre comment et où Symbiota s'inscrit dans cet écosystème de ressources.
 
 :::
 

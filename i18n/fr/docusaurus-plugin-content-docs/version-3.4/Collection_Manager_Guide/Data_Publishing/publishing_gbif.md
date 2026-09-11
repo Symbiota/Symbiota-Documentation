@@ -1,76 +1,76 @@
 ---
-title: "Publishing Data to GBIF"
+title: "Publication de données sur le GBIF"
 authors: ["Ed Gilbert","Katie Pearson"]
 editors: ["Katie Pearson", "Lindsay Walker"]
 date: 2021-10-07
 lastmod: 2026-04-14
 sidebar_position: 10
-keywords: ["aggregator","gbif","data publishing"]
+keywords: ["agrégateur","GBIF","publication de données"]
 ---
 
 import ReactPlayer from "react-player";
 
 :::info
 
-This page describes how to publish the data from your collection to global aggregator [GBIF](https://www.gbif.org).
+Cette page explique comment publier les données de votre collection sur l'agrégateur mondial [GBIF](https://www.gbif.org).
 
 :::
 
-Collections managed as "live datasets" within a Symbiota portal can immediately publish to GBIF without issues. Collections that make use of an in-house management system (e.g. Specify, Axiell Emu, Filemaker Pro, etc.) and only publish a snapshot of their data to a Symbiota instance can also use the portal to publish their data to GBIF, but only if: 1) they are not publishing their data through another means (e.g. IPT installation, VertNet, etc.), and 2) an _occurrenceID_) (typically a "GUID") is included in the data being pushed from their in-house database to the Symbiota dataset (see [additional instructions below](/Collection_Manager_Guide/Data_Publishing/publishing_gbif/#special-instructions-for-snapshots)). If the collection is using the Symbiota publishing tool built into Specify, _occurrenceID_ will be automatically included in the data upload from Specify. 
+Les collections gérées comme des « jeux de données dynamiques » (ou « live datasets ») au sein d'un portail Symbiota peuvent être publiées immédiatement sur le GBIF sans difficulté. Les collections utilisant un système de gestion interne (par ex. Specify, Axiell Emu, Filemaker Pro, etc.) et ne publiant qu'un instantané de leurs données vers une instance Symbiota peuvent également utiliser le portail pour publier leurs données sur le GBIF, mais uniquement si : 1) elles ne publient pas déjà leurs données par un autre moyen (par ex. installation IPT, VertNet, etc.), et 2) un _occurrenceID_ (généralement un « GUID ») est inclus dans les données transférées de leur base de données interne vers le jeu de données Symbiota (voir les [instructions supplémentaires ci-dessous](/Collection_Manager_Guide/Data_Publishing/publishing_gbif/#special-instructions-for-snapshots)). Si la collection utilise l'outil de publication Symbiota intégré à Specify, l'_occurrenceID_ sera automatiquement inclus lors du transfert des données depuis Specify.
 
 :::note
 
-Your portal must be set up as a GBIF Publishing Installation to publishing your data to GBIF. This can be done by your portal manager.
+Votre portail doit être configuré en tant qu'installation de publication GBIF pour permettre la publication de vos données sur le GBIF. Cette configuration peut être effectuée par l'administrateur de votre portail.
 
 :::
 
-## Workflow for new data publishers
-1. [Use these instructions](/Collection_Manager_Guide/Data_Publishing/requesting_endorsement) to set up an institutional account with GBIF so that there is a direct publishing agreement established between GBIF and the institution. Since the institutional account may be used to list multiple collection datasets associated with that institution (e.g. https://www.gbif.org/publisher/4c0e9f60-c489-11d8-bf60-b8a03c50a862 ), you should coordinate with other collections within your institution, if applicable. Note that the institutional datasets can be published to GBIF using different publishing resources. For instance, the zoological collections could import their data from VertNet IPT (http://ipt.vertnet.org) or their institutional IPT, vascular plant data from [SEINet](https://swbiodiversity.org), and lichens from the [Lichen Portal](https://lichenportal.org).
-   * If you are sure your institution is not yet registered, complete the registration form linked above and follow the instructions provided by GBIF. 
-   * If your institution is already registered, review the GBIF metadata for your organization and existing datasets and contact GBIF to make any necessary changes. Be sure that none of the existing datasets contain the same data you are trying to publish. If they do, make the appropriate arrangements with GBIF so that the old dataset can be archived BEFORE re-publishing the new dataset.
-2. Log in to your Symbiota portal, go to your **Administrator Control Panel** (click My Profile, then the name of the collection in the Collection Management box) and select **Edit Metadata**.
-   * Verify that your collection's name and description are accurate (both will be visible on the corresponding GBIF dataset page).
-   * Select (check) the "Publish to Aggregators" box (for GBIF). If you do not see a GBIF publishing checkbox, contact your Portal Manager and ask them to configure the portal for GBIF publishing.  
-   * Select the "Save Edits" button. 
-3. Return to the **Administration Contol Panel** and navigate to the **Darwin Core Archive Publishing** link. Click "Create/Refresh Darwin Core Archive" button.
-4. Enter your institution's GBIF publisher key and select the "Validate Key" button. (The GBIF key should have the following format: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, e.g. "4c0e9f60-c489-11d8-bf60-b8a03c50a872"). If your key validates, more instructions will be displayed along with a "Submit Data" button. Alternatively, you can enter the full URL to your GBIF Publisher Page ([example](https://www.gbif.org/publisher/d16f32bb-204f-4c07-95eb-6673e90225e9)), and the key will be automatically extracted. 
-5. Before you submit data to GBIF for the first time, you will need to contact GBIF's Help Desk (helpdesk@gbif.org). **Look for the recommended draft email message to send to GBIF by following the instructions under the "Validate Key" button.** 
-6. Once GBIF affirms that the portal has permission to submit data to your GBIF Publisher Page, click the "Submit Data" button. A link to your GBIF dataset will be immediately displayed, though it may take an hour or so for your data to be loaded, indexed, and available.
+## Procédure pour les nouveaux diffuseurs de données
+1. [Suivez ces instructions](/Collection_Manager_Guide/Data_Publishing/requesting_endorsement) pour créer un compte institutionnel auprès du GBIF, afin d'établir un accord de diffusion direct entre le GBIF et votre institution. Comme le compte institutionnel peut servir à répertorier plusieurs jeux de données de collections associés à cette institution (par ex. https://www.gbif.org/publisher/4c0e9f60-c489-11d8-bf60-b8a03c50a862 ), vous devriez vous coordonner avec les autres collections de votre institution, le cas échéant. Notez que les jeux de données institutionnels peuvent être publiés sur le GBIF via différents outils de diffusion. Par exemple, les collections zoologiques pourraient importer leurs données depuis l'IPT de VertNet (http://ipt.vertnet.org) ou leur propre IPT institutionnel, les données sur les plantes vasculaires depuis [SEINet](https://swbiodiversity.org), et celles sur les lichens depuis le [Lichen Portal](https://lichenportal.org). 
+* Si vous êtes certain que votre institution n'est pas encore enregistrée, remplissez le formulaire d'inscription indiqué ci-dessus et suivez les instructions fournies par le GBIF. 
+* Si votre institution est déjà enregistrée, vérifiez les métadonnées GBIF relatives à votre organisation ainsi que les jeux de données existants, puis contactez le GBIF pour effectuer les modifications nécessaires. Assurez-vous qu'aucun des jeux de données existants ne contient les mêmes données que celles que vous souhaitez publier. Si c'est le cas, prenez les dispositions nécessaires avec le GBIF pour que l'ancien jeu de données soit archivé AVANT la nouvelle publication.
+2. Connectez-vous à votre portail Symbiota, accédez à votre **Panneau de configuration administrateur** (cliquez sur « My Profile », puis sur le nom de la collection dans l'encadré « Collection Management ») et sélectionnez **Edit Metadata** (Modifier les métadonnées). 
+* Vérifiez que le nom et la description de votre collection sont exacts (ils seront tous deux visibles sur la page du jeu de données correspondante sur le GBIF). 
+* Cochez la case « Publish to Aggregators » (Publier vers les agrégateurs), pour le GBIF. Si vous ne voyez pas de case à cocher pour la publication vers le GBIF, contactez l'administrateur de votre portail et demandez-lui de configurer le portail pour la publication vers le GBIF. 
+* Cliquez sur le bouton « Save Edits » (Enregistrer les modifications).
+3. Retournez au **Panneau de contrôle d'administration** et accédez au lien **Darwin Core Archive Publishing** (Publication d'archives Darwin Core). Cliquez sur le bouton « Create/Refresh Darwin Core Archive » (Créer/Actualiser l'archive Darwin Core).
+4. Saisissez la clé d'éditeur GBIF de votre institution et cliquez sur le bouton « Validate Key » (Valider la clé). (La clé GBIF doit respecter le format suivant : xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, par ex. « 4c0e9f60-c489-11d8-bf60-b8a03c50a872 »). Si la clé est validée, des instructions supplémentaires s'afficheront, accompagnées d'un bouton « Submit Data » (Soumettre les données). Vous pouvez également saisir l'URL complète de votre page d'éditeur GBIF ([exemple](https://www.gbif.org/publisher/d16f32bb-204f-4c07-95eb-6673e90225e9)) ; la clé sera alors extraite automatiquement.
+5. Avant de soumettre des données au GBIF pour la première fois, vous devrez contacter le service d'assistance du GBIF (helpdesk@gbif.org). **Consultez le modèle d'e-mail recommandé à envoyer au GBIF en suivant les instructions situées sous le bouton « Validate Key ».**
+6. Une fois que le GBIF aura confirmé que le portail est autorisé à soumettre des données sur votre page d'éditeur GBIF, cliquez sur le bouton « Submit Data ». Un lien vers votre jeu de données GBIF s'affichera immédiatement, bien qu'il puisse s'écouler environ une heure avant que vos données ne soient chargées, indexées et disponibles.
 
-## To refresh your data after first-time publication
-1. Return to the **Administration Contol Panel** and navigate to the **Darwin Core Archive Publishing** link. Click "Create/Refresh Darwin Core Archive" button.
+## Pour actualiser vos données après la première publication
+1. Retournez au **Panneau de contrôle d'administration** et accédez au lien **Darwin Core Archive Publishing** (Publication d'archives Darwin Core). Cliquez sur le bouton « Create/Refresh Darwin Core Archive » (Créer/Actualiser l'archive Darwin Core).
 
-## Special instructions for snapshots
-### How do I know if my snapshot already has _occurrenceid_ values?
+## Instructions spécifiques pour les instantanés (snapshots)
+### Comment savoir si mon instantané contient déjà des valeurs _occurrenceid_ ?
 
-To determine if your snapshot collection has _occurrenceid_ values in a Symbiota portal, either:
-1) open an existing record in the portal (navigate to the Administration Control Panel: click _My Profile_, then the name of the collection in the Collection Management box, and then click _Edit Existing Occurrence Records_ and open a catalog record). Scroll down to the Curation section of the Occurrence Editor form and look for a value in the _Occurrence ID_ field. If this box is blank, your records do not have _occurrenceid_ values assigned in the portal.
-2) or [download a backup copy](/Collection_Manager_Guide/Downloading/downloading_copy) of your data, uncompress/unzip the ouput ZIP file and open the "occurrences.csv", and then look for values in the _occurrenceid_ field/column in this file.
+Pour déterminer si votre collection d'instantanés contient des valeurs _occurrenceid_ dans un portail Symbiota, vous pouvez :
+1) ouvrir un enregistrement existant dans le portail (accédez au panneau de contrôle d'administration : cliquez sur _My Profile_, puis sur le nom de la collection dans la zone _Collection Management_, cliquez ensuite sur _Edit Existing Occurrence Records_ et ouvrez une fiche de catalogue). Faites défiler la page jusqu'à la section « Curation » du formulaire d'édition des occurrences et vérifiez la présence d'une valeur dans le champ _Occurrence ID_. Si ce champ est vide, vos enregistrements ne possèdent pas de valeurs _occurrenceid_ attribuées dans le portail.
+2) ou [télécharger une copie de sauvegarde](/Collection_Manager_Guide/Downloading/downloading_copy) de vos données, décompresser le fichier ZIP obtenu, ouvrir le fichier « occurrences.csv » et rechercher des valeurs dans la colonne _occurrenceid_.
 
 :::tip
 
-If your collection was previously published to an external aggregator like GBIF, all or some of your records likely have already had _occurrenceid_ values assigned. These values **must** be included with your snapshot data in your portal if you intend to republish these records using Symbiota. 
+Si votre collection a déjà été publiée auprès d'un agrégateur externe tel que le GBIF, il est probable que tout ou partie de vos enregistrements se soient déjà vu attribuer des valeurs _occurrenceid_. Ces valeurs **doivent** être incluses dans les données de votre instantané au sein du portail si vous prévoyez de republier ces enregistrements via Symbiota.
 
 :::
 
-### Suggested workflows for populating _occurrenceid_:
+### Flux de travail suggérés pour renseigner le champ _occurrenceid_ :
 
-If you are confident that your snapshot's records have never been assigned _occurrenceid_ values, you can backfill this information using one of the following methods.
+Si vous avez la certitude qu'aucune valeur _occurrenceid_ n'a jamais été attribuée aux enregistrements de votre instantané, vous pouvez renseigner cette information a posteriori en utilisant l'une des méthodes suivantes.
 
-#### Option 1: Generate GUIDs outside of Symbiota and then bring them into the portal
-* In your spreadsheet to be imported, include a column/field called "occurrenceid".
-* Populate this column using GUIDs generated using a tool like this one (copy-paste into your spreadsheet): [guidgenerator.com](https://www.guidgenerator.com).
-* When you [upload](/Collection_Manager_Guide/Importing_Uploading/) data from a spreadsheet into the portal, map your new _occurrenceid_ values to the corresponding data import field.
-  * **Important:** If you already have data in the portal, select the option to match on your existing _catalogNumber_ or _occurrenceid_ values so that duplicate records are not generated upon import.
-* Once your records are uploaded, the new GUIDs will appear in the "occurrenceid" field/box on the Occurrence Editor form.
+#### Option 1 : Générer des GUID en dehors de Symbiota, puis les importer dans le portail
+* Dans votre feuille de calcul destinée à l'importation, incluez une colonne ou un champ nommé « occurrenceid ».
+* Remplissez cette colonne avec des GUID générés à l'aide d'un outil tel que celui-ci (copiez-collez les résultats dans votre feuille de calcul) : [guidgenerator.com](https://www.guidgenerator.com).
+* Lorsque vous [téléversez](/Collection_Manager_Guide/Importing_Uploading/) des données depuis une feuille de calcul vers le portail, associez vos nouvelles valeurs _occurrenceid_ au champ d'importation de données correspondant. 
+* **Important :** Si le portail contient déjà des données, sélectionnez l'option de correspondance basée sur vos valeurs existantes de _catalogNumber_ ou d'_occurrenceid_ afin d'éviter la création d'enregistrements en double lors de l'importation.
+* Une fois vos enregistrements téléversés, les nouveaux GUID apparaîtront dans le champ « occurrenceid » du formulaire d'édition des occurrences (Occurrence Editor).
 
-#### Option 2: Use Symbiota-generated GUIDs
-* Every time you want to send data to GBIF, email help@symbiota.org to request that the SSH populate the _occurrenceid_ field for you. 
-* **Important:** Once we populate this field, you will have to remember to download a copy of your data from the portal and add the Symbiota-generated GUIDs to wherever you manage your records outside of Symbiota.
+#### Option 2 : Utiliser les GUID générés par Symbiota
+* Chaque fois que vous souhaitez transmettre des données au GBIF, envoyez un e-mail à help@symbiota.org pour demander au SSH de remplir le champ _occurrenceid_ pour vous.
+* **Important :** Une fois ce champ rempli, n'oubliez pas de télécharger une copie de vos données depuis le portail et d'ajouter les GUID générés par Symbiota à l'endroit où vous gérez vos enregistrements en dehors de Symbiota.
 
 :::warning
 
-Regardless of the method you choose to populate _occurrenceid_, the **most important** thing is to do is make sure that your _occurrenceid_ values (typically GUIDs) are retained with your canonical specimen records wherever you manage them outside of Symbiota (in a spreadsheet, MS Access, FileMaker Pro, etc.). Keeping this in mind, we suggest choosing whichever method will be the most sustainable for your colleciton's internal data management practices. Please contact the SSH's Help Desk if you would like to publish snapshot data from a Symbiota portal and need further guidance.
+Quelle que soit la méthode choisie pour renseigner le champ _occurrenceid_, le point **le plus important** est de veiller à ce que vos valeurs _occurrenceid_ (généralement des GUID) soient conservées avec vos enregistrements de spécimens de référence, quel que soit l'outil utilisé pour leur gestion en dehors de Symbiota (feuille de calcul, MS Access, FileMaker Pro, etc.). À cet égard, nous vous suggérons d'opter pour la méthode la plus pérenne au regard des pratiques internes de gestion des données de votre collection. Veuillez contacter le service d'assistance (Help Desk) du SSH si vous souhaitez publier des données instantanées (snapshots) à partir d'un portail Symbiota et que vous avez besoin de conseils supplémentaires.
 
 :::
 

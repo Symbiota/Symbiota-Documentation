@@ -1,42 +1,43 @@
 ---
-title: "Downloading a Subset of Your Data"
+title: "Téléchargement d'un sous-ensemble de vos données"
 date: 2025-07-22
 lastmod: 2026-03-30
 authors: ["Katie Pearson"]
 editors: 
-keywords: ["export","custom download"]
+keywords: ["exporter","téléchargement personnalisé"]
 ---
+
 :::info
 
-This page describes how to download a subset of your data using one of two tools: the Record Search Form, or the Exporter Tool.
+Cette page explique comment télécharger un sous-ensemble de vos données à l'aide de l'un des deux outils suivants : le formulaire de recherche d'enregistrements (Record Search Form) ou l'outil d'exportation (Exporter Tool).
 
 :::
 
-## Record Search Form
+## Formulaire de recherche d'enregistrements
 
-You can download a specialized subset of your data directly from the [Record Search Form](/Editor_Guide/Editing_Searching_Records/). Conduct your search, then click the button with the download icon (![Download Icon](/img/dl.png)) to download the search results.
+Vous pouvez télécharger un sous-ensemble spécifique de vos données directement depuis le [formulaire de recherche d'enregistrements](/Editor_Guide/Editing_Searching_Records/). Effectuez votre recherche, puis cliquez sur le bouton portant l'icône de téléchargement (![Icône de téléchargement](/img/dl.png)) pour télécharger les résultats.
 
-For more information about your download options, see [this page](/User_Guide/Downloading/download_data#download-options).
+Pour plus d'informations sur les options de téléchargement, consultez [cette page](/User_Guide/Downloading/download_data#download-options).
 
-![Record Search Download](/img/recordsearchdownload.png)
+![Téléchargement depuis la recherche d'enregistrements](/img/recordsearchdownload.png)
 
-## Exporter Tool
+## Outil d'exportation
 
-1. Navigate to your Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box).
-2. Click Processing Tools.
-3. Click the Exporter tab.
-4. Use the Processing Status and additional filters to define the dataset you would like to download from your collection. You can also select whether you would like to download a strict Darwin Core Archive (Darwin Core) or an archive containing all Symbiota fields (Symbiota Native); whether you would like to determination history (identifications), multimedia (i.e., links to images), and/or occurrence attributes (if enabled); whether you would like the results in a ZIP file; and the file format and character set ([ISO-8859-1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1) or [UTF-8](https://en.wikipedia.org/wiki/UTF-8)) for your download.
-5. Click the Download Records button.
+1. Accédez à votre panneau de contrôle d'administration (cliquez sur « Mon profil », puis sur le nom de la collection dans le bloc « Gestion des collections »).
+2. Cliquez sur « Outils de traitement » (Processing Tools).
+3. Cliquez sur l'onglet « Exportateur » (Exporter).
+4. Utilisez le statut de traitement et les filtres supplémentaires pour définir le jeu de données que vous souhaitez télécharger depuis votre collection. Vous pouvez également choisir de télécharger une archive strictement conforme au standard Darwin Core (Darwin Core) ou une archive contenant tous les champs Symbiota (Symbiota Native) ; d'inclure ou non l'historique des déterminations (identifications), les données multimédias (c.-à-d. les liens vers les images) et/ou les attributs d'occurrence (si activés) ; d'obtenir les résultats dans un fichier ZIP ; ainsi que de choisir le format de fichier et le jeu de caractères ([ISO-8859-1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1) ou [UTF-8](https://en.wikipedia.org/wiki/UTF-8)) pour votre téléchargement.
+5. Cliquez sur le bouton « Télécharger les enregistrements » (Download Records).
 
-![Exporter Tool](/img/exportertool2026.png)
+![Outil d'exportation](/img/exportertool2026.png)
 
-#### Downloading Specimens without Georeferences
+#### Téléchargement de spécimens sans géoréférencement
 
-The Exporter tool also has the option to download all records without georeference data. To do this, select Georeference Export from the dropdown menu in the Export Type box at the top right of the Exporter tool. Select the search terms/filters to apply to your download and click Download Records.
+L'outil d'exportation offre également la possibilité de télécharger tous les enregistrements dépourvus de données de géoréférencement. Pour ce faire, sélectionnez « Georeference Export » dans le menu déroulant du bloc « Type d'exportation » (Export Type), situé en haut à droite de l'outil. Choisissez les critères de recherche ou les filtres à appliquer à votre téléchargement, puis cliquez sur « Télécharger les enregistrements ».
 
-#### Downloading Records that have been Batch Georeferenced
+#### Téléchargement d'enregistrements géoréférencés par lots
 
-For Snapshot collections (i.e., collections that do not manage their data live in the portal), there is also an option to download georeference data for specimens that have been batch georeferenced in the portal. To do this, select Georeference Export from the dropdown menu in the Export Type box at the top right of the Exporter tool. Select the search terms/filters to apply to your download and click Download Records. The resulting file will include the following fields:
+Pour les collections de type « Snapshot » (c.-à-d. les collections dont les données ne sont pas gérées en temps réel sur le portail), il est également possible de télécharger les données de géoréférencement des spécimens ayant fait l'objet d'un géoréférencement par lots sur le portail. Pour ce faire, sélectionnez « Georeference Export » dans le menu déroulant de la zone « Export Type » (Type d'exportation), située en haut à droite de l'outil d'exportation. Choisissez les critères de recherche ou les filtres à appliquer à votre téléchargement, puis cliquez sur « Download Records » (Télécharger les enregistrements). Le fichier généré contiendra les champs suivants :
 
 - institutionCode
 - collectionCode

@@ -1,28 +1,28 @@
 ---
-title: "Creating a Darwin Core Archive"
+title: "Création d'une archive Darwin Core"
 date: 2021-10-07
 lastmod: 2026-03-30
 authors: ["Katie Pearson"]
 sidebar_position: 5
-keywords: ["data publishing","Darwin Core", "DwC-A","Darwin Core Archive"]
+keywords: ["publication de données", "Darwin Core", "DwC-A", "Archive Darwin Core"]
 ---
 
 :::info
 
-This page describes how you can package your data as a Darwin Core Archive (standard format for data publishing and sharing) in a Symbiota portal.
+Cette page explique comment conditionner vos données sous forme d'archive Darwin Core (format standard pour la publication et le partage de données) au sein d'un portail Symbiota.
 
 :::
 
-A [Darwin Core Archive](http://en.wikipedia.org/wiki/Darwin_Core_Archive) (DwC-A) is a data standard that is commonly used to package species occurrence data into a single, self-contained dataset. A DwC-A includes metadata, a file of occurrence data, and, often, files for determinations (identifications), multimedia, and any other data extensions.
+Une [archive Darwin Core](http://en.wikipedia.org/wiki/Darwin_Core_Archive) (DwC-A) est une norme de données couramment utilisée pour regrouper des données d'occurrence d'espèces dans un jeu de données unique et autonome. Une DwC-A comprend des métadonnées, un fichier de données d'occurrence et, souvent, des fichiers relatifs aux déterminations (identifications), aux contenus multimédias ainsi qu'à toute autre extension de données.
 
 :::note
 
-You can only publish a Darwin Core Archive of occurrences that have unique occurrence IDs and GUIDs. In your [collection metadata page](/Collection_Manager_Guide/editing_collection_metadata), make sure that you have selected a source for your GUID and that this source contains unique values for each occurrence.
+Vous ne pouvez publier une archive Darwin Core que pour des occurrences disposant d'identifiants d'occurrence (IDs) et de GUID uniques. Sur la [page des métadonnées de votre collection](/Collection_Manager_Guide/editing_collection_metadata), assurez-vous d'avoir sélectionné une source pour vos GUID et que cette source contient des valeurs uniques pour chaque occurrence.
 
 :::
 
-1. Navigate to your Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box).
-2. Click Darwin Core Archive Publishing.
-3. Click the Create/Refresh Darwin Core Archive button.
+1. Accédez à votre panneau de contrôle d'administration (cliquez sur « Mon profil », puis sur le nom de la collection dans le bloc « Gestion des collections »).
+2. Cliquez sur « Publication d'archive Darwin Core » (Darwin Core Archive Publishing).
+3. Cliquez sur le bouton « Créer/Actualiser l'archive Darwin Core ».
 
-![Darwin Core Archive Publishing Tool](/img/darwincorearchivepublishing.png)
+![Outil de publication d'archive Darwin Core](/img/darwincorearchivepublishing.png)
