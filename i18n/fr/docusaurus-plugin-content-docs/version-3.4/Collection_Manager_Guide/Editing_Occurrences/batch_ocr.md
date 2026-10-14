@@ -1,30 +1,30 @@
 ---
-title: "Batch OCR"
+title: "OCR par lots"
 date: 2021-12-03
 lastmod: 2026-03-30
 draft: false
 sidebar_position: 10
 authors: ["Katie Pearson"]
 keywords:
-  ["batch", "OCR", "optical character recognition", "automated transcription"]
+ ["traitement par lots", "OCR", "reconnaissance optique de caractères", "transcription automatisée"]
 ---
 
 import ReactPlayer from "react-player";
 
-Optical Character Recognition (OCR) is the use of computer algorithms to detect text information from images. If OCR tools are activated in your Symbiota portal, you can use OCR to attempt to parse textual information from pictures of, e.g., specimen labels and enter data into the appropriate fields from there. Instructions for using batch OCR processes are provided below. For instructions for using OCR in the Occurrence editor, see the [OCR page in the Editor Guide](/Editor_Guide/Editing_Searching_Records/ocr).
+La reconnaissance optique de caractères (OCR) consiste à utiliser des algorithmes informatiques pour extraire des informations textuelles à partir d'images. Si les outils OCR sont activés sur votre portail Symbiota, vous pouvez les utiliser pour tenter d'extraire des informations textuelles de photos (par exemple, des étiquettes de spécimens) et saisir directement les données dans les champs appropriés. Les instructions relatives à l'utilisation des processus OCR par lots sont fournies ci-dessous. Pour savoir comment utiliser l'OCR dans l'éditeur d'occurrences, consultez la [page OCR du Guide de l'éditeur](/Editor_Guide/Editing_Searching_Records/ocr).
 
-### Batch Generating OCR for Records in a Portal
+### Génération OCR par lots pour les enregistrements d'un portail
 
-To run OCR on many specimen images at a time
+Pour exécuter l'OCR sur plusieurs images de spécimens simultanément :
 
-1. Navigate to your Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box).
-2. Click Processing Toolbox.
-3. If OCR is enabled in your portal, click the OCR tab.
-4. From here, you can view how many specimens have a saved OCR output, and you can run OCR on a designated number of specimens using the **Batch OCR Images using the Tesseract OCR Engine** box. Indicate the processing status of the records for which you would like to run OCR in the "processing status" field, and indicate how many of these records you would like to run at one time using the "Number of records to process" field.
+1. Accédez à votre panneau de contrôle d'administration (cliquez sur « Mon profil », puis sur le nom de la collection dans le bloc « Gestion des collections »).
+2. Cliquez sur « Boîte à outils de traitement » (Processing Toolbox).
+3. Si l'OCR est activé sur votre portail, cliquez sur l'onglet « OCR ».
+4. À partir de là, vous pouvez voir combien de spécimens disposent d'un résultat OCR enregistré et lancer l'OCR sur un nombre défini de spécimens à l'aide du bloc **Batch OCR Images using the Tesseract OCR Engine** (Traitement OCR par lots des images via le moteur Tesseract). Indiquez le statut de traitement des enregistrements concernés dans le champ « processing status » (statut de traitement) et précisez le nombre d'enregistrements à traiter simultanément dans le champ « Number of records to process » (nombre d'enregistrements à traiter).
 
-![Batch OCR Tool](/img/batchocr1_2026.png)
+![Outil OCR par lots](/img/batchocr1_2026.png)
 
-A video tutorial of this process is shown here:
+Une vidéo explicative de ce processus est disponible ici :
 
 <ReactPlayer
   playing={false}
@@ -32,18 +32,18 @@ A video tutorial of this process is shown here:
   url="https://www.youtube.com/watch?v=VUMVb3-R8mw"
 />
 
-### Uploading Pre-Generated OCR
+### Importation de fichiers OCR pré-générés
 
-Some portals also include an interface into which you can upload OCR text files generated outside of the portal environment. For instance, ABBYY FineReader has the ability to batch OCR specimen images and output the results as separate text files (.txt) named after the source image. OCR text files are linked to specimen records by matching catalog numbers extracted from the file name and comparing OCR and iamge file names.
+Certains portails disposent d'une interface permettant d'importer des fichiers texte OCR générés en dehors de l'environnement du portail. Par exemple, ABBYY FineReader permet de traiter par lots des images de spécimens via OCR et d'exporter les résultats sous forme de fichiers texte distincts (.txt) portant le nom de l'image source. Les fichiers texte OCR sont associés aux fiches des spécimens en faisant correspondre les numéros de catalogue extraits du nom de fichier et en comparant les noms des fichiers OCR et des fichiers image.
 
-This tool can also be found on the OCR tab in the Processing Toolbox.
+Cet outil est également accessible via l'onglet OCR de la boîte à outils de traitement (*Processing Toolbox*).
 
-To upload a file, make sure your collection and files meet the following requirements:
+Pour importer un fichier, assurez-vous que votre collection et vos fichiers répondent aux exigences suivantes :
 
-- OCR files must be in a text format with a .txt extension. When using ABBYY, use the setting: "Create a separate document for each file", "Save as Text (\*.txt)", and "Name as source file"
-- Compress multiple OCR text files into a single zip file to be uploaded into the portal
-- Files must be named using the Catalog Number. The regular expression below will be used to extract catalog number from file name.
-- Since OCR text needs to be linked to source image, images must have been previously uploaded into portal
-- If there are more than one image linked to a specimen, the full file name will be used to determine which image to link the OCR
+- Les fichiers OCR doivent être au format texte avec une extension .txt. Si vous utilisez ABBYY, sélectionnez les paramètres suivants : « Créer un document distinct pour chaque fichier », « Enregistrer au format texte (*.txt) » et « Utiliser le nom du fichier source ».
+- Compressez plusieurs fichiers texte OCR dans une seule archive ZIP pour les importer dans le portail.
+- Les fichiers doivent être nommés en utilisant le numéro de catalogue. L'expression régulière ci-dessous sera utilisée pour extraire le numéro de catalogue du nom de fichier.
+- Comme le texte OCR doit être associé à l'image source, les images doivent avoir été préalablement importées dans le portail.
+- Si plusieurs images sont associées à un spécimen, le nom complet du fichier sera utilisé pour déterminer à quelle image associer l'OCR.
 
-![Batch OCR Upload](/img/batchocr2_2026.png)
+![Importation par lots d'OCR](/img/batchocr2_2026.png)
