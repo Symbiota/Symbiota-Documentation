@@ -5,77 +5,77 @@ lastmod: 2026-03-30
 draft: false
 authors: ["Katie Pearson"]
 sidebar_position: 5
-keywords: ["georeferencing", "collaborative georeferencing", "GEOLocate"]
+keywords: ["géoréférencement", "géoréférencement collaboratif", "GEOLocate"]
 ---
 
-The GEOLocate Collaborative Georeference Tool (CoGe) can be activated and integrated in a Symbiota portal to engage multiple users in a central georeferencing platform outside of the portal. More information about this platform can be found here: [GeoLocate CoGe page](https://coge.geo-locate.org/).
+L'outil de géoréférencement collaboratif GEOLocate (CoGe) peut être activé et intégré à un portail Symbiota afin de permettre à plusieurs utilisateurs de travailler sur une plateforme de géoréférencement centralisée, située en dehors du portail. Vous trouverez plus d'informations sur cette plateforme ici : [page GeoLocate CoGe](https://coge.geo-locate.org/).
 
-A [webinar introduction to CoGe can be found here](https://youtu.be/1IZhUMqCGvs).
+Un [webinaire d'introduction à CoGe est disponible ici](https://youtu.be/1IZhUMqCGvs).
 
-The general steps for a CoGe workflow are as follows:
+Les étapes générales du flux de travail CoGe sont les suivantes :
 
-1. Create a profile in the CoGe website
-2. Create a community on the CoGe website
-3. Add members to your community in CoGe
-4. Add data to the CoGe community from your Symbiota portal
-5. Have members georeference in the [CoGe web client](https://www.geo-locate.org/web/WebComGeoref.aspx).
+1. Créer un profil sur le site web de CoGe
+2. Créer une communauté sur le site web de CoGe
+3. Ajouter des membres à votre communauté dans CoGe
+4. Ajouter des données à la communauté CoGe depuis votre portail Symbiota
+5. Faire réaliser le géoréférencement par les membres via l'interface web de CoGe ([CoGe web client](https://www.geo-locate.org/web/WebComGeoref.aspx)).
 
 :::note
 
-You can either have data pushed to CoGe directly from your Symbiota portal, or you can download records as a CSV file, upload them to CoGe, download them once they are done, and then re-upload them to Symbiota. However, if you push data to CoGe directly, all georeferences made in CoGe will be automatically applied to your records in the Symbiota portal. Updates will be "live" in the portal.
+Vous pouvez soit transférer directement les données vers CoGe depuis votre portail Symbiota, soit télécharger les enregistrements sous forme de fichier CSV, les importer dans CoGe, les récupérer une fois le travail terminé, puis les réimporter dans Symbiota. Toutefois, si vous transférez directement les données vers CoGe, toutes les opérations de géoréférencement effectuées dans CoGe seront automatiquement appliquées à vos enregistrements sur le portail Symbiota. Les mises à jour seront prises en compte en temps réel sur le portail.
 
 :::
 
-A manual for collections managers/administrators using the Collaborative Georeferencing (CoGe) tool can be found here: [https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf](https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf). This manual covers steps 1-3 in the above workflow, but does not cover how to add occurrences to CoGe from a Symbiota portal. Video tutorials can be found here: [https://www.geo-locate.org/community/default.html](https://www.geo-locate.org/community/default.html).
+Un manuel destiné aux gestionnaires ou administrateurs de collections utilisant l'outil de géoréférencement collaboratif (CoGe) est disponible ici : [https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf](https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf). Ce manuel couvre les étapes 1 à 3 du flux de travail susmentionné, mais n'aborde pas l'ajout d'occurrences à CoGe depuis un portail Symbiota. Des tutoriels vidéo sont disponibles ici : [https://www.geo-locate.org/community/default.html](https://www.geo-locate.org/community/default.html).
 
-Instructions for step 4 are provided below.
+Les instructions pour l'étape 4 sont fournies ci-dessous.
 
-Example instructions for step 5 can be found here ([GEOLocate CoGe Training Course](https://www.capturingcaliforniasflowers.org/georeferencingcourse-coge.html)), and a written protocol can be found here ([GEOLocate CoGe Protocol](https://www.capturingcaliforniasflowers.org/uploads/1/6/3/7/16372936/georeferencingincoge.docx)).
+Des exemples d'instructions pour l'étape 5 sont disponibles ici ([Formation GEOLocate CoGe](https://www.capturingcaliforniasflowers.org/georeferencingcourse-coge.html)), et un protocole écrit est disponible ici ([Protocole GEOLocate CoGe](https://www.capturingcaliforniasflowers.org/uploads/1/6/3/7/16372936/georeferencingincoge.docx)).
 
-### Pushing Specimens from a Symbiota Portal to GEOLocate CoGe
+### Transférer des spécimens d'un portail Symbiota vers GEOLocate CoGe
 
-#### (step 4 from above workflow)
+#### (étape 4 du flux de travail ci-dessus)
 
-1. Navigate to your Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box).
-2. Click Processing Toolbox.
-3. If CoGe has been enabled for your portal, a tab labeled GeoLocate CoGe will be visible. Click this tab. If CoGe is not enabled, contact your portal manager to request this feature.
+1. Accédez à votre panneau de contrôle d'administration (cliquez sur « My Profile » [Mon profil], puis sur le nom de la collection dans le bloc « Collection Management » [Gestion des collections]).
+2. Cliquez sur « Processing Toolbox » [Boîte à outils de traitement].
+3. Si CoGe a été activé pour votre portail, un onglet intitulé « GeoLocate CoGe » sera visible. Cliquez sur cet onglet. Si CoGe n'est pas activé, contactez l'administrateur de votre portail pour demander cette fonctionnalité.
 
-![GeoLocate CoGe tab](/img/geolocatecoge2026.png)
+![Onglet GeoLocate CoGe](/img/geolocatecoge2026.png)
 
-5. Click Login to CoGe in the **CoGe Status** box on the resulting page and log in to CoGe using your CoGe user account information in the pop-up window/tab.
-6. Return to your Symbiota portal page.
+5. Cliquez sur « Login to CoGe » [Connexion à CoGe] dans le bloc **CoGe Status** [État CoGe] de la page qui s'affiche, puis connectez-vous à CoGe en utilisant les identifiants de votre compte utilisateur CoGe dans la fenêtre contextuelle ou l'onglet qui s'ouvre.
+6. Revenez à la page de votre portail Symbiota.
 
 :::tip
 
-If you have previously logged in to CoGe, click the Check Status button instead of logging in. If "Connected" does not show up in green after clicking this button, try logging out and then logging back in to CoGe. If this still does not work, check with your portal manager to ensure that your portal is set up to interact with CoGe.
+Si vous vous êtes déjà connecté à CoGe, cliquez sur le bouton « Check Status » [Vérifier l'état] au lieu de vous connecter à nouveau. Si la mention « Connected » [Connecté] ne s'affiche pas en vert après avoir cliqué sur ce bouton, essayez de vous déconnecter puis de vous reconnecter à CoGe. Si cela ne fonctionne toujours pas, vérifiez auprès de l'administrateur de votre portail que celui-ci est bien configuré pour interagir avec CoGe.
 
 :::
 
-6. The CoGe communities that you manage will now be listed in the **Available Communities** box. If no communities are visible, [make sure that you have created a community on the CoGe website](https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf).
-7. At the top of the page, use the Processing Status and/or additional filters to search for the records you would like to push to CoGe (i.e., that you would like to be georeferenced in the CoGe client). Once you have entered the search parameters/filters, click out of this field, and you will see how many records were found in the **CoGe Status** box under **Match Count**.
-8. In the **Available Communities** box, click the radio button next to the CoGe community to which you would like to assign the records.
-9. Enter a brief name for the data set in the "Data source identifier (primary name):" box and a description, if desired.
-10. If you would like the georeferences from CoGe to be automatically applied to their records in the Symbiota portal, click the "Push Data to GeoLocate CoGe" button. If you plan to use the download (Symbiota -> CSV), upload (CSV -> CoGe), download (CoGe -> CSV), upload (CSV -> Symbiota) workflow, click the "Download Records Locally" button.
+6. Les communautés CoGe que vous gérez apparaîtront désormais dans la zone **Available Communities** (Communautés disponibles). Si aucune communauté n'est visible, [assurez-vous d'avoir créé une communauté sur le site web de CoGe](https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf).
+7. En haut de la page, utilisez le statut de traitement (Processing Status) et/ou des filtres supplémentaires pour rechercher les enregistrements que vous souhaitez transférer vers CoGe (c.-à-d. ceux que vous voulez géoréférencer dans l'interface CoGe). Une fois les paramètres de recherche ou les filtres saisis, cliquez en dehors du champ ; le nombre d'enregistrements trouvés s'affichera dans la zone **CoGe Status**, sous la rubrique **Match Count** (Nombre de correspondances).
+8. Dans la zone **Available Communities**, cochez la case d'option (bouton radio) correspondant à la communauté CoGe à laquelle vous souhaitez affecter les enregistrements.
+9. Saisissez un nom court pour le jeu de données dans le champ « Data source identifier (primary name): » (Identifiant de la source de données / nom principal) ainsi qu'une description, si vous le souhaitez.
+10. Si vous souhaitez que les géoréférences provenant de CoGe soient automatiquement appliquées aux enregistrements correspondants dans le portail Symbiota, cliquez sur le bouton « Push Data to GeoLocate CoGe ». Si vous prévoyez d'utiliser le flux de travail suivant : téléchargement (Symbiota -> CSV), téléversement (CSV -> CoGe), téléchargement (CoGe -> CSV), téléversement (CSV -> Symbiota), cliquez sur le bouton « Download Records Locally ».
 
-:::tip
+:::astuce
 
-You can also use the "Download Records Locally" button to quickly check whether the specimens that you are pushing to CoGe are as expected.
+Vous pouvez également utiliser le bouton « Download Records Locally » pour vérifier rapidement si les spécimens transférés vers CoGe correspondent à vos attentes.
 
 :::
 
-10. Return to the [CoGe site](https://coge.geo-locate.org/), navigate to your Dashboard, click the name of the community to which you just pushed records, and click the GO TO COMMUNITY button.
-11. Click the name of the dataset that you just pushed to CoGe.
+10. Retournez sur le [site CoGe](https://coge.geo-locate.org/), accédez à votre tableau de bord (Dashboard), cliquez sur le nom de la communauté vers laquelle vous venez de transférer des enregistrements, puis cliquez sur le bouton « GO TO COMMUNITY ».
+11. Cliquez sur le nom du jeu de données que vous venez de transférer vers CoGe.
 
-![CoGe Dashboard](/img/cogedashboard.png)
+![Tableau de bord CoGe](/img/cogedashboard.png)
 
-13. Click the Update Cache button.
-14. Once the cache has been fully updated, they will be available via the [CoGe web client](https://www.geo-locate.org/web/WebComGeoref.aspx).
+13. Cliquez sur le bouton « Update Cache » (Mettre à jour le cache).
+14. Une fois le cache entièrement mis à jour, les données seront accessibles via le [client web CoGe](https://www.geo-locate.org/web/WebComGeoref.aspx).
 
-### Reviewing Georeferences Created in GEOLocate CoGe
+### Examen des géoréférencements créés dans GEOLocate CoGe
 
-1. To view georeferences that have been created in CoGe, navigate to your Administration Control Panel (click My Profile, then the name of the collection in the Collection Management box).
-2. Click Review/Verify Occurrence Edits.
-3. In the Filter box at the top right, select External from the dropdown menu of the Editing Source field. Then click Submit Filter.
-4. The edits that were applied in CoGe will now be visible in the reviewer table.
+1. Pour consulter les géoréférencements créés dans CoGe, accédez à votre panneau de contrôle d'administration (cliquez sur « My Profile », puis sur le nom de la collection dans la section « Collection Management »).
+2. Cliquez sur « Review/Verify Occurrence Edits » (Examiner/Vérifier les modifications d'occurrences).
+3. Dans la zone de filtrage située en haut à droite, sélectionnez « External » dans le menu déroulant du champ « Editing Source ». Cliquez ensuite sur « Submit Filter ».
+4. Les modifications effectuées dans CoGe apparaîtront désormais dans le tableau de révision.
 
-![Edits from Coge](/img/viewcogeedits2026.png)
+![Modifications issues de CoGe](/img/viewcogeedits2026.png)

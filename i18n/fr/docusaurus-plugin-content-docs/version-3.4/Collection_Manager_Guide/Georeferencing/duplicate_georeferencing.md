@@ -1,96 +1,96 @@
 ---
-title: "Duplicate Georeference Harvester"
+title: "Moissonneur de géoréférencements en double"
 date: 2025-09-23
 lastmod: 2026-04-14
 draft: false
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
 sidebar_position: 3
-keywords: ["georeferencing", "coordinates"]
+keywords: ["géoréférencement", "coordonnées"]
 ---
 
 import ReactPlayer from "react-player";
 
 :::info
 
-This page explains how to use the Duplicate Georeference Harvester tool, which enables you to copy georeferences (and their metadata) from records of other collections that are linked to records in your collection.
+Cette page explique comment utiliser l'outil de récupération des géoréférencements de doublons (*Duplicate Georeference Harvester*). Il vous permet de copier des données de géoréférencement (ainsi que leurs métadonnées) à partir d'enregistrements issus d'autres collections, dès lors que ces derniers sont liés à des enregistrements de votre propre collection.
 
-The tool works by allowing you to search for records in your collection and compare their georeference data side-by-side with records that are linked to yours as duplicates (i.e., same collector, collector number, and date). You can then select one of the other collections' records to copy from. Once you click the Copy Duplicate Data button, the other collection's georeference data (decimalLatitude, decimalLongitude, geodeticDatum, footprintWKT, coordinateUncertaintyInMeters, georeferencedBy, georeferenceRemarks, georeferenceSources, georeferenceProtocol, and georeferenceVerificationStatus fields) will be copied into your record.
+L'outil vous permet de rechercher des enregistrements dans votre collection et de comparer côte à côte leurs données de géoréférencement avec celles d'enregistrements liés (identifiés comme doublons, c'est-à-dire partageant le même collecteur, le même numéro de collecteur et la même date). Vous pouvez ensuite sélectionner l'enregistrement source parmi les autres collections. Une fois que vous cliquez sur le bouton « Copier les données du doublon », les données de géoréférencement de l'autre collection (champs : `decimalLatitude`, `decimalLongitude`, `geodeticDatum`, `footprintWKT`, `coordinateUncertaintyInMeters`, `georeferencedBy`, `georeferenceRemarks`, `georeferenceSources`, `georeferenceProtocol` et `georeferenceVerificationStatus`) seront copiées dans votre enregistrement.
 
 :::
 
 :::tip
 
-For this tool to find duplicate georeferences, your specimens must already be linked as duplicates to other specimens in the portal. It is recommended to run the "Batch link specimen duplicates" process in the [Duplicate Clustering Tools](/Collection_Manager_Guide/duplicate_clustering) before using the georeference harvester.
+Pour que cet outil puisse trouver des géoréférencements de doublons, vos spécimens doivent déjà être liés en tant que doublons à d'autres spécimens présents dans le portail. Il est recommandé d'exécuter la procédure de liaison par lots des doublons de spécimens (*Batch link specimen duplicates*) disponible dans les outils de regroupement de doublons (*Duplicate Clustering Tools*) avant d'utiliser l'outil de récupération des géoréférencements.
 
 :::
 
-To navigate to this tool, go to your Administration Control Panel (_click My Profile, then the name of the collection in the Collection Management box_), select Duplicate Clustering, then "Batch copy duplicate georeference data".
+Pour accéder à cet outil, rendez-vous dans votre panneau de contrôle d'administration (cliquez sur « Mon profil », puis sur le nom de la collection dans le bloc « Gestion de la collection »), sélectionnez « Regroupement de doublons » (*Duplicate Clustering*), puis « Copie par lots des données de géoréférencement de doublons » (*Batch copy duplicate georeference data*).
 
-## Conducting a search
+## Effectuer une recherche
 
-On the resulting screen, you will be given several options to refine your search for record duplicates.
+Sur l'écran qui s'affiche, plusieurs options vous sont proposées pour affiner votre recherche de doublons d'enregistrements.
 
-![Duplicate Data Harvester search options](/img/duplicatedataharvester.png)
+![Options de recherche de Duplicate Data Harvester](/img/duplicatedataharvester.png)
 
-The **Custom Fields** will allow you to place parameters on the duplicates of other collections that you wish to see. For example, if you only want to see records that have lat and long values, you should select "decimalLatitude" from the second dropdown menu, "IS NOT NULL" from the second dropdown menu, then click the plus sign (to add another Custom Field). In the new Custom field, select "decimalLongitude" from the field dropdown menu and "IS NOT NULL" from the next dropdown menu. Some other useful criteria you might consider include:
+Les **Champs personnalisés** (Custom Fields) vous permettent de définir des critères pour les doublons issus d'autres collections que vous souhaitez visualiser. Par exemple, si vous voulez uniquement voir les enregistrements comportant des valeurs de latitude et de longitude, sélectionnez « decimalLatitude » dans le deuxième menu déroulant, puis « IS NOT NULL » dans le menu déroulant suivant, et cliquez sur le signe « plus » (pour ajouter un autre champ personnalisé). Dans ce nouveau champ personnalisé, sélectionnez « decimalLongitude » dans le menu déroulant des champs et « IS NOT NULL » dans le menu déroulant suivant. Voici d'autres critères utiles que vous pourriez envisager :
 * georeferenceRemarks IS NOT NULL
 * georeferenceBy IS NOT NULL
-* coordinateUncertaintyInMeters LESS THAN 10000 (or whatever cutoff you think is appropriate)
+* coordinateUncertaintyInMeters LESS THAN 10000 (ou toute autre valeur seuil que vous jugez appropriée)
 
-You can also filter which collections you would like to see duplicates of by clicking the "Filter Collections" button.
+Vous pouvez également filtrer les collections dont vous souhaitez voir les doublons en cliquant sur le bouton « Filter Collections » (Filtrer les collections).
 
 :::tip
 
-You can add multiple Custom Fields by clicking the plus sign icon to the right of the last Custom Field used.
+Vous pouvez ajouter plusieurs champs personnalisés en cliquant sur l'icône « plus » située à droite du dernier champ personnalisé utilisé.
 
 :::
 
-By default, the tool will only return results for records in your collection that do not have latitude and longitude values. This option can be turned off by checking the box next to "**Only show specimens from my collection without latitude and longitude**."
+Par défaut, l'outil ne renvoie que les résultats correspondant aux enregistrements de votre collection dépourvus de valeurs de latitude et de longitude. Cette option peut être désactivée en cochant la case « **Afficher uniquement les spécimens de ma collection sans latitude ni longitude** » .
 
-Other options you can use include:
+Parmi les autres options disponibles, citons :
 
-* **Only show duplicates with georeferences different than target specimen:** checking this box will exclude any duplicates that match your records' geoferences exactly. All georeference fields (including metadata fields, such as georeferenceRemarks) must match exactly for them to be excluded.
+* **Afficher uniquement les doublons dont les géoréférences diffèrent de celles du spécimen cible** : cocher cette case permet d'exclure les doublons dont les géoréférences correspondent exactement à celles de vos enregistrements. Tous les champs de géoréférence (y compris les champs de métadonnées tels que « georeferenceRemarks ») doivent correspondre exactement pour que les doublons soient exclus.
 
-* **Auto-select duplicates with only one option:** checking this box will auto-check the boxes next to options from other collections in cases in which there is only one record that matches your search criteria. This way, you can quickly select (and subsequently copy duplicate data from) records that meet your baseline criteria and do not require additional decision-making.
+* **Sélection automatique des doublons avec une option unique :** cocher cette case permet de sélectionner automatiquement les options provenant d'autres collections lorsqu'un seul enregistrement correspond à vos critères de recherche. Vous pouvez ainsi sélectionner rapidement les enregistrements répondant à vos critères de base (et copier ensuite les données de géoréférencement associées) sans avoir à prendre de décision supplémentaire.
 
-Click the Search button to conduct a search.
+Cliquez sur le bouton « Rechercher » pour lancer la recherche.
 
-![Search button](/img/searchbutton.png)
+![Bouton Rechercher](/img/searchbutton.png)
 
-## Selecting duplicate georeferences to copy
+## Sélection des géoréférencements en double à copier
 
-After conducting a search, you will see a table of records that match your search criteria:
+Après avoir effectué une recherche, un tableau présentant les enregistrements correspondant à vos critères s'affiche :
 
-|![Example Duplicate Georeferences Table](/img/exampleduplicategeoreferences.png)|
+|![Exemple de tableau des géoréférencements en double](/img/exampleduplicategeoreferences.png)|
 |:--:|
-| The "target" specimen/records--i.e., the records that will receive data, if copied--are highlighed by the darkest shade of grey. |
+| Les spécimens ou enregistrements « cibles » — c'est-à-dire ceux qui recevront les données en cas de copie — sont mis en évidence par la nuance de gris la plus foncée. |
 
 :::tip
 
-To adjust the fields visible in this resulting table, click the Hide Fields button and check the boxes next to fields you do not wish to see.
+Pour modifier les champs affichés dans ce tableau de résultats, cliquez sur le bouton « Masquer les champs » et cochez les cases correspondant aux champs que vous ne souhaitez pas voir apparaître.
 
 :::
 
-Check the boxes next to records that you wish to copy georeference data from.
+Cochez les cases correspondant aux enregistrements dont vous souhaitez copier les données de géoréférencement.
 
-For records in your collection that have multiple matching duplicates, you must check the box next to only one record (i.e., the record that you think has the "best" georeference, according to your institutional criteria). If you select multiple records, the last record in the listing will be the "final" georeference.
+Pour les enregistrements de votre collection présentant plusieurs doublons correspondants, vous devez cocher la case située à côté d'un seul enregistrement (c'est-à-dire celui qui, selon vos critères institutionnels, possède la « meilleure » géoréférence). Si vous sélectionnez plusieurs enregistrements, c'est le dernier de la liste qui servira de géoréférence « finale ».
 
-Click the Copy Duplicate Data button when you have selected all the records for which you would like to copy georeference data into your specimen records.
+Cliquez sur le bouton « Copy Duplicate Data » (Copier les données du doublon) une fois que vous avez sélectionné tous les enregistrements dont vous souhaitez copier les données de géoréférence vers vos fiches de spécimens.
 
 :::warning
 
-Clicking the Copy Duplicate Data button will **replace** the georeference data in the target (dark grey) record with the data from the checked duplicate record. That includes all of the following fields: decimalLatitude, decimalLongitude, geodeticDatum, footprintWKT, coordinateUncertaintyInMeters, georeferencedBy, georeferenceRemarks, georeferenceSources, georeferenceProtocol, and georeferenceVerificationStatus. **Do not click this button unless you are sure that you want the data from all of these fields included in your resulting record.**
+Le fait de cliquer sur le bouton « Copy Duplicate Data » **remplacera** les données de géoréférence de l'enregistrement cible (en gris foncé) par celles de l'enregistrement doublon coché. Cela concerne tous les champs suivants : decimalLatitude, decimalLongitude, geodeticDatum, footprintWKT, coordinateUncertaintyInMeters, georeferencedBy, georeferenceRemarks, georeferenceSources, georeferenceProtocol et georeferenceVerificationStatus. **Ne cliquez pas sur ce bouton à moins d'être certain de vouloir inclure les données de tous ces champs dans votre enregistrement final.**
 
 :::
 
-The tool will then process the duplicates and return a printout of all the records updated. Click on the Symbiota ID number link to view any of the records.
+L'outil traitera ensuite les doublons et affichera la liste de tous les enregistrements mis à jour. Cliquez sur le lien du numéro d'identifiant Symbiota pour consulter l'un de ces enregistrements.
 
-![Listing of records updated by georeference duplicate tool](/img/duplicateupdatedrecord.png)
+![Liste des enregistrements mis à jour par l'outil de géoréférence des doublons](/img/duplicateupdatedrecord.png)
 
 :::info
 
-Changes made to records using this tool will **not** be tracked in either the Edit History tab or in the Review/Verify Edits table. However, when a duplicate georeference is copied between records, metadata will be automatically added to the target record's _Georeference Remarks_ (example: "Copied from duplicate UCSB UCSB_SCIRH00972").
+Les modifications apportées aux enregistrements via cet outil ne seront **pas** consignées dans l'onglet « Edit History » (Historique des modifications) ni dans le tableau « Review/Verify Edits » (Révision/Vérification des modifications). Toutefois, lorsqu'une géoréférence de doublon est copiée d'un enregistrement à un autre, des métadonnées sont automatiquement ajoutées au champ « Georeference Remarks » (Remarques sur la géoréférence) de l'enregistrement cible (exemple : « Copied from duplicate UCSB UCSB_SCIRH00972 »).
 
 :::
 
