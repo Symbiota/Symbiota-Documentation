@@ -3,7 +3,7 @@ title: "Suppression d'enregistrements"
 date: 2021-12-08
 lastmod: 2025-07-15
 draft: false
-sidebar_position: 80
+sidebar_position: 90
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker", "Katie Pearson"]
 keywords: ["delete", "remove"]

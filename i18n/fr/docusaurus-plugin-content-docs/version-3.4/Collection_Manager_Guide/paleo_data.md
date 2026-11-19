@@ -4,7 +4,7 @@ date: 2022-11-23
 lastmod: 2025-10-13
 authors: ["Lindsay Walker"]
 editors: ["Lindsay Walker"]
-sidebar_position: 125
+sidebar_position: 25
 keywords: ["paleontology", "paleo", "fossil","geological context"]
 ---
 

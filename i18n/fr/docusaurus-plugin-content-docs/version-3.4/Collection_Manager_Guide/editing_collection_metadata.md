@@ -2,7 +2,7 @@
 title: "Modification des métadonnées et des coordonnées de la collection"
 date: 2021-11-16
 lastmod: 2026-03-30
-sidebar_position: 110
+sidebar_position: 55
 draft: false
 authors: ["Katie Pearson", "Lindsay Walker"]
 keywords: ["collection name", "metadata", "contact info"]

@@ -1,7 +1,7 @@
 ---
 title: "Examen des modifications"
 date: 2026-03-30
-sidebar_position: 180
+sidebar_position: 35
 authors: ["Katie Pearson"]
 keywords: ["edits", "review"]
 ---

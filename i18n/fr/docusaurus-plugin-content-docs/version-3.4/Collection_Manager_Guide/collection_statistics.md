@@ -2,7 +2,7 @@
 title: "Statistiques de la collection"
 date: 2026-03-30
 authors: ["Katie Pearson"]
-sidebar_position: 20
+sidebar_position: 85
 keywords: ["statistics", "number of specimens", "reports"]
 ---
 

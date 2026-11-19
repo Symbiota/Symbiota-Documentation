@@ -2,7 +2,7 @@
 title: "Modification d'enregistrements / d'occurrences"
 date: 2021-12-02
 lastmod: 2026-01-29
-sidebar_position: 120
+sidebar_position: 50
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["editing"]

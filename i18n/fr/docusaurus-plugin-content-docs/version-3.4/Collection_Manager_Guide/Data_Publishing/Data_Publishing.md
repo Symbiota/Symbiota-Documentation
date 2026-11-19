@@ -2,7 +2,7 @@
 title: "Publication de données"
 date: 2023-10-27
 draft: false
-sidebar_position: 70
+sidebar_position: 65
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
 lastmod: 2024-10-08

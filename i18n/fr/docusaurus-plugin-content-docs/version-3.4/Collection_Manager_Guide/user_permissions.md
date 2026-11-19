@@ -3,7 +3,7 @@ title: "Autorisations des utilisateurs"
 date: 2021-11-02
 lastmod: 2026-03-30
 authors: ["Katie Pearson", "Lindsay Walker"]
-sidebar_position: 190
+sidebar_position: 10
 keywords: ["users", "permissions", "access"]
 ---
 
