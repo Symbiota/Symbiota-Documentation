@@ -2,7 +2,7 @@
 title: "Regroupement de doublons"
 date: 2021-12-13
 lastmod: 2026-03-30
-sidebar_position: 107
+sidebar_position: 75
 authors: ["Katie Pearson"]
 keywords: ["duplicates", "duplicate specimens"]
 ---

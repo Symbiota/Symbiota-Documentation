@@ -1,5 +1,5 @@
 ---
-title: "Batch Adding Images/Media"
+title: "Ajout en masse d’images/médias"
 date: 2021-10-06
 modified: 2026-02-05
 sidebar_position: 5
@@ -10,28 +10,28 @@ keywords: ["images"]
 
 :::info
 
-This page describes general workflows for adding multiple media resources (e.g., images) to a portal at one time. Media resources are not stored within a Symbiota database. Instead, the URLs of the media resources are mapped to specimen records. Contact the portal manager to inquire about the workflows supported by a given portal.
+Cette page décrit les procédures générales permettant d'ajouter simultanément plusieurs ressources multimédias (par exemple, des images) à un portail. Les ressources multimédias ne sont pas stockées au sein d'une base de données Symbiota ; ce sont leurs URL qui sont associées aux fiches de spécimens. Veuillez contacter le gestionnaire du portail pour connaître les procédures prises en charge par celui-ci.
 
 :::
 
-Media resources (e.g., images) associated with records in a Symbiota portal may be **Externally Hosted** or **Internally Hosted**.
+Les ressources multimédias (par exemple, des images) associées à des fiches dans un portail Symbiota peuvent être **hébergées en externe** ou **hébergées en interne**.
 
-* **Externally Hosted** media resources are those stored on servers that are unrelated to the Symbiota portal (e.g., are housed at another institution). These external servers provide media links, which can then be loaded into the Symbiota database.
+* Les ressources multimédias **hébergées en externe** sont stockées sur des serveurs indépendants du portail Symbiota (par exemple, des serveurs appartenant à une autre institution). Ces serveurs externes fournissent des liens vers les ressources, qui peuvent ensuite être intégrés dans la base de données Symbiota.
 
-* **Internally Hosted** media resources are those stored on servers that are write-accessible to the Symbiota portal server. For example, if you coordinate with the Symbiota Support Hub to batch upload images to one of their hosted portals (e.g., SEINet, Bryophyte Portal), your images are Internally Hosted.
+* Les ressources multimédias **hébergées en interne** sont stockées sur des serveurs accessibles en écriture depuis le serveur du portail Symbiota. Par exemple, si vous coordonnez avec le centre de support Symbiota (*Symbiota Support Hub*) le téléversement en masse d'images vers l'un des portails qu'ils hébergent (comme SEINet ou le *Bryophyte Portal*), vos images sont alors considérées comme hébergées en interne.
 
 :::tip
 
-Images uploaded or linked to specimens in a Symbiota portal should be JPGs or in another web-friendly format. It is recommended that individual files are no larger than 8 MB to allow users with slower connectivity to view them within a reasonable timeframe.
+Les images téléversées ou associées à des spécimens dans un portail Symbiota doivent être au format JPG ou dans un autre format adapté au Web. Il est recommandé que chaque fichier ne dépasse pas 8 Mo, afin de permettre aux utilisateurs disposant d'une connexion plus lente de les consulter dans un délai raisonnable.
 
 :::
 
-#### Batch Adding Externally Hosted Media Resources
+#### Ajout en masse de ressources multimédias hébergées en externe
 
-Externally Hosted media resources can be added to Symbiota records using one of three primary methods: (1) using the URL mapping tool and a [spreadsheet of catalog numbers with media URLs](/Collection_Manager_Guide/Images/media_upload_url); (2) mapping a column of media links to the associatedMedia field when conducting a Full Text File Upload or Skeletal File Upload. For more information about uploading text files, see [this page](/Collection_Manager_Guide/Importing_Uploading/). (If you already have data in the portal, and you just want to add media links, do NOT use Full Text File Upload); or (3) importing a Darwin Core Archive of your data with a fully-populated [multimedia extension](https://rs.gbif.org/extension/gbif/1.0/multimedia.xml).
+Les ressources multimédias hébergées en externe peuvent être ajoutées aux enregistrements Symbiota selon l'une des trois méthodes principales : (1) en utilisant l'outil de correspondance d'URL (URL mapping tool) et un [tableau contenant les numéros de catalogue associés aux URL des ressources multimédias](/Collection_Manager_Guide/Images/media_upload_url) ; (2) en associant une colonne contenant des liens vers des ressources multimédias au champ `associatedMedia` lors d'un import de fichier texte complet (« Full Text File Upload ») ou d'un import de fichier simplifié (« Skeletal File Upload »). Pour plus d'informations sur l'importation de fichiers texte, consultez [cette page](/Collection_Manager_Guide/Importing_Uploading/). (Si vos données sont déjà présentes dans le portail et que vous souhaitez uniquement ajouter des liens vers des ressources multimédias, n'utilisez PAS la fonction « Full Text File Upload ») ; ou (3) en important une archive Darwin Core (« Darwin Core Archive ») contenant vos données, incluant une [extension multimédia](https://rs.gbif.org/extension/gbif/1.0/multimedia.xml) dûment renseignée.
 
-#### Batch Adding Internally Hosted Media Resources
+#### Ajout en masse de ressources multimédias hébergées en interne
 
-There are several workflows used to batch upload/link internally hosted specimen media resources. Batch processing typically consists of two separate steps: (1) Loading media resources onto a web server, and (2) Mapping image URLs to Symbiota occurrence records. Step (2) is possible when media resources are named according to the catalog number or other catalog number associated with the record in the portal.
+Il existe plusieurs procédures pour importer ou lier en masse des ressources multimédias (spécimens) hébergées en interne. Le traitement par lots se décompose généralement en deux étapes distinctes : (1) le transfert des ressources multimédias sur un serveur web, et (2) l'association des URL des images aux enregistrements d'occurrences dans Symbiota. Cette seconde étape est réalisable si les fichiers multimédias sont nommés en fonction du numéro de catalogue (ou de tout autre identifiant de catalogue) associé à l'enregistrement dans le portail.
 
-Storage of a large number of images or other media resources on servers associated with a Symbiota portal may require an image-hosting agreement and/or incur image-hosting costs. Check with the portal administrator for more information about your portal's image hosting allowances and workflows. For SSH-hosted portals, please contact the Symbiota Support Hub (help@symbiota.org).
+Le stockage d'un grand nombre d'images ou d'autres ressources multimédias sur des serveurs associés à un portail Symbiota peut nécessiter un accord d'hébergement et/ou entraîner des frais. Renseignez-vous auprès de l'administrateur du portail pour connaître les modalités et les procédures relatives à l'hébergement d'images sur votre portail. Pour les portails hébergés via SSH, veuillez contacter le centre d'assistance Symbiota (Symbiota Support Hub) à l'adresse help@symbiota.org.

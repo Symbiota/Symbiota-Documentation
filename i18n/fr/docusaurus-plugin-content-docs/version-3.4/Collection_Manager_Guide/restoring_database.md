@@ -3,7 +3,7 @@ title: "Restauration de votre base de données"
 date: 2021-12-15
 lastmod: 2026-03-30
 draft: false
-sidebar_position: 170
+sidebar_position: 80
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
 keywords: ["restore","replace","upload"]

@@ -1,5 +1,5 @@
 ---
-title: "Data Import Fields"
+title: "Champs d’importation de données"
 date: 2021-10-22
 lastmod: 2026-06-02
 authors: ["Ed Gilbert","Katie Pearson"]
@@ -11,232 +11,232 @@ keywords: ["data upload","data import","file upload","IPT"]
 import ButtonLink from '@site/src/components/ButtonLink';
 
 :::info
-This page lists the possible specimen fields that can be imported into a Symbiota data portal.
+Cette page répertorie les champs relatifs aux spécimens pouvant être importés dans un portail de données Symbiota.
 :::
 
-## Related Documentation
+## Documentation associée
 
 :::tip
-If you want to learn **how to import data** into your portal, that information can be found [here](/Collection_Manager_Guide/Importing_Uploading/). (These [**uploading tips**](/Collection_Manager_Guide/Importing_Uploading/#uploading-tips) may be especially helpful if you're new to importing data into Symbiota portals!)
+Si vous souhaitez savoir **comment importer des données** dans votre portail, vous trouverez ces informations [ici](/Collection_Manager_Guide/Importing_Uploading/). (Ces [**conseils pour l'importation**](/Collection_Manager_Guide/Importing_Uploading/#uploading-tips) peuvent s'avérer particulièrement utiles si vous débutez dans l'importation de données vers les portails Symbiota !)
 :::
 
 :::tip
-If you are looking for Symbiota **data field definitions**, that information can be found on [this page](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
+Si vous recherchez les **définitions des champs de données** dans Symbiota, vous trouverez ces informations sur [cette page](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
 :::
 
-## Table Explanation
+## Explication du tableau
 
-| Name | Type | Notes |
+| Nom | Type | Remarques |
 |-|-|-|
-| Name of data field as it exists in your Symbiota portal's underlying database |[Type of data](https://www.w3schools.com/sql/sql_datatypes.asp)—such as a text string of a specific length or a formatted date—that can be successfully imported into the specified data field. The number of allowable characters is displayed parenthetically when applicable, e.g. "Text (255)". | Technical data import tips to complement [Symbiota Data Field definitions](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) |
+| Nom du champ de données tel qu'il figure dans la base de données sous-jacente de votre portail Symbiota | [Type de donnée](https://www.w3schools.com/sql/sql_datatypes.asp) — par exemple, une chaîne de caractères d'une longueur donnée ou une date formatée — pouvant être importée avec succès dans le champ concerné. Le nombre de caractères autorisés est indiqué entre parenthèses, le cas échéant ; par exemple : « Texte (255) ». | Conseils techniques pour l'importation de données, en complément des [définitions des champs de données Symbiota](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields). |
 
-- Explanation of **Name** formatting:
-  - *Italic* = Data field corresponds to the [Darwin Core (DwC) data standard](https://dwc.tdwg.org/terms/). For DwC fields, click on the link in the "Name" column to see the official DwC field definition.
-  - **Bold** = Use of this data field is strongly encouraged  when data are available
-  - `*` = Denotes that a field is only used to faciliate the data import process; values in this field will be merged into another field after import.
+- Explication du formatage des **noms** :
+- *Italique* = Le champ de données correspond au standard de données [Darwin Core (DwC)](https://dwc.tdwg.org/terms/). Pour les champs DwC, cliquez sur le lien dans la colonne « Nom » afin de consulter la définition officielle du champ DwC. 
+- **Gras** = L'utilisation de ce champ de données est fortement recommandée lorsque les données sont disponibles.
+- `*` = Indique que le champ est utilisé uniquement pour faciliter le processus d'importation ; les valeurs saisies dans ce champ seront fusionnées avec un autre champ après l'importation.
 
-## Standard Fields
+## Champs standard
 :::tip
-Definitions for Symbiota's standard fields can be found [here](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#collector-info). 
+Les définitions des champs standard de Symbiota sont disponibles [ici](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#collector-info).
 :::
-| Name | Type | Notes |
+| Nom | Type | Remarques |
 |-|-|-|
-| associatedCollectors | Text (255) | All collectors except the primary collector, separated by commas or semicolons. |
-| [_associatedMedia_](https://dwc.tdwg.org/terms/#dwc:associatedMedia) | Text (255) | URL to media resources, delimited by commas or semicolons. More information about uploading links to media resources (e.g., images) can be found on [this page](/Collection_Manager_Guide/Images/media_upload_url). |
-| [_associatedSequences_](https://dwc.tdwg.org/terms/#dwc:associatedSequences) | Text (65,535) | **Note:** This field is not yet accessible in the occurrence editor.|
-| [_associatedTaxa_](https://dwc.tdwg.org/terms/#dwc:associatedTaxa) | Text (65,535) | Associated taxa delimited by commas or semicolons |
-| authorInfraspecific | Text | The authorship of the infraspecific epithet, if different than the authorship of the specific epithet. If you do not provide authorships, authorships will be automatically assigned according to the taxonomic thesaurus (if the name is found in the thesaurus). See also specify:subspecies_author,  specify:variety_author, and specify:forma_author.  |
-| authorSpecies | Text | The authorship of the specific epithet of the species. If you do not provide authorships, authorships will be automatically assigned according to the taxonomic thesaurus (if the name is found in the thesaurus). |
-| [**_basisOfRecord_**](https://dwc.tdwg.org/terms/#dwc:basisOfRecord) | Text (32) | |
-| [_behavior_](https://dwc.tdwg.org/terms/#dwc:behavior) | Text (500) | |
-| [**_catalogNumber_**](https://dwc.tdwg.org/terms/#dwc:catalogNumber) | Text (32) | Barcode or Accession number |
-| [_collectionCode_](https://dwc.tdwg.org/terms/#dwc:collectionCode) | Text (32) | Populate only if different than source collection (i.e., the manager/metadata/) associated with your collection) |
-| collectorFamilyName | Text (255) | The family name or last name of the collector (if in its own field). If your collector names are not parsed into initials and family name, use the recordedBy field. See the specify:collector fields if your collector's name is split between first, middle, and last names. |
-| collectorInitials | Text (255) | The initials (excluding family name) of the collector. If your collector names are not parsed into family name and initials, use the recordedBy field. See the specify:collector fields if your collector's name is split between first, middle, and last names. |
-| [_continent_](https://dwc.tdwg.org/terms/#dwc:continent) | Text (45) | **Note:** This field is not yet accessible in the occurrence editor. |
-| [**_coordinateUncertaintyInMeters_**](https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters) | Integer | |
-| coordinateUncertaintyRadius | Integer | The value of the uncertainty radius of the georeference (used in concert with coordinateUncertaintyUnits), which is converted into coordinateUncertaintyInMeters upon upload. If all your coordinate uncertainty values are in meters, use the coordinateUncertaintyInMeters field instead. |
-| coordinateUncertaintyUnits | Text | The units of the uncertainty radius of the georeference (used in concert with coordinateUncertaintyRadius). |
-| [**_country_**](https://dwc.tdwg.org/terms/#dwc:country) | Text (64) | |
-| [_countryCode_](https://dwc.tdwg.org/terms/#dwc:countryCode) | Text (5) | |
-| [**_county_**](https://dwc.tdwg.org/terms/#dwc:county) | Text (255) | |
-| cultivationStatus | Integer | 0 = wild, 1 = cultivated |
-| [_dataGeneralizations_](https://dwc.tdwg.org/terms/#dwc:dataGeneralizations) | Text (250) | Notes or remarks about the record. This field is not publicly accessible, so it is a good place to put curatorial notes or temporary comments. |
-| dateEntered | Date/Time | The date when the record was first added to the source database. |
-| [_dateIdentified_](https://dwc.tdwg.org/terms/#dwc:dateIdentified) | Text (45) | |
-| [_day_](https://dwc.tdwg.org/terms/#dwc:day) | Integer (4) | If eventDate is null, year-month-day will be used to build the eventDate. |
-| **dbpk** | Text (45) | Specimen record unique identifier (primary key) of source database (record id). Barcode, occurrenceID (GUID), or a database Primary Key is ideal. Can also be catalogNumber, given that it is populated for each record and enforced as unique. Required if collection is “snapshot” of a central database. Not needed if collection is managed directly within portal. |
-| [**_decimalLatitude_**](https://dwc.tdwg.org/terms/#dwc:decimalLatitude) | Decimal number (8) | For USA records, value is positive |
-| [**_decimalLongitude_**](https://dwc.tdwg.org/terms/#dwc:decimalLongitude) | Decimal number (8) | For USA records, value is negative |
-| [_disposition_](https://dwc.tdwg.org/terms/#dwc:disposition) | Text (32) | |
-| duplicateQuantity |  | Used for printing labels. This field is not publicly accessible. |
-| [_dynamicProperties_](https://dwc.tdwg.org/terms/#dwc:dynamicProperties) | Text (65,535) | This field should ideally be formatted in JSON. For non-formatted descriptions, use the verbatimAttributes field. |
-| \*elevationNumber | Integer | Use this field for the elevation values (i.e., numbers) when your elevation values and units fields are separated. These will be concatenated into verbatimElevation. |
-| \*elevationUnits | Text (45) | Use this field for the elevation units when your elevation values and units fields are separated. These will be concatenated into verbatimElevation. |
-| endDayOfYear | Integer | The numeric value (1-365) of the ending date of an eventDate range. Used in concert with startDayOfYear. |
-| [_establishmentMeans_](https://dwc.tdwg.org/terms/#dwc:establishmentMeans) | Text (45) | Use of a controlled vocabulary is preferred (see Darwin Core link). |
-| [**_eventDate_**](https://dwc.tdwg.org/terms/#dwc:eventDate) | Date/Time | Date collected, or earliest date of collection, if a range is provided, formatted as YYYY-MM-DD. If other formatting is used, or if date ranges are included, map to the "verbatimEventDate" field instead. |
-| eventDate2 | Date/Time | Latest date collected, when a range is provided. Value will concatenate with eventDate if exported to a Darwin Core Archive. |
-| [_eventID_](https://dwc.tdwg.org/terms/#dwc:eventID) | Text (45) | The unique identifier for a collection event, if provided by the source database. **Note:** This field is not yet accessible in the occurrence editor. |
-| [_eventTime_](https://dwc.tdwg.org/terms/#dwc:eventTime) | Text (45) | The Darwin Core recommends using a time of day that conforms to ISO 8601-1:2019. |
-| exsiccatiIdentifier | Integer (11) | Identifier from exsiccati indexing table |
-| exsiccatiNotes | Text (250) | (Documentation coming soon!) |
-| exsiccatiNumber | Text (45) | (Documentation coming soon!) |
-| [_family_](https://dwc.tdwg.org/terms/#dwc:family) | Text (255) | This need only be provided when the scientific name is not in the taxonomic thesaurus, or you would like to override the automatically-assigned family that would come from the taxonomic thesaurus.|
-| [_fieldNumber_](https://dwc.tdwg.org/terms/#dwc:fieldNumber) | Text (45) | |
-| [_footprintWKT_](https://dwc.tdwg.org/terms/#dwc:footprintWKT) | Text (65,535) | |
-| [_genus_](https://dwc.tdwg.org/terms/#dwc:genus) | Text (255)  | |
-| [_geodeticDatum_](https://dwc.tdwg.org/terms/#dwc:geodeticDatum) | Text (255) | WGS84, NAD83, NAD27, etc |
-| [_georeferencedBy_](https://dwc.tdwg.org/terms/#dwc:georeferencedBy) | Text (255) | |
-| [_georeferencedDate_](https://dwc.tdwg.org/terms/#dwc:georeferencedDate) | Date/Time | **Note:** This field is not yet accessible in the occurrence editor. |
-| [_georeferenceProtocol_](https://dwc.tdwg.org/terms/#dwc:georeferenceProtocol) | Text (255) | |
-| [_georeferenceRemarks_](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks) | Text (255) | |
-| [_georeferenceSources_](https://dwc.tdwg.org/terms/#dwc:georeferenceSources) | Text (255) | |
-| [_georeferenceVerificationStatus_](https://dwc.tdwg.org/terms/#dwc:georeferenceVerificationStatus) | Text (32) | |
-| [_habitat_](https://dwc.tdwg.org/terms/#dwc:habitat) | Text (65,535) | Information about the environmental conditions in which the specimen was collected. |
-| host | | Currently concatenated into associatedTaxa |
-| [_identificationQualifier_](https://dwc.tdwg.org/terms/#dwc:identificationQualifier) | Text (255) | cf, aff. etc |
-| [_identificationReferences_](https://dwc.tdwg.org/terms/#dwc:identificationReferences) | Text (2000) | |
-| [_identificationRemarks_](https://dwc.tdwg.org/terms/#dwc:identificationRemarks) | Text (2000) | |
-| [_identifiedBy_](https://dwc.tdwg.org/terms/#dwc:identifiedBy) | Text (255) | |
-| [_individualCount_](https://dwc.tdwg.org/terms/#dwc:individualCount) | Text (45) | |
-| [_informationWithheld_](https://dwc.tdwg.org/terms/#dwc:informationWithheld) | Text (250) | E.g., "coordinates not provided due to rare species". If a record's locality data are redacted using _localitySecurity_, the public version of this field will autopopulate a list field names that contain redacted data. More information [here](/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data). |
-| [_infraspecificEpithet_](https://dwc.tdwg.org/terms/#dwc:infraspecificEpithet) | Text (255) | |
-| [_institutionCode_](https://dwc.tdwg.org/terms/#dwc:institutionCode) | Text (32) | Populate only if different than source collection (i.e., the manager/metadata/) associated with your collection) |
-| [_island_](https://dwc.tdwg.org/terms/#dwc:island) | Text (75) | **Note:** This field is not yet accessible in the occurrence editor. |
-| [_islandGroup_](https://dwc.tdwg.org/terms/#dwc:islandGroup) | Text (75) | **Note:** This field is not yet accessible in the occurrence editor. |
-| labelProject | Text (45) | Used for printing labels. This field is not publicly accessible. |
-| language | Text (20) | The language of the original record. |
-| \*latDeg | Integer (11) | Latitude degrees |
-| \*latMin | Decimal number | Latitude minutes |
-| \*latNS | Text (3) | North/south hemisphere. Should be either N or S. |
-| \*latSec | Decimal number | Latitude seconds |
-| [_lifeStage_](https://dwc.tdwg.org/terms/#dwc:lifeStage) | Text (45) | |
-| \*lngDeg | Integer (11) | Longitude degrees |
-| \*lngEW | Text (3) | East/west hemisphere. Should be either E or W. |
-| \*lngMin | Decimal number  | Longitude minutes |
-| \*lngSec | Decimal number | Longitude seconds |
-| [**_locality_**](https://dwc.tdwg.org/terms/#dwc:locality) | Text (65,535) | |
-| localitySecurity | Integer | 0=don’t hide locality details from general public, 1=hide locality, coordinates, and images . For more information about redacting locality information, see [this page](/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data). |
-| localitySecurityReason | Text (100) | Description of why a locality is hidden from public view. |
-| [_locationID_](https://dwc.tdwg.org/terms/#dwc:locationID) | Text (150) | |
-| [_locationRemarks_](https://dwc.tdwg.org/terms/#dwc:locationRemarks) | Text (65,535) |
-| materialSampleJSON | Text (65,535) | Documentation coming soon! |
-| [_maximumDepthInMeters_](https://dwc.tdwg.org/terms/#dwc:maximumDepthInMeters) | Integer (11) | |
-| [_maximumElevationInMeters_](https://dwc.tdwg.org/terms/#dwc:minimumElevationInMeters) | Integer (6) | |
-| [_minimumDepthInMeters_](https://dwc.tdwg.org/terms/#dwc:minimumDepthInMeters) | Integer (11) | |
-| [**_minimumElevationInMeters_**](https://dwc.tdwg.org/terms/#dwc:minimumElevationInMeters) | Integer (6) | If the elevation is a single value in meters, only use this field |
-| [_modified_](https://dwc.tdwg.org/terms/#dcterms:modified) | Date/Time | Date last modified in the source database. Further edits within the Symbiota portal will be stored in a separate table. |
-| [_month_](https://dwc.tdwg.org/terms/#dwc:month) | Integer (4) | If eventDate is null, year-month-day will be used to build the eventDate. |
-| [_municipality_](https://dwc.tdwg.org/terms/#dwc:municipality) | Text (255) | |
-| observerUID | | A unique identifier applied to the person referred to in "recordedBy". |
-| [**_occurrenceId_**](https://dwc.tdwg.org/terms/#dwc:occurrenceID) | Text (255) | Occurrence Global Unique Identifier (GUID) |
-| [_occurrenceRemarks_](https://dwc.tdwg.org/terms/#dwc:occurrenceRemarks) | Text (65,535) | General notes or remarks about the occurrence/specimen. |
+| associatedCollectors | Texte (255) | Tous les collecteurs, à l'exception du collecteur principal, séparés par des virgules ou des points-virgules. |
+| [_associatedMedia_](https://dwc.tdwg.org/terms/#dwc:associatedMedia) | Texte (255) | URL vers des ressources multimédias, séparées par des virgules ou des points-virgules. Pour plus d'informations sur l'ajout de liens vers des ressources multimédias (par ex. des images), consultez [cette page](/Collection_Manager_Guide/Images/media_upload_url). |
+| [_associatedSequences_](https://dwc.tdwg.org/terms/#dwc:associatedSequences) | Texte (65 535) | **Remarque :** Ce champ n'est pas encore accessible dans l'éditeur d'occurrences. |
+| [_associatedTaxa_](https://dwc.tdwg.org/terms/#dwc:associatedTaxa) | Texte (65 535) | Taxons associés, séparés par des virgules ou des points-virgules. |
+| authorInfraspecific | Texte | L'auteur (ou les auteurs) de l'épithète infraspécifique, s'il est différent de celui de l'épithète spécifique. Si vous ne renseignez pas les auteurs, ceux-ci seront attribués automatiquement en fonction du thésaurus taxonomique (si le nom y figure). Voir aussi : specify:subspecies_author, specify:variety_author et specify:forma_author. |
+| authorSpecies | Texte | L'auteur (ou les auteurs) de l'épithète spécifique de l'espèce. Si vous ne renseignez pas les auteurs, ceux-ci seront attribués automatiquement en fonction du thésaurus taxonomique (si le nom y figure). |
+| [**_basisOfRecord_**](https://dwc.tdwg.org/terms/#dwc:basisOfRecord) | Texte (32) | |
+| [_behavior_](https://dwc.tdwg.org/terms/#dwc:behavior) | Texte (500) | |
+| [**_catalogNumber_**](https://dwc.tdwg.org/terms/#dwc:catalogNumber) | Texte (32) | Code-barres ou numéro d'inventaire |
+| [_collectionCode_](https://dwc.tdwg.org/terms/#dwc:collectionCode) | Texte (32) | À renseigner uniquement s'il diffère de la collection source (c.-à-d. celle associée à votre collection, incluant sa gestion et ses métadonnées) |
+| collectorFamilyName | Texte (255) | Le nom de famille du collecteur (s'il figure dans un champ distinct). Si les noms des collecteurs ne sont pas décomposés en initiales et nom de famille, utilisez le champ `recordedBy`. Consultez les champs `specify:collector` si le nom du collecteur est réparti entre prénom, deuxième prénom et nom de famille. |
+| collectorInitials | Texte (255) | Les initiales du collecteur (à l'exclusion du nom de famille). Si les noms des collecteurs ne sont pas décomposés en nom de famille et initiales, utilisez le champ `recordedBy`. Consultez les champs `specify:collector` si le nom du collecteur est réparti entre prénom, deuxième prénom et nom de famille. |
+| [_continent_](https://dwc.tdwg.org/terms/#dwc:continent) | Texte (45) | **Remarque :** Ce champ n'est pas encore accessible dans l'éditeur d'occurrences. |
+| [**_coordinateUncertaintyInMeters_**](https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters) | Entier | |
+| coordinateUncertaintyRadius | Entier | La valeur du rayon d'incertitude de la géoréférence (utilisée conjointement avec `coordinateUncertaintyUnits`), qui est convertie en `coordinateUncertaintyInMeters` lors du téléversement. Si toutes vos valeurs d'incertitude des coordonnées sont exprimées en mètres, utilisez plutôt le champ `coordinateUncertaintyInMeters`. |
+| coordinateUncertaintyUnits | Texte | Unités du rayon d'incertitude de la géoréférence (utilisé conjointement avec coordinateUncertaintyRadius). |
+| [**_country_**](https://dwc.tdwg.org/terms/#dwc:country) | Texte (64) | |
+| [_countryCode_](https://dwc.tdwg.org/terms/#dwc:countryCode) | Texte (5) | |
+| [**_county_**](https://dwc.tdwg.org/terms/#dwc:county) | Texte (255) | |
+| cultivationStatus | Entier | 0 = sauvage, 1 = cultivé |
+| [_dataGeneralizations_](https://dwc.tdwg.org/terms/#dwc:dataGeneralizations) | Texte (250) | Notes ou remarques concernant l'enregistrement. Ce champ n'est pas accessible au public ; il est donc approprié pour y inscrire des notes de gestion des collections ou des commentaires temporaires. |
+| dateEntered | Date/Heure | Date à laquelle l'enregistrement a été ajouté pour la première fois à la base de données source. |
+| [_dateIdentified_](https://dwc.tdwg.org/terms/#dwc:dateIdentified) | Texte (45) | |
+| [_day_](https://dwc.tdwg.org/terms/#dwc:day) | Entier (4) | Si eventDate est nul, les valeurs année-mois-jour seront utilisées pour constituer la date de l'événement (eventDate). |
+| **dbpk** | Texte (45) | Identifiant unique de l'enregistrement du spécimen (clé primaire) dans la base de données source. Un code-barres, un `occurrenceID` (GUID) ou une clé primaire de base de données constituent des choix idéaux. Il peut également s'agir d'un `catalogNumber`, à condition que ce champ soit renseigné pour chaque enregistrement et qu'il soit défini comme unique. Requis si la collection est un « instantané » (snapshot) d'une base de données centrale. Non nécessaire si la collection est gérée directement au sein du portail. |
+| [**_decimalLatitude_**](https://dwc.tdwg.org/terms/#dwc:decimalLatitude) | Nombre décimal (8) | Pour les enregistrements provenant des États-Unis, la valeur est positive. |
+| [**_decimalLongitude_**](https://dwc.tdwg.org/terms/#dwc:decimalLongitude) | Nombre décimal (8) | Pour les enregistrements provenant des États-Unis, la valeur est négative. |
+| [_disposition_](https://dwc.tdwg.org/terms/#dwc:disposition) | Texte (32) | |
+| duplicateQuantity | | Utilisé pour l'impression d'étiquettes. Ce champ n'est pas accessible au public. |
+| [_dynamicProperties_](https://dwc.tdwg.org/terms/#dwc:dynamicProperties) | Texte (65 535) | Ce champ devrait idéalement être formaté en JSON. Pour des descriptions non formatées, utilisez le champ `verbatimAttributes`. |
+| \*elevationNumber | Entier | Utilisez ce champ pour les valeurs d'altitude (c.-à-d. les nombres) lorsque les valeurs et les unités d'altitude sont saisies dans des champs distincts. Ces données seront concaténées dans le champ `verbatimElevation`. |
+| \*elevationUnits | Texte (45) | Utilisez ce champ pour les unités d'altitude lorsque les valeurs et les unités d'altitude sont saisies dans des champs distincts. Ces données seront concaténées dans le champ `verbatimElevation`. |
+| endDayOfYear | Entier | La valeur numérique (1-365) correspondant à la date de fin d'une plage définie dans `eventDate`. Utilisé conjointement avec `startDayOfYear`. |
+| [_establishmentMeans_](https://dwc.tdwg.org/terms/#dwc:establishmentMeans) | Texte (45) | L'utilisation d'un vocabulaire contrôlé est privilégiée (voir le lien vers Darwin Core). |
+| [**_eventDate_**](https://dwc.tdwg.org/terms/#dwc:eventDate) | Date/Heure | Date de collecte, ou date de début de collecte si une plage est indiquée, au format AAAA-MM-JJ. Si un autre format est utilisé, ou si des plages de dates sont incluses, veuillez utiliser le champ « verbatimEventDate ». |
+| eventDate2 | Date/Heure | Date de fin de collecte, lorsqu'une plage est indiquée. Cette valeur sera concaténée avec « eventDate » en cas d'exportation vers une archive Darwin Core. |
+| [_eventID_](https://dwc.tdwg.org/terms/#dwc:eventID) | Texte (45) | Identifiant unique d'un événement de collecte, s'il est fourni par la base de données source. **Remarque :** Ce champ n'est pas encore accessible dans l'éditeur d'occurrences. |
+| [_eventTime_](https://dwc.tdwg.org/terms/#dwc:eventTime) | Texte (45) | Darwin Core recommande d'utiliser une heure conforme à la norme ISO 8601-1:2019. |
+| exsiccatiIdentifier | Entier (11) | Identifiant issu de la table d'indexation des exsiccata. |
+| exsiccatiNotes | Texte (250) | (Documentation à venir !) |
+| exsiccatiNumber | Texte (45) | (Documentation à venir !) |
+| [_family_](https://dwc.tdwg.org/terms/#dwc:family) | Texte (255) | À renseigner uniquement si le nom scientifique ne figure pas dans le thésaurus taxonomique, ou si vous souhaitez remplacer la famille attribuée automatiquement par ce thésaurus. |
+| [_fieldNumber_](https://dwc.tdwg.org/terms/#dwc:fieldNumber) | Texte (45) | |
+| [_footprintWKT_](https://dwc.tdwg.org/terms/#dwc:footprintWKT) | Texte (65 535) | |
+| [_genus_](https://dwc.tdwg.org/terms/#dwc:genus) | Texte (255) | |
+| [_geodeticDatum_](https://dwc.tdwg.org/terms/#dwc:geodeticDatum) | Texte (255) | WGS84, NAD83, NAD27, etc. |
+| [_georeferencedBy_](https://dwc.tdwg.org/terms/#dwc:georeferencedBy) | Texte (255) | |
+| [_georeferencedDate_](https://dwc.tdwg.org/terms/#dwc:georeferencedDate) | Date/Heure | **Remarque :** Ce champ n'est pas encore accessible dans l'éditeur d'occurrences. |
+| [_georeferenceProtocol_](https://dwc.tdwg.org/terms/#dwc:georeferenceProtocol) | Texte (255) | |
+| [_georeferenceRemarks_](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks) | Texte (255) | |
+| [_georeferenceSources_](https://dwc.tdwg.org/terms/#dwc:georeferenceSources) | Texte (255) | |
+| [_georeferenceVerificationStatus_](https://dwc.tdwg.org/terms/#dwc:georeferenceVerificationStatus) | Texte (32) | |
+| [_habitat_](https://dwc.tdwg.org/terms/#dwc:habitat) | Texte (65 535) | Informations sur les conditions environnementales dans lesquelles le spécimen a été collecté. |
+| host | | Actuellement concaténé dans *associatedTaxa* |
+| [_identificationQualifier_](https://dwc.tdwg.org/terms/#dwc:identificationQualifier) ​​| Texte (255) | cf., aff., etc. |
+| [_identificationReferences_](https://dwc.tdwg.org/terms/#dwc:identificationReferences) | Texte (2000) | |
+| [_identificationRemarks_](https://dwc.tdwg.org/terms/#dwc:identificationRemarks) | Texte (2000) | |
+| [_identifiedBy_](https://dwc.tdwg.org/terms/#dwc:identifiedBy) | Texte (255) | |
+| [_individualCount_](https://dwc.tdwg.org/terms/#dwc:individualCount) | Texte (45) | |
+| [_informationWithheld_](https://dwc.tdwg.org/terms/#dwc:informationWithheld) | Texte (250) | Par ex. : « coordonnées non fournies en raison de la rareté de l'espèce ». Si les données de localité d'un enregistrement sont masquées via _localitySecurity_, la version publique de ce champ sera automatiquement renseignée avec la liste des noms de champs contenant des données masquées. Plus d'informations [ici](/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data). |
+| [_infraspecificEpithet_](https://dwc.tdwg.org/terms/#dwc:infraspecificEpithet) | Texte (255) | |
+| [_institutionCode_](https://dwc.tdwg.org/terms/#dwc:institutionCode) | Texte (32) | À renseigner uniquement s'il diffère de celui de la collection source (c.-à-d. la collection associée à vos métadonnées). |
+| [_island_](https://dwc.tdwg.org/terms/#dwc:island) | Texte (75) | **Remarque :** Ce champ n'est pas encore accessible dans l'éditeur d'occurrences. |
+| [_islandGroup_](https://dwc.tdwg.org/terms/#dwc:islandGroup) | Texte (75) | **Remarque :** Ce champ n'est pas encore accessible dans l'éditeur d'occurrences. |
+| labelProject | Texte (45) | Utilisé pour l'impression d'étiquettes. Ce champ n'est pas accessible au public. |
+| language | Texte (20) | Langue de l'enregistrement original. |
+| \*latDeg | Entier (11) | Degrés de latitude |
+| \*latMin | Nombre décimal | Minutes de latitude |
+| \*latNS | Texte (3) | Hémisphère nord/sud. Doit être « N » ou « S ». |
+| \*latSec | Nombre décimal | Secondes de latitude |
+| [_lifeStage_](https://dwc.tdwg.org/terms/#dwc:lifeStage) | Texte (45) | |
+| \*lngDeg | Entier (11) | Degrés de longitude |
+| \*lngEW | Texte (3) | Hémisphère est/ouest. Doit être « E » ou « W ». |
+| \*lngMin | Nombre décimal | Minutes de longitude |
+| \*lngSec | Nombre décimal | Secondes de longitude |
+| [**_locality_**](https://dwc.tdwg.org/terms/#dwc:locality) | Texte (65 535) | |
+| localitySecurity | Entier | 0 = ne pas masquer les détails de la localité au grand public ; 1 = masquer la localité, les coordonnées et les images. Pour plus d'informations sur la manière de masquer des données relatives à une localité, consultez [cette page](/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data). |
+| localitySecurityReason | Texte (100) | Justification du masquage de la localité vis-à-vis du public. |
+| [_locationID_](https://dwc.tdwg.org/terms/#dwc:locationID) | Texte (150) | |
+| [_locationRemarks_](https://dwc.tdwg.org/terms/#dwc:locationRemarks) | Texte (65 535) |
+| materialSampleJSON | Texte (65 535) | Documentation à venir ! |
+| [_maximumDepthInMeters_](https://dwc.tdwg.org/terms/#dwc:maximumDepthInMeters) | Entier (11) | |
+| [_maximumElevationInMeters_](https://dwc.tdwg.org/terms/#dwc:minimumElevationInMeters) | Entier (6) | |
+| [_minimumDepthInMeters_](https://dwc.tdwg.org/terms/#dwc:minimumDepthInMeters) | Entier (11) | |
+| [**_minimumElevationInMeters_**](https://dwc.tdwg.org/terms/#dwc:minimumElevationInMeters) | Entier (6) | Si l'altitude est exprimée par une valeur unique en mètres, utilisez uniquement ce champ |
+| [_modified_](https://dwc.tdwg.org/terms/#dcterms:modified) | Date/Heure | Date de la dernière modification dans la base de données source. Les modifications ultérieures effectuées au sein du portail Symbiota seront enregistrées dans une table distincte. |
+| [_month_](https://dwc.tdwg.org/terms/#dwc:month) | Entier (4) | Si `eventDate` est nul, les champs année, mois et jour seront utilisés pour constituer la date de l'événement (`eventDate`). |
+| [_municipality_](https://dwc.tdwg.org/terms/#dwc:municipality) | Texte (255) | |
+| observerUID | | Identifiant unique attribué à la personne mentionnée dans le champ « recordedBy ». |
+| [**_occurrenceId_**](https://dwc.tdwg.org/terms/#dwc:occurrenceID) | Texte (255) | Identifiant unique global (GUID) de l'occurrence. |
+| [_occurrenceRemarks_](https://dwc.tdwg.org/terms/#dwc:occurrenceRemarks) | Texte (65 535) | Notes ou remarques générales concernant l'occurrence ou le spécimen. |
 | [_organismID_](https://dwc.tdwg.org/terms/#dwc:organismID) | | |
-| [_otherCatalogNumbers_](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers) | Text (255) | To take advantage of the [Tag Name + Identifier system](/Editor_Guide/Editing_Searching_Records/catalog_numbers) (in which you can tag an identifier/other catalog number with a specific title), enter the tag name followed by a colon and then the identifier value, e.g., "Old Accession Number: 12345". For multiple identifiers, separate the tag name + identifiers by semicolons, e.g., "NP #: 4321; Accession #: 9876" |
-| [_ownerInstitutionCode_](https://dwc.tdwg.org/terms/#dwc:ownerInstitutionCode) | Text (32) | |
-| paleoJSON | Text (65,535) | A JSON-formatted field containing the data to be included in the Symbiota [paleo module](/Collection_Manager_Guide/paleo_data).  Documentation coming soon! |
-| [_parentLocationID_](https://dwc.tdwg.org/terms/#dwc:parentLocationID) | | **Note:** This field is not yet accessible in the occurrence editor. |
-| [_preparations_](https://dwc.tdwg.org/terms/#dwc:preparations) | Text (100) | |
-| processingStatus | | Processing status for digitization tasks. This field is not publicly accessible. |
-| [**_recordedBy_**](https://dwc.tdwg.org/terms/#dwc:recordedBy) | Text (255) | Primary collector/observer name. All other collectors should be placed in the "associatedCollectors" field. If the primary collector/observer name is parsed into multiple fields, see the collectorFamilyName, collectorInitials, and specify:collector fields. If you enter this value alongside an ORCID (e.g. "Firstname Lastname (ORCID ####-####-####-####)", the value will display with an ORCID link within your portal. |
-| recordEnteredBy | Text (250) | Data entry personnel |
-| [**_recordNumber_**](https://dwc.tdwg.org/terms/#dwc:recordNumber) | Text (45) | Collector number |
-| \*recordNumberPrefix | Text (45)  | Merged into recordNumber |
-| \*recordNumberSuffix | Text (45)  | Merged into recordNumber |
-| [_reproductiveCondition_](https://dwc.tdwg.org/terms/#dwc:reproductiveCondition) | Text (255) | e.g. sterile, flw, frt, asci, etc. Use of controlled vocabulary is preferred. |
-| [_samplingEffort_](https://dwc.tdwg.org/terms/#dwc:samplingEffort) | Text (200) | |
-| [_samplingProtocol_](https://dwc.tdwg.org/terms/#dwc:samplingProtocol) | Text (100) | |
-| **scientificName (excluding author)** | Text (255) | Scientific name without authorship. Do not include abbreviations like “sp.” or “indet.” |
-| [_scientificname (including author)_](https://dwc.tdwg.org/terms/#dwc:scientificName) | Text (255) | Scientific name with full authorship. The authorship will be parsed from the name. |
-| [_scientificNameAuthorship_](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship) | Text (255) | Author of scientific name. If the scientific name is already in your portal's internal taxonomic thesaurus, this field will automatically be filled out upon data import. |
-| [_sex_](https://dwc.tdwg.org/terms/#dwc:sex) | Text (45) | |
-| [_specificEpithet_](https://dwc.tdwg.org/terms/#dwc:specificEpithet) | Text (255) | |
-| startDayOfYear | Integer | The numeric value (1-365) of the starting date of an eventDate range. Used in concert with endDayOfYear. |
-| [**_stateProvince_**](https://dwc.tdwg.org/terms/#dwc:stateProvince) | Text (255) | |
-| substrate | Text (500) | The soil or other substrate (e.g., bark, rock) on which a sessile organism was found. In Darwin Core Archive exports, this field is concatenated into "habitat".| 
+| [_otherCatalogNumbers_](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers) | Texte (255) | Pour utiliser le système « Nom d'étiquette + Identifiant » (qui permet d'associer un titre spécifique à un identifiant ou à un autre numéro de catalogue), saisissez le nom de l'étiquette suivi d'un deux-points, puis de la valeur de l'identifiant ; par exemple : « Ancien numéro d'acquisition : 12345 ». Pour plusieurs identifiants, séparez les couples « nom d'étiquette + identifiant » par des points-virgules ; par exemple : « NP # : 4321 ; Numéro d'acquisition : 9876 ». |
+| [_ownerInstitutionCode_](https://dwc.tdwg.org/terms/#dwc:ownerInstitutionCode) | Texte (32) | |
+| paleoJSON | Texte (65 535) | Un champ au format JSON contenant les données à inclure dans le [module paléontologique](/Collection_Manager_Guide/paleo_data) de Symbiota. Documentation à venir ! |
+| [_parentLocationID_](https://dwc.tdwg.org/terms/#dwc:parentLocationID) | | **Remarque :** Ce champ n'est pas encore accessible dans l'éditeur d'occurrences. |
+| [_preparations_](https://dwc.tdwg.org/terms/#dwc:preparations) | Texte (100) | |
+| processingStatus | | État de traitement des tâches de numérisation. Ce champ n'est pas accessible au public. |
+| [**_recordedBy_**](https://dwc.tdwg.org/terms/#dwc:recordedBy) | Texte (255) | Nom du collecteur/observateur principal. Tous les autres collecteurs doivent être indiqués dans le champ « associatedCollectors ». Si le nom du collecteur/observateur principal est décomposé en plusieurs champs, veuillez vous référer aux champs « collectorFamilyName », « collectorInitials » et « specify:collector ». Si vous saisissez cette valeur accompagnée d'un identifiant ORCID (par ex. « Prénom Nom (ORCID ####-####-####-####) »), la valeur s'affichera avec un lien ORCID dans votre portail. |
+| recordEnteredBy | Texte (250) | Personne ayant effectué la saisie des données |
+| [**_recordNumber_**](https://dwc.tdwg.org/terms/#dwc:recordNumber) | Texte (45) | Numéro de récolte |
+| \*recordNumberPrefix | Texte (45) | Intégré dans recordNumber |
+| \*recordNumberSuffix | Texte (45) | Intégré dans recordNumber |
+| [_reproductiveCondition_](https://dwc.tdwg.org/terms/#dwc:reproductiveCondition) | Texte (255) | Par ex. stérile, en fleur, en fruit, asques, etc. L'utilisation d'un vocabulaire contrôlé est recommandée. |
+| [_samplingEffort_](https://dwc.tdwg.org/terms/#dwc:samplingEffort) | Texte (200) | |
+| [_samplingProtocol_](https://dwc.tdwg.org/terms/#dwc:samplingProtocol) | Texte (100) | |
+| **scientificName (sans l'auteur)** | Texte (255) | Nom scientifique sans l'auteur. Ne pas inclure d'abréviations telles que « sp. » ou « indet. ». |
+| [_scientificName (avec l'auteur)_](https://dwc.tdwg.org/terms/#dwc:scientificName) | Texte (255) | Nom scientifique avec l'auteur complet. L'auteur sera extrait du nom. |
+| [_scientificNameAuthorship_](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship) | Texte (255) | Auteur du nom scientifique. Si le nom scientifique figure déjà dans le référentiel taxonomique interne de votre portail, ce champ sera automatiquement renseigné lors de l'importation des données. |
+| [_sex_](https://dwc.tdwg.org/terms/#dwc:sex) | Texte (45) | |
+| [_specificEpithet_](https://dwc.tdwg.org/terms/#dwc:specificEpithet) | Texte (255) | |
+| startDayOfYear | Entier | La valeur numérique (1-365) correspondant à la date de début d'une plage temporelle (`eventDate`). Utilisé conjointement avec `endDayOfYear`. |
+| [**_stateProvince_**](https://dwc.tdwg.org/terms/#dwc:stateProvince) | Texte (255) | |
+| [_substrate_](https://dwc.tdwg.org/terms/#dwc:substrate) | Texte (500) | Le sol ou tout autre substrat (par ex. écorce, roche) sur lequel un organisme sessile a été trouvé. |
 | storageLocation | varchar(100) | |
-| [_taxonRank_](https://dwc.tdwg.org/terms/#dwc:taxonRank) | Text (32) | Rank name of infraspecific abbreviation (e.g., var., subsp.) allowed |
-| [_taxonRemarks_](https://dwc.tdwg.org/terms/#dwc:taxonRemarks) | Text (2000) | |
-| tempfield | | The tempfields are provided as temporary holding locations for data that needs to be concatenated or otherwise transformed by a Stored Procedure before it can be moved into its final database field. |
-| \*trsRange | Text (45) | The range value (with direction) for U.S. township-range-section (TRS, or public land survey system) coordinates. (e.g., "23E" for the TRS coordinates T6S R23E section 34)|
-| \*trsSection | Text (45) | The section for U.S. township-range-section (TRS, or public land survey system) coordinates. (e.g., "34" for the TRS coordinates T6S R23E section 34)|
-| \*trsSectionDetails | Text (45) | Any additional details, such as quarter or sixteenth sections, for U.S. township-range-section (TRS, or public land survey system) coordinates. |
-| \*trsTownship | Text (45) | The township value (with direction) for U.S. township-range-section (TRS, or public land survey system) coordinates. (e.g., "6S" for the TRS coordinates T6S R23E section 34)|
-| [_typeStatus_](https://dwc.tdwg.org/terms/#dwc:typeStatus) | Text (255) | |
-| \*UtmEasting | Text (45) | The easting value for UTM coordinates (e.g., "334543" for the UTM coordinates 12N 334543 5463754) |
-| \*UtmNorthing | Text (45) | The northing value for UTM coordinates (e.g., "5463754" for the UTM coordinates 12N 334543 5463754) |
-| \*UtmZoning | Text (45) | The zone value for UTM coordinates (e.g., "12N" for the UTM coordinates 12N 334543 5463754)|
-| verbatimAttributes | Text (65,535) | Verbatim description of organism (e.g. 1.5 m tall, flowers white with purple tips, etc). In the occurrence editor, this field is usually labeled "Description". |
-| \*verbatimLatitude | Text (255) | Used to generate decimal latitude. This field will be merged into verbatimCoordinates. |
-| [_verbatimCoordinates_](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates) | Text (255) | e.g. UTM: 12N 334543 5463754; 34° 25’N 113° 43’W |
-| [_verbatimDepth_](https://dwc.tdwg.org/terms/#dwc:verbatimDepth) | Text (50) | |
-| [_verbatimElevation_](https://dwc.tdwg.org/terms/#dwc:verbatimElevation) | Text (255) | Use this field when your elevation values and units are in the same field (e.g., "1200 ft") and when your elevations are not consistently in meters. |
-| [_verbatimEventDate_](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate) | Text (255) | Map collection/observation date to this field when it is not YYYY-MM-DD standardized, when dates are incomplete, or when date ranges are present. |
-| \*verbatimLongitude | Text (255) | Used to generate decimal longitude. This field will be merged into verbatimCoordinates. |
-| [_waterBody_](https://dwc.tdwg.org/terms/#dwc:waterBody) | Text (150) | **Note:** This field is not yet accessible in the occurrence editor. |
-| [_year_](https://dwc.tdwg.org/terms/#dwc:year) | Integer (4) | If eventDate is null, year-month-day will be used to build the eventDate. |
+| [_taxonRank_](https://dwc.tdwg.org/terms/#dwc:taxonRank) | Texte (32) | Nom du rang taxonomique ; les abréviations infraspécifiques (par ex. « var. », « subsp. ») sont autorisées. |
+| [_taxonRemarks_](https://dwc.tdwg.org/terms/#dwc:taxonRemarks) | Texte (2000) | |
+| tempfield | | Les champs temporaires (« tempfields ») servent d'espaces de stockage provisoires pour des données devant être concaténées ou transformées par une procédure stockée avant d'être transférées vers leur champ définitif dans la base de données. |
+| \*trsRange | Texte (45) | Valeur du « range » (avec indication de la direction) pour le système de coordonnées américain « township-range-section » (TRS, ou système d'arpentage des terres publiques). (Par ex. « 23E » pour les coordonnées TRS : T6S R23E, section 34). |
+| \*trsSection | Texte (45) | Section pour le système de coordonnées américain « township-range-section » (TRS, ou système d'arpentage des terres publiques). (Par ex. « 34 » pour les coordonnées TRS : T6S R23E, section 34). |
+| \*trsSectionDetails | Texte (45) | Détails supplémentaires, tels que les quarts ou seizièmes de section, pour le système de coordonnées américain « township-range-section » (TRS, ou système d'arpentage des terres publiques). |
+| \*trsTownship | Texte (45) | Valeur du « township » (avec indication de la direction) pour le système de coordonnées américain « township-range-section » (TRS, ou système d'arpentage des terres publiques). (Par ex. « 6S » pour les coordonnées TRS : T6S R23E, section 34). |
+| [_typeStatus_](https://dwc.tdwg.org/terms/#dwc:typeStatus) | Texte (255) | |
+| \*UtmEasting | Texte (45) | La valeur d'abscisse (easting) pour les coordonnées UTM (par ex. « 334543 » pour les coordonnées UTM 12N 334543 5463754) |
+| \*UtmNorthing | Texte (45) | La valeur d'ordonnée (northing) pour les coordonnées UTM (par ex. « 5463754 » pour les coordonnées UTM 12N 334543 5463754) |
+| \*UtmZoning | Texte (45) | La valeur de zone pour les coordonnées UTM (par ex. « 12N » pour les coordonnées UTM 12N 334543 5463754) |
+| verbatimAttributes | Texte (65 535) | Description textuelle (telle quelle) de l'organisme (par ex. 1,5 m de hauteur, fleurs blanches à extrémités violettes, etc.). Dans l'éditeur d'occurrences, ce champ est généralement intitulé « Description ». |
+| \*verbatimLatitude | Texte (255) | Utilisé pour générer la latitude en degrés décimaux. Ce champ sera fusionné dans `verbatimCoordinates`. |
+| [_verbatimCoordinates_](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates) | Texte (255) | Par ex. UTM : 12N 334543 5463754 ; 34° 25’ N 113° 43’ O |
+| [_verbatimDepth_](https://dwc.tdwg.org/terms/#dwc:verbatimDepth) | Texte (50) | |
+| [_verbatimElevation_](https://dwc.tdwg.org/terms/#dwc:verbatimElevation) | Texte (255) | Utilisez ce champ lorsque les valeurs et les unités d'altitude figurent dans le même champ (par ex. « 1200 ft ») et lorsque les altitudes ne sont pas exprimées systématiquement en mètres. |
+| [_verbatimEventDate_](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate) | Texte (255) | Utilisez ce champ pour la date de collecte ou d'observation lorsqu'elle n'est pas normalisée au format AAAA-MM-JJ, lorsqu'elle est incomplète ou lorsqu'il s'agit d'une plage de dates. |
+| \*verbatimLongitude | Texte (255) | Utilisé pour générer la longitude en degrés décimaux. Ce champ sera fusionné dans `verbatimCoordinates`. |
+| [_waterBody_](https://dwc.tdwg.org/terms/#dwc:waterBody) | Texte (150) | **Remarque :** Ce champ n'est pas encore accessible dans l'éditeur d'occurrences. |
+| [_year_](https://dwc.tdwg.org/terms/#dwc:year) | Entier (4) | Si `eventDate` est vide, les informations « année-mois-jour » seront utilisées pour constituer la valeur de `eventDate`. |
 
-## Paleontology Fields
+## Champs de paléontologie
 
 :::tip
-Definitions for Symbiota's paleontology fields can be found [here](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#paleontology). 
+Les définitions des champs de paléontologie de Symbiota sont disponibles [ici](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#paleontology).
 :::
 
-| Name | Type | Notes |
+| Nom | Type | Remarques |
 |-|-|-|
 | paleo-absoluteAge | varchar(65) | |
 | [_paleo-bed_](https://dwc.tdwg.org/terms/#dwc:bed) | varchar(65) | |
-| paleo-biostratigraphy | varchar(100) | Data imported using paleo-biostratigraphy will override values entered into paleo-highest/lowestbiostratigraphiczone. Therefore, only import data in this field in place of paleo-highest/lowestbiostratigraphiczone but not in addition to these fields. |
+| paleo-biostratigraphy | varchar(100) | Les données importées via ce champ remplaceront les valeurs saisies dans `paleo-highestbiostratigraphiczone` ou `paleo-lowestbiostratigraphiczone`. Par conséquent, utilisez ce champ en remplacement de `paleo-highestbiostratigraphiczone` et `paleo-lowestbiostratigraphiczone`, et non en complément de ceux-ci. |
 | paleo-biota | varchar(100) | |
-| paleo-earlyinterval | varchar(65) | Refer to the Symbiota Data Field definitions for [Early Interval and Late Interval](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval). |
+| paleo-earlyinterval | varchar(65) | Consultez les définitions des champs de données Symbiota pour « Early Interval » (intervalle inférieur/précoce) et « Late Interval » (intervalle supérieur/tardif) [ici](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval). |
 | paleo-element | varchar(250) | |
 | [_paleo-formation_](https://dwc.tdwg.org/terms/#dwc:formation)  | varchar(65) | |
 | [_paleo-geologicalcontextid_](https://dwc.tdwg.org/terms/#dwc:geologicalContextID) | varchar(100) | |
-| [*_paleo-highestbiostratigraphiczone_](https://dwc.tdwg.org/terms/#dwc:highestBiostratigraphicZone) | varchar(100) | Values imported using this field will concatenate with lowestBiostratigraphicZone, e.g. "Zone A - Zone B", whereby “Zone A” is the value entered for highestBiostratigraphicZone and “Zone B” is the value entered for lowestBiostratigraphicZone. The result will appear as “Zone A - Zone B” within the Occurrence Editor’s data entry form. For the import to work properly, both highestBiostratigraphicZone and lowestBiostratigraphicZone should contain values; otherwise, use paleo-biostratigraphy. |
-| paleo-latelnterval | varchar(65) | Refer to the Symbiota Data Field definitions for [Early Interval and Late Interval](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval). |
+| [*_paleo-highestbiostratigraphiczone_](https://dwc.tdwg.org/terms/#dwc:highestBiostratigraphicZone) | varchar(100) | Les valeurs importées via ce champ seront concaténées avec celles de `lowestBiostratigraphicZone` ; par exemple : | « Zone A - Zone B », où « Zone A » correspond à la valeur saisie pour `highestBiostratigraphicZone` et « Zone B » à la valeur saisie pour `lowestBiostratigraphicZone`. Le résultat s'affichera sous la forme « Zone A - Zone B » dans le formulaire de saisie de données de l'éditeur d'occurrences (*Occurrence Editor*). Pour que l'importation s'effectue correctement, les champs `highestBiostratigraphicZone` et `lowestBiostratigraphicZone` doivent tous deux contenir des valeurs ; dans le cas contraire, utilisez `paleo-biostratigraphy`. |
+| paleo-latelnterval | varchar(65) | Consultez les définitions des champs de données Symbiota pour [Early Interval et Late Interval](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#early-interval-and-late-interval). |
 | [_paleo-lithogroup_](https://dwc.tdwg.org/terms/#dwc:group) | varchar(65) | |
 | paleo-lithology | varchar(700) | |
 | paleo-localStage | varchar(65) | |
-| [*_paleo-lowestbiostratigraphiczone_](https://dwc.tdwg.org/terms/#dwc:lowestBiostratigraphicZone) | varchar(40) | A value imported using this field will concatenate with highestBiostratigraphicZone in the Occurrence Editor,  e.g. "Zone A - Zone B", whereby “Zone A” is the value entered for highestBiostratigraphicZone and “Zone B” is the value entered for lowestBiostratigraphicZone. For the import to work properly, both highestBiostratigraphicZone and lowestBiostratigraphicZone should contain values; otherwise, use paleo-biostratigraphy.  |
+| [*_paleo-lowestbiostratigraphiczone_](https://dwc.tdwg.org/terms/#dwc:lowestBiostratigraphicZone) | varchar(40) | Une valeur importée via ce champ sera combinée avec celle de `highestBiostratigraphicZone` dans l'éditeur d'occurrences, par exemple : « Zone A - Zone B », où « Zone A » correspond à la valeur saisie pour `highestBiostratigraphicZone` et « Zone B » à la valeur saisie pour `lowestBiostratigraphicZone`. Pour que l'importation s'effectue correctement, les champs `highestBiostratigraphicZone` et `lowestBiostratigraphicZone` doivent tous deux contenir des valeurs ; dans le cas contraire, utilisez `paleo-biostratigraphy`. |
 | [_paleo-member_](https://dwc.tdwg.org/terms/#dwc:member) | varchar(65) | |
 | paleo-slideProperties | varchar(1000) | |
-| paleo-stratRemarks | varchar(1000) |  |
-| paleo-taxonEnvironment | varchar(65) | Controlled vocabulary; see Symbiota Data Field definition for [Taxon Environment](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#taxon-environment) |
+| paleo-stratRemarks | varchar(1000) | |
+| paleo-taxonEnvironment | varchar(65) | Vocabulaire contrôlé ; voir la définition du champ de données Symbiota pour [Environnement du taxon](/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#taxon-environment) |
 
-## Specify Fields
-| Name | Type | Notes |
+## Champs « Specify »
+| Nom | Type | Remarques |
 |-|-|-|
-| specify:subspecies | Text | The infraspecific epithet of a subspecies only (without subsp. prefix). |
-| specify:subspecies_author | Text | The authorship of the subspecific epithet. |
-| specify:variety | Text | The infraspecific epithet of a variety only (without var. prefix).|
-| specify:variety_author | Text | The authorship of the varietal epithet. |
-| specify:forma | Text | The infraspecific epithet of a forma only (without f. prefix).|
-| specify:forma_author | Text | The authorship of the forma. |
-| specify:collector_first_name | Text | The first (given) name of the primary collector. Will be concatenated into recordedBy along with middle_initial and last_name fields. |
-| specify:collector_middle_initial | Text | The middle initial name of the primary collector. Will be concatenated into recordedBy along with first_name and last_name fields. |
-| specify:collector_last_name | Text | The last (family) name  of the primary collector. Will be concatenated into recordedBy along with first_name and middle_initial fields. |
-| specify:determiner_first_name | Text | The first (given) name of the primary person who applied the taxonomic identification to the record. Will be concatenated into identifiedBy along with middle_initial and last_name fields. |
-| specify:determiner_middle_initial | Text | The middle initial of the primary person who applied the taxonomic identification to the record. Will be concatenated into identifiedBy along with first_name and last_name fields.|
-| specify:determiner_last_name | Text | The last (family) name of the primary person who applied the taxonomic identification to the record. Will be concatenated into identifiedBy along with first_name and middle_initial fields.|
-| specify:qualifier_position | Text | When an identification qualifier is provided, this field will be concatenated along with the qualifier to indicate the part of the scientific name that the qualifier applies to. For example, if the record you are adding reads "Amaranthus cf. albus", enter "Amaranthus albus" in the scientificName (excluding author) field, "cf." in the identificationQualifier field, and "albus" in the qualifier_position field. |
-| specify:latitude1 | Decimal number | The westernmost latitude in a range of latitudes provided as a georeference for the record. Will be concatenated along with latitude2 into verbatimCoordinates. |
-| specify:latitude2 | Decimal number | The easternmost latitude in a range of latitudes provided as a georeference for the record. Will be concatenated along with latitude1 into verbatimCoordinates. |
-| specify:longitude1 | Decimal number | The northernmost longitude in a range of longitudes provided as a georeference for the record. Will be concatenated along with longitude2 into verbatimCoordinates.|
-| specify:longitude2 | Decimal number | The southernmost longitude in a range of longitudes provided as a georeference for the record. Will be concatenated along with longitude1 into verbatimCoordinates.|
-| specify:land_ownership | Text | Will be concatenated into the "locality" field separated by a semicolon. |
-| specify:topo_quad | Text | Will be concatenated into the "locality" field separated by a semicolon. |
-| specify:georeferenced_by_first_name | Text | The first (given) name of the primary person who applied the georeference to the record. Will be concatenated into georeferencedBy along with middle_initial and last_name fields. |
-| specify:georeferenced_by_middle initial | Text | The middle initial of the primary person who applied the georeference to the record. Will be concatenated into georeferencedBy along with first_name and last_name fields.|
-| specify:georeferenced_by_last_name | Text | The last (family) name of the primary person who applied the georeference to the record. Will be concatenated into georeferencedBy along with first_name and middle_initial fields.|
-| specify:locality_continued | Text | Will be concatenated into the "locality" field with no delimiter.|
-| specify:georeferenced_date | Date/Time | Will be concatenated into the "georeferencedBy" field with the following formatting: "georef date: georeferenced_date" |
-| specify:elevation_(ft.) | Integer | The value of elevation in units of feet. |
-| specify:preparer_first_name | Text | The first (given) name of the person who prepared the specimen. Will be concatenated into "preparations" along with middle_initial and last_name fields as follows: "preparer: first_name middle_initial last_name".|
-| specify:preparer_middle_initial | Text | The middle initial of the person who prepared the specimen. Will be concatenated into "preparations" along with first_name and last_name fields as follows: "preparer: first_name middle_initial last_name".|
-| specify:preparer_last_name | Text | The last (family) name of the person who prepared the specimen. Will be concatenated into "preparations" along with first_name and middle_initial fields as follows: "preparer: first_name middle_initial last_name".|
-| specify:prepared_by_date | Date/Time | The date the specimen was prepared. Will be concatenated into "preparations". |
-| specify:cataloger_first_name | Text | The first (given) name of the person who first cataloged the record. Will be concatenated into "recordEnteredBy" along with middle_initial and last_name fields. |
-| specify:cataloger_middle_initial | Text | The middle initial of the person who first cataloged the record. Will be concatenated into "recordEnteredBy" along with first_name and last_name fields.|
-| specify:cataloger_last_name | Text | The last name of the person who first cataloged the record. Will be concatenated into "recordEnteredBy" along with first_name and middle_initial fields. |
-| specify:cataloged_date | Text | Will be concatenated into the "recordEnteredBy" field with the following formatting: "cataloged date: cataloged_date" |
+| specify:subspecies | Texte | L'épithète infraspécifique d'une sous-espèce uniquement (sans le préfixe « subsp. »). |
+| specify:subspecies_author | Texte | L'auteur (ou les auteurs) de l'épithète infraspécifique. |
+| specify:variety | Texte | L'épithète infraspécifique d'une variété uniquement (sans le préfixe « var. »). |
+| specify:variety_author | Texte | L'auteur (ou les auteurs) de l'épithète variétale. |
+| specify:forma | Texte | L'épithète infraspécifique d'une forme uniquement (sans le préfixe « f. »). |
+| specify:forma_author | Texte | L'auteur (ou les auteurs) de la forme. |
+| specify:collector_first_name | Texte | Le prénom du collecteur principal. Sera concaténé dans le champ « recordedBy » avec les champs « middle_initial » et « last_name ». |
+| specify:collector_middle_initial | Texte | L'initiale du deuxième prénom du collecteur principal. Sera concaténée dans le champ « recordedBy » avec les champs « first_name » et « last_name ». |
+| specify:collector_last_name | Texte | Le nom de famille du collecteur principal. Sera concaténé dans le champ « recordedBy » avec les champs « first_name » et « middle_initial ». |
+| specify:determiner_first_name | Texte | Le prénom de la personne ayant réalisé l'identification taxonomique de l'enregistrement. Sera concaténé dans le champ « identifiedBy » avec les champs « middle_initial » et « last_name ». |
+| specify:determiner_middle_initial | Texte | L'initiale du deuxième prénom de la personne ayant réalisé l'identification taxonomique de l'enregistrement. Sera concaténée dans le champ « identifiedBy » avec les champs « first_name » et « last_name ». |
+| specify:determiner_last_name | Texte | Le nom de famille de la personne ayant réalisé l'identification taxonomique de l'enregistrement. Sera concaténé dans le champ « identifiedBy » avec les champs « first_name » et « middle_initial ». |
+| specify:qualifier_position | Texte | Lorsqu'un qualificateur d'identification est fourni, ce champ est combiné avec ledit qualificateur pour indiquer à quelle partie du nom scientifique celui-ci s'applique. Par exemple, si l'enregistrement que vous ajoutez indique « Amaranthus cf. albus », saisissez « Amaranthus albus » dans le champ `scientificName` (sans l'auteur), « cf. » dans le champ `identificationQualifier`, et « albus » dans le champ `qualifier_position`. |
+| specify:latitude1 | Nombre décimal | La latitude la plus à l'ouest au sein d'une plage de latitudes fournie comme géoréférence pour l'enregistrement. Sera combinée avec `latitude2` pour former les `verbatimCoordinates`. |
+| specify:latitude2 | Nombre décimal | La latitude la plus à l'est au sein d'une plage de latitudes fournie comme géoréférence pour l'enregistrement. Sera combinée avec `latitude1` pour former les `verbatimCoordinates`. |
+| specify:longitude1 | Nombre décimal | La longitude la plus au nord au sein d'une plage de longitudes fournie comme géoréférence pour l'enregistrement. Sera combinée avec `longitude2` pour former les `verbatimCoordinates`. |
+| specify:longitude2 | Nombre décimal | La longitude la plus au sud dans une plage de longitudes fournie en tant que géoréférence pour l'enregistrement. Sera concaténée avec longitude1 dans le champ « verbatimCoordinates ». |
+| specify:land_ownership | Texte | Sera concaténé dans le champ « locality », séparé par un point-virgule. |
+| specify:topo_quad | Texte | Sera concaténé dans le champ « locality », séparé par un point-virgule. |
+| specify:georeferenced_by_first_name | Texte | Le prénom de la personne principale ayant effectué le géoréférencement de l'enregistrement. Sera concaténé dans le champ « georeferencedBy » avec les champs « middle_initial » et « last_name ». |
+| specify:georeferenced_by_middle_initial | Texte | L'initiale du deuxième prénom de la personne principale ayant effectué le géoréférencement de l'enregistrement. Sera concaténée dans le champ « georeferencedBy » avec les champs « first_name » et « last_name ». |
+| specify:georeferenced_by_last_name | Texte | Le nom de famille de la personne principale ayant effectué le géoréférencement de l'enregistrement. Sera concaténé dans le champ « georeferencedBy » avec les champs « first_name » et « middle_initial ». |
+| specify:locality_continued | Texte | Sera concaténé dans le champ « locality » sans délimiteur. |
+| specify:georeferenced_date | Date/Heure | Sera concaténé dans le champ « georeferencedBy » selon le format suivant : « georef date: georeferenced_date ». |
+| specify:elevation_(ft.) | Entier | La valeur de l'altitude, exprimée en pieds. |
+| specify:preparer_first_name | Texte | Le prénom de la personne ayant préparé le spécimen. Sera concaténé dans le champ « preparations » avec les champs « middle_initial » et « last_name » comme suit : « preparer: first_name middle_initial last_name ». |
+| specify:preparer_middle_initial | Texte | Initiale du deuxième prénom de la personne ayant préparé le spécimen. Sera concaténée dans le champ « preparations », avec les champs « first_name » (prénom) et « last_name » (nom de famille), comme suit : « preparer: first_name middle_initial last_name ».|
+| specify:preparer_last_name | Texte | Nom de famille de la personne ayant préparé le spécimen. Sera concaténé dans le champ « preparations », avec les champs « first_name » (prénom) et « middle_initial » (initiale du deuxième prénom), comme suit : « preparer: first_name middle_initial last_name ».|
+| specify:prepared_by_date | Date/Heure | Date à laquelle le spécimen a été préparé. Sera concaténée dans le champ « preparations ». |
+| specify:cataloger_first_name | Texte | Prénom de la personne ayant catalogué l'enregistrement pour la première fois. Sera concaténé dans le champ « recordEnteredBy », avec les champs « middle_initial » (initiale du deuxième prénom) et « last_name » (nom de famille). |
+| specify:cataloger_middle_initial | Texte | Initiale du deuxième prénom de la personne ayant catalogué l'enregistrement pour la première fois. Sera concaténée dans le champ « recordEnteredBy », avec les champs « first_name » (prénom) et « last_name » (nom de famille).|
+| specify:cataloger_last_name | Texte | Nom de famille de la personne ayant catalogué l'enregistrement pour la première fois. Sera concaténé dans le champ « recordEnteredBy », avec les champs « first_name » (prénom) et « middle_initial » (initiale du deuxième prénom). |
+| specify:cataloged_date | Texte | Sera concaténé dans le champ « recordEnteredBy » selon le format suivant : « cataloged date: cataloged_date ». |

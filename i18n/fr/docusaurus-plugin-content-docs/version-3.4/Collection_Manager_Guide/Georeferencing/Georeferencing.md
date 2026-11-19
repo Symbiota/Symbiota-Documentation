@@ -1,7 +1,7 @@
 ---
 title: "Géoréférencement"
 date: 2021-12-02
-sidebar_position: 130
+sidebar_position: 40
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["georeferencing"]

@@ -5,7 +5,7 @@ lastmod: 2025-05-14
 authors: ["Lindsay Walker"]
 editors: ["Katie Pearson"]
 draft: "false"
-sidebar_position: 50
+sidebar_position: 15
 keywords: ["citations", "gbif", "data publishing"]
 ---
 

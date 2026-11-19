@@ -1,5 +1,5 @@
 ---
-title: "Linked Resources / Associations"
+title: "Ressources / Associations associées"
 date: 2023-10-30
 lastmod: 2026-03-30
 draft: false
@@ -21,135 +21,134 @@ import ReactPlayer from "react-player";
 
 :::info
 
-This page describes how to batch upload associated occurrences or other linked resources to your records. For general information about linked resources or to upload individual linked resources, see [this page](/Editor_Guide/linking_records).
+Cette page décrit la procédure d'importation en masse d'occurrences associées ou d'autres ressources liées à vos enregistrements. Pour des informations générales sur les ressources liées, ou pour importer des ressources liées individuellement, veuillez consulter [cette page](/Editor_Guide/linking_records).
 
 :::
 
-This tool uses terms **subject** and **object** to refer to two different types of occurrences. The **subject** record is the occurrence that you are adding associations to. The **object** record is the association or other occurrence that is being added or linked to the subject record.
+Cet outil utilise les termes **sujet** (*subject*) et **objet** (*object*) pour désigner deux types d'occurrences distincts. L'enregistrement **sujet** correspond à l'occurrence à laquelle vous ajoutez des associations. L'enregistrement **objet** correspond à l'élément (qu'il s'agisse d'une autre occurrence ou d'une ressource différente) que vous ajoutez ou liez à l'enregistrement sujet.
 
-### Uploading Linked Resources / Associations
+### Importation de ressources liées / associations
 
-1. Navigate to your Administration Control Panel (_click My Profile, then the name of the collection in the Collection Management box_).
-2. Click Import/Update Specimen Records, then select "Extended Data Import".
-3. Click the "Choose File" button to upload a properly formatted associations file into the uploader (see sections below for formatting requirements).
-4. Select "Associations" from the Import Type dropdown menu.
-5. Select the desired Association Type from the next dropdown menu: [Non-occurrence Resource Link](/Collection_Manager_Guide/Importing_Uploading/linked_resources#1-non-occurrence-resource-link-uploads), [Occurrence - Internal (this portal)](/Collection_Manager_Guide/Importing_Uploading/linked_resources#2-occurrence---internal-this-portal-uploads), [Occurrence - External Link](/Collection_Manager_Guide/Importing_Uploading/linked_resources#3-occurrence---external-link-uploads), or [Taxon Observation](/Collection_Manager_Guide/Importing_Uploading/linked_resources#4-taxon-observation-uploads). Only one Association Type may be uploaded per import file.
-6. Click the "Initialize Import" button.
-7. Select the desired Relationship Type from the dropdown menu.
+1. Accédez à votre panneau de contrôle d'administration (*cliquez sur « Mon profil » [My Profile], puis sur le nom de la collection dans la section « Gestion des collections » [Collection Management]*).
+2. Cliquez sur « Importer/Mettre à jour des enregistrements de spécimens » (*Import/Update Specimen Records*), puis sélectionnez « Importation de données étendues » (*Extended Data Import*).
+3. Cliquez sur le bouton « Choisir un fichier » (*Choose File*) pour importer un fichier d'associations correctement formaté (consultez les sections ci-dessous pour connaître les exigences de formatage).
+4. Sélectionnez « Associations » dans le menu déroulant « Type d'importation » (*Import Type*).
+5. Sélectionnez le type d'association souhaité dans le menu déroulant suivant : [Lien vers une ressource hors occurrence](/Collection_Manager_Guide/Importing_Uploading/linked_resources#1-non-occurrence-resource-link-uploads), [Occurrence - Interne (ce portail)](/Collection_Manager_Guide/Importing_Uploading/linked_resources#2-occurrence---internal-this-portal-uploads), [Occurrence - Lien externe](/Collection_Manager_Guide/Importing_Uploading/linked_resources#3-occurrence---external-link-uploads) ou [Observation de taxon](/Collection_Manager_Guide/Importing_Uploading/linked_resources#4-taxon-observation-uploads). Un seul type d'association peut être traité par fichier d'importation.
+6. Cliquez sur le bouton « Initialiser l'importation » (*Initialize Import*).
+7. Sélectionnez le type de relation (*Relationship Type*) souhaité dans le menu déroulant.
 
 :::note
 
-The available **Relationship Type** values are defined per portal and ideally correspond to a community-created controlled vocabulary, such as terms from the [Relation Ontology](http://purl.obolibrary.org/obo/ro). The term you select refers to the occurrence as the "subject" and the linked resource as the "object". For example, if you select the relationship "siblingOf", the inferred relationship is "My occurrence is the sibling of this other resource/link/occurrence."
+Les valeurs disponibles pour le **type de relation** (*Relationship Type*) sont définies au niveau de chaque portail. Idéalement, elles correspondent à un vocabulaire contrôlé établi par la communauté, tel que les termes issus de la [Relation Ontology](http://purl.obolibrary.org/obo/ro).
+::: Le terme que vous sélectionnez définit l'occurrence comme « sujet » et la ressource liée comme « objet ». Par exemple, si vous choisissez la relation « siblingOf » (frère/sœur de), la relation déduite est : « Mon occurrence est le frère ou la sœur de cette autre ressource/lien/occurrence. »
 
 :::
 
-8. (Optional) Select the desired Relationship Subtype from the dropdown menu. The options in this list are also defined per portal as with Relationship Type.
-9. Map the fields in your input file (on the left of the resulting page) to appropriate target fields (see [Table 1. Linked Resources Upload Fields](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)). **The fields available in the dropdown list will depend on the Association Type you are uploading.**
-10. If you would like to overwrite previously-uploaded associations with identical values of the "identifier" field, check the box labeled "Update records with matching identifiers."
-11. Click the Import Data button.
+8. (Facultatif) Sélectionnez le sous-type de relation souhaité dans le menu déroulant. Tout comme pour le type de relation, les options de cette liste sont définies par portail.
+9. Associez les champs de votre fichier source (à gauche sur la page qui s'affiche) aux champs cibles correspondants (voir [Tableau 1. Champs pour le téléversement de ressources liées](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)). **Les champs disponibles dans le menu déroulant dépendent du type d'association que vous téléversez.**
+10. Si vous souhaitez remplacer des associations précédemment téléversées qui présentent des valeurs identiques dans le champ « identifiant » (identifier), cochez la case intitulée « Mettre à jour les enregistrements ayant des identifiants correspondants ».
+11. Cliquez sur le bouton « Importer les données » (Import Data).
 
-#### Association Types
+#### Types d'associations
 
-##### 1. "Non-occurrence Resource Link" Uploads
+##### 1. Importations de « ressources liées à une occurrence »
 
-**Non-occurrence Resource:** a URL to an external resource that provides information or extended data relating to the occurrence, but is itself not an [occurrence](https://dwc.tdwg.org/terms/#occurrence). Examples include field notes, a compiled dataset, etc.
+**Ressource liée à une occurrence :** une URL pointant vers une ressource externe qui fournit des informations ou des données complémentaires relatives à l'occurrence, sans constituer elle-même une [occurrence](https://dwc.tdwg.org/terms/#occurrence). Il peut s'agir, par exemple, de notes de terrain, d'un jeu de données compilé, etc.
 
 <ButtonLink
 link="/documents/GeneralResourceUploadTemplate.xlsx"
-label="Download Example Template"
+label="Télécharger un modèle d'exemple"
 download={true}
 style={{marginBottom: '2vh'}}
 />
 
-The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (catalog number, other catalog number, or occurrenceID), and (2) resourceUrl. The resourceUrl should be a link to the external resource that you would like to be associated with your records.
+Les **champs obligatoires** pour ce type d'importation sont : (1) un identifiant pour l'occurrence « sujet » (celle à laquelle vous créez un lien) — il peut s'agir d'un numéro de catalogue, d'un autre numéro de catalogue ou d'un `occurrenceID` — et (2) une `resourceUrl`. La `resourceUrl` doit être un lien vers la ressource externe que vous souhaitez associer à vos enregistrements.
 
-Optional fields ([defined below](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, object identifier (catalog number, occurrenceID, or occid), and relationshipID.
+Les champs facultatifs ([définis ci-dessous](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) incluent : `accordingTo`, `basisOfRecord`, `establishedDate`, `notes`, un identifiant pour l'occurrence « objet » (numéro de catalogue, `occurrenceID` ou `occid`) et `relationshipID`.
 
-##### 2. "Occurrence - Internal (this portal)" Uploads
+##### 2. Importations de type « Occurrence - Interne (au sein de ce portail) »
 
-**Occurrence - Internal (this portal):** a link to an occurrence (specimen/observation) that exists in the same portal as the occurrence you are linking to; when creating associations within a portal, the portal will automatically update the corresponding occurrence with the reciprocal relationship
+**Occurrence - Interne (au sein de ce portail) :** un lien vers une occurrence (spécimen/observation) qui existe déjà dans le même portail que l'occurrence à laquelle vous créez un lien. Lors de la création d'associations au sein d'un portail, celui-ci mettra automatiquement à jour l'occurrence correspondante en y ajoutant la relation réciproque.
 
 <ButtonLink
 link="/documents/OccurrenceInternalUploadTemplate.xlsx"
-label="Download Example Template"
+label="Télécharger un modèle d'exemple"
 download={true}
 style={{marginBottom: '2vh'}}
 />
 
-The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (catalog number, other catalog number, and/or occurrenceID), and (2) an object identifier for the occurrence object you are linking to the subject occurrence (catalog number, occurrenceID, or occid/Symbiota number). The object identifier will be used to link to an existing record within the portal.
+Les **champs obligatoires** pour ce type d'importation sont : (1) un identifiant pour l'occurrence « sujet » (celle à laquelle vous créez un lien) — il peut s'agir d'un numéro de catalogue, d'un autre numéro de catalogue et/ou d'un `occurrenceID` — et (2) un identifiant pour l'occurrence « objet » (celle que vous liez à l'occurrence « sujet ») — il peut s'agir d'un numéro de catalogue, d'un `occurrenceID` ou d'un `occid` (numéro Symbiota). Cet identifiant sera utilisé pour établir le lien avec un enregistrement existant dans le portail. Les champs facultatifs ([définis ci-dessous](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) incluent `accordingTo`, `basisOfRecord`, `establishedDate`, `notes` et `relationshipID`.
 
-Optional fields ([defined below](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, and relationshipID.
+##### 3. Importations de type « Occurrence – Lien externe »
 
-##### 3. "Occurrence - External Link" Uploads
-
-|                                                    ![Example General Resource](/img/linkedresources_relatedoccurrences2026.png)                                                    |
+| ![Exemple de ressource générale](/img/linkedresources_relatedoccurrences2026.png)                                                    |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Linkages to occurrences and similar resources that are managed outside of your Symbiota portal can be bulk imported using the "Occurrence - Externally Managed" upload option. |
+| Les liens vers des occurrences et des ressources similaires gérées en dehors de votre portail Symbiota peuvent être importés en masse via l'option « Occurrence – Gérée en externe ». |
 
-**Occurrence - External Link:** a link to an occurrence (specimen/observation) that is available in another Symbiota-based portal.
+**Occurrence – Lien externe :** un lien vers une occurrence (spécimen/observation) disponible dans un autre portail basé sur Symbiota.
 
 <ButtonLink
 link="/documents/OccurrenceExternalUploadTemplate.xlsx"
-label="Download Example Template"
+label="Télécharger un modèle d’exemple"
 download={true}
 style={{marginBottom: '2vh'}}
 />
 
-The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (catalog number, other catalog number, or occurrenceID), and (2) resourceUrl. It is also strongly recommended to include a value for verbatimSciname (scientific name) so that the relationship can be searchable.
+Les **champs obligatoires** pour ce type de téléversement sont : (1) un identifiant de spécimen ou d'observation pour l'occurrence à laquelle vous créez un lien (numéro de catalogue, autre numéro de catalogue ou `occurrenceID`), et (2) `resourceUrl`. Il est également fortement recommandé de fournir une valeur pour `verbatimSciname` (nom scientifique), afin que la relation puisse être retrouvée lors de recherches.
 
-Optional fields ([defined below](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, objectID, relationshipID, resourceUrl, and verbatimSciname.
+Les champs facultatifs ([définis ci-dessous](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) incluent `accordingTo`, `basisOfRecord`, `establishedDate`, `notes`, `objectID`, `relationshipID`, `resourceUrl` et `verbatimSciname`.
 
-##### 4. "Taxon Observation" Uploads
+##### 4. Téléversements de type « Observation de taxon » (Taxon Observation)
 
-|                             ![Example Taxon Observation Linkage](/img/linkedresources_assoctaxa2026.png)                              |
+| ![Exemple de lien vers une observation de taxon](/img/linkedresources_assoctaxa2026.png)                              |
 | :-------------------------------------------------------------------------------------------------------------------------------: |
-| Observations that are not associated with digitized occurrences can be bulk imported using the "Taxon Observation" upload option. |
+| Les observations qui ne sont pas associées à des occurrences numérisées peuvent être importées en masse via l'option de téléversement « Observation de taxon » (Taxon Observation). |
 
-**Taxon Observation:** the assertion of a taxon being associated with the occurrence you are linking to. This may be, for example, the host taxon of the occurrence, a parasite, a taxon sharing the same habitat, etc.
+**Observation de taxon (Taxon Observation) :** l'affirmation qu'un taxon est associé à l'occurrence vers laquelle vous créez un lien. Il peut s'agir, par exemple, du taxon hôte de l'occurrence, d'un parasite, d'un taxon partageant le même habitat, etc.
 
 :::note
 
-Associated taxa added in the Linked Resource tab (either individually or in batch) will be placed in the associatedTaxa field when you download the data (e.g., as a Darwin Core Archive). In the download, any information stored in the associatedTaxa field will NOT be included in deference to the provided Linked Resources. Therefore, if you translate any associatedTaxa into Linked Resources, make sure to translate _all_ the associated taxa!
+Les taxons associés ajoutés dans l'onglet « Ressources liées » (Linked Resource) — que ce soit individuellement ou par lot — seront intégrés au champ `associatedTaxa` lors du téléchargement des données (par exemple, sous forme d'archive Darwin Core). Dans le fichier téléchargé, toute information stockée dans le champ `associatedTaxa` sera exclue au profit des « Ressources liées » fournies. Par conséquent, si vous convertissez des taxons associés en « Ressources liées », veillez à convertir _tous_ les taxons associés !
 
 :::
 
 <ButtonLink
 link="/documents/TaxonObservationUploadTemplate.xlsx"
-label="Download Example Template"
+label="Télécharger un modèle d’exemple"
 download={true}
 style={{marginBottom: '2vh'}}
 />
 
-The **required fields** for this upload type are (1) an identifier for the occurrence (subject) you are linking to (catalog number, other catalog number, or occurrenceID) and (2) scientific name (of the object association being added).
+Les **champs obligatoires** pour ce type de téléversement sont : (1) un identifiant pour l’occurrence (sujet) à laquelle vous effectuez un lien (numéro de catalogue, autre numéro de catalogue ou `occurrenceID`) et (2) le nom scientifique (de l’objet associé que vous ajoutez).
 
-Optional fields ([defined below](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, objectID, and relationshipID.
+Les champs facultatifs ([définis ci-dessous](/Collection_Manager_Guide/Importing_Uploading/linked_resources#table-1-linked-resources-upload-fields)) incluent `accordingTo`, `basisOfRecord`, `establishedDate`, `notes`, `objectID` et `relationshipID`.
 
-### Table 1. Linked Resources Upload Fields
+### Tableau 1. Champs pour le téléversement de ressources liées
 
 :::note
 
-The **Data Type** column defines what type of data (e.g., text or numeric) can be included in this field, as well as the maximum number of characters that are allowed in the field. If the number of characters in your input file exceeds this maximum, the upload process will fail.
+La colonne **Type de données** définit la nature des données (par exemple, texte ou numérique) pouvant être saisies dans ce champ, ainsi que le nombre maximal de caractères autorisé. Si le nombre de caractères dans votre fichier source dépasse ce maximum, le processus de téléversement échouera.
 
 :::
 
-| Field Name                                                                                         | Data Type (Length in characters) | Description                                                                                                                                                                                                                 |
+| Nom du champ                                                                                       | Type de données (longueur en caractères) | Description                                                                                                                                                                                                                 |
 | -------------------------------------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| subject identifier: [**catalogNumber**](https://dwc.tdwg.org/terms/#dwc:catalogNumber)             | Text (32)                        | The primary human-readable identifier for the subject record you are linking to.                                                                                                                                            |
-| subject identifier: [**otherCatalogNumbers**](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers) | Text (45)                        | An alternative catalog number stored as an "Additional Identifier" in the portal for the subject record you are linking to. See [this page](/Editor_Guide/Editing_Searching_Records/catalog_numbers) for more context. |
-| subject identifier: [**occurrenceID**](https://dwc.tdwg.org/terms/#dwc:occurrenceID)               | Text (255)                       | The global unique identifier (GUID) of the subject record you are linking to.                                                                                                                                               |
-| [**accordingTo**](https://dwc.tdwg.org/terms/#dwc:relationshipAccordingTo)                         | Text (45)                        | The source asserting the relationship between the subject and object.                                                                                                                                                       |
-| [**basisOfRecord**](https://dwc.tdwg.org/terms/#dwc:basisOfRecord)                                 | Text (45)                        | The nature of the record, from the Darwin Core controlled vocabulary. The most commonly used are _PreservedSpecimen_, _FossilSpecimen_, and _HumanObservation_.                                                             |
-| [**establishedDate**](https://dwc.tdwg.org/terms/#dwc:relationshipEstablishedDate)                 | Datetime                         | The date when the relationship between the subject and the object was asserted.                                                                                                                                             |
-| [**notes**](https://dwc.tdwg.org/terms/#dwc:relationshipRemarks)                                   | Text (250)                       | Comments about the relationship between the subject and the object.                                                                                                                                                         |
-| [**objectID**](https://dwc.tdwg.org/terms/#dwc:relatedResourceID)                                  | Text (250)                       | An identifier for a related resource (the object, rather than the subject of the relationship).                                                                                                                             |
-| object identifier: [**catalogNumber**](https://dwc.tdwg.org/terms/#dwc:catalogNumber)              | Text (32)                        | The primary human-readable identifier for the object record you are linking to the subject.                                                                                                                                 |
-| object identifier:occid                                                                            | Integer (10)                     | The occid (internal Symbiota reference number) for the object record you are linking to the subject. The occid is not the same as the occurrenceID (see below).                                                             |
-| object identifier: [**occurrenceID**](https://dwc.tdwg.org/terms/#dwc:occurrenceID)                | Text (255)                       | The global unique identifier (GUID) of the object record you are linking to the subject.                                                                                                                                    |
-| [**relationshipID**](https://dwc.tdwg.org/terms/#dwc:relationshipOfResourceID)                     | Text (45)                        | An identifier for the relationship type that connects the subject to its object.                                                                                                                                            |
-| resourceUrl                                                                                        | Text (250)                       | A URL/link to the object in the association/relationship.                                                                                                                                                                   |
-| verbatimSciname                                                                                    | Text (250)                       | The taxonomic name of the object of the association/relationship.                                                                                                                                                           |
+| Identifiant du sujet : [**catalogNumber**](https://dwc.tdwg.org/terms/#dwc:catalogNumber)             | Texte (32)                        | L'identifiant principal, lisible par l'humain, de l'enregistrement « sujet » auquel vous créez un lien. |
+| Identifiant du sujet : [**otherCatalogNumbers**](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers) | Texte (45)                        | Un numéro de catalogue alternatif, enregistré en tant qu'« identifiant supplémentaire » (*Additional Identifier*) dans le portail pour l'enregistrement « sujet » auquel vous créez un lien. Consultez [cette page](/Editor_Guide/Editing_Searching_Records/catalog_numbers) pour plus de contexte. |
+| Identifiant du sujet : [**occurrenceID**](https://dwc.tdwg.org/terms/#dwc:occurrenceID)               | Texte (255)                       | L'identifiant unique global (GUID) de l'enregistrement « sujet » auquel vous créez un lien. |
+| [**accordingTo**](https://dwc.tdwg.org/terms/#dwc:relationshipAccordingTo)                         | Texte (45)                        | La source qui établit ou atteste la relation entre le sujet et l'objet. |
+| [**basisOfRecord**](https://dwc.tdwg.org/terms/#dwc:basisOfRecord)                                 | Texte (45)                        | La nature de l'enregistrement, issue du vocabulaire contrôlé Darwin Core. Les valeurs les plus couramment utilisées sont _PreservedSpecimen_ (spécimen préservé), _FossilSpecimen_ (spécimen fossile) et _HumanObservation_ (observation humaine). |
+| [**establishedDate**](https://dwc.tdwg.org/terms/#dwc:relationshipEstablishedDate)                 | Date/Heure                       | La date à laquelle la relation entre le sujet et l'objet a été établie ou attestée. |
+| [**notes**](https://dwc.tdwg.org/terms/#dwc:relationshipRemarks)                                   | Texte (250)                       | Commentaires concernant la relation entre le sujet et l'objet. |
+| [**objectID**](https://dwc.tdwg.org/terms/#dwc:relatedResourceID)                                  | Texte (250)                       | Identifiant d'une ressource associée (l'objet, par opposition au sujet de la relation). |
+| Identifiant de l'objet : [**catalogNumber**](https://dwc.tdwg.org/terms/#dwc:catalogNumber)              | Texte (32)                        | Identifiant principal, lisible par l'humain, de la fiche de l'objet que vous liez au sujet. |
+| identifiant de l'objet : occid                                                                     | Entier (10)                      | L'occid (numéro de référence interne dans Symbiota) correspondant à l'enregistrement de l'objet que vous liez au sujet. L'occid est différent de l'occurrenceID (voir ci-dessous). |
+| identifiant de l'objet : [**occurrenceID**](https://dwc.tdwg.org/terms/#dwc:occurrenceID)          | Texte (255)                      | L'identifiant unique global (GUID) de l'enregistrement de l'objet que vous liez au sujet. |
+| [**relationshipID**](https://dwc.tdwg.org/terms/#dwc:relationshipOfResourceID)                     | Texte (45)                       | Un identifiant pour le type de relation qui relie le sujet à son objet. |
+| resourceUrl                                                                                        | Texte (250)                      | Une URL/un lien vers l'objet impliqué dans l'association/la relation. |
+| verbatimSciname                                                                                    | Texte (250)                      | Le nom taxonomique de l'objet impliqué dans l'association/la relation. |
 
-### Recorded Tutorial
+### Tutoriel enregistré (en anglais)
 
 <ReactPlayer
   playing={false}
