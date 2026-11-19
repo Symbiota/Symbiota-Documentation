@@ -4,7 +4,7 @@ Date: 2021-11-01
 lastmod: 2026-05-08
 authors: ["Katie Pearson", "Ed Gilbert"]
 editors: ["Lindsay Walker"]
-sidebar_position: 20
+sidebar_position: 8
 keywords: ["espèces rares", "protection des données", "occultation"]
 ---
 

@@ -3,7 +3,7 @@ title: "Demande d'approbation en tant qu'éditeur"
 authors: ["Lindsay Walker"]
 editors: ["Lindsay Walker"]
 date: 2023-10-27
-sidebar_position: 25
+sidebar_position: 7
 keywords: ["agrégateur", "GBIF", "publication de données"]
 ---
 

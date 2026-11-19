@@ -2,7 +2,7 @@
 title: "Types de management"
 date: 2021-12-16
 lastmod: 2023-12-20
-sidebar_position: 5
+sidebar_position: 20
 draft: false
 authors: ["Katie Pearson"]
 editors: ["Katie Pearson", "Lindsay Walker"]

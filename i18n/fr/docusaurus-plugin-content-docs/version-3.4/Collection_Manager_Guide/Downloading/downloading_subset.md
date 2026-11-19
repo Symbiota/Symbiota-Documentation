@@ -3,6 +3,7 @@ title: "Téléchargement d'un sous-ensemble de vos données"
 date: 2025-07-22
 lastmod: 2026-03-30
 authors: ["Katie Pearson"]
+sidebar_position: 3
 editors: 
 keywords: ["exporter","téléchargement personnalisé"]
 ---

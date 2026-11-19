@@ -1,7 +1,7 @@
 ---
 title: "Validateur de coordonnées"
 date: 2026-04-14
-sidebar_position: 7
+sidebar_position: 30
 authors: ["Katie Pearson"]
 keywords: ["géographie", "thésaurus géographique", "géoréférences"]
 ---

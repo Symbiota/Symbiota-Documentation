@@ -3,7 +3,7 @@ title: "Échantillons de matériaux"
 date: 2025-06-23
 lastmod: 2026-03-30
 draft: false
-sidebar_position: 20
+sidebar_position: 12
 authors: ["Katie Pearson"]
 keywords: ["sequences","tissue samples"]
 ---

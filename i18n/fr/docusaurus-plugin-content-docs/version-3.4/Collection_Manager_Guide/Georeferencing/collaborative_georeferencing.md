@@ -4,7 +4,7 @@ date: 2021-12-02
 lastmod: 2026-03-30
 draft: false
 authors: ["Katie Pearson"]
-sidebar_position: 5
+sidebar_position: 2
 keywords: ["géoréférencement", "géoréférencement collaboratif", "GEOLocate"]
 ---
 

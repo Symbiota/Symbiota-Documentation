@@ -2,7 +2,7 @@
 title: "Examen et approbation des projets de crowdsourcing"
 date: 2021-10-11
 lastmod: 2025-03-30
-sidebar_position: 15
+sidebar_position: 8
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["externalisation ouverte", "bénévole"]
