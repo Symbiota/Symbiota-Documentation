@@ -116,15 +116,16 @@ The relationship types and subtypes can be defined per portal, so the dropdown m
 | Relationship Type | Definition | Link to standard | Inverse term* |
 |-|-|-|-|
 | subsampleOf | a sample or occurrence that was subsequently derived from an originating sample |  | originatingSampleOf |
-| partOf | a core relation that holds between a part and its whole | [partOf](http://purl.obolibrary.org/obo/BFO_0000051)  | partOf |
-| siblingOf |  | provided as an example for [dwc:relationshipOfResource](http://rs.tdwg.org/dwc/terms/relationshipOfResource) | siblingOf |
-| originatingSampleOf |  | [partOf](http://purl.obolibrary.org/obo/BFO_0000051)  | partOf |
+| partOf | a core relation that holds between a part and its whole | [BFO:part of](http://purl.obolibrary.org/obo/BFO_0000050)  | hasPart |
+| hasPart | a core relation that holds between a whole and its part(s) | [BFO:has part](http://purl.obolibrary.org/obo/BFO_0000051)  | partOf |
+| siblingOf | a relationship between two distinct biological entities that share the same immediate parent entity or originating entity | provided as an example for [dwc:relationshipOfResource](http://rs.tdwg.org/dwc/terms/relationshipOfResource) | siblingOf |
+| originatingSampleOf | a sample or occurrence that is the originator of a subsequently modified or partial sample |  | subsampleOf |
 | sharesOriginatingSample | two samples or occurrences that were subsequently derived from the same originating sample |  | sharesOriginatingSample |
 | derivedFromSameIndividual | a sample or occurrence that is derived from the same biological individual as another occurrence or sample |  | derivedFromSameIndividual |
 | analyticalStandardOf | a sample or occurrence that serves as an analytical standard or control for another occurrence or sample |  | hasAnalyticalStandard |
 | hasAnalyticalStandard | a sample or occurrence that has an available analytical standard or control |  | analyticalStandardOf |
-| hasHost | X 'has host' y if and only if: x is an organism, y is an organism, and x can live on the surface of or within the body of y | [ecologicallyRelatedTo](http://purl.obolibrary.org/obo/RO_0008506) | hostOf |
-| hostOf | X is 'Host of' y if and only if: x is an organism, y is an organism, and y can live on the surface of or within the body of x | [ecologicallyRelatedTo](http://purl.obolibrary.org/obo/RO_0008506) | hasHost |
+| hasHost | describes the non-host organism in a relationship in which an organism (the host) provides a habitat or living environment on or within its body for another organism | [RO:has host](https://purl.obolibrary.org/obo/RO_0002454) | hostOf |
+| hostOf | describes the host organism in a relationship in which an organism (the host) provides a habitat or living environment on or within its body for another organism | [RO:host of](https://purl.obolibrary.org/obo/RO_0002453) | hasHost |
 | ecologicallyOccursWith | An interaction relationship describing an occurrence occurring with another organism in the same time and space or same environment | [ecologicallyRelatedTo](http://purl.obolibrary.org/obo/RO_0008506) | ecologicallyOccursWith |
 
 *the inverse term is used to create a reciprocal relationship between two occurrences for "Occurrence - Internal" associations. For example, when record X is linked to record Y with "subsampleOf", a reciprocal relationship is created from record Y to record X with relationshipType "originatingSampleOf".
