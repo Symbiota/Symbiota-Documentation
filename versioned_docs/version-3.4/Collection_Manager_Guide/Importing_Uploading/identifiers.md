@@ -36,4 +36,4 @@ Additional identifiers may be uploaded in batch using the Extended Data importer
 
   7. Once your fields have been satisfactorily mapped, click Import Data. The result of the import will be displayed, record-by-record, on the next screen.
 
-  ![Batch Identifier Upload](/img/identifierupload.PNG)
+  ![Batch Identifier Upload](/img/identifierupload.png)
